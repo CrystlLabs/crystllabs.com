@@ -42,14 +42,24 @@
     </nav>
 
     <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
-        <aside class="hidden md:block w-64 bg-panelBg border-r-4 border-[#252542] p-6 shrink-0 md:overflow-y-auto">
-            <h2 class="text-brandPink font-pixel text-[10px] mb-6 uppercase tracking-widest" data-i18n="exp_legal">>> Legal_Docs</h2>
-            <ul class="space-y-4 text-sm font-sans text-gray-400">
-                <li class="px-4 py-1 text-brandGreen font-bold bg-gray-800 rounded border border-gray-700 flex justify-between items-center">
-                    <span>📄 privacy_policy.md</span><span class="w-2 h-2 rounded-full bg-brandGreen animate-pulse"></span>
+        <aside class="hidden md:block w-64 bg-panelBg border-r-4 border-[#252542] p-4 md:p-6 shrink-0 md:overflow-y-auto">
+            <h2 class="text-brandPink font-pixel text-[10px] mb-4 md:mb-6 uppercase tracking-widest" data-i18n="exp_title">>> Explorer</h2>
+            <ul class="space-y-3 md:space-y-4 text-sm font-sans text-gray-400">
+                <li class="hover:text-white transition-transform cursor-pointer flex items-center gap-2 mb-2">
+                    <span class="text-brandBlue font-pixel text-[8px]">📁</span> <span data-i18n="exp_src">src_files</span>
                 </li>
-                <li class="px-4 py-1 text-gray-500 text-xs"><a href="terms.html">📄 terms_of_service.md</a></li>
-                <li class="px-4 py-1 text-gray-500 text-xs"><a href="data-deletion.html">📄 data_deletion.md</a></li>
+                <li class="px-2 md:px-4 py-1 text-gray-500 text-xs hover:text-white transition-colors">
+                    <a href="index.html" class="block w-full">📄 index.html</a>
+                </li>
+                <li class="px-2 md:px-4 py-1.5 text-brandGreen font-bold bg-gray-800 rounded border border-gray-700 flex justify-between items-center shadow-md">
+                    <span>📄 privacy.html</span><span class="w-2 h-2 rounded-full bg-brandGreen animate-pulse"></span>
+                </li>
+                <li class="px-2 md:px-4 py-1 text-gray-500 text-xs hover:text-white transition-colors">
+                    <a href="terms.html" class="block w-full">📄 terms.html</a>
+                </li>
+                <li class="px-2 md:px-4 py-1 text-gray-500 text-xs hover:text-white transition-colors">
+                    <a href="data-deletion.html" class="block w-full">📄 data-deletion.html</a>
+                </li>
             </ul>
         </aside>
 
@@ -81,10 +91,12 @@
         </main>
     </div>
 
-    <footer class="bg-black border-t-4 border-[#252542] p-4 md:p-6 shrink-0 md:h-40 md:overflow-y-auto font-pixel text-[8px] md:text-[10px] leading-relaxed text-brandGreen">
-        <p class="mb-4">> <span data-i18n="term_reading">Reading file: privacy_policy.md...</span></p>
-        <div class="flex flex-col md:flex-row gap-4 md:gap-8 text-gray-500">
-            <div class="flex flex-wrap gap-4">
+    <footer class="bg-black border-t-4 border-[#252542] p-3 md:p-4 shrink-0 h-auto md:h-28 md:overflow-y-auto font-pixel text-[8px] md:text-[10px] leading-relaxed text-brandGreen flex flex-col justify-between">
+        <div>
+            <p class="mb-1"><span data-i18n="term_reading">> Reading file: privacy_policy.md...</span></p>
+        </div>
+        <div class="flex flex-col md:flex-row gap-2 md:gap-8 text-gray-500 mt-2">
+            <div class="flex flex-wrap gap-3">
                 <span data-i18n="sys_links">SYS_LINKS:</span>
                 <a href="privacy.html" class="text-white transition" data-i18n="link_priv">[ PRIVACY ]</a>
                 <a href="terms.html" class="hover:text-white transition" data-i18n="link_terms">[ TERMS ]</a>
@@ -97,31 +109,31 @@
     <script>
         const i18n = {
             en: {
-                back_home: "<- Back_To_Workspace", exp_legal: ">> Legal_Docs",
+                back_home: "<- Back_To_Workspace", exp_title: ">> Explorer", exp_src: "src_files",
                 p_title: "# Privacy Policy", p_date: "Last Updated: March 2026",
                 h1: "## 1. Introduction", p1: "Crystl Labs (\"we,\" \"our,\" or \"us\") is an independent technology studio dedicated to building proprietary applications. We respect your privacy and are committed to protecting the personal data you share with us. This Privacy Policy explains how we collect, process, and safeguard your information when you use our mobile applications and website (crystllabs.com).",
                 h2: "## 2. AI Processing and Your Data", p2: "Our applications leverage advanced Artificial Intelligence (AI) to provide core functionalities. To deliver these features, certain text, image, or contextual data you input into our apps must be transmitted to secure, third-party AI processing providers. Your data is transmitted solely for the purpose of computing within the app. We do not permit our third-party AI providers to use your personal inputs to train their models, and we absolutely do not sell data to brokers.",
                 h3: "## 3. Analytics & Security", p3: "We rely on anonymized, aggregated telemetry to architect better frameworks. We implement industry-standard encryption to protect data in transit. Transient data sent for AI processing is discarded immediately after output is generated unless specified otherwise.",
                 h_contact: "## Contact Us", p_contact: "For privacy-related inquiries or data deletion requests, please reach out:",
-                term_reading: "Reading file: privacy_policy.md...", sys_links: "SYS_LINKS:", link_priv: "[ PRIVACY ]", link_terms: "[ TERMS ]", link_del: "[ DELETION ]"
+                term_reading: "> Reading file: privacy_policy.md...", sys_links: "SYS_LINKS:", link_priv: "[ PRIVACY ]", link_terms: "[ TERMS ]", link_del: "[ DELETION ]"
             },
             ko: {
-                back_home: "<- 워크스페이스로_돌아가기", exp_legal: ">> 법적_문서",
+                back_home: "<- 워크스페이스로_돌아가기", exp_title: ">> 탐색기", exp_src: "소스_파일",
                 p_title: "# 개인정보처리방침", p_date: "최종 수정일: 2026년 3월",
                 h1: "## 1. 소개", p1: "Crystl Labs(\"당사\")는 독점 애플리케이션 구축에 전념하는 독립 기술 스튜디오입니다. 본 방침은 귀하가 당사의 모바일 앱 및 웹사이트(crystllabs.com)를 이용할 때 정보를 수집, 처리 및 보호하는 방법을 설명합니다.",
                 h2: "## 2. AI 처리 및 데이터", p2: "당사의 애플리케이션은 기능 제공을 위해 AI를 활용합니다. 특정 데이터는 안전한 제3자 AI 제공업체로 전송됩니다. 당사는 제3자 제공업체가 귀하의 데이터를 모델 학습에 사용하는 것을 허용하지 않으며, 데이터를 판매하지 않습니다.",
                 h3: "## 3. 분석 및 보안", p3: "당사는 더 나은 프레임워크 설계를 위해 익명화된 원격 측정 데이터에 의존합니다. 전송 중인 데이터를 보호하기 위해 암호화를 구현하며 임시 데이터는 결과가 생성된 직후 폐기됩니다.",
                 h_contact: "## 연락처", p_contact: "개인정보 관련 문의나 데이터 삭제 요청은 아래로 연락해 주십시오:",
-                term_reading: "파일 읽는 중: privacy_policy.md...", sys_links: "시스템_링크:", link_priv: "[ 개인정보처리방침 ]", link_terms: "[ 이용약관 ]", link_del: "[ 데이터_삭제 ]"
+                term_reading: "> 파일 읽는 중: privacy_policy.md...", sys_links: "시스템_링크:", link_priv: "[ 개인정보처리방침 ]", link_terms: "[ 이용약관 ]", link_del: "[ 데이터_삭제 ]"
             },
             ja: {
-                back_home: "<- ワークスペースに戻る", exp_legal: ">> 法的文書",
+                back_home: "<- ワークスペースに戻る", exp_title: ">> エクスプローラー", exp_src: "ソースファイル",
                 p_title: "# プライバシーポリシー", p_date: "最終更新日: 2026年3月",
                 h1: "## 1. はじめに", p1: "Crystl Labs（「当社」）は、独自のアプリケーション開発に特化した独立系テクノロジースタジオです。本ポリシーでは、お客様が当社のアプリおよびウェブサイト（crystllabs.com）をご利用になる際の情報の取り扱いについて説明します。",
                 h2: "## 2. AI処理とデータ", p2: "当社のアプリは機能を提供するため、入力されたデータは安全なサードパーティのAIプロバイダーに送信されます。AIプロバイダーがモデルのトレーニングに入力データを使用することは許可しておらず、データを販売することもありません。",
                 h3: "## 3. 分析とセキュリティ", p3: "当社は、より良いシステムを構築するために匿名化された集計データに依存しています。データ保護のため暗号化を実装し、AI処理用のデータは出力生成後すぐに破棄されます。",
                 h_contact: "## お問い合わせ", p_contact: "プライバシーに関するお問い合わせやデータ削除のご依頼は、以下までご連絡ください:",
-                term_reading: "ファイル読み込み中: privacy_policy.md...", sys_links: "システムリンク:", link_priv: "[ プライバシー ]", link_terms: "[ 利用規約 ]", link_del: "[ データ削除 ]"
+                term_reading: "> ファイル読み込み中: privacy_policy.md...", sys_links: "システムリンク:", link_priv: "[ プライバシー ]", link_terms: "[ 利用規約 ]", link_del: "[ データ削除 ]"
             }
         };
         function switchLang(lang) {

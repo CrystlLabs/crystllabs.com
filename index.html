@@ -51,15 +51,21 @@
         <aside class="w-full md:w-64 bg-panelBg border-b-4 md:border-b-0 md:border-r-4 border-[#252542] p-4 md:p-6 shrink-0 md:overflow-y-auto">
             <h2 class="text-brandPink font-pixel text-[10px] mb-4 md:mb-6 uppercase tracking-widest" data-i18n="exp_title">>> Explorer</h2>
             <ul class="space-y-3 md:space-y-4 text-sm font-sans text-gray-400">
-                <li class="hover:text-white transition-transform cursor-pointer flex items-center gap-2">
+                <li class="hover:text-white transition-transform cursor-pointer flex items-center gap-2 mb-2">
                     <span class="text-brandBlue font-pixel text-[8px]">📁</span> <span data-i18n="exp_src">src_files</span>
                 </li>
-                <li class="px-2 md:px-4 py-1 text-gray-500 text-xs">📄 project_alpha.sim</li>
-                <li class="px-2 md:px-4 py-1 text-gray-500 text-xs">📄 project_omega.sim</li>
-                <li class="px-2 md:px-4 py-1 text-brandGreen font-bold bg-gray-800 rounded border border-gray-700 flex justify-between items-center">
+                <li class="px-2 md:px-4 py-1.5 text-brandGreen font-bold bg-gray-800 rounded border border-gray-700 flex justify-between items-center shadow-md">
                     <span>📄 index.html</span><span class="w-2 h-2 rounded-full bg-brandGreen animate-pulse"></span>
                 </li>
-                <li class="px-2 md:px-4 py-1 text-gray-500 text-xs">📄 analytics_model.py</li>
+                <li class="px-2 md:px-4 py-1 text-gray-500 text-xs hover:text-white transition-colors">
+                    <a href="privacy.html" class="block w-full">📄 privacy.html</a>
+                </li>
+                <li class="px-2 md:px-4 py-1 text-gray-500 text-xs hover:text-white transition-colors">
+                    <a href="terms.html" class="block w-full">📄 terms.html</a>
+                </li>
+                <li class="px-2 md:px-4 py-1 text-gray-500 text-xs hover:text-white transition-colors">
+                    <a href="data-deletion.html" class="block w-full">📄 data-deletion.html</a>
+                </li>
             </ul>
         </aside>
 
@@ -111,12 +117,13 @@
         </main>
     </div>
 
-    <footer class="bg-black border-t-4 border-[#252542] p-4 md:p-6 shrink-0 md:h-40 md:overflow-y-auto font-pixel text-[8px] md:text-[10px] leading-relaxed text-brandGreen">
-        <p class="mb-2" data-i18n="term_init">> Initializing Crystl Labs communications protocol...</p>
-        <p class="mb-2" data-i18n="term_conn">> Connection established. Awaiting input.</p>
-        <p class="mb-4"><span data-i18n="term_ping">> Ping: </span><a href="mailto:crystllabs@gmail.com" class="text-white hover:text-brandPink transition">crystllabs@gmail.com</a></p>
-        <div class="flex flex-col md:flex-row gap-4 md:gap-8 text-gray-500">
-            <div class="flex flex-wrap gap-4">
+    <footer class="bg-black border-t-4 border-[#252542] p-3 md:p-4 shrink-0 h-auto md:h-28 md:overflow-y-auto font-pixel text-[8px] md:text-[10px] leading-relaxed text-brandGreen flex flex-col justify-between">
+        <div>
+            <p class="mb-1" data-i18n="term_init">> Initializing Crystl Labs communications protocol...</p>
+            <p class="mb-1"><span data-i18n="term_ping">> Ping: </span><a href="mailto:crystllabs@gmail.com" class="text-white hover:text-brandPink transition">crystllabs@gmail.com</a></p>
+        </div>
+        <div class="flex flex-col md:flex-row gap-2 md:gap-8 text-gray-500 mt-2">
+            <div class="flex flex-wrap gap-3">
                 <span data-i18n="sys_links">SYS_LINKS:</span>
                 <a href="privacy.html" class="hover:text-white transition" data-i18n="link_priv">[ PRIVACY ]</a>
                 <a href="terms.html" class="hover:text-white transition" data-i18n="link_terms">[ TERMS ]</a>
