@@ -26,20 +26,20 @@
         ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
     </style>
 </head>
-<body class="bg-darkBg text-gray-300 font-sans antialiased h-screen flex flex-col overflow-hidden border-[8px] border-[#252542]">
+<body class="bg-darkBg text-gray-300 font-sans antialiased min-h-screen md:h-screen flex flex-col md:overflow-hidden border-[4px] md:border-[8px] border-[#252542]">
     
-    <nav class="bg-panelBg px-6 py-3 flex justify-between items-center border-b-4 border-[#252542] shrink-0 z-20">
-        <div class="flex items-center gap-6">
-            <img src="crystl1.png" alt="" class="h-8 w-auto">
-            <span class="font-pixel text-xs text-white uppercase hidden sm:block">Crystl_Engine_v1.0</span>
+    <nav class="bg-panelBg px-4 py-2 md:px-6 md:py-3 flex justify-between items-center border-b-4 border-[#252542] shrink-0 z-20">
+        <div class="flex items-center gap-4 md:gap-6">
+            <img src="crystl1.png" alt="" class="h-6 md:h-8 w-auto">
+            <span class="font-pixel text-[10px] md:text-xs text-white uppercase hidden sm:block">Crystl_Engine_v1.0</span>
         </div>
-        <div class="flex items-center space-x-6 font-pixel text-[10px] text-gray-500 uppercase">
+        <div class="flex items-center space-x-4 md:space-x-6 font-pixel text-[10px] text-gray-500 uppercase">
             <span class="hidden md:inline hover:text-brandPink cursor-pointer" data-i18n="nav_file">File</span>
             <span class="hidden md:inline hover:text-brandPink cursor-pointer" data-i18n="nav_edit">Edit</span>
             <span class="hidden md:inline hover:text-brandPink cursor-pointer" data-i18n="nav_view">View</span>
             <span class="hidden md:inline text-brandBlue" data-i18n="nav_run">Run_Tasks</span>
             
-            <select id="langSelect" onchange="switchLang(this.value)" class="bg-gray-800 text-brandGreen p-2 rounded outline-none border border-gray-700 cursor-pointer">
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-gray-800 text-brandGreen p-1 md:p-2 rounded outline-none border border-gray-700 cursor-pointer text-[10px] md:text-xs">
                 <option value="en">EN</option>
                 <option value="ko">KR</option>
                 <option value="ja">JP</option>
@@ -47,61 +47,61 @@
         </div>
     </nav>
 
-    <div class="flex flex-col md:flex-row flex-grow overflow-hidden relative">
-        <aside class="w-full md:w-64 bg-panelBg border-r-4 border-[#252542] p-6 shrink-0 md:overflow-y-auto">
-            <h2 class="text-brandPink font-pixel text-[10px] mb-6 uppercase tracking-widest" data-i18n="exp_title">>> Explorer</h2>
-            <ul class="space-y-4 text-sm font-sans text-gray-400">
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <aside class="w-full md:w-64 bg-panelBg border-b-4 md:border-b-0 md:border-r-4 border-[#252542] p-4 md:p-6 shrink-0 md:overflow-y-auto">
+            <h2 class="text-brandPink font-pixel text-[10px] mb-4 md:mb-6 uppercase tracking-widest" data-i18n="exp_title">>> Explorer</h2>
+            <ul class="space-y-3 md:space-y-4 text-sm font-sans text-gray-400">
                 <li class="hover:text-white transition-transform cursor-pointer flex items-center gap-2">
                     <span class="text-brandBlue font-pixel text-[8px]">📁</span> <span data-i18n="exp_src">src_files</span>
                 </li>
-                <li class="px-4 py-1 text-gray-500 text-xs">📄 project_alpha.sim</li>
-                <li class="px-4 py-1 text-gray-500 text-xs">📄 project_omega.sim</li>
-                <li class="px-4 py-1 text-brandGreen font-bold bg-gray-800 rounded border border-gray-700 flex justify-between items-center">
+                <li class="px-2 md:px-4 py-1 text-gray-500 text-xs">📄 project_alpha.sim</li>
+                <li class="px-2 md:px-4 py-1 text-gray-500 text-xs">📄 project_omega.sim</li>
+                <li class="px-2 md:px-4 py-1 text-brandGreen font-bold bg-gray-800 rounded border border-gray-700 flex justify-between items-center">
                     <span>📄 index.html</span><span class="w-2 h-2 rounded-full bg-brandGreen animate-pulse"></span>
                 </li>
-                <li class="px-4 py-1 text-gray-500 text-xs">📄 analytics_model.py</li>
+                <li class="px-2 md:px-4 py-1 text-gray-500 text-xs">📄 analytics_model.py</li>
             </ul>
         </aside>
 
-        <main class="flex-grow p-6 md:p-12 overflow-y-auto bg-darkBg relative">
+        <main class="flex-grow p-6 md:p-12 md:overflow-y-auto bg-darkBg relative">
             <div class="max-w-4xl mx-auto">
-                <header class="mb-16 border-b-4 border-dashed border-[#252542] pb-12">
-                    <h1 class="text-3xl md:text-5xl text-white font-pixel leading-[1.5] mb-8">
+                <header class="mb-12 md:mb-16 border-b-4 border-dashed border-[#252542] pb-8 md:pb-12">
+                    <h1 class="text-2xl md:text-5xl text-white font-pixel leading-[1.5] mb-6 md:mb-8">
                         <span data-i18n="hero_t1">BIG DATA.</span><br><span class="text-brandPink" data-i18n="hero_t2">ONE DEV.</span>
                     </h1>
-                    <p class="text-xl max-w-2xl text-gray-400 leading-relaxed font-semibold border-l-4 border-brandBlue pl-6" data-i18n="hero_sub">
+                    <p class="text-lg md:text-xl max-w-2xl text-gray-400 leading-relaxed font-semibold border-l-4 border-brandBlue pl-4 md:pl-6" data-i18n="hero_sub">
                         No corporate red tape. Just one developer deploying serious data science to build the deep management simulators and utility apps I actually want to play.
                     </p>
                 </header>
 
-                <section id="apps" class="mb-20">
-                    <h2 class="font-pixel text-sm text-brandBlue mb-8 uppercase" data-i18n="live_dep">> Live_Deployments</h2>
-                    <div class="grid md:grid-cols-2 gap-8">
-                        <div class="bg-panelBg p-8 border-4 border-gray-800 shadow-[8px_8px_0_0_#252542] flex flex-col items-center justify-center text-center opacity-80 min-h-[220px]">
-                            <div class="text-brandPink mb-4 font-pixel text-2xl">🔒</div>
-                            <h3 class="text-lg font-pixel text-gray-500 mb-2" data-i18n="redacted">[ REDACTED ]</h3>
-                            <p class="text-gray-600 text-xs font-pixel uppercase" data-i18n="dep_pend">Deployment Pending</p>
+                <section id="apps" class="mb-16 md:mb-20">
+                    <h2 class="font-pixel text-[10px] md:text-sm text-brandBlue mb-6 md:mb-8 uppercase" data-i18n="live_dep">> Live_Deployments</h2>
+                    <div class="grid md:grid-cols-2 gap-6 md:gap-8">
+                        <div class="bg-panelBg p-6 md:p-8 border-4 border-gray-800 shadow-[4px_4px_0_0_#252542] md:shadow-[8px_8px_0_0_#252542] flex flex-col items-center justify-center text-center opacity-80 min-h-[180px] md:min-h-[220px]">
+                            <div class="text-brandPink mb-4 font-pixel text-xl md:text-2xl">🔒</div>
+                            <h3 class="text-base md:text-lg font-pixel text-gray-500 mb-2" data-i18n="redacted">[ REDACTED ]</h3>
+                            <p class="text-gray-600 text-[10px] md:text-xs font-pixel uppercase" data-i18n="dep_pend">Deployment Pending</p>
                         </div>
-                        <div class="bg-panelBg p-8 border-4 border-gray-800 shadow-[8px_8px_0_0_#252542] flex flex-col items-center justify-center text-center opacity-80 min-h-[220px]">
-                            <div class="text-brandBlue mb-4 font-pixel text-2xl">🔒</div>
-                            <h3 class="text-lg font-pixel text-gray-500 mb-2" data-i18n="redacted">[ REDACTED ]</h3>
-                            <p class="text-gray-600 text-xs font-pixel uppercase" data-i18n="await_clear">Awaiting Clearance</p>
+                        <div class="bg-panelBg p-6 md:p-8 border-4 border-gray-800 shadow-[4px_4px_0_0_#252542] md:shadow-[8px_8px_0_0_#252542] flex flex-col items-center justify-center text-center opacity-80 min-h-[180px] md:min-h-[220px]">
+                            <div class="text-brandBlue mb-4 font-pixel text-xl md:text-2xl">🔒</div>
+                            <h3 class="text-base md:text-lg font-pixel text-gray-500 mb-2" data-i18n="redacted">[ REDACTED ]</h3>
+                            <p class="text-gray-600 text-[10px] md:text-xs font-pixel uppercase" data-i18n="await_clear">Awaiting Clearance</p>
                         </div>
                     </div>
                 </section>
 
                 <section id="focus" class="mb-12">
-                    <h2 class="font-pixel text-sm text-brandPink mb-8 uppercase" data-i18n="core_logic">> Core_Logic</h2>
-                    <div class="grid md:grid-cols-2 gap-8">
-                        <div class="bg-panelBg p-8 border-4 border-[#252542] hover:border-brandPink transition-colors">
-                            <h3 class="text-sm font-pixel text-white mb-4 leading-relaxed" data-i18n="ds_title">DATA SCIENCE</h3>
-                            <p class="text-gray-400 leading-relaxed" data-i18n="ds_desc">
+                    <h2 class="font-pixel text-[10px] md:text-sm text-brandPink mb-6 md:mb-8 uppercase" data-i18n="core_logic">> Core_Logic</h2>
+                    <div class="grid md:grid-cols-2 gap-6 md:gap-8">
+                        <div class="bg-panelBg p-6 md:p-8 border-4 border-[#252542] hover:border-brandPink transition-colors">
+                            <h3 class="text-xs md:text-sm font-pixel text-white mb-4 leading-relaxed" data-i18n="ds_title">DATA SCIENCE</h3>
+                            <p class="text-sm md:text-base text-gray-400 leading-relaxed" data-i18n="ds_desc">
                                 Finding the signal in the noise. I treat data as the engine of my studio, delivering analytics without the fluff to build systems that adapt, improve, and scale autonomously.
                             </p>
                         </div>
-                        <div class="bg-panelBg p-8 border-4 border-[#252542] hover:border-brandBlue transition-colors">
-                            <h3 class="text-sm font-pixel text-white mb-4 leading-relaxed" data-i18n="ba_title">BUILDING APPS</h3>
-                            <p class="text-gray-400 leading-relaxed" data-i18n="ba_desc">
+                        <div class="bg-panelBg p-6 md:p-8 border-4 border-[#252542] hover:border-brandBlue transition-colors">
+                            <h3 class="text-xs md:text-sm font-pixel text-white mb-4 leading-relaxed" data-i18n="ba_title">BUILDING APPS</h3>
+                            <p class="text-sm md:text-base text-gray-400 leading-relaxed" data-i18n="ba_desc">
                                 From deep mechanic games to high-performance trackers, I build the apps I want to use. No gimmicks, no bloatware—just clean architecture and highly polished execution.
                             </p>
                         </div>
@@ -111,16 +111,18 @@
         </main>
     </div>
 
-    <footer class="bg-black border-t-4 border-[#252542] p-4 md:p-6 shrink-0 h-32 md:h-40 overflow-y-auto font-pixel text-[8px] md:text-[10px] leading-relaxed text-brandGreen">
+    <footer class="bg-black border-t-4 border-[#252542] p-4 md:p-6 shrink-0 md:h-40 md:overflow-y-auto font-pixel text-[8px] md:text-[10px] leading-relaxed text-brandGreen">
         <p class="mb-2" data-i18n="term_init">> Initializing Crystl Labs communications protocol...</p>
         <p class="mb-2" data-i18n="term_conn">> Connection established. Awaiting input.</p>
         <p class="mb-4"><span data-i18n="term_ping">> Ping: </span><a href="mailto:crystllabs@gmail.com" class="text-white hover:text-brandPink transition">crystllabs@gmail.com</a></p>
-        <div class="flex flex-wrap gap-4 md:gap-8 text-gray-500">
-            <span data-i18n="sys_links">SYS_LINKS:</span>
-            <a href="privacy.html" class="hover:text-white transition" data-i18n="link_priv">[ PRIVACY ]</a>
-            <a href="terms.html" class="hover:text-white transition" data-i18n="link_terms">[ TERMS ]</a>
-            <a href="data-deletion.html" class="hover:text-white transition" data-i18n="link_del">[ DELETION ]</a>
-            <span class="ml-auto text-gray-700">© 2026 CRYSTL LABS</span>
+        <div class="flex flex-col md:flex-row gap-4 md:gap-8 text-gray-500">
+            <div class="flex flex-wrap gap-4">
+                <span data-i18n="sys_links">SYS_LINKS:</span>
+                <a href="privacy.html" class="hover:text-white transition" data-i18n="link_priv">[ PRIVACY ]</a>
+                <a href="terms.html" class="hover:text-white transition" data-i18n="link_terms">[ TERMS ]</a>
+                <a href="data-deletion.html" class="hover:text-white transition" data-i18n="link_del">[ DELETION ]</a>
+            </div>
+            <span class="md:ml-auto text-gray-700">© 2026 CRYSTL LABS</span>
         </div>
     </footer>
 

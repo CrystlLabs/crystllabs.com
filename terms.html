@@ -26,23 +26,23 @@
         ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
     </style>
 </head>
-<body class="bg-darkBg text-gray-300 font-sans antialiased h-screen flex flex-col overflow-hidden border-[8px] border-[#252542]">
+<body class="bg-darkBg text-gray-300 font-sans antialiased min-h-screen md:h-screen flex flex-col md:overflow-hidden border-[4px] md:border-[8px] border-[#252542]">
     
-    <nav class="bg-panelBg px-6 py-3 flex justify-between items-center border-b-4 border-[#252542] shrink-0 z-20">
-        <a href="index.html" class="flex items-center gap-6 hover:opacity-80">
-            <img src="crystl1.png" alt="" class="h-8 w-auto">
-            <span class="font-pixel text-xs text-white uppercase hidden sm:block">Crystl_Engine_v1.0</span>
+    <nav class="bg-panelBg px-4 py-2 md:px-6 md:py-3 flex justify-between items-center border-b-4 border-[#252542] shrink-0 z-20">
+        <a href="index.html" class="flex items-center gap-4 md:gap-6 hover:opacity-80">
+            <img src="crystl1.png" alt="" class="h-6 md:h-8 w-auto">
+            <span class="font-pixel text-[10px] md:text-xs text-white uppercase hidden sm:block">Crystl_Engine_v1.0</span>
         </a>
-        <div class="flex items-center space-x-6 font-pixel text-[10px] text-gray-500 uppercase">
+        <div class="flex items-center space-x-4 md:space-x-6 font-pixel text-[10px] text-gray-500 uppercase">
             <a href="index.html" class="hover:text-brandBlue transition" data-i18n="back_home"><- Back_To_Workspace</a>
-            <select id="langSelect" onchange="switchLang(this.value)" class="bg-gray-800 text-brandGreen p-2 rounded outline-none border border-gray-700 cursor-pointer">
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-gray-800 text-brandGreen p-1 md:p-2 rounded outline-none border border-gray-700 cursor-pointer text-[10px] md:text-xs">
                 <option value="en">EN</option><option value="ko">KR</option><option value="ja">JP</option>
             </select>
         </div>
     </nav>
 
-    <div class="flex flex-col md:flex-row flex-grow overflow-hidden relative">
-        <aside class="hidden md:block w-64 bg-panelBg border-r-4 border-[#252542] p-6 shrink-0 overflow-y-auto">
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <aside class="hidden md:block w-64 bg-panelBg border-r-4 border-[#252542] p-6 shrink-0 md:overflow-y-auto">
             <h2 class="text-brandPink font-pixel text-[10px] mb-6 uppercase tracking-widest" data-i18n="exp_legal">>> Legal_Docs</h2>
             <ul class="space-y-4 text-sm font-sans text-gray-400">
                 <li class="px-4 py-1 text-gray-500 text-xs"><a href="privacy.html">📄 privacy_policy.md</a></li>
@@ -53,22 +53,22 @@
             </ul>
         </aside>
 
-        <main class="flex-grow p-6 md:p-12 overflow-y-auto bg-darkBg relative">
+        <main class="flex-grow p-6 md:p-12 md:overflow-y-auto bg-darkBg relative">
             <div class="max-w-4xl mx-auto">
                 <h1 class="text-2xl md:text-3xl font-pixel text-white mb-4 uppercase" data-i18n="t_title"># Terms of Service</h1>
-                <p class="text-brandPink mb-12 font-pixel text-[10px]" data-i18n="p_date">Last Updated: March 2026</p>
+                <p class="text-brandPink mb-8 md:mb-12 font-pixel text-[10px]" data-i18n="p_date">Last Updated: March 2026</p>
 
-                <div class="space-y-8 text-sm md:text-base leading-relaxed text-gray-400">
+                <div class="space-y-6 md:space-y-8 text-sm md:text-base leading-relaxed text-gray-400">
                     <section>
-                        <h2 class="text-brandBlue font-pixel text-[12px] mb-4" data-i18n="h1">## 1. Acceptance & Rights</h2>
+                        <h2 class="text-brandBlue font-pixel text-[10px] md:text-[12px] mb-4" data-i18n="h1">## 1. Acceptance & Rights</h2>
                         <p data-i18n="p1">By downloading or using the apps and websites ("Services") developed by Crystl Labs, you agree to these Terms. All applications, underlying code, algorithms, and models are the exclusive intellectual property of Crystl Labs. You are granted a personal, non-transferable license to use our apps. You may not copy, reverse engineer, or extract the source code.</p>
                     </section>
                     <section>
-                        <h2 class="text-brandBlue font-pixel text-[12px] mb-4" data-i18n="h2">## 2. Acceptable Use & AI</h2>
+                        <h2 class="text-brandBlue font-pixel text-[10px] md:text-[12px] mb-4" data-i18n="h2">## 2. Acceptable Use & AI</h2>
                         <p data-i18n="p2">You agree to use our Services only for lawful purposes. You must not attempt to hack our apps or the third-party AI processors we utilize. While we strive for precision, AI-generated content may sometimes be inaccurate. You should not rely solely on our applications for critical medical, legal, or financial decisions.</p>
                     </section>
                     <section>
-                        <h2 class="text-brandBlue font-pixel text-[12px] mb-4" data-i18n="h3">## 3. Disclaimers</h2>
+                        <h2 class="text-brandBlue font-pixel text-[10px] md:text-[12px] mb-4" data-i18n="h3">## 3. Disclaimers</h2>
                         <p data-i18n="p3">Our Services are provided "AS IS". To the fullest extent permitted by law, Crystl Labs shall not be liable for any indirect, incidental, or consequential damages resulting from your use of our apps.</p>
                     </section>
                 </div>
@@ -76,14 +76,16 @@
         </main>
     </div>
 
-    <footer class="bg-black border-t-4 border-[#252542] p-4 md:p-6 shrink-0 h-32 md:h-40 overflow-y-auto font-pixel text-[8px] md:text-[10px] leading-relaxed text-brandGreen">
+    <footer class="bg-black border-t-4 border-[#252542] p-4 md:p-6 shrink-0 md:h-40 md:overflow-y-auto font-pixel text-[8px] md:text-[10px] leading-relaxed text-brandGreen">
         <p class="mb-4">> <span data-i18n="term_reading">Reading file: terms_of_service.md...</span></p>
-        <div class="flex flex-wrap gap-4 md:gap-8 text-gray-500">
-            <span data-i18n="sys_links">SYS_LINKS:</span>
-            <a href="privacy.html" class="hover:text-white transition" data-i18n="link_priv">[ PRIVACY ]</a>
-            <a href="terms.html" class="text-white transition" data-i18n="link_terms">[ TERMS ]</a>
-            <a href="data-deletion.html" class="hover:text-white transition" data-i18n="link_del">[ DELETION ]</a>
-            <span class="ml-auto text-gray-700">© 2026 CRYSTL LABS</span>
+        <div class="flex flex-col md:flex-row gap-4 md:gap-8 text-gray-500">
+            <div class="flex flex-wrap gap-4">
+                <span data-i18n="sys_links">SYS_LINKS:</span>
+                <a href="privacy.html" class="hover:text-white transition" data-i18n="link_priv">[ PRIVACY ]</a>
+                <a href="terms.html" class="text-white transition" data-i18n="link_terms">[ TERMS ]</a>
+                <a href="data-deletion.html" class="hover:text-white transition" data-i18n="link_del">[ DELETION ]</a>
+            </div>
+            <span class="md:ml-auto text-gray-700">© 2026 CRYSTL LABS</span>
         </div>
     </footer>
 
