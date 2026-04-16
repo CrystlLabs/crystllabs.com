@@ -3,166 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crystl Labs | Independent App Studio</title>
+    <title>Crystl Labs | Indie Workspace</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    colors: {
-                        cardBg: 'rgba(17, 21, 38, 0.8)', 
-                        brandBlue: '#3B82F6',
-                        brandPurple: '#8B5CF6',
-                        brandRed: '#EF4444',
-                        brandOrange: '#F97316',
-                        brandYellow: '#EAB308',
-                        brandGreen: '#22C55E'
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
-                    }
+                    colors: { darkBg: '#0f0f1b', panelBg: '#171729', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { pixel: ['"Press Start 2P"', 'cursive'], sans: ['Inter', 'sans-serif'] }
                 }
             }
         }
     </script>
     <style>
-        /* A subtle dot grid background to give it a clean workshop feel */
-        .bg-dots {
-            background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px);
-            background-size: 24px 24px;
-        }
+        ::-webkit-scrollbar { width: 12px; }
+        ::-webkit-scrollbar-track { background: #0f0f1b; border-left: 2px solid #252542; }
+        ::-webkit-scrollbar-thumb { background: #252542; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
     </style>
 </head>
-<body class="bg-[#090b14] bg-dots text-white font-sans antialiased selection:bg-brandPurple selection:text-white min-h-screen flex flex-col">
-
-    <nav class="container mx-auto px-6 py-8 flex justify-between items-center relative z-20">
-        <a href="#" class="flex items-center gap-4 hover:scale-105 transition-transform duration-300">
-            <img src="crystl1.png" alt="Crystl Labs Logo" class="h-14 w-auto object-contain">
-            <span class="text-2xl font-black tracking-tight text-white uppercase font-mono">
-                Crystl<span class="text-brandBlue">_</span>Labs
-            </span>
-        </a>
-        <div class="hidden md:flex space-x-8 text-sm font-mono text-gray-400">
-            <a href="#apps" class="hover:text-brandBlue transition">/our-apps</a>
-            <a href="#lab" class="hover:text-brandPurple transition">/the-lab</a>
-            <a href="#focus" class="hover:text-brandYellow transition">/focus</a>
+<body class="bg-darkBg text-gray-300 font-sans antialiased h-screen flex flex-col overflow-hidden border-[8px] border-[#252542]">
+    
+    <nav class="bg-panelBg px-6 py-3 flex justify-between items-center border-b-4 border-[#252542] shrink-0 z-20">
+        <div class="flex items-center gap-6">
+            <img src="crystl1.jpg" alt="Crystl Labs Logo" class="h-8 w-auto">
+            <span class="font-pixel text-xs text-white uppercase hidden sm:block">Crystl_Engine_v1.0</span>
+        </div>
+        <div class="flex items-center space-x-6 font-pixel text-[10px] text-gray-500 uppercase">
+            <span class="hidden md:inline hover:text-brandPink cursor-pointer" data-i18n="nav_file">File</span>
+            <span class="hidden md:inline hover:text-brandPink cursor-pointer" data-i18n="nav_edit">Edit</span>
+            <span class="hidden md:inline hover:text-brandPink cursor-pointer" data-i18n="nav_view">View</span>
+            <span class="hidden md:inline text-brandBlue" data-i18n="nav_run">Run_Tasks</span>
+            
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-gray-800 text-brandGreen p-2 rounded outline-none border border-gray-700 cursor-pointer">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+            </select>
         </div>
     </nav>
 
-    <header class="container mx-auto px-6 py-20 text-center md:py-32 relative flex-grow">
-        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-gradient-to-tr from-brandPurple/20 to-brandBlue/20 blur-[100px] rounded-full pointer-events-none"></div>
+    <div class="flex flex-col md:flex-row flex-grow overflow-hidden relative">
+        <aside class="w-full md:w-64 bg-panelBg border-r-4 border-[#252542] p-6 shrink-0 md:overflow-y-auto">
+            <h2 class="text-brandPink font-pixel text-[10px] mb-6 uppercase tracking-widest" data-i18n="exp_title">>> Explorer</h2>
+            <ul class="space-y-4 text-sm font-sans text-gray-400">
+                <li class="hover:text-white transition-transform cursor-pointer flex items-center gap-2">
+                    <span class="text-brandBlue font-pixel text-[8px]">📁</span> <span data-i18n="exp_src">src_files</span>
+                </li>
+                <li class="px-4 py-1 text-gray-500 text-xs">📄 project_alpha.sim</li>
+                <li class="px-4 py-1 text-gray-500 text-xs">📄 project_omega.sim</li>
+                <li class="px-4 py-1 text-brandGreen font-bold bg-gray-800 rounded border border-gray-700 flex justify-between items-center">
+                    <span>📄 index.html</span><span class="w-2 h-2 rounded-full bg-brandGreen animate-pulse"></span>
+                </li>
+                <li class="px-4 py-1 text-gray-500 text-xs">📄 analytics_model.py</li>
+            </ul>
+        </aside>
 
-        <div class="inline-block px-4 py-2 rounded-full border border-gray-700 bg-gray-900/50 font-mono text-brandGreen text-sm mb-8 shadow-lg">
-            <span class="animate-pulse mr-2">🟢</span> Systems Online
-        </div>
-
-        <h1 class="relative z-10 text-5xl md:text-7xl font-black tracking-tight mb-8 leading-tight">
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-brandBlue via-brandPurple to-brandRed">Big data.</span><br>
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-brandOrange via-brandYellow to-brandGreen">Small team.</span>
-        </h1>
-        <p class="relative z-10 text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-12 font-medium leading-relaxed">
-            No corporate red tape. Just an independent studio deploying serious data science to build apps that actually matter.
-        </p>
-    </header>
-
-    <section id="apps" class="py-20 relative z-10 border-t border-gray-800/50">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-black mb-12 text-white font-mono text-center">>> Live on the Store</h2>
-            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-                
-                <div class="bg-[#090b14] p-10 rounded-3xl border-2 border-dashed border-gray-800 flex flex-col items-center justify-center text-center opacity-80 h-full min-h-[250px] shadow-inner">
-                    <div class="text-gray-700 mb-4">
-                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-500 font-mono tracking-widest mb-2">[ REDACTED ]</h3>
-                    <p class="text-gray-600 font-mono text-sm uppercase tracking-wide">Deployment Pending</p>
-                </div>
-
-                <div class="bg-[#090b14] p-10 rounded-3xl border-2 border-dashed border-gray-800 flex flex-col items-center justify-center text-center opacity-80 h-full min-h-[250px] shadow-inner">
-                    <div class="text-gray-700 mb-4">
-                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-500 font-mono tracking-widest mb-2">[ REDACTED ]</h3>
-                    <p class="text-gray-600 font-mono text-sm uppercase tracking-wide">Awaiting Clearance</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="lab" class="py-20 relative z-10 bg-gray-900/30">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-black mb-12 text-white font-mono text-center text-gray-500">>> In the Lab</h2>
-            <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-                
-                <div class="bg-gray-900/50 p-6 rounded-2xl border border-dashed border-gray-700 opacity-70">
-                    <div class="w-12 h-12 bg-gray-800 rounded-lg mb-4 animate-pulse"></div>
-                    <h3 class="text-lg font-bold text-gray-400 font-mono mb-2">Project_Alpha</h3>
-                    <p class="text-gray-500 text-sm">Currently compiling and optimizing data models. ETA: Q3 2026.</p>
-                </div>
-
-                <div class="bg-gray-900/50 p-6 rounded-2xl border border-dashed border-gray-700 opacity-70">
-                    <div class="w-12 h-12 bg-gray-800 rounded-lg mb-4 animate-pulse"></div>
-                    <h3 class="text-lg font-bold text-gray-400 font-mono mb-2">Data_Engine_v2</h3>
-                    <p class="text-gray-500 text-sm">Internal tool. Refining predictive engagement analytics.</p>
-                </div>
-
-                <div class="bg-gray-900/50 p-6 rounded-2xl border border-dashed border-gray-700 opacity-70">
-                    <div class="w-12 h-12 bg-gray-800 rounded-lg mb-4"></div>
-                    <h3 class="text-lg font-bold text-gray-400 font-mono mb-2">[ Classified ]</h3>
-                    <p class="text-gray-500 text-sm">Top secret framework. More details coming soon.</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="focus" class="py-24 relative z-10 border-t border-gray-800/50">
-        <div class="container mx-auto px-6">
-            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-                
-                <div class="bg-cardBg p-10 rounded-3xl border-2 border-gray-800 hover:border-brandPurple hover:rotate-1 transition-all duration-300 shadow-[0_8px_0_0_rgba(31,41,55,1)] hover:shadow-[0_12px_0_0_rgba(139,92,246,0.5)]">
-                    <div class="text-brandPurple mb-6 text-4xl">📊</div>
-                    <h3 class="text-2xl font-bold mb-3 text-white font-mono">Data Science</h3>
-                    <p class="text-gray-400 leading-relaxed text-lg">
-                        Finding the signal in the noise. We treat data as the engine of our studio, delivering analytics without the fluff to build apps that adapt, improve, and scale.
+        <main class="flex-grow p-6 md:p-12 overflow-y-auto bg-darkBg relative">
+            <div class="max-w-4xl mx-auto">
+                <header class="mb-16 border-b-4 border-dashed border-[#252542] pb-12">
+                    <h1 class="text-3xl md:text-5xl text-white font-pixel leading-[1.5] mb-8">
+                        <span data-i18n="hero_t1">BIG DATA.</span><br><span class="text-brandPink" data-i18n="hero_t2">ONE DEV.</span>
+                    </h1>
+                    <p class="text-xl max-w-2xl text-gray-400 leading-relaxed font-semibold border-l-4 border-brandBlue pl-6" data-i18n="hero_sub">
+                        No corporate red tape. Just one developer deploying serious data science to build the deep management simulators and utility apps I actually want to play.
                     </p>
-                </div>
+                </header>
 
-                <div class="bg-cardBg p-10 rounded-3xl border-2 border-gray-800 hover:border-brandBlue hover:-translate-y-2 transition-all duration-300 shadow-[0_8px_0_0_rgba(31,41,55,1)] hover:shadow-[0_12px_0_0_rgba(59,130,246,0.5)]">
-                    <div class="text-brandBlue mb-6 text-4xl">⚙️</div>
-                    <h3 class="text-2xl font-bold mb-3 text-white font-mono">Building Apps</h3>
-                    <p class="text-gray-400 leading-relaxed text-lg">
-                        From hyper-casual games to high-performance trackers, we build the apps we actually want to use. No gimmicks, no bloatware—just clean code and highly polished user experiences.
-                    </p>
-                </div>
+                <section id="apps" class="mb-20">
+                    <h2 class="font-pixel text-sm text-brandBlue mb-8 uppercase" data-i18n="live_dep">> Live_Deployments</h2>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div class="bg-panelBg p-8 border-4 border-gray-800 shadow-[8px_8px_0_0_#252542] flex flex-col items-center justify-center text-center opacity-80 min-h-[220px]">
+                            <div class="text-brandPink mb-4 font-pixel text-2xl">🔒</div>
+                            <h3 class="text-lg font-pixel text-gray-500 mb-2" data-i18n="redacted">[ REDACTED ]</h3>
+                            <p class="text-gray-600 text-xs font-pixel uppercase" data-i18n="dep_pend">Deployment Pending</p>
+                        </div>
+                        <div class="bg-panelBg p-8 border-4 border-gray-800 shadow-[8px_8px_0_0_#252542] flex flex-col items-center justify-center text-center opacity-80 min-h-[220px]">
+                            <div class="text-brandBlue mb-4 font-pixel text-2xl">🔒</div>
+                            <h3 class="text-lg font-pixel text-gray-500 mb-2" data-i18n="redacted">[ REDACTED ]</h3>
+                            <p class="text-gray-600 text-xs font-pixel uppercase" data-i18n="await_clear">Awaiting Clearance</p>
+                        </div>
+                    </div>
+                </section>
 
+                <section id="focus" class="mb-12">
+                    <h2 class="font-pixel text-sm text-brandPink mb-8 uppercase" data-i18n="core_logic">> Core_Logic</h2>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div class="bg-panelBg p-8 border-4 border-[#252542] hover:border-brandPink transition-colors">
+                            <h3 class="text-sm font-pixel text-white mb-4 leading-relaxed" data-i18n="ds_title">DATA SCIENCE</h3>
+                            <p class="text-gray-400 leading-relaxed" data-i18n="ds_desc">
+                                Finding the signal in the noise. I treat data as the engine of my studio, delivering analytics without the fluff to build systems that adapt, improve, and scale autonomously.
+                            </p>
+                        </div>
+                        <div class="bg-panelBg p-8 border-4 border-[#252542] hover:border-brandBlue transition-colors">
+                            <h3 class="text-sm font-pixel text-white mb-4 leading-relaxed" data-i18n="ba_title">BUILDING APPS</h3>
+                            <p class="text-gray-400 leading-relaxed" data-i18n="ba_desc">
+                                From deep mechanic games to high-performance trackers, I build the apps I want to use. No gimmicks, no bloatware—just clean architecture and highly polished execution.
+                            </p>
+                        </div>
+                    </div>
+                </section>
             </div>
-        </div>
-    </section>
+        </main>
+    </div>
 
-    <footer id="hello" class="container mx-auto px-6 py-20 text-center relative z-10 border-t border-gray-800/50">
-        <h2 class="text-3xl font-black mb-8 text-white font-mono">Say Hi!</h2>
-        
-        <a href="mailto:crystllabs@gmail.com" class="inline-block py-4 px-10 bg-white text-black hover:bg-brandBlue hover:text-white font-bold text-xl rounded-full transition duration-300 shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_25px_rgba(59,130,246,0.4)]">
-            crystllabs@gmail.com
-        </a>
-        
-        <div class="mt-20 flex flex-col items-center gap-6">
-            <div class="flex flex-wrap justify-center gap-4 md:gap-6 font-mono">
-                <a href="privacy.html" class="text-gray-500 hover:text-brandBlue text-xs uppercase transition duration-300">Privacy</a>
-                <span class="hidden md:inline text-gray-700">|</span>
-                <a href="terms.html" class="text-gray-500 hover:text-brandPurple text-xs uppercase transition duration-300">Terms</a>
-                <span class="hidden md:inline text-gray-700">|</span>
-                <a href="data-deletion.html" class="text-gray-500 hover:text-brandRed text-xs uppercase transition duration-300">Data Deletion</a>
-            </div>
-            
-            <div class="text-gray-600 text-sm font-mono mt-4">
-                Built with 💎 by Crystl Labs &copy; 2026
-            </div>
+    <footer class="bg-black border-t-4 border-[#252542] p-4 md:p-6 shrink-0 h-32 md:h-40 overflow-y-auto font-pixel text-[8px] md:text-[10px] leading-relaxed text-brandGreen">
+        <p class="mb-2" data-i18n="term_init">> Initializing Crystl Labs communications protocol...</p>
+        <p class="mb-2" data-i18n="term_conn">> Connection established. Awaiting input.</p>
+        <p class="mb-4"><span data-i18n="term_ping">> Ping: </span><a href="mailto:crystllabs@gmail.com" class="text-white hover:text-brandPink transition">crystllabs@gmail.com</a></p>
+        <div class="flex flex-wrap gap-4 md:gap-8 text-gray-500">
+            <span data-i18n="sys_links">SYS_LINKS:</span>
+            <a href="privacy.html" class="hover:text-white transition" data-i18n="link_priv">[ PRIVACY ]</a>
+            <a href="terms.html" class="hover:text-white transition" data-i18n="link_terms">[ TERMS ]</a>
+            <a href="data-deletion.html" class="hover:text-white transition" data-i18n="link_del">[ DELETION ]</a>
+            <span class="ml-auto text-gray-700">© 2026 CRYSTL LABS</span>
         </div>
     </footer>
 
+    <script>
+        const i18n = {
+            en: {
+                nav_file: "File", nav_edit: "Edit", nav_view: "View", nav_run: "Run_Tasks",
+                exp_title: ">> Explorer", exp_src: "src_files",
+                hero_t1: "BIG DATA.", hero_t2: "ONE DEV.",
+                hero_sub: "No corporate red tape. Just one developer deploying serious data science to build the deep management simulators and utility apps I actually want to play.",
+                live_dep: "> Live_Deployments", redacted: "[ REDACTED ]", dep_pend: "Deployment Pending", await_clear: "Awaiting Clearance",
+                core_logic: "> Core_Logic", ds_title: "DATA SCIENCE",
+                ds_desc: "Finding the signal in the noise. I treat data as the engine of my studio, delivering analytics without the fluff to build systems that adapt, improve, and scale autonomously.",
+                ba_title: "BUILDING APPS",
+                ba_desc: "From deep mechanic games to high-performance trackers, I build the apps I want to use. No gimmicks, no bloatware—just clean architecture and highly polished execution.",
+                term_init: "> Initializing Crystl Labs communications protocol...", term_conn: "> Connection established. Awaiting input.", term_ping: "> Ping: ",
+                sys_links: "SYS_LINKS:", link_priv: "[ PRIVACY ]", link_terms: "[ TERMS ]", link_del: "[ DELETION ]"
+            },
+            ko: {
+                nav_file: "파일", nav_edit: "편집", nav_view: "보기", nav_run: "작업_실행",
+                exp_title: ">> 탐색기", exp_src: "소스_파일",
+                hero_t1: "빅 데이터.", hero_t2: "1인 개발.",
+                hero_sub: "기업의 관료주의는 없습니다. 오직 한 명의 개발자가 진정한 데이터 과학을 활용하여 제가 직접 플레이하고 싶은 깊이 있는 매니지먼트 시뮬레이터와 유틸리티 앱을 만듭니다.",
+                live_dep: "> 라이브_배포", redacted: "[ 기밀 사항 ]", dep_pend: "배포 대기 중", await_clear: "승인 대기 중",
+                core_logic: "> 핵심_로직", ds_title: "데이터 과학",
+                ds_desc: "노이즈 속에서 신호를 찾습니다. 데이터를 스튜디오의 엔진으로 삼아 거품 없는 분석을 제공하고 자율적으로 개선 및 확장되는 시스템을 구축합니다.",
+                ba_title: "앱 개발",
+                ba_desc: "깊이 있는 게임부터 고성능 트래커까지 제가 직접 사용하고 싶은 앱을 만듭니다. 군더더기 없는 깔끔한 아키텍처와 완성도 높은 실행력에 집중합니다.",
+                term_init: "> Crystl Labs 통신 프로토콜 초기화 중...", term_conn: "> 연결 성공. 입력을 대기합니다.", term_ping: "> 핑: ",
+                sys_links: "시스템_링크:", link_priv: "[ 개인정보처리방침 ]", link_terms: "[ 이용약관 ]", link_del: "[ 데이터_삭제 ]"
+            },
+            ja: {
+                nav_file: "ファイル", nav_edit: "編集", nav_view: "表示", nav_run: "タスク実行",
+                exp_title: ">> エクスプローラー", exp_src: "ソースファイル",
+                hero_t1: "ビッグデータ。", hero_t2: "個人開発。",
+                hero_sub: "企業のしがらみはありません。一人の開発者がデータサイエンスを活用し、自分自身がプレイしたいと心から思えるシミュレーションやアプリを構築しています。",
+                live_dep: "> ライブ_デプロイメント", redacted: "[ 機密事項 ]", dep_pend: "デプロイ待機中", await_clear: "承認待機中",
+                core_logic: "> コア_ロジック", ds_title: "データサイエンス",
+                ds_desc: "ノイズの中からシグナルを見つけ出す。データをスタジオのエンジンとして扱い、自律的に適応し拡張するシステムを構築します。",
+                ba_title: "アプリ開発",
+                ba_desc: "奥深いゲームから高性能トラッカーまで、自分が使いたいアプリを作ります。無駄を省いたクリーンなアーキテクチャと洗練された実行力に焦点を当てています。",
+                term_init: "> Crystl Labs 通信プロトコルを初期化中...", term_conn: "> 接続確立。入力を待機しています。", term_ping: "> ピング: ",
+                sys_links: "システムリンク:", link_priv: "[ プライバシー ]", link_terms: "[ 利用規約 ]", link_del: "[ データ削除 ]"
+            }
+        };
+
+        function switchLang(lang) {
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (i18n[lang] && i18n[lang][key]) el.innerHTML = i18n[lang][key];
+            });
+        }
+
+        window.onload = () => {
+            let lang = localStorage.getItem('crystl_lang');
+            if (!lang) {
+                const bLang = navigator.language.slice(0, 2);
+                lang = ['en', 'ko', 'ja'].includes(bLang) ? bLang : 'en';
+            }
+            switchLang(lang);
+        };
+    </script>
 </body>
 </html>

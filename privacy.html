@@ -5,85 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy | Crystl Labs</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    colors: {
-                        brandBlue: '#3B82F6',
-                        brandPurple: '#8B5CF6',
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
-                    }
+                    colors: { darkBg: '#0f0f1b', panelBg: '#171729', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { pixel: ['"Press Start 2P"', 'cursive'], sans: ['Inter', 'sans-serif'] }
                 }
             }
         }
     </script>
+    <style>
+        ::-webkit-scrollbar { width: 12px; }
+        ::-webkit-scrollbar-track { background: #0f0f1b; border-left: 2px solid #252542; }
+        ::-webkit-scrollbar-thumb { background: #252542; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+    </style>
 </head>
-<body class="bg-gradient-to-br from-[#090b14] via-[#121629] to-[#040508] text-gray-300 font-sans antialiased selection:bg-brandPurple selection:text-white min-h-screen">
-
-    <nav class="container mx-auto px-6 py-8 flex justify-between items-center relative z-20">
-        <a href="index.html" class="flex items-center gap-4 hover:opacity-80 transition">
-            <img src="crystl1.png" alt="Crystl Labs Logo" class="h-10 w-auto object-contain">
-            <span class="text-xl font-black tracking-tight text-white uppercase font-mono">
-                Crystl<span class="text-brandBlue">_</span>Labs
-            </span>
+<body class="bg-darkBg text-gray-300 font-sans antialiased h-screen flex flex-col overflow-hidden border-[8px] border-[#252542]">
+    
+    <nav class="bg-panelBg px-6 py-3 flex justify-between items-center border-b-4 border-[#252542] shrink-0 z-20">
+        <a href="index.html" class="flex items-center gap-6 hover:opacity-80">
+            <img src="crystl1.jpg" alt="Crystl Labs Logo" class="h-8 w-auto">
+            <span class="font-pixel text-xs text-white uppercase hidden sm:block">Crystl_Engine_v1.0</span>
         </a>
-        <a href="index.html" class="text-gray-400 hover:text-white transition font-mono text-sm">&larr; /back-to-home</a>
+        <div class="flex items-center space-x-6 font-pixel text-[10px] text-gray-500 uppercase">
+            <a href="index.html" class="hover:text-brandBlue transition" data-i18n="back_home"><- Back_To_Workspace</a>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-gray-800 text-brandGreen p-2 rounded outline-none border border-gray-700 cursor-pointer">
+                <option value="en">EN</option><option value="ko">KR</option><option value="ja">JP</option>
+            </select>
+        </div>
     </nav>
 
-    <main class="container mx-auto px-6 py-16 max-w-4xl relative z-10">
-        <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4">Privacy Policy</h1>
-        <p class="text-gray-500 mb-12 font-mono">Last Updated: March 2026</p>
+    <div class="flex flex-col md:flex-row flex-grow overflow-hidden relative">
+        <aside class="hidden md:block w-64 bg-panelBg border-r-4 border-[#252542] p-6 shrink-0 overflow-y-auto">
+            <h2 class="text-brandPink font-pixel text-[10px] mb-6 uppercase tracking-widest" data-i18n="exp_legal">>> Legal_Docs</h2>
+            <ul class="space-y-4 text-sm font-sans text-gray-400">
+                <li class="px-4 py-1 text-brandGreen font-bold bg-gray-800 rounded border border-gray-700 flex justify-between items-center">
+                    <span>📄 privacy_policy.md</span><span class="w-2 h-2 rounded-full bg-brandGreen animate-pulse"></span>
+                </li>
+                <li class="px-4 py-1 text-gray-500 text-xs"><a href="terms.html">📄 terms_of_service.md</a></li>
+                <li class="px-4 py-1 text-gray-500 text-xs"><a href="data-deletion.html">📄 data_deletion.md</a></li>
+            </ul>
+        </aside>
 
-        <div class="space-y-8 text-lg leading-relaxed">
-            
-            <section>
-                <h2 class="text-2xl font-bold text-white mb-4">1. Introduction</h2>
-                <p>Crystl Labs ("we," "our," or "us") is an independent technology studio dedicated to building proprietary applications. We respect your privacy and are committed to protecting the personal data you share with us. This Privacy Policy explains how we collect, process, and safeguard your information when you use our mobile applications and website (crystllabs.com).</p>
-            </section>
+        <main class="flex-grow p-6 md:p-12 overflow-y-auto bg-darkBg relative">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-2xl md:text-3xl font-pixel text-white mb-4 uppercase" data-i18n="p_title"># Privacy Policy</h1>
+                <p class="text-brandPink mb-12 font-pixel text-[10px]" data-i18n="p_date">Last Updated: March 2026</p>
 
-            <section>
-                <h2 class="text-2xl font-bold text-white mb-4">2. AI Processing and Your Data</h2>
-                <p>Our applications leverage advanced Artificial Intelligence (AI) to provide core functionalities. To deliver these features, certain text, image, or contextual data you input into our apps must be transmitted to secure, third-party AI processing providers.</p>
-                <ul class="list-disc pl-6 mt-4 space-y-2">
-                    <li><strong>Strictly Functional Use:</strong> Your data is transmitted solely for the purpose of computing and returning the requested result within the app.</li>
-                    <li><strong>No External Training:</strong> We do not permit our third-party AI providers to use your personal inputs to train their public, foundational models.</li>
-                    <li><strong>No Selling of Data:</strong> We absolutely do not sell, rent, or trade your personal inputs or generated outputs to data brokers or advertising networks.</li>
-                </ul>
-            </section>
+                <div class="space-y-8 text-sm md:text-base leading-relaxed text-gray-400">
+                    <section>
+                        <h2 class="text-brandBlue font-pixel text-[12px] mb-4" data-i18n="h1">## 1. Introduction</h2>
+                        <p data-i18n="p1">Crystl Labs ("we," "our," or "us") is an independent technology studio dedicated to building proprietary applications. We respect your privacy and are committed to protecting the personal data you share with us. This Privacy Policy explains how we collect, process, and safeguard your information when you use our mobile applications and website (crystllabs.com).</p>
+                    </section>
+                    <section>
+                        <h2 class="text-brandBlue font-pixel text-[12px] mb-4" data-i18n="h2">## 2. AI Processing and Your Data</h2>
+                        <p data-i18n="p2">Our applications leverage advanced Artificial Intelligence (AI) to provide core functionalities. To deliver these features, certain text, image, or contextual data you input into our apps must be transmitted to secure, third-party AI processing providers. Your data is transmitted solely for the purpose of computing within the app. We do not permit our third-party AI providers to use your personal inputs to train their models, and we absolutely do not sell data to brokers.</p>
+                    </section>
+                    <section>
+                        <h2 class="text-brandBlue font-pixel text-[12px] mb-4" data-i18n="h3">## 3. Analytics & Security</h2>
+                        <p data-i18n="p3">We rely on anonymized, aggregated telemetry to architect better frameworks. We implement industry-standard encryption to protect data in transit. Transient data sent for AI processing is discarded immediately after output is generated unless specified otherwise.</p>
+                    </section>
+                    <section class="mt-12 p-8 bg-panelBg border-4 border-[#252542]">
+                        <h2 class="text-brandPink font-pixel text-[12px] mb-4" data-i18n="h_contact">## Contact Us</h2>
+                        <p data-i18n="p_contact">For privacy-related inquiries or data deletion requests, please reach out:</p>
+                        <a href="mailto:crystllabs@gmail.com" class="text-white hover:text-brandBlue transition mt-2 inline-block font-mono">crystllabs@gmail.com</a>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
 
-            <section>
-                <h2 class="text-2xl font-bold text-white mb-4">3. Internal Analytics and App Improvement</h2>
-                <p>Because we develop and scale our own products entirely in-house, we rely on data to improve user experience. We may collect anonymized, aggregated telemetry and usage data (such as crash reports, feature usage metrics, and device types). This data is strictly used internally by the Crystl Labs team to architect better frameworks, fix bugs, and optimize our proprietary software. It is never shared with outside agencies.</p>
-            </section>
-
-            <section>
-                <h2 class="text-2xl font-bold text-white mb-4">4. Data Security and Retention</h2>
-                <p>We implement industry-standard encryption and security measures to protect data in transit and at rest. We retain your data only for as long as necessary to provide our services and fulfill the purposes outlined in this policy. Transient data sent for AI processing is typically discarded by the provider immediately after the output is generated, unless otherwise specified in the app's specific settings.</p>
-            </section>
-
-            <section>
-                <h2 class="text-2xl font-bold text-white mb-4">5. Your Rights and Data Deletion</h2>
-                <p>In accordance with Google Play Store policies and applicable privacy laws, you have the right to request the deletion of your personal data associated with our applications. To request data deletion, or if you have any questions regarding how your data is handled, please contact us.</p>
-            </section>
-
-            <section class="mt-12 p-8 bg-gray-900/50 border border-gray-800 rounded-2xl">
-                <h2 class="text-2xl font-bold text-white mb-4">Contact Us</h2>
-                <p>For privacy-related inquiries, data deletion requests, or general support, please reach out to our team:</p>
-                <a href="mailto:crystllabs@gmail.com" class="text-brandBlue hover:text-brandPurple font-bold transition mt-2 inline-block">crystllabs@gmail.com</a>
-            </section>
-
-        </div>
-    </main>
-
-    <footer class="container mx-auto px-6 py-12 text-center border-t border-gray-800/50 mt-20">
-        <div class="text-gray-600 text-sm font-mono tracking-wide">
-            &copy; 2026 Crystl Labs. All rights reserved.
+    <footer class="bg-black border-t-4 border-[#252542] p-4 md:p-6 shrink-0 h-32 md:h-40 overflow-y-auto font-pixel text-[8px] md:text-[10px] leading-relaxed text-brandGreen">
+        <p class="mb-4">> <span data-i18n="term_reading">Reading file: privacy_policy.md...</span></p>
+        <div class="flex flex-wrap gap-4 md:gap-8 text-gray-500">
+            <span data-i18n="sys_links">SYS_LINKS:</span>
+            <a href="privacy.html" class="text-white transition" data-i18n="link_priv">[ PRIVACY ]</a>
+            <a href="terms.html" class="hover:text-white transition" data-i18n="link_terms">[ TERMS ]</a>
+            <a href="data-deletion.html" class="hover:text-white transition" data-i18n="link_del">[ DELETION ]</a>
+            <span class="ml-auto text-gray-700">© 2026 CRYSTL LABS</span>
         </div>
     </footer>
 
+    <script>
+        const i18n = {
+            en: {
+                back_home: "<- Back_To_Workspace", exp_legal: ">> Legal_Docs",
+                p_title: "# Privacy Policy", p_date: "Last Updated: March 2026",
+                h1: "## 1. Introduction", p1: "Crystl Labs (\"we,\" \"our,\" or \"us\") is an independent technology studio dedicated to building proprietary applications. We respect your privacy and are committed to protecting the personal data you share with us. This Privacy Policy explains how we collect, process, and safeguard your information when you use our mobile applications and website (crystllabs.com).",
+                h2: "## 2. AI Processing and Your Data", p2: "Our applications leverage advanced Artificial Intelligence (AI) to provide core functionalities. To deliver these features, certain text, image, or contextual data you input into our apps must be transmitted to secure, third-party AI processing providers. Your data is transmitted solely for the purpose of computing within the app. We do not permit our third-party AI providers to use your personal inputs to train their models, and we absolutely do not sell data to brokers.",
+                h3: "## 3. Analytics & Security", p3: "We rely on anonymized, aggregated telemetry to architect better frameworks. We implement industry-standard encryption to protect data in transit. Transient data sent for AI processing is discarded immediately after output is generated unless specified otherwise.",
+                h_contact: "## Contact Us", p_contact: "For privacy-related inquiries or data deletion requests, please reach out:",
+                term_reading: "Reading file: privacy_policy.md...", sys_links: "SYS_LINKS:", link_priv: "[ PRIVACY ]", link_terms: "[ TERMS ]", link_del: "[ DELETION ]"
+            },
+            ko: {
+                back_home: "<- 워크스페이스로_돌아가기", exp_legal: ">> 법적_문서",
+                p_title: "# 개인정보처리방침", p_date: "최종 수정일: 2026년 3월",
+                h1: "## 1. 소개", p1: "Crystl Labs(\"당사\")는 독점 애플리케이션 구축에 전념하는 독립 기술 스튜디오입니다. 당사는 귀하의 개인정보를 존중하며 보호하기 위해 최선을 다하고 있습니다. 본 방침은 귀하가 당사의 모바일 앱 및 웹사이트(crystllabs.com)를 이용할 때 당사가 정보를 수집, 처리 및 보호하는 방법을 설명합니다.",
+                h2: "## 2. AI 처리 및 데이터", p2: "당사의 애플리케이션은 고급 인공지능(AI)을 활용합니다. 이를 위해 귀하가 입력한 특정 데이터는 안전한 제3자 AI 처리 제공업체로 전송되어야 합니다. 데이터는 오직 앱 내 기능 연산을 위해서만 전송됩니다. 당사는 제3자 제공업체가 귀하의 데이터를 모델 학습에 사용하는 것을 허용하지 않으며, 데이터 브로커에게 절대 판매하지 않습니다.",
+                h3: "## 3. 분석 및 보안", p3: "당사는 더 나은 프레임워크를 설계하기 위해 익명화된 원격 측정 데이터에 의존합니다. 전송 중인 데이터를 보호하기 위해 업계 표준 암호화를 구현합니다. AI 처리를 위해 전송된 임시 데이터는 다르게 지정되지 않는 한 결과가 생성된 직후 폐기됩니다.",
+                h_contact: "## 연락처", p_contact: "개인정보 관련 문의나 데이터 삭제 요청은 아래로 연락해 주십시오:",
+                term_reading: "파일 읽는 중: privacy_policy.md...", sys_links: "시스템_링크:", link_priv: "[ 개인정보처리방침 ]", link_terms: "[ 이용약관 ]", link_del: "[ 데이터_삭제 ]"
+            },
+            ja: {
+                back_home: "<- ワークスペースに戻る", exp_legal: ">> 法的文書",
+                p_title: "# プライバシーポリシー", p_date: "最終更新日: 2026年3月",
+                h1: "## 1. はじめに", p1: "Crystl Labs（「当社」）は、独自のアプリケーション開発に特化した独立系テクノロジースタジオです。当社はお客様のプライバシーを尊重し、保護することをお約束します。本ポリシーでは、お客様が当社のアプリおよびウェブサイト（crystllabs.com）をご利用になる際の情報の取り扱いについて説明します。",
+                h2: "## 2. AI処理とデータ", p2: "当社のアプリは高度なAIを活用しています。機能を提供するため、入力された一部のデータは安全なサードパーティのAIプロバイダーに送信されます。データはアプリ内での計算目的のみに送信されます。AIプロバイダーがモデルのトレーニングにお客様の入力データを使用することは許可しておらず、データを販売することも一切ありません。",
+                h3: "## 3. 分析とセキュリティ", p3: "当社は、より良いシステムを構築するために匿名化された集計データに依存しています。データ保護のため、業界標準の暗号化を実装しています。AI処理用に送信された一時データは、出力生成後すぐに破棄されます。",
+                h_contact: "## お問い合わせ", p_contact: "プライバシーに関するお問い合わせやデータ削除のご依頼は、以下までご連絡ください:",
+                term_reading: "ファイル読み込み中: privacy_policy.md...", sys_links: "システムリンク:", link_priv: "[ プライバシー ]", link_terms: "[ 利用規約 ]", link_del: "[ データ削除 ]"
+            }
+        };
+        function switchLang(lang) {
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (i18n[lang] && i18n[lang][key]) el.innerHTML = i18n[lang][key];
+            });
+        }
+        window.onload = () => {
+            let lang = localStorage.getItem('crystl_lang') || navigator.language.slice(0, 2);
+            if (!['en', 'ko', 'ja'].includes(lang)) lang = 'en';
+            switchLang(lang);
+        };
+    </script>
 </body>
 </html>
