@@ -42,7 +42,7 @@
     </nav>
 
     <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
-        <aside class="hidden md:block w-64 bg-panelBg border-r-4 border-[#252542] p-4 md:p-6 shrink-0 md:overflow-y-auto">
+        <aside class="hidden md:block w-full md:w-52 bg-panelBg border-r-4 border-[#252542] p-4 shrink-0 md:overflow-y-auto">
             <h2 class="text-brandPink font-pixel text-[10px] mb-4 md:mb-6 uppercase tracking-widest" data-i18n="exp_title">>> Explorer</h2>
             <ul class="space-y-3 md:space-y-4 text-sm font-sans text-gray-400">
                 <li class="hover:text-white transition-transform cursor-pointer flex items-center gap-2 mb-2">
@@ -63,7 +63,7 @@
             </ul>
         </aside>
 
-        <main class="flex-grow p-6 md:p-12 md:overflow-y-auto bg-darkBg relative">
+        <main class="flex-grow p-6 md:p-8 md:overflow-y-auto bg-darkBg relative">
             <div class="max-w-4xl mx-auto">
                 <h1 class="text-2xl md:text-3xl font-pixel text-white mb-4 uppercase" data-i18n="t_title"># Terms of Service</h1>
                 <p class="text-brandPink mb-8 md:mb-12 font-pixel text-[10px]" data-i18n="p_date">Last Updated: March 2026</p>
@@ -86,18 +86,20 @@
         </main>
     </div>
 
-    <footer class="bg-black border-t-4 border-[#252542] p-3 md:p-4 shrink-0 h-auto md:h-28 md:overflow-y-auto font-pixel text-[8px] md:text-[10px] leading-relaxed text-brandGreen flex flex-col justify-between">
-        <div>
-            <p class="mb-1"><span data-i18n="term_reading">> Reading file: terms_of_service.md...</span></p>
-        </div>
-        <div class="flex flex-col md:flex-row gap-2 md:gap-8 text-gray-500 mt-2">
-            <div class="flex flex-wrap gap-3">
-                <span data-i18n="sys_links">SYS_LINKS:</span>
-                <a href="privacy.html" class="hover:text-white transition" data-i18n="link_priv">[ PRIVACY ]</a>
-                <a href="terms.html" class="text-white transition" data-i18n="link_terms">[ TERMS ]</a>
-                <a href="data-deletion.html" class="hover:text-white transition" data-i18n="link_del">[ DELETION ]</a>
+    <footer class="bg-black border-t-4 border-[#252542] p-3 md:p-4 shrink-0 h-auto md:h-20 md:overflow-y-auto font-pixel text-[8px] md:text-[10px] leading-relaxed text-brandGreen flex flex-col justify-center">
+        <div class="flex flex-col md:flex-row justify-between md:items-center w-full gap-2">
+            <div>
+                <p><span data-i18n="term_reading">> Reading file: terms_of_service.md...</span></p>
             </div>
-            <span class="md:ml-auto text-gray-700">© 2026 CRYSTL LABS</span>
+            <div class="flex flex-col md:flex-row md:items-center gap-2 md:gap-6 text-gray-500 mt-2 md:mt-0">
+                <div class="flex flex-wrap gap-3">
+                    <span data-i18n="sys_links">SYS_LINKS:</span>
+                    <a href="privacy.html" class="hover:text-white transition" data-i18n="link_priv">[ PRIVACY ]</a>
+                    <a href="terms.html" class="text-white transition" data-i18n="link_terms">[ TERMS ]</a>
+                    <a href="data-deletion.html" class="hover:text-white transition" data-i18n="link_del">[ DELETION ]</a>
+                </div>
+                <span class="text-gray-700">© 2026 CRYSTL LABS</span>
+            </div>
         </div>
     </footer>
 
