@@ -88,11 +88,27 @@
 
                 <div id="posts-container" class="space-y-12 animate-fade">
                     <!-- BEGIN_STATIC_POSTS -->
-                    <div class="text-center py-12 border-4 border-dashed border-[#252542] rounded-xl">
-                        <span class="text-5xl">📡</span>
-                        <p class="font-pixel text-[11px] text-gray-500 mt-4 uppercase">Waiting for transmissions...</p>
-                        <p class="text-xs text-gray-600 mt-2">Run publish.py to automatically compile your first markdown dispatch.</p>
-                    </div>
+
+                    <a href="ceo/ceo_template.html" class="group block text-left bg-panelBg border-4 border-[#252542] p-6 shadow-[4px_4px_0_0_#252542] hover:border-brandPink transition-colors">
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-xs font-pixel text-brandPink">TRANS_001 // DIRECTIVE</span>
+                            <span class="text-xs font-mono text-gray-500">2026-07-04</span>
+                        </div>
+                        <h2 class="text-lg font-bold text-white mb-3 group-hover:text-brandPink transition-colors">Untitled Dispatch</h2>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6 font-sans">
+                            System parameters compiled successfully.
+                        </p>
+                        <div class="flex flex-wrap justify-between items-center gap-4 border-t border-[#252542] pt-4">
+                            <div class="flex flex-wrap gap-2">
+                                <span class="text-xs font-mono text-brandGreen bg-gray-800/50 px-2.5 py-1 border border-gray-700">System</span>
+
+                            </div>
+                            <span class="text-xs font-pixel text-brandGreen group-hover:text-white transition">
+                                READ LOG ->
+                            </span>
+                        </div>
+                    </a>
+        
                     <!-- END_STATIC_POSTS -->
                 </div>
             </div>
