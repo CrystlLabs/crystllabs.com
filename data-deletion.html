@@ -4,146 +4,148 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Deletion Request | Crystl Labs</title>
-    
+
     <link rel="icon" type="image/png" href="favicon.png">
-    
+
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    colors: { darkBg: '#0f0f1b', panelBg: '#171729', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14', brandRed: '#EF4444' },
-                    fontFamily: { pixel: ['"Press Start 2P"', 'cursive'], sans: ['Inter', 'sans-serif'] }
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14', brandRed: '#EF4444' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
                 }
             }
         }
     </script>
     <style>
-        ::-webkit-scrollbar { width: 12px; }
-        ::-webkit-scrollbar-track { background: #0f0f1b; border-left: 2px solid #252542; }
-        ::-webkit-scrollbar-thumb { background: #252542; }
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
         ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image: radial-gradient(circle at 20% 0%, rgba(239,68,68,0.07), transparent 40%);
+        }
     </style>
 </head>
-<body class="bg-darkBg text-gray-300 font-sans antialiased min-h-screen md:h-screen flex flex-col md:overflow-hidden border-[4px] md:border-[8px] border-[#252542]">
-    
-    <nav class="bg-panelBg px-4 py-2 md:px-6 md:py-3 flex justify-between items-center border-b-4 border-[#252542] shrink-0 z-20">
-        <a href="index.html" class="flex items-center gap-4 md:gap-6 hover:opacity-80">
-            <img src="crystl1.png" alt="" class="h-6 md:h-8 w-auto">
-            <span class="font-pixel text-[10px] md:text-xs text-white uppercase hidden sm:block">Crystl_Engine_v1.0</span>
-        </a>
-        <div class="flex items-center space-x-4 md:space-x-6 font-pixel text-[10px] text-gray-500 uppercase">
-            <a href="index.html" class="hover:text-brandBlue transition" data-i18n="back_home"><- Back_To_Workspace</a>
-            <select id="langSelect" onchange="switchLang(this.value)" class="bg-gray-800 text-brandGreen p-1 md:p-2 rounded outline-none border border-gray-700 cursor-pointer text-[10px] md:text-xs">
+<body class="bg-darkBg text-gray-300 font-sans antialiased min-h-screen md:h-screen flex flex-col md:overflow-hidden">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span data-i18n="nav_run">CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
                 <option value="en">EN</option><option value="ko">KR</option><option value="ja">JP</option>
             </select>
         </div>
     </nav>
 
     <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
-        <aside class="hidden md:block w-full md:w-40 bg-panelBg border-r-4 border-[#252542] p-4 shrink-0 md:overflow-y-auto">
-            <h2 class="text-brandPink font-pixel text-[10px] mb-4 md:mb-6 uppercase tracking-widest" data-i18n="exp_title">>> Explorer</h2>
-            <ul class="space-y-3 md:space-y-4 text-sm font-sans text-gray-400">
-                <li class="hover:text-white transition-transform cursor-pointer flex items-center gap-2 mb-2">
-                    <span class="text-brandBlue font-pixel text-[8px]">📁</span> <span data-i18n="exp_src">src_files</span>
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-52 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-5 shrink-0 overflow-y-auto">
+            <h2 class="text-gray-500 font-mono text-[10px] mb-5 uppercase tracking-widest" data-i18n="exp_title">>> Explorer</h2>
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span data-i18n="exp_src">src_files</span>
                 </li>
-                <li class="px-2 py-1 text-gray-500 text-xs hover:text-white transition-colors">
-                    <a href="index.html" class="block w-full truncate">📄 index.html</a>
+                <li class="ml-1"><a href="index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a></li>
+                <li class="ml-1"><a href="privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                <li class="ml-1"><a href="terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                <li class="ml-1">
+                    <span class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono">
+                        data-deletion.html
+                        <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                    </span>
                 </li>
-                <li class="px-2 py-1 text-gray-500 text-xs hover:text-white transition-colors">
-                    <a href="privacy.html" class="block w-full truncate">📄 privacy.html</a>
+
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mt-6 mb-2 flex items-center gap-2">
+                    <span>📁</span> <span data-i18n="exp_logs">public_logs</span>
                 </li>
-                <li class="px-2 py-1 text-gray-500 text-xs hover:text-white transition-colors">
-                    <a href="terms.html" class="block w-full truncate">📄 terms.html</a>
-                </li>
-                <li class="px-2 py-1.5 text-brandGreen font-bold bg-gray-800 rounded border border-gray-700 flex justify-between items-center shadow-md">
-                    <span class="text-xs truncate">📄 data-deletion.html</span><span class="w-2 h-2 rounded-full bg-brandGreen animate-pulse ml-2 flex-shrink-0"></span>
-                </li>
+                <li class="ml-1"><a href="ceo-blog.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">ceo_executive.log</a></li>
+                <li class="ml-1"><a href="dev-blog.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">dev_senior.log</a></li>
             </ul>
         </aside>
 
-        <main class="flex-grow p-6 md:p-8 md:overflow-y-auto bg-darkBg relative">
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
             <div class="max-w-3xl mx-auto">
-                <div class="bg-panelBg p-6 md:p-10 border-4 border-brandRed shadow-[4px_4px_0_0_#EF4444] md:shadow-[8px_8px_0_0_#EF4444]">
-                    <h1 class="text-xl md:text-3xl font-pixel text-white mb-6 uppercase" data-i18n="d_title">System: Data Deletion</h1>
-                    <div class="space-y-4 md:space-y-6 text-sm leading-relaxed text-gray-400 mb-8 md:mb-10">
+                <h1 class="text-2xl md:text-4xl font-extrabold tracking-tight text-white mb-3" data-i18n="d_title"># Data Deletion</h1>
+                <p class="text-gray-500 mb-10 md:mb-14 font-mono text-xs" data-i18n="p_date">Last Updated: March 2026</p>
+
+                <div class="space-y-8 md:space-y-10 text-sm md:text-base leading-relaxed text-gray-400">
+                    <section>
+                        <h2 class="text-white font-semibold text-sm md:text-base mb-3" data-i18n="h1">1. Requesting Deletion</h2>
                         <p data-i18n="p1">In compliance with global privacy standards, we provide a direct method for users to request the complete deletion of their account and any associated personal data generated by our applications.</p>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-300">
+                        <ul class="list-disc pl-6 space-y-2 text-gray-300 mt-4">
                             <li data-i18n="li1">Your account credentials and profile information.</li>
                             <li data-i18n="li2">Any saved AI-processed outputs tied to your account.</li>
                             <li data-i18n="li3">Identifiable telemetry or usage history.</li>
                         </ul>
-                        <p class="text-brandPink font-pixel text-[8px] md:text-[10px] mt-4 uppercase" data-i18n="warning">WARNING: Data cannot be recovered once deletion is executed.</p>
-                    </div>
-
-                    <div class="border-t-4 border-[#252542] pt-6 md:pt-8 mt-6 md:mt-8">
-                        <p class="mb-6 text-gray-400 font-bold text-sm md:text-base" data-i18n="instructions">Click the execute command below to email our privacy team. Please email us from the exact address associated with your app account.</p>
-                        
-                        <a href="mailto:crystllabs@gmail.com?subject=Data%20Deletion%20Request&body=Hello%20Crystl%20Labs%20Team,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20complete%20deletion%20of%20my%20account%20and%20all%20associated%20data%20from%20your%20applications.%0D%0A%0D%0AThe%20email%20address%20associated%20with%20my%20account%20is:%20[Please%20leave%20this%20as%20the%20email%20you%20are%20sending%20from]%0D%0A%0D%0AThank%20you," 
-                           class="inline-block py-3 md:py-4 px-6 md:px-8 bg-brandRed hover:bg-white hover:text-brandRed text-white font-pixel text-[8px] md:text-[10px] uppercase transition-colors text-center w-full md:w-auto">
+                    </section>
+                    <section class="mt-10 md:mt-14 p-6 md:p-8 rounded-2xl bg-panelBg/60 border border-brandRed/20">
+                        <p class="text-brandRed font-mono text-xs uppercase tracking-wide mb-4" data-i18n="warning">WARNING: Data cannot be recovered once deletion is executed.</p>
+                        <p class="mb-6" data-i18n="instructions">Click the execute command below to email our privacy team. Please email us from the exact address associated with your app account.</p>
+                        <a href="mailto:crystllabs@gmail.com?subject=Data%20Deletion%20Request&body=Hello%20Crystl%20Labs%20Team,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20complete%20deletion%20of%20my%20account%20and%20all%20associated%20data%20from%20your%20applications.%0D%0A%0D%0AThe%20email%20address%20associated%20with%20my%20account%20is:%20[Please%20leave%20this%20as%20the%20email%20you%20are%20sending%20from]%0D%0A%0D%0AThank%20you,"
+                           class="inline-flex items-center justify-center gap-2 py-3 px-6 rounded-lg bg-brandRed/90 hover:bg-brandRed text-white font-mono text-xs uppercase tracking-wide transition-colors text-center w-full md:w-auto">
                             <span data-i18n="btn_del">> Execute_Deletion_Request</span>
                         </a>
-                    </div>
+                    </section>
                 </div>
             </div>
         </main>
     </div>
 
-    <footer class="bg-black border-t-4 border-[#252542] p-3 md:p-4 shrink-0 h-auto md:h-20 md:overflow-y-auto font-pixel text-[8px] md:text-[10px] leading-relaxed text-brandGreen flex flex-col justify-center">
-        <div class="flex flex-col md:flex-row justify-between md:items-center w-full gap-2">
-            <div>
-                <p><span data-i18n="term_reading">> Reading file: data_deletion.md...</span></p>
-            </div>
-            <div class="flex flex-col md:flex-row md:items-center gap-2 md:gap-6 text-gray-500 mt-2 md:mt-0">
-                <div class="flex flex-wrap gap-3">
-                    <span data-i18n="sys_links">SYS_LINKS:</span>
-                    <a href="privacy.html" class="hover:text-white transition" data-i18n="link_priv">[ PRIVACY ]</a>
-                    <a href="terms.html" class="hover:text-white transition" data-i18n="link_terms">[ TERMS ]</a>
-                    <a href="data-deletion.html" class="text-white transition" data-i18n="link_del">[ DELETION ]</a>
-                </div>
-                <span class="md:ml-auto text-gray-700">© 2026 CRYSTL LABS</span>
-            </div>
-        </div>
-    </footer>
-
     <script>
         const i18n = {
             en: {
-                back_home: "<- Back_To_Workspace", exp_title: ">> Explorer", exp_src: "src_files",
-                d_title: "System: Data Deletion",
+                nav_run: "CONNECTED", exp_title: ">> Explorer", exp_src: "src_files", exp_logs: "public_logs",
+                d_title: "# Data Deletion", p_date: "Last Updated: March 2026",
+                h1: "1. Requesting Deletion",
                 p1: "In compliance with global privacy standards, we provide a direct method for users to request the complete deletion of their account and any associated personal data generated by our applications.",
                 li1: "Your account credentials and profile information.",
                 li2: "Any saved AI-processed outputs tied to your account.",
                 li3: "Identifiable telemetry or usage history.",
                 warning: "WARNING: Data cannot be recovered once deletion is executed.",
                 instructions: "Click the execute command below to email our privacy team. Please email us from the exact address associated with your app account.",
-                btn_del: "> Execute_Deletion_Request",
-                term_reading: "> Reading file: data_deletion.md...", sys_links: "SYS_LINKS:", link_priv: "[ PRIVACY ]", link_terms: "[ TERMS ]", link_del: "[ DELETION ]"
+                btn_del: "> Execute_Deletion_Request"
             },
             ko: {
-                back_home: "<- 워크스페이스로_돌아가기", exp_title: ">> 탐색기", exp_src: "소스_파일",
-                d_title: "시스템: 데이터 삭제",
+                nav_run: "연결됨", exp_title: ">> 탐색기", exp_src: "소스_파일", exp_logs: "공개_로그",
+                d_title: "# 데이터 삭제", p_date: "최종 수정일: 2026년 3월",
+                h1: "1. 삭제 요청 방법",
                 p1: "글로벌 개인정보 보호 표준에 따라 당사는 사용자가 계정 및 애플리케이션에서 생성된 모든 개인 데이터의 완전한 삭제를 요청할 수 있는 직접적인 방법을 제공합니다.",
                 li1: "귀하의 계정 자격 증명 및 프로필 정보.",
                 li2: "계정과 연결된 모든 AI 처리 결과물.",
                 li3: "식별 가능한 원격 측정 또는 사용 기록.",
                 warning: "경고: 삭제가 실행되면 데이터를 복구할 수 없습니다.",
                 instructions: "아래 실행 명령을 클릭하여 개인정보 보호 팀에 이메일을 보내십시오. 반드시 앱 계정과 연결된 이메일 주소로 발송해 주십시오.",
-                btn_del: "> 삭제_요청_실행",
-                term_reading: "> 파일 읽는 중: data_deletion.md...", sys_links: "시스템_링크:", link_priv: "[ 개인정보처리방침 ]", link_terms: "[ 이용약관 ]", link_del: "[ 데이터_삭제 ]"
+                btn_del: "> 삭제_요청_실행"
             },
             ja: {
-                back_home: "<- ワークスペースに戻る", exp_title: ">> エクスプローラー", exp_src: "ソースファイル",
-                d_title: "システム: データ削除",
+                nav_run: "接続済み", exp_title: ">> エクスプローラー", exp_src: "ソースファイル", exp_logs: "公開ログ",
+                d_title: "# データ削除", p_date: "最終更新日: 2026年3月",
+                h1: "1. 削除リクエストの方法",
                 p1: "グローバルなプライバシー基準に従い、ユーザーがアカウントおよびアプリで生成された個人データの完全な削除をリクエストできる直接的な方法を提供しています。",
                 li1: "アカウントの認証情報とプロフィール情報。",
                 li2: "アカウントに関連付けられた保存済みのAI処理結果。",
                 li3: "特定可能なテレメトリまたは使用履歴。",
                 warning: "警告: 削除が実行されるとデータを復元することはできません。",
                 instructions: "以下のコマンドをクリックして、プライバシーチームにメールを送信してください。必ずアプリアカウントに関連付けられたメールアドレスから送信してください。",
-                btn_del: "> 削除リクエストを実行",
-                term_reading: "> ファイル読み込み中: data_deletion.md...", sys_links: "システムリンク:", link_priv: "[ プライバシー ]", link_terms: "[ 利用規約 ]", link_del: "[ データ削除 ]"
+                btn_del: "> 削除リクエストを実行"
             }
         };
         function switchLang(lang) {
@@ -153,6 +155,12 @@
                 const key = el.getAttribute('data-i18n');
                 if (i18n[lang] && i18n[lang][key]) el.innerHTML = i18n[lang][key];
             });
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
         }
         window.onload = () => {
             let lang = localStorage.getItem('crystl_lang') || navigator.language.slice(0, 2);

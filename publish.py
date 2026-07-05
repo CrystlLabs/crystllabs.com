@@ -29,24 +29,24 @@ def parse_markdown_to_html(content):
     # Parse bold text
     content = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', content)
     # Parse headers
-    content = re.sub(r'### (.*?)\n', r'<h4 class="text-sm font-bold text-white mt-4 mb-2">\1</h4>\n', content)
-    content = re.sub(r'## (.*?)\n', r'<h3 class="text-base font-pixel text-brandGreen mt-6 mb-3 uppercase">\1</h3>\n', content)
-    content = re.sub(r'# (.*?)\n', r'<h2 class="text-lg font-pixel text-white mt-8 mb-4 uppercase">\1</h2>\n', content)
+    content = re.sub(r'### (.*?)\n', r'<h4 class="text-sm font-semibold text-white mt-4 mb-2">\1</h4>\n', content)
+    content = re.sub(r'## (.*?)\n', r'<h3 class="text-base font-mono text-brandGreen mt-6 mb-3">\1</h3>\n', content)
+    content = re.sub(r'# (.*?)\n', r'<h2 class="text-lg font-extrabold tracking-tight text-white mt-8 mb-4">\1</h2>\n', content)
     # Parse lists
     content = re.sub(r'^\s*-\s*(.*?)$', r'<li class="ml-4 list-disc text-gray-400 text-sm py-1">\1</li>', content, flags=re.MULTILINE)
     # Wrap lists
     content = re.sub(r'(<li.*?>.*?</li>\n?)+', r'<ul class="my-4">\g<0></ul>', content)
-    # Parse code blocks (retro styled terminals)
+    # Parse code blocks
     content = re.sub(
-        r'```(.*?)\n(.*?)```', 
-        r'<pre class="bg-black/60 border-2 border-[#252542] p-4 rounded font-mono text-xs text-brandGreen overflow-x-auto my-6"><code class="language-\1">\2</code></pre>', 
-        content, 
+        r'```(.*?)\n(.*?)```',
+        r'<pre class="bg-black/40 border border-white/10 p-4 rounded-lg font-mono text-xs text-brandGreen overflow-x-auto my-6"><code class="language-\1">\2</code></pre>',
+        content,
         flags=re.DOTALL
     )
     # Parse images
     content = re.sub(
         r'!\[(.*?)\]\((.*?)\)',
-        r'<img src="\2" alt="\1" class="max-w-full my-6 border-4 border-[#252542] shadow-[4px_4px_0_0_#252542] block mx-auto rounded">',
+        r'<img src="\2" alt="\1" class="max-w-full my-6 rounded-xl border border-white/10 shadow-xl shadow-black/30 block mx-auto">',
         content
     )
     
@@ -108,11 +108,25 @@ def parse_post(file_path):
 def generate_standalone_page(post, category, slug, color, tag):
     """Generates a complete, beautiful standalone HTML page for an article inside its respective folder."""
     back_url = "../ceo-blog.html" if category == "ceo" else "../dev-blog.html"
-    accent_color = "brandPink" if color == "brandPink" else "brandBlue"
-    
+    accent_color = "brandPink" if category == "ceo" else "brandBlue"
+    glow_rgb = "217,70,239" if category == "ceo" else "59,130,246"
+
+    if category == "ceo":
+        ceo_item = f"""<span class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandPink text-white text-xs font-mono">
+                        ceo_executive.log
+                        <span class="w-1.5 h-1.5 rounded-full bg-brandPink animate-pulse flex-shrink-0"></span>
+                    </span>"""
+        dev_item = '<a href="../dev-blog.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">dev_senior.log</a>'
+    else:
+        ceo_item = '<a href="../ceo-blog.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">ceo_executive.log</a>'
+        dev_item = f"""<span class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandBlue text-white text-xs font-mono">
+                        dev_senior.log
+                        <span class="w-1.5 h-1.5 rounded-full bg-brandBlue animate-pulse flex-shrink-0"></span>
+                    </span>"""
+
     tags_elements = ""
     for t in post['tags']:
-        tags_elements += f'<span class="text-xs font-mono text-brandGreen bg-gray-800/50 px-2.5 py-1 border border-gray-700">{t}</span>\n'
+        tags_elements += f'<span class="text-[11px] font-mono text-gray-400 bg-white/5 px-2.5 py-1 rounded border border-white/10">{t}</span>\n'
 
     html_template = f"""<!DOCTYPE html>
 <html lang="en">
@@ -120,80 +134,83 @@ def generate_standalone_page(post, category, slug, color, tag):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{post['title']} | Crystl Labs</title>
-    <link rel="icon" type="image/jpeg" href="../favicon.jpg">
+    <link rel="icon" type="image/png" href="../favicon.png">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {{
             theme: {{
                 extend: {{
-                    colors: {{ darkBg: '#0f0f1b', panelBg: '#171729', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' }},
-                    fontFamily: {{ pixel: ['"Press Start 2P"', 'cursive'], sans: ['Inter', 'sans-serif'] }}
+                    colors: {{ darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' }},
+                    fontFamily: {{ mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }}
                 }}
             }}
         }}
     </script>
     <style>
-        ::-webkit-scrollbar {{ width: 12px; }}
-        ::-webkit-scrollbar-track {{ background: #0f0f1b; border-left: 2px solid #252542; }}
-        ::-webkit-scrollbar-thumb {{ background: #252542; }}
+        ::-webkit-scrollbar {{ width: 10px; }}
+        ::-webkit-scrollbar-track {{ background: #0a0a12; }}
+        ::-webkit-scrollbar-thumb {{ background: #22222f; border-radius: 999px; }}
         ::-webkit-scrollbar-thumb:hover {{ background: #D946EF; }}
-        .glow-text {{ text-shadow: 0 0 8px rgba(217, 70, 239, 0.6); }}
+        .bg-grid {{
+            background-image: radial-gradient(circle at 20% 0%, rgba({glow_rgb},0.07), transparent 40%);
+        }}
     </style>
 </head>
-<body class="bg-darkBg text-gray-300 font-sans antialiased min-h-screen md:h-screen flex flex-col md:overflow-hidden border-[4px] md:border-[8px] border-[#252542]">
-    
-    <nav class="bg-panelBg px-4 py-2 md:px-6 md:py-3 flex justify-between items-center border-b-4 border-[#252542] shrink-0 z-20">
-        <a href="../index.html" class="flex items-center gap-4 md:gap-6 hover:opacity-80">
-            <img src="../crystl1.jpg" alt="" class="h-6 md:h-8 w-auto">
-            <span class="font-pixel text-[10px] md:text-xs text-white uppercase hidden sm:block">Crystl_Engine_v1.0</span>
-        </a>
-        <div class="flex items-center space-x-4 md:space-x-6 font-pixel text-[10px] text-gray-500 uppercase">
-            <a href="{back_url}" class="hover:text-brandBlue transition"><- Back_To_Logs</a>
+<body class="bg-darkBg text-gray-300 font-sans antialiased min-h-screen md:h-screen flex flex-col md:overflow-hidden">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                CONNECTED
+            </span>
         </div>
     </nav>
 
     <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
-        <aside class="w-full md:w-48 bg-panelBg border-b-4 md:border-b-0 md:border-r-4 border-[#252542] p-4 shrink-0 md:overflow-y-auto">
-            <h2 class="text-brandPink font-pixel text-[10px] mb-4 md:mb-6 uppercase tracking-widest">>> Explorer</h2>
-            <ul class="space-y-3 md:space-y-4 text-sm font-sans text-gray-400">
-                <li class="hover:text-white transition-transform cursor-pointer flex items-center gap-2 mb-2">
-                    <span class="text-brandBlue font-pixel text-[8px]">📁</span> <span>src_files</span>
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-52 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-5 shrink-0 overflow-y-auto">
+            <h2 class="text-gray-500 font-mono text-[10px] mb-5 uppercase tracking-widest">>> Explorer</h2>
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
                 </li>
-                <li class="px-2 py-1 text-gray-500 text-xs hover:text-white transition-colors">
-                    <a href="../index.html" class="block w-full truncate">📄 index.html</a>
+                <li class="ml-1"><a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a></li>
+                <li class="ml-1"><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                <li class="ml-1"><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                <li class="ml-1"><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mt-6 mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>public_logs</span>
                 </li>
-                <li class="px-2 py-1 text-gray-500 text-xs hover:text-white transition-colors">
-                    <a href="../privacy.html" class="block w-full truncate">📄 privacy.html</a>
-                </li>
-                <li class="px-2 py-1 text-gray-500 text-xs hover:text-white transition-colors">
-                    <a href="../terms.html" class="block w-full truncate">📄 terms.html</a>
-                </li>
-                <li class="px-2 py-1 text-gray-500 text-xs hover:text-white transition-colors">
-                    <a href="../data-deletion.html" class="block w-full truncate">📄 data-deletion.html</a>
-                </li>
-                <li class="hover:text-white transition-transform cursor-pointer flex items-center gap-2 mt-6 mb-2">
-                    <span class="text-brandPink font-pixel text-[8px]">📁</span> <span>public_logs</span>
-                </li>
-                <li class="px-2 py-1 text-gray-500 text-xs hover:text-white transition-colors">
-                    <a href="../ceo-blog.html" class="block w-full truncate">📄 ceo_executive.log</a>
-                </li>
-                <li class="px-2 py-1.5 text-brandGreen font-bold bg-gray-800 rounded border border-gray-700 flex justify-between items-center shadow-md text-xs">
-                    <span class="truncate">📄 dev_senior.log</span><span class="w-2 h-2 rounded-full bg-brandBlue animate-pulse ml-2 flex-shrink-0"></span>
-                </li>
+                <li class="ml-1">{ceo_item}</li>
+                <li class="ml-1">{dev_item}</li>
             </ul>
         </aside>
 
-        <main class="flex-grow p-6 md:p-8 md:overflow-y-auto bg-darkBg relative">
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
             <div class="max-w-3xl mx-auto">
-                <article class="bg-panelBg border-4 border-[#252542] p-8 shadow-[8px_8px_0_0_#252542]">
-                    <header class="mb-8 border-b border-[#252542] pb-6">
+                <article class="rounded-2xl border border-white/10 bg-panelBg/60 p-6 md:p-8 shadow-xl shadow-black/20">
+                    <header class="mb-8 border-b border-white/10 pb-6">
                         <div class="flex justify-between items-center mb-4">
-                            <span class="text-xs font-pixel text-{accent_color}">{tag} // ARTICLE</span>
-                            <span class="text-xs font-mono text-gray-500">{post['date']}</span>
+                            <span class="text-[11px] font-mono text-{accent_color} tracking-wide">{tag} // ARTICLE</span>
+                            <span class="text-[11px] font-mono text-gray-500">{post['date']}</span>
                         </div>
-                        <h1 class="text-xl md:text-2xl font-bold text-white mb-4">{post['title']}</h1>
-                        <p class="text-gray-400 text-sm font-mono leading-relaxed border-l-4 border-brandGreen pl-4 py-1">
+                        <h1 class="text-xl md:text-2xl font-extrabold tracking-tight text-white mb-4">{post['title']}</h1>
+                        <p class="text-gray-400 text-sm leading-relaxed border-l-2 border-white/10 pl-4 py-1">
                             {post['summary']}
                         </p>
                     </header>
@@ -202,36 +219,28 @@ def generate_standalone_page(post, category, slug, color, tag):
                         {post['body']}
                     </div>
 
-                    <div class="border-t border-[#252542] pt-6 mt-8 flex flex-wrap gap-2">
+                    <div class="border-t border-white/10 pt-6 mt-8 flex flex-wrap gap-2">
                         {tags_elements}
                     </div>
                 </article>
-                
+
                 <div class="mt-8 text-center">
-                    <a href="{back_url}" class="inline-block px-6 py-2 border-2 border-brandGreen text-brandGreen font-pixel text-xs hover:bg-brandGreen hover:text-black transition">
-                        <- RETURN TO DIRECTORY
+                    <a href="{back_url}" class="inline-block px-6 py-2.5 rounded-lg border border-white/10 text-gray-400 font-mono text-xs uppercase tracking-wide hover:text-white hover:border-white/20 transition-colors">
+                        &lt;- Return to directory
                     </a>
                 </div>
             </div>
         </main>
     </div>
 
-    <footer class="bg-black border-t-4 border-[#252542] p-3 md:p-4 shrink-0 h-auto md:h-20 md:overflow-y-auto font-pixel text-[8px] md:text-[10px] leading-relaxed text-brandGreen flex flex-col justify-center">
-        <div class="flex flex-col md:flex-row justify-between md:items-center w-full gap-2">
-            <div>
-                <p>> Reading Transmission Article Stream: Closed Loop Connected</p>
-            </div>
-            <div class="flex flex-col md:flex-row md:items-center gap-2 md:gap-6 text-gray-500 mt-2 md:mt-0">
-                <div class="flex flex-wrap gap-3">
-                    <span>SYS_LINKS:</span>
-                    <a href="../privacy.html" class="hover:text-white transition">[ PRIVACY ]</a>
-                    <a href="../terms.html" class="hover:text-white transition">[ TERMS ]</a>
-                    <a href="../data-deletion.html" class="hover:text-white transition">[ DELETION ]</a>
-                </div>
-                <span class="text-gray-700">© 2026 CRYSTL LABS</span>
-            </div>
-        </div>
-    </footer>
+    <script>
+        function toggleMenu() {{
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }}
+    </script>
 </body>
 </html>
 """
@@ -267,27 +276,27 @@ def compile_posts(folder, tag_color, prefix):
         slug = post['slug']
         tag_elements = ""
         for tag in post['tags']:
-            tag_elements += f'<span class="text-xs font-mono text-brandGreen bg-gray-800/50 px-2.5 py-1 border border-gray-700">{tag}</span>\n'
+            tag_elements += f'<span class="text-[11px] font-mono text-gray-400 bg-white/5 px-2.5 py-1 rounded border border-white/10">{tag}</span>\n'
 
         # Generate individual static post files
         generate_standalone_page(post, category, slug, tag_color, f"{prefix}_{idx+1:03d}")
 
         # Generate index cards that link to standalone pages (fully clickable blocks)
         compiled_html += f"""
-                    <a href="{category}/{slug}.html" class="group block text-left bg-panelBg border-4 border-[#252542] p-6 shadow-[4px_4px_0_0_#252542] hover:border-{tag_color} transition-colors">
+                    <a href="{category}/{slug}.html" class="group block text-left rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-{tag_color}/40 p-6 shadow-lg shadow-black/20 transition-all">
                         <div class="flex justify-between items-center mb-4">
-                            <span class="text-xs font-pixel text-{tag_color}">{prefix}_{idx+1:03d} // DIRECTIVE</span>
-                            <span class="text-xs font-mono text-gray-500">{post['date']}</span>
+                            <span class="text-[11px] font-mono text-{tag_color} tracking-wide">{prefix}_{idx+1:03d} // DIRECTIVE</span>
+                            <span class="text-[11px] font-mono text-gray-500">{post['date']}</span>
                         </div>
-                        <h2 class="text-lg font-bold text-white mb-3 group-hover:text-{tag_color} transition-colors">{post['title']}</h2>
-                        <p class="text-gray-400 text-sm leading-relaxed mb-6 font-sans">
+                        <h2 class="text-lg font-semibold text-white mb-3 group-hover:text-{tag_color} transition-colors">{post['title']}</h2>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
                             {post['summary']}
                         </p>
-                        <div class="flex flex-wrap justify-between items-center gap-4 border-t border-[#252542] pt-4">
+                        <div class="flex flex-wrap justify-between items-center gap-4 border-t border-white/10 pt-4">
                             <div class="flex flex-wrap gap-2">
                                 {tag_elements}
                             </div>
-                            <span class="text-xs font-pixel text-brandGreen group-hover:text-white transition">
+                            <span class="text-[11px] font-mono text-gray-500 group-hover:text-white transition-colors">
                                 READ LOG ->
                             </span>
                         </div>
