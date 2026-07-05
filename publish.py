@@ -183,7 +183,6 @@ def generate_standalone_page(post, category, slug, color, tag):
         <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
 
         <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-52 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-5 shrink-0 overflow-y-auto">
-            <h2 class="text-gray-500 font-mono text-[10px] mb-5 uppercase tracking-widest">>> Explorer</h2>
             <ul class="space-y-1 text-sm font-sans text-gray-400">
                 <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
                     <span>📁</span> <span>src_files</span>
@@ -209,7 +208,7 @@ def generate_standalone_page(post, category, slug, color, tag):
                             <span class="text-[11px] font-mono text-{accent_color} tracking-wide">{tag} // ARTICLE</span>
                             <span class="text-[11px] font-mono text-gray-500">{post['date']}</span>
                         </div>
-                        <h1 class="text-xl md:text-2xl font-extrabold tracking-tight text-white mb-4">{post['title']}</h1>
+                        <h1 class="text-xl md:text-2xl font-extrabold tracking-tight text-white mb-4">{post['title']} //</h1>
                         <p class="text-gray-400 text-sm leading-relaxed border-l-2 border-white/10 pl-4 py-1">
                             {post['summary']}
                         </p>

@@ -58,7 +58,6 @@
         <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
 
         <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-52 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-5 shrink-0 overflow-y-auto">
-            <h2 class="text-gray-500 font-mono text-[10px] mb-5 uppercase tracking-widest" data-i18n="exp_title">>> Explorer</h2>
             <ul class="space-y-1 text-sm font-sans text-gray-400">
                 <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
                     <span>📁</span> <span data-i18n="exp_src">src_files</span>
@@ -83,7 +82,7 @@
 
         <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
             <div class="max-w-3xl mx-auto">
-                <h1 class="text-2xl md:text-4xl font-extrabold tracking-tight text-white mb-3" data-i18n="p_title"># Privacy Policy</h1>
+                <h1 class="text-2xl md:text-4xl font-extrabold tracking-tight text-white mb-3" data-i18n="p_title">Privacy Policy //</h1>
                 <p class="text-gray-500 mb-10 md:mb-14 font-mono text-xs" data-i18n="p_date">Last Updated: March 2026</p>
 
                 <div class="space-y-8 md:space-y-10 text-sm md:text-base leading-relaxed text-gray-400">
@@ -112,24 +111,24 @@
     <script>
         const i18n = {
             en: {
-                nav_run: "CONNECTED", exp_title: ">> Explorer", exp_src: "src_files", exp_logs: "public_logs",
-                p_title: "# Privacy Policy", p_date: "Last Updated: March 2026",
+                nav_run: "CONNECTED", exp_src: "src_files", exp_logs: "public_logs",
+                p_title: "Privacy Policy //", p_date: "Last Updated: March 2026",
                 h1: "1. Introduction", p1: "Crystl Labs (\"we,\" \"our,\" or \"us\") is an independent technology studio dedicated to building proprietary applications. We respect your privacy and are committed to protecting the personal data you share with us. This Privacy Policy explains how we collect, process, and safeguard your information when you use our mobile applications and website (crystllabs.com).",
                 h2: "2. AI Processing and Your Data", p2: "Our applications leverage advanced Artificial Intelligence (AI) to provide core functionalities. To deliver these features, certain text, image, or contextual data you input into our apps must be transmitted to secure, third-party AI processing providers. Your data is transmitted solely for the purpose of computing within the app. We do not permit our third-party AI providers to use your personal inputs to train their models, and we absolutely do not sell data to brokers.",
                 h3: "3. Analytics & Security", p3: "We rely on anonymized, aggregated telemetry to architect better frameworks. We implement industry-standard encryption to protect data in transit. Transient data sent for AI processing is discarded immediately after output is generated unless specified otherwise.",
                 h_contact: "Contact Us", p_contact: "For privacy-related inquiries or data deletion requests, please reach out:"
             },
             ko: {
-                nav_run: "연결됨", exp_title: ">> 탐색기", exp_src: "소스_파일", exp_logs: "공개_로그",
-                p_title: "# 개인정보처리방침", p_date: "최종 수정일: 2026년 3월",
+                nav_run: "연결됨", exp_src: "소스_파일", exp_logs: "공개_로그",
+                p_title: "개인정보처리방침 //", p_date: "최종 수정일: 2026년 3월",
                 h1: "1. 소개", p1: "Crystl Labs(\"당사\")는 독점 애플리케이션 구축에 전념하는 독립 기술 스튜디오입니다. 본 방침은 귀하가 당사의 모바일 앱 및 웹사이트(crystllabs.com)를 이용할 때 정보를 수집, 처리 및 보호하는 방법을 설명합니다.",
                 h2: "2. AI 처리 및 데이터", p2: "당사의 애플리케이션은 기능 제공을 위해 AI를 활용합니다. 특정 데이터는 안전한 제3자 AI 제공업체로 전송됩니다. 당사는 제3자 제공업체가 귀하의 데이터를 모델 학습에 사용하는 것을 허용하지 않으며, 데이터를 판매하지 않습니다.",
                 h3: "3. 분석 및 보안", p3: "당사는 더 나은 프레임워크 설계를 위해 익명화된 원격 측정 데이터에 의존합니다. 전송 중인 데이터를 보호하기 위해 암호화를 구현하며 임시 데이터는 결과가 생성된 직후 폐기됩니다.",
                 h_contact: "연락처", p_contact: "개인정보 관련 문의나 데이터 삭제 요청은 아래로 연락해 주십시오:"
             },
             ja: {
-                nav_run: "接続済み", exp_title: ">> エクスプローラー", exp_src: "ソースファイル", exp_logs: "公開ログ",
-                p_title: "# プライバシーポリシー", p_date: "最終更新日: 2026年3月",
+                nav_run: "接続済み", exp_src: "ソースファイル", exp_logs: "公開ログ",
+                p_title: "プライバシーポリシー //", p_date: "最終更新日: 2026年3月",
                 h1: "1. はじめに", p1: "Crystl Labs（「当社」）は、独自のアプリケーション開発に特化した独立系テクノロジースタジオです。本ポリシーでは、お客様が当社のアプリおよびウェブサイト（crystllabs.com）をご利用になる際の情報の取り扱いについて説明します。",
                 h2: "2. AI処理とデータ", p2: "当社のアプリは機能を提供するため、入力されたデータは安全なサードパーティのAIプロバイダーに送信されます。AIプロバイダーがモデルのトレーニングに入力データを使用することは許可しておらず、データを販売することもありません。",
                 h3: "3. 分析とセキュリティ", p3: "当社は、より良いシステムを構築するために匿名化された集計データに依存しています。データ保護のため暗号化を実装し、AI処理用のデータは出力生成後すぐに破棄されます。",

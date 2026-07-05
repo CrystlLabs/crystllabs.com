@@ -69,7 +69,6 @@
         <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
 
         <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-52 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-5 shrink-0 overflow-y-auto">
-            <h2 class="text-gray-500 font-mono text-[10px] mb-5 uppercase tracking-widest" data-i18n="exp_title">>> Explorer</h2>
             <ul class="space-y-1 text-sm font-sans text-gray-400">
                 <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
                     <span>📁</span> <span data-i18n="exp_src">src_files</span>
@@ -104,13 +103,13 @@
 
         <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
             <div class="max-w-4xl mx-auto">
-                <header class="mb-12 md:mb-20 md:ml-6 lg:ml-10">
+                <header class="mb-6 md:mb-10 md:ml-6 lg:ml-10">
                     <h1 class="text-gradient text-5xl md:text-7xl font-extrabold tracking-tight leading-tight">Crystl Labs</h1>
                     <p class="mt-4 md:mt-5 font-mono text-sm md:text-base text-gray-400 tracking-wide" data-i18n="hero_tagline">Elegant worlds, deeply simulated.</p>
                 </header>
 
                 <section id="apps" class="mb-12 md:mb-20">
-                    <h2 class="font-mono text-[11px] md:text-xs text-gray-500 mb-5 md:mb-8 uppercase tracking-widest" data-i18n="live_dep">> Live_Deployments</h2>
+                    <h2 class="font-mono text-[11px] md:text-xs text-gray-500 mb-5 md:mb-8 uppercase tracking-widest" data-i18n="live_dep">Projects //</h2>
                     <div class="grid sm:grid-cols-2 gap-4 md:gap-6">
                         <div class="rounded-2xl border border-dashed border-white/10 bg-white/[0.02] p-6 md:p-10 flex flex-col items-center justify-center text-center min-h-[160px] md:min-h-[200px]">
                             <div class="text-gray-600 mb-4 text-2xl">🔒</div>
@@ -126,7 +125,7 @@
                 </section>
 
                 <section id="logs" class="mb-4">
-                    <h2 class="font-mono text-[11px] md:text-xs text-gray-500 mb-5 md:mb-8 uppercase tracking-widest">> Transmission_Logs</h2>
+                    <h2 class="font-mono text-[11px] md:text-xs text-gray-500 mb-5 md:mb-8 uppercase tracking-widest">Logs //</h2>
                     <div class="grid sm:grid-cols-2 gap-4 md:gap-6">
                         <a href="ceo-blog.html" class="group rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-6 shadow-lg shadow-black/20 transition-all block">
                             <div class="flex justify-between items-center mb-4">
@@ -154,21 +153,21 @@
         const i18n = {
             en: {
                 nav_run: "CONNECTED",
-                exp_title: ">> Explorer", exp_src: "src_files", exp_logs: "public_logs",
+                exp_src: "src_files", exp_logs: "public_logs",
                 hero_tagline: "Elegant worlds, deeply simulated.",
-                live_dep: "> Live_Deployments", redacted: "[ REDACTED ]", dep_pend: "Deployment Pending", await_clear: "Awaiting Clearance"
+                live_dep: "Projects //", redacted: "[ REDACTED ]", dep_pend: "Deployment Pending", await_clear: "Awaiting Clearance"
             },
             ko: {
                 nav_run: "연결됨",
-                exp_title: ">> 탐색기", exp_src: "소스_파일", exp_logs: "공개_로그",
+                exp_src: "소스_파일", exp_logs: "공개_로그",
                 hero_tagline: "우아한 세계, 깊이 있는 시뮬레이션.",
-                live_dep: "> 라이브_배포", redacted: "[ 기밀 사항 ]", dep_pend: "배포 대기 중", await_clear: "승인 대기 중"
+                live_dep: "프로젝트 //", redacted: "[ 기밀 사항 ]", dep_pend: "배포 대기 중", await_clear: "승인 대기 중"
             },
             ja: {
                 nav_run: "接続済み",
-                exp_title: ">> エクスプローラー", exp_src: "ソースファイル", exp_logs: "公開ログ",
+                exp_src: "ソースファイル", exp_logs: "公開ログ",
                 hero_tagline: "優雅な世界、深いシミュレーション。",
-                live_dep: "> ライブ_デプロイメント", redacted: "[ 機密事項 ]", dep_pend: "デプロイ待機中", await_clear: "承認待機中"
+                live_dep: "プロジェクト //", redacted: "[ 機密事項 ]", dep_pend: "デプロイ待機中", await_clear: "承認待機中"
             }
         };
 
