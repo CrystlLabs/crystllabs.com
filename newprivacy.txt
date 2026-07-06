@@ -1,0 +1,138 @@
+Last Updated: July 6, 2026
+
+This Privacy Policy explains how Crystl Labs ("we," "us," or "our") handles information in
+connection with Chess Drill Instructor and our other applications (collectively, the "Apps"). Not
+every App offers every feature described in this Policy — for example, some Apps do not offer user
+accounts, request location access, or request contacts access. The data we actually collect depends
+on the features a given App offers; see that App's "Data safety" section on its Google Play Store
+listing for the specifics of that App. By using our Apps, you agree to the practices described here.
+
+1. Information We Collect
+
+Information you provide.
+- Account information (if applicable). Some Apps let you create an account, which may require an
+email address and a password. Passwords are stored in encrypted/hashed form; we never store or
+have access to your plaintext password.
+- Chess.com username ("callsign"). When you enter your Chess.com username, we store it locally
+on your device and use it to retrieve your public game data. It is also sent to our analysis
+server to generate coaching feedback.
+- Content you input. Any text, image, or contextual data you enter into our Apps (such as chess
+game data) that is needed to provide the App's features.
+
+Information collected automatically or with your permission.
+- Advertising identifiers and ad data. We use Google AdMob, and may use other advertising
+networks (such as Unity Ads, Meta Audience Network, or AppLovin), to display ads. These networks
+may collect your device's Advertising ID and related information (such as device type, general
+location derived from IP, and ad-interaction data) to serve and measure ads.
+- Location information (if applicable). Some Apps may request access to your device's precise or
+approximate location to provide location-based features. We only collect location data from Apps
+that disclose this feature and request the relevant device permission.
+- Contacts (if applicable). Some Apps may request access to your device's contacts to provide
+features such as finding friends or sharing content. We only access contacts from Apps that
+disclose this feature and request the relevant device permission.
+- Anonymized, aggregated telemetry. We and our service providers may collect anonymized,
+aggregated diagnostic and usage data to keep the Apps stable and improve them. This data is not
+used to personally identify you.
+
+If you email our support address, we will have whatever information you choose to include in that
+message.
+
+2. How We Use Your Information
+
+We use the information above to:
+- Create and manage your account, where an App offers accounts;
+- Provide the App's core features, including retrieving your public chess games and generating
+AI coaching analysis;
+- Provide location-based or contacts-based features, where an App offers them;
+- Display and measure advertising;
+- Maintain, secure, and improve the Apps;
+- Respond to your support requests.
+
+3. Chess.com Data
+
+When you provide a Chess.com username, the App requests your public profile, ratings, and game
+history from Chess.com's public API, and retrieves chess board images from Chess.com. We only
+access information that Chess.com makes publicly available. Your use of Chess.com is also
+governed by Chess.com's own privacy policy.
+
+4. AI Processing Providers
+
+To generate coaching feedback, we transmit your game data (and the associated callsign) to
+secure, third-party AI processing providers. We do not permit our third-party AI providers to
+use your personal inputs to train their models, and we absolutely do not sell your data to data
+brokers.
+
+5. Advertising
+
+Our Apps use Google AdMob, and may use other advertising networks such as Unity Ads, Meta
+Audience Network, or AppLovin, to display advertisements. These networks may collect and use
+your device's Advertising ID and related data to serve and measure ads, including personalized
+ads where permitted. Each network's use of your data is governed by its own privacy policy. You
+can learn how Google uses this data here: https://policies.google.com/technologies/partner-sites.
+
+Consent (EEA / UK). If you are in the European Economic Area, the United Kingdom, or
+Switzerland, we request your consent for ad data use through Google's consent form before ads
+are shown. You may change or withdraw your choice at any time from within the App. You can also
+opt out of ad personalization in your device settings (Google → Ads → "Delete/Reset advertising
+ID" or "Opt out of Ads Personalization").
+
+6. Data Sharing
+
+We share information only as needed to operate the Apps: with our AI processing providers
+(Section 4), with our advertising networks (Section 5), with Chess.com's public API (Section 3),
+and, where an App offers accounts, with the authentication or backend infrastructure providers we
+use to operate that account system. We may also disclose information if required by law or to
+protect our rights and users. We do not sell your personal information.
+
+7. Data Retention & Deletion
+
+Your callsign and cached game data are stored locally on your device and can be cleared at any
+time from the App's Settings screen ("Clear App Data") or by uninstalling the App. If an App
+offers an account, you may request deletion of your account and associated data at any time from
+within that App's Settings or by emailing us; we will delete it within a reasonable time, except
+where we must retain it to comply with law. Data sent to our AI providers is processed to deliver
+your results and is not retained for profiling. To request deletion of any data associated with
+you, see our data deletion page (data-deletion.html) or email us at the address below.
+
+8. Your Rights
+
+Depending on where you live (including under the EU/UK GDPR and the California CCPA/CPRA), you
+may have the right to access, correct, delete, or restrict the use of your personal information,
+to withdraw consent, and to lodge a complaint with a supervisory authority. To exercise these
+rights, contact us at crystllabs@gmail.com. We will not discriminate against you for exercising
+any of these rights.
+
+9. Children's Privacy
+
+Our Apps are not directed to children under 13 (or the equivalent minimum age in your
+jurisdiction), and we do not knowingly collect personal information from children. If you
+believe a child has provided us with personal information, please contact crystllabs@gmail.com
+and we will delete it.
+
+10. Security
+
+We use reasonable technical and organizational measures, including encrypted (HTTPS)
+connections, to protect information in transit. No method of transmission or storage is
+completely secure, and we cannot guarantee absolute security.
+
+11. International Data Transfers
+
+Your information may be processed on servers located outside your country, including by our AI,
+advertising, and (where applicable) authentication providers. Where required, we rely on
+appropriate safeguards for such transfers.
+
+12. Changes to This Policy
+
+We may update this Privacy Policy from time to time. Material changes will be reflected by
+updating the "Last Updated" date above, and continued use of the Apps after changes take effect
+constitutes acceptance of the revised policy.
+
+13. Contact Us
+
+For any privacy questions or requests, contact us at:
+crystllabs@gmail.com
+
+English is the official and controlling language for this website and all Crystl Labs apps,
+content, and releases. Translations are provided solely for the convenience of our users. In the
+event of any conflict or discrepancy between the English version and a translated version, the
+English version shall govern and prevail.

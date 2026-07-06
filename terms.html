@@ -62,21 +62,21 @@
                 <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
                     <span>📁</span> <span data-i18n="exp_src">src_files</span>
                 </li>
-                <li class="ml-1"><a href="index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a></li>
-                <li class="ml-1"><a href="privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                <li class="ml-1"><a href="index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_index">index.html</span></a></li>
+                <li class="ml-1"><a href="privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_privacy">privacy.html</span></a></li>
                 <li class="ml-1">
                     <span class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono">
-                        terms.html
+                        <span data-i18n="file_terms">terms.html</span>
                         <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
                     </span>
                 </li>
-                <li class="ml-1"><a href="data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                <li class="ml-1"><a href="data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_deletion">data-deletion.html</span></a></li>
 
                 <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mt-6 mb-2 flex items-center gap-2">
                     <span>📁</span> <span data-i18n="exp_logs">public_logs</span>
                 </li>
-                <li class="ml-1"><a href="ceo-blog.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">ceo_executive.log</a></li>
-                <li class="ml-1"><a href="dev-blog.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">dev_senior.log</a></li>
+                <li class="ml-1"><a href="ceo-blog.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_ceo">ceo_executive.log</span></a></li>
+                <li class="ml-1"><a href="dev-blog.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_dev">dev_senior.log</span></a></li>
             </ul>
         </aside>
 
@@ -107,6 +107,8 @@
         const i18n = {
             en: {
                 nav_run: "CONNECTED", exp_src: "src_files", exp_logs: "public_logs",
+                file_index: "index.html", file_privacy: "privacy.html", file_terms: "terms.html", file_deletion: "data-deletion.html",
+                file_ceo: "ceo_executive.log", file_dev: "dev_senior.log",
                 t_title: "Terms of Service //", p_date: "Last Updated: March 2026",
                 h1: "1. Acceptance & Rights", p1: "By downloading or using the apps and websites (\"Services\") developed by Crystl Labs, you agree to these Terms. All applications, underlying code, algorithms, and models are the exclusive intellectual property of Crystl Labs. You are granted a personal, non-transferable license to use our apps. You may not copy, reverse engineer, or extract the source code.",
                 h2: "2. Acceptable Use & AI", p2: "You agree to use our Services only for lawful purposes. You must not attempt to hack our apps or the third-party AI processors we utilize. While we strive for precision, AI-generated content may sometimes be inaccurate. You should not rely solely on our applications for critical medical, legal, or financial decisions.",
@@ -114,6 +116,8 @@
             },
             ko: {
                 nav_run: "연결됨", exp_src: "소스_파일", exp_logs: "공개_로그",
+                file_index: "인덱스.html", file_privacy: "개인정보처리방침.html", file_terms: "이용약관.html", file_deletion: "데이터삭제.html",
+                file_ceo: "ceo_경영진.log", file_dev: "dev_수석개발자.log",
                 t_title: "이용약관 //", p_date: "최종 수정일: 2026년 3월",
                 h1: "1. 약관 동의 및 권리", p1: "Crystl Labs가 개발한 앱 및 웹사이트(\"서비스\")를 이용함으로써 귀하는 본 약관에 동의하게 됩니다. 모든 앱, 코드, 알고리즘 및 모델은 당사의 독점적인 지적 재산입니다. 소스 코드를 복사하거나 리버스 엔지니어링할 수 없습니다.",
                 h2: "2. 허용되는 사용 및 AI", p2: "귀하는 합법적인 목적으로만 서비스를 사용하는 데 동의합니다. AI가 생성한 콘텐츠는 부정확할 수 있으므로, 결정에 당사의 앱에만 의존해서는 안 됩니다.",
@@ -121,6 +125,8 @@
             },
             ja: {
                 nav_run: "接続済み", exp_src: "ソースファイル", exp_logs: "公開ログ",
+                file_index: "インデックス.html", file_privacy: "プライバシーポリシー.html", file_terms: "利用規約.html", file_deletion: "データ削除.html",
+                file_ceo: "ceo_役員.log", file_dev: "dev_シニア開発者.log",
                 t_title: "利用規約 //", p_date: "最終更新日: 2026年3月",
                 h1: "1. 同意と権利", p1: "Crystl Labsが開発したアプリやウェブサイト（「サービス」）を利用することにより、本規約に同意したことになります。すべてのアプリ、コード、モデルは当社の独占的な知的財産です。ソースコードのコピーやリバースエンジニアリングは禁止されています。",
                 h2: "2. 適切な利用とAI", p2: "合法的な目的でのみサービスを使用することに同意します。AI生成コンテンツは不正確な場合があるため、重要な決定において当社のアプリのみに依存するべきではありません。",

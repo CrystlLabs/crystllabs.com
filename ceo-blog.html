@@ -46,8 +46,11 @@
         <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
             <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
                 <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
-                CONNECTED
+                <span data-i18n="nav_run">CONNECTED</span>
             </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option><option value="ko">KR</option><option value="ja">JP</option>
+            </select>
         </div>
     </nav>
 
@@ -57,30 +60,30 @@
         <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-52 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-5 shrink-0 overflow-y-auto">
             <ul class="space-y-1 text-sm font-sans text-gray-400">
                 <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
-                    <span>📁</span> <span>src_files</span>
+                    <span>📁</span> <span data-i18n="exp_src">src_files</span>
                 </li>
-                <li class="ml-1"><a href="index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a></li>
-                <li class="ml-1"><a href="privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
-                <li class="ml-1"><a href="terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
-                <li class="ml-1"><a href="data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                <li class="ml-1"><a href="index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_index">index.html</span></a></li>
+                <li class="ml-1"><a href="privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_privacy">privacy.html</span></a></li>
+                <li class="ml-1"><a href="terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_terms">terms.html</span></a></li>
+                <li class="ml-1"><a href="data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_deletion">data-deletion.html</span></a></li>
 
                 <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mt-6 mb-2 flex items-center gap-2">
-                    <span>📁</span> <span>public_logs</span>
+                    <span>📁</span> <span data-i18n="exp_logs">public_logs</span>
                 </li>
                 <li class="ml-1">
                     <span class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandPink text-white text-xs font-mono">
-                        ceo_executive.log
+                        <span data-i18n="file_ceo">ceo_executive.log</span>
                         <span class="w-1.5 h-1.5 rounded-full bg-brandPink animate-pulse flex-shrink-0"></span>
                     </span>
                 </li>
-                <li class="ml-1"><a href="dev-blog.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">dev_senior.log</a></li>
+                <li class="ml-1"><a href="dev-blog.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_dev">dev_senior.log</span></a></li>
             </ul>
         </aside>
 
         <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
             <div class="max-w-3xl mx-auto">
                 <header class="mb-10 md:mb-14">
-                    <h1 class="text-2xl md:text-4xl font-extrabold tracking-tight text-white">
+                    <h1 class="text-2xl md:text-4xl font-extrabold tracking-tight text-white" data-i18n="page_title">
                         CEO Executive Transmissions //
                     </h1>
                 </header>
@@ -90,24 +93,24 @@
 
                     <a href="ceo/ceo_template.html" class="group block text-left rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-6 shadow-lg shadow-black/20 transition-all">
                         <div class="flex justify-between items-center mb-4">
-                            <span class="text-[11px] font-mono text-brandPink tracking-wide">TRANS_001 // DIRECTIVE</span>
+                            <span class="text-[11px] font-mono text-brandPink tracking-wide" data-i18n="post_tag">TRANS_001 // DIRECTIVE</span>
                             <span class="text-[11px] font-mono text-gray-500">2026-07-05</span>
                         </div>
-                        <h2 class="text-lg font-semibold text-white mb-3 group-hover:text-brandPink transition-colors">Untitled Dispatch</h2>
-                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                        <h2 class="text-lg font-semibold text-white mb-3 group-hover:text-brandPink transition-colors" data-i18n="post_title">Untitled Dispatch</h2>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6" data-i18n="post_summary">
                             System parameters compiled successfully.
                         </p>
                         <div class="flex flex-wrap justify-between items-center gap-4 border-t border-white/10 pt-4">
                             <div class="flex flex-wrap gap-2">
-                                <span class="text-[11px] font-mono text-gray-400 bg-white/5 px-2.5 py-1 rounded border border-white/10">System</span>
+                                <span class="text-[11px] font-mono text-gray-400 bg-white/5 px-2.5 py-1 rounded border border-white/10" data-i18n="post_category">System</span>
 
                             </div>
-                            <span class="text-[11px] font-mono text-gray-500 group-hover:text-white transition-colors">
+                            <span class="text-[11px] font-mono text-gray-500 group-hover:text-white transition-colors" data-i18n="read_log">
                                 READ LOG ->
                             </span>
                         </div>
                     </a>
-        
+
                     <!-- END_STATIC_POSTS -->
                 </div>
             </div>
@@ -115,12 +118,51 @@
     </div>
 
     <script>
+        const i18n = {
+            en: {
+                nav_run: "CONNECTED", exp_src: "src_files", exp_logs: "public_logs",
+                file_index: "index.html", file_privacy: "privacy.html", file_terms: "terms.html", file_deletion: "data-deletion.html",
+                file_ceo: "ceo_executive.log", file_dev: "dev_senior.log",
+                page_title: "CEO Executive Transmissions //",
+                post_tag: "TRANS_001 // DIRECTIVE", post_title: "Untitled Dispatch", post_summary: "System parameters compiled successfully.",
+                post_category: "System", read_log: "READ LOG ->"
+            },
+            ko: {
+                nav_run: "연결됨", exp_src: "소스_파일", exp_logs: "공개_로그",
+                file_index: "인덱스.html", file_privacy: "개인정보처리방침.html", file_terms: "이용약관.html", file_deletion: "데이터삭제.html",
+                file_ceo: "ceo_경영진.log", file_dev: "dev_수석개발자.log",
+                page_title: "CEO 경영진 전송 //",
+                post_tag: "TRANS_001 // 지시사항", post_title: "제목 없는 발신", post_summary: "시스템 매개변수가 성공적으로 컴파일되었습니다.",
+                post_category: "시스템", read_log: "로그 읽기 ->"
+            },
+            ja: {
+                nav_run: "接続済み", exp_src: "ソースファイル", exp_logs: "公開ログ",
+                file_index: "インデックス.html", file_privacy: "プライバシーポリシー.html", file_terms: "利用規約.html", file_deletion: "データ削除.html",
+                file_ceo: "ceo_役員.log", file_dev: "dev_シニア開発者.log",
+                page_title: "CEO役員通信 //",
+                post_tag: "TRANS_001 // 指令", post_title: "無題のディスパッチ", post_summary: "システムパラメータのコンパイルに成功しました。",
+                post_category: "システム", read_log: "ログを読む ->"
+            }
+        };
+        function switchLang(lang) {
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (i18n[lang] && i18n[lang][key]) el.innerHTML = i18n[lang][key];
+            });
+        }
         function toggleMenu() {
             document.getElementById('sidebar').classList.toggle('-translate-x-full');
             document.getElementById('sidebarBackdrop').classList.toggle('hidden');
             document.getElementById('iconOpen').classList.toggle('hidden');
             document.getElementById('iconClose').classList.toggle('hidden');
         }
+        window.onload = () => {
+            let lang = localStorage.getItem('crystl_lang') || navigator.language.slice(0, 2);
+            if (!['en', 'ko', 'ja'].includes(lang)) lang = 'en';
+            switchLang(lang);
+        };
     </script>
 </body>
 </html>

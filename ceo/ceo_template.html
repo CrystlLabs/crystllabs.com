@@ -44,8 +44,11 @@
         <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
             <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
                 <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
-                CONNECTED
+                <span data-i18n="nav_run">CONNECTED</span>
             </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option><option value="ko">KR</option><option value="ja">JP</option>
+            </select>
         </div>
     </nav>
 
@@ -55,21 +58,21 @@
         <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-52 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-5 shrink-0 overflow-y-auto">
             <ul class="space-y-1 text-sm font-sans text-gray-400">
                 <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
-                    <span>📁</span> <span>src_files</span>
+                    <span>📁</span> <span data-i18n="exp_src">src_files</span>
                 </li>
-                <li class="ml-1"><a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a></li>
-                <li class="ml-1"><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
-                <li class="ml-1"><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
-                <li class="ml-1"><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                <li class="ml-1"><a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_index">index.html</span></a></li>
+                <li class="ml-1"><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_privacy">privacy.html</span></a></li>
+                <li class="ml-1"><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_terms">terms.html</span></a></li>
+                <li class="ml-1"><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_deletion">data-deletion.html</span></a></li>
 
                 <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mt-6 mb-2 flex items-center gap-2">
-                    <span>📁</span> <span>public_logs</span>
+                    <span>📁</span> <span data-i18n="exp_logs">public_logs</span>
                 </li>
                 <li class="ml-1"><span class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandPink text-white text-xs font-mono">
-                        ceo_executive.log
+                        <span data-i18n="file_ceo">ceo_executive.log</span>
                         <span class="w-1.5 h-1.5 rounded-full bg-brandPink animate-pulse flex-shrink-0"></span>
                     </span></li>
-                <li class="ml-1"><a href="../dev-blog.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">dev_senior.log</a></li>
+                <li class="ml-1"><a href="../dev-blog.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_dev">dev_senior.log</span></a></li>
             </ul>
         </aside>
 
@@ -78,16 +81,16 @@
                 <article class="rounded-2xl border border-white/10 bg-panelBg/60 p-6 md:p-8 shadow-xl shadow-black/20">
                     <header class="mb-8 border-b border-white/10 pb-6">
                         <div class="flex justify-between items-center mb-4">
-                            <span class="text-[11px] font-mono text-brandPink tracking-wide">TRANS_001 // ARTICLE</span>
+                            <span class="text-[11px] font-mono text-brandPink tracking-wide" data-i18n="post_tag">TRANS_001 // ARTICLE</span>
                             <span class="text-[11px] font-mono text-gray-500">2026-07-05</span>
                         </div>
-                        <h1 class="text-xl md:text-2xl font-extrabold tracking-tight text-white mb-4">Untitled Dispatch //</h1>
-                        <p class="text-gray-400 text-sm leading-relaxed border-l-2 border-white/10 pl-4 py-1">
+                        <h1 class="text-xl md:text-2xl font-extrabold tracking-tight text-white mb-4" data-i18n="post_title">Untitled Dispatch //</h1>
+                        <p class="text-gray-400 text-sm leading-relaxed border-l-2 border-white/10 pl-4 py-1" data-i18n="post_summary">
                             System parameters compiled successfully.
                         </p>
                     </header>
 
-                    <div class="prose prose-invert max-w-none text-gray-300">
+                    <div class="prose prose-invert max-w-none text-gray-300" data-i18n="post_body">
                         <p class="text-gray-400 text-sm leading-relaxed mb-4">title: "YOUR ARTICLE TITLE HERE"
 date: 2026-07-04
 summary: "A crisp 1-2 sentence preview card description detailing this strategic update."
@@ -103,13 +106,13 @@ tags: Strategy, Launch, Expansion</p>
                     </div>
 
                     <div class="border-t border-white/10 pt-6 mt-8 flex flex-wrap gap-2">
-                        <span class="text-[11px] font-mono text-gray-400 bg-white/5 px-2.5 py-1 rounded border border-white/10">System</span>
+                        <span class="text-[11px] font-mono text-gray-400 bg-white/5 px-2.5 py-1 rounded border border-white/10" data-i18n="post_category">System</span>
 
                     </div>
                 </article>
 
                 <div class="mt-8 text-center">
-                    <a href="../ceo-blog.html" class="inline-block px-6 py-2.5 rounded-lg border border-white/10 text-gray-400 font-mono text-xs uppercase tracking-wide hover:text-white hover:border-white/20 transition-colors">
+                    <a href="../ceo-blog.html" class="inline-block px-6 py-2.5 rounded-lg border border-white/10 text-gray-400 font-mono text-xs uppercase tracking-wide hover:text-white hover:border-white/20 transition-colors" data-i18n="return_link">
                         &lt;- Return to directory
                     </a>
                 </div>
@@ -118,12 +121,84 @@ tags: Strategy, Launch, Expansion</p>
     </div>
 
     <script>
+        const i18n = {
+            en: {
+                nav_run: "CONNECTED", exp_src: "src_files", exp_logs: "public_logs",
+                file_index: "index.html", file_privacy: "privacy.html", file_terms: "terms.html", file_deletion: "data-deletion.html",
+                file_ceo: "ceo_executive.log", file_dev: "dev_senior.log",
+                post_tag: "TRANS_001 // ARTICLE", post_title: "Untitled Dispatch //", post_summary: "System parameters compiled successfully.",
+                post_category: "System", return_link: "&lt;- Return to directory",
+                post_body: `<p class="text-gray-400 text-sm leading-relaxed mb-4">title: "YOUR ARTICLE TITLE HERE"
+date: 2026-07-04
+summary: "A crisp 1-2 sentence preview card description detailing this strategic update."
+tags: Strategy, Launch, Expansion</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">YOUR MAIN HEADER HERE</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">Write your introduction paragraph here. Double-space between your paragraphs to ensure the Python compiler cleanly isolates blocks of text into individual responsive paragraphs.</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">1. KEY INITIATIVE OR DEPLOYMENT METRICS</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">Detail your main points here. To present data clearly to your readers, use structured bullet points:</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">Metric / Milestones: Detail the milestone achievement or targets reached.</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">Actionable Impact: Explain how this pivot improves Crystl Labs' overall operations.</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">2. NEXT OPERATIONAL STEPS</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">Conclude your article here with a forward-looking roadmap. Keep it sharp, authoritative, and focused on execution.</p>`
+            },
+            ko: {
+                nav_run: "연결됨", exp_src: "소스_파일", exp_logs: "공개_로그",
+                file_index: "인덱스.html", file_privacy: "개인정보처리방침.html", file_terms: "이용약관.html", file_deletion: "데이터삭제.html",
+                file_ceo: "ceo_경영진.log", file_dev: "dev_수석개발자.log",
+                post_tag: "TRANS_001 // 기사", post_title: "제목 없는 발신 //", post_summary: "시스템 매개변수가 성공적으로 컴파일되었습니다.",
+                post_category: "시스템", return_link: "&lt;- 목록으로 돌아가기",
+                post_body: `<p class="text-gray-400 text-sm leading-relaxed mb-4">title: "여기에 기사 제목을 입력하세요"
+date: 2026-07-04
+summary: "이 전략적 업데이트를 설명하는 간결한 1~2문장의 미리보기 카드 설명."
+tags: 전략, 출시, 확장</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">여기에 메인 헤더를 입력하세요</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">여기에 도입부 단락을 작성하세요. Python 컴파일러가 텍스트 블록을 개별 반응형 단락으로 깔끔하게 분리할 수 있도록 단락 사이를 두 줄 띄우십시오.</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">1. 주요 이니셔티브 또는 배포 지표</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">여기에 주요 내용을 상세히 기술하세요. 독자에게 데이터를 명확하게 제시하려면 구조화된 글머리 기호를 사용하십시오:</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">지표 / 마일스톤: 달성한 마일스톤 또는 목표를 상세히 기술하십시오.</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">실행 가능한 영향: 이번 전환이 Crystl Labs의 전반적인 운영을 어떻게 개선하는지 설명하십시오.</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">2. 다음 운영 단계</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">앞으로의 로드맵으로 기사를 마무리하십시오. 날카롭고 권위 있으며 실행에 초점을 맞춘 내용으로 작성하십시오.</p>`
+            },
+            ja: {
+                nav_run: "接続済み", exp_src: "ソースファイル", exp_logs: "公開ログ",
+                file_index: "インデックス.html", file_privacy: "プライバシーポリシー.html", file_terms: "利用規約.html", file_deletion: "データ削除.html",
+                file_ceo: "ceo_役員.log", file_dev: "dev_シニア開発者.log",
+                post_tag: "TRANS_001 // 記事", post_title: "無題のディスパッチ //", post_summary: "システムパラメータのコンパイルに成功しました。",
+                post_category: "システム", return_link: "&lt;- ディレクトリに戻る",
+                post_body: `<p class="text-gray-400 text-sm leading-relaxed mb-4">title: "ここに記事タイトルを入力"
+date: 2026-07-04
+summary: "この戦略的アップデートについて説明する、簡潔な1〜2文のプレビューカード説明。"
+tags: 戦略, ローンチ, 拡大</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">ここにメインヘッダーを入力</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">ここに導入部の段落を書いてください。Pythonコンパイラがテキストのブロックを個々のレスポンシブな段落として正しく分離できるよう、段落間は1行空けてください。</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">1. 主要な取り組みまたは展開指標</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">ここに主なポイントを詳しく記載してください。読者にデータを分かりやすく提示するには、構造化された箇条書きを使用してください:</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">指標・マイルストーン：達成したマイルストーンや目標を詳しく記載してください。</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">実行可能な影響：この転換がCrystl Labs全体の運営をどのように改善するかを説明してください。</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">2. 次の運用ステップ</p>
+<p class="text-gray-400 text-sm leading-relaxed mb-4">今後のロードマップで記事を締めくくってください。鋭く、権威があり、実行に焦点を当てた内容にしてください。</p>`
+            }
+        };
+        function switchLang(lang) {
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (i18n[lang] && i18n[lang][key]) el.innerHTML = i18n[lang][key];
+            });
+        }
         function toggleMenu() {
             document.getElementById('sidebar').classList.toggle('-translate-x-full');
             document.getElementById('sidebarBackdrop').classList.toggle('hidden');
             document.getElementById('iconOpen').classList.toggle('hidden');
             document.getElementById('iconClose').classList.toggle('hidden');
         }
+        window.onload = () => {
+            let lang = localStorage.getItem('crystl_lang') || navigator.language.slice(0, 2);
+            if (!['en', 'ko', 'ja'].includes(lang)) lang = 'en';
+            switchLang(lang);
+        };
     </script>
 </body>
 </html>

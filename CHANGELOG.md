@@ -22,3 +22,14 @@ All notable changes to the Crystl Labs website are documented here.
 
 ### Removed
 - Dead/unused i18n dictionary keys left over after content removal (nav labels, footer strings, old hero copy).
+
+### Fixed (later same day)
+- Inter's 800 (extrabold) weight wasn't loaded on 5 of the 8 pages (Privacy, Terms, Data Deletion, and the two generated post pages), even though their titles use `font-extrabold` — those titles were rendering as browser-faked bold instead of the true typeface weight. All pages now request the same font weights.
+
+### Changed (later same day)
+- Homepage hero simplified again: dropped the three-line "Complex logic. / Elegant worlds. / Deeply simulated." headline in favor of "Crystl Labs" (large, gradient) with "Elegant worlds, deeply simulated." as a single-line tagline underneath; title later sized up further and nudged in slightly from the left edge on desktop.
+- Removed the "Explorer" sidebar label entirely (was showing inconsistently across pages before removal) on every page.
+- Homepage section labels renamed: "Live_Deployments" → "Projects //", "Transmission_Logs" → "Logs //"; vertical space between the hero tagline and "Projects //" cut in half.
+- Header formatting unified across every non-homepage page: dropped the leading `#` on Privacy/Terms/Data Deletion titles and standardized all page and post titles (including blog listings and generated posts) to a trailing `//` — e.g. "Privacy Policy //", "CEO Executive Transmissions //".
+- Removed the descriptive blurb paragraph under the title on both blog listing pages (CEO and Dev logs).
+- `publish.py` updated again to match: title format, dropped Explorer heading, correct font weights — so future generated posts stay in sync.
