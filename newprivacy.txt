@@ -33,6 +33,9 @@ disclose this feature and request the relevant device permission.
 - Anonymized, aggregated telemetry. We and our service providers may collect anonymized,
 aggregated diagnostic and usage data to keep the Apps stable and improve them. This data is not
 used to personally identify you.
+- Cloud save data (if applicable). Some Apps offer cloud save/sync, which stores your in-app
+progress, saved data, or settings using providers such as Google Play Games Services or Firebase
+so it can be restored across devices. This data is tied to your account, device ID, or player ID.
 
 If you email our support address, we will have whatever information you choose to include in that
 message.
@@ -45,6 +48,7 @@ We use the information above to:
 AI coaching analysis;
 - Provide location-based or contacts-based features, where an App offers them;
 - Display and measure advertising;
+- Provide cloud save/sync functionality, where an App offers it;
 - Maintain, secure, and improve the Apps;
 - Respond to your support requests.
 
@@ -58,9 +62,11 @@ governed by Chess.com's own privacy policy.
 4. AI Processing Providers
 
 To generate coaching feedback, we transmit your game data (and the associated callsign) to
-secure, third-party AI processing providers. We do not permit our third-party AI providers to
-use your personal inputs to train their models, and we absolutely do not sell your data to data
-brokers.
+Google LLC's Gemini API, processed on Google's servers in the United States, solely to generate
+your coaching analysis. We currently use Gemini for this purpose and may add or change AI
+processing providers in the future, in which case we will update this section. We do not permit
+our AI providers to use your personal inputs to train their models, and we absolutely do not
+sell your data to data brokers.
 
 5. Advertising
 
@@ -80,9 +86,11 @@ ID" or "Opt out of Ads Personalization").
 
 We share information only as needed to operate the Apps: with our AI processing providers
 (Section 4), with our advertising networks (Section 5), with Chess.com's public API (Section 3),
-and, where an App offers accounts, with the authentication or backend infrastructure providers we
-use to operate that account system. We may also disclose information if required by law or to
-protect our rights and users. We do not sell your personal information.
+with the cloud storage provider (such as Google Play Games Services or Firebase) used to operate
+cloud saves where an App offers that feature, and, where an App offers accounts, with the
+authentication or backend infrastructure providers we use to operate that account system. We may
+also disclose information if required by law or to protect our rights and users. We do not sell
+your personal information.
 
 7. Data Retention & Deletion
 
@@ -91,8 +99,10 @@ time from the App's Settings screen ("Clear App Data") or by uninstalling the Ap
 offers an account, you may request deletion of your account and associated data at any time from
 within that App's Settings or by emailing us; we will delete it within a reasonable time, except
 where we must retain it to comply with law. Data sent to our AI providers is processed to deliver
-your results and is not retained for profiling. To request deletion of any data associated with
-you, see our data deletion page (data-deletion.html) or email us at the address below.
+your results and is not retained for profiling. Cloud save data persists until you disable the
+feature, delete it from within the App, or request deletion as described below. To request
+deletion of any data associated with you, see our data deletion page (data-deletion.html) or
+email us at the address below.
 
 8. Your Rights
 
@@ -117,9 +127,15 @@ completely secure, and we cannot guarantee absolute security.
 
 11. International Data Transfers
 
-Your information may be processed on servers located outside your country, including by our AI,
-advertising, and (where applicable) authentication providers. Where required, we rely on
-appropriate safeguards for such transfers.
+Your information may be processed on servers located outside your country. Specifically, if you
+use our AI coaching feature, your Chess.com callsign and associated game data are transmitted via
+secure API, each time you request coaching analysis, to Google LLC's Gemini API and processed on
+servers located in the United States, solely to generate your coaching analysis; this data is not
+retained by Google for model training or profiling. If you do not want this transfer to occur,
+simply do not enter your Chess.com username or use the AI coaching feature. Where applicable, our
+advertising and authentication providers may similarly process data outside your country. Where
+required, we rely on appropriate safeguards (such as standard contractual clauses or equivalent
+mechanisms) for these transfers.
 
 12. Changes to This Policy
 
