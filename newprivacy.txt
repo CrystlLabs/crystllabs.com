@@ -1,7 +1,7 @@
 Last Updated: July 6, 2026
 
 This Privacy Policy explains how Crystl Labs ("we," "us," or "our") handles information in
-connection with Chess Drill Instructor and our other applications (collectively, the "Apps"). Not
+connection with our applications (collectively, the "Apps"). Not
 every App offers every feature described in this Policy — for example, some Apps do not offer user
 accounts, request location access, or request contacts access. The data we actually collect depends
 on the features a given App offers; see that App's "Data safety" section on its Google Play Store
