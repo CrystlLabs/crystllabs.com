@@ -193,7 +193,7 @@ def generate_standalone_page(post, category, slug, color, tag):
                 <li class="ml-1"><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
 
                 <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mt-6 mb-2 flex items-center gap-2">
-                    <span>📁</span> <span>public_logs</span>
+                    <span>📁</span> <span>public_blogs</span>
                 </li>
                 <li class="ml-1">{ceo_item}</li>
                 <li class="ml-1">{dev_item}</li>

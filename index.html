@@ -36,6 +36,18 @@
             background-clip: text;
             color: transparent;
         }
+        .morph-title {
+            grid-column: 1;
+            grid-row: 1;
+            opacity: 0;
+            transition: opacity 1.2s ease-in-out;
+            will-change: opacity;
+            pointer-events: none;
+        }
+        .morph-title.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
     </style>
 </head>
 <body class="bg-darkBg text-gray-300 font-sans antialiased min-h-screen md:h-screen flex flex-col md:overflow-hidden">
@@ -104,9 +116,13 @@
 
         <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
             <div class="max-w-4xl mx-auto">
-                <header class="mb-6 md:mb-10 md:ml-6 lg:ml-10">
-                    <h1 class="text-gradient text-5xl md:text-7xl font-extrabold tracking-tight leading-tight">Crystl Labs</h1>
-                    <p class="mt-4 md:mt-5 font-mono text-sm md:text-base text-gray-400 tracking-wide" data-i18n="hero_tagline">Elegant worlds, deeply simulated.</p>
+                <header class="text-center mb-6 md:mb-10 flex flex-col items-center">
+                    <div class="grid grid-cols-1 grid-rows-1 place-items-center w-full">
+                        <h1 data-lang="en" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title active">Crystl Labs</h1>
+                        <h1 data-lang="ko" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">크리스탈 랩스</h1>
+                        <h1 data-lang="ja" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">クリスタル・ラボ</h1>
+                    </div>
+                    <p class="mt-1 md:mt-2 font-mono text-sm md:text-base text-gray-400 tracking-wide" data-i18n="hero_tagline">우아한 세계, 깊이 있는 시뮬레이션.</p>
                 </header>
 
                 <section id="apps" class="mb-12 md:mb-20">
@@ -125,8 +141,8 @@
                     </div>
                 </section>
 
-                <section id="logs" class="mb-4">
-                    <h2 class="font-mono text-[11px] md:text-xs text-gray-500 mb-5 md:mb-8 uppercase tracking-widest">Logs //</h2>
+                <section id="blogs" class="mb-4">
+                    <h2 data-i18n="section_blogs" class="font-mono text-[11px] md:text-xs text-gray-500 mb-5 md:mb-8 uppercase tracking-widest">Blogs //</h2>
                     <div class="grid sm:grid-cols-2 gap-4 md:gap-6">
                         <a href="ceo-blog.html" class="group rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-6 shadow-lg shadow-black/20 transition-all block">
                             <div class="flex justify-between items-center mb-4">
@@ -154,37 +170,81 @@
         const i18n = {
             en: {
                 nav_run: "CONNECTED",
-                exp_src: "src_files", exp_logs: "public_logs",
+                exp_src: "src_files", exp_logs: "public_blogs",
                 file_index: "index.html", file_privacy: "privacy.html", file_terms: "terms.html", file_deletion: "data-deletion.html",
                 file_ceo: "ceo_executive.log", file_dev: "dev_senior.log",
+                hero_title: "Crystl Labs",
                 hero_tagline: "Elegant worlds, deeply simulated.",
-                live_dep: "Projects //", redacted: "[ REDACTED ]", dep_pend: "Deployment Pending", await_clear: "Awaiting Clearance"
+                live_dep: "Projects //", redacted: "[ REDACTED ]", dep_pend: "Deployment Pending", await_clear: "Awaiting Clearance", section_blogs: "Blogs //"
             },
             ko: {
                 nav_run: "연결됨",
-                exp_src: "소스_파일", exp_logs: "공개_로그",
+                exp_src: "소스_파일", exp_logs: "공개_블로그",
                 file_index: "인덱스.html", file_privacy: "개인정보처리방침.html", file_terms: "이용약관.html", file_deletion: "데이터삭제.html",
                 file_ceo: "ceo_경영진.log", file_dev: "dev_수석개발자.log",
+                hero_title: "크리스탈 랩스",
                 hero_tagline: "우아한 세계, 깊이 있는 시뮬레이션.",
-                live_dep: "프로젝트 //", redacted: "[ 기밀 사항 ]", dep_pend: "배포 대기 중", await_clear: "승인 대기 중"
+                live_dep: "프로젝트 //", redacted: "[ 기밀 사항 ]", dep_pend: "배포 대기 중", await_clear: "승인 대기 중", section_blogs: "블로그 //"
             },
             ja: {
                 nav_run: "接続済み",
-                exp_src: "ソースファイル", exp_logs: "公開ログ",
+                exp_src: "ソースファイル", exp_logs: "公開ブログ",
                 file_index: "インデックス.html", file_privacy: "プライバシーポリシー.html", file_terms: "利用規約.html", file_deletion: "データ削除.html",
                 file_ceo: "ceo_役員.log", file_dev: "dev_シニア開発者.log",
+                hero_title: "クリスタル・ラボ",
                 hero_tagline: "優雅な世界、深いシミュレーション。",
-                live_dep: "プロジェクト //", redacted: "[ 機密事項 ]", dep_pend: "デプロイ待機中", await_clear: "承認待機中"
+                live_dep: "プロジェクト //", redacted: "[ 機密事項 ]", dep_pend: "デプロイ待機中", await_clear: "承認待機中", section_blogs: "ブログ //"
             }
         };
+
+        let cycleInterval = null;
+        let languages = ['en', 'ko', 'ja'];
+        let currentLangIndex = 0;
+
+        function startTextCycle() {
+            if (cycleInterval) clearInterval(cycleInterval);
+            
+            const titleEls = document.querySelectorAll('.morph-title');
+            if (titleEls.length === 0) return;
+
+            const currentLang = localStorage.getItem('crystl_lang') || 'ko';
+            currentLangIndex = languages.indexOf(currentLang);
+            if (currentLangIndex === -1) currentLangIndex = 0;
+
+            cycleInterval = setInterval(() => {
+                currentLangIndex = (currentLangIndex + 1) % languages.length;
+                const nextLang = languages[currentLangIndex];
+
+                titleEls.forEach(el => {
+                    if (el.getAttribute('data-lang') === nextLang) {
+                        el.classList.add('active');
+                    } else {
+                        el.classList.remove('active');
+                    }
+                });
+            }, 3000); // cycle every 3 seconds
+        }
 
         function switchLang(lang) {
             localStorage.setItem('crystl_lang', lang);
             document.getElementById('langSelect').value = lang;
+
+            const titleEls = document.querySelectorAll('.morph-title');
+            titleEls.forEach(el => {
+                if (el.getAttribute('data-lang') === lang) {
+                    el.classList.add('active');
+                } else {
+                    el.classList.remove('active');
+                }
+            });
+
             document.querySelectorAll('[data-i18n]').forEach(el => {
                 const key = el.getAttribute('data-i18n');
                 if (i18n[lang] && i18n[lang][key]) el.innerHTML = i18n[lang][key];
             });
+
+            currentLangIndex = languages.indexOf(lang);
+            if (currentLangIndex === -1) currentLangIndex = 0;
         }
 
         function toggleMenu() {
@@ -198,9 +258,10 @@
             let lang = localStorage.getItem('crystl_lang');
             if (!lang) {
                 const bLang = navigator.language.slice(0, 2);
-                lang = ['en', 'ko', 'ja'].includes(bLang) ? bLang : 'en';
+                lang = ['en', 'ko', 'ja'].includes(bLang) ? bLang : 'ko';
             }
             switchLang(lang);
+            startTextCycle();
         };
     </script>
 </body>
