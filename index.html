@@ -48,6 +48,12 @@
             opacity: 1;
             pointer-events: auto;
         }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        #appModal { transition: opacity 0.2s ease; }
+        #appModal.hidden { opacity: 0; pointer-events: none; }
+        #appModalPanel { transition: transform 0.25s ease, opacity 0.25s ease; }
+        #appModal.hidden #appModalPanel { transform: translateY(12px); opacity: 0; }
     </style>
 </head>
 <body class="bg-darkBg text-gray-300 font-sans antialiased min-h-screen md:h-screen flex flex-col md:overflow-hidden">
@@ -126,19 +132,18 @@
                 </header>
 
                 <section id="apps" class="mb-12 md:mb-20">
-                    <h2 class="font-mono text-[11px] md:text-xs text-gray-500 mb-5 md:mb-8 uppercase tracking-widest" data-i18n="live_dep">Projects //</h2>
-                    <div class="grid sm:grid-cols-2 gap-4 md:gap-6">
-                        <div class="rounded-2xl border border-dashed border-white/10 bg-white/[0.02] p-6 md:p-10 flex flex-col items-center justify-center text-center min-h-[160px] md:min-h-[200px]">
-                            <div class="text-gray-600 mb-4 text-2xl">🔒</div>
-                            <h3 class="text-sm font-mono text-gray-500 mb-2 tracking-wide" data-i18n="redacted">[ REDACTED ]</h3>
-                            <p class="text-gray-600 text-[11px] font-mono uppercase tracking-wide" data-i18n="dep_pend">Deployment Pending</p>
-                        </div>
-                        <div class="rounded-2xl border border-dashed border-white/10 bg-white/[0.02] p-6 md:p-10 flex flex-col items-center justify-center text-center min-h-[160px] md:min-h-[200px]">
-                            <div class="text-gray-600 mb-4 text-2xl">🔒</div>
-                            <h3 class="text-sm font-mono text-gray-500 mb-2 tracking-wide" data-i18n="redacted">[ REDACTED ]</h3>
-                            <p class="text-gray-600 text-[11px] font-mono uppercase tracking-wide" data-i18n="await_clear">Awaiting Clearance</p>
+                    <div class="flex items-center justify-between mb-5 md:mb-8 gap-4">
+                        <h2 class="font-mono text-[11px] md:text-xs text-gray-500 uppercase tracking-widest" data-i18n="live_dep">Projects //</h2>
+                        <div id="carouselNav" class="flex items-center gap-2">
+                            <button onclick="scrollCarousel(-1)" aria-label="Previous" class="w-8 h-8 rounded-lg border border-white/10 bg-white/5 text-gray-400 hover:text-white hover:border-brandPink/40 transition-colors flex items-center justify-center">
+                                <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+                            </button>
+                            <button onclick="scrollCarousel(1)" aria-label="Next" class="w-8 h-8 rounded-lg border border-white/10 bg-white/5 text-gray-400 hover:text-white hover:border-brandPink/40 transition-colors flex items-center justify-center">
+                                <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+                            </button>
                         </div>
                     </div>
+                    <div id="appCarousel" class="flex gap-4 md:gap-6 overflow-x-auto snap-x snap-proximity scroll-smooth pb-2 -mx-1 px-1 no-scrollbar"></div>
                 </section>
 
                 <section id="blogs" class="mb-4">
@@ -166,6 +171,43 @@
         </main>
     </div>
 
+    <div id="appModal" class="hidden fixed inset-0 z-[60] flex md:items-center md:justify-center md:p-6">
+        <div onclick="closeAppModal()" class="absolute inset-0 bg-black/70 md:backdrop-blur-sm"></div>
+        <div id="appModalPanel" class="relative bg-panelBg w-full h-full md:h-auto md:max-h-[88vh] md:w-full md:max-w-lg md:rounded-2xl border border-white/10 shadow-2xl shadow-black/50 overflow-y-auto">
+            <button onclick="closeAppModal()" aria-label="Close" class="absolute top-3 right-3 z-10 w-9 h-9 rounded-lg bg-black/40 border border-white/10 text-gray-300 hover:text-white hover:border-brandPink/40 transition-colors flex items-center justify-center">
+                <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+            <div class="p-6 md:p-8">
+                <div class="flex items-center gap-4 mb-5 pr-10">
+                    <img id="amIcon" src="" alt="" class="w-16 h-16 md:w-20 md:h-20 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h3 id="amName" class="text-xl md:text-2xl font-extrabold text-white leading-tight"></h3>
+                        <span id="amPlatform" class="inline-block mt-1.5 font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5"></span>
+                    </div>
+                </div>
+                <p id="amTagline" class="text-brandPink/90 text-sm md:text-base font-medium mb-5"></p>
+
+                <div class="flex gap-3 overflow-x-auto snap-x snap-mandatory pb-2 mb-6 no-scrollbar">
+                    <div class="snap-start shrink-0 w-40 h-72 md:w-44 md:h-80 rounded-xl border border-dashed border-white/10 bg-white/[0.02] flex flex-col items-center justify-center text-center gap-2">
+                        <span class="text-2xl text-gray-600">🖼️</span>
+                        <span class="text-[10px] font-mono uppercase tracking-wide text-gray-600" data-i18n="shot_soon">Screenshots<br>coming soon</span>
+                    </div>
+                    <div class="snap-start shrink-0 w-40 h-72 md:w-44 md:h-80 rounded-xl border border-dashed border-white/10 bg-white/[0.02] flex flex-col items-center justify-center text-center gap-2">
+                        <span class="text-2xl text-gray-600">🖼️</span>
+                        <span class="text-[10px] font-mono uppercase tracking-wide text-gray-600" data-i18n="shot_soon">Screenshots<br>coming soon</span>
+                    </div>
+                </div>
+
+                <p id="amDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-7"></p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none w-full sm:w-auto justify-center">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span data-i18n="store_soon">Google Play — Coming Soon</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script>
         const i18n = {
             en: {
@@ -175,7 +217,9 @@
                 file_ceo: "ceo_executive.log", file_dev: "dev_senior.log",
                 hero_title: "Crystl Labs",
                 hero_tagline: "Elegant worlds, deeply simulated.",
-                live_dep: "Projects //", redacted: "[ REDACTED ]", dep_pend: "Deployment Pending", await_clear: "Awaiting Clearance", section_blogs: "Blogs //"
+                live_dep: "Projects //", redacted: "[ REDACTED ]", dep_pend: "Deployment Pending", await_clear: "Awaiting Clearance", section_blogs: "Blogs //",
+                shot_soon: "Screenshots<br>coming soon", store_soon: "Google Play — Coming Soon", tap_details: "Tap for details",
+                soon_title: "Something's Coming", soon_sub: "New projects launching soon"
             },
             ko: {
                 nav_run: "연결됨",
@@ -184,7 +228,9 @@
                 file_ceo: "ceo_경영진.log", file_dev: "dev_수석개발자.log",
                 hero_title: "크리스탈 랩스",
                 hero_tagline: "우아한 세계, 깊이 있는 시뮬레이션.",
-                live_dep: "프로젝트 //", redacted: "[ 기밀 사항 ]", dep_pend: "배포 대기 중", await_clear: "승인 대기 중", section_blogs: "블로그 //"
+                live_dep: "프로젝트 //", redacted: "[ 기밀 사항 ]", dep_pend: "배포 대기 중", await_clear: "승인 대기 중", section_blogs: "블로그 //",
+                shot_soon: "스크린샷<br>준비 중", store_soon: "구글 플레이 — 출시 예정", tap_details: "탭하여 자세히 보기",
+                soon_title: "곧 공개됩니다", soon_sub: "새로운 프로젝트가 곧 출시됩니다"
             },
             ja: {
                 nav_run: "接続済み",
@@ -193,9 +239,148 @@
                 file_ceo: "ceo_役員.log", file_dev: "dev_シニア開発者.log",
                 hero_title: "クリスタル・ラボ",
                 hero_tagline: "優雅な世界、深いシミュレーション。",
-                live_dep: "プロジェクト //", redacted: "[ 機密事項 ]", dep_pend: "デプロイ待機中", await_clear: "承認待機中", section_blogs: "ブログ //"
+                live_dep: "プロジェクト //", redacted: "[ 機密事項 ]", dep_pend: "デプロイ待機中", await_clear: "承認待機中", section_blogs: "ブログ //",
+                shot_soon: "スクリーンショット<br>準備中", store_soon: "Google Play — 近日公開", tap_details: "タップして詳細",
+                soon_title: "近日公開", soon_sub: "新しいプロジェクトを準備中です"
             }
         };
+
+        // === LAUNCH SWITCH === flip to true to reveal the app cards (hides the "Coming Soon" blanket)
+        const APPS_LIVE = false;
+
+        const apps = [
+            {
+                id: "bleacher-busters", icon: "apps/bleacher-busters.png",
+                name: { en: "Bleacher Busters", ko: "블리처 버스터즈", ja: "ブリーチャー・バスターズ" },
+                tagline: {
+                    en: "Swing for the fences in a pixel-art arcade home-run brawler.",
+                    ko: "픽셀 아트 아케이드 홈런 게임에서 담장을 넘겨보세요.",
+                    ja: "ピクセルアートのアーケード・ホームランゲームで場外へ飛ばせ。"
+                },
+                desc: {
+                    en: "Bleacher Busters is a fast, arcade-style baseball slugfest built in Godot. Time your swing, read the pitch, and send balls flying into the bleachers across escalating challenges. Pick-up-and-play controls, chunky pixel art, and a satisfying crack of the bat on every hit.",
+                    ko: "블리처 버스터즈는 Godot로 제작된 빠른 아케이드 야구 게임입니다. 타이밍에 맞춰 스윙하고 공을 관중석까지 날려 보내세요. 누구나 바로 즐길 수 있는 조작, 경쾌한 픽셀 아트, 시원한 타격감이 특징입니다.",
+                    ja: "ブリーチャー・バスターズはGodotで作られた爽快なアーケード野球ゲーム。タイミングよくスイングして、ボールをスタンドまで打ち込もう。手軽な操作と迫力のピクセルアート、心地よい打撃感が魅力です。"
+                }
+            },
+            {
+                id: "marathon-kid", icon: "apps/marathon-kid.png",
+                name: { en: "Marathon Kid", ko: "마라톤 키드", ja: "マラソン・キッド" },
+                tagline: {
+                    en: "Train a scrappy street kid into a marathon champion.",
+                    ko: "거리의 소년을 마라톤 챔피언으로 키워내세요.",
+                    ja: "街の少年をマラソン王者へと育て上げよう。"
+                },
+                desc: {
+                    en: "Marathon Kid is an endurance-running sim where you build a runner from the ground up — pace, stamina, and grit. Manage training, push through the wall, and chase the finish line across a pixel-art city at golden hour. Cloud saves keep your progress with you.",
+                    ko: "마라톤 키드는 지구력 러닝 시뮬레이션입니다. 페이스, 스태미나, 근성을 관리하며 러너를 성장시키고, 황혼의 픽셀 도시를 달려 결승선을 향해 나아가세요. 클라우드 저장으로 진행 상황이 안전하게 보관됩니다.",
+                    ja: "マラソン・キッドは持久力ランニングシミュレーション。ペース、スタミナ、根性を管理してランナーを育て、夕暮れのピクセルシティを駆け抜けてゴールを目指そう。クラウドセーブで進行状況を安全に保存。"
+                }
+            },
+            {
+                id: "water-polo-smash", icon: "apps/water-polo-smash.png",
+                name: { en: "Water Polo Smash", ko: "워터 폴로 스매시", ja: "ウォーターポロ・スマッシュ" },
+                tagline: {
+                    en: "Fast, physical arcade water polo you can play one-handed.",
+                    ko: "한 손으로 즐기는 빠르고 박진감 넘치는 아케이드 수구.",
+                    ja: "片手で遊べる、スピーディで激しいアーケード水球。"
+                },
+                desc: {
+                    en: "Water Polo Smash distills the sport into quick, punchy arcade matches — swim, pass, and smash shots past the keeper. Simple one-handed controls with real momentum and physicality, wrapped in a crystalline splash of art. Easy to learn, tough to master.",
+                    ko: "워터 폴로 스매시는 수구를 빠르고 경쾌한 아케이드 경기로 압축했습니다. 헤엄치고, 패스하고, 골키퍼를 뚫는 슛을 날리세요. 한 손 조작에 실감 나는 물리 감각을 더했습니다. 배우기는 쉽고 마스터하기는 어렵습니다.",
+                    ja: "ウォーターポロ・スマッシュは水球を素早く爽快なアーケード試合に凝縮。泳いで、パスして、キーパーを抜くシュートを叩き込もう。片手操作にリアルな物理挙動を融合。覚えるのは簡単、極めるのは難しい。"
+                }
+            },
+            {
+                id: "chess-drill-instructor", icon: "apps/chess-drill-instructor.png",
+                name: { en: "Chess Drill Instructor", ko: "체스 드릴 인스트럭터", ja: "チェス・ドリル・インストラクター" },
+                tagline: {
+                    en: "A no-excuses drill sergeant that grinds your chess tactics sharp.",
+                    ko: "변명은 통하지 않는 훈련 교관이 당신의 체스 전술을 단련시킵니다.",
+                    ja: "言い訳無用の鬼教官があなたのチェス戦術を鍛え上げる。"
+                },
+                desc: {
+                    en: "Chess Drill Instructor is tactics training with attitude. A relentless drill sergeant runs you through puzzle sets, calls out your blunders, and drills the patterns until they're second nature. Powered by an AI tactics engine, built to make you sharper one rep at a time.",
+                    ko: "체스 드릴 인스트럭터는 개성 넘치는 전술 훈련 앱입니다. 엄격한 교관이 퍼즐 세트를 반복시키고, 실수를 지적하며, 패턴이 몸에 밸 때까지 단련시킵니다. AI 전술 엔진 기반으로, 한 세트씩 당신을 더 날카롭게 만듭니다.",
+                    ja: "チェス・ドリル・インストラクターは個性派の戦術トレーニング。厳しい教官がパズルを反復させ、ミスを指摘し、パターンが体に染みつくまで叩き込む。AI戦術エンジン搭載で、一問ごとにあなたを鋭くする。"
+                }
+            },
+            {
+                id: "cage-of-glory", icon: "apps/cage-of-glory.png",
+                name: { en: "Cage of Glory", ko: "케이지 오브 글로리", ja: "ケージ・オブ・グローリー" },
+                tagline: {
+                    en: "Claw your way from club shows to the MMA title belt.",
+                    ko: "클럽 무대에서 시작해 MMA 챔피언 벨트까지 쟁취하세요.",
+                    ja: "クラブ興行からMMA王座のベルトまで駆け上がれ。"
+                },
+                desc: {
+                    en: "Cage of Glory is an MMA career sim where you build a fighter and climb from small club shows to championship gold. Train the skills, manage the game plan, and fight your way up the rankings toward the belt. Deep progression with a pick-up-and-play core.",
+                    ko: "케이지 오브 글로리는 MMA 커리어 시뮬레이션입니다. 파이터를 육성하고 작은 클럽 무대에서 챔피언 자리까지 올라가세요. 기술을 훈련하고 전략을 세우며 랭킹을 뚫고 벨트를 향해 싸우세요. 깊이 있는 성장 시스템과 손쉬운 조작이 결합되었습니다.",
+                    ja: "ケージ・オブ・グローリーはMMAキャリアシミュレーション。ファイターを育成し、小さなクラブ興行から王座まで駆け上がろう。スキルを鍛え、戦略を練り、ランキングを勝ち抜いてベルトを目指せ。奥深い成長要素と手軽な操作を両立。"
+                }
+            }
+        ];
+
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en', 'ko', 'ja'].includes(l) ? l : 'ko';
+        }
+
+        function renderApps(lang) {
+            const wrap = document.getElementById('appCarousel');
+            const nav = document.getElementById('carouselNav');
+            if (!wrap) return;
+            if (!APPS_LIVE) {
+                if (nav) nav.classList.add('hidden');
+                wrap.classList.add('overflow-hidden');
+                wrap.innerHTML = `
+                    <div class="w-full rounded-2xl border border-dashed border-white/10 bg-white/[0.02] p-8 md:p-14 flex flex-col items-center justify-center text-center gap-3 min-h-[180px] md:min-h-[220px]">
+                        <div class="text-3xl md:text-4xl">🚀</div>
+                        <h3 class="text-base md:text-lg font-bold text-white">${i18n[lang].soon_title}</h3>
+                        <p class="text-[11px] md:text-xs text-gray-500 font-mono uppercase tracking-widest">${i18n[lang].soon_sub}</p>
+                    </div>`;
+                return;
+            }
+            if (nav) nav.classList.remove('hidden');
+            wrap.classList.remove('overflow-hidden');
+            wrap.innerHTML = apps.map((a, i) => `
+                <button onclick="openAppModal(${i})" class="group snap-start shrink-0 basis-[78%] sm:basis-[calc(50%-0.75rem)] text-left rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all">
+                    <div class="flex items-center gap-4 mb-4">
+                        <img src="${a.icon}" alt="" class="w-14 h-14 md:w-16 md:h-16 rounded-2xl border border-white/10 shadow-md shadow-black/30 shrink-0">
+                        <h3 class="text-base md:text-lg font-bold text-white leading-tight group-hover:text-brandPink transition-colors">${a.name[lang]}</h3>
+                    </div>
+                    <p class="text-sm text-gray-400 leading-relaxed">${a.tagline[lang]}</p>
+                    <span class="mt-4 block font-mono text-sm tracking-[0.4em] text-gray-600 group-hover:text-brandPink group-hover:tracking-[0.55em] transition-all">&gt;&gt;&gt;</span>
+                </button>
+            `).join('');
+        }
+
+        function scrollCarousel(dir) {
+            const wrap = document.getElementById('appCarousel');
+            if (!wrap) return;
+            const card = wrap.querySelector('button');
+            const step = card ? card.offsetWidth + 24 : wrap.clientWidth * 0.8;
+            wrap.scrollBy({ left: dir * step, behavior: 'smooth' });
+        }
+
+        function openAppModal(i) {
+            const a = apps[i];
+            const lang = currentLang();
+            document.getElementById('amIcon').src = a.icon;
+            document.getElementById('amName').textContent = a.name[lang];
+            document.getElementById('amTagline').textContent = a.tagline[lang];
+            document.getElementById('amDesc').textContent = a.desc[lang];
+            document.getElementById('amPlatform').textContent = 'Android';
+            document.getElementById('appModal').classList.remove('hidden');
+            document.body.classList.add('overflow-hidden');
+        }
+
+        function closeAppModal() {
+            document.getElementById('appModal').classList.add('hidden');
+            document.body.classList.remove('overflow-hidden');
+        }
+
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeAppModal(); });
 
         let cycleInterval = null;
         let languages = ['en', 'ko', 'ja'];
@@ -242,6 +427,8 @@
                 const key = el.getAttribute('data-i18n');
                 if (i18n[lang] && i18n[lang][key]) el.innerHTML = i18n[lang][key];
             });
+
+            renderApps(lang);
 
             currentLangIndex = languages.indexOf(lang);
             if (currentLangIndex === -1) currentLangIndex = 0;
