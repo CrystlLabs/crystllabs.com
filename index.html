@@ -54,6 +54,33 @@
         #appModal.hidden { opacity: 0; pointer-events: none; }
         #appModalPanel { transition: transform 0.25s ease, opacity 0.25s ease; }
         #appModal.hidden #appModalPanel { transform: translateY(12px); opacity: 0; }
+
+        .tape-wrap {
+            position: absolute; inset: 0; overflow: hidden; border-radius: 1rem;
+            background: rgba(10,10,18,0.45);
+            backdrop-filter: blur(2.5px); -webkit-backdrop-filter: blur(2.5px);
+            display: flex; align-items: center; justify-content: center;
+        }
+        .hazard-tape {
+            position: absolute; left: 50%; top: 50%; width: 180%; height: 68px;
+            transform-origin: center;
+            background-image: repeating-linear-gradient(45deg, #f5c518 0 26px, #14141b 26px 52px);
+            box-shadow: 0 8px 26px rgba(0,0,0,0.6), 0 0 44px rgba(245,197,24,0.15);
+            border-top: 3px solid rgba(255,255,255,0.16); border-bottom: 3px solid rgba(0,0,0,0.7);
+            opacity: 0.95; animation: tapeSlide 2.4s linear infinite;
+        }
+        .hazard-a { transform: translate(-50%,-50%) rotate(13deg); }
+        .hazard-b { transform: translate(-50%,-50%) rotate(-13deg); animation-direction: reverse; }
+        @keyframes tapeSlide { to { background-position: 104px 0; } }
+        .tape-badge {
+            position: relative; z-index: 2; text-align: center;
+            padding: 1.4rem 2.2rem; border-radius: 18px;
+            background: rgba(12,12,20,0.94);
+            border: 2px solid rgba(217,70,239,0.6);
+            box-shadow: 0 0 40px rgba(217,70,239,0.4), 0 10px 30px rgba(0,0,0,0.5), inset 0 0 26px rgba(0,0,0,0.6);
+        }
+        .tape-glow { text-shadow: 0 0 12px rgba(217,70,239,0.6), 0 0 26px rgba(217,70,239,0.35); }
+        @media (prefers-reduced-motion: reduce) { .hazard-tape { animation: none; } }
     </style>
 </head>
 <body class="bg-darkBg text-gray-300 font-sans antialiased min-h-screen md:h-screen flex flex-col md:overflow-hidden">
@@ -143,7 +170,18 @@
                             </button>
                         </div>
                     </div>
-                    <div id="appCarousel" class="flex gap-4 md:gap-6 overflow-x-auto snap-x snap-proximity scroll-smooth pb-2 -mx-1 px-1 no-scrollbar"></div>
+                    <div id="appsViewport" class="relative">
+                        <div id="appCarousel" class="flex gap-4 md:gap-6 overflow-x-auto snap-x snap-proximity scroll-smooth pb-2 -mx-1 px-1 no-scrollbar"></div>
+                        <div id="constructionTape" class="tape-wrap">
+                            <div class="hazard-tape hazard-a"></div>
+                            <div class="hazard-tape hazard-b"></div>
+                            <div class="tape-badge">
+                                <div class="text-4xl md:text-5xl mb-2">🚧</div>
+                                <div class="font-mono text-base md:text-xl font-extrabold uppercase tracking-[0.22em] text-white tape-glow" data-i18n="uc_title">Under Construction</div>
+                                <div class="mt-2 font-mono text-[10px] md:text-xs uppercase tracking-widest text-brandPink/80" data-i18n="soon_sub">New projects launching soon</div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
                 <section id="blogs" class="mb-4">
@@ -219,7 +257,7 @@
                 hero_tagline: "Elegant worlds, deeply simulated.",
                 live_dep: "Projects //", redacted: "[ REDACTED ]", dep_pend: "Deployment Pending", await_clear: "Awaiting Clearance", section_blogs: "Blogs //",
                 shot_soon: "Screenshots<br>coming soon", store_soon: "Google Play — Coming Soon", tap_details: "Tap for details",
-                soon_title: "Something's Coming", soon_sub: "New projects launching soon"
+                soon_title: "Something's Coming", soon_sub: "New projects launching soon", uc_title: "Under Construction"
             },
             ko: {
                 nav_run: "연결됨",
@@ -230,7 +268,7 @@
                 hero_tagline: "우아한 세계, 깊이 있는 시뮬레이션.",
                 live_dep: "프로젝트 //", redacted: "[ 기밀 사항 ]", dep_pend: "배포 대기 중", await_clear: "승인 대기 중", section_blogs: "블로그 //",
                 shot_soon: "스크린샷<br>준비 중", store_soon: "구글 플레이 — 출시 예정", tap_details: "탭하여 자세히 보기",
-                soon_title: "곧 공개됩니다", soon_sub: "새로운 프로젝트가 곧 출시됩니다"
+                soon_title: "곧 공개됩니다", soon_sub: "새로운 프로젝트가 곧 출시됩니다", uc_title: "공사 중"
             },
             ja: {
                 nav_run: "接続済み",
@@ -241,7 +279,7 @@
                 hero_tagline: "優雅な世界、深いシミュレーション。",
                 live_dep: "プロジェクト //", redacted: "[ 機密事項 ]", dep_pend: "デプロイ待機中", await_clear: "承認待機中", section_blogs: "ブログ //",
                 shot_soon: "スクリーンショット<br>準備中", store_soon: "Google Play — 近日公開", tap_details: "タップして詳細",
-                soon_title: "近日公開", soon_sub: "新しいプロジェクトを準備中です"
+                soon_title: "近日公開", soon_sub: "新しいプロジェクトを準備中です", uc_title: "工事中"
             }
         };
 
@@ -328,21 +366,7 @@
 
         function renderApps(lang) {
             const wrap = document.getElementById('appCarousel');
-            const nav = document.getElementById('carouselNav');
             if (!wrap) return;
-            if (!APPS_LIVE) {
-                if (nav) nav.classList.add('hidden');
-                wrap.classList.add('overflow-hidden');
-                wrap.innerHTML = `
-                    <div class="w-full rounded-2xl border border-dashed border-white/10 bg-white/[0.02] p-8 md:p-14 flex flex-col items-center justify-center text-center gap-3 min-h-[180px] md:min-h-[220px]">
-                        <div class="text-3xl md:text-4xl">🚀</div>
-                        <h3 class="text-base md:text-lg font-bold text-white">${i18n[lang].soon_title}</h3>
-                        <p class="text-[11px] md:text-xs text-gray-500 font-mono uppercase tracking-widest">${i18n[lang].soon_sub}</p>
-                    </div>`;
-                return;
-            }
-            if (nav) nav.classList.remove('hidden');
-            wrap.classList.remove('overflow-hidden');
             wrap.innerHTML = apps.map((a, i) => `
                 <button onclick="openAppModal(${i})" class="group snap-start shrink-0 basis-[78%] sm:basis-[calc(50%-0.75rem)] text-left rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all">
                     <div class="flex items-center gap-4 mb-4">
@@ -353,6 +377,16 @@
                     <span class="mt-4 block font-mono text-sm tracking-[0.4em] text-gray-600 group-hover:text-brandPink group-hover:tracking-[0.55em] transition-all">&gt;&gt;&gt;</span>
                 </button>
             `).join('');
+            applyLaunchState();
+        }
+
+        function applyLaunchState() {
+            const tape = document.getElementById('constructionTape');
+            const nav = document.getElementById('carouselNav');
+            const car = document.getElementById('appCarousel');
+            if (tape) tape.classList.toggle('hidden', APPS_LIVE);
+            if (nav) nav.classList.toggle('hidden', !APPS_LIVE);
+            if (car) car.classList.toggle('pointer-events-none', !APPS_LIVE);
         }
 
         function scrollCarousel(dir) {
