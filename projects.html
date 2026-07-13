@@ -77,37 +77,19 @@
                 </li>
                 <li class="ml-1">
                     <a href="index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_index">index.html</span></a>
-                </li>
-                <li class="ml-1">
-                    <span class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono">
-                        <span data-i18n="file_projects">projects.html</span>
-                        <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
-                    </span>
-                </li>
-                <li class="ml-1">
-                    <a href="index.html#blogs" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="link_blogs">#blogs</span></a>
-                </li>
-                <li class="ml-1">
-                    <a href="index.html#personnel" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="link_crew">#personnel</span></a>
-                </li>
-                <li class="ml-1">
-                    <a href="privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_privacy">privacy.html</span></a>
-                </li>
-                <li class="ml-1">
-                    <a href="terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_terms">terms.html</span></a>
-                </li>
-                <li class="ml-1">
-                    <a href="data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_deletion">data-deletion.html</span></a>
-                </li>
-
-                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mt-6 mb-2 flex items-center gap-2">
-                    <span>📁</span> <span data-i18n="exp_logs">public_logs</span>
-                </li>
-                <li class="ml-1">
-                    <a href="ceo-blog.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_ceo">ceo_executive.log</span></a>
-                </li>
-                <li class="ml-1">
-                    <a href="dev-blog.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_dev">dev_senior.log</span></a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <span class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono">
+                                <span data-i18n="file_projects">projects.html</span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </span>
+                        </li>
+                        <li><a href="blogs.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="link_blogs">blogs.html</span></a></li>
+                        <li><a href="personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="link_crew">personnel.html</span></a></li>
+                        <li><a href="privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_privacy">privacy.html</span></a></li>
+                        <li><a href="terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_terms">terms.html</span></a></li>
+                        <li><a href="data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_deletion">data-deletion.html</span></a></li>
+                    </ul>
                 </li>
             </ul>
         </aside>
@@ -170,7 +152,7 @@
         const i18n = {
             en: {
                 nav_run: "CONNECTED", exp_src: "src_files", exp_logs: "public_logs",
-                file_index: "index.html", file_projects: "projects.html", link_blogs: "#blogs", link_crew: "#personnel",
+                file_index: "index.html", file_projects: "projects.html", link_blogs: "blogs.html", link_crew: "personnel.html",
                 file_privacy: "privacy.html", file_terms: "terms.html", file_deletion: "data-deletion.html",
                 file_ceo: "ceo_executive.log", file_dev: "dev_senior.log",
                 projects_head: "Projects", projects_sub: "The full Crystl Labs roster.",
@@ -179,7 +161,7 @@
             },
             ko: {
                 nav_run: "연결됨", exp_src: "소스_파일", exp_logs: "공개_블로그",
-                file_index: "인덱스.html", file_projects: "프로젝트.html", link_blogs: "#블로그", link_crew: "#인력",
+                file_index: "인덱스.html", file_projects: "프로젝트.html", link_blogs: "블로그.html", link_crew: "인력.html",
                 file_privacy: "개인정보처리방침.html", file_terms: "이용약관.html", file_deletion: "데이터삭제.html",
                 file_ceo: "ceo_경영진.log", file_dev: "dev_수석개발자.log",
                 projects_head: "프로젝트", projects_sub: "크리스탈 랩스의 전체 라인업.",
@@ -188,7 +170,7 @@
             },
             ja: {
                 nav_run: "接続済み", exp_src: "ソースファイル", exp_logs: "公開ブログ",
-                file_index: "インデックス.html", file_projects: "プロジェクト.html", link_blogs: "#ブログ", link_crew: "#スタッフ",
+                file_index: "インデックス.html", file_projects: "プロジェクト.html", link_blogs: "ブログ.html", link_crew: "スタッフ.html",
                 file_privacy: "プライバシーポリシー.html", file_terms: "利用規約.html", file_deletion: "データ削除.html",
                 file_ceo: "ceo_役員.log", file_dev: "dev_シニア開発者.log",
                 projects_head: "プロジェクト", projects_sub: "クリスタル・ラボの全ラインナップ。",

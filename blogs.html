@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystl Labs | Blogs</title>
+
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #D946EF, #A78BFA 50%, #3B82F6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span data-i18n="nav_run">CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span data-i18n="exp_src">src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_index">index.html</span></a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li><a href="projects.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_projects">projects.html</span></a></li>
+                        <li>
+                            <span class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono">
+                                <span data-i18n="link_blogs">blogs.html</span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </span>
+                        </li>
+                        <li><a href="personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="link_crew">personnel.html</span></a></li>
+                        <li><a href="privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_privacy">privacy.html</span></a></li>
+                        <li><a href="terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_terms">terms.html</span></a></li>
+                        <li><a href="data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_deletion">data-deletion.html</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-5xl mx-auto">
+                <header class="mb-8 md:mb-12">
+                    <h1 class="text-gradient text-4xl md:text-6xl font-extrabold tracking-tight leading-tight pb-2" data-i18n="blogs_head">Blogs</h1>
+                    <p class="mt-1 font-mono text-sm md:text-base text-gray-400 tracking-wide" data-i18n="blogs_sub">Dispatches from the Crystl Labs crew.</p>
+                </header>
+
+                <h2 data-i18n="section_blogs" class="font-mono text-[11px] md:text-xs text-gray-500 mb-5 md:mb-8 uppercase tracking-widest">Blogs //</h2>
+                <div class="grid sm:grid-cols-2 gap-4 md:gap-6">
+                    <a href="ceo-blog.html" class="group rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-6 shadow-lg shadow-black/20 transition-all block">
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-[11px] font-mono text-brandPink tracking-wide">CEO_LOG // ADVISORY</span>
+                            <span class="text-[11px] font-mono text-gray-500">2026-03</span>
+                        </div>
+                        <h3 class="text-sm font-semibold text-white mb-2 group-hover:text-brandPink transition-colors">CEO_TRANSMISSION.LOG</h3>
+                        <p class="text-sm text-gray-400 leading-relaxed">Executive strategy, Korean cultural integration architectures, and asset optimization dispatches.</p>
+                    </a>
+                    <a href="dev-blog.html" class="group rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandBlue/40 p-6 shadow-lg shadow-black/20 transition-all block">
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-[11px] font-mono text-brandBlue tracking-wide">DEV_LOG // TELEMETRY</span>
+                            <span class="text-[11px] font-mono text-gray-500">2026-03</span>
+                        </div>
+                        <h3 class="text-sm font-semibold text-white mb-2 group-hover:text-brandBlue transition-colors">SENIOR_DEV.LOG</h3>
+                        <p class="text-sm text-gray-400 leading-relaxed">Technical implementation breakdowns, low-overhead hosting matrices, and parsing automation pipelines.</p>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const i18n = {
+            en: {
+                nav_run: "CONNECTED", exp_src: "src_files",
+                file_index: "index.html", file_projects: "projects.html", link_blogs: "blogs.html", link_crew: "personnel.html",
+                file_privacy: "privacy.html", file_terms: "terms.html", file_deletion: "data-deletion.html",
+                blogs_head: "Blogs", blogs_sub: "Dispatches from the Crystl Labs crew.", section_blogs: "Blogs //"
+            },
+            ko: {
+                nav_run: "연결됨", exp_src: "소스_파일",
+                file_index: "인덱스.html", file_projects: "프로젝트.html", link_blogs: "블로그.html", link_crew: "인력.html",
+                file_privacy: "개인정보처리방침.html", file_terms: "이용약관.html", file_deletion: "데이터삭제.html",
+                blogs_head: "블로그", blogs_sub: "크리스탈 랩스 크루의 소식.", section_blogs: "블로그 //"
+            },
+            ja: {
+                nav_run: "接続済み", exp_src: "ソースファイル",
+                file_index: "インデックス.html", file_projects: "プロジェクト.html", link_blogs: "ブログ.html", link_crew: "スタッフ.html",
+                file_privacy: "プライバシーポリシー.html", file_terms: "利用規約.html", file_deletion: "データ削除.html",
+                blogs_head: "ブログ", blogs_sub: "クリスタル・ラボのクルーからの便り。", section_blogs: "ブログ //"
+            }
+        };
+
+        function switchLang(lang) {
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (i18n[lang] && i18n[lang][key]) el.innerHTML = i18n[lang][key];
+            });
+        }
+
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+
+        window.onload = () => {
+            let lang = localStorage.getItem('crystl_lang');
+            if (!['en', 'ko', 'ja'].includes(lang)) lang = 'ko';
+            switchLang(lang);
+        };
+    </script>
+</body>
+</html>
