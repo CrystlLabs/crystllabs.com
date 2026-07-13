@@ -140,14 +140,21 @@
 
                 <p id="amDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-7"></p>
 
-                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none w-full sm:w-auto justify-center">
-                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
-                    <span data-i18n="store_soon">Google Play — Coming Soon</span>
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none justify-center">
+                        <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                        <span data-i18n="store_soon">Google Play — Coming Soon</span>
+                    </div>
+                    <a id="amPageLink" href="#" class="inline-flex items-center gap-2 rounded-xl bg-brandPink/10 border border-brandPink/30 px-4 py-3 text-brandPink font-mono text-xs uppercase tracking-wide hover:bg-brandPink/20 transition-colors justify-center">
+                        <span data-i18n="view_page">Open full page</span>
+                        <span aria-hidden="true">-&gt;</span>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 
+    <script src="apps/apps.data.js"></script>
     <script>
         const i18n = {
             en: {
@@ -157,7 +164,7 @@
                 file_ceo: "ceo_executive.log", file_dev: "dev_senior.log",
                 projects_head: "Projects", projects_sub: "The full Crystl Labs roster.",
                 live_dep: "//", apps_unit: "apps",
-                shot_soon: "Screenshots<br>coming soon", store_soon: "Google Play — Coming Soon"
+                shot_soon: "Screenshots<br>coming soon", store_soon: "Google Play — Coming Soon", view_page: "Open full page"
             },
             ko: {
                 nav_run: "연결됨", exp_src: "소스_파일", exp_logs: "공개_블로그",
@@ -166,7 +173,7 @@
                 file_ceo: "ceo_경영진.log", file_dev: "dev_수석개발자.log",
                 projects_head: "프로젝트", projects_sub: "크리스탈 랩스의 전체 라인업.",
                 live_dep: "//", apps_unit: "개",
-                shot_soon: "스크린샷<br>준비 중", store_soon: "구글 플레이 — 출시 예정"
+                shot_soon: "스크린샷<br>준비 중", store_soon: "구글 플레이 — 출시 예정", view_page: "전체 페이지 보기"
             },
             ja: {
                 nav_run: "接続済み", exp_src: "ソースファイル", exp_logs: "公開ブログ",
@@ -175,82 +182,12 @@
                 file_ceo: "ceo_役員.log", file_dev: "dev_シニア開発者.log",
                 projects_head: "プロジェクト", projects_sub: "クリスタル・ラボの全ラインナップ。",
                 live_dep: "//", apps_unit: "本",
-                shot_soon: "スクリーンショット<br>準備中", store_soon: "Google Play — 近日公開"
+                shot_soon: "スクリーンショット<br>準備中", store_soon: "Google Play — 近日公開", view_page: "詳細ページを開く"
             }
         };
 
-        const apps = [
-            {
-                id: "bleacher-busters", icon: "apps/bleacher-busters.png",
-                name: { en: "Bleacher Busters", ko: "블리처 버스터즈", ja: "ブリーチャー・バスターズ" },
-                tagline: {
-                    en: "Swing for the fences in a pixel-art arcade home-run brawler.",
-                    ko: "픽셀 아트 아케이드 홈런 게임에서 담장을 넘겨보세요.",
-                    ja: "ピクセルアートのアーケード・ホームランゲームで場外へ飛ばせ。"
-                },
-                desc: {
-                    en: "Bleacher Busters is a fast, arcade-style baseball slugfest built in Godot. Time your swing, read the pitch, and send balls flying into the bleachers across escalating challenges. Pick-up-and-play controls, chunky pixel art, and a satisfying crack of the bat on every hit.",
-                    ko: "블리처 버스터즈는 Godot로 제작된 빠른 아케이드 야구 게임입니다. 타이밍에 맞춰 스윙하고 공을 관중석까지 날려 보내세요. 누구나 바로 즐길 수 있는 조작, 경쾌한 픽셀 아트, 시원한 타격감이 특징입니다.",
-                    ja: "ブリーチャー・バスターズはGodotで作られた爽快なアーケード野球ゲーム。タイミングよくスイングして、ボールをスタンドまで打ち込もう。手軽な操作と迫力のピクセルアート、心地よい打撃感が魅力です。"
-                }
-            },
-            {
-                id: "marathon-kid", icon: "apps/marathon-kid.png",
-                name: { en: "Marathon Kid", ko: "마라톤 키드", ja: "マラソン・キッド" },
-                tagline: {
-                    en: "Train a scrappy street kid into a marathon champion.",
-                    ko: "거리의 소년을 마라톤 챔피언으로 키워내세요.",
-                    ja: "街の少年をマラソン王者へと育て上げよう。"
-                },
-                desc: {
-                    en: "Marathon Kid is an endurance-running sim where you build a runner from the ground up — pace, stamina, and grit. Manage training, push through the wall, and chase the finish line across a pixel-art city at golden hour. Cloud saves keep your progress with you.",
-                    ko: "마라톤 키드는 지구력 러닝 시뮬레이션입니다. 페이스, 스태미나, 근성을 관리하며 러너를 성장시키고, 황혼의 픽셀 도시를 달려 결승선을 향해 나아가세요. 클라우드 저장으로 진행 상황이 안전하게 보관됩니다.",
-                    ja: "マラソン・キッドは持久力ランニングシミュレーション。ペース、スタミナ、根性を管理してランナーを育て、夕暮れのピクセルシティを駆け抜けてゴールを目指そう。クラウドセーブで進行状況を安全に保存。"
-                }
-            },
-            {
-                id: "water-polo-smash", icon: "apps/water-polo-smash.png",
-                name: { en: "Water Polo Smash", ko: "워터 폴로 스매시", ja: "ウォーターポロ・スマッシュ" },
-                tagline: {
-                    en: "Fast, physical arcade water polo you can play one-handed.",
-                    ko: "한 손으로 즐기는 빠르고 박진감 넘치는 아케이드 수구.",
-                    ja: "片手で遊べる、スピーディで激しいアーケード水球。"
-                },
-                desc: {
-                    en: "Water Polo Smash distills the sport into quick, punchy arcade matches — swim, pass, and smash shots past the keeper. Simple one-handed controls with real momentum and physicality, wrapped in a crystalline splash of art. Easy to learn, tough to master.",
-                    ko: "워터 폴로 스매시는 수구를 빠르고 경쾌한 아케이드 경기로 압축했습니다. 헤엄치고, 패스하고, 골키퍼를 뚫는 슛을 날리세요. 한 손 조작에 실감 나는 물리 감각을 더했습니다. 배우기는 쉽고 마스터하기는 어렵습니다.",
-                    ja: "ウォーターポロ・スマッシュは水球を素早く爽快なアーケード試合に凝縮。泳いで、パスして、キーパーを抜くシュートを叩き込もう。片手操作にリアルな物理挙動を融合。覚えるのは簡単、極めるのは難しい。"
-                }
-            },
-            {
-                id: "chess-drill-instructor", icon: "apps/chess-drill-instructor.png",
-                name: { en: "Chess Drill Instructor", ko: "체스 드릴 인스트럭터", ja: "チェス・ドリル・インストラクター" },
-                tagline: {
-                    en: "A no-excuses drill sergeant that grinds your chess tactics sharp.",
-                    ko: "변명은 통하지 않는 훈련 교관이 당신의 체스 전술을 단련시킵니다.",
-                    ja: "言い訳無用の鬼教官があなたのチェス戦術を鍛え上げる。"
-                },
-                desc: {
-                    en: "Chess Drill Instructor is tactics training with attitude. A relentless drill sergeant runs you through puzzle sets, calls out your blunders, and drills the patterns until they're second nature. Powered by an AI tactics engine, built to make you sharper one rep at a time.",
-                    ko: "체스 드릴 인스트럭터는 개성 넘치는 전술 훈련 앱입니다. 엄격한 교관이 퍼즐 세트를 반복시키고, 실수를 지적하며, 패턴이 몸에 밸 때까지 단련시킵니다. AI 전술 엔진 기반으로, 한 세트씩 당신을 더 날카롭게 만듭니다.",
-                    ja: "チェス・ドリル・インストラクターは個性派の戦術トレーニング。厳しい教官がパズルを反復させ、ミスを指摘し、パターンが体に染みつくまで叩き込む。AI戦術エンジン搭載で、一問ごとにあなたを鋭くする。"
-                }
-            },
-            {
-                id: "cage-of-glory", icon: "apps/cage-of-glory.png",
-                name: { en: "Cage of Glory", ko: "케이지 오브 글로리", ja: "ケージ・オブ・グローリー" },
-                tagline: {
-                    en: "Claw your way from club shows to the MMA title belt.",
-                    ko: "클럽 무대에서 시작해 MMA 챔피언 벨트까지 쟁취하세요.",
-                    ja: "クラブ興行からMMA王座のベルトまで駆け上がれ。"
-                },
-                desc: {
-                    en: "Cage of Glory is an MMA career sim where you build a fighter and climb from small club shows to championship gold. Train the skills, manage the game plan, and fight your way up the rankings toward the belt. Deep progression with a pick-up-and-play core.",
-                    ko: "케이지 오브 글로리는 MMA 커리어 시뮬레이션입니다. 파이터를 육성하고 작은 클럽 무대에서 챔피언 자리까지 올라가세요. 기술을 훈련하고 전략을 세우며 랭킹을 뚫고 벨트를 향해 싸우세요. 깊이 있는 성장 시스템과 손쉬운 조작이 결합되었습니다.",
-                    ja: "ケージ・オブ・グローリーはMMAキャリアシミュレーション。ファイターを育成し、小さなクラブ興行から王座まで駆け上がろう。スキルを鍛え、戦略を練り、ランキングを勝ち抜いてベルトを目指せ。奥深い成長要素と手軽な操作を両立。"
-                }
-            }
-        ];
+        // App data is generated by build_apps.py and loaded from apps/apps.data.js
+        const apps = window.CRYSTL_APPS || [];
 
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
@@ -278,7 +215,8 @@
             document.getElementById('amName').textContent = a.name[lang];
             document.getElementById('amTagline').textContent = a.tagline[lang];
             document.getElementById('amDesc').textContent = a.desc[lang];
-            document.getElementById('amPlatform').textContent = 'Android';
+            document.getElementById('amPlatform').textContent = a.platform || 'Android';
+            document.getElementById('amPageLink').href = a.page || (a.slug ? `apps/${a.slug}.html` : '#');
             document.getElementById('appModal').classList.remove('hidden');
             document.body.classList.add('overflow-hidden');
         }
