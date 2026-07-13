@@ -201,7 +201,8 @@ def generate_standalone_page(post, category, slug, color, tag):
                             <span class="text-[11px] font-mono text-{accent_color} tracking-wide">{tag} // ARTICLE</span>
                             <span class="text-[11px] font-mono text-gray-500">{post['date']}</span>
                         </div>
-                        <h1 class="text-xl md:text-2xl font-extrabold tracking-tight text-white mb-4">{post['title']} //</h1>
+                        <h1 class="text-xl md:text-2xl font-extrabold tracking-tight text-white mb-3">{post['title']} //</h1>
+                        <p class="font-mono text-[11px] text-gray-500 uppercase tracking-wide mb-4">Written by AP39</p>
                         <p class="text-gray-400 text-sm leading-relaxed border-l-2 border-white/10 pl-4 py-1">
                             {post['summary']}
                         </p>
