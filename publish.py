@@ -111,19 +111,6 @@ def generate_standalone_page(post, category, slug, color, tag):
     accent_color = "brandPink" if category == "ceo" else "brandBlue"
     glow_rgb = "217,70,239" if category == "ceo" else "59,130,246"
 
-    if category == "ceo":
-        ceo_item = f"""<span class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandPink text-white text-xs font-mono">
-                        ceo_executive.log
-                        <span class="w-1.5 h-1.5 rounded-full bg-brandPink animate-pulse flex-shrink-0"></span>
-                    </span>"""
-        dev_item = '<a href="../dev-blog.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">dev_senior.log</a>'
-    else:
-        ceo_item = '<a href="../ceo-blog.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">ceo_executive.log</a>'
-        dev_item = f"""<span class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandBlue text-white text-xs font-mono">
-                        dev_senior.log
-                        <span class="w-1.5 h-1.5 rounded-full bg-brandBlue animate-pulse flex-shrink-0"></span>
-                    </span>"""
-
     tags_elements = ""
     for t in post['tags']:
         tags_elements += f'<span class="text-[11px] font-mono text-gray-400 bg-white/5 px-2.5 py-1 rounded border border-white/10">{t}</span>\n'
@@ -182,21 +169,27 @@ def generate_standalone_page(post, category, slug, color, tag):
     <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
         <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
 
-        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-52 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-5 shrink-0 overflow-y-auto">
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
             <ul class="space-y-1 text-sm font-sans text-gray-400">
                 <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
                     <span>📁</span> <span>src_files</span>
                 </li>
-                <li class="ml-1"><a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a></li>
-                <li class="ml-1"><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
-                <li class="ml-1"><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
-                <li class="ml-1"><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
-
-                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mt-6 mb-2 flex items-center gap-2">
-                    <span>📁</span> <span>public_blogs</span>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li><a href="../projects.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">projects.html</a></li>
+                        <li>
+                            <span class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono">
+                                blogs.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </span>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
                 </li>
-                <li class="ml-1">{ceo_item}</li>
-                <li class="ml-1">{dev_item}</li>
             </ul>
         </aside>
 
