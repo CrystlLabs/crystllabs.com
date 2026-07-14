@@ -107,7 +107,7 @@ def parse_post(file_path):
 
 def generate_standalone_page(post, category, slug, color, tag):
     """Generates a complete, beautiful standalone HTML page for an article inside its respective folder."""
-    back_url = "../ceo-blog.html" if category == "ceo" else "../dev-blog.html"
+    back_url = "../ceo-blog.html" if category == "ceo" else "../blogs.html"
     accent_color = "brandPink" if category == "ceo" else "brandBlue"
     glow_rgb = "217,70,239" if category == "ceo" else "59,130,246"
 
@@ -345,7 +345,7 @@ def run_pipeline():
     print("\n[ENGINE] Analyzing Dev senior dispatches...")
     dev_html = compile_posts('_posts/dev', 'brandBlue', 'BUILD')
     if dev_html:
-        inject_to_html('dev-blog.html', dev_html)
+        inject_to_html('blogs.html', dev_html)
     else:
         print("[ENGINE] No Markdown sources found in _posts/dev. Keeping defaults.")
 
