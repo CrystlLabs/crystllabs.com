@@ -40,12 +40,18 @@
             grid-column: 1;
             grid-row: 1;
             opacity: 0;
-            transition: opacity 1.2s ease-in-out;
-            will-change: opacity;
+            filter: blur(10px);
+            transform: scale(0.94);
+            transition: opacity 1.6s cubic-bezier(0.45, 0, 0.2, 1),
+                        filter 1.6s cubic-bezier(0.45, 0, 0.2, 1),
+                        transform 1.6s cubic-bezier(0.45, 0, 0.2, 1);
+            will-change: opacity, filter, transform;
             pointer-events: none;
         }
         .morph-title.active {
             opacity: 1;
+            filter: blur(0);
+            transform: scale(1);
             pointer-events: auto;
         }
         .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
@@ -119,6 +125,10 @@
                         <h1 data-title="th" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">คริสตัล แล็บส์</h1>
                         <h1 data-title="zh" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">水晶实验室</h1>
                         <h1 data-title="hi" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">क्रिस्टल लैब्स</h1>
+                        <h1 data-title="my" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">ခရစ်စတယ် လက်ဘ်စ်</h1>
+                        <h1 data-title="si" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">ක්‍රිස්ටල් ලැබ්ස්</h1>
+                        <h1 data-title="tw" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">水晶實驗室</h1>
+                        <h1 data-title="tl" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">Kristal Labs</h1>
                     </div>
                     <p class="mt-1 md:mt-2 font-mono text-sm md:text-base text-gray-400 tracking-wide" data-i18n="hero_tagline">우아한 세계, 깊이 있는 시뮬레이션.</p>
                 </header>
@@ -303,7 +313,7 @@
         let cycleInterval = null;
         // Decorative hero cycle — independent of the UI language selector.
         // English is interleaved between every foreign script.
-        const titleSequence = ['en', 'ko', 'en', 'ja', 'en', 'th', 'en', 'zh', 'en', 'hi'];
+        const titleSequence = ['en', 'ko', 'en', 'ja', 'en', 'th', 'en', 'zh', 'en', 'hi', 'en', 'my', 'en', 'si', 'en', 'tw', 'en', 'tl'];
         let titleSeqIndex = 0;
 
         function startTextCycle() {
