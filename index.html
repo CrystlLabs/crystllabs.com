@@ -124,16 +124,16 @@
                 </header>
 
                 <section id="frontier" class="mb-8 md:mb-10">
-                    <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4 md:mb-5" data-i18n="heat_head">// frontier</h2>
+                    <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4 md:mb-5" data-i18n="heat_head">Frontier //</h2>
                     <div id="heatCarousel" class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6"></div>
                 </section>
 
                 <section id="apps" class="mb-8 md:mb-12">
                     <div class="flex items-center justify-between mb-5 md:mb-8">
-                        <h2 class="font-mono text-[11px] md:text-xs text-gray-500 uppercase tracking-widest" data-i18n="live_dep">Projects //</h2>
+                        <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest" data-i18n="live_dep">Projects //</h2>
                         <a href="projects.html" class="font-mono text-[10px] md:text-[11px] text-gray-500 hover:text-brandPink uppercase tracking-wider transition-colors" data-i18n="view_all">View all -&gt;</a>
                     </div>
-                    <div id="appCarousel" class="flex overflow-x-auto snap-x snap-mandatory no-scrollbar gap-4 md:gap-6 pb-2"></div>
+                    <div id="appCarousel" class="flex overflow-x-auto snap-x snap-mandatory no-scrollbar gap-4 md:gap-6 pb-2 cursor-grab active:cursor-grabbing select-none"></div>
                 </section>
 
                 <section class="mt-10 md:mt-14 mb-4 flex items-center justify-center gap-4">
@@ -202,7 +202,7 @@
                 file_ceo: "ceo_executive.log", file_dev: "dev_senior.log",
                 hero_title: "Crystl Labs",
                 hero_tagline: "Elegant worlds, deeply simulated.",
-                live_dep: "Latest Projects //", heat_head: "// frontier", view_all: "View all -&gt;", redacted: "[ REDACTED ]", dep_pend: "Deployment Pending", await_clear: "Awaiting Clearance", section_blogs: "Blogs //",
+                live_dep: "Latest Projects //", heat_head: "Frontier //", view_all: "View all -&gt;", redacted: "[ REDACTED ]", dep_pend: "Deployment Pending", await_clear: "Awaiting Clearance", section_blogs: "Blogs //",
                 shot_soon: "Screenshots<br>coming soon", store_soon: "Google Play — Coming Soon", view_page: "Open full page", tap_details: "Tap for details",
                 soon_title: "Something's Coming", soon_sub: "New projects launching soon", uc_title: "Under Construction",
                 crew_head: "Crew //", crew_ceo_bio: "Executive lead. Asian market operations, business administration, and portfolio growth strategy.", crew_dev_bio: "Senior developer. Full-stack architecture, simulation systems, and the entire app portfolio."
@@ -214,7 +214,7 @@
                 file_ceo: "ceo_경영진.log", file_dev: "dev_수석개발자.log",
                 hero_title: "크리스탈 랩스",
                 hero_tagline: "우아한 세계, 깊이 있는 시뮬레이션.",
-                live_dep: "최신 프로젝트 //", heat_head: "// 프론티어", view_all: "전체 보기 -&gt;", redacted: "[ 기밀 사항 ]", dep_pend: "배포 대기 중", await_clear: "승인 대기 중", section_blogs: "블로그 //",
+                live_dep: "최신 프로젝트 //", heat_head: "프론티어 //", view_all: "전체 보기 -&gt;", redacted: "[ 기밀 사항 ]", dep_pend: "배포 대기 중", await_clear: "승인 대기 중", section_blogs: "블로그 //",
                 shot_soon: "스크린샷<br>준비 중", store_soon: "구글 플레이 — 출시 예정", view_page: "전체 페이지 보기", tap_details: "탭하여 자세히 보기",
                 soon_title: "곧 공개됩니다", soon_sub: "새로운 프로젝트가 곧 출시됩니다", uc_title: "공사 중",
                 crew_head: "크루 //", crew_ceo_bio: "경영 총괄. 아시아 시장 운영, 사업 관리 및 포트폴리오 성장 전략 담당.", crew_dev_bio: "수석 개발자. 풀스택 아키텍처, 시뮬레이션 시스템 및 앱 포트폴리오 전반 담당."
@@ -226,7 +226,7 @@
                 file_ceo: "ceo_役員.log", file_dev: "dev_シニア開発者.log",
                 hero_title: "クリスタル・ラボ",
                 hero_tagline: "優雅な世界、深いシミュレーション。",
-                live_dep: "最新プロジェクト //", heat_head: "// フロンティア", view_all: "すべて見る -&gt;", redacted: "[ 機密事項 ]", dep_pend: "デプロイ待機中", await_clear: "承認待機中", section_blogs: "ブログ //",
+                live_dep: "最新プロジェクト //", heat_head: "フロンティア //", view_all: "すべて見る -&gt;", redacted: "[ 機密事項 ]", dep_pend: "デプロイ待機中", await_clear: "承認待機中", section_blogs: "ブログ //",
                 shot_soon: "スクリーンショット<br>準備中", store_soon: "Google Play — 近日公開", view_page: "詳細ページを開く", tap_details: "タップして詳細",
                 soon_title: "近日公開", soon_sub: "新しいプロジェクトを準備中です", uc_title: "工事中",
                 crew_head: "クルー //", crew_ceo_bio: "経営責任者。アジア市場運営、事業管理、ポートフォリオ成長戦略を担当。", crew_dev_bio: "シニア開発者。フルスタック設計、シミュレーションシステム、全アプリを担当。"
@@ -344,6 +344,32 @@
             document.getElementById('iconClose').classList.toggle('hidden');
         }
 
+        // Touch swipe works natively via overflow-x-auto; this adds click-and-drag for mouse.
+        function makeDraggable(el) {
+            if (!el) return;
+            let isDown = false;
+            let dragged = false;
+            let startX = 0;
+            let scrollStart = 0;
+
+            el.addEventListener('mousedown', (e) => {
+                isDown = true;
+                dragged = false;
+                startX = e.pageX;
+                scrollStart = el.scrollLeft;
+            });
+            window.addEventListener('mousemove', (e) => {
+                if (!isDown) return;
+                const dx = e.pageX - startX;
+                if (Math.abs(dx) > 5) dragged = true;
+                el.scrollLeft = scrollStart - dx;
+            });
+            window.addEventListener('mouseup', () => { isDown = false; });
+            el.addEventListener('click', (e) => {
+                if (dragged) { e.preventDefault(); e.stopPropagation(); }
+            }, true);
+        }
+
         window.onload = () => {
             let lang = localStorage.getItem('crystl_lang');
             if (!lang) {
@@ -352,6 +378,7 @@
             }
             switchLang(lang);
             startTextCycle();
+            makeDraggable(document.getElementById('appCarousel'));
         };
     </script>
 </body>
