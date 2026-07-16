@@ -8,6 +8,7 @@ Automates compilation of Markdown (.md) blogs into standalone post pages
 and updates the index index pages with summaries and links.
 """
 
+import json
 import os
 import re
 import sys
@@ -124,6 +125,30 @@ def parse_markdown_to_html(content):
         formatted_p.append(p)
     
     return '\n'.join(formatted_p)
+
+def load_ap39_posts():
+    """Reads post metadata (not content) from the sibling ap39 repo so crystllabs.com
+    can link out to the canonical post there instead of duplicating it locally."""
+    ap39_dir = os.path.join('..', 'ap39', 'src', 'data', 'alpha')
+    posts = []
+    if not os.path.exists(ap39_dir):
+        return posts
+
+    for file_name in sorted(os.listdir(ap39_dir)):
+        if not file_name.endswith('.json'):
+            continue
+        with open(os.path.join(ap39_dir, file_name), 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        slug = data.get('slug') or file_name.replace('.json', '')
+        posts.append({
+            'title': data.get('title', 'Untitled'),
+            'slug': slug,
+            'date': (data.get('date') or '')[:10],
+            'summary': data.get('excerpt', ''),
+            'tags': ['AP39'],
+            'external_url': f"https://ap39.crystllabs.com/alpha/{slug}",
+        })
+    return posts
 
 def parse_post(file_path):
     """Splits custom metadata tags and formats post output properties."""
@@ -304,24 +329,33 @@ def generate_standalone_page(post, category, slug, color, tag):
         f.write(html_template)
     print(f"[ENGINE] Created stand-alone page: {file_name}")
 
-def compile_posts(folder, tag_color, prefix):
+def compile_posts(folder, tag_color, prefix, external_posts=None):
     """
-    Iterates through localized markdown dispatches, compiles individual HTML files,
-    and returns compiled index preview snippets.
+    Iterates through localized markdown dispatches, compiles individual HTML files
+    for them, and returns compiled index preview snippets. External posts (e.g.
+    ap39 alpha posts, passed in via `external_posts`) get an index card that links
+    out to their canonical URL instead of a locally generated page, so the content
+    itself is never duplicated.
     """
     category = "ceo" if "ceo" in folder else "dev"
     posts = []
-    if not os.path.exists(folder):
-        return ""
 
-    for file_name in sorted(os.listdir(folder), reverse=True):
-        if file_name.endswith('.md'):
-            slug = file_name.replace('.md', '')
-            path = os.path.join(folder, file_name)
-            post = parse_post(path)
-            if post:
-                post['slug'] = slug
-                posts.append(post)
+    if os.path.exists(folder):
+        for file_name in sorted(os.listdir(folder), reverse=True):
+            if file_name.endswith('.md'):
+                slug = file_name.replace('.md', '')
+                path = os.path.join(folder, file_name)
+                post = parse_post(path)
+                if post:
+                    post['slug'] = slug
+                    post['external_url'] = None
+                    posts.append(post)
+
+    for post in (external_posts or []):
+        posts.append(post)
+
+    if not posts:
+        return ""
 
     # Sort posts by date descending
     posts.sort(key=lambda x: x['date'], reverse=True)
@@ -333,12 +367,21 @@ def compile_posts(folder, tag_color, prefix):
         for tag in post['tags']:
             tag_elements += f'<span class="text-[11px] font-mono text-gray-400 bg-white/5 px-2.5 py-1 rounded border border-white/10">{tag}</span>\n'
 
-        # Generate individual static post files
-        generate_standalone_page(post, category, slug, tag_color, f"{prefix}_{idx+1:03d}")
+        external_url = post.get('external_url')
+        if external_url:
+            href = external_url
+            link_attrs = ' target="_blank" rel="noopener noreferrer"'
+            cta_text = "READ ON AP39 ->"
+        else:
+            href = f"{category}/{slug}.html"
+            link_attrs = ""
+            cta_text = "READ LOG ->"
+            # Generate individual static post files (local posts only)
+            generate_standalone_page(post, category, slug, tag_color, f"{prefix}_{idx+1:03d}")
 
-        # Generate index cards that link to standalone pages (fully clickable blocks)
+        # Generate index cards that link to standalone pages or out to the canonical source
         compiled_html += f"""
-                    <a href="{category}/{slug}.html" class="group block text-left rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-{tag_color}/40 p-6 shadow-lg shadow-black/20 transition-all">
+                    <a href="{href}"{link_attrs} class="group block text-left rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-{tag_color}/40 p-6 shadow-lg shadow-black/20 transition-all">
                         <div class="flex justify-between items-center mb-4">
                             <span class="text-[11px] font-mono text-{tag_color} tracking-wide">{prefix}_{idx+1:03d} // DIRECTIVE</span>
                             <span class="text-[11px] font-mono text-gray-500">{post['date']}</span>
@@ -352,7 +395,7 @@ def compile_posts(folder, tag_color, prefix):
                                 {tag_elements}
                             </div>
                             <span class="text-[11px] font-mono text-gray-500 group-hover:text-white transition-colors">
-                                READ LOG ->
+                                {cta_text}
                             </span>
                         </div>
                     </a>
@@ -403,9 +446,11 @@ def run_pipeline():
     else:
         print("[ENGINE] No Markdown sources found in _posts/ceo. Keeping defaults.")
 
-    # Process Developer logs
+    # Process Developer logs (local dispatches + ap39 posts linked out to their canonical URL)
     print("\n[ENGINE] Analyzing Dev senior dispatches...")
-    dev_html = compile_posts('_posts/dev', 'brandBlue', 'BUILD')
+    ap39_posts = load_ap39_posts()
+    print(f"[ENGINE] Found {len(ap39_posts)} ap39 post(s) to link out to.")
+    dev_html = compile_posts('_posts/dev', 'brandBlue', 'BUILD', external_posts=ap39_posts)
     if dev_html:
         inject_to_html('blogs.html', dev_html)
     else:
