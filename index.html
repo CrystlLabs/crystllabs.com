@@ -34,7 +34,11 @@
             background: linear-gradient(135deg, #D946EF, #A78BFA 50%, #3B82F6);
             -webkit-background-clip: text;
             background-clip: text;
+            -webkit-text-fill-color: transparent;
             color: transparent;
+        }
+        @media (max-width: 767px) {
+            .text-gradient { filter: brightness(1.3) saturate(1.15); }
         }
         .morph-title {
             grid-column: 1;
@@ -115,10 +119,10 @@
             </ul>
         </aside>
 
-        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+        <main class="flex-grow p-5 md:p-10 pt-10 md:pt-20 overflow-y-auto bg-darkBg bg-grid relative">
             <div class="max-w-4xl mx-auto">
                 <header class="text-center mb-6 md:mb-10 flex flex-col items-center">
-                    <div class="grid grid-cols-1 grid-rows-1 place-items-center w-full -mt-5 md:-mt-10 pt-5 md:pt-10">
+                    <div class="grid grid-cols-1 grid-rows-1 place-items-center w-full -mt-10 md:-mt-20 pt-10 md:pt-20">
                         <h1 data-title="en" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title active">Crystl Labs</h1>
                         <h1 data-title="ko" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">크리스탈 랩스</h1>
                         <h1 data-title="ja" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">クリスタル・ラボ</h1>
