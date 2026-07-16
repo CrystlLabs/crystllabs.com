@@ -21,6 +21,66 @@ def ensure_directories():
             os.makedirs(path)
             print(f"[ENGINE] Verified/Created directory: {path}")
 
+def parse_table_row(line):
+    """Splits a `| a | b |` row into trimmed cells, honoring `\\|` as an escaped literal pipe."""
+    line = line.strip()
+    if line.startswith('|'):
+        line = line[1:]
+    if line.endswith('|'):
+        line = line[:-1]
+    cells = re.split(r'(?<!\\)\|', line)
+    return [c.strip().replace('\\|', '|') for c in cells]
+
+def convert_lists(content):
+    """Groups consecutive '- ' lines into a single <ul>, line by line (avoids eating the
+    blank line after a list that a regex-based wrap would consume as part of the last </li>)."""
+    lines = content.split('\n')
+    out = []
+    i = 0
+    while i < len(lines):
+        m = re.match(r'^\s*-\s+(.*)$', lines[i])
+        if m:
+            items = []
+            while i < len(lines):
+                m2 = re.match(r'^\s*-\s+(.*)$', lines[i])
+                if not m2:
+                    break
+                items.append(m2.group(1))
+                i += 1
+            li_html = ''.join(f'<li class="ml-4 list-disc text-gray-400 text-sm py-1">{item}</li>' for item in items)
+            out.append(f'<ul class="my-4">{li_html}</ul>')
+        else:
+            out.append(lines[i])
+            i += 1
+    return '\n'.join(out)
+
+def convert_tables(content):
+    """Converts GFM-style pipe tables into HTML tables, line by line."""
+    lines = content.split('\n')
+    out = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        is_header = line.strip().startswith('|')
+        is_separator = i + 1 < len(lines) and re.match(r'^\s*\|?[\s:|-]+\|?\s*$', lines[i + 1] or '')
+        if is_header and is_separator:
+            header = parse_table_row(line)
+            i += 2
+            rows = []
+            while i < len(lines) and lines[i].strip().startswith('|'):
+                rows.append(parse_table_row(lines[i]))
+                i += 1
+            thead = ''.join(f'<th class="text-left text-[11px] font-mono text-gray-400 uppercase tracking-wide px-3 py-2 border-b border-white/10 whitespace-nowrap">{h}</th>' for h in header)
+            tbody = ''
+            for row in rows:
+                tds = ''.join(f'<td class="text-sm text-gray-300 px-3 py-2 border-b border-white/5 whitespace-nowrap">{c}</td>' for c in row)
+                tbody += f'<tr>{tds}</tr>'
+            out.append(f'<div class="overflow-x-auto my-6"><table class="w-full border-collapse"><thead><tr>{thead}</tr></thead><tbody>{tbody}</tbody></table></div>')
+        else:
+            out.append(line)
+            i += 1
+    return '\n'.join(out)
+
 def parse_markdown_to_html(content):
     """
     Custom lightweight parser to render standard Markdown components
@@ -28,14 +88,16 @@ def parse_markdown_to_html(content):
     """
     # Parse bold text
     content = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', content)
+    # Parse italic text (after bold, so leftover single asterisks are unambiguous)
+    content = re.sub(r'\*(.*?)\*', r'<em>\1</em>', content)
+    # Parse tables (before headers/lists, since separator rows contain '-' and '|')
+    content = convert_tables(content)
     # Parse headers
     content = re.sub(r'### (.*?)\n', r'<h4 class="text-sm font-semibold text-white mt-4 mb-2">\1</h4>\n', content)
     content = re.sub(r'## (.*?)\n', r'<h3 class="text-base font-mono text-brandGreen mt-6 mb-3">\1</h3>\n', content)
     content = re.sub(r'# (.*?)\n', r'<h2 class="text-lg font-extrabold tracking-tight text-white mt-8 mb-4">\1</h2>\n', content)
     # Parse lists
-    content = re.sub(r'^\s*-\s*(.*?)$', r'<li class="ml-4 list-disc text-gray-400 text-sm py-1">\1</li>', content, flags=re.MULTILINE)
-    # Wrap lists
-    content = re.sub(r'(<li.*?>.*?</li>\n?)+', r'<ul class="my-4">\g<0></ul>', content)
+    content = convert_lists(content)
     # Parse code blocks
     content = re.sub(
         r'```(.*?)\n(.*?)```',
@@ -57,7 +119,7 @@ def parse_markdown_to_html(content):
         p = p.strip()
         if not p:
             continue
-        if not p.startswith('<h') and not p.startswith('<ul') and not p.startswith('<li') and not p.startswith('<pre') and not p.startswith('<img'):
+        if not p.startswith('<h') and not p.startswith('<ul') and not p.startswith('<li') and not p.startswith('<pre') and not p.startswith('<img') and not p.startswith('<div'):
             p = f'<p class="text-gray-400 text-sm leading-relaxed mb-4">{p}</p>'
         formatted_p.append(p)
     
