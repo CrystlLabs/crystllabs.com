@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
     <title>Crystl Labs | Indie Workspace</title>
 
     <link rel="icon" type="image/png" href="favicon.png">
@@ -21,6 +22,7 @@
         }
     </script>
     <style>
+        :root { color-scheme: dark; }
         ::-webkit-scrollbar { width: 10px; }
         ::-webkit-scrollbar-track { background: #0a0a12; }
         ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
@@ -36,9 +38,6 @@
             background-clip: text;
             -webkit-text-fill-color: transparent;
             color: transparent;
-        }
-        @media (max-width: 767px) {
-            .text-gradient { filter: brightness(1.3) saturate(1.15); }
         }
         .morph-title {
             grid-column: 1;
@@ -119,17 +118,16 @@
             </ul>
         </aside>
 
-        <main class="flex-grow p-5 md:p-10 pt-10 md:pt-20 overflow-y-auto bg-darkBg bg-grid relative">
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
             <div class="max-w-4xl mx-auto">
                 <header class="text-center mb-6 md:mb-10 flex flex-col items-center">
-                    <div class="grid grid-cols-1 grid-rows-1 place-items-center w-full -mt-10 md:-mt-20 pt-10 md:pt-20">
+                    <div class="grid grid-cols-1 grid-rows-1 place-items-center w-full -mt-4 md:-mt-6 pt-4 md:pt-6">
                         <h1 data-title="en" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title active">Crystl Labs</h1>
                         <h1 data-title="ko" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">크리스탈 랩스</h1>
                         <h1 data-title="ja" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">クリスタル・ラボ</h1>
                         <h1 data-title="th" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">คริสตัล แล็บส์</h1>
                         <h1 data-title="zh" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">水晶实验室</h1>
                         <h1 data-title="hi" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">क्रिस्टल लैब्स</h1>
-                        <h1 data-title="si" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">ක්‍රිස්ටල් ලැබ්ස්</h1>
                         <h1 data-title="tw" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">水晶實驗室</h1>
                         <h1 data-title="tl" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">Kristal Labs</h1>
                         <h1 data-title="ar" dir="rtl" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">كريستال لابس</h1>
