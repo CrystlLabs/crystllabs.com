@@ -108,22 +108,11 @@
 
                 <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">A no-excuses drill sergeant that grinds your chess tactics sharp.</p>
 
-                <div class="flex gap-3 overflow-x-auto snap-x snap-mandatory pb-2 mb-8 no-scrollbar">
-                    <div class="snap-start shrink-0 w-40 h-72 md:w-44 md:h-80 rounded-xl border border-dashed border-white/10 bg-white/[0.02] flex flex-col items-center justify-center text-center gap-2">
-                        <span class="text-2xl text-gray-600">🖼️</span>
-                        <span id="apShot1" class="text-[10px] font-mono uppercase tracking-wide text-gray-600">Screenshots<br>coming soon</span>
-                    </div>
-                    <div class="snap-start shrink-0 w-40 h-72 md:w-44 md:h-80 rounded-xl border border-dashed border-white/10 bg-white/[0.02] flex flex-col items-center justify-center text-center gap-2">
-                        <span class="text-2xl text-gray-600">🖼️</span>
-                        <span id="apShot2" class="text-[10px] font-mono uppercase tracking-wide text-gray-600">Screenshots<br>coming soon</span>
-                    </div>
-                </div>
-
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Chess Drill Instructor is tactics training with attitude. A relentless drill sergeant runs you through puzzle sets, calls out your blunders, and drills the patterns until they&#x27;re second nature. Powered by an AI tactics engine, built to make you sharper one rep at a time.</p>
 
                 <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
                     <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
-                    <span id="apStore">Google Play — Coming Soon</span>
+                    <span id="apStore">In development</span>
                 </div>
             </div>
         </main>
@@ -132,9 +121,9 @@
     <script>
         const APP = {"name": {"en": "Chess Drill Instructor", "ko": "체스 드릴 인스트럭터", "ja": "チェス・ドリル・インストラクター"}, "tagline": {"en": "A no-excuses drill sergeant that grinds your chess tactics sharp.", "ko": "변명은 통하지 않는 훈련 교관이 당신의 체스 전술을 단련시킵니다.", "ja": "言い訳無用の鬼教官があなたのチェス戦術を鍛え上げる。"}, "desc": {"en": "Chess Drill Instructor is tactics training with attitude. A relentless drill sergeant runs you through puzzle sets, calls out your blunders, and drills the patterns until they're second nature. Powered by an AI tactics engine, built to make you sharper one rep at a time.", "ko": "체스 드릴 인스트럭터는 개성 넘치는 전술 훈련 앱입니다. 엄격한 교관이 퍼즐 세트를 반복시키고, 실수를 지적하며, 패턴이 몸에 밸 때까지 단련시킵니다. AI 전술 엔진 기반으로, 한 세트씩 당신을 더 날카롭게 만듭니다.", "ja": "チェス・ドリル・インストラクターは個性派の戦術トレーニング。厳しい教官がパズルを反復させ、ミスを指摘し、パターンが体に染みつくまで叩き込む。AI戦術エンジン搭載で、一問ごとにあなたを鋭くする。"}};
         const STR = {
-            en: { shot: 'Screenshots<br>coming soon', store: 'Google Play — Coming Soon' },
-            ko: { shot: '스크린샷<br>준비 중', store: '구글 플레이 — 출시 예정' },
-            ja: { shot: 'スクリーンショット<br>準備中', store: 'Google Play — 近日公開' }
+            en: { store: 'In development' },
+            ko: { store: '개발 중' },
+            ja: { store: '開発中' }
         };
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
@@ -148,8 +137,6 @@
             document.getElementById('apTagline').textContent = APP.tagline[lang];
             document.getElementById('apDesc').textContent = APP.desc[lang];
             document.getElementById('apStore').textContent = STR[lang].store;
-            document.getElementById('apShot1').innerHTML = STR[lang].shot;
-            document.getElementById('apShot2').innerHTML = STR[lang].shot;
             document.documentElement.lang = lang;
         }
         function toggleMenu() {

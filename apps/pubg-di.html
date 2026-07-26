@@ -108,22 +108,11 @@
 
                 <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Your PUBG matches, graded by a drill instructor who doesn&#x27;t do participation trophies.</p>
 
-                <div class="flex gap-3 overflow-x-auto snap-x snap-mandatory pb-2 mb-8 no-scrollbar">
-                    <div class="snap-start shrink-0 w-40 h-72 md:w-44 md:h-80 rounded-xl border border-dashed border-white/10 bg-white/[0.02] flex flex-col items-center justify-center text-center gap-2">
-                        <span class="text-2xl text-gray-600">🖼️</span>
-                        <span id="apShot1" class="text-[10px] font-mono uppercase tracking-wide text-gray-600">Screenshots<br>coming soon</span>
-                    </div>
-                    <div class="snap-start shrink-0 w-40 h-72 md:w-44 md:h-80 rounded-xl border border-dashed border-white/10 bg-white/[0.02] flex flex-col items-center justify-center text-center gap-2">
-                        <span class="text-2xl text-gray-600">🖼️</span>
-                        <span id="apShot2" class="text-[10px] font-mono uppercase tracking-wide text-gray-600">Screenshots<br>coming soon</span>
-                    </div>
-                </div>
-
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">PUBG Drill Instructor pulls your recent PUBG PC matches — kills, damage, placement, time survived — into a dashboard of past deployments. Pick an instructor persona (IRON, SHARP, or NIGHTFALL) and request an AI tactical briefing that tears down your last fight and tells you what to fix. Consent-gated data transmission keeps you in control, and a rewarded ad tops up briefings when you run out. Built for players who want the truth about their gameplay, not another kill-count screen.</p>
 
                 <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
                     <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
-                    <span id="apStore">Google Play — Coming Soon</span>
+                    <span id="apStore">In development</span>
                 </div>
             </div>
         </main>
@@ -132,9 +121,9 @@
     <script>
         const APP = {"name": {"en": "PUBG DI", "ko": "PUBG DI", "ja": "PUBG DI"}, "tagline": {"en": "Your PUBG matches, graded by a drill instructor who doesn't do participation trophies.", "ko": "참가상은 없습니다. PUBG 교관이 당신의 전적을 냉정하게 평가합니다.", "ja": "参加賞はない。PUBG教官があなたの戦績を容赦なく採点する。"}, "desc": {"en": "PUBG Drill Instructor pulls your recent PUBG PC matches — kills, damage, placement, time survived — into a dashboard of past deployments. Pick an instructor persona (IRON, SHARP, or NIGHTFALL) and request an AI tactical briefing that tears down your last fight and tells you what to fix. Consent-gated data transmission keeps you in control, and a rewarded ad tops up briefings when you run out. Built for players who want the truth about their gameplay, not another kill-count screen.", "ko": "PUBG 드릴 인스트럭터는 최근 PUBG PC 전적—킬, 데미지, 순위, 생존 시간—을 대시보드로 정리해 보여줍니다. IRON, SHARP, NIGHTFALL 중 교관을 선택하고 AI 전술 브리핑을 요청하면 지난 전투를 낱낱이 분석해 개선할 점을 알려줍니다. 데이터 전송은 동의 절차를 거쳐 안전하게 관리되며, 브리핑이 소진되면 리워드 광고로 충전할 수 있습니다. 단순한 킬 수 화면이 아닌, 진짜 실력 진단을 원하는 플레이어를 위한 앱입니다.", "ja": "PUBGドリルインストラクターは直近のPUBG PC戦績——キル数、ダメージ、順位、生存時間——をダッシュボードにまとめて表示。IRON、SHARP、NIGHTFALLの中から教官を選び、AI戦術ブリーフィングを依頼すれば直近の戦闘を徹底分析し、改善点を教えてくれる。データ送信は同意制で管理され、ブリーフィングが尽きたらリワード広告でチャージ可能。ただのキル数画面ではなく、本当の実力診断を求めるプレイヤーのためのアプリ。"}};
         const STR = {
-            en: { shot: 'Screenshots<br>coming soon', store: 'Google Play — Coming Soon' },
-            ko: { shot: '스크린샷<br>준비 중', store: '구글 플레이 — 출시 예정' },
-            ja: { shot: 'スクリーンショット<br>準備中', store: 'Google Play — 近日公開' }
+            en: { store: 'In development' },
+            ko: { store: '개발 중' },
+            ja: { store: '開発中' }
         };
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
@@ -148,8 +137,6 @@
             document.getElementById('apTagline').textContent = APP.tagline[lang];
             document.getElementById('apDesc').textContent = APP.desc[lang];
             document.getElementById('apStore').textContent = STR[lang].store;
-            document.getElementById('apShot1').innerHTML = STR[lang].shot;
-            document.getElementById('apShot2').innerHTML = STR[lang].shot;
             document.documentElement.lang = lang;
         }
         function toggleMenu() {

@@ -108,22 +108,11 @@
 
                 <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Skate sick lines, dodge chores, and beat Chad Bradley to all ten wrestling figures.</p>
 
-                <div class="flex gap-3 overflow-x-auto snap-x snap-mandatory pb-2 mb-8 no-scrollbar">
-                    <div class="snap-start shrink-0 w-40 h-72 md:w-44 md:h-80 rounded-xl border border-dashed border-white/10 bg-white/[0.02] flex flex-col items-center justify-center text-center gap-2">
-                        <span class="text-2xl text-gray-600">🖼️</span>
-                        <span id="apShot1" class="text-[10px] font-mono uppercase tracking-wide text-gray-600">Screenshots<br>coming soon</span>
-                    </div>
-                    <div class="snap-start shrink-0 w-40 h-72 md:w-44 md:h-80 rounded-xl border border-dashed border-white/10 bg-white/[0.02] flex flex-col items-center justify-center text-center gap-2">
-                        <span class="text-2xl text-gray-600">🖼️</span>
-                        <span id="apShot2" class="text-[10px] font-mono uppercase tracking-wide text-gray-600">Screenshots<br>coming soon</span>
-                    </div>
-                </div>
-
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Stonewheel is a totally-90s skater life-sim: manage your allowance and free time between school and chores, then hit the streets to land 50 learnable tricks — flips, grabs, grinds, and darkslides. Learn new moves from the town&#x27;s cast of characters, from bribing the arcade rat to out-skating your rival Chad. Race to collect all ten Slamboree Legends wrestling figures before he beats you to it, in chunky pixel art with fully synthesized 90s audio.</p>
 
                 <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
                     <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
-                    <span id="apStore">Google Play — Coming Soon</span>
+                    <span id="apStore">In development</span>
                 </div>
             </div>
         </main>
@@ -132,9 +121,9 @@
     <script>
         const APP = {"name": {"en": "Stonewheel", "ko": "스톤휠", "ja": "ストーンウィール"}, "tagline": {"en": "Skate sick lines, dodge chores, and beat Chad Bradley to all ten wrestling figures.", "ko": "잡일을 해치우고 거리로 나가, 라이벌 채드보다 먼저 레슬링 피규어 10개를 모으세요.", "ja": "雑用をこなして街へ繰り出せ、90年代スケーターライフ全開。"}, "desc": {"en": "Stonewheel is a totally-90s skater life-sim: manage your allowance and free time between school and chores, then hit the streets to land 50 learnable tricks — flips, grabs, grinds, and darkslides. Learn new moves from the town's cast of characters, from bribing the arcade rat to out-skating your rival Chad. Race to collect all ten Slamboree Legends wrestling figures before he beats you to it, in chunky pixel art with fully synthesized 90s audio.", "ko": "스톤휠은 완전한 90년대 감성의 스케이터 라이프 시뮬레이션입니다. 용돈과 시간을 관리하며 학교와 잡일 사이를 오가다, 거리로 나가 플립, 그랩, 그라인드, 다크슬라이드 등 50가지 트릭을 익히세요. 오락실 쥐에게 뇌물을 주거나 라이벌 채드를 이겨서 새로운 기술을 배우고, 그가 먼저 손대기 전에 슬램보리 레전드 피규어 10개를 모두 모으세요. 투박한 픽셀 아트와 완전 합성음으로 재현한 90년대 사운드가 함께합니다.", "ja": "『ストーンウィール』は生粋の90年代スケーターライフシム。小遣いと時間をやりくりして学校と雑用をこなし、街に出てフリップ、グラブ、グラインド、ダークスライドなど50種のトリックを習得しよう。ゲーセンのネズミに賄賂を渡したり、ライバルのチャドを打ち負かして新技を覚え、彼より先にスラムボリー・レジェンズのフィギュアを10体すべて集めろ。無骨なピクセルアートと完全シンセ音源の90年代サウンドが彩る。"}};
         const STR = {
-            en: { shot: 'Screenshots<br>coming soon', store: 'Google Play — Coming Soon' },
-            ko: { shot: '스크린샷<br>준비 중', store: '구글 플레이 — 출시 예정' },
-            ja: { shot: 'スクリーンショット<br>準備中', store: 'Google Play — 近日公開' }
+            en: { store: 'In development' },
+            ko: { store: '개발 중' },
+            ja: { store: '開発中' }
         };
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
@@ -148,8 +137,6 @@
             document.getElementById('apTagline').textContent = APP.tagline[lang];
             document.getElementById('apDesc').textContent = APP.desc[lang];
             document.getElementById('apStore').textContent = STR[lang].store;
-            document.getElementById('apShot1').innerHTML = STR[lang].shot;
-            document.getElementById('apShot2').innerHTML = STR[lang].shot;
             document.documentElement.lang = lang;
         }
         function toggleMenu() {

@@ -14,6 +14,7 @@ Run:  python build_apps.py
 """
 
 import os
+import re
 import json
 import html
 
@@ -165,22 +166,11 @@ def render_page(app):
 
                 <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">{tagline_en}</p>
 
-                <div class="flex gap-3 overflow-x-auto snap-x snap-mandatory pb-2 mb-8 no-scrollbar">
-                    <div class="snap-start shrink-0 w-40 h-72 md:w-44 md:h-80 rounded-xl border border-dashed border-white/10 bg-white/[0.02] flex flex-col items-center justify-center text-center gap-2">
-                        <span class="text-2xl text-gray-600">🖼️</span>
-                        <span id="apShot1" class="text-[10px] font-mono uppercase tracking-wide text-gray-600">Screenshots<br>coming soon</span>
-                    </div>
-                    <div class="snap-start shrink-0 w-40 h-72 md:w-44 md:h-80 rounded-xl border border-dashed border-white/10 bg-white/[0.02] flex flex-col items-center justify-center text-center gap-2">
-                        <span class="text-2xl text-gray-600">🖼️</span>
-                        <span id="apShot2" class="text-[10px] font-mono uppercase tracking-wide text-gray-600">Screenshots<br>coming soon</span>
-                    </div>
-                </div>
-
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">{desc_en}</p>
 
                 <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
                     <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
-                    <span id="apStore">Google Play — Coming Soon</span>
+                    <span id="apStore">In development</span>
                 </div>
             </div>
         </main>
@@ -189,9 +179,9 @@ def render_page(app):
     <script>
         const APP = {payload};
         const STR = {{
-            en: {{ shot: 'Screenshots<br>coming soon', store: 'Google Play — Coming Soon' }},
-            ko: {{ shot: '스크린샷<br>준비 중', store: '구글 플레이 — 출시 예정' }},
-            ja: {{ shot: 'スクリーンショット<br>準備中', store: 'Google Play — 近日公開' }}
+            en: {{ store: 'In development' }},
+            ko: {{ store: '개발 중' }},
+            ja: {{ store: '開発中' }}
         }};
         function currentLang() {{
             const l = localStorage.getItem('crystl_lang') || 'ko';
@@ -205,8 +195,6 @@ def render_page(app):
             document.getElementById('apTagline').textContent = APP.tagline[lang];
             document.getElementById('apDesc').textContent = APP.desc[lang];
             document.getElementById('apStore').textContent = STR[lang].store;
-            document.getElementById('apShot1').innerHTML = STR[lang].shot;
-            document.getElementById('apShot2').innerHTML = STR[lang].shot;
             document.documentElement.lang = lang;
         }}
         function toggleMenu() {{
@@ -242,6 +230,150 @@ def render_data_js(apps):
            "window.CRYSTL_APPS = " + body + ";\n"
 
 
+# ---------------------------------------------------------------------------
+# Static seed markup for the JS-rendered carousels/grids
+#
+# index.html and projects.html ship those containers empty and fill them from
+# apps.data.js at runtime, so a crawler that does not execute JS sees no
+# projects and no links to the per-app pages. That is what AdSense rejected the
+# site for. We seed the containers with equivalent static markup between
+# marker comments; renderApps()/renderGrid() still overwrite them on load, so
+# the browser experience is unchanged. Anchors (not buttons) so the per-app
+# pages are reachable without JS.
+# ---------------------------------------------------------------------------
+def _seed(html_text, container_id, inner):
+    """Replace the contents of <div id="container_id"> between prerender markers."""
+    start = f'<!-- prerender:{container_id} -->'
+    end = f'<!-- /prerender:{container_id} -->'
+    block = f'{start}{inner}\n                    {end}'
+
+    marked = re.compile(re.escape(start) + r'.*?' + re.escape(end), re.S)
+    if marked.search(html_text):
+        return marked.sub(lambda _: block, html_text, count=1)
+
+    empty = re.compile(r'(<div id="' + re.escape(container_id) + r'"[^>]*>)(\s*)(</div>)')
+    if not empty.search(html_text):
+        return None
+    return empty.sub(lambda m: m.group(1) + block + m.group(3), html_text, count=1)
+
+
+def _app_cards(apps, layout):
+    out = []
+    for a in apps:
+        name = esc(a['name']['en'])
+        href = f"apps/{a['slug']}.html"
+        icon = f"apps/{a['slug']}.png"
+        if layout == 'carousel':
+            out.append(f'''
+                        <a href="{href}" class="group snap-start shrink-0 w-64 md:w-72 text-left rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all block">
+                            <div class="flex items-center gap-4 mb-4">
+                                <img src="{icon}" alt="" class="w-14 h-14 md:w-16 md:h-16 rounded-2xl border border-white/10 shadow-md shadow-black/30 shrink-0">
+                                <h3 class="text-base md:text-lg font-bold text-white leading-tight">{name}</h3>
+                            </div>
+                            <p class="text-sm text-gray-400 leading-relaxed">{esc(a['tagline']['en'])}</p>
+                        </a>''')
+        else:
+            out.append(f'''
+                        <a href="{href}" class="group text-center rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-4 md:p-5 shadow-lg shadow-black/20 transition-all flex flex-col items-center">
+                            <img src="{icon}" alt="" class="w-20 h-20 md:w-24 md:h-24 rounded-2xl border border-white/10 shadow-md shadow-black/30 mb-3">
+                            <h3 class="text-sm md:text-base font-bold text-white leading-tight">{name}</h3>
+                            <p class="mt-1.5 text-xs text-gray-400 leading-snug">{esc(a['tagline']['en'])}</p>
+                        </a>''')
+    return ''.join(out)
+
+
+def _heat_cards(html_text):
+    """Mirror the heatProjects array declared inline on the page."""
+    m = re.search(r'const heatProjects\s*=\s*\[(.*?)\];', html_text, re.S)
+    if not m:
+        return ''
+    out = []
+    for entry in re.finditer(r'\{([^}]*)\}', m.group(1)):
+        src = entry.group(1)
+        name = re.search(r'name\s*:\s*"([^"]*)"', src)
+        tag = re.search(r'tag\s*:\s*"([^"]*)"', src)
+        if not name:
+            continue
+        name = name.group(1)
+        initial = name.replace('Project ', '')[:1]
+        tag_html = f'\n                            <p class="mt-0.5 text-xs md:text-sm text-gray-400">{esc(tag.group(1))}</p>' if tag else ''
+        out.append(f'''
+                        <div class="group rounded-2xl border border-brandBlue/30 bg-gradient-to-br from-brandBlue/10 via-panelBg/60 to-brandPink/5 p-5 md:p-6 shadow-lg shadow-black/20 flex items-center gap-4">
+                            <div class="w-14 h-14 md:w-16 md:h-16 shrink-0 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-xl md:text-2xl font-extrabold text-gradient">{esc(initial)}</div>
+                            <div>
+                                <h3 class="text-base md:text-lg font-bold text-white leading-tight">{esc(name)}</h3>{tag_html}
+                                <span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Prerelease</span>
+                            </div>
+                        </div>''')
+    return ''.join(out)
+
+
+def seed_static_cards(apps):
+    targets = [
+        ('index.html', [('heatCarousel', None), ('appCarousel', ('carousel', 9))]),
+        ('projects.html', [('heatGrid', None), ('appGrid', ('grid', None))]),
+    ]
+    for name, containers in targets:
+        path = os.path.join(ROOT, name)
+        if not os.path.exists(path):
+            print(f'[SEED] skip {name} (not found)')
+            continue
+        with open(path, 'r', encoding='utf-8') as f:
+            text = f.read()
+        original = text
+        for container_id, spec in containers:
+            if spec is None:
+                inner = _heat_cards(text)
+            else:
+                layout, limit = spec
+                inner = _app_cards(apps[:limit] if limit else apps, layout)
+            if not inner:
+                continue
+            updated = _seed(text, container_id, inner)
+            if updated is None:
+                print(f'[SEED] warn {name}: #{container_id} not found or not empty')
+                continue
+            text = updated
+        if text != original:
+            with open(path, 'w', encoding='utf-8', newline='') as f:
+                f.write(text)
+            print(f'[SEED] {name} static cards refreshed')
+        else:
+            print(f'[SEED] {name} unchanged')
+
+
+SITE = 'https://crystllabs.com'
+
+TOP_PAGES = [
+    ('', '1.0'),
+    ('projects.html', '0.9'),
+    ('blogs.html', '0.7'),
+    ('personnel.html', '0.6'),
+    ('privacy.html', '0.5'),
+    ('terms.html', '0.5'),
+    ('data-deletion.html', '0.5'),
+]
+
+
+def write_sitemap(apps):
+    urls = [f'{SITE}/{p}' for p, _ in TOP_PAGES]
+    prios = [pr for _, pr in TOP_PAGES]
+    for a in apps:
+        urls.append(f"{SITE}/apps/{a['slug']}.html")
+        prios.append('0.8')
+
+    body = '\n'.join(
+        f'  <url>\n    <loc>{u}</loc>\n    <priority>{p}</priority>\n  </url>'
+        for u, p in zip(urls, prios)
+    )
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+           f'{body}\n</urlset>\n')
+    with open(os.path.join(ROOT, 'sitemap.xml'), 'w', encoding='utf-8', newline='') as f:
+        f.write(xml)
+    print(f'[SEO]  sitemap.xml ({len(urls)} urls)')
+
+
 def main():
     apps = load_apps()
     os.makedirs(APPS_DIR, exist_ok=True)
@@ -256,6 +388,9 @@ def main():
     with open(data_out, 'w', encoding='utf-8') as f:
         f.write(render_data_js(apps))
     print(f"[APP] data  -> apps/apps.data.js  ({len(apps)} apps)")
+
+    seed_static_cards(apps)
+    write_sitemap(apps)
     print("Done.")
 
 

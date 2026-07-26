@@ -108,22 +108,11 @@
 
                 <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Crack open a murder victim&#x27;s phone — and catch the killer hiding in the contacts.</p>
 
-                <div class="flex gap-3 overflow-x-auto snap-x snap-mandatory pb-2 mb-8 no-scrollbar">
-                    <div class="snap-start shrink-0 w-40 h-72 md:w-44 md:h-80 rounded-xl border border-dashed border-white/10 bg-white/[0.02] flex flex-col items-center justify-center text-center gap-2">
-                        <span class="text-2xl text-gray-600">🖼️</span>
-                        <span id="apShot1" class="text-[10px] font-mono uppercase tracking-wide text-gray-600">Screenshots<br>coming soon</span>
-                    </div>
-                    <div class="snap-start shrink-0 w-40 h-72 md:w-44 md:h-80 rounded-xl border border-dashed border-white/10 bg-white/[0.02] flex flex-col items-center justify-center text-center gap-2">
-                        <span class="text-2xl text-gray-600">🖼️</span>
-                        <span id="apShot2" class="text-[10px] font-mono uppercase tracking-wide text-gray-600">Screenshots<br>coming soon</span>
-                    </div>
-                </div>
-
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Murder Phone drops a dead stranger&#x27;s phone in your hands — real texts, real contacts, real secrets. Scroll their threads, pick the replies that crack a suspect, and follow the evidence until someone confesses. Every case is a different phone, a different victim, and a different killer hiding in the contact list. No typing, no dice rolls — just you, the messages, and the truth.</p>
 
                 <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
                     <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
-                    <span id="apStore">Google Play — Coming Soon</span>
+                    <span id="apStore">In development</span>
                 </div>
             </div>
         </main>
@@ -132,9 +121,9 @@
     <script>
         const APP = {"name": {"en": "Murder Phone", "ko": "머더 폰", "ja": "マーダーフォン"}, "tagline": {"en": "Crack open a murder victim's phone — and catch the killer hiding in the contacts.", "ko": "살인 사건 피해자의 휴대폰이 당신 손에. 문자 하나로 범인을 밝혀내세요.", "ja": "被害者のスマホがあなたの手に。メッセージひとつで犯人を暴け。"}, "desc": {"en": "Murder Phone drops a dead stranger's phone in your hands — real texts, real contacts, real secrets. Scroll their threads, pick the replies that crack a suspect, and follow the evidence until someone confesses. Every case is a different phone, a different victim, and a different killer hiding in the contact list. No typing, no dice rolls — just you, the messages, and the truth.", "ko": "머더 폰에서는 낯선 피해자의 휴대폰을 넘겨받아 진짜 같은 문자와 연락처, 감춰진 비밀을 파헤칩니다. 대화를 넘기며 용의자를 무너뜨릴 답장을 고르고, 단서를 따라가 자백을 받아내세요. 사건마다 다른 휴대폰, 다른 피해자, 연락처 속에 숨은 다른 범인이 기다립니다. 타이핑도 운도 필요 없이, 오직 메시지와 진실뿐입니다.", "ja": "『マーダーフォン』では見知らぬ被害者のスマホを託され、本物そっくりのメッセージと連絡先、隠された秘密を暴いていく。スレッドをめくり、容疑者を追い詰める返信を選び、証拠をたどって自白まで導け。事件ごとに違うスマホ、違う被害者、連絡先の中に潜む違う犯人。タイピングも運も不要、あるのはメッセージと真実だけ。"}};
         const STR = {
-            en: { shot: 'Screenshots<br>coming soon', store: 'Google Play — Coming Soon' },
-            ko: { shot: '스크린샷<br>준비 중', store: '구글 플레이 — 출시 예정' },
-            ja: { shot: 'スクリーンショット<br>準備中', store: 'Google Play — 近日公開' }
+            en: { store: 'In development' },
+            ko: { store: '개발 중' },
+            ja: { store: '開発中' }
         };
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
@@ -148,8 +137,6 @@
             document.getElementById('apTagline').textContent = APP.tagline[lang];
             document.getElementById('apDesc').textContent = APP.desc[lang];
             document.getElementById('apStore').textContent = STR[lang].store;
-            document.getElementById('apShot1').innerHTML = STR[lang].shot;
-            document.getElementById('apShot2').innerHTML = STR[lang].shot;
             document.documentElement.lang = lang;
         }
         function toggleMenu() {
