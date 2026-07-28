@@ -363,6 +363,9 @@ def compile_posts(folder, tag_color, prefix, external_posts=None):
     compiled_html = ""
     for idx, post in enumerate(posts):
         slug = post['slug']
+        # Posts are listed newest-first, but the build number counts up from the
+        # oldest post, so the first thing ever published stays _001 forever.
+        build_no = f"{prefix}_{len(posts) - idx:03d}"
         tag_elements = ""
         for tag in post['tags']:
             tag_elements += f'<span class="text-[11px] font-mono text-gray-400 bg-white/5 px-2.5 py-1 rounded border border-white/10">{tag}</span>\n'
@@ -377,13 +380,13 @@ def compile_posts(folder, tag_color, prefix, external_posts=None):
             link_attrs = ""
             cta_text = "READ LOG ->"
             # Generate individual static post files (local posts only)
-            generate_standalone_page(post, category, slug, tag_color, f"{prefix}_{idx+1:03d}")
+            generate_standalone_page(post, category, slug, tag_color, build_no)
 
         # Generate index cards that link to standalone pages or out to the canonical source
         compiled_html += f"""
                     <a href="{href}"{link_attrs} class="group block text-left rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-{tag_color}/40 p-6 shadow-lg shadow-black/20 transition-all">
                         <div class="flex justify-between items-center mb-4">
-                            <span class="text-[11px] font-mono text-{tag_color} tracking-wide">{prefix}_{idx+1:03d} // DIRECTIVE</span>
+                            <span class="text-[11px] font-mono text-{tag_color} tracking-wide">{build_no} // DIRECTIVE</span>
                             <span class="text-[11px] font-mono text-gray-500">{post['date']}</span>
                         </div>
                         <h2 class="text-lg font-semibold text-white mb-3 group-hover:text-{tag_color} transition-colors">{post['title']}</h2>
