@@ -308,10 +308,36 @@ def _heat_cards(html_text):
     return ''.join(out)
 
 
+def _site_cards(html_text):
+    """Mirror the siteProjects array declared inline on the page."""
+    m = re.search(r'const siteProjects\s*=\s*\[(.*?)\];', html_text, re.S)
+    if not m:
+        return ''
+    out = []
+    for entry in re.finditer(r'\{([^}]*)\}', m.group(1)):
+        src = entry.group(1)
+        fields = {k: re.search(k + r'\s*:\s*"([^"]*)"', src) for k in ('name', 'initial', 'tag', 'url')}
+        if not (fields['name'] and fields['url']):
+            continue
+        name = fields['name'].group(1)
+        initial = fields['initial'].group(1) if fields['initial'] else name[:1]
+        tag_html = (f'\n                                <p class="mt-0.5 text-xs md:text-sm text-gray-400">{esc(fields["tag"].group(1))}</p>'
+                    if fields['tag'] else '')
+        out.append(f'''
+                        <a href="{esc(fields['url'].group(1))}" class="group rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all flex items-center gap-4">
+                            <div class="w-14 h-14 md:w-16 md:h-16 shrink-0 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-xl md:text-2xl font-extrabold text-gradient">{esc(initial)}</div>
+                            <div>
+                                <h3 class="text-base md:text-lg font-bold text-white leading-tight group-hover:text-brandPink transition-colors">{esc(name)}</h3>{tag_html}
+                                <span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Live</span>
+                            </div>
+                        </a>''')
+    return ''.join(out)
+
+
 def seed_static_cards(apps):
     targets = [
-        ('index.html', [('heatCarousel', None), ('appCarousel', ('carousel', 9))]),
-        ('projects.html', [('heatGrid', None), ('appGrid', ('grid', None))]),
+        ('index.html', [('heatCarousel', None), ('siteGrid', 'sites'), ('appCarousel', ('carousel', 9))]),
+        ('projects.html', [('heatGrid', None), ('siteGrid', 'sites'), ('appGrid', ('grid', None))]),
     ]
     for name, containers in targets:
         path = os.path.join(ROOT, name)
@@ -324,6 +350,8 @@ def seed_static_cards(apps):
         for container_id, spec in containers:
             if spec is None:
                 inner = _heat_cards(text)
+            elif spec == 'sites':
+                inner = _site_cards(text)
             else:
                 layout, limit = spec
                 inner = _app_cards(apps[:limit] if limit else apps, layout)
