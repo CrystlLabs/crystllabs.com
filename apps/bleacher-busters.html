@@ -111,7 +111,7 @@
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Bleacher Busters is a fast, arcade-style baseball slugfest built in Godot. Time your swing, read the pitch, and send balls flying into the bleachers across escalating challenges. Pick-up-and-play controls, chunky pixel art, and a satisfying crack of the bat on every hit.</p>
 
                 <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
-                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
                     <span id="apStore">In development</span>
                 </div>
             </div>
@@ -120,11 +120,7 @@
 
     <script>
         const APP = {"name": {"en": "Bleacher Busters", "ko": "블리처 버스터즈", "ja": "ブリーチャー・バスターズ"}, "tagline": {"en": "Swing for the fences in a pixel-art arcade home-run brawler.", "ko": "픽셀 아트 아케이드 홈런 게임에서 담장을 넘겨보세요.", "ja": "ピクセルアートのアーケード・ホームランゲームで場外へ飛ばせ。"}, "desc": {"en": "Bleacher Busters is a fast, arcade-style baseball slugfest built in Godot. Time your swing, read the pitch, and send balls flying into the bleachers across escalating challenges. Pick-up-and-play controls, chunky pixel art, and a satisfying crack of the bat on every hit.", "ko": "블리처 버스터즈는 Godot로 제작된 빠른 아케이드 야구 게임입니다. 타이밍에 맞춰 스윙하고 공을 관중석까지 날려 보내세요. 누구나 바로 즐길 수 있는 조작, 경쾌한 픽셀 아트, 시원한 타격감이 특징입니다.", "ja": "ブリーチャー・バスターズはGodotで作られた爽快なアーケード野球ゲーム。タイミングよくスイングして、ボールをスタンドまで打ち込もう。手軽な操作と迫力のピクセルアート、心地よい打撃感が魅力です。"}};
-        const STR = {
-            en: { store: 'In development' },
-            ko: { store: '개발 중' },
-            ja: { store: '開発中' }
-        };
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
             return ['en','ko','ja'].includes(l) ? l : 'ko';
@@ -137,6 +133,8 @@
             document.getElementById('apTagline').textContent = APP.tagline[lang];
             document.getElementById('apDesc').textContent = APP.desc[lang];
             document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
             document.documentElement.lang = lang;
         }
         function toggleMenu() {

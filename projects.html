@@ -143,6 +143,12 @@
                 </div>
 
                 <div id="appGrid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6"><!-- prerender:appGrid -->
+                        <a href="apps/water-polo-smash.html" class="group text-center rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-4 md:p-5 shadow-lg shadow-black/20 transition-all flex flex-col items-center">
+                            <img src="apps/water-polo-smash.png" alt="" class="w-20 h-20 md:w-24 md:h-24 rounded-2xl border border-white/10 shadow-md shadow-black/30 mb-3">
+                            <h3 class="text-sm md:text-base font-bold text-white leading-tight">Water Polo Smash</h3>
+                            <p class="mt-1.5 text-xs text-gray-400 leading-snug">Drag back, load the spin, and bend the ball past the keeper.</p>
+                            <span class="mt-2 inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
+                        </a>
                         <a href="apps/murder-phone.html" class="group text-center rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-4 md:p-5 shadow-lg shadow-black/20 transition-all flex flex-col items-center">
                             <img src="apps/murder-phone.png" alt="" class="w-20 h-20 md:w-24 md:h-24 rounded-2xl border border-white/10 shadow-md shadow-black/30 mb-3">
                             <h3 class="text-sm md:text-base font-bold text-white leading-tight">Murder Phone</h3>
@@ -183,11 +189,6 @@
                             <h3 class="text-sm md:text-base font-bold text-white leading-tight">Marathon Kid</h3>
                             <p class="mt-1.5 text-xs text-gray-400 leading-snug">Train a scrappy street kid into a marathon champion.</p>
                         </a>
-                        <a href="apps/water-polo-smash.html" class="group text-center rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-4 md:p-5 shadow-lg shadow-black/20 transition-all flex flex-col items-center">
-                            <img src="apps/water-polo-smash.png" alt="" class="w-20 h-20 md:w-24 md:h-24 rounded-2xl border border-white/10 shadow-md shadow-black/30 mb-3">
-                            <h3 class="text-sm md:text-base font-bold text-white leading-tight">Water Polo Smash</h3>
-                            <p class="mt-1.5 text-xs text-gray-400 leading-snug">Fast, physical arcade water polo you can play one-handed.</p>
-                        </a>
                         <a href="apps/chess-drill-instructor.html" class="group text-center rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-4 md:p-5 shadow-lg shadow-black/20 transition-all flex flex-col items-center">
                             <img src="apps/chess-drill-instructor.png" alt="" class="w-20 h-20 md:w-24 md:h-24 rounded-2xl border border-white/10 shadow-md shadow-black/30 mb-3">
                             <h3 class="text-sm md:text-base font-bold text-white leading-tight">Chess Drill Instructor</h3>
@@ -216,11 +217,17 @@
 
                 <p id="amDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-7"></p>
 
+                <div id="amShots" class="gap-3 overflow-x-auto snap-x no-scrollbar pb-2 mb-7" style="display:none"></div>
+
                 <div class="flex flex-col sm:flex-row gap-3">
-                    <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none justify-center">
+                    <div id="amStoreChip" class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none justify-center">
                         <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
                         <span data-i18n="store_dev">In development</span>
                     </div>
+                    <a id="amStoreLink" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors justify-center" style="display:none">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                        <span data-i18n="store_live">Get it on Google Play</span>
+                    </a>
                     <a id="amPageLink" href="#" class="inline-flex items-center gap-2 rounded-xl bg-brandPink/10 border border-brandPink/30 px-4 py-3 text-brandPink font-mono text-xs uppercase tracking-wide hover:bg-brandPink/20 transition-colors justify-center">
                         <span data-i18n="view_page">Open full page</span>
                         <span aria-hidden="true">-&gt;</span>
@@ -240,7 +247,7 @@
                 file_ceo: "ceo_executive.log", file_dev: "dev_senior.log",
                 projects_head: "Projects", projects_sub: "The full Crystl Labs roster.",
                 live_dep: "Apps //", apps_unit: "apps", heat_head: "Frontier //", sites_head: "Sites //",
-                store_dev: "In development", view_page: "Open full page"
+                store_dev: "In development", store_live: "Get it on Google Play", view_page: "Open full page"
             },
             ko: {
                 nav_run: "연결됨", exp_src: "소스_파일", exp_logs: "공개_블로그",
@@ -249,7 +256,7 @@
                 file_ceo: "ceo_경영진.log", file_dev: "dev_수석개발자.log",
                 projects_head: "프로젝트", projects_sub: "크리스탈 랩스의 전체 라인업.",
                 live_dep: "앱 //", apps_unit: "개", heat_head: "프론티어 //", sites_head: "사이트 //",
-                store_dev: "개발 중", view_page: "전체 페이지 보기"
+                store_dev: "개발 중", store_live: "Google Play에서 받기", view_page: "전체 페이지 보기"
             },
             ja: {
                 nav_run: "接続済み", exp_src: "ソースファイル", exp_logs: "公開ブログ",
@@ -258,7 +265,7 @@
                 file_ceo: "ceo_役員.log", file_dev: "dev_シニア開発者.log",
                 projects_head: "プロジェクト", projects_sub: "クリスタル・ラボの全ラインナップ。",
                 live_dep: "アプリ //", apps_unit: "本", heat_head: "フロンティア //", sites_head: "サイト //",
-                store_dev: "開発中", view_page: "詳細ページを開く"
+                store_dev: "開発中", store_live: "Google Play で入手", view_page: "詳細ページを開く"
             }
         };
 
@@ -320,6 +327,7 @@
                     <img src="${a.icon}" alt="" class="w-20 h-20 md:w-24 md:h-24 rounded-2xl border border-white/10 shadow-md shadow-black/30 mb-3 group-hover:scale-105 transition-transform">
                     <h3 class="text-sm md:text-base font-bold text-white leading-tight group-hover:text-brandPink transition-colors">${a.name[lang]}</h3>
                     <p class="mt-1.5 font-mono text-[10px] uppercase tracking-wider text-gray-600">Android</p>
+                    <span class="mt-1.5 block">${a.status === 'Live' ? '<span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>' : ''}</span>
                 </button>
             `).join('');
             const count = document.getElementById('appCount');
@@ -335,6 +343,20 @@
             document.getElementById('amDesc').textContent = a.desc[lang];
             document.getElementById('amPlatform').textContent = a.platform || 'Android';
             document.getElementById('amPageLink').href = a.page || (a.slug ? `apps/${a.slug}.html` : '#');
+
+            // Live apps swap the dead "In development" chip for a real store link.
+            const live = a.status === 'Live' && a.storeUrl;
+            document.getElementById('amStoreChip').style.display = live ? 'none' : 'inline-flex';
+            const storeLink = document.getElementById('amStoreLink');
+            storeLink.style.display = live ? 'inline-flex' : 'none';
+            if (live) storeLink.href = a.storeUrl;
+
+            const shotsWrap = document.getElementById('amShots');
+            const shots = a.screenshots || [];
+            shotsWrap.innerHTML = shots.map((s, n) => `
+                <img src="${s}" alt="${a.name[lang]} ${n + 1}" loading="lazy" class="snap-start shrink-0 w-28 md:w-32 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+            `).join('');
+            shotsWrap.style.display = shots.length ? 'flex' : 'none';
             document.getElementById('appModal').classList.remove('hidden');
             document.body.classList.add('overflow-hidden');
         }

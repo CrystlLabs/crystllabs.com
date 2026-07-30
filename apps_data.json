@@ -1,6 +1,42 @@
 {
   "apps": [
     {
+      "slug": "water-polo-smash",
+      "boardName": "Water Polo Smash",
+      "shippingName": "Water Polo Smash",
+      "sourceDir": "D:/Crystl/water-polo-strike-android",
+      "tier": "Flagship",
+      "platform": "Android",
+      "onSiteAlready": true,
+      "iconSourcePath": null,
+      "nameMismatchNote": "",
+      "name": {
+        "en": "Water Polo Smash",
+        "ko": "워터 폴로 스매시",
+        "ja": "ウォーターポロ・スマッシュ"
+      },
+      "tagline": {
+        "en": "Drag back, load the spin, and bend the ball past the keeper.",
+        "ko": "당겨서 스핀을 걸고, 골키퍼를 넘기는 슛을 날리세요.",
+        "ja": "引いてスピンをかけ、キーパーをかわして決めろ。"
+      },
+      "desc": {
+        "en": "Water Polo Smash is a shooting game with one control: drag back, aim, let go. The spin you put on the throw is the whole game — bend it around the keeper's hand and it drops into the top corner, get greedy and it comes off the post. Simulation mode runs real air drag and gravity, so clean technique scores. Arcade throws that out for wild curves and combo multipliers. Boss keepers every fifth level, a trophy room to fill, and a Trajectory Lab that exposes the physics so you can tune your curve before you take it into a match.",
+        "ko": "워터 폴로 스매시는 조작이 하나뿐인 슈팅 게임입니다. 당기고, 조준하고, 놓으세요. 승부를 가르는 것은 슛에 실린 스핀입니다. 골키퍼의 손끝을 스치듯 휘어 들어가면 골대 구석에 꽂히고, 욕심을 내면 골포스트를 맞고 나옵니다. 시뮬레이션 모드는 실제 공기 저항과 중력을 적용해 정확한 기술에 점수를 주고, 아케이드 모드는 그것을 버리고 과감한 커브와 콤보 배수를 택합니다. 5레벨마다 보스 골키퍼가 등장하고, 채워야 할 트로피 룸이 있으며, 궤적 연구소에서는 물리 값을 직접 만져 커브를 다듬은 뒤 경기에 들어갈 수 있습니다.",
+        "ja": "ウォーターポロ・スマッシュは操作がひとつだけのシューティングゲーム。引いて、狙って、離す。勝敗を分けるのはシュートにかけたスピンだ。キーパーの指先をかすめて曲がればゴール上隅へ、欲を出せばポストに弾かれる。シミュレーションモードは実際の空気抵抗と重力を再現し、正確な技術に報いる。アーケードモードはそれを捨て、大胆なカーブとコンボ倍率を選ぶ。5レベルごとにボスキーパーが登場し、埋めるべきトロフィールームがあり、弾道ラボでは物理値を直接いじってカーブを調整してから試合に臨める。"
+      },
+      "status": "Live",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.waterpolosmash",
+      "releasedOn": "2026-07-30",
+      "screenshots": [
+        "shots/water-polo-smash/01.jpg",
+        "shots/water-polo-smash/02.jpg",
+        "shots/water-polo-smash/03.jpg",
+        "shots/water-polo-smash/04.jpg",
+        "shots/water-polo-smash/05.jpg"
+      ]
+    },
+    {
       "slug": "murder-phone",
       "boardName": "Murder Phone",
       "shippingName": "Murder Phone",
@@ -206,32 +242,6 @@
         "en": "Marathon Kid is an endurance-running sim where you build a runner from the ground up — pace, stamina, and grit. Manage training, push through the wall, and chase the finish line across a pixel-art city at golden hour. Cloud saves keep your progress with you.",
         "ko": "마라톤 키드는 지구력 러닝 시뮬레이션입니다. 페이스, 스태미나, 근성을 관리하며 러너를 성장시키고, 황혼의 픽셀 도시를 달려 결승선을 향해 나아가세요. 클라우드 저장으로 진행 상황이 안전하게 보관됩니다.",
         "ja": "マラソン・キッドは持久力ランニングシミュレーション。ペース、スタミナ、根性を管理してランナーを育て、夕暮れのピクセルシティを駆け抜けてゴールを目指そう。クラウドセーブで進行状況を安全に保存。"
-      }
-    },
-    {
-      "slug": "water-polo-smash",
-      "boardName": "Water Polo Smash",
-      "shippingName": "Water Polo Smash",
-      "sourceDir": "D:/Crystl/water-polo-strike-android",
-      "tier": "Flagship",
-      "platform": "Android",
-      "onSiteAlready": true,
-      "iconSourcePath": null,
-      "nameMismatchNote": "",
-      "name": {
-        "en": "Water Polo Smash",
-        "ko": "워터 폴로 스매시",
-        "ja": "ウォーターポロ・スマッシュ"
-      },
-      "tagline": {
-        "en": "Fast, physical arcade water polo you can play one-handed.",
-        "ko": "한 손으로 즐기는 빠르고 박진감 넘치는 아케이드 수구.",
-        "ja": "片手で遊べる、スピーディで激しいアーケード水球。"
-      },
-      "desc": {
-        "en": "Water Polo Smash distills the sport into quick, punchy arcade matches — swim, pass, and smash shots past the keeper. Simple one-handed controls with real momentum and physicality, wrapped in a crystalline splash of art. Easy to learn, tough to master.",
-        "ko": "워터 폴로 스매시는 수구를 빠르고 경쾌한 아케이드 경기로 압축했습니다. 헤엄치고, 패스하고, 골키퍼를 뚫는 슛을 날리세요. 한 손 조작에 실감 나는 물리 감각을 더했습니다. 배우기는 쉽고 마스터하기는 어렵습니다.",
-        "ja": "ウォーターポロ・スマッシュは水球を素早く爽快なアーケード試合に凝縮。泳いで、パスして、キーパーを抜くシュートを叩き込もう。片手操作にリアルな物理挙動を融合。覚えるのは簡単、極めるのは難しい。"
       }
     },
     {

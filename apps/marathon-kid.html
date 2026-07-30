@@ -111,7 +111,7 @@
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Marathon Kid is an endurance-running sim where you build a runner from the ground up — pace, stamina, and grit. Manage training, push through the wall, and chase the finish line across a pixel-art city at golden hour. Cloud saves keep your progress with you.</p>
 
                 <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
-                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
                     <span id="apStore">In development</span>
                 </div>
             </div>
@@ -120,11 +120,7 @@
 
     <script>
         const APP = {"name": {"en": "Marathon Kid", "ko": "마라톤 키드", "ja": "マラソン・キッド"}, "tagline": {"en": "Train a scrappy street kid into a marathon champion.", "ko": "거리의 소년을 마라톤 챔피언으로 키워내세요.", "ja": "街の少年をマラソン王者へと育て上げよう。"}, "desc": {"en": "Marathon Kid is an endurance-running sim where you build a runner from the ground up — pace, stamina, and grit. Manage training, push through the wall, and chase the finish line across a pixel-art city at golden hour. Cloud saves keep your progress with you.", "ko": "마라톤 키드는 지구력 러닝 시뮬레이션입니다. 페이스, 스태미나, 근성을 관리하며 러너를 성장시키고, 황혼의 픽셀 도시를 달려 결승선을 향해 나아가세요. 클라우드 저장으로 진행 상황이 안전하게 보관됩니다.", "ja": "マラソン・キッドは持久力ランニングシミュレーション。ペース、スタミナ、根性を管理してランナーを育て、夕暮れのピクセルシティを駆け抜けてゴールを目指そう。クラウドセーブで進行状況を安全に保存。"}};
-        const STR = {
-            en: { store: 'In development' },
-            ko: { store: '개발 중' },
-            ja: { store: '開発中' }
-        };
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
             return ['en','ko','ja'].includes(l) ? l : 'ko';
@@ -137,6 +133,8 @@
             document.getElementById('apTagline').textContent = APP.tagline[lang];
             document.getElementById('apDesc').textContent = APP.desc[lang];
             document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
             document.documentElement.lang = lang;
         }
         function toggleMenu() {

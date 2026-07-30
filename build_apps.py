@@ -29,6 +29,13 @@ def esc(s):
     return html.escape(s or '', quote=True)
 
 
+def play_svg(cls='w-4 h-4'):
+    return (f'<svg class="{cls}" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">'
+            '<path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5'
+            'l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5'
+            'l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>')
+
+
 def load_apps():
     with open(DATA_FILE, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -37,7 +44,17 @@ def load_apps():
         a.setdefault('platform', 'Android')
         # icon lives at apps/<slug>.png; page sits inside apps/ so it references bare filename
         a.setdefault('icon', f"{a['slug']}.png")
+        # 'Live' unlocks the store button, the Live badge and the screenshot strip.
+        # Anything else (or absent) keeps the old "In development" placeholder.
+        a.setdefault('status', 'In development')
+        a.setdefault('storeUrl', '')
+        # paths are relative to apps/, same convention as icon
+        a.setdefault('screenshots', [])
     return apps
+
+
+def is_live(app):
+    return app.get('status') == 'Live' and bool(app.get('storeUrl'))
 
 
 # ---------------------------------------------------------------------------
@@ -55,6 +72,48 @@ def render_page(app):
     name_en = esc(app['name']['en'])
     tagline_en = esc(app['tagline']['en'])
     desc_en = esc(app['desc']['en'])
+
+    live = is_live(app)
+    store_url = esc(app.get('storeUrl', ''))
+
+    # Live badge next to Platform / Tier
+    live_badge = ('\n                            <span class="font-mono text-[10px] uppercase tracking-wider '
+                  'text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live'
+                  '</span>') if live else ''
+
+    # Store button: a real anchor once the app ships, the old dead chip until then
+    if live:
+        store_block = f'''<a id="apStoreLink" href="{store_url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                    {play_svg()}
+                    <span id="apStore">Get it on Google Play</span>
+                </a>'''
+    else:
+        store_block = f'''<div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    {play_svg('w-4 h-4 text-brandGreen/80')}
+                    <span id="apStore">In development</span>
+                </div>'''
+
+    store_labels = ({'en': 'Get it on Google Play', 'ko': 'Google Play에서 받기', 'ja': 'Google Play で入手'}
+                    if live else
+                    {'en': 'In development', 'ko': '개발 중', 'ja': '開発中'})
+    shots_labels = {'en': 'Screenshots //', 'ko': '스크린샷 //', 'ja': 'スクリーンショット //'}
+    store_str = json.dumps({lang: {'store': store_labels[lang], 'shots': shots_labels[lang]}
+                            for lang in LANGS}, ensure_ascii=False)
+
+    shots = app.get('screenshots') or []
+    if shots:
+        tiles = ''.join(f'''
+                        <img src="{esc(s)}" alt="{name_en} screenshot {n}" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">'''
+                        for n, s in enumerate(shots, 1))
+        shots_block = f'''
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">{tiles}
+                    </div>
+                </section>'''
+    else:
+        shots_block = ''
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -159,7 +218,7 @@ def render_page(app):
                         <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">{name_en}</h1>
                         <div class="flex flex-wrap items-center gap-2 mt-2">
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">{esc(app['platform'])}</span>
-                            <span class="font-mono text-[10px] uppercase tracking-wider text-{tier_accent}/90 border border-{tier_accent}/30 rounded px-1.5 py-0.5">{esc(tier)}</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-{tier_accent}/90 border border-{tier_accent}/30 rounded px-1.5 py-0.5">{esc(tier)}</span>{live_badge}
                         </div>
                     </div>
                 </header>
@@ -168,21 +227,14 @@ def render_page(app):
 
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">{desc_en}</p>
 
-                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
-                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
-                    <span id="apStore">In development</span>
-                </div>
+                {store_block}{shots_block}
             </div>
         </main>
     </div>
 
     <script>
         const APP = {payload};
-        const STR = {{
-            en: {{ store: 'In development' }},
-            ko: {{ store: '개발 중' }},
-            ja: {{ store: '開発中' }}
-        }};
+        const STR = {store_str};
         function currentLang() {{
             const l = localStorage.getItem('crystl_lang') || 'ko';
             return ['en','ko','ja'].includes(l) ? l : 'ko';
@@ -195,6 +247,8 @@ def render_page(app):
             document.getElementById('apTagline').textContent = APP.tagline[lang];
             document.getElementById('apDesc').textContent = APP.desc[lang];
             document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
             document.documentElement.lang = lang;
         }}
         function toggleMenu() {{
@@ -224,6 +278,10 @@ def render_data_js(apps):
         'name': a['name'],
         'tagline': a['tagline'],
         'desc': a['desc'],
+        'status': a.get('status', 'In development'),
+        'storeUrl': a.get('storeUrl', ''),
+        # root-relative here, because index.html/projects.html sit at the site root
+        'screenshots': [f"apps/{s}" for s in (a.get('screenshots') or [])],
     } for a in apps]
     body = json.dumps(slim, ensure_ascii=False, indent=4)
     return "// AUTO-GENERATED by build_apps.py — do not edit by hand.\n" \
@@ -263,6 +321,11 @@ def _app_cards(apps, layout):
         name = esc(a['name']['en'])
         href = f"apps/{a['slug']}.html"
         icon = f"apps/{a['slug']}.png"
+        badge = ('<span class="mt-2 inline-block font-mono text-[10px] uppercase tracking-wider '
+                 'text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>'
+                 if is_live(a) else '')
+        badge_carousel = f'\n                            {badge}' if badge else ''
+        badge_grid = f'\n                            {badge}' if badge else ''
         if layout == 'carousel':
             out.append(f'''
                         <a href="{href}" class="group snap-start shrink-0 w-64 md:w-72 text-left rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all block">
@@ -270,14 +333,14 @@ def _app_cards(apps, layout):
                                 <img src="{icon}" alt="" class="w-14 h-14 md:w-16 md:h-16 rounded-2xl border border-white/10 shadow-md shadow-black/30 shrink-0">
                                 <h3 class="text-base md:text-lg font-bold text-white leading-tight">{name}</h3>
                             </div>
-                            <p class="text-sm text-gray-400 leading-relaxed">{esc(a['tagline']['en'])}</p>
+                            <p class="text-sm text-gray-400 leading-relaxed">{esc(a['tagline']['en'])}</p>{badge_carousel}
                         </a>''')
         else:
             out.append(f'''
                         <a href="{href}" class="group text-center rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-4 md:p-5 shadow-lg shadow-black/20 transition-all flex flex-col items-center">
                             <img src="{icon}" alt="" class="w-20 h-20 md:w-24 md:h-24 rounded-2xl border border-white/10 shadow-md shadow-black/30 mb-3">
                             <h3 class="text-sm md:text-base font-bold text-white leading-tight">{name}</h3>
-                            <p class="mt-1.5 text-xs text-gray-400 leading-snug">{esc(a['tagline']['en'])}</p>
+                            <p class="mt-1.5 text-xs text-gray-400 leading-snug">{esc(a['tagline']['en'])}</p>{badge_grid}
                         </a>''')
     return ''.join(out)
 

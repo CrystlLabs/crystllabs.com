@@ -2,6 +2,28 @@
 
 All notable changes to the Crystl Labs website are documented here.
 
+## 2026-07-31
+
+### Added
+- Live-app support in the project data model. `apps_data.json` entries now accept
+  `status`, `storeUrl` and `screenshots`; `build_apps.py` turns those into a green
+  **Live** badge, a real Google Play button (replacing the dead "In development" chip),
+  and a horizontal screenshot strip. Apps without those fields render exactly as before.
+- Water Polo Smash is the first live app: store link, Live badge, and 5 screenshots at
+  `apps/shots/water-polo-smash/` — the same shots used on the Play listing, resized to
+  540px wide JPEG.
+- `store_live` i18n string in EN/KO/JA on `index.html` and `projects.html`.
+
+### Changed
+- Water Polo Smash moved to first position in Latest Projects. The front-page carousel
+  renders only the first 9 of 10 apps, so at its old 9th slot it was the last card shown.
+- Water Polo Smash tagline and description rewritten in all three languages. The old copy
+  described swimming and passing, which the shipped game does not have — it is a
+  drag-to-shoot game.
+- Homepage section order: **Sites** now sits above **Frontier**.
+- Homepage spacing: the middle section carries `md:mb-12` so the gap under it matches the
+  gap under Latest Projects. Previously the second and third sections were both `md:mb-10`.
+
 ## 2026-07-05
 
 ### Fixed
