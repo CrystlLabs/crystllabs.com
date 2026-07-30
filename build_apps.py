@@ -17,6 +17,7 @@ import os
 import re
 import json
 import html
+import hashlib
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_FILE = os.path.join(ROOT, 'apps_data.json')
@@ -425,6 +426,33 @@ def _site_cards(html_text):
     return ''.join(out)
 
 
+def stamp_data_version(data_js):
+    """Point the pages at apps/apps.data.js?v=<content hash>.
+
+    Without this the filename never changes, so a browser holding an old copy
+    keeps serving it. The page then renders the correct static cards from HTML
+    and renderApps()/renderSites() immediately overwrite them with stale data —
+    which looks exactly like "the new page flashes, then the old one loads".
+    Hashing the content means the URL only changes when the data actually does.
+    """
+    ver = hashlib.sha1(data_js.encode('utf-8')).hexdigest()[:10]
+    pat = re.compile(r'(<script src="apps/apps\.data\.js)(\?v=[0-9a-f]+)?(">)')
+    for name in ('index.html', 'projects.html'):
+        path = os.path.join(ROOT, name)
+        if not os.path.exists(path):
+            continue
+        with open(path, 'r', encoding='utf-8') as f:
+            text = f.read()
+        new = pat.sub(lambda m: f'{m.group(1)}?v={ver}{m.group(3)}', text, count=1)
+        if new == text:
+            if f'?v={ver}' not in text:
+                print(f'[VER]  warn {name}: apps.data.js script tag not found')
+            continue
+        with open(path, 'w', encoding='utf-8', newline='') as f:
+            f.write(new)
+        print(f'[VER]  {name} -> apps.data.js?v={ver}')
+
+
 def seed_static_cards(apps):
     targets = [
         # index.html's carousel is "Latest Releases" — shipped apps only. projects.html
@@ -512,10 +540,12 @@ def main():
         print(f"[APP] page  -> apps/{app['slug']}.html")
 
     data_out = os.path.join(APPS_DIR, 'apps.data.js')
+    data_js = render_data_js(apps)
     with open(data_out, 'w', encoding='utf-8') as f:
-        f.write(render_data_js(apps))
+        f.write(data_js)
     print(f"[APP] data  -> apps/apps.data.js  ({len(apps)} apps)")
 
+    stamp_data_version(data_js)
     seed_static_cards(apps)
     write_sitemap(apps)
     print("Done.")
