@@ -33,28 +33,28 @@ window.CRYSTL_APPS = [
         ]
     },
     {
-        "id": "murder-phone",
-        "slug": "murder-phone",
-        "icon": "apps/murder-phone.png",
-        "page": "apps/murder-phone.html",
-        "tier": "Volume",
+        "id": "marathon-kid",
+        "slug": "marathon-kid",
+        "icon": "apps/marathon-kid.png",
+        "page": "apps/marathon-kid.html",
+        "tier": "Flagship",
         "platform": "Android",
         "name": {
-            "en": "Murder Phone",
-            "ko": "머더 폰",
-            "ja": "マーダーフォン"
+            "en": "Marathon Kid",
+            "ko": "마라톤 키드",
+            "ja": "マラソン・キッド"
         },
         "tagline": {
-            "en": "Crack open a murder victim's phone — and catch the killer hiding in the contacts.",
-            "ko": "살인 사건 피해자의 휴대폰이 당신 손에. 문자 하나로 범인을 밝혀내세요.",
-            "ja": "被害者のスマホがあなたの手に。メッセージひとつで犯人を暴け。"
+            "en": "Train a scrappy street kid into a marathon champion.",
+            "ko": "거리의 소년을 마라톤 챔피언으로 키워내세요.",
+            "ja": "街の少年をマラソン王者へと育て上げよう。"
         },
         "desc": {
-            "en": "Murder Phone drops a dead stranger's phone in your hands — real texts, real contacts, real secrets. Scroll their threads, pick the replies that crack a suspect, and follow the evidence until someone confesses. Every case is a different phone, a different victim, and a different killer hiding in the contact list. No typing, no dice rolls — just you, the messages, and the truth.",
-            "ko": "머더 폰에서는 낯선 피해자의 휴대폰을 넘겨받아 진짜 같은 문자와 연락처, 감춰진 비밀을 파헤칩니다. 대화를 넘기며 용의자를 무너뜨릴 답장을 고르고, 단서를 따라가 자백을 받아내세요. 사건마다 다른 휴대폰, 다른 피해자, 연락처 속에 숨은 다른 범인이 기다립니다. 타이핑도 운도 필요 없이, 오직 메시지와 진실뿐입니다.",
-            "ja": "『マーダーフォン』では見知らぬ被害者のスマホを託され、本物そっくりのメッセージと連絡先、隠された秘密を暴いていく。スレッドをめくり、容疑者を追い詰める返信を選び、証拠をたどって自白まで導け。事件ごとに違うスマホ、違う被害者、連絡先の中に潜む違う犯人。タイピングも運も不要、あるのはメッセージと真実だけ。"
+            "en": "Marathon Kid is an endurance-running sim where you build a runner from the ground up — pace, stamina, and grit. Manage training, push through the wall, and chase the finish line across a pixel-art city at golden hour. Cloud saves keep your progress with you.",
+            "ko": "마라톤 키드는 지구력 러닝 시뮬레이션입니다. 페이스, 스태미나, 근성을 관리하며 러너를 성장시키고, 황혼의 픽셀 도시를 달려 결승선을 향해 나아가세요. 클라우드 저장으로 진행 상황이 안전하게 보관됩니다.",
+            "ja": "マラソン・キッドは持久力ランニングシミュレーション。ペース、スタミナ、根性を管理してランナーを育て、夕暮れのピクセルシティを駆け抜けてゴールを目指そう。クラウドセーブで進行状況を安全に保存。"
         },
-        "status": "In development",
+        "status": "Store prep",
         "storeUrl": "",
         "screenshots": []
     },
@@ -80,87 +80,73 @@ window.CRYSTL_APPS = [
             "ko": "스톤휠은 완전한 90년대 감성의 스케이터 라이프 시뮬레이션입니다. 용돈과 시간을 관리하며 학교와 잡일 사이를 오가다, 거리로 나가 플립, 그랩, 그라인드, 다크슬라이드 등 50가지 트릭을 익히세요. 오락실 쥐에게 뇌물을 주거나 라이벌 채드를 이겨서 새로운 기술을 배우고, 그가 먼저 손대기 전에 슬램보리 레전드 피규어 10개를 모두 모으세요. 투박한 픽셀 아트와 완전 합성음으로 재현한 90년대 사운드가 함께합니다.",
             "ja": "『ストーンウィール』は生粋の90年代スケーターライフシム。小遣いと時間をやりくりして学校と雑用をこなし、街に出てフリップ、グラブ、グラインド、ダークスライドなど50種のトリックを習得しよう。ゲーセンのネズミに賄賂を渡したり、ライバルのチャドを打ち負かして新技を覚え、彼より先にスラムボリー・レジェンズのフィギュアを10体すべて集めろ。無骨なピクセルアートと完全シンセ音源の90年代サウンドが彩る。"
         },
-        "status": "In development",
+        "status": "Store prep",
         "storeUrl": "",
         "screenshots": []
     },
     {
-        "id": "wall-street-1987",
-        "slug": "wall-street-1987",
-        "icon": "apps/wall-street-1987.png",
-        "page": "apps/wall-street-1987.html",
+        "id": "zero-day-syndicate",
+        "slug": "zero-day-syndicate",
+        "icon": "apps/zero-day-syndicate.png",
+        "page": "apps/zero-day-syndicate.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "Zero-Day Syndicate",
+            "ko": "제로데이 신디케이트",
+            "ja": "ゼロデイ・シンジケート"
+        },
+        "tagline": {
+            "en": "Run a hacker crew. Hire the talent, build the exploits, keep the heat off.",
+            "ko": "해커 조직을 운영하세요. 인재를 뽑고, 익스플로잇을 만들고, 추적을 따돌리세요.",
+            "ja": "ハッカー組織を経営しろ。人材を雇い、エクスプロイトを育て、追跡をかわせ。"
+        },
+        "desc": {
+            "en": "Zero-Day Syndicate is a management sim about the business of breaking in. From an isometric office you hire and train staff, develop custom exploits and frameworks, and run breaches, heists and botnets against real targets. The money has to be laundered, the heat has to be managed, and clout opens doors that cash never will. The operation grows through three technology eras — Web 2.0, crypto, then AI and quantum — and a prestige system carries what you learned into the next run.",
+            "ko": "제로데이 신디케이트는 침입을 사업으로 다루는 경영 시뮬레이션입니다. 아이소메트릭 사무실에서 직원을 고용하고 훈련시키며, 전용 익스플로잇과 프레임워크를 개발하고, 실제 표적을 상대로 침투와 강탈, 봇넷을 운영합니다. 돈은 세탁해야 하고 추적은 관리해야 하며, 명성은 현금으로 열 수 없는 문을 열어 줍니다. 조직은 웹 2.0, 크립토, AI와 양자라는 세 시대를 거치며 성장하고, 프레스티지 시스템이 배운 것을 다음 회차로 이어 줍니다.",
+            "ja": "『ゼロデイ・シンジケート』は、侵入をビジネスとして扱う経営シミュレーション。アイソメトリックのオフィスでスタッフを雇って育て、専用のエクスプロイトとフレームワークを開発し、標的への侵入・強奪・ボットネット運用をこなす。金は洗浄し、追跡は管理し、現金では開かない扉は名声で開ける。組織はWeb 2.0、暗号資産、AIと量子という三つの時代を越えて成長し、プレステージシステムが得たものを次の周回へ持ち越す。"
+        },
+        "status": "Store prep",
+        "storeUrl": "",
+        "screenshots": [
+            "apps/shots/zero-day-syndicate/01.jpg",
+            "apps/shots/zero-day-syndicate/02.jpg",
+            "apps/shots/zero-day-syndicate/03.jpg",
+            "apps/shots/zero-day-syndicate/04.jpg",
+            "apps/shots/zero-day-syndicate/05.jpg"
+        ]
+    },
+    {
+        "id": "bent-fc",
+        "slug": "bent-fc",
+        "icon": "apps/bent-fc.png",
+        "page": "apps/bent-fc.html",
         "tier": "Flagship",
         "platform": "Android",
         "name": {
-            "en": "Wall Street: 1987",
-            "ko": "월 스트리트: 1987",
-            "ja": "ウォールストリート:1987"
+            "en": "Bent FC",
+            "ko": "벤트 FC",
+            "ja": "ベントFC"
         },
         "tagline": {
-            "en": "Turn a $5,000 loan into a Wall Street empire — before the SEC catches up.",
-            "ko": "5천 달러 대출로 시작해 월가의 제국을 세우세요, SEC가 잡기 전에.",
-            "ja": "5000ドルの借金からウォール街の帝国を築け、SECに捕まる前に。"
+            "en": "Bribe, dope and fix your way from the Sunday Gutter League to continental glory.",
+            "ko": "뇌물과 도핑, 승부조작으로 동네 리그에서 대륙 정상까지 올라가세요.",
+            "ja": "賄賂とドーピングと八百長で、日曜の草リーグから大陸制覇まで上り詰めろ。"
         },
         "desc": {
-            "en": "Wall Street: 1987 is a retro trading RPG that drops you in a basement office with a $5,000 loan from Tony and a phone line to 50+ live stocks. Buy low, sell high, cut black-book deals, and manage your SEC heat before a raid wipes you out. Climb from that basement to a private offshore island, then take down three legendary corporate bosses to prove you own the Street. Chiptune synths and scrolling tickers keep it pure 1987.",
-            "ko": "월 스트리트: 1987은 복고풍 트레이딩 RPG로, 토니에게 5천 달러를 빌려 지하 사무실에서 시작해 50개 이상의 실시간 주식을 거래합니다. 싸게 사서 비싸게 팔고, 비밀 거래를 성사시키고, SEC의 감시가 급습으로 이어지기 전에 위험 수위를 관리하세요. 지하 사무실에서 개인 소유 섬까지 올라가, 전설적인 세 기업 보스를 무너뜨려 월가의 진짜 주인임을 증명하세요. 칩튠 신스와 흘러가는 시세표가 1987년의 감성을 그대로 담아냅니다.",
-            "ja": "『ウォールストリート:1987』はレトロなトレーディングRPG。トニーから5000ドルを借りて地下オフィスから始まり、50銘柄以上の株をリアルタイムで売買する。安く買って高く売り、裏取引をまとめ、SECの強制捜査を受ける前にヒートを管理しよう。地下オフィスから個人所有の島まで成り上がり、伝説の三大企業ボスを倒してウォール街の頂点を証明せよ。チップチューンのシンセと流れるティッカーが1987年そのものを再現。"
+            "en": "Bent FC is a pixel football management sim where you are not the manager — you are the crooked chairman above him. Climb the pyramid on merit if you like, but the fast route runs through bribed officials, quiet doping programmes, arranged results, tackles that end careers, and paperwork that never quite survives an audit. Every shortcut buys a season and costs you later. Kairosoft-style presentation, a simulation that takes the corruption seriously.",
+            "ko": "벤트 FC는 감독이 아니라 그 위에 있는 부패한 구단주가 되는 픽셀 축구 경영 시뮬레이션입니다. 원한다면 정정당당하게 올라가도 되지만, 빠른 길은 매수된 심판과 조용한 도핑 프로그램, 짜인 결과, 선수 생명을 끊는 태클, 감사에서 결코 살아남지 못할 서류를 지나갑니다. 모든 지름길은 한 시즌을 사고 나중에 청구서를 보냅니다. 카이로소프트풍 연출에, 부패를 진지하게 다루는 시뮬레이션입니다.",
+            "ja": "『ベントFC』は、監督ではなくその上に立つ汚れた会長を演じるピクセルサッカー経営シミュレーション。正攻法で昇格してもいいが、近道は買収された審判、静かなドーピング計画、仕組まれた結果、選手生命を断つタックル、監査に耐えない書類の上を通っている。近道はどれも一シーズンを買い、後で請求書が届く。カイロソフト的な見た目に、腐敗を真面目に扱うシミュレーションを載せた。"
         },
-        "status": "In development",
+        "status": "In playtest",
         "storeUrl": "",
-        "screenshots": []
-    },
-    {
-        "id": "dork",
-        "slug": "dork",
-        "icon": "apps/dork.png",
-        "page": "apps/dork.html",
-        "tier": "Volume",
-        "platform": "Android",
-        "name": {
-            "en": "Dork95",
-            "ko": "Dork95",
-            "ja": "Dork95"
-        },
-        "tagline": {
-            "en": "A text adventure you play entirely by ear — LOOK doesn't work here.",
-            "ko": "귀로만 플레이하는 텍스트 어드벤처 — 여기선 '보기'가 통하지 않습니다.",
-            "ja": "耳だけでプレイするテキストアドベンチャー——ここでは「見る」は使えない。"
-        },
-        "desc": {
-            "en": "DORK: Long Beach '95 is a text adventure for a blind protagonist: you can't LOOK, only LISTEN, SMELL, and FEEL your way through one legendary night in 1995 Long Beach. Explore 15 places — a backyard show with a live procedural ska band, a haunted ocean liner, a braille blackjack table — chasing RAD points before sunrise. Six endings, two secrets, and a dog named Lou Dog who'll follow you for a Slim Jim. One self-contained file, no ads, no network, no eyes needed.",
-            "ko": "도크: 롱비치 '95는 앞을 보지 못하는 주인공의 텍스트 어드벤처입니다. '보기'는 쓸 수 없고, 오직 듣고 맡고 만지며 1995년 롱비치의 전설적인 하룻밤을 헤쳐나가야 합니다. 라이브 스카 밴드가 연주하는 뒷마당 공연부터 유령이 나온다는 대형 여객선까지 15곳을 탐험하며 해가 뜨기 전 RAD 포인트를 쌓으세요. 엔딩 6개, 비밀 2개, 슬림짐 하나면 어디든 따라오는 개 루 독까지. 광고도 네트워크도 필요 없는, 단 하나의 파일로 완성된 게임입니다.",
-            "ja": "『DORK: Long Beach '95』は目の見えない主人公によるテキストアドベンチャー。「見る」は使えず、聞いて、嗅いで、触れて1995年ロングビーチの伝説の一夜を駆け抜ける。生演奏スカバンドの裏庭ライブから幽霊が出るという大型客船まで、15の場所を探索しながら日の出前にRADポイントを稼ごう。エンディング6種、隠し要素2つ、スリムジム一本でどこまでもついてくる愛犬ラウ・ドッグも。広告もネット接続も不要、たった一つのファイルで完結する。"
-        },
-        "status": "In development",
-        "storeUrl": "",
-        "screenshots": []
-    },
-    {
-        "id": "pubg-di",
-        "slug": "pubg-di",
-        "icon": "apps/pubg-di.png",
-        "page": "apps/pubg-di.html",
-        "tier": "Volume",
-        "platform": "Android",
-        "name": {
-            "en": "PUBG DI",
-            "ko": "PUBG DI",
-            "ja": "PUBG DI"
-        },
-        "tagline": {
-            "en": "Your PUBG matches, graded by a drill instructor who doesn't do participation trophies.",
-            "ko": "참가상은 없습니다. PUBG 교관이 당신의 전적을 냉정하게 평가합니다.",
-            "ja": "参加賞はない。PUBG教官があなたの戦績を容赦なく採点する。"
-        },
-        "desc": {
-            "en": "PUBG Drill Instructor pulls your recent PUBG PC matches — kills, damage, placement, time survived — into a dashboard of past deployments. Pick an instructor persona (IRON, SHARP, or NIGHTFALL) and request an AI tactical briefing that tears down your last fight and tells you what to fix. Consent-gated data transmission keeps you in control, and a rewarded ad tops up briefings when you run out. Built for players who want the truth about their gameplay, not another kill-count screen.",
-            "ko": "PUBG 드릴 인스트럭터는 최근 PUBG PC 전적—킬, 데미지, 순위, 생존 시간—을 대시보드로 정리해 보여줍니다. IRON, SHARP, NIGHTFALL 중 교관을 선택하고 AI 전술 브리핑을 요청하면 지난 전투를 낱낱이 분석해 개선할 점을 알려줍니다. 데이터 전송은 동의 절차를 거쳐 안전하게 관리되며, 브리핑이 소진되면 리워드 광고로 충전할 수 있습니다. 단순한 킬 수 화면이 아닌, 진짜 실력 진단을 원하는 플레이어를 위한 앱입니다.",
-            "ja": "PUBGドリルインストラクターは直近のPUBG PC戦績——キル数、ダメージ、順位、生存時間——をダッシュボードにまとめて表示。IRON、SHARP、NIGHTFALLの中から教官を選び、AI戦術ブリーフィングを依頼すれば直近の戦闘を徹底分析し、改善点を教えてくれる。データ送信は同意制で管理され、ブリーフィングが尽きたらリワード広告でチャージ可能。ただのキル数画面ではなく、本当の実力診断を求めるプレイヤーのためのアプリ。"
-        },
-        "status": "In development",
-        "storeUrl": "",
-        "screenshots": []
+        "screenshots": [
+            "apps/shots/bent-fc/01.jpg",
+            "apps/shots/bent-fc/02.jpg",
+            "apps/shots/bent-fc/03.jpg",
+            "apps/shots/bent-fc/04.jpg",
+            "apps/shots/bent-fc/05.jpg"
+        ]
     },
     {
         "id": "bleacher-busters",
@@ -184,7 +170,7 @@ window.CRYSTL_APPS = [
             "ko": "블리처 버스터즈는 Godot로 제작된 빠른 아케이드 야구 게임입니다. 타이밍에 맞춰 스윙하고 공을 관중석까지 날려 보내세요. 누구나 바로 즐길 수 있는 조작, 경쾌한 픽셀 아트, 시원한 타격감이 특징입니다.",
             "ja": "ブリーチャー・バスターズはGodotで作られた爽快なアーケード野球ゲーム。タイミングよくスイングして、ボールをスタンドまで打ち込もう。手軽な操作と迫力のピクセルアート、心地よい打撃感が魅力です。"
         },
-        "status": "In development",
+        "status": "In playtest",
         "storeUrl": "",
         "screenshots": []
     },
@@ -210,35 +196,93 @@ window.CRYSTL_APPS = [
             "ko": "케이지 오브 글로리는 MMA 커리어 시뮬레이션입니다. 파이터를 육성하고 작은 클럽 무대에서 챔피언 자리까지 올라가세요. 기술을 훈련하고 전략을 세우며 랭킹을 뚫고 벨트를 향해 싸우세요. 깊이 있는 성장 시스템과 손쉬운 조작이 결합되었습니다.",
             "ja": "ケージ・オブ・グローリーはMMAキャリアシミュレーション。ファイターを育成し、小さなクラブ興行から王座まで駆け上がろう。スキルを鍛え、戦略を練り、ランキングを勝ち抜いてベルトを目指せ。奥深い成長要素と手軽な操作を両立。"
         },
-        "status": "In development",
+        "status": "In playtest",
         "storeUrl": "",
         "screenshots": []
     },
     {
-        "id": "marathon-kid",
-        "slug": "marathon-kid",
-        "icon": "apps/marathon-kid.png",
-        "page": "apps/marathon-kid.html",
+        "id": "domestique",
+        "slug": "domestique",
+        "icon": "apps/domestique.png",
+        "page": "apps/domestique.html",
         "tier": "Flagship",
         "platform": "Android",
         "name": {
-            "en": "Marathon Kid",
-            "ko": "마라톤 키드",
-            "ja": "マラソン・キッド"
+            "en": "Domestique",
+            "ko": "도메스티크",
+            "ja": "ドメスティック"
         },
         "tagline": {
-            "en": "Train a scrappy street kid into a marathon champion.",
-            "ko": "거리의 소년을 마라톤 챔피언으로 키워내세요.",
-            "ja": "街の少年をマラソン王者へと育て上げよう。"
+            "en": "Ride for the leader, or become one. A pro cycling career from nobody to the Tour.",
+            "ko": "에이스를 위해 달릴 것인가, 에이스가 될 것인가. 무명에서 투르까지의 프로 사이클 커리어.",
+            "ja": "エースのために走るか、エースになるか。無名からツールまでのプロ自転車キャリア。"
         },
         "desc": {
-            "en": "Marathon Kid is an endurance-running sim where you build a runner from the ground up — pace, stamina, and grit. Manage training, push through the wall, and chase the finish line across a pixel-art city at golden hour. Cloud saves keep your progress with you.",
-            "ko": "마라톤 키드는 지구력 러닝 시뮬레이션입니다. 페이스, 스태미나, 근성을 관리하며 러너를 성장시키고, 황혼의 픽셀 도시를 달려 결승선을 향해 나아가세요. 클라우드 저장으로 진행 상황이 안전하게 보관됩니다.",
-            "ja": "マラソン・キッドは持久力ランニングシミュレーション。ペース、スタミナ、根性を管理してランナーを育て、夕暮れのピクセルシティを駆け抜けてゴールを目指そう。クラウドセーブで進行状況を安全に保存。"
+            "en": "Domestique is a professional cycling career sim with a long memory. Sign contracts, commit to a race programme, and spend a season's budget on the events that will actually move your standing. In the race you set team orders and burn a shared energy pool to pace the bunch, chase a break or shield your leader from the wind — and every one of those calls costs you something later. Injuries, sponsor mandates and team harmony all compound. Retro-but-refined 16-bit spirit, Kairosoft-inspired but deeper.",
+            "ko": "도메스티크는 기억이 오래가는 프로 사이클 커리어 시뮬레이션입니다. 계약을 맺고 시즌 레이스 프로그램을 확정하며, 순위를 실제로 끌어올릴 대회에 한정된 예산을 배분하세요. 레이스에서는 팀 오더를 내리고 공유 에너지를 소모해 집단을 견인하거나, 선두 그룹을 추격하거나, 에이스를 바람에서 보호합니다. 그 모든 판단은 나중에 대가를 치릅니다. 부상과 스폰서 요구, 팀 화합이 계속 쌓입니다. 복고를 다듬은 16비트 감성, 카이로소프트에서 출발했지만 더 깊습니다.",
+            "ja": "『ドメスティック』は記憶の長いプロ自転車キャリアシミュレーション。契約を結び、シーズンのレースプログラムを決め、限られた予算を順位に本当に効く大会へ振り分ける。レースではチームオーダーを出し、共有エネルギーを削って集団を牽引し、逃げを追い、エースを風から守る。その判断はすべて後で代償を伴う。怪我、スポンサーの要求、チームの和が積み重なっていく。レトロを磨いた16ビットの空気、カイロソフト的でありながらより深い。"
         },
-        "status": "In development",
+        "status": "In playtest",
         "storeUrl": "",
         "screenshots": []
+    },
+    {
+        "id": "wall-street-1987",
+        "slug": "wall-street-1987",
+        "icon": "apps/wall-street-1987.png",
+        "page": "apps/wall-street-1987.html",
+        "tier": "Flagship",
+        "platform": "Android",
+        "name": {
+            "en": "Wall Street: 1987",
+            "ko": "월 스트리트: 1987",
+            "ja": "ウォールストリート:1987"
+        },
+        "tagline": {
+            "en": "Turn a $5,000 loan into a Wall Street empire — before the SEC catches up.",
+            "ko": "5천 달러 대출로 시작해 월가의 제국을 세우세요, SEC가 잡기 전에.",
+            "ja": "5000ドルの借金からウォール街の帝国を築け、SECに捕まる前に。"
+        },
+        "desc": {
+            "en": "Wall Street: 1987 is a retro trading RPG that drops you in a basement office with a $5,000 loan from Tony and a phone line to 50+ live stocks. Buy low, sell high, cut black-book deals, and manage your SEC heat before a raid wipes you out. Climb from that basement to a private offshore island, then take down three legendary corporate bosses to prove you own the Street. Chiptune synths and scrolling tickers keep it pure 1987.",
+            "ko": "월 스트리트: 1987은 복고풍 트레이딩 RPG로, 토니에게 5천 달러를 빌려 지하 사무실에서 시작해 50개 이상의 실시간 주식을 거래합니다. 싸게 사서 비싸게 팔고, 비밀 거래를 성사시키고, SEC의 감시가 급습으로 이어지기 전에 위험 수위를 관리하세요. 지하 사무실에서 개인 소유 섬까지 올라가, 전설적인 세 기업 보스를 무너뜨려 월가의 진짜 주인임을 증명하세요. 칩튠 신스와 흘러가는 시세표가 1987년의 감성을 그대로 담아냅니다.",
+            "ja": "『ウォールストリート:1987』はレトロなトレーディングRPG。トニーから5000ドルを借りて地下オフィスから始まり、50銘柄以上の株をリアルタイムで売買する。安く買って高く売り、裏取引をまとめ、SECの強制捜査を受ける前にヒートを管理しよう。地下オフィスから個人所有の島まで成り上がり、伝説の三大企業ボスを倒してウォール街の頂点を証明せよ。チップチューンのシンセと流れるティッカーが1987年そのものを再現。"
+        },
+        "status": "In playtest",
+        "storeUrl": "",
+        "screenshots": []
+    },
+    {
+        "id": "bikini-bay",
+        "slug": "bikini-bay",
+        "icon": "apps/bikini-bay.png",
+        "page": "apps/bikini-bay.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "Bikini Bay",
+            "ko": "비키니 베이",
+            "ja": "ビキニ・ベイ"
+        },
+        "tagline": {
+            "en": "Build a surf camp, shape the boards, and take your team to a world title.",
+            "ko": "서핑 캠프를 짓고, 보드를 깎고, 팀을 세계 정상으로 이끄세요.",
+            "ja": "サーフキャンプを建て、ボードを削り、チームを世界一へ導け。"
+        },
+        "desc": {
+            "en": "Bikini Bay is the Grand Prix Story of surfing: a ten-year arc where you build a camp from a shack on the sand into a program that wins world rankings. Scout and develop surfers, craft boards whose shape actually changes how they ride, read the break, and send your team into heats and tour series against four rival AI camps with personalities of their own. Chunky Kairosoft-style pixel art over progression loops that keep paying off.",
+            "ko": "비키니 베이는 서핑판 그랑프리 스토리입니다. 모래사장의 판잣집을 세계 랭킹을 노리는 프로그램으로 키우는 10년의 여정이죠. 서퍼를 발굴해 육성하고, 실제 주행 감각이 달라지는 보드를 제작하고, 파도를 읽고, 저마다 성격이 있는 네 라이벌 캠프와 히트와 투어 시리즈에서 겨루세요. 두툼한 카이로소프트풍 픽셀 아트 위에 계속 보상을 주는 성장 루프를 얹었습니다.",
+            "ja": "『ビキニ・ベイ』はサーフィン版のグランプリストーリー。砂浜の掘っ立て小屋を世界ランキングを狙うチームへ育てる十年の物語だ。サーファーを発掘して育て、形状で乗り味が実際に変わるボードを削り、波を読み、それぞれ性格を持つ四つのライバルキャンプとヒートやツアーシリーズで競い合う。ずんぐりしたカイロソフト風ピクセルアートの下に、報われ続ける成長ループが走っている。"
+        },
+        "status": "In playtest",
+        "storeUrl": "",
+        "screenshots": [
+            "apps/shots/bikini-bay/01.jpg",
+            "apps/shots/bikini-bay/02.jpg",
+            "apps/shots/bikini-bay/03.jpg",
+            "apps/shots/bikini-bay/04.jpg",
+            "apps/shots/bikini-bay/05.jpg"
+        ]
     },
     {
         "id": "chess-drill-instructor",
@@ -262,7 +306,285 @@ window.CRYSTL_APPS = [
             "ko": "체스 드릴 인스트럭터는 개성 넘치는 전술 훈련 앱입니다. 엄격한 교관이 퍼즐 세트를 반복시키고, 실수를 지적하며, 패턴이 몸에 밸 때까지 단련시킵니다. AI 전술 엔진 기반으로, 한 세트씩 당신을 더 날카롭게 만듭니다.",
             "ja": "チェス・ドリル・インストラクターは個性派の戦術トレーニング。厳しい教官がパズルを反復させ、ミスを指摘し、パターンが体に染みつくまで叩き込む。AI戦術エンジン搭載で、一問ごとにあなたを鋭くする。"
         },
-        "status": "In development",
+        "status": "In playtest",
+        "storeUrl": "",
+        "screenshots": []
+    },
+    {
+        "id": "crystl-health",
+        "slug": "crystl-health",
+        "icon": "apps/crystl-health.png",
+        "page": "apps/crystl-health.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "Crystl Health",
+            "ko": "크리스탈 헬스",
+            "ja": "クリスタル・ヘルス"
+        },
+        "tagline": {
+            "en": "Track what you actually take, and what it is doing to your biological age.",
+            "ko": "실제로 무엇을 챙겨 먹는지, 그것이 생물학적 나이에 어떤 영향을 주는지 기록하세요.",
+            "ja": "実際に何を摂っているか、それが生物学的年齢に何をしているかを記録する。"
+        },
+        "desc": {
+            "en": "Crystl Health is a supplement and biomarker tracker for people who want the number, not the vibes. Log what you take and when, keep your bloodwork in one place, and see your biological age calculated with the published Levine 2018 PhenoAge method rather than an invented score. Multiple profiles, everything stored locally, and the whole interface in English, Korean, Japanese and Spanish.",
+            "ko": "크리스탈 헬스는 분위기가 아니라 숫자를 원하는 사람을 위한 영양제·바이오마커 기록 앱입니다. 무엇을 언제 먹었는지 기록하고, 혈액 검사 결과를 한곳에 모으고, 임의로 만든 점수가 아니라 공개된 Levine 2018 PhenoAge 방식으로 계산한 생물학적 나이를 확인하세요. 프로필을 여러 개 만들 수 있고, 모든 데이터는 기기에 저장되며, 인터페이스 전체가 영어·한국어·일본어·스페인어를 지원합니다.",
+            "ja": "『クリスタル・ヘルス』は、雰囲気ではなく数字が欲しい人のためのサプリメント・バイオマーカー記録アプリ。何をいつ摂ったかを記録し、血液検査の結果を一か所にまとめ、独自の点数ではなく公表されたLevine 2018のPhenoAge法で算出した生物学的年齢を確認できる。プロフィールは複数作成可能、データはすべて端末内に保存、インターフェースは英語・韓国語・日本語・スペイン語に対応。"
+        },
+        "status": "In playtest",
+        "storeUrl": "",
+        "screenshots": [
+            "apps/shots/crystl-health/01.jpg",
+            "apps/shots/crystl-health/02.jpg",
+            "apps/shots/crystl-health/03.jpg",
+            "apps/shots/crystl-health/04.jpg",
+            "apps/shots/crystl-health/05.jpg"
+        ]
+    },
+    {
+        "id": "dork",
+        "slug": "dork",
+        "icon": "apps/dork.png",
+        "page": "apps/dork.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "Dork95",
+            "ko": "Dork95",
+            "ja": "Dork95"
+        },
+        "tagline": {
+            "en": "A text adventure you play entirely by ear — LOOK doesn't work here.",
+            "ko": "귀로만 플레이하는 텍스트 어드벤처 — 여기선 '보기'가 통하지 않습니다.",
+            "ja": "耳だけでプレイするテキストアドベンチャー——ここでは「見る」は使えない。"
+        },
+        "desc": {
+            "en": "DORK: Long Beach '95 is a text adventure for a blind protagonist: you can't LOOK, only LISTEN, SMELL, and FEEL your way through one legendary night in 1995 Long Beach. Explore 15 places — a backyard show with a live procedural ska band, a haunted ocean liner, a braille blackjack table — chasing RAD points before sunrise. Six endings, two secrets, and a dog named Lou Dog who'll follow you for a Slim Jim. One self-contained file, no ads, no network, no eyes needed.",
+            "ko": "도크: 롱비치 '95는 앞을 보지 못하는 주인공의 텍스트 어드벤처입니다. '보기'는 쓸 수 없고, 오직 듣고 맡고 만지며 1995년 롱비치의 전설적인 하룻밤을 헤쳐나가야 합니다. 라이브 스카 밴드가 연주하는 뒷마당 공연부터 유령이 나온다는 대형 여객선까지 15곳을 탐험하며 해가 뜨기 전 RAD 포인트를 쌓으세요. 엔딩 6개, 비밀 2개, 슬림짐 하나면 어디든 따라오는 개 루 독까지. 광고도 네트워크도 필요 없는, 단 하나의 파일로 완성된 게임입니다.",
+            "ja": "『DORK: Long Beach '95』は目の見えない主人公によるテキストアドベンチャー。「見る」は使えず、聞いて、嗅いで、触れて1995年ロングビーチの伝説の一夜を駆け抜ける。生演奏スカバンドの裏庭ライブから幽霊が出るという大型客船まで、15の場所を探索しながら日の出前にRADポイントを稼ごう。エンディング6種、隠し要素2つ、スリムジム一本でどこまでもついてくる愛犬ラウ・ドッグも。広告もネット接続も不要、たった一つのファイルで完結する。"
+        },
+        "status": "In playtest",
+        "storeUrl": "",
+        "screenshots": []
+    },
+    {
+        "id": "letterman",
+        "slug": "letterman",
+        "icon": "apps/letterman.png",
+        "page": "apps/letterman.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "Letterman",
+            "ko": "레터맨",
+            "ja": "レターマン"
+        },
+        "tagline": {
+            "en": "Run the block by day, own the blacktop by night. Try not to wreck either.",
+            "ko": "낮에는 동네를 누비고, 밤에는 코트를 지배하세요. 둘 다 망치지 않는 게 관건입니다.",
+            "ja": "昼は街を走り、夜はコートを支配する。どちらも壊さずにいられるか。"
+        },
+        "desc": {
+            "en": "Letterman is a gritty life sim about a high-school hooper with two lives that do not want to coexist. Days belong to the block — people, obligations, trouble that finds you. Nights belong to the blacktop, where reputation is the only currency that counts. Push either side too hard and the other starts falling apart, and the game is honest about which choices cost what.",
+            "ko": "레터맨은 공존하기 어려운 두 개의 삶을 가진 고등학교 농구 선수의 거친 인생 시뮬레이션입니다. 낮은 동네의 것입니다. 사람들, 의무, 그리고 알아서 찾아오는 골칫거리가 있죠. 밤은 코트의 것이고, 그곳에서는 평판만이 통화입니다. 어느 한쪽을 너무 몰아붙이면 다른 쪽이 무너지기 시작하며, 게임은 어떤 선택이 무엇을 대가로 하는지 솔직하게 보여 줍니다.",
+            "ja": "『レターマン』は、両立を拒む二つの生活を抱えた高校バスケ選手の、ざらついた人生シミュレーション。昼は街のもの。人付き合い、義務、勝手に寄ってくる面倒がある。夜はコートのもので、そこでは評判だけが通貨になる。どちらかに寄せすぎればもう一方が崩れ始め、ゲームはどの選択が何を代償にするのかを正直に見せてくる。"
+        },
+        "status": "In playtest",
+        "storeUrl": "",
+        "screenshots": []
+    },
+    {
+        "id": "mise",
+        "slug": "mise",
+        "icon": "apps/mise.png",
+        "page": "apps/mise.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "Mise",
+            "ko": "미즈",
+            "ja": "ミース"
+        },
+        "tagline": {
+            "en": "Import any recipe, then cook it step by step with the timers run for you.",
+            "ko": "어떤 레시피든 가져오고, 타이머까지 대신 돌려주는 단계별 조리 모드로 요리하세요.",
+            "ja": "どんなレシピも取り込んで、タイマーまで任せられるステップ調理モードで作る。"
+        },
+        "desc": {
+            "en": "Mise is a cookbook that does the tedious part. Point it at a web link, a PDF, a photo or pasted text and it pulls out a structured recipe on-device — no account, no API key, nothing leaves the phone. Then cook: each step shows only the ingredients that step needs and starts its own timers, which keep running even if the app is killed. Scale servings, build a shopping list, log the dish with a photo, and keep the whole book backed up to a file you own.",
+            "ko": "미즈는 귀찮은 일을 대신하는 요리책입니다. 웹 링크나 PDF, 사진, 붙여넣은 텍스트를 주면 기기 안에서 구조화된 레시피로 정리합니다. 계정도, API 키도 필요 없고 아무것도 휴대폰 밖으로 나가지 않습니다. 그다음은 조리입니다. 각 단계는 그 단계에 필요한 재료만 보여 주고 자체 타이머를 돌리며, 앱이 종료돼도 타이머는 계속 갑니다. 인분을 조절하고, 장보기 목록을 만들고, 완성한 요리를 사진으로 기록하고, 책 전체를 내 파일로 백업하세요.",
+            "ja": "『ミース』は面倒な部分を引き受けるレシピ帳。ウェブのリンク、PDF、写真、貼り付けたテキストを渡せば、端末の中だけで構造化されたレシピに整える。アカウントもAPIキーも不要で、何も端末の外へ出ない。あとは作るだけ。各ステップはその工程に必要な材料だけを見せ、専用のタイマーを走らせる。アプリを落としてもタイマーは止まらない。人数分の調整、買い物リスト、写真つきの調理記録、そして自分の手元に残るファイルへの丸ごとバックアップ。"
+        },
+        "status": "In playtest",
+        "storeUrl": "",
+        "screenshots": [
+            "apps/shots/mise/01.jpg",
+            "apps/shots/mise/02.jpg",
+            "apps/shots/mise/03.jpg",
+            "apps/shots/mise/04.jpg",
+            "apps/shots/mise/05.jpg"
+        ]
+    },
+    {
+        "id": "murder-phone",
+        "slug": "murder-phone",
+        "icon": "apps/murder-phone.png",
+        "page": "apps/murder-phone.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "Murder Phone",
+            "ko": "머더 폰",
+            "ja": "マーダーフォン"
+        },
+        "tagline": {
+            "en": "Crack open a murder victim's phone — and catch the killer hiding in the contacts.",
+            "ko": "살인 사건 피해자의 휴대폰이 당신 손에. 문자 하나로 범인을 밝혀내세요.",
+            "ja": "被害者のスマホがあなたの手に。メッセージひとつで犯人を暴け。"
+        },
+        "desc": {
+            "en": "Murder Phone drops a dead stranger's phone in your hands — real texts, real contacts, real secrets. Scroll their threads, pick the replies that crack a suspect, and follow the evidence until someone confesses. Every case is a different phone, a different victim, and a different killer hiding in the contact list. No typing, no dice rolls — just you, the messages, and the truth.",
+            "ko": "머더 폰에서는 낯선 피해자의 휴대폰을 넘겨받아 진짜 같은 문자와 연락처, 감춰진 비밀을 파헤칩니다. 대화를 넘기며 용의자를 무너뜨릴 답장을 고르고, 단서를 따라가 자백을 받아내세요. 사건마다 다른 휴대폰, 다른 피해자, 연락처 속에 숨은 다른 범인이 기다립니다. 타이핑도 운도 필요 없이, 오직 메시지와 진실뿐입니다.",
+            "ja": "『マーダーフォン』では見知らぬ被害者のスマホを託され、本物そっくりのメッセージと連絡先、隠された秘密を暴いていく。スレッドをめくり、容疑者を追い詰める返信を選び、証拠をたどって自白まで導け。事件ごとに違うスマホ、違う被害者、連絡先の中に潜む違う犯人。タイピングも運も不要、あるのはメッセージと真実だけ。"
+        },
+        "status": "In playtest",
+        "storeUrl": "",
+        "screenshots": []
+    },
+    {
+        "id": "pubg-di",
+        "slug": "pubg-di",
+        "icon": "apps/pubg-di.png",
+        "page": "apps/pubg-di.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "PUBG DI",
+            "ko": "PUBG DI",
+            "ja": "PUBG DI"
+        },
+        "tagline": {
+            "en": "Your PUBG matches, graded by a drill instructor who doesn't do participation trophies.",
+            "ko": "참가상은 없습니다. PUBG 교관이 당신의 전적을 냉정하게 평가합니다.",
+            "ja": "参加賞はない。PUBG教官があなたの戦績を容赦なく採点する。"
+        },
+        "desc": {
+            "en": "PUBG Drill Instructor pulls your recent PUBG PC matches — kills, damage, placement, time survived — into a dashboard of past deployments. Pick an instructor persona (IRON, SHARP, or NIGHTFALL) and request an AI tactical briefing that tears down your last fight and tells you what to fix. Consent-gated data transmission keeps you in control, and a rewarded ad tops up briefings when you run out. Built for players who want the truth about their gameplay, not another kill-count screen.",
+            "ko": "PUBG 드릴 인스트럭터는 최근 PUBG PC 전적—킬, 데미지, 순위, 생존 시간—을 대시보드로 정리해 보여줍니다. IRON, SHARP, NIGHTFALL 중 교관을 선택하고 AI 전술 브리핑을 요청하면 지난 전투를 낱낱이 분석해 개선할 점을 알려줍니다. 데이터 전송은 동의 절차를 거쳐 안전하게 관리되며, 브리핑이 소진되면 리워드 광고로 충전할 수 있습니다. 단순한 킬 수 화면이 아닌, 진짜 실력 진단을 원하는 플레이어를 위한 앱입니다.",
+            "ja": "PUBGドリルインストラクターは直近のPUBG PC戦績——キル数、ダメージ、順位、生存時間——をダッシュボードにまとめて表示。IRON、SHARP、NIGHTFALLの中から教官を選び、AI戦術ブリーフィングを依頼すれば直近の戦闘を徹底分析し、改善点を教えてくれる。データ送信は同意制で管理され、ブリーフィングが尽きたらリワード広告でチャージ可能。ただのキル数画面ではなく、本当の実力診断を求めるプレイヤーのためのアプリ。"
+        },
+        "status": "In playtest",
+        "storeUrl": "",
+        "screenshots": []
+    },
+    {
+        "id": "sauce-boss",
+        "slug": "sauce-boss",
+        "icon": "apps/sauce-boss.png",
+        "page": "apps/sauce-boss.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "Sauce Boss",
+            "ko": "소스 보스",
+            "ja": "ソース・ボス"
+        },
+        "tagline": {
+            "en": "Grow the pods, cook them down, bottle the heat. Build a hot-sauce empire.",
+            "ko": "고추를 기르고, 졸이고, 병에 담으세요. 핫소스 제국을 세울 시간입니다.",
+            "ja": "唐辛子を育て、煮詰め、瓶に詰めろ。ホットソース帝国を築く時間だ。"
+        },
+        "desc": {
+            "en": "Sauce Boss is a chili farm and hot-sauce tycoon in a chunky pixel shell. Plant and cross varieties, dry and ferment the harvest, cook it down into recipes with real heat curves, then price and stock a shop that customers actually judge. Rank up from a roadside table to a brand, one bottle at a time. Deep shop-management simulation, Kairosoft in spirit, built to be picked up in short sittings.",
+            "ko": "소스 보스는 두툼한 픽셀 아트로 감싼 고추 농장 겸 핫소스 타이쿤입니다. 품종을 심고 교배하고, 수확물을 말리고 발효시키고, 실제 매운맛 곡선을 가진 레시피로 졸여 내세요. 그다음 손님이 실제로 평가하는 가게에 가격을 매기고 물건을 채웁니다. 길가 좌판에서 브랜드로, 한 병씩 올라가세요. 카이로소프트의 정신을 담은 깊이 있는 가게 경영 시뮬레이션이며, 짧게 짧게 즐기도록 만들었습니다.",
+            "ja": "『ソース・ボス』は、ずんぐりしたピクセルの殻をかぶった唐辛子農園＆ホットソース経営ゲーム。品種を植えて掛け合わせ、収穫物を乾かして発酵させ、本物の辛さカーブを持つレシピへ煮詰める。そのうえで、客が本当に品定めする店に値段をつけて並べる。路上の台からブランドへ、一本ずつ上がっていく。カイロソフトの精神を汲んだ深い店舗経営シミュレーションで、短い時間でも遊べるように作られている。"
+        },
+        "status": "In playtest",
+        "storeUrl": "",
+        "screenshots": [
+            "apps/shots/sauce-boss/01.jpg",
+            "apps/shots/sauce-boss/02.jpg",
+            "apps/shots/sauce-boss/03.jpg",
+            "apps/shots/sauce-boss/04.jpg",
+            "apps/shots/sauce-boss/05.jpg"
+        ]
+    },
+    {
+        "id": "young-homie",
+        "slug": "young-homie",
+        "icon": "apps/young-homie.png",
+        "page": "apps/young-homie.html",
+        "tier": "Flagship",
+        "platform": "Android",
+        "name": {
+            "en": "Young Homie",
+            "ko": "영 호미",
+            "ja": "ヤング・ホーミー"
+        },
+        "tagline": {
+            "en": "A turn-based barrio RPG with timed hits, a crew of six, and a long memory.",
+            "ko": "타이밍 공격과 여섯 명의 크루, 그리고 긴 기억을 가진 턴제 바리오 RPG.",
+            "ja": "タイミング入力と六人のクルー、そして長い記憶を持つターン制バリオRPG。"
+        },
+        "desc": {
+            "en": "Young Homie is a turn-based RPG built to be excellent at four to six hours rather than a shorter version of something bigger. Both sides of every exchange run on timed hits, so defence is as active as attack. Recruit a crew of six across four classes, work a two-currency economy, take branching quests through three connected blocks, and fast-travel a neighbourhood that remembers what you did in it. Synty POLYGON art, built for handheld play in landscape.",
+            "ko": "영 호미는 더 큰 게임의 축소판이 아니라 4~6시간짜리로서 완성도를 갖추도록 만든 턴제 RPG입니다. 공격과 방어 양쪽 모두 타이밍 입력으로 진행되어, 수비도 공격만큼 능동적입니다. 네 개 직업군에서 여섯 명의 크루를 모으고, 두 가지 화폐 경제를 굴리고, 서로 연결된 세 구역에서 분기하는 퀘스트를 수행하고, 당신이 한 일을 기억하는 동네를 빠르게 오가세요. 신티 폴리곤 아트에 가로 모드 휴대 플레이를 위해 설계했습니다.",
+            "ja": "『ヤング・ホーミー』は、大作の短縮版ではなく、4〜6時間という尺で優れていることを狙って作られたターン制RPG。攻守どちらもタイミング入力で進むため、防御も攻撃と同じくらい能動的だ。四つのクラスから六人のクルーを集め、二種類の通貨経済を回し、つながった三つのブロックで分岐するクエストを進め、自分の行いを覚えている街をファストトラベルで巡る。Synty POLYGONのアート、横持ちの携帯プレイ向け設計。"
+        },
+        "status": "Early dev",
+        "storeUrl": "",
+        "screenshots": []
+    },
+    {
+        "id": "california-trail",
+        "slug": "california-trail",
+        "icon": "apps/california-trail.png",
+        "page": "apps/california-trail.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "California Trail",
+            "ko": "캘리포니아 트레일",
+            "ja": "カリフォルニア・トレイル"
+        },
+        "tagline": {
+            "en": "Oregon Trail, except the frontier is the 405 and the oxen are tires.",
+            "ko": "오리건 트레일, 다만 개척지는 405 고속도로이고 소 대신 타이어입니다.",
+            "ja": "オレゴン・トレイル、ただし開拓地は405号線で、牛の代わりはタイヤ。"
+        },
+        "desc": {
+            "en": "The rent notice arrives and the number is impossible. A family loads everything it owns into a rusted minivan and drives eight hundred miles south from Humboldt County to a cousin's spare room in San Diego. California Trail plays The Oregon Trail straight, beat for beat, with the freeway as the frontier and the 405 at four in the afternoon as the river you have to ford. Affectionate parody with real teeth: the warmth is aimed at the family, the bite at rent, water policy, wildfire season and gig work. The family is never the joke.",
+            "ko": "임대료 고지서가 도착했고 금액은 감당할 수 없습니다. 한 가족이 가진 것을 전부 낡은 미니밴에 싣고 험볼트 카운티에서 샌디에이고에 있는 사촌의 남는 방까지 800마일을 남쪽으로 달립니다. 캘리포니아 트레일은 오리건 트레일을 순서 그대로 정면으로 재현하되, 개척지는 고속도로이고 건너야 할 강은 오후 네 시의 405입니다. 애정이 담겼지만 이빨이 있는 패러디입니다. 따뜻함은 가족을 향하고, 날은 임대료와 물 정책, 산불 시즌, 긱 노동을 향합니다. 가족은 결코 웃음거리가 아닙니다.",
+            "ja": "家賃の通知が届き、その金額はどうにもならない。一家は持ち物すべてを錆びたミニバンに積み、ハンボルト郡からサンディエゴのいとこの空き部屋まで八百マイルを南下する。『カリフォルニア・トレイル』は『オレゴン・トレイル』を一拍ずつ正面から再現する。ただし開拓地はフリーウェイで、渡らねばならない川は午後四時の405号線だ。愛情はあるが牙のあるパロディ。温かさは家族に向き、刃は家賃、水政策、山火事の季節、ギグワークに向く。家族が笑いものになることは決してない。"
+        },
+        "status": "Early dev",
+        "storeUrl": "",
+        "screenshots": []
+    },
+    {
+        "id": "windward",
+        "slug": "windward",
+        "icon": "apps/windward.png",
+        "page": "apps/windward.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "Windward",
+            "ko": "윈드워드",
+            "ja": "ウィンドワード"
+        },
+        "tagline": {
+            "en": "Buy low, sail far, sell high. Then set the standing orders and let the fleet run itself.",
+            "ko": "싸게 사서 멀리 실어 비싸게 파세요. 그다음엔 항로를 지정해 두고 선단이 알아서 돌게 하면 됩니다.",
+            "ja": "安く買い、遠くへ運び、高く売る。あとは航路を決めて、船団に任せればいい。"
+        },
+        "desc": {
+            "en": "Windward is an age-of-sail trading company sim built around one idea: you should end up running a company, not a boat. Start by sailing every run yourself, learning which ports pay for what and which crossings are worth the risk. As the fleet grows you stop steering and start writing standing orders, until ships trade profitably while you are looking somewhere else. Combat is a single decision, not a second game. Hand-assembled 32x32 pixel art, and your company is a flag rather than a face.",
+            "ko": "윈드워드는 한 가지 생각 위에 세운 대항해 시대 무역 회사 시뮬레이션입니다. 결국 배가 아니라 회사를 운영하게 되어야 한다는 것이죠. 처음에는 모든 항해를 직접 하며 어느 항구가 무엇에 값을 치르는지, 어느 항로가 위험을 감수할 만한지 배웁니다. 선단이 커지면 조타를 놓고 상시 지시를 작성하기 시작하며, 결국 당신이 다른 곳을 보는 동안에도 배들이 이익을 냅니다. 전투는 두 번째 게임이 아니라 하나의 선택입니다. 손으로 조립한 32x32 픽셀 아트를 쓰고, 회사의 정체성은 얼굴이 아니라 깃발입니다.",
+            "ja": "『ウィンドワード』は、ひとつの発想の上に建てられた大航海時代の貿易会社シミュレーション。最後には船ではなく会社を経営しているべきだ、という発想だ。最初はすべての航海を自分で走らせ、どの港が何に金を払うか、どの航路が危険に見合うかを覚える。船団が育つと舵から手を離し、常設の指示を書き始める。やがて別のことをしている間にも船が利益を上げるようになる。戦闘はもうひとつのゲームではなく、ひとつの選択だ。手で組み上げた32×32のピクセルアートを用い、会社の顔は人物ではなく旗である。"
+        },
+        "status": "Early dev",
         "storeUrl": "",
         "screenshots": []
     }

@@ -57,6 +57,25 @@ def is_live(app):
     return app.get('status') == 'Live' and bool(app.get('storeUrl'))
 
 
+# Stage ladder, mapped from the Vikunja board's buckets. Order is deliberate:
+# a reader should be able to tell how close something is from the colour alone.
+STATUS_ACCENT = {
+    'Live':           'brandGreen',
+    'Store prep':     'brandPink',
+    'In playtest':    'brandBlue',
+    'In development': 'gray-500',
+    'Early dev':      'gray-500',
+}
+
+
+def status_badge(app, extra_class=''):
+    s = app.get('status') or 'In development'
+    accent = STATUS_ACCENT.get(s, 'gray-500')
+    cls = f'{extra_class} inline-block font-mono text-[10px] uppercase tracking-wider ' \
+          f'text-{accent} border border-{accent}/40 bg-{accent}/10 rounded px-1.5 py-0.5'
+    return f'<span class="{cls.strip()}">{esc(s)}</span>'
+
+
 # ---------------------------------------------------------------------------
 # Standalone per-app page
 # ---------------------------------------------------------------------------
@@ -76,10 +95,8 @@ def render_page(app):
     live = is_live(app)
     store_url = esc(app.get('storeUrl', ''))
 
-    # Live badge next to Platform / Tier
-    live_badge = ('\n                            <span class="font-mono text-[10px] uppercase tracking-wider '
-                  'text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live'
-                  '</span>') if live else ''
+    # Stage badge next to Platform / Tier
+    live_badge = '\n                            ' + status_badge(app)
 
     # Store button: a real anchor once the app ships, the old dead chip until then
     if live:
@@ -321,11 +338,8 @@ def _app_cards(apps, layout):
         name = esc(a['name']['en'])
         href = f"apps/{a['slug']}.html"
         icon = f"apps/{a['slug']}.png"
-        badge = ('<span class="mt-2 inline-block font-mono text-[10px] uppercase tracking-wider '
-                 'text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>'
-                 if is_live(a) else '')
-        badge_carousel = f'\n                            {badge}' if badge else ''
-        badge_grid = f'\n                            {badge}' if badge else ''
+        badge_carousel = f'\n                            {status_badge(a, "mt-3")}'
+        badge_grid = f'\n                            {status_badge(a, "mt-1.5")}'
         if layout == 'carousel':
             out.append(f'''
                         <a href="{href}" class="group snap-start shrink-0 w-64 md:w-72 text-left rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all block">
@@ -379,27 +393,43 @@ def _site_cards(html_text):
     out = []
     for entry in re.finditer(r'\{([^}]*)\}', m.group(1)):
         src = entry.group(1)
-        fields = {k: re.search(k + r'\s*:\s*"([^"]*)"', src) for k in ('name', 'initial', 'tag', 'url')}
-        if not (fields['name'] and fields['url']):
+        fields = {k: re.search(k + r'\s*:\s*"([^"]*)"', src) for k in ('name', 'initial', 'tag', 'url', 'soon')}
+        if not fields['name']:
             continue
         name = fields['name'].group(1)
         initial = fields['initial'].group(1) if fields['initial'] else name[:1]
         tag_html = (f'\n                                <p class="mt-0.5 text-xs md:text-sm text-gray-400">{esc(fields["tag"].group(1))}</p>'
                     if fields['tag'] else '')
-        out.append(f'''
+        # No url yet means it is not a link — render a plain card, not a dead anchor
+        if fields['url']:
+            badge = ('<span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider '
+                     'text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Live</span>')
+            out.append(f'''
                         <a href="{esc(fields['url'].group(1))}" class="group rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all flex items-center gap-4">
                             <div class="w-14 h-14 md:w-16 md:h-16 shrink-0 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-xl md:text-2xl font-extrabold text-gradient">{esc(initial)}</div>
                             <div>
                                 <h3 class="text-base md:text-lg font-bold text-white leading-tight group-hover:text-brandPink transition-colors">{esc(name)}</h3>{tag_html}
-                                <span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Live</span>
+                                {badge}
                             </div>
                         </a>''')
+        else:
+            soon = esc(fields['soon'].group(1)) if fields['soon'] else 'Coming soon'
+            out.append(f'''
+                        <div class="rounded-2xl border border-white/10 bg-panelBg/40 p-5 md:p-6 shadow-lg shadow-black/20 flex items-center gap-4 cursor-default select-none">
+                            <div class="w-14 h-14 md:w-16 md:h-16 shrink-0 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-xl md:text-2xl font-extrabold text-gradient">{esc(initial)}</div>
+                            <div>
+                                <h3 class="text-base md:text-lg font-bold text-white leading-tight">{esc(name)}</h3>{tag_html}
+                                <span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 border border-gray-500/40 bg-gray-500/10 rounded px-1.5 py-0.5">{soon}</span>
+                            </div>
+                        </div>''')
     return ''.join(out)
 
 
 def seed_static_cards(apps):
     targets = [
-        ('index.html', [('heatCarousel', None), ('siteGrid', 'sites'), ('appCarousel', ('carousel', 9))]),
+        # index.html's carousel is "Latest Releases" — shipped apps only. projects.html
+        # carries the full roster, so 'grid' stays unfiltered.
+        ('index.html', [('heatCarousel', None), ('siteGrid', 'sites'), ('appCarousel', ('carousel', 'live'))]),
         ('projects.html', [('heatGrid', None), ('siteGrid', 'sites'), ('appGrid', ('grid', None))]),
     ]
     for name, containers in targets:
@@ -417,7 +447,13 @@ def seed_static_cards(apps):
                 inner = _site_cards(text)
             else:
                 layout, limit = spec
-                inner = _app_cards(apps[:limit] if limit else apps, layout)
+                if limit == 'live':
+                    subset = [a for a in apps if is_live(a)]
+                elif limit:
+                    subset = apps[:limit]
+                else:
+                    subset = apps
+                inner = _app_cards(subset, layout)
             if not inner:
                 continue
             updated = _seed(text, container_id, inner)
