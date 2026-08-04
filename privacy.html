@@ -120,6 +120,7 @@
                             <li data-i18n="h1_li9"><span class="text-gray-300">Crash and diagnostic reports.</span> Some Apps use a crash reporting service to report crashes and stability issues: either Firebase Crashlytics (a Google service) or Sentry (operated by Functional Software, Inc.). When an App crashes or hits an error, that service collects diagnostic information such as the type of crash, a stack trace, your device model and operating-system version, the App's state at the time, and a randomly generated installation identifier used to group related reports. We use this solely to find and fix bugs; it is not used to advertise to you. We do not send your name, your saved progress, or your device logs to these services.</li>
                             <li data-i18n="h1_li10"><span class="text-gray-300">App usage analytics.</span> Some Apps use Google Analytics for Firebase to understand how the App is used. It automatically records events such as when the App is opened, when a session starts, and which screens are viewed, together with your device model, operating-system version, country, a randomly generated app-instance identifier, and your device's Advertising ID. We use this to see which features are used and where players get stuck. We do not use it to identify you personally.</li>
                             <li data-i18n="h1_li11"><span class="text-gray-300">Purchase information (if applicable).</span> Some Apps offer one-time in-app purchases processed by Google Play Billing. We do not receive or store your payment card details. We receive a record of what was purchased and its current entitlement status from Google, so the App can unlock what you paid for and restore it if you reinstall or change device.</li>
+                            <li data-i18n="h1_li13"><span class="text-gray-300">Notifications (if applicable).</span> Some Apps ask permission to send you notifications &mdash; a reminder you set, or an alert that something you started in the App has finished. In our Apps these notifications are generated on your device from data already stored there: no information is sent to us or to anyone else in order to produce them, and we do not learn whether you opened one. If an App ever sends notifications from a server, it would use Firebase Cloud Messaging and store a randomly generated device token so the message can reach your device; that App's Play Store "Data safety" section will say so. You can turn notifications off at any time in the App's own settings or in your device's system settings, and every App keeps working with them switched off.</li>
                         </ul>
                         <p data-i18n="h1_closing">If you email our support address, we will have whatever information you choose to include in that message.</p>
                     </section>
@@ -135,6 +136,7 @@
                             <li data-i18n="h2_li5">Maintain, secure, and improve the Apps;</li>
                             <li data-i18n="h2_li6">Respond to your support requests;</li>
                             <li data-i18n="h2_li8">Deliver and restore in-app purchases, where an App offers them;</li>
+                            <li data-i18n="h2_li9">Send you notifications, where an App offers them and you have allowed it;</li>
                             <li data-i18n="h2_li7">Provide cloud save/sync functionality, where an App offers it.</li>
                         </ul>
                     </section>
@@ -200,11 +202,11 @@
 
                     <section>
                         <h2 class="text-white font-semibold text-sm md:text-base mb-3" data-i18n="h14">14. Health, Fitness and Genetic Data</h2>
-                        <p class="mb-4" data-i18n="h14_intro">This section applies to Apps that offer health or wellness tracking, currently Crystl Health. It adds to the sections above and prevails over them wherever they differ.</p>
+                        <p class="mb-4" data-i18n="h14_intro">This section applies only to those of our Apps that offer health or wellness tracking. It adds to the sections above and prevails over them wherever they differ. If an App does not offer health or wellness tracking, nothing in this section applies to it.</p>
                         <p class="mb-2"><span class="text-gray-300 font-medium" data-i18n="h14_sub1">What is collected.</span></p>
                         <p class="mb-4" data-i18n="h14_p1">Supplements and doses you log, reminder schedules, inventory counts, blood-test results you enter, menstrual cycle and fertile-window entries, fasting sessions, mood and energy ratings, weight and body measurements, photos you attach to a supplement, and sleep, heart-rate, readiness or recovery figures imported from a device you connect.</p>
                         <p class="mb-2"><span class="text-gray-300 font-medium" data-i18n="h14_sub2">Where it is stored.</span></p>
-                        <p class="mb-4" data-i18n="h14_p2">On your device, in a local database. Crystl Labs operates no server for this App and holds no copy of your health data. API keys and wearable access tokens are stored encrypted on the device.</p>
+                        <p class="mb-4" data-i18n="h14_p2">On your device, in a local database. Crystl Labs operates no server for these Apps and holds no copy of your health data. API keys and wearable access tokens are stored encrypted on the device.</p>
                         <p class="mb-2"><span class="text-gray-300 font-medium" data-i18n="h14_sub3">Genetic data.</span></p>
                         <p class="mb-4" data-i18n="h14_p3">You may optionally upload a raw DNA export from a consumer testing service such as 23andMe or AncestryDNA. The file is read on your device, a small number of nutrition-related markers are kept, and the rest is discarded. The file itself is never uploaded anywhere. This is not a clinical genetic test and is not diagnostic.</p>
                         <p class="mb-3"><span class="text-gray-300 font-medium" data-i18n="h14_sub4">Who else can receive it, and only when you turn that feature on.</span></p>
@@ -222,14 +224,14 @@
                         <p class="mb-2"><span class="text-gray-300 font-medium" data-i18n="h14_sub7">Retention and deletion.</span></p>
                         <p class="mb-4" data-i18n="h14_p6">This data stays on your device until you remove it. The App's Settings screen offers a delete-all option that erases the local database, all saved preferences, encrypted tokens and attached photos; uninstalling the App removes the same data. Data already transmitted to Google, Oura, Whoop or Open Food Facts is governed by those providers' own policies &mdash; use each provider's own controls to delete it.</p>
                         <p class="mb-2"><span class="text-gray-300 font-medium" data-i18n="h14_sub8">Age.</span></p>
-                        <p class="mb-4" data-i18n="h14_p7">Crystl Health is intended for adults and asks you to confirm that you are 18 or older before it can be used.</p>
+                        <p class="mb-4" data-i18n="h14_p7">An App covered by this section is intended for adults and asks you to confirm that you are 18 or older before it can be used.</p>
                         <p class="mb-2"><span class="text-gray-300 font-medium" data-i18n="h14_sub9">Not medical advice.</span></p>
-                        <p data-i18n="h14_p8">Crystl Health provides general wellness information only. It does not provide medical advice, diagnosis, or dosing instructions, and it is not a substitute for a physician or pharmacist.</p>
+                        <p data-i18n="h14_p8">An App covered by this section provides general wellness information only. It does not provide medical advice, diagnosis, or dosing instructions, and it is not a substitute for a physician or pharmacist.</p>
                     </section>
 
                     <section>
                         <h2 class="text-white font-semibold text-sm md:text-base mb-3" data-i18n="h15">15. Android Health Connect</h2>
-                        <p class="mb-3" data-i18n="h15_intro">Crystl Health can connect to Android's Health Connect, with your permission, to use a limited set of records:</p>
+                        <p class="mb-3" data-i18n="h15_intro">An App covered by Section 14 can connect to Android's Health Connect, with your permission, to use a limited set of records:</p>
                         <ul class="list-disc list-outside pl-5 space-y-2 mb-4">
                             <li data-i18n="h15_li1"><span class="text-gray-300">Sleep (read).</span> To show your sleep alongside the supplements you took.</li>
                             <li data-i18n="h15_li2"><span class="text-gray-300">Heart rate (read).</span> To show resting heart rate alongside your log.</li>
@@ -275,7 +277,9 @@
                 h2_li6: "Respond to your support requests;",
                 h1_li11: `<span class="text-gray-300">Purchase information (if applicable).</span> Some Apps offer one-time in-app purchases processed by Google Play Billing. We do not receive or store your payment card details. We receive a record of what was purchased and its current entitlement status from Google, so the App can unlock what you paid for and restore it if you reinstall or change device.`,
                 h2_li8: "Deliver and restore in-app purchases, where an App offers them;",
+                h2_li9: "Send you notifications, where an App offers them and you have allowed it;",
                 h2_li7: "Provide cloud save/sync functionality, where an App offers it.",
+                h1_li13: `<span class="text-gray-300">Notifications (if applicable).</span> Some Apps ask permission to send you notifications &mdash; a reminder you set, or an alert that something you started in the App has finished. In our Apps these notifications are generated on your device from data already stored there: no information is sent to us or to anyone else in order to produce them, and we do not learn whether you opened one. If an App ever sends notifications from a server, it would use Firebase Cloud Messaging and store a randomly generated device token so the message can reach your device; that App's Play Store "Data safety" section will say so. You can turn notifications off at any time in the App's own settings or in your device's system settings, and every App keeps working with them switched off.`,
                 h3: "3. Chess.com Data",
                 h3_p: "When you provide a Chess.com username, the App requests your public profile, ratings, and game history from Chess.com's public API, and retrieves chess board images from Chess.com. We only access information that Chess.com makes publicly available. Your use of Chess.com is also governed by Chess.com's own privacy policy.",
                 h4: "4. AI Processing Providers",
@@ -303,11 +307,11 @@
                 h4_p2: `<span class="text-gray-300 font-medium">Health and wellness Apps.</span> Where an App offers health tracking, the data transmitted is your current supplement list, any blood-test results and DNA-derived markers you have entered, your fasting state, and readiness or recovery figures from a wearable you have connected. It is sent only when you tap the AI feature, and only after you accept a separate consent prompt that lists those items. Nothing read from Android Health Connect is included. See Section 14.`,
                 h9_p2: `Some Apps, including any health or wellness App, are restricted to users 18 years of age or older and ask you to confirm your age before the App can be used.`,
                 h14: `14. Health, Fitness and Genetic Data`,
-                h14_intro: `This section applies to Apps that offer health or wellness tracking, currently Crystl Health. It adds to the sections above and prevails over them wherever they differ.`,
+                h14_intro: `This section applies only to those of our Apps that offer health or wellness tracking. It adds to the sections above and prevails over them wherever they differ. If an App does not offer health or wellness tracking, nothing in this section applies to it.`,
                 h14_sub1: `What is collected.`,
                 h14_p1: `Supplements and doses you log, reminder schedules, inventory counts, blood-test results you enter, menstrual cycle and fertile-window entries, fasting sessions, mood and energy ratings, weight and body measurements, photos you attach to a supplement, and sleep, heart-rate, readiness or recovery figures imported from a device you connect.`,
                 h14_sub2: `Where it is stored.`,
-                h14_p2: `On your device, in a local database. Crystl Labs operates no server for this App and holds no copy of your health data. API keys and wearable access tokens are stored encrypted on the device.`,
+                h14_p2: `On your device, in a local database. Crystl Labs operates no server for these Apps and holds no copy of your health data. API keys and wearable access tokens are stored encrypted on the device.`,
                 h14_sub3: `Genetic data.`,
                 h14_p3: `You may optionally upload a raw DNA export from a consumer testing service such as 23andMe or AncestryDNA. The file is read on your device, a small number of nutrition-related markers are kept, and the rest is discarded. The file itself is never uploaded anywhere. This is not a clinical genetic test and is not diagnostic.`,
                 h14_sub4: `Who else can receive it, and only when you turn that feature on.`,
@@ -323,11 +327,11 @@
                 h14_sub7: `Retention and deletion.`,
                 h14_p6: `This data stays on your device until you remove it. The App's Settings screen offers a delete-all option that erases the local database, all saved preferences, encrypted tokens and attached photos; uninstalling the App removes the same data. Data already transmitted to Google, Oura, Whoop or Open Food Facts is governed by those providers' own policies &mdash; use each provider's own controls to delete it.`,
                 h14_sub8: `Age.`,
-                h14_p7: `Crystl Health is intended for adults and asks you to confirm that you are 18 or older before it can be used.`,
+                h14_p7: `An App covered by this section is intended for adults and asks you to confirm that you are 18 or older before it can be used.`,
                 h14_sub9: `Not medical advice.`,
-                h14_p8: `Crystl Health provides general wellness information only. It does not provide medical advice, diagnosis, or dosing instructions, and it is not a substitute for a physician or pharmacist.`,
+                h14_p8: `An App covered by this section provides general wellness information only. It does not provide medical advice, diagnosis, or dosing instructions, and it is not a substitute for a physician or pharmacist.`,
                 h15: `15. Android Health Connect`,
-                h15_intro: `Crystl Health can connect to Android's Health Connect, with your permission, to use a limited set of records:`,
+                h15_intro: `An App covered by Section 14 can connect to Android's Health Connect, with your permission, to use a limited set of records:`,
                 h15_li1: `<span class="text-gray-300">Sleep (read).</span> To show your sleep alongside the supplements you took.`,
                 h15_li2: `<span class="text-gray-300">Heart rate (read).</span> To show resting heart rate alongside your log.`,
                 h15_li3: `<span class="text-gray-300">Nutrition (write).</span> To write the supplements you log, so other apps you use can see them.`,
@@ -364,7 +368,9 @@
                 h2_li6: "귀하의 지원 요청에 응답하기 위해;",
                 h1_li11: `<span class="text-gray-300">구매 정보(해당하는 경우).</span> 일부 앱은 Google Play 결제를 통해 처리되는 일회성 인앱 구매를 제공합니다. 당사는 귀하의 결제 카드 정보를 수신하거나 저장하지 않습니다. 당사는 무엇이 구매되었는지와 그 현재 이용 권한 상태에 관한 기록을 Google로부터 수신하며, 이를 통해 앱은 귀하가 결제하신 항목의 잠금을 해제하고, 귀하가 앱을 재설치하거나 기기를 변경하는 경우 이를 복원할 수 있습니다.`,
                 h2_li8: "앱이 인앱 구매를 제공하는 경우, 인앱 구매를 제공하고 복원하기 위해;",
+                h2_li9: "앱이 알림 기능을 제공하고 귀하가 이를 허용한 경우, 귀하에게 알림을 보내기 위해;",
                 h2_li7: "앱이 클라우드 저장/동기화 기능을 제공하는 경우, 이를 제공하기 위해.",
+                h1_li13: `<span class="text-gray-300">알림(해당하는 경우).</span> 일부 앱은 귀하에게 알림을 보내기 위한 권한을 요청합니다 &mdash; 귀하가 설정한 리마인더나, 앱에서 시작한 작업이 완료되었다는 안내 등입니다. 당사의 앱에서 이러한 알림은 이미 기기에 저장되어 있는 데이터를 바탕으로 기기 내에서 생성됩니다. 알림을 생성하기 위해 당사나 제3자에게 전송되는 정보는 없으며, 당사는 귀하가 알림을 열어 보았는지 여부도 알 수 없습니다. 향후 어떤 앱이 서버에서 알림을 전송하게 되는 경우에는 Firebase 클라우드 메시징을 사용하고 메시지가 귀하의 기기에 도달할 수 있도록 무작위로 생성된 기기 토큰을 저장하게 되며, 해당 앱의 Play 스토어 "데이터 보안" 섹션에 그 사실이 명시됩니다. 귀하는 앱 자체 설정이나 기기의 시스템 설정에서 언제든지 알림을 끌 수 있으며, 알림을 끈 상태에서도 모든 앱은 정상적으로 작동합니다.`,
                 h3: "3. Chess.com 데이터",
                 h3_p: "귀하가 Chess.com 사용자명을 제공하면, 앱은 Chess.com의 공개 API로부터 귀하의 공개 프로필, 등급 및 게임 기록을 요청하고, Chess.com으로부터 체스 보드 이미지를 가져옵니다. 당사는 Chess.com이 공개적으로 제공하는 정보에만 접근합니다. 귀하의 Chess.com 이용은 Chess.com 자체의 개인정보처리방침의 적용을 받습니다.",
                 h4: "4. AI 처리 제공업체",
@@ -392,11 +398,11 @@
                 h4_p2: `<span class="text-gray-300 font-medium">건강 및 웰니스 앱.</span> 앱이 건강 추적 기능을 제공하는 경우, 전송되는 데이터는 귀하의 현재 영양제 목록, 귀하가 입력한 혈액 검사 결과 및 DNA 기반 마커, 단식 상태, 그리고 귀하가 연결한 웨어러블의 준비도 또는 회복도 수치입니다. 이 데이터는 귀하가 AI 기능을 실행할 때에만, 그리고 해당 항목들을 명시한 별도의 동의 안내에 동의한 이후에만 전송됩니다. Android Health Connect에서 읽어온 데이터는 일절 포함되지 않습니다. 14항을 참고하십시오.`,
                 h9_p2: `건강 또는 웰니스 앱을 포함한 일부 앱은 만 18세 이상 사용자로 이용이 제한되며, 앱을 사용하기 전에 연령 확인을 요청합니다.`,
                 h14: `14. 건강, 피트니스 및 유전 데이터`,
-                h14_intro: `본 항은 건강 또는 웰니스 추적 기능을 제공하는 앱, 현재로서는 Crystl Health에 적용됩니다. 본 항은 위 조항들에 추가되며, 위 조항들과 다른 부분이 있는 경우 본 항이 우선합니다.`,
+                h14_intro: `본 항은 건강 또는 웰니스 추적 기능을 제공하는 당사의 앱에만 적용됩니다. 본 항은 위 조항들에 추가되며, 위 조항들과 다른 부분이 있는 경우 본 항이 우선합니다. 건강 또는 웰니스 추적 기능을 제공하지 않는 앱에는 본 항의 어떠한 내용도 적용되지 않습니다.`,
                 h14_sub1: `수집되는 정보.`,
                 h14_p1: `귀하가 기록하는 영양제와 복용량, 알림 일정, 재고 수량, 귀하가 입력하는 혈액 검사 결과, 월경 주기 및 가임기 기록, 단식 세션, 기분 및 활력 평가, 체중 및 신체 측정치, 영양제에 첨부하는 사진, 그리고 귀하가 연결한 기기에서 가져온 수면, 심박수, 준비도 또는 회복도 수치입니다.`,
                 h14_sub2: `저장 위치.`,
-                h14_p2: `모두 귀하의 기기 내 로컬 데이터베이스에 저장됩니다. Crystl Labs는 본 앱을 위한 서버를 운영하지 않으며, 귀하의 건강 데이터 사본을 보유하지 않습니다. API 키와 웨어러블 액세스 토큰은 기기에 암호화되어 저장됩니다.`,
+                h14_p2: `모두 귀하의 기기 내 로컬 데이터베이스에 저장됩니다. Crystl Labs는 해당 앱들을 위한 서버를 운영하지 않으며, 귀하의 건강 데이터 사본을 보유하지 않습니다. API 키와 웨어러블 액세스 토큰은 기기에 암호화되어 저장됩니다.`,
                 h14_sub3: `유전 데이터.`,
                 h14_p3: `귀하는 23andMe 또는 AncestryDNA와 같은 소비자용 유전자 검사 서비스의 원본 DNA 파일을 선택적으로 업로드할 수 있습니다. 해당 파일은 귀하의 기기에서 판독되며, 영양과 관련된 소수의 마커만 보관되고 나머지는 폐기됩니다. 파일 자체는 어디에도 업로드되지 않습니다. 이는 임상 유전자 검사가 아니며 진단 목적으로 사용할 수 없습니다.`,
                 h14_sub4: `해당 기능을 켠 경우에 한하여 데이터를 수신할 수 있는 대상.`,
@@ -412,11 +418,11 @@
                 h14_sub7: `보관 및 삭제.`,
                 h14_p6: `이 데이터는 귀하가 삭제할 때까지 귀하의 기기에 남아 있습니다. 앱의 설정 화면에는 로컬 데이터베이스, 저장된 모든 설정값, 암호화된 토큰 및 첨부된 사진을 삭제하는 전체 삭제 기능이 있으며, 앱을 삭제하는 경우에도 동일한 데이터가 제거됩니다. 이미 Google, Oura, Whoop 또는 Open Food Facts로 전송된 데이터는 해당 제공업체의 자체 방침을 따르므로, 각 제공업체의 관리 기능을 이용하여 삭제하시기 바랍니다.`,
                 h14_sub8: `연령.`,
-                h14_p7: `Crystl Health는 성인을 대상으로 하며, 사용 전에 만 18세 이상임을 확인하도록 요청합니다.`,
+                h14_p7: `본 항이 적용되는 앱은 성인을 대상으로 하며, 사용 전에 만 18세 이상임을 확인하도록 요청합니다.`,
                 h14_sub9: `의학적 조언이 아닙니다.`,
-                h14_p8: `Crystl Health는 일반적인 웰니스 정보만을 제공합니다. 의학적 조언, 진단 또는 복용량 지시를 제공하지 않으며, 의사나 약사를 대체할 수 없습니다.`,
+                h14_p8: `본 항이 적용되는 앱은 일반적인 웰니스 정보만을 제공합니다. 의학적 조언, 진단 또는 복용량 지시를 제공하지 않으며, 의사나 약사를 대체할 수 없습니다.`,
                 h15: `15. Android 헬스 커넥트(Health Connect)`,
-                h15_intro: `Crystl Health는 귀하의 허락을 받아 Android의 Health Connect에 연결하여 제한된 범위의 기록을 사용할 수 있습니다:`,
+                h15_intro: `14항이 적용되는 앱은 귀하의 허락을 받아 Android의 Health Connect에 연결하여 제한된 범위의 기록을 사용할 수 있습니다:`,
                 h15_li1: `<span class="text-gray-300">수면(읽기).</span> 귀하가 복용한 영양제와 함께 수면 기록을 보여주기 위함입니다.`,
                 h15_li2: `<span class="text-gray-300">심박수(읽기).</span> 귀하의 기록과 함께 안정 시 심박수를 보여주기 위함입니다.`,
                 h15_li3: `<span class="text-gray-300">영양(쓰기).</span> 귀하가 기록한 영양제를 저장하여 귀하가 사용하는 다른 앱에서도 확인할 수 있도록 하기 위함입니다.`,
@@ -453,7 +459,9 @@
                 h2_li6: "お客様からのサポート依頼に対応するため;",
                 h1_li11: `<span class="text-gray-300">購入情報（該当する場合）。</span> 一部の本アプリは、Google Play課金を通じて処理される一回限りのアプリ内購入を提供します。当社がお客様のお支払いカード情報を受け取ることも保存することもありません。当社は、何が購入されたか及びその現在の利用権の状態に関する記録をGoogleから受け取り、これにより本アプリは、お客様がお支払いになった内容のロックを解除し、再インストールまたは端末の変更を行った場合にこれを復元することができます。`,
                 h2_li8: "本アプリがアプリ内購入を提供する場合、アプリ内購入を提供および復元するため;",
+                h2_li9: "本アプリが通知機能を提供し、お客様がこれを許可された場合、お客様に通知を送信するため;",
                 h2_li7: "本アプリがクラウド保存/同期機能を提供する場合、それを提供するため。",
+                h1_li13: `<span class="text-gray-300">通知（該当する場合）。</span> 一部の本アプリは、お客様に通知を送信するための許可を求めます &mdash; お客様が設定したリマインダーや、アプリ内で開始された処理が完了したことのお知らせなどです。当社の本アプリにおいて、これらの通知は端末内にすでに保存されているデータから端末上で生成されます。通知を生成するために当社または第三者に送信される情報はなく、当社はお客様が通知を開いたかどうかを知ることもできません。将来いずれかの本アプリがサーバーから通知を送信する場合には、Firebase Cloud Messagingを使用し、メッセージがお客様の端末に届くよう無作為に生成された端末トークンを保存することになります。その場合、当該アプリのPlayストアの「データセーフティ」欄にその旨が記載されます。お客様は、本アプリの設定または端末のシステム設定からいつでも通知をオフにすることができ、通知をオフにした状態でもすべての本アプリは問題なく動作します。`,
                 h3: "3. Chess.comのデータ",
                 h3_p: "Chess.comのユーザー名を提供いただくと、本アプリはChess.comの公開APIから、お客様の公開プロフィール、レーティング、対局履歴を取得し、Chess.comからチェス盤の画像を取得します。当社はChess.comが公開しているデータにのみアクセスします。Chess.comのご利用については、Chess.com自身のプライバシーポリシーも適用されます。",
                 h4: "4. AI処理プロバイダー",
@@ -481,11 +489,11 @@
                 h4_p2: `<span class="text-gray-300 font-medium">健康・ウェルネスアプリ。</span> 本アプリが健康記録機能を提供する場合、送信されるデータは、お客様の現在のサプリメント一覧、お客様が入力した血液検査の結果およびDNA由来のマーカー、ファスティングの状態、ならびにお客様が接続したウェアラブル機器のコンディションまたはリカバリー指標です。これらはお客様がAI機能を実行した場合にのみ、かつ、対象項目を明示した個別の同意画面に同意された後にのみ送信されます。Androidヘルスコネクトから読み取ったデータは一切含まれません。第14項をご覧ください。`,
                 h9_p2: `健康・ウェルネスアプリを含む一部の本アプリは、18歳以上の方に限定されており、ご利用前に年齢の確認を求めます。`,
                 h14: `14. 健康・フィットネス・遺伝情報`,
-                h14_intro: `本項は、健康またはウェルネスの記録機能を提供する本アプリ（現在はCrystl Health）に適用されます。本項は上記各項に追加されるものであり、内容が異なる場合には本項が優先します。`,
+                h14_intro: `本項は、健康またはウェルネスの記録機能を提供する当社の本アプリにのみ適用されます。本項は上記各項に追加されるものであり、内容が異なる場合には本項が優先します。健康またはウェルネスの記録機能を提供しないアプリには、本項のいかなる内容も適用されません。`,
                 h14_sub1: `収集される情報。`,
                 h14_p1: `お客様が記録するサプリメントと摂取量、リマインダーの予定、在庫数、お客様が入力する血液検査の結果、月経周期および妊娠可能期間の記録、ファスティングの記録、気分やエネルギーの評価、体重や身体測定値、サプリメントに添付する写真、ならびにお客様が接続した機器から取り込まれる睡眠、心拍数、コンディションまたはリカバリーの指標です。`,
                 h14_sub2: `保存場所。`,
-                h14_p2: `いずれもお客様の端末内のローカルデータベースに保存されます。Crystl Labsは本アプリのためのサーバーを運用しておらず、お客様の健康データの複製を保有していません。APIキーおよびウェアラブル機器のアクセストークンは、端末内に暗号化して保存されます。`,
+                h14_p2: `いずれもお客様の端末内のローカルデータベースに保存されます。Crystl Labsはこれらのアプリのためのサーバーを運用しておらず、お客様の健康データの複製を保有していません。APIキーおよびウェアラブル機器のアクセストークンは、端末内に暗号化して保存されます。`,
                 h14_sub3: `遺伝情報。`,
                 h14_p3: `お客様は、23andMeやAncestryDNAなどの消費者向け遺伝子検査サービスから出力した生のDNAファイルを、任意でアップロードすることができます。当該ファイルはお客様の端末上で読み取られ、栄養に関連するごく少数のマーカーのみが保持され、残りは破棄されます。ファイル自体がどこかにアップロードされることは一切ありません。これは臨床用の遺伝子検査ではなく、診断を目的とするものでもありません。`,
                 h14_sub4: `当該機能を有効にした場合に限り、データを受け取り得る相手。`,
@@ -501,11 +509,11 @@
                 h14_sub7: `保持と削除。`,
                 h14_p6: `これらのデータは、お客様が削除するまでお客様の端末内に残ります。本アプリの設定画面には、ローカルデータベース、保存されたすべての設定、暗号化されたトークン、添付された写真を消去する一括削除機能があり、本アプリをアンインストールした場合も同じデータが削除されます。Google、Oura、Whoop、またはOpen Food Factsへすでに送信されたデータは、各提供事業者自身のポリシーに従いますので、削除をご希望の場合は各提供事業者の管理機能をご利用ください。`,
                 h14_sub8: `年齢。`,
-                h14_p7: `Crystl Healthは成人を対象としており、ご利用前に18歳以上であることの確認を求めます。`,
+                h14_p7: `本項が適用されるアプリは成人を対象としており、ご利用前に18歳以上であることの確認を求めます。`,
                 h14_sub9: `医学的助言ではありません。`,
-                h14_p8: `Crystl Healthは一般的なウェルネス情報のみを提供します。医学的助言、診断、用量の指示を提供するものではなく、医師や薬剤師に代わるものでもありません。`,
+                h14_p8: `本項が適用されるアプリは一般的なウェルネス情報のみを提供します。医学的助言、診断、用量の指示を提供するものではなく、医師や薬剤師に代わるものでもありません。`,
                 h15: `15. Androidヘルスコネクト`,
-                h15_intro: `Crystl Healthは、お客様の許可を得たうえでAndroidのヘルスコネクトに接続し、限定された範囲の記録を利用することができます:`,
+                h15_intro: `第14項が適用されるアプリは、お客様の許可を得たうえでAndroidのヘルスコネクトに接続し、限定された範囲の記録を利用することができます:`,
                 h15_li1: `<span class="text-gray-300">睡眠（読み取り）。</span> お客様が摂取したサプリメントと並べて睡眠を表示するためです。`,
                 h15_li2: `<span class="text-gray-300">心拍数（読み取り）。</span> お客様の記録と並べて安静時心拍数を表示するためです。`,
                 h15_li3: `<span class="text-gray-300">栄養（書き込み）。</span> お客様が記録したサプリメントを書き込み、お客様がお使いの他のアプリからも確認できるようにするためです。`,
