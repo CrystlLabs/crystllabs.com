@@ -51,6 +51,11 @@ def load_apps():
         a.setdefault('storeUrl', '')
         # paths are relative to apps/, same convention as icon
         a.setdefault('screenshots', [])
+    # Newest release first, then down the stage ladder. Both sorts are stable, so
+    # apps sharing a stage (and undated apps) keep the order they have in the JSON.
+    apps.sort(key=lambda a: a.get('releasedOn') or '', reverse=True)
+    apps.sort(key=lambda a: STATUS_ORDER.index(a['status'])
+              if a['status'] in STATUS_ORDER else len(STATUS_ORDER))
     return apps
 
 
@@ -60,6 +65,8 @@ def is_live(app):
 
 # Stage ladder, mapped from the Vikunja board's buckets. Order is deliberate:
 # a reader should be able to tell how close something is from the colour alone.
+STATUS_ORDER = ['Live', 'Store prep', 'In playtest', 'In development', 'Early dev']
+
 STATUS_ACCENT = {
     'Live':           'brandGreen',
     'Store prep':     'brandPink',
