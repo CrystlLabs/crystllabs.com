@@ -97,8 +97,8 @@
       "sourceDir": "D:/Crystl/hacker-game",
       "tier": "Volume",
       "platform": "Android",
-      "status": "Store prep",
-      "storeUrl": "",
+      "status": "Live",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.hacker",
       "screenshots": [
         "shots/zero-day-syndicate/01.jpg",
         "shots/zero-day-syndicate/02.jpg",
