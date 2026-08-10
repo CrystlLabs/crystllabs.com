@@ -242,7 +242,7 @@
       "sourceDir": "D:/Crystl/wallstreetkid",
       "tier": "Flagship",
       "platform": "Android",
-      "onSiteAlready": false,
+      "onSiteAlready": true,
       "iconSourcePath": "D:/Crystl/wallstreetkid/playstore/app_icon_1783750103487.jpg",
       "nameMismatchNote": "board 'Wall Street 1987' vs repo app_name 'Wall Street: 1987' — punctuation only, same name",
       "name": {
@@ -260,7 +260,16 @@
         "ko": "월 스트리트: 1987은 복고풍 트레이딩 RPG로, 토니에게 5천 달러를 빌려 지하 사무실에서 시작해 50개 이상의 실시간 주식을 거래합니다. 싸게 사서 비싸게 팔고, 비밀 거래를 성사시키고, SEC의 감시가 급습으로 이어지기 전에 위험 수위를 관리하세요. 지하 사무실에서 개인 소유 섬까지 올라가, 전설적인 세 기업 보스를 무너뜨려 월가의 진짜 주인임을 증명하세요. 칩튠 신스와 흘러가는 시세표가 1987년의 감성을 그대로 담아냅니다.",
         "ja": "『ウォールストリート:1987』はレトロなトレーディングRPG。トニーから5000ドルを借りて地下オフィスから始まり、50銘柄以上の株をリアルタイムで売買する。安く買って高く売り、裏取引をまとめ、SECの強制捜査を受ける前にヒートを管理しよう。地下オフィスから個人所有の島まで成り上がり、伝説の三大企業ボスを倒してウォール街の頂点を証明せよ。チップチューンのシンセと流れるティッカーが1987年そのものを再現。"
       },
-      "status": "In playtest"
+      "status": "Live",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.wallstreetkid",
+      "releasedOn": "2026-08-11",
+      "screenshots": [
+        "shots/wall-street-1987/01.jpg",
+        "shots/wall-street-1987/02.jpg",
+        "shots/wall-street-1987/03.jpg",
+        "shots/wall-street-1987/04.jpg",
+        "shots/wall-street-1987/05.jpg"
+      ]
     },
     {
       "slug": "bikini-bay",

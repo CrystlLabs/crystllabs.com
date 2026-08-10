@@ -102,7 +102,7 @@
                         <div class="flex flex-wrap items-center gap-2 mt-2">
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandPink/90 border border-brandPink/30 rounded px-1.5 py-0.5">Flagship</span>
-                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandBlue border border-brandBlue/40 bg-brandBlue/10 rounded px-1.5 py-0.5">In playtest</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
                         </div>
                     </div>
                 </header>
@@ -111,17 +111,28 @@
 
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Wall Street: 1987 is a retro trading RPG that drops you in a basement office with a $5,000 loan from Tony and a phone line to 50+ live stocks. Buy low, sell high, cut black-book deals, and manage your SEC heat before a raid wipes you out. Climb from that basement to a private offshore island, then take down three legendary corporate bosses to prove you own the Street. Chiptune synths and scrolling tickers keep it pure 1987.</p>
 
-                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
-                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
-                    <span id="apStore">In development</span>
-                </div>
+                <a id="apStoreLink" href="https://play.google.com/store/apps/details?id=com.crystllabs.wallstreetkid" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">Get it on Google Play</span>
+                </a>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/wall-street-1987/01.jpg" alt="Wall Street: 1987 screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/wall-street-1987/02.jpg" alt="Wall Street: 1987 screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/wall-street-1987/03.jpg" alt="Wall Street: 1987 screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/wall-street-1987/04.jpg" alt="Wall Street: 1987 screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/wall-street-1987/05.jpg" alt="Wall Street: 1987 screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
             </div>
         </main>
     </div>
 
     <script>
         const APP = {"name": {"en": "Wall Street: 1987", "ko": "월 스트리트: 1987", "ja": "ウォールストリート:1987"}, "tagline": {"en": "Turn a $5,000 loan into a Wall Street empire — before the SEC catches up.", "ko": "5천 달러 대출로 시작해 월가의 제국을 세우세요, SEC가 잡기 전에.", "ja": "5000ドルの借金からウォール街の帝国を築け、SECに捕まる前に。"}, "desc": {"en": "Wall Street: 1987 is a retro trading RPG that drops you in a basement office with a $5,000 loan from Tony and a phone line to 50+ live stocks. Buy low, sell high, cut black-book deals, and manage your SEC heat before a raid wipes you out. Climb from that basement to a private offshore island, then take down three legendary corporate bosses to prove you own the Street. Chiptune synths and scrolling tickers keep it pure 1987.", "ko": "월 스트리트: 1987은 복고풍 트레이딩 RPG로, 토니에게 5천 달러를 빌려 지하 사무실에서 시작해 50개 이상의 실시간 주식을 거래합니다. 싸게 사서 비싸게 팔고, 비밀 거래를 성사시키고, SEC의 감시가 급습으로 이어지기 전에 위험 수위를 관리하세요. 지하 사무실에서 개인 소유 섬까지 올라가, 전설적인 세 기업 보스를 무너뜨려 월가의 진짜 주인임을 증명하세요. 칩튠 신스와 흘러가는 시세표가 1987년의 감성을 그대로 담아냅니다.", "ja": "『ウォールストリート:1987』はレトロなトレーディングRPG。トニーから5000ドルを借りて地下オフィスから始まり、50銘柄以上の株をリアルタイムで売買する。安く買って高く売り、裏取引をまとめ、SECの強制捜査を受ける前にヒートを管理しよう。地下オフィスから個人所有の島まで成り上がり、伝説の三大企業ボスを倒してウォール街の頂点を証明せよ。チップチューンのシンセと流れるティッカーが1987年そのものを再現。"}};
-        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}};
+        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
             return ['en','ko','ja'].includes(l) ? l : 'ko';
