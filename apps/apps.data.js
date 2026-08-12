@@ -424,9 +424,9 @@ window.CRYSTL_APPS = [
             "ja": "どんなレシピも取り込んで、タイマーまで任せられるステップ調理モードで作る。"
         },
         "desc": {
-            "en": "Mise is a cookbook that does the tedious part. Point it at a web link, a PDF, a photo or pasted text and it pulls out a structured recipe on-device — no account, no API key, nothing leaves the phone. Then cook: each step shows only the ingredients that step needs and starts its own timers, which keep running even if the app is killed. Scale servings, build a shopping list, log the dish with a photo, and keep the whole book backed up to a file you own.",
-            "ko": "미즈는 귀찮은 일을 대신하는 요리책입니다. 웹 링크나 PDF, 사진, 붙여넣은 텍스트를 주면 기기 안에서 구조화된 레시피로 정리합니다. 계정도, API 키도 필요 없고 아무것도 휴대폰 밖으로 나가지 않습니다. 그다음은 조리입니다. 각 단계는 그 단계에 필요한 재료만 보여 주고 자체 타이머를 돌리며, 앱이 종료돼도 타이머는 계속 갑니다. 인분을 조절하고, 장보기 목록을 만들고, 완성한 요리를 사진으로 기록하고, 책 전체를 내 파일로 백업하세요.",
-            "ja": "『ミース』は面倒な部分を引き受けるレシピ帳。ウェブのリンク、PDF、写真、貼り付けたテキストを渡せば、端末の中だけで構造化されたレシピに整える。アカウントもAPIキーも不要で、何も端末の外へ出ない。あとは作るだけ。各ステップはその工程に必要な材料だけを見せ、専用のタイマーを走らせる。アプリを落としてもタイマーは止まらない。人数分の調整、買い物リスト、写真つきの調理記録、そして自分の手元に残るファイルへの丸ごとバックアップ。"
+            "en": "Mise is a cookbook that does the tedious part. Point it at a web link, a PDF, a photo or pasted text and it turns it into a structured recipe on-device — no account, no API key, and no recipe server. Your recipe content stays on your device. Then cook: each step shows only the ingredients that step needs and starts its own timers, which keep running even if the app is killed. Scale servings, build a shopping list, log the dish with a photo, and keep the whole book backed up to a file you own.",
+            "ko": "미즈는 귀찮은 일을 대신하는 요리책입니다. 웹 링크나 PDF, 사진, 붙여넣은 텍스트를 주면 기기 안에서 구조화된 레시피로 정리합니다. 계정도, API 키도, 레시피 서버도 필요 없습니다. 레시피 내용은 기기에 보관됩니다. 그다음은 조리입니다. 각 단계는 그 단계에 필요한 재료만 보여 주고 자체 타이머를 돌리며, 앱이 종료돼도 타이머는 계속 갑니다. 인분을 조절하고, 장보기 목록을 만들고, 완성한 요리를 사진으로 기록하고, 책 전체를 내 파일로 백업하세요.",
+            "ja": "『ミース』は面倒な部分を引き受けるレシピ帳。ウェブのリンク、PDF、写真、貼り付けたテキストを渡せば、端末の中で構造化されたレシピに整える。アカウントもAPIキーもレシピ用サーバーも不要。レシピの内容は端末に保存される。あとは作るだけ。各ステップはその工程に必要な材料だけを見せ、専用のタイマーを走らせる。アプリを落としてもタイマーは止まらない。人数分の調整、買い物リスト、写真つきの調理記録、そして自分の手元に残るファイルへの丸ごとバックアップ。"
         },
         "status": "In playtest",
         "storeUrl": "",
