@@ -2,6 +2,58 @@
 
 All notable changes to the Crystl Labs website are documented here.
 
+## 2026-08-16
+
+AdSense rejected the site on 2026-08-14 for **"Low value content."** It was
+correct: there were no articles on the domain, 21 near-identical app pages of
+roughly 120 words each, and the privacy policy was the longest page on the site.
+This release addresses the cause. Indexable surface went from 16 pages / 7,636
+words to 43 pages / 39,057 words.
+
+### Added
+- **A blog.** 11 posts, 17,430 words, at `blog/<slug>.html`, compiled by the new
+  `build_blog.py` from `blog_src/*.json`. Four were already published on the
+  `ap39` subdomain and are republished here; that copy now carries a canonical
+  pointing at this domain, since the two share a root domain and would otherwise
+  read as duplicate content. Seven were recovered from Print-To-PDF exports whose
+  Markdown sources no longer exist and whose glyphs had been flattened to vector
+  outlines, leaving no text layer to extract.
+- **Dev logs on every app page.** `build_devlog.py` reads each project's real git
+  history into `devlog_data.json`; `build_apps.py` renders it. Every dated line is
+  a commit that exists. Merge commits and noise are dropped, chores are marked and
+  hidden. Only the per-app intro in `devlog_intros.json` is written by hand.
+- **`contact.html`** — support, privacy, press and corrections, with the response
+  times we actually keep, plus Organization JSON-LD.
+- **Six projects**: Zero Cool, Bent FC: Tournament Edition, Rug Pull, Office
+  Politics, Rich Man Poor Man and Crystl Suite. The first and the last two were
+  previously teaser cards in the Frontier and Sites rows; those cards now link
+  into full pages.
+- A **Writing** section on the home page carrying the three newest posts, so an
+  article is reachable from the front page rather than the sidebar alone.
+- `build_pages.py` and `patch_chrome.py`, which keep the hand-maintained pages
+  from drifting out of sync with the generated ones.
+
+### Changed
+- **`personnel.html` is a real About page**, 63 → 309 words, in all three
+  languages: what the studio is, how it builds, where your data goes, why it
+  writes.
+- **Indexing is earned, not assumed.** A page is indexed when it is shipped, or
+  its dev log is long enough to read, or its description stands on its own.
+  Three pages meet none of those and carry `noindex`. `sitemap.xml` agrees with
+  the tags instead of contradicting them.
+- The AdSense loader is on **every** page. It used to be on `index.html` alone.
+- Store buttons follow the platform. A browser game reads "Play in your browser"
+  rather than claiming to be on Google Play, and a finished web tool waiting on
+  DNS reads "Coming soon" rather than "In development".
+- `ads.txt` gained the nine `subdomain=` declarations it was missing. Without
+  them Google does not crawl a subdomain's ads.txt, so that inventory counted as
+  unauthorised.
+
+### Fixed
+- `ceo-blog.html` shipped a single placeholder post whose only link was a 404 to
+  `ceo/ceo_template.html`. It now redirects to the blog and is `noindex`.
+- Removed the empty `_posts/ceo` and `_posts/dev` directories.
+
 ## 2026-07-31
 
 ### Added
