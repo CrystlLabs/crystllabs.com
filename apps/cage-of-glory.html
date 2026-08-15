@@ -104,7 +104,7 @@
                         <div class="flex flex-wrap items-center gap-2 mt-2">
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandPink/90 border border-brandPink/30 rounded px-1.5 py-0.5">Flagship</span>
-                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandBlue border border-brandBlue/40 bg-brandBlue/10 rounded px-1.5 py-0.5">In playtest</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
                         </div>
                     </div>
                 </header>
@@ -113,10 +113,21 @@
 
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Cage of Glory is an MMA career sim where you build a fighter and climb from small club shows to championship gold. Train the skills, manage the game plan, and fight your way up the rankings toward the belt. Deep progression with a pick-up-and-play core.</p>
 
-                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
-                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
-                    <span id="apStore">In development</span>
-                </div>
+                <a id="apStoreLink" href="https://play.google.com/store/apps/details?id=com.crystllabs.mmakid" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">Get it on Google Play</span>
+                </a>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/cage-of-glory/01.jpg" alt="Cage of Glory screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/cage-of-glory/02.jpg" alt="Cage of Glory screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/cage-of-glory/03.jpg" alt="Cage of Glory screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/cage-of-glory/04.jpg" alt="Cage of Glory screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/cage-of-glory/05.jpg" alt="Cage of Glory screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
 
                 <section class="mt-12">
                     <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Dev log //</h2>
@@ -310,7 +321,7 @@
 
     <script>
         const APP = {"name": {"en": "Cage of Glory", "ko": "케이지 오브 글로리", "ja": "ケージ・オブ・グローリー"}, "tagline": {"en": "Claw your way from club shows to the MMA title belt.", "ko": "클럽 무대에서 시작해 MMA 챔피언 벨트까지 쟁취하세요.", "ja": "クラブ興行からMMA王座のベルトまで駆け上がれ。"}, "desc": {"en": "Cage of Glory is an MMA career sim where you build a fighter and climb from small club shows to championship gold. Train the skills, manage the game plan, and fight your way up the rankings toward the belt. Deep progression with a pick-up-and-play core.", "ko": "케이지 오브 글로리는 MMA 커리어 시뮬레이션입니다. 파이터를 육성하고 작은 클럽 무대에서 챔피언 자리까지 올라가세요. 기술을 훈련하고 전략을 세우며 랭킹을 뚫고 벨트를 향해 싸우세요. 깊이 있는 성장 시스템과 손쉬운 조작이 결합되었습니다.", "ja": "ケージ・オブ・グローリーはMMAキャリアシミュレーション。ファイターを育成し、小さなクラブ興行から王座まで駆け上がろう。スキルを鍛え、戦略を練り、ランキングを勝ち抜いてベルトを目指せ。奥深い成長要素と手軽な操作を両立。"}};
-        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}};
+        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
             return ['en','ko','ja'].includes(l) ? l : 'ko';

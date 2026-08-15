@@ -8786,7 +8786,7 @@
  },
  "zero-cool": {
   "stats": {
-   "commits": 316,
+   "commits": 317,
    "activeDays": 18,
    "firstDay": "2026-07-12",
    "lastDay": "2026-08-16",
@@ -8795,6 +8795,11 @@
   },
   "intro": "The longest and most self-aware log in the portfolio, because this project changed shape halfway through and the history says so out loud. Everything before 25 July 2026 is a solo hacking sim: four hacking verbs, a living-city clock, a 200-NPC simulation, law, factions, territory and a market. On that date it pivoted to a street-to-kingpin crime empire, and rather than restart, hacking was demoted to Chapter 1 and the crew's first skill while roughly eighty percent of the built engine carried over intact. The entries after the pivot are mostly the city becoming somewhere you would believe in: trimming bands, putting real lights in the club, and a long run of art-pipeline work against a counted inventory of what the project actually owns.",
   "entries": [
+   {
+    "date": "2026-08-16",
+    "subject": "Stale docs swept: the live claims corrected, the dated history left alone",
+    "chore": false
+   },
    {
     "date": "2026-08-16",
     "subject": "Look re-run after the dressing: 57 clauses, 0 failed, and the zero is the finding",
