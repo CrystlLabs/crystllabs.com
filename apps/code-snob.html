@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Snob | Crystl Labs</title>
+    <meta name="description" content="Name the programming language from three lines of it.">
+    <meta property="og:title" content="Code Snob | Crystl Labs">
+    <meta property="og:description" content="Name the programming language from three lines of it.">
+    <meta property="og:image" content="code-snob.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/code-snob.html">
+    <link rel="icon" type="image/png" href="../favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../blogs.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">blogs.html</a></li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../contact.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">contact.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="code-snob.png" alt="Code Snob" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Code Snob</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Web</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Name the programming language from three lines of it.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">A short snippet appears in a terminal window and you name the language. Fifty-six rounds drawn from eleven families: array, BEAM, curly-brace, JVM, legacy, Lisp, logic, ML, scripting, shell and systems. The family is shown, which is the entire design decision: it turns a hopeless guess into a real one, because knowing a snippet is ML narrows it to OCaml, F#, Elm and PureScript and now you have to actually read the syntax. Getting the distractors right is what makes a guessing game a game rather than a coin flip. No account, no install, streak kept locally.</p>
+
+                <a id="apStoreLink" href="https://codesnob.crystllabs.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3a15 15 0 0 0 0 18M12 3a15 15 0 0 1 0 18M3 12h18M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18z"/></svg>
+                    <span id="apStore">Play in your browser</span>
+                </a>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/code-snob/01.jpg" alt="Code Snob screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/code-snob/02.jpg" alt="Code Snob screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+
+                <section class="mt-12">
+                    <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Dev log //</h2>
+                    <p class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-6 max-w-2xl">The engine came free from shared/, so the work here was entirely content: 56 snippets, each short enough to read at a glance and long enough to be identifiable, sorted into 11 families. The families are not decoration, they are the difficulty dial. Without them the four options are unguessable; with them you are choosing between four languages that genuinely look alike.</p>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 mb-6">
+                        <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
+                            <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Commits</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">7</div>
+                        </div>
+                        <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
+                            <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Days w/ changes</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">2</div>
+                        </div>
+                        <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
+                            <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Started</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">10 JUL 2026</div>
+                        </div>
+                    </div>
+                    <ul class="rounded-2xl border border-white/10 bg-panelBg/40 px-4 md:px-5 py-2">
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <time datetime="2026-08-01" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">01 AUG 2026</time>
+                            <span class="text-sm text-gray-300 leading-relaxed">Font Guesser: 54 self-hosted typefaces, distractors by classification</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Code Snob: 56 languages, distractors from the same family</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">StatClash: self-hosted fonts, build-time thumbnails, deck pruned to 44</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">StatClash: production build-out</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">StatClash is YouTube only; fix a background-tab deadlock</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Rework web prototypes into one repo with a shared engine</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <time datetime="2026-07-10" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">10 JUL 2026</time>
+                            <span class="text-sm text-gray-300 leading-relaxed">Initial commit</span>
+                        </li>
+                    </ul>
+                    <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores and merge commits are filtered out.</p>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Code Snob", "ko": "코드 스놉", "ja": "コード・スノッブ"}, "tagline": {"en": "Name the programming language from three lines of it.", "ko": "세 줄만 보고 프로그래밍 언어를 맞혀보세요.", "ja": "3行だけ見て、プログラミング言語を当てろ。"}, "desc": {"en": "A short snippet appears in a terminal window and you name the language. Fifty-six rounds drawn from eleven families: array, BEAM, curly-brace, JVM, legacy, Lisp, logic, ML, scripting, shell and systems. The family is shown, which is the entire design decision: it turns a hopeless guess into a real one, because knowing a snippet is ML narrows it to OCaml, F#, Elm and PureScript and now you have to actually read the syntax. Getting the distractors right is what makes a guessing game a game rather than a coin flip. No account, no install, streak kept locally.", "ko": "터미널 창에 짧은 코드가 뜨고, 당신은 언어를 맞힙니다. 배열, BEAM, 중괄호, JVM, 레거시, 리스프, 논리, ML, 스크립팅, 셸, 시스템까지 11개 계열에서 뽑은 56라운드. 계열이 미리 표시되는데, 이게 설계의 핵심입니다. 가망 없는 찍기를 진짜 추리로 바꿔주거든요. ML 계열임을 알면 OCaml, F#, Elm, PureScript로 좁혀지고, 이제부터는 문법을 실제로 읽어야 합니다. 오답 선택지를 잘 고르는 것이야말로 추측 게임을 동전 던지기가 아닌 게임으로 만듭니다. 계정도 설치도 없고 연속 기록은 기기에 저장됩니다.", "ja": "ターミナル風のウィンドウに短いコードが表示され、あなたは言語を答えます。配列、BEAM、波括弧、JVM、レガシー、Lisp、論理、ML、スクリプティング、シェル、システムの11系統から選んだ56ラウンド。系統は先に示されます。これが設計の肝で、当てずっぽうを本物の推理に変えるからです。ML 系だと分かれば OCaml、F#、Elm、PureScript に絞られ、そこから先は実際に構文を読むことになります。ダミー選択肢をきちんと選ぶことこそ、推測ゲームをコイン投げではなくゲームにします。アカウントもインストールも不要、連続記録は端末に保存されます。"}};
+        const STR = {"en": {"store": "Play in your browser", "shots": "Screenshots //"}, "ko": {"store": "브라우저에서 플레이", "shots": "스크린샷 //"}, "ja": {"store": "ブラウザでプレイ", "shots": "スクリーンショット //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+</body>
+</html>

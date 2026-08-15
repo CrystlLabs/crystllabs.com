@@ -836,6 +836,192 @@
       },
       "releasedOn": "2026-08-16",
       "section": "sites"
+    },
+    {
+      "slug": "statclash",
+      "boardName": "StatClash",
+      "shippingName": "StatClash",
+      "sourceDir": "D:/Crystl/sites/statclash",
+      "tier": "Volume",
+      "platform": "Web",
+      "section": "sites",
+      "status": "Live",
+      "storeUrl": "https://statclash.crystllabs.com/",
+      "releasedOn": "2026-08-16",
+      "screenshots": [
+        "shots/statclash/01.jpg",
+        "shots/statclash/02.jpg"
+      ],
+      "name": {
+        "en": "StatClash",
+        "ko": "스탯클래시",
+        "ja": "スタットクラッシュ"
+      },
+      "tagline": {
+        "en": "Higher or lower, on YouTube view counts. The billion-view club and the ghosts of the old internet.",
+        "ko": "유튜브 조회수로 겨루는 하이 로우 게임. 10억 조회 클럽과 옛 인터넷의 유령들.",
+        "ja": "YouTube の再生回数で挑むハイ＆ロー。10億回クラブと、古いインターネットの亡霊たち。"
+      },
+      "desc": {
+        "en": "Two YouTube videos, one view count shown, one hidden. Higher or lower. That is the whole game, and it is harder than it sounds, because your instinct about what the internet actually watched is usually wrong. The deck is 44 videos pulled from the YouTube Data API v3 rather than typed in from memory, which matters: every number on screen is the real count at the time the deck was built, not an approximation. Runs in the browser with no account and no install, keeps your best score locally, and the streak ends the moment you guess wrong.",
+        "ko": "유튜브 영상 두 개, 한쪽은 조회수가 보이고 다른 쪽은 가려져 있습니다. 더 높을까요, 낮을까요. 게임은 이게 전부지만 생각보다 어렵습니다. 인터넷이 실제로 무엇을 봤는지에 대한 당신의 직감은 대체로 틀리거든요. 덱은 YouTube Data API v3에서 가져온 44개 영상으로, 기억에 의존해 입력한 값이 아닙니다. 이 점이 중요합니다. 화면의 모든 숫자는 덱을 만든 시점의 실제 조회수이지 어림값이 아닙니다. 계정도 설치도 없이 브라우저에서 돌아가고, 최고 점수는 기기에 저장되며, 한 번 틀리면 연속 기록은 거기서 끝납니다.",
+        "ja": "YouTube の動画が2本、片方は再生回数が見えていて、もう片方は隠されています。上か、下か。ゲームはそれだけですが、思ったより難しい。インターネットが実際に何を観たのかについての直感は、たいてい外れるからです。デッキは YouTube Data API v3 から取得した44本。記憶を頼りに打ち込んだ数字ではありません。ここが肝心で、画面に出る数値はすべてデッキ生成時点の実測値であって概算ではありません。アカウントもインストールも不要でブラウザ内で動き、ベストスコアは端末に保存され、一度外せば連続記録はそこで終わります。"
+      }
+    },
+    {
+      "slug": "starclash",
+      "boardName": "StarClash",
+      "shippingName": "StarClash",
+      "sourceDir": "D:/Crystl/sites/starclash",
+      "tier": "Volume",
+      "platform": "Web",
+      "section": "sites",
+      "status": "Live",
+      "storeUrl": "https://starclash.crystllabs.com/",
+      "releasedOn": "2026-08-16",
+      "screenshots": [
+        "shots/starclash/01.jpg",
+        "shots/starclash/02.jpg"
+      ],
+      "name": {
+        "en": "StarClash",
+        "ko": "스타클래시",
+        "ja": "スタークラッシュ"
+      },
+      "tagline": {
+        "en": "Which repo did the internet star harder? Higher or lower, on GitHub stars.",
+        "ko": "인터넷은 어느 저장소에 더 별을 줬을까요? 깃허브 스타로 겨루는 하이 로우.",
+        "ja": "インターネットはどちらのリポジトリにより多くの星をつけたか。GitHub スターのハイ＆ロー。"
+      },
+      "desc": {
+        "en": "The same higher-or-lower shape as StatClash, pointed at a very different audience: 64 GitHub repositories and their star counts, straight from the GitHub REST API. It splits off from StatClash rather than hiding behind a deck picker, because a developer who wants to argue about whether Julia has more stars than ReactOS is not the same person who wants to guess YouTube views, and putting a menu in front of both would have served neither. Language tags and repository avatars come with each card, so you are guessing from the same signals you would use on the real site.",
+        "ko": "스탯클래시와 같은 하이 로우 구조지만 겨냥하는 대상이 전혀 다릅니다. GitHub REST API에서 직접 가져온 64개 저장소와 스타 수로 겨룹니다. 덱 선택 메뉴 뒤에 숨기지 않고 스탯클래시에서 아예 분리했습니다. Julia가 ReactOS보다 스타가 많은지를 두고 논쟁하고 싶은 개발자와 유튜브 조회수를 맞히고 싶은 사람은 같은 사람이 아니고, 둘 앞에 메뉴를 놓으면 양쪽 다 만족시키지 못하기 때문입니다. 각 카드에는 언어 태그와 저장소 아바타가 함께 표시되므로, 실제 깃허브에서 쓰는 것과 같은 단서로 추측하게 됩니다.",
+        "ja": "StatClash と同じハイ＆ローの形ですが、狙う相手はまるで違います。GitHub REST API から直接取得した64のリポジトリとスター数で勝負します。デッキ選択メニューの裏に隠さず、StatClash から切り離しました。Julia が ReactOS よりスターが多いかを議論したい開発者と、YouTube の再生回数を当てたい人は同じ人ではなく、両者の前にメニューを置けばどちらも満足させられないからです。各カードには言語タグとリポジトリのアバターが付くので、実際の GitHub で使うのと同じ手がかりで推測できます。"
+      }
+    },
+    {
+      "slug": "code-snob",
+      "boardName": "Code Snob",
+      "shippingName": "Code Snob",
+      "sourceDir": "D:/Crystl/sites/codesnob",
+      "tier": "Volume",
+      "platform": "Web",
+      "section": "sites",
+      "status": "Live",
+      "storeUrl": "https://codesnob.crystllabs.com/",
+      "releasedOn": "2026-08-16",
+      "screenshots": [
+        "shots/code-snob/01.jpg",
+        "shots/code-snob/02.jpg"
+      ],
+      "name": {
+        "en": "Code Snob",
+        "ko": "코드 스놉",
+        "ja": "コード・スノッブ"
+      },
+      "tagline": {
+        "en": "Name the programming language from three lines of it.",
+        "ko": "세 줄만 보고 프로그래밍 언어를 맞혀보세요.",
+        "ja": "3行だけ見て、プログラミング言語を当てろ。"
+      },
+      "desc": {
+        "en": "A short snippet appears in a terminal window and you name the language. Fifty-six rounds drawn from eleven families: array, BEAM, curly-brace, JVM, legacy, Lisp, logic, ML, scripting, shell and systems. The family is shown, which is the entire design decision: it turns a hopeless guess into a real one, because knowing a snippet is ML narrows it to OCaml, F#, Elm and PureScript and now you have to actually read the syntax. Getting the distractors right is what makes a guessing game a game rather than a coin flip. No account, no install, streak kept locally.",
+        "ko": "터미널 창에 짧은 코드가 뜨고, 당신은 언어를 맞힙니다. 배열, BEAM, 중괄호, JVM, 레거시, 리스프, 논리, ML, 스크립팅, 셸, 시스템까지 11개 계열에서 뽑은 56라운드. 계열이 미리 표시되는데, 이게 설계의 핵심입니다. 가망 없는 찍기를 진짜 추리로 바꿔주거든요. ML 계열임을 알면 OCaml, F#, Elm, PureScript로 좁혀지고, 이제부터는 문법을 실제로 읽어야 합니다. 오답 선택지를 잘 고르는 것이야말로 추측 게임을 동전 던지기가 아닌 게임으로 만듭니다. 계정도 설치도 없고 연속 기록은 기기에 저장됩니다.",
+        "ja": "ターミナル風のウィンドウに短いコードが表示され、あなたは言語を答えます。配列、BEAM、波括弧、JVM、レガシー、Lisp、論理、ML、スクリプティング、シェル、システムの11系統から選んだ56ラウンド。系統は先に示されます。これが設計の肝で、当てずっぽうを本物の推理に変えるからです。ML 系だと分かれば OCaml、F#、Elm、PureScript に絞られ、そこから先は実際に構文を読むことになります。ダミー選択肢をきちんと選ぶことこそ、推測ゲームをコイン投げではなくゲームにします。アカウントもインストールも不要、連続記録は端末に保存されます。"
+      }
+    },
+    {
+      "slug": "font-guesser",
+      "boardName": "Font Guesser",
+      "shippingName": "Font Guesser",
+      "sourceDir": "D:/Crystl/sites/fontguesser",
+      "tier": "Volume",
+      "platform": "Web",
+      "section": "sites",
+      "status": "Live",
+      "storeUrl": "https://fontguesser.crystllabs.com/",
+      "releasedOn": "2026-08-16",
+      "screenshots": [
+        "shots/font-guesser/01.jpg",
+        "shots/font-guesser/02.jpg"
+      ],
+      "name": {
+        "en": "Font Guesser",
+        "ko": "폰트 게서",
+        "ja": "フォント・ゲッサー"
+      },
+      "tagline": {
+        "en": "Name the typeface from a specimen. Fifty-four of them, self-hosted.",
+        "ko": "견본만 보고 서체를 맞혀보세요. 자체 호스팅한 54종.",
+        "ja": "見本を見て書体を当てろ。自前ホストの54書体。"
+      },
+      "desc": {
+        "en": "A specimen renders on screen, set in the actual typeface, and you name it. Fifty-four faces across nine classifications: geometric sans, grotesque sans, humanist sans, oldstyle serif, didone serif, slab serif, mono, display and script. Every font file is self-hosted rather than pulled from a font CDN, which is the difference between a game that works and one that silently renders every round in a fallback face and makes the whole thing impossible. Like Code Snob, the classification is shown up front so the four options are genuinely confusable and you have to look at the letterforms.",
+        "ko": "실제 서체로 조판된 견본이 화면에 나타나고, 당신은 그 이름을 맞힙니다. 9개 분류에 걸친 54종. 지오메트릭 산세리프, 그로테스크 산세리프, 휴머니스트 산세리프, 올드스타일 세리프, 디도네 세리프, 슬랩 세리프, 모노, 디스플레이, 스크립트. 모든 폰트 파일은 폰트 CDN이 아니라 자체 호스팅합니다. 이건 제대로 작동하는 게임과, 매 라운드를 대체 서체로 조용히 렌더링해 게임 자체를 불가능하게 만드는 것의 차이입니다. 코드 스놉과 마찬가지로 분류를 먼저 보여주기 때문에 네 개의 선택지가 실제로 헷갈리고, 글자 형태를 직접 봐야 합니다.",
+        "ja": "実際の書体で組まれた見本が表示され、あなたはその名前を答えます。9分類にわたる54書体。ジオメトリック・サンセリフ、グロテスク・サンセリフ、ヒューマニスト・サンセリフ、オールドスタイル・セリフ、ディドネ・セリフ、スラブ・セリフ、モノ、ディスプレイ、スクリプト。フォントファイルはすべてフォント CDN ではなく自前でホストしています。これは、ちゃんと成立するゲームと、毎ラウンド代替書体で静かにレンダリングされて成立しなくなるものとの差です。Code Snob と同様、分類を先に示すので4つの選択肢は本当に紛らわしく、字形をきちんと見る必要があります。"
+      }
+    },
+    {
+      "slug": "what-year",
+      "boardName": "What Year Was It?",
+      "shippingName": "What Year Was It?",
+      "sourceDir": "D:/Crystl/sites/whatyear",
+      "tier": "Volume",
+      "platform": "Web",
+      "section": "sites",
+      "status": "Live",
+      "storeUrl": "https://year.crystllabs.com/",
+      "releasedOn": "2026-08-16",
+      "screenshots": [
+        "shots/what-year/01.jpg",
+        "shots/what-year/02.jpg"
+      ],
+      "name": {
+        "en": "What Year Was It?",
+        "ko": "무슨 해였을까?",
+        "ja": "あれは何年？"
+      },
+      "tagline": {
+        "en": "Three things debuted the same year. Name it. One puzzle a day.",
+        "ko": "세 가지가 같은 해에 등장했습니다. 그 해를 맞혀보세요. 하루 한 문제.",
+        "ja": "3つが同じ年に登場した。その年を当てろ。1日1問。"
+      },
+      "desc": {
+        "en": "A film, a hit song and a thing that happened, all from the same year. Drag the slider from 1960 to 2024 and lock in your answer. Sixty-five puzzles, one per day, the same puzzle for everyone, counted from a fixed epoch so nobody gets a different board. Blazing Saddles, Waterloo and the invention of the Rubik's Cube is 1974, and if you were off by eighteen years the result screen tells you so without softening it. Streaks survive a reload and break on a missed day, and a share grid goes out the way Wordle's does.",
+        "ko": "영화 한 편, 히트곡 하나, 그리고 그 해에 일어난 일 하나. 모두 같은 해입니다. 1960년부터 2024년까지 슬라이더를 움직여 답을 확정하세요. 65개의 퍼즐, 하루에 하나씩, 모두에게 같은 문제가 주어집니다. 고정된 기준일로부터 계산하므로 누구도 다른 판을 받지 않습니다. 블레이징 새들, 워털루, 루빅스 큐브의 발명은 1974년이고, 18년이나 빗나갔다면 결과 화면이 돌려 말하지 않고 그대로 알려줍니다. 연속 기록은 새로고침을 견디고 하루를 놓치면 끊기며, 워들처럼 공유용 그리드가 나갑니다.",
+        "ja": "映画が1本、ヒット曲が1曲、そしてその年に起きた出来事がひとつ。すべて同じ年のものです。1960年から2024年までスライダーを動かして答えを確定します。65問、1日1問、全員に同じ問題。固定した起点日から数えるので、誰も違う盤面を受け取りません。『ブレージングサドル』と『恋のウォータールー』とルービックキューブの発明は1974年で、18年ずれていたら結果画面がそれを包み隠さず告げます。連続記録はリロードに耐え、1日空けると途切れ、Wordle と同じように共有用グリッドが出ます。"
+      }
+    },
+    {
+      "slug": "inflation-price",
+      "boardName": "The Inflation Price Is Right",
+      "shippingName": "The Inflation Price Is Right",
+      "sourceDir": "D:/Crystl/sites/inflationprice",
+      "tier": "Volume",
+      "platform": "Web",
+      "section": "sites",
+      "status": "Live",
+      "storeUrl": "https://inflation.crystllabs.com/",
+      "releasedOn": "2026-08-16",
+      "screenshots": [
+        "shots/inflation-price/01.jpg",
+        "shots/inflation-price/02.jpg"
+      ],
+      "name": {
+        "en": "The Inflation Price Is Right",
+        "ko": "인플레이션 프라이스 이즈 라이트",
+        "ja": "ザ・インフレ・プライス・イズ・ライト"
+      },
+      "tagline": {
+        "en": "An HP-35 cost $395 in 1972. What is that in today's money?",
+        "ko": "1972년에 HP-35는 395달러였습니다. 지금 돈으로는 얼마일까요?",
+        "ja": "1972年、HP-35 は395ドルだった。今の金額でいくら？"
+      },
+      "desc": {
+        "en": "You are shown a real product, the year it launched and what it cost then. You type what you think that is in today's money and lock it in. Thirty-eight items, from the first scientific calculator you could put in a pocket to a PlayStation 5. The conversion is not a made-up multiplier: it runs on the US CPI-U series (CUUR0000SA0, all items, city average, not seasonally adjusted) fetched from the Bureau of Labor Statistics, which is public domain government data, with 2024 as the base year. That is the whole reason the game is worth playing rather than arguing with.",
+        "ko": "실제 제품과 출시 연도, 그리고 당시 가격이 제시됩니다. 그게 오늘날 돈으로 얼마일지 입력하고 확정하세요. 주머니에 넣을 수 있었던 최초의 공학용 계산기부터 플레이스테이션 5까지 38개 품목. 환산은 임의로 정한 배수가 아닙니다. 미국 노동통계국에서 가져온 CPI-U 시계열(CUUR0000SA0, 전 품목, 도시 평균, 계절조정 없음)을 사용하며, 이는 공개 영역의 정부 데이터이고 기준 연도는 2024년입니다. 이 게임이 말싸움이 아니라 해볼 만한 게임인 이유가 바로 그것입니다.",
+        "ja": "実在の製品と、その発売年、当時の価格が示されます。それが今の金額でいくらになるかを入力して確定してください。ポケットに入る最初の関数電卓から PlayStation 5 まで、38品目。換算は適当な倍率ではありません。米国労働統計局から取得した CPI-U 系列（CUUR0000SA0、全品目、都市平均、季節調整なし）を使い、これはパブリックドメインの政府データで、基準年は2024年です。このゲームが言い争いではなく遊ぶ価値のあるものである理由は、まさにそこにあります。"
+      }
     }
   ]
 }

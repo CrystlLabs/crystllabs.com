@@ -11021,5 +11021,258 @@
     "chore": false
    }
   ]
+ },
+ "statclash": {
+  "stats": {
+   "commits": 8,
+   "activeDays": 1,
+   "firstDay": "2026-08-01",
+   "lastDay": "2026-08-01",
+   "version": "",
+   "tags": []
+  },
+  "intro": "Short history, because these sites share almost everything: the engine, the share loop, the daily plumbing and the base CSS all live in the monorepo's shared/ folder, so a change that improves StatClash usually shows up in that folder rather than this one. What is committed here is the deck and the theme. The deck builder hits the YouTube Data API and caches, so re-filtering costs nothing and only a genuine refresh spends quota.",
+  "entries": [
+   {
+    "date": "2026-08-01",
+    "subject": "Font Guesser: 54 self-hosted typefaces, distractors by classification",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "Resource hints on the LCP path; record live Lighthouse numbers",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "Cloudflare Web Analytics on both live games",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "StatClash: self-hosted fonts, build-time thumbnails, deck pruned to 44",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "StatClash: production build-out",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "StatClash is YouTube only; fix a background-tab deadlock",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "StatClash: real YouTube data, curated titles",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "Rework web prototypes into one repo with a shared engine",
+    "chore": false
+   }
+  ]
+ },
+ "starclash": {
+  "stats": {
+   "commits": 1,
+   "activeDays": 1,
+   "firstDay": "2026-08-01",
+   "lastDay": "2026-08-01",
+   "version": "",
+   "tags": []
+  },
+  "intro": "One commit, which is the honest length of a project that was carved out of another one. The GitHub deck used to live inside StatClash behind a deck picker; on 2026-08-01 it left and became its own site, because two audiences with a menu in front of them is worse than two sites with none. Everything else it needs already existed in shared/.",
+  "entries": [
+   {
+    "date": "2026-08-01",
+    "subject": "StarClash: the GitHub deck becomes its own site",
+    "chore": false
+   }
+  ]
+ },
+ "code-snob": {
+  "stats": {
+   "commits": 7,
+   "activeDays": 2,
+   "firstDay": "2026-07-10",
+   "lastDay": "2026-08-01",
+   "version": "",
+   "tags": []
+  },
+  "intro": "The engine came free from shared/, so the work here was entirely content: 56 snippets, each short enough to read at a glance and long enough to be identifiable, sorted into 11 families. The families are not decoration, they are the difficulty dial. Without them the four options are unguessable; with them you are choosing between four languages that genuinely look alike.",
+  "entries": [
+   {
+    "date": "2026-08-01",
+    "subject": "Font Guesser: 54 self-hosted typefaces, distractors by classification",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "Code Snob: 56 languages, distractors from the same family",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "StatClash: self-hosted fonts, build-time thumbnails, deck pruned to 44",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "StatClash: production build-out",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "StatClash is YouTube only; fix a background-tab deadlock",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "Rework web prototypes into one repo with a shared engine",
+    "chore": false
+   },
+   {
+    "date": "2026-07-10",
+    "subject": "Initial commit",
+    "chore": false
+   }
+  ]
+ },
+ "font-guesser": {
+  "stats": {
+   "commits": 6,
+   "activeDays": 2,
+   "firstDay": "2026-07-10",
+   "lastDay": "2026-08-01",
+   "version": "",
+   "tags": []
+  },
+  "intro": "Most of this project is not code, it is 54 font files and the licence check behind them. Self-hosting was the one decision that mattered: a font CDN would have been less work and would have silently broken the entire premise the first time a face failed to load, because a specimen rendered in a fallback is not a puzzle, it is a lie. The rest is the same shared engine every one of these sites runs on.",
+  "entries": [
+   {
+    "date": "2026-08-01",
+    "subject": "Font Guesser: 54 self-hosted typefaces, distractors by classification",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "StatClash: self-hosted fonts, build-time thumbnails, deck pruned to 44",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "StatClash: production build-out",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "StatClash is YouTube only; fix a background-tab deadlock",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "Rework web prototypes into one repo with a shared engine",
+    "chore": false
+   },
+   {
+    "date": "2026-07-10",
+    "subject": "Initial commit",
+    "chore": false
+   }
+  ]
+ },
+ "what-year": {
+  "stats": {
+   "commits": 8,
+   "activeDays": 2,
+   "firstDay": "2026-08-01",
+   "lastDay": "2026-08-16",
+   "version": "",
+   "tags": []
+  },
+  "intro": "Sixty-five puzzles, each a film, a song and an event from one year, plus the daily plumbing that makes everyone see the same board. The interesting entries are not the puzzles: they are the one that stopped an rAF loop from gating game state, which used to deadlock the reveal if you switched tabs mid-count, and the one that locks a guess per day so a reload shows your result instead of a fresh slider.",
+  "entries": [
+   {
+    "date": "2026-08-16",
+    "subject": "Docs: every site is live; repoint whatyear's canonical at its new host",
+    "chore": true
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "Font Guesser: 54 self-hosted typefaces, distractors by classification",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "Cloudflare Web Analytics on both live games",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "What Year Was It?: a real daily game",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "StatClash: self-hosted fonts, build-time thumbnails, deck pruned to 44",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "StatClash: production build-out",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "StatClash is YouTube only; fix a background-tab deadlock",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "Rework web prototypes into one repo with a shared engine",
+    "chore": false
+   }
+  ]
+ },
+ "inflation-price": {
+  "stats": {
+   "commits": 5,
+   "activeDays": 2,
+   "firstDay": "2026-07-10",
+   "lastDay": "2026-08-01",
+   "version": "",
+   "tags": []
+  },
+  "intro": "The game is a text input and a slider's worth of logic. The work is the data: 38 items with a real launch price and a real year, and a CPI series fetched from the Bureau of Labor Statistics rather than a multiplier someone picked. A deck flagged approximate cannot pass a production build in this repo, which is the rule that keeps a game like this honest.",
+  "entries": [
+   {
+    "date": "2026-08-01",
+    "subject": "The Inflation Price Is Right: real CPI, real prices",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "StatClash: production build-out",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "StatClash is YouTube only; fix a background-tab deadlock",
+    "chore": false
+   },
+   {
+    "date": "2026-08-01",
+    "subject": "Rework web prototypes into one repo with a shared engine",
+    "chore": false
+   },
+   {
+    "date": "2026-07-10",
+    "subject": "Initial commit",
+    "chore": false
+   }
+  ]
  }
 }
