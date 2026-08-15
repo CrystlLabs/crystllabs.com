@@ -781,8 +781,8 @@
       "sourceDir": "D:/Crystl/sites/crystl-dev-tools",
       "tier": "Volume",
       "platform": "Web",
-      "status": "Store prep",
-      "storeUrl": "",
+      "status": "Live",
+      "storeUrl": "https://tools.crystllabs.com/",
       "screenshots": [
         "shots/crystl-suite/01.jpg",
         "shots/crystl-suite/02.jpg",
@@ -803,7 +803,8 @@
         "en": "The internal tools Crystl Labs built for its own work, opened up for everyone. Seventy-five of them: scrub EXIF and GPS out of a photo, convert HEIC to JPG, pull audio out of a video, merge and sign and watermark PDFs, test a regex without freezing the tab, generate favicons, decode a JWT, check a subnet, run a whiteboard or a metronome or a Pomodoro timer. The rule that shaped the whole thing is that every one of them runs in your browser. There is no upload step, no account, no server holding your file, and no bill, because after the backend was removed there is nothing left to run. That also means there is no attack surface worth attacking.",
         "ko": "크리스탈 랩스가 자체 작업용으로 만든 내부 도구들을 모두에게 공개합니다. 총 75개입니다. 사진에서 EXIF와 GPS를 지우고, HEIC를 JPG로 변환하고, 영상에서 오디오를 추출하고, PDF를 병합·서명·워터마크 처리하고, 탭을 멈추지 않고 정규식을 테스트하고, 파비콘을 만들고, JWT를 디코딩하고, 서브넷을 계산하고, 화이트보드나 메트로놈이나 뽀모도로 타이머를 돌릴 수 있습니다. 전체를 관통하는 원칙은 단 하나, 모든 도구가 당신의 브라우저 안에서 실행된다는 것입니다. 업로드 단계도, 계정도, 파일을 보관하는 서버도, 청구서도 없습니다. 백엔드를 제거한 뒤로는 돌릴 것 자체가 없기 때문입니다. 덕분에 공격할 만한 표면도 남아 있지 않습니다.",
         "ja": "Crystl Labs が自分たちの作業用に作った内部ツールを、そのまま公開しました。全部で75本。写真から EXIF と GPS を消す、HEIC を JPG に変換する、動画から音声を抜く、PDF を結合・署名・透かし入れする、タブを固まらせずに正規表現を試す、ファビコンを作る、JWT をデコードする、サブネットを計算する、ホワイトボードやメトロノームやポモドーロタイマーを動かす。全体を貫くルールはひとつ、どれもあなたのブラウザの中で動くということです。アップロード手順もアカウントもファイルを預かるサーバーも請求書もありません。バックエンドを撤去した後は、動かすものが何も残っていないからです。おかげで攻撃する価値のある面も残っていません。"
-      }
+      },
+      "releasedOn": "2026-08-16"
     }
   ]
 }
