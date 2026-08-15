@@ -4646,7 +4646,7 @@
  },
  "domestique": {
   "stats": {
-   "commits": 160,
+   "commits": 162,
    "activeDays": 24,
    "firstDay": "2026-04-10",
    "lastDay": "2026-08-16",
@@ -4655,6 +4655,16 @@
   },
   "intro": "A cycling career game about riding for someone else first. The log is mostly race simulation: how a breakaway forms, when a team gives up on a leader, and how to make a supporting role feel like a role rather than a penalty.",
   "entries": [
+   {
+    "date": "2026-08-16",
+    "subject": "Docs catch up with the listing, the assets and the flag that meant two things",
+    "chore": true
+   },
+   {
+    "date": "2026-08-16",
+    "subject": "Release AAB rebuilt at version code 2",
+    "chore": false
+   },
    {
     "date": "2026-08-16",
     "subject": "One bool was answering two questions, and it labelled the legend stage TRAINING",
@@ -8776,15 +8786,30 @@
  },
  "zero-cool": {
   "stats": {
-   "commits": 313,
-   "activeDays": 17,
+   "commits": 316,
+   "activeDays": 18,
    "firstDay": "2026-07-12",
-   "lastDay": "2026-08-15",
+   "lastDay": "2026-08-16",
    "version": "",
    "tags": []
   },
   "intro": "The longest and most self-aware log in the portfolio, because this project changed shape halfway through and the history says so out loud. Everything before 25 July 2026 is a solo hacking sim: four hacking verbs, a living-city clock, a 200-NPC simulation, law, factions, territory and a market. On that date it pivoted to a street-to-kingpin crime empire, and rather than restart, hacking was demoted to Chapter 1 and the crew's first skill while roughly eighty percent of the built engine carried over intact. The entries after the pivot are mostly the city becoming somewhere you would believe in: trimming bands, putting real lights in the club, and a long run of art-pipeline work against a counted inventory of what the project actually owns.",
   "entries": [
+   {
+    "date": "2026-08-16",
+    "subject": "Look re-run after the dressing: 57 clauses, 0 failed, and the zero is the finding",
+    "chore": false
+   },
+   {
+    "date": "2026-08-16",
+    "subject": "9.10: the club frame is taken and the room reads as a shop, with one artefact I could not identify",
+    "chore": false
+   },
+   {
+    "date": "2026-08-16",
+    "subject": "Close-out: the Gun Club dressed, C2 finished, floors raised, records made true",
+    "chore": false
+   },
    {
     "date": "2026-08-15",
     "subject": "Trim bands and real lights in the club, and \"exclude it from Ambience\" turned out not to exist",

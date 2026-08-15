@@ -430,7 +430,20 @@ def render_page(app):
 # ---------------------------------------------------------------------------
 # Data file consumed by projects.html (grid + modal)
 # ---------------------------------------------------------------------------
+def in_apps_section(app):
+    """window.CRYSTL_APPS drives the Apps grid, carousel and modal only.
+
+    Not everything with a project page belongs there: Zero Cool is a PC game and
+    lives under Frontier, Rich Man Poor Man and Crystl Suite are web things and
+    live under Sites. Those rows are their own arrays on the page and link
+    straight to the project page, so keeping these out of CRYSTL_APPS is what
+    stops them appearing as Android apps and as "Latest Releases".
+    """
+    return app.get('section', 'apps') == 'apps'
+
+
 def render_data_js(apps):
+    apps = [a for a in apps if in_apps_section(a)]
     slim = [{
         'id': a['slug'],
         'slug': a['slug'],
@@ -519,14 +532,25 @@ def _heat_cards(html_text):
             continue
         name = name.group(1)
         initial = name.replace('Project ', '')[:1]
+        url = re.search(r'url\s*:\s*"([^"]*)"', src)
+        badge = re.search(r'badge\s*:\s*"([^"]*)"', src)
         tag_html = f'\n                            <p class="mt-0.5 text-xs md:text-sm text-gray-400">{esc(tag.group(1))}</p>' if tag else ''
-        out.append(f'''
-                        <div class="group rounded-2xl border border-brandBlue/30 bg-gradient-to-br from-brandBlue/10 via-panelBg/60 to-brandPink/5 p-5 md:p-6 shadow-lg shadow-black/20 flex items-center gap-4">
+        label = esc(badge.group(1)) if badge else 'Prerelease'
+        inner = f'''
                             <div class="w-14 h-14 md:w-16 md:h-16 shrink-0 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-xl md:text-2xl font-extrabold text-gradient">{esc(initial)}</div>
                             <div>
-                                <h3 class="text-base md:text-lg font-bold text-white leading-tight">{esc(name)}</h3>{tag_html}
-                                <span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Prerelease</span>
-                            </div>
+                                <h3 class="text-base md:text-lg font-bold text-white leading-tight{' group-hover:text-brandPink transition-colors' if url else ''}">{esc(name)}</h3>{tag_html}
+                                <span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">{label}</span>
+                            </div>'''
+        # A frontier entry with a page of its own becomes a link; the rest stay
+        # as plain cards rather than dead anchors.
+        if url:
+            out.append(f'''
+                        <a href="{esc(url.group(1))}" class="group rounded-2xl border border-brandBlue/30 bg-gradient-to-br from-brandBlue/10 via-panelBg/60 to-brandPink/5 p-5 md:p-6 shadow-lg shadow-black/20 hover:border-brandPink/40 transition-all flex items-center gap-4">{inner}
+                        </a>''')
+        else:
+            out.append(f'''
+                        <div class="group rounded-2xl border border-brandBlue/30 bg-gradient-to-br from-brandBlue/10 via-panelBg/60 to-brandPink/5 p-5 md:p-6 shadow-lg shadow-black/20 flex items-center gap-4">{inner}
                         </div>''')
     return ''.join(out)
 
@@ -620,12 +644,13 @@ def seed_static_cards(apps):
                 inner = _site_cards(text)
             else:
                 layout, limit = spec
+                roster = [a for a in apps if in_apps_section(a)]
                 if limit == 'live':
-                    subset = [a for a in apps if is_live(a)]
+                    subset = [a for a in roster if is_live(a)]
                 elif limit:
-                    subset = apps[:limit]
+                    subset = roster[:limit]
                 else:
-                    subset = apps
+                    subset = roster
                 inner = _app_cards(subset, layout)
             if not inner:
                 continue
