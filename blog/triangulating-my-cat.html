@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
+    <title>Triangulating My Cat Using Custom Sonar | Crystl Labs</title>
+    <meta name="description" content="Three broken smartphones, a 2kHz-to-18kHz chirp and GCC-PHAT cross-correlation at 192kHz gave 2cm positional accuracy on a calibration speaker. Then the cat refused to cooperate, and the fix was to stop transmitting entirely.">
+    <link rel="canonical" href="https://crystllabs.com/blog/triangulating-my-cat.html">
+    <meta property="og:title" content="Triangulating My Cat Using Custom Sonar | Crystl Labs">
+    <meta property="og:description" content="Three broken smartphones, a 2kHz-to-18kHz chirp and GCC-PHAT cross-correlation at 192kHz gave 2cm positional accuracy on a calibration speaker. Then the cat refused to cooperate, and the fix was to stop transmitting entirely.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://crystllabs.com/blog/triangulating-my-cat.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="../favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        :root { color-scheme: dark; }
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+    </style>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Triangulating My Cat Using Custom Sonar", "description": "Three broken smartphones, a 2kHz-to-18kHz chirp and GCC-PHAT cross-correlation at 192kHz gave 2cm positional accuracy on a calibration speaker. Then the cat refused to cooperate, and the fix was to stop transmitting entirely.", "datePublished": "2026-06-24T00:00:00Z", "author": {"@type": "Person", "name": "AP39", "url": "https://ap39.crystllabs.com/"}, "publisher": {"@type": "Organization", "name": "Crystl Labs", "logo": {"@type": "ImageObject", "url": "https://crystllabs.com/crystl1.png"}}, "mainEntityOfPage": "https://crystllabs.com/blog/triangulating-my-cat.html", "wordCount": 1395}</script>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+            <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+            <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+        </a>
+        <span class="hidden md:inline-flex items-center gap-1.5 font-mono text-[11px] text-brandGreen/90 uppercase tracking-wide">
+            <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+            <span>CONNECTED</span>
+        </span>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>&#128193;</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                            <li><a href="../projects.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">projects.html</a></li>
+                            <li><a href="../blogs.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">blogs.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span></a></li>
+                            <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                            <li><a href="../contact.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">contact.html</a></li>
+                            <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                            <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                            <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <article class="max-w-3xl mx-auto">
+                <a href="../blogs.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all posts</a>
+
+                <header class="mb-8 pb-8 border-b border-white/10">
+                    <div class="font-mono text-[11px] uppercase tracking-widest text-brandBlue/90 mb-3">Directive 2026-06-24</div>
+                    <h1 class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Triangulating My Cat Using Custom Sonar</h1>
+                    <p class="mt-4 text-gray-400 text-sm md:text-base leading-relaxed">Three broken smartphones, a 2kHz-to-18kHz chirp and GCC-PHAT cross-correlation at 192kHz gave 2cm positional accuracy on a calibration speaker. Then the cat refused to cooperate, and the fix was to stop transmitting entirely.</p>
+                    <div class="mt-5 flex flex-wrap items-center gap-3 font-mono text-[11px] uppercase tracking-wider text-gray-500">
+                        <span class="text-brandPink/90">By AP39</span>
+                        <span class="text-white/20">/</span>
+                        <time datetime="2026-06-24">24 JUN 2026</time>
+                        <span class="text-white/20">/</span>
+                        <span>6 min read</span>
+                    </div>
+                </header>
+
+                <div class="text-[15px] md:text-base">
+<p class="my-5 leading-[1.75] text-gray-300">Pepper does not come when called. Pepper does not wear a collar, because Pepper removes collars with the patience of an escape artist and the indifference of a cat who has never once considered that the collar was for her benefit. So when I needed to know where Pepper actually was in a two-room apartment without getting up, the obvious answer wasn&#x27;t a camera and it wasn&#x27;t a tracker. It was sonar, built out of three broken smartphones I was otherwise going to throw away.</p>
+<p class="my-5 leading-[1.75] text-gray-300">This is not a metaphor for anything. This is a genuine time-difference-of-arrival positioning system, the same category of math that underlies things like acoustic gunshot triangulation and seismic event location, repurposed to figure out which corner of the apartment a cat is currently ignoring me from, accurate to within about two centimeters.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">Why Three Broken Phones Are Secretly a Sensor Array</h3>
+<p class="my-5 leading-[1.75] text-gray-300">Each of the three phones had a dead screen or a dead battery, but a functioning microphone and a functioning USB port, which is the only part of the hardware this project actually needed. Mount three microphones at known, fixed positions around a room, and you have the exact skeleton of a multilateration system: emit a sound, measure how long it takes to reach each microphone, and the differences in arrival time constrain the source to a specific point in space.</p>
+<p class="my-5 leading-[1.75] text-gray-300">The core insight is that you don&#x27;t need to know the absolute time the sound was emitted. You only need the differences in arrival time between pairs of microphones. That&#x27;s the &quot;difference&quot; in time-difference-of-arrival, and it&#x27;s what makes the whole approach viable with consumer hardware that has no synchronized absolute clock: three unrelated phone microphones, plugged into the same laptop, recording simultaneously into the same multi-channel audio interface, share a single sample clock the moment they&#x27;re captured through one ADC. The absolute time each phone thinks it is doesn&#x27;t matter. What matters is that all three channels are sampled in lockstep, so the offset between them, measured in samples, translates directly into a time offset, and time offset translates directly into distance.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">The Ping</h3>
+<p class="my-5 leading-[1.75] text-gray-300">The actual &quot;sonar&quot; part needed a sound with a very specific property: a sharp, unambiguous onset that cross-correlation could lock onto precisely, rather than a smeared, ambiguous waveform where &quot;arrival time&quot; becomes a fuzzy guess. A pure tone is bad for this, it&#x27;s too self-similar, cross-correlating it against itself produces a broad peak with no clean single answer. A linear frequency sweep (a chirp), sweeping from roughly 2kHz to 18kHz over a few milliseconds, gave a much sharper correlation peak, because a chirp doesn&#x27;t correlate well with a time-shifted copy of itself except at the exact true offset.</p>
+<pre class="my-6 overflow-x-auto rounded-xl border border-white/10 bg-black/40 p-4 text-[13px] leading-relaxed"><code class="font-mono text-gray-300">import numpy as np
+
+def generate_chirp(duration_s=0.01, f0=2000, f1=18000, sample_rate=192000):
+    t = np.linspace(0, duration_s, int(sample_rate * duration_s))
+    k = (f1 - f0) / duration_s
+    phase = 2 * np.pi * (f0 * t + 0.5 * k * t**2)
+    return np.sin(phase)</code></pre>
+<p class="my-5 leading-[1.75] text-gray-300">Playing this chirp from a fixed speaker at a known reference point let me first calibrate the system, before ever pointing it at a moving, uncooperative cat.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">Sample Rate Is the Whole Ballgame</h3>
+<p class="my-5 leading-[1.75] text-gray-300">Here&#x27;s the number that made this project genuinely hard rather than a weekend curiosity: sound travels at roughly 343 meters per second at room temperature. Two centimeters of positional accuracy means resolving a time difference of about 58 microseconds between microphones. At a standard 44.1kHz audio sample rate, each sample represents about 22.7 microseconds, which sounds almost sufficient until you remember that raw sample-level resolution alone won&#x27;t get you a clean 58-microsecond distinction, you need sub-sample precision on top of it.</p>
+<p class="my-5 leading-[1.75] text-gray-300">Recording at 192kHz instead of 44.1kHz brought each sample down to about 5.2 microseconds, giving enough raw resolution that sub-sample interpolation on the cross-correlation peak could reliably resolve differences well under 58 microseconds. Sub-sample precision itself came from parabolic interpolation around the peak of the cross-correlation function rather than just taking the single best-matching integer sample offset, fitting a small parabola through the peak and its two neighbors and solving for the true (non-integer) peak location.</p>
+<pre class="my-6 overflow-x-auto rounded-xl border border-white/10 bg-black/40 p-4 text-[13px] leading-relaxed"><code class="font-mono text-gray-300">def gcc_phat(sig, refsig, fs):
+    n = sig.shape[0] + refsig.shape[0]
+    SIG = np.fft.rfft(sig, n=n)
+    REFSIG = np.fft.rfft(refsig, n=n)
+    R = SIG * np.conj(REFSIG)
+    R /= np.abs(R) + 1e-10  # phase transform whitening
+    cc = np.fft.irfft(R, n=n)
+    max_shift = n // 2
+    cc = np.concatenate((cc[-max_shift:], cc[:max_shift+1]))
+    peak = np.argmax(np.abs(cc))
+    # parabolic interpolation for sub-sample peak
+    if 0 &lt; peak &lt; len(cc) - 1:
+        y0, y1, y2 = cc[peak-1], cc[peak], cc[peak+1]
+        peak += 0.5 * (y0 - y2) / (y0 - 2*y1 + y2)
+    return (peak - max_shift) / fs</code></pre>
+<p class="my-5 leading-[1.75] text-gray-300">GCC-PHAT, generalized cross-correlation with phase transform, was the specific algorithm that made this reliable in a real, non-anechoic apartment. Plain cross-correlation gets confused by reflections off walls and furniture, effectively hearing the same chirp arrive multiple times at slightly different delays and getting a muddled answer. The PHAT weighting whitens the spectrum before correlating, flattening out amplitude differences and emphasizing phase alignment, which made the correlation peak far sharper and far more resistant to a bounce off the kitchen cabinet being mistaken for the direct path.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">From Time Differences to an Actual Position</h3>
+<p class="my-5 leading-[1.75] text-gray-300">With clean, sub-sample TDOA values between each pair of microphones, the remaining problem was pure geometry. Each TDOA measurement between two microphones constrains the source to lie on one branch of a hyperbola, the set of all points where the difference in distance to the two microphones equals the measured time difference times the speed of sound. Three microphones give three pairs, three hyperbolas, and the source position is the point where they all intersect.</p>
+<p class="my-5 leading-[1.75] text-gray-300">In practice, measurement noise means the three hyperbolas don&#x27;t intersect at a perfect single point, so this becomes a least-squares optimization instead of an exact geometric solve: find the (x, y) position that minimizes the squared error across all three pairwise TDOA constraints simultaneously.</p>
+<pre class="my-6 overflow-x-auto rounded-xl border border-white/10 bg-black/40 p-4 text-[13px] leading-relaxed"><code class="font-mono text-gray-300">from scipy.optimize import least_squares
+
+SPEED_OF_SOUND = 343.0  # m/s, adjust for room temperature
+
+def residuals(pos, mic_positions, tdoas, ref_idx=0):
+    x, y = pos
+    ref = mic_positions[ref_idx]
+    d_ref = np.hypot(x - ref[0], y - ref[1])
+    errs = []
+    for i, mic in enumerate(mic_positions):
+        if i == ref_idx:
+            continue
+        d_i = np.hypot(x - mic[0], y - mic[1])
+        predicted_tdoa = (d_i - d_ref) / SPEED_OF_SOUND
+        errs.append(predicted_tdoa - tdoas[i])
+    return errs
+
+result = least_squares(residuals, x0=[2.0, 2.0], args=(mic_positions, measured_tdoas))
+cat_position = result.x</code></pre>
+<p class="my-5 leading-[1.75] text-gray-300">The temperature correction on speed of sound turned out to matter more than expected. Room temperature swings a few degrees between morning and evening in a Korean apartment without central climate control running constantly, and 343 m/s at 20°C drifts to something meaningfully different at 26°C, enough to introduce centimeters of systematic bias if left uncorrected. A cheap temperature sensor feeding a simple correction formula into the speed-of-sound constant fixed a bias I&#x27;d initially mistaken for a calibration error in the microphone positions themselves.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">The Part the Math Didn&#x27;t Solve</h3>
+<p class="my-5 leading-[1.75] text-gray-300">Getting the algorithm to 2cm accuracy against a known, stationary calibration speaker was, in hindsight, the easy half of the project. Pepper is not a stationary calibration speaker. Pepper does not sit still for a chirp emission, has zero interest in remaining in one location while a Python script gathers three clean recordings, and reacts to a sudden 18kHz sweep with the exact suspicion you&#x27;d expect from an animal that can hear frequencies well past the edge of human perception.</p>
+<p class="my-5 leading-[1.75] text-gray-300">The eventual workaround wasn&#x27;t smarter signal processing, it was accepting a passive approach instead of an active one: rather than emitting a deliberate chirp and listening for its reflection or arrival, the system listens continuously for Pepper&#x27;s own sounds, meowing, footsteps on the hardwood, the specific rustle of a very particular plastic bag she has strong opinions about, and runs the same GCC-PHAT TDOA pipeline against whatever transient sound she happens to generate. Less precise than a controlled chirp, since a meow has a much messier, less chirp-like waveform for cross-correlation to lock onto cleanly, but still reliably accurate to somewhere in the 5-10cm range on natural cat sounds, which is more than sufficient to answer the only question that actually mattered: which room, and roughly which corner.</p>
+<p class="my-5 leading-[1.75] text-gray-300">Two centimeters was achievable. Getting a cat to cooperate with a controlled acoustic calibration procedure was not, and no amount of TDOA math was ever going to solve that particular optimization problem.</p>
+                </div>
+
+                <footer class="mt-14 pt-8 border-t border-white/10">
+                    <p class="text-sm text-gray-500 leading-relaxed">Written by AP39, who builds the apps at
+                        <a href="../index.html" class="text-brandBlue hover:text-brandPink underline underline-offset-2 transition-colors">Crystl Labs</a>.
+                        Numbers in these posts come from runs that were actually made, not from memory. Corrections go to
+                        <a href="../contact.html" class="text-brandBlue hover:text-brandPink underline underline-offset-2 transition-colors">contact</a>.</p>
+                    <nav class="mt-8 flex justify-between gap-4"><a href="cyberpunk-production-logs.html" class="group max-w-[48%] text-left rounded-xl border border-white/10 bg-panelBg/50 hover:border-brandPink/40 hover:bg-panelBg px-4 py-3 transition-all"><span class="block font-mono text-[10px] uppercase tracking-wider text-gray-500">Newer</span><span class="block mt-1 text-sm text-gray-300 group-hover:text-white transition-colors">Piping Production Logs Into Cyberpunk 2077</span></a><a href="40-hours-12ms-spike.html" class="group max-w-[48%] text-right ml-auto rounded-xl border border-white/10 bg-panelBg/50 hover:border-brandPink/40 hover:bg-panelBg px-4 py-3 transition-all"><span class="block font-mono text-[10px] uppercase tracking-wider text-gray-500">Older</span><span class="block mt-1 text-sm text-gray-300 group-hover:text-white transition-colors">I Spent 40 Hours Fixing a 12ms Spike</span></a></nav>
+                </footer>
+            </article>
+        </main>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

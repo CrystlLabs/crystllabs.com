@@ -129,6 +129,37 @@ window.CRYSTL_APPS = [
         ]
     },
     {
+        "id": "rich-man-poor-man",
+        "slug": "rich-man-poor-man",
+        "icon": "apps/rich-man-poor-man.png",
+        "page": "apps/rich-man-poor-man.html",
+        "tier": "Volume",
+        "platform": "Web",
+        "name": {
+            "en": "Rich Man Poor Man",
+            "ko": "리치 맨 푸어 맨",
+            "ja": "リッチマン・プアマン"
+        },
+        "tagline": {
+            "en": "Guess what the filthy rich and the dirt poor have in common.",
+            "ko": "엄청난 부자와 찢어지게 가난한 사람의 공통점을 맞혀보세요.",
+            "ja": "大金持ちと極貧が同じことをする瞬間を当てろ。"
+        },
+        "desc": {
+            "en": "A party game of class warfare that runs in a browser with no signup and no install. Some things only the filthy rich do. Some things only the dirt poor do. The joke, and the whole game, is the overlap: the things both of them do while the middle class is left holding the bill. Play the Daily Challenge, the same ten rounds for everyone, resetting at noon KST, or Free Play for an endless draw from over six hundred scenarios. Every reveal comes with three punchlines, one per class. Score 100 a correct answer with a streak bonus from the second one, and climb from Peak Middle Class to Economic Horseshoe Genius. Liked cards feed a Hall of Fame, you can submit your own, and it installs as a PWA and works offline after the first visit.",
+            "ko": "브라우저에서 바로 돌아가는 계급 전쟁 파티 게임입니다. 가입도 설치도 필요 없습니다. 어떤 건 엄청난 부자만 합니다. 어떤 건 찢어지게 가난한 사람만 하죠. 그런데 진짜 웃긴 건, 그리고 이 게임의 전부는 겹치는 지점입니다. 둘 다 하는 일들, 그리고 그 계산서를 떠안는 중산층. 모두에게 동일한 10라운드가 주어지고 한국시간 정오에 초기화되는 데일리 챌린지를 즐기거나, 600개가 넘는 시나리오에서 무한히 뽑는 프리 플레이를 하세요. 정답이 공개될 때마다 계급별로 세 개의 펀치라인이 따라옵니다. 정답당 100점, 두 번째 연속 정답부터 스트릭 보너스가 붙고, 완벽한 중산층에서 경제 편자 이론의 천재까지 등급이 올라갑니다. 좋아요를 많이 받은 카드는 명예의 전당에 오르고, 직접 제출할 수도 있으며, PWA로 설치하면 첫 방문 이후 오프라인에서도 작동합니다.",
+            "ja": "ブラウザだけで動く階級闘争パーティゲーム。登録もインストールも不要です。大金持ちしかやらないことがある。極貧しかやらないこともある。面白いのは、そしてこのゲームの全部は、その重なりです。両方がやること、そしてその請求書を押し付けられる中産階級。全員に同じ10ラウンドが配られ韓国時間の正午にリセットされるデイリーチャレンジか、600 以上のシナリオから無限に引くフリープレイで遊べます。正解が明かされるたびに階級ごとの3つのオチが付いてきます。正解ごとに100点、2連続目からストリークボーナス、完璧な中産階級から経済の馬蹄理論の天才まで駆け上がりましょう。人気カードは殿堂入りし、自分で投稿もでき、PWA としてインストールすれば初回訪問後はオフラインでも動きます。"
+        },
+        "status": "Live",
+        "storeUrl": "https://richmanpoorman.crystllabs.com/",
+        "screenshots": [
+            "apps/shots/rich-man-poor-man/01.jpg",
+            "apps/shots/rich-man-poor-man/02.jpg",
+            "apps/shots/rich-man-poor-man/03.jpg",
+            "apps/shots/rich-man-poor-man/04.jpg"
+        ]
+    },
+    {
         "id": "marathon-kid",
         "slug": "marathon-kid",
         "icon": "apps/marathon-kid.png",
@@ -179,6 +210,37 @@ window.CRYSTL_APPS = [
         "status": "Store prep",
         "storeUrl": "",
         "screenshots": []
+    },
+    {
+        "id": "crystl-suite",
+        "slug": "crystl-suite",
+        "icon": "apps/crystl-suite.png",
+        "page": "apps/crystl-suite.html",
+        "tier": "Volume",
+        "platform": "Web",
+        "name": {
+            "en": "Crystl Suite",
+            "ko": "크리스탈 스위트",
+            "ja": "クリスタル・スイート"
+        },
+        "tagline": {
+            "en": "75 browser tools. Nothing you open ever leaves your machine.",
+            "ko": "75개의 브라우저 도구. 무엇을 열든 기기 밖으로 나가지 않습니다.",
+            "ja": "75 のブラウザツール。開いたものは端末の外に出ません。"
+        },
+        "desc": {
+            "en": "The internal tools Crystl Labs built for its own work, opened up for everyone. Seventy-five of them: scrub EXIF and GPS out of a photo, convert HEIC to JPG, pull audio out of a video, merge and sign and watermark PDFs, test a regex without freezing the tab, generate favicons, decode a JWT, check a subnet, run a whiteboard or a metronome or a Pomodoro timer. The rule that shaped the whole thing is that every one of them runs in your browser. There is no upload step, no account, no server holding your file, and no bill, because after the backend was removed there is nothing left to run. That also means there is no attack surface worth attacking.",
+            "ko": "크리스탈 랩스가 자체 작업용으로 만든 내부 도구들을 모두에게 공개합니다. 총 75개입니다. 사진에서 EXIF와 GPS를 지우고, HEIC를 JPG로 변환하고, 영상에서 오디오를 추출하고, PDF를 병합·서명·워터마크 처리하고, 탭을 멈추지 않고 정규식을 테스트하고, 파비콘을 만들고, JWT를 디코딩하고, 서브넷을 계산하고, 화이트보드나 메트로놈이나 뽀모도로 타이머를 돌릴 수 있습니다. 전체를 관통하는 원칙은 단 하나, 모든 도구가 당신의 브라우저 안에서 실행된다는 것입니다. 업로드 단계도, 계정도, 파일을 보관하는 서버도, 청구서도 없습니다. 백엔드를 제거한 뒤로는 돌릴 것 자체가 없기 때문입니다. 덕분에 공격할 만한 표면도 남아 있지 않습니다.",
+            "ja": "Crystl Labs が自分たちの作業用に作った内部ツールを、そのまま公開しました。全部で75本。写真から EXIF と GPS を消す、HEIC を JPG に変換する、動画から音声を抜く、PDF を結合・署名・透かし入れする、タブを固まらせずに正規表現を試す、ファビコンを作る、JWT をデコードする、サブネットを計算する、ホワイトボードやメトロノームやポモドーロタイマーを動かす。全体を貫くルールはひとつ、どれもあなたのブラウザの中で動くということです。アップロード手順もアカウントもファイルを預かるサーバーも請求書もありません。バックエンドを撤去した後は、動かすものが何も残っていないからです。おかげで攻撃する価値のある面も残っていません。"
+        },
+        "status": "Store prep",
+        "storeUrl": "",
+        "screenshots": [
+            "apps/shots/crystl-suite/01.jpg",
+            "apps/shots/crystl-suite/02.jpg",
+            "apps/shots/crystl-suite/03.jpg",
+            "apps/shots/crystl-suite/04.jpg"
+        ]
     },
     {
         "id": "bent-fc",
@@ -520,6 +582,128 @@ window.CRYSTL_APPS = [
             "apps/shots/sauce-boss/03.jpg",
             "apps/shots/sauce-boss/04.jpg",
             "apps/shots/sauce-boss/05.jpg"
+        ]
+    },
+    {
+        "id": "bent-fc-tournament",
+        "slug": "bent-fc-tournament",
+        "icon": "apps/bent-fc-tournament.png",
+        "page": "apps/bent-fc-tournament.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "Bent FC: Tournament Edition",
+            "ko": "벤트 FC: 토너먼트 에디션",
+            "ja": "ベント FC: トーナメントエディション"
+        },
+        "tagline": {
+            "en": "Bribe a whole nation into a tournament it has no business attending.",
+            "ko": "자격도 없는 대회에, 나라 전체를 매수해서 올려보내세요.",
+            "ja": "出場資格のない大会へ、国ごと買収して連れて行け。"
+        },
+        "desc": {
+            "en": "The sequel to Bent FC, and a bigger job than the first one. You are the general secretary of a small football federation and its team manager at the same time, which means you do both halves of the corruption yourself. During matches you draw the ball: aim a pass, a shot or a run and live with where it goes. Between them you run the federation, buying, bribing, naturalising, blackmailing and laundering your nation through qualifying into a tournament it has no business being at. The minigames are the bent part made literal, an envelope, a ballot, a shredder, a shaker, a dossier, each one a small deniable act with its own way of going wrong.",
+            "ko": "벤트 FC의 후속작이며, 전작보다 훨씬 큰 일을 맡게 됩니다. 당신은 작은 축구협회의 사무총장이자 대표팀 감독입니다. 즉 부패의 양쪽 절반을 모두 직접 처리합니다. 경기 중에는 공의 궤적을 직접 그립니다. 패스, 슈팅, 침투를 조준하고 그 결과를 감수하세요. 경기 사이에는 협회를 운영합니다. 매수하고, 뇌물을 주고, 귀화시키고, 협박하고, 돈을 세탁해 예선을 통과시켜 자격 없는 대회로 나라를 올려보내세요. 미니게임은 그 부정을 그대로 구현한 것입니다. 봉투, 투표용지, 파쇄기, 셰이커, 서류철. 각각 부인 가능한 작은 행위이며, 각자의 방식으로 어긋납니다.",
+            "ja": "ベント FC の続編であり、前作より大仕事です。あなたは小国サッカー協会の事務総長であると同時に代表監督でもあります。つまり汚職の両側を自分でやることになります。試合中はボールの軌道を自分で描きます。パス、シュート、走り込みを狙い、その結果を受け入れてください。試合の合間には協会を運営します。買い、賄賂を贈り、帰化させ、脅し、資金を洗い、予選を突破して出場資格のない大会へ国を送り込むのです。ミニゲームはその不正をそのまま形にしたもの。封筒、投票用紙、シュレッダー、シェイカー、書類。どれも否認可能な小さな行為であり、それぞれの壊れ方をします。"
+        },
+        "status": "In playtest",
+        "storeUrl": "",
+        "screenshots": [
+            "apps/shots/bent-fc-tournament/01.jpg",
+            "apps/shots/bent-fc-tournament/02.jpg",
+            "apps/shots/bent-fc-tournament/03.jpg",
+            "apps/shots/bent-fc-tournament/04.jpg",
+            "apps/shots/bent-fc-tournament/05.jpg"
+        ]
+    },
+    {
+        "id": "zero-cool",
+        "slug": "zero-cool",
+        "icon": "apps/zero-cool.png",
+        "page": "apps/zero-cool.html",
+        "tier": "Flagship",
+        "platform": "PC (Steam)",
+        "name": {
+            "en": "Zero Cool",
+            "ko": "제로 쿨",
+            "ja": "ゼロ・クール"
+        },
+        "tagline": {
+            "en": "Script kiddy to kingpin. Build the crew, take the neighborhood.",
+            "ko": "스크립트 키디에서 조직 보스까지. 크루를 키우고 동네를 접수하세요.",
+            "ja": "スクリプトキディからキングピンへ。クルーを育て、街を掌握しろ。"
+        },
+        "desc": {
+            "en": "Zero Cool is a street-to-kingpin crime empire game for PC, premium and one-time purchase with no in-app purchases. You start as a script kiddy with a rig in a bedroom and four hacking verbs, and finish running a neighborhood. Five chapters, each recruiting one crew member with a skill of their own: the hacker, the enforcer, and the ones after them. Underneath sits a living city that keeps moving whether you are watching or not: around 200 simulated residents, a law system that reacts, rival factions, territory that changes hands, and a market that prices itself. The project began as a pure hacking sim and pivoted in July 2026 to the crime empire above. Hacking became Chapter 1 and the crew's first skill, and roughly eighty percent of the original engine carried straight over.",
+            "ko": "제로 쿨은 PC용 범죄 제국 게임입니다. 프리미엄 단일 구매이며 인앱 결제는 없습니다. 침실의 낡은 장비와 네 가지 해킹 동사만 가진 스크립트 키디로 시작해, 동네 전체를 장악하며 끝납니다. 다섯 개의 챕터마다 고유한 기술을 가진 크루원이 한 명씩 합류합니다. 해커, 해결사, 그리고 그 뒤를 잇는 이들. 그 아래에는 플레이어가 보든 말든 계속 돌아가는 도시가 있습니다. 약 200명의 시뮬레이션 주민, 반응하는 법 집행 시스템, 라이벌 세력, 주인이 바뀌는 구역, 그리고 스스로 가격을 정하는 시장. 이 프로젝트는 순수 해킹 시뮬레이터로 시작해 2026년 7월 위 형태로 전환되었습니다. 해킹은 챕터 1이자 크루의 첫 기술이 되었고, 기존 엔진의 약 80퍼센트가 그대로 이어졌습니다.",
+            "ja": "ゼロ・クールは PC 向けの犯罪帝国ゲームです。買い切りのプレミアム版で、アプリ内課金はありません。寝室のリグと4つのハッキング動詞だけを持つスクリプトキディとして始まり、街を仕切る側で終わります。5つの章それぞれで、独自スキルを持つクルーが1人ずつ加わります。ハッカー、エンフォーサー、そしてその先へ。その土台には、プレイヤーが見ていようといまいと動き続ける街があります。約200人のシミュレートされた住民、反応する法システム、対立勢力、持ち主が変わる縄張り、そして自ら値を決める市場。本作は純粋なハッキングシムとして始まり、2026年7月に上記の形へ方向転換しました。ハッキングは第1章とクルーの最初のスキルになり、既存エンジンの約8割がそのまま引き継がれています。"
+        },
+        "status": "In development",
+        "storeUrl": "",
+        "screenshots": [
+            "apps/shots/zero-cool/01.jpg",
+            "apps/shots/zero-cool/02.jpg",
+            "apps/shots/zero-cool/03.jpg",
+            "apps/shots/zero-cool/04.jpg",
+            "apps/shots/zero-cool/05.jpg"
+        ]
+    },
+    {
+        "id": "rugpull",
+        "slug": "rugpull",
+        "icon": "apps/rugpull.png",
+        "page": "apps/rugpull.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "Rug Pull: Crypto Tycoon",
+            "ko": "러그 풀: 크립토 타이쿤",
+            "ja": "ラグプル: クリプトタイクーン"
+        },
+        "tagline": {
+            "en": "Launch your own coin, then decide whether to make it real or run.",
+            "ko": "직접 코인을 발행하고, 진짜로 만들지 들고 튈지 정하세요.",
+            "ja": "自分のコインを発行し、本物にするか持ち逃げするかを決めろ。"
+        },
+        "desc": {
+            "en": "Trade your way out of a basement, launch your own coin, then face the only question the game actually cares about: do you build the thing you promised, or take the money and run. Either answer keeps the game going. That is the point. There is no ending screen where you get away with it, because your name follows you into the next cycle and the people you burned remember. The loop runs weekly: pick projects, resolve them, watch the cycle reset and see who is still willing to talk to you. Built in Godot for Android, portrait, with a prologue, a coin launch, and both the build and the rug as fully implemented resolutions.",
+            "ko": "지하실에서 트레이딩으로 시작해 직접 코인을 발행하고, 이 게임이 실제로 묻는 단 하나의 질문과 마주하세요. 약속한 것을 만들 것인가, 돈을 챙겨 도망칠 것인가. 어느 쪽을 택하든 게임은 계속됩니다. 그게 핵심입니다. 무사히 빠져나가는 엔딩 화면 같은 건 없습니다. 당신의 이름은 다음 사이클까지 따라오고, 당신이 태워버린 사람들은 기억하니까요. 루프는 주 단위로 돌아갑니다. 프로젝트를 고르고, 결과를 확정하고, 사이클이 초기화된 뒤 누가 아직 당신과 말을 섞어주는지 확인하세요. Godot으로 제작한 안드로이드 세로 화면 게임이며, 프롤로그와 코인 발행, 그리고 진짜로 만들기와 러그풀 양쪽 결말이 모두 구현되어 있습니다.",
+            "ja": "地下室からトレードで這い上がり、自分のコインを発行し、そしてこのゲームが本当に問う唯一の質問に向き合います。約束したものを作るのか、金を持って逃げるのか。どちらを選んでもゲームは続きます。そこが肝心です。うまく逃げ切って終わる画面はありません。あなたの名前は次のサイクルまで付いて回り、焼かれた人々は覚えているからです。ループは週単位で回ります。案件を選び、決着させ、サイクルがリセットされた後で誰がまだ口をきいてくれるかを確かめる。Godot 製の Android 縦持ちタイトルで、プロローグ、コイン発行、そして本物にする・持ち逃げする両方の結末が実装済みです。"
+        },
+        "status": "In development",
+        "storeUrl": "",
+        "screenshots": []
+    },
+    {
+        "id": "office-politics",
+        "slug": "office-politics",
+        "icon": "apps/office-politics.png",
+        "page": "apps/office-politics.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "Office Politics",
+            "ko": "오피스 폴리틱스",
+            "ja": "オフィス・ポリティクス"
+        },
+        "tagline": {
+            "en": "You are new here. Develop beef with your coworkers. Fight them for the title.",
+            "ko": "당신은 신입입니다. 동료들과 척지고, 사내 타이틀을 걸고 싸우세요.",
+            "ja": "あなたは新入り。同僚と揉めて、社内タイトルを賭けて戦え。"
+        },
+        "desc": {
+            "en": "A turn-based office roguelite. You are new at a company, you develop beef with your coworkers, and you settle it the only way the game allows: you fight them for the office title. Thirteen powers, two ways to lose, and a choice at the end of every fight between humiliating the loser and finishing clean, which is the decision the rest of the run remembers. Godot, pixel art at a 640x360 logical resolution. Honest current state: the vertical slice is built, tested and playable, and it is not fun yet. One power solves the whole fight and the Heat mechanic never bites. That is diagnosed rather than guessed, and it is the next thing being fixed.",
+            "ko": "턴제 오피스 로그라이트입니다. 회사에 갓 들어온 당신은 동료들과 척을 지고, 이 게임이 허용하는 유일한 방식으로 결판을 냅니다. 사내 타이틀을 걸고 싸우는 것이죠. 13가지 능력, 두 가지 패배 조건, 그리고 매 전투가 끝날 때마다 패자를 망신 줄지 깔끔하게 끝낼지 선택해야 합니다. 남은 런이 기억하는 건 바로 그 선택입니다. Godot, 640x360 논리 해상도의 픽셀 아트. 현재 상태를 솔직히 말하자면, 수직 슬라이스는 완성되어 테스트를 통과했고 플레이도 가능하지만 아직 재미있지는 않습니다. 능력 하나가 전투 전체를 해결해버리고 히트 수치는 전혀 위협이 되지 않습니다. 추측이 아니라 진단된 문제이며, 다음으로 고칠 대상입니다.",
+            "ja": "ターン制のオフィス・ローグライトです。会社に入ったばかりのあなたは同僚と揉め、このゲームが許す唯一の方法で決着をつけます。社内タイトルを賭けて戦うのです。13の能力、2種類の敗北条件、そして戦闘のたびに敗者を辱めるか綺麗に終わらせるかの選択。残りのランが覚えているのはその選択です。Godot、論理解像度 640x360 のピクセルアート。現状を正直に書くと、バーティカルスライスは完成しテスト済みでプレイ可能ですが、まだ面白くありません。ひとつの能力が戦闘全体を解決してしまい、ヒート値が一度も効いてこない。推測ではなく診断済みの問題であり、次に直す対象です。"
+        },
+        "status": "In development",
+        "storeUrl": "",
+        "screenshots": [
+            "apps/shots/office-politics/01.jpg",
+            "apps/shots/office-politics/02.jpg",
+            "apps/shots/office-politics/03.jpg",
+            "apps/shots/office-politics/04.jpg",
+            "apps/shots/office-politics/05.jpg"
         ]
     },
     {

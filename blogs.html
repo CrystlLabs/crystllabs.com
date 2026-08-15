@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blogs | Crystl Labs</title>
-
+    <meta name="color-scheme" content="dark">
+    <title>Blog | Crystl Labs</title>
+    <meta name="description" content="Engineering write-ups from Crystl Labs: framework overhead, quantum optimisation, simulation design and the numbers behind them.">
     <link rel="canonical" href="https://crystllabs.com/blogs.html">
+    <meta property="og:title" content="Blog | Crystl Labs">
+    <meta property="og:description" content="Engineering write-ups from Crystl Labs: framework overhead, quantum optimisation, simulation design and the numbers behind them.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://crystllabs.com/blogs.html">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" type="image/png" href="favicon.png">
-
     <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
@@ -21,6 +27,7 @@
         }
     </script>
     <style>
+        :root { color-scheme: dark; }
         ::-webkit-scrollbar { width: 10px; }
         ::-webkit-scrollbar-track { background: #0a0a12; }
         ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
@@ -29,12 +36,6 @@
             background-image:
                 radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
                 radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
-        }
-        .text-gradient {
-            background: linear-gradient(135deg, #D946EF, #A78BFA 50%, #3B82F6);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
         }
     </style>
 </head>
@@ -46,23 +47,14 @@
     </button>
 
     <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
-        <div class="flex items-center gap-3">
-            <a href="index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
-                <img src="crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
-                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
-            </a>
-        </div>
-        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
-            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
-                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
-                <span data-i18n="nav_run">CONNECTED</span>
-            </span>
-            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
-                <option value="en">EN</option>
-                <option value="ko">KR</option>
-                <option value="ja">JP</option>
-            </select>
-        </div>
+        <a href="index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+            <img src="crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+            <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+        </a>
+        <span class="hidden md:inline-flex items-center gap-1.5 font-mono text-[11px] text-brandGreen/90 uppercase tracking-wide">
+            <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+            <span>CONNECTED</span>
+        </span>
     </nav>
 
     <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
@@ -71,147 +63,110 @@
         <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
             <ul class="space-y-1 text-sm font-sans text-gray-400">
                 <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
-                    <span>📁</span> <span data-i18n="exp_src">src_files</span>
+                    <span>&#128193;</span> <span>src_files</span>
                 </li>
                 <li class="ml-1">
-                    <a href="index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_index">index.html</span></a>
+                    <a href="index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
                     <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
-                        <li><a href="projects.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_projects">projects.html</span></a></li>
-                        <li>
-                            <span class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono">
-                                <span data-i18n="link_blogs">blogs.html</span>
-                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
-                            </span>
-                        </li>
-                        <li><a href="personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="link_crew">personnel.html</span></a></li>
-                        <li><a href="privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_privacy">privacy.html</span></a></li>
-                        <li><a href="terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_terms">terms.html</span></a></li>
-                        <li><a href="data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_deletion">data-deletion.html</span></a></li>
+                            <li><a href="projects.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">projects.html</a></li>
+                            <li><a href="blogs.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">blogs.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span></a></li>
+                            <li><a href="personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                            <li><a href="contact.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">contact.html</a></li>
+                            <li><a href="privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                            <li><a href="terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                            <li><a href="data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
                     </ul>
                 </li>
             </ul>
         </aside>
 
         <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
-            <div class="max-w-5xl mx-auto">
-                <header class="mb-8 md:mb-12">
-                    <h1 class="text-gradient text-4xl md:text-6xl font-extrabold tracking-tight leading-tight pb-2" data-i18n="blogs_head">Blogs</h1>
-                    <p class="mt-1 font-mono text-sm md:text-base text-brandBlue tracking-wide" data-i18n="blogs_sub">Dispatches from the Crystl Labs crew.</p>
+            <div class="max-w-3xl mx-auto">
+                <header class="mb-8">
+                    <h1 class="text-3xl md:text-5xl font-extrabold text-white">Blog</h1>
+                    <p class="mt-3 text-gray-400 text-sm md:text-base leading-relaxed">Engineering write-ups from the Crystl Labs workbench: what we measured, what it cost, and what we changed because of it. 11 posts.</p>
                 </header>
 
-                <h2 data-i18n="section_blogs" class="font-mono text-[11px] md:text-xs text-brandBlue mb-5 md:mb-8 uppercase tracking-widest">Blogs //</h2>
-                <div id="posts-container" class="space-y-6">
-                    <!-- BEGIN_STATIC_POSTS -->
-
-                    <a href="https://ap39.crystllabs.com/alpha/quantum-tour-de-france-fantasy-graded" target="_blank" rel="noopener noreferrer" class="group block text-left rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandBlue/40 p-6 shadow-lg shadow-black/20 transition-all">
-                        <div class="flex justify-between items-center mb-4">
-                            <span class="text-[11px] font-mono text-brandBlue tracking-wide">BUILD_003 // DIRECTIVE</span>
-                            <span class="text-[11px] font-mono text-gray-500">2026-07-29</span>
-                        </div>
-                        <h2 class="text-lg font-semibold text-white mb-3 group-hover:text-brandBlue transition-colors">The Quantum Computer Was Right About Pogačar by 84 Points. Four Editions of Data Say That Was a Coin Flip.</h2>
-                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
-                            I graded the quantum-picked fantasy team against a hindsight-optimal ILP and four editions of Velogames data. It scored 11,924 and finished outside the top 300. The Pogačar call was correct and worth 0.57%; the real loss was 2,859 points of budget allocation, traceable to a single ranking error at 24 credits.
-                        </p>
-                        <div class="flex flex-wrap justify-between items-center gap-4 border-t border-white/10 pt-4">
-                            <div class="flex flex-wrap gap-2">
-                                <span class="text-[11px] font-mono text-gray-400 bg-white/5 px-2.5 py-1 rounded border border-white/10">AP39</span>
-
-                            </div>
-                            <span class="text-[11px] font-mono text-gray-500 group-hover:text-white transition-colors">
-                                READ ON AP39 ->
-                            </span>
-                        </div>
+                <div class="grid gap-4">
+                    <a href="blog/how-to-win-velogames.html" class="group block rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all">
+                        <div class="font-mono text-[10px] uppercase tracking-widest text-brandBlue/90 mb-2">Directive 2026-08-05 / 9 min</div>
+                        <h2 class="text-lg md:text-xl font-bold text-white leading-snug group-hover:text-brandPink transition-colors">Everyone Argues About Pogačar. Velogames Is Decided by the Three Riders Nobody Thinks About.</h2>
+                        <p class="mt-2.5 text-sm text-gray-400 leading-relaxed">Four editions of Velogames Tour de France data, 720 riders and 15,840 rider-rounds, on how the game is actually won. The three mandatory Unclassed slots are the worst assets in the game and a quarter of their points are team assists, so a rule you can apply before the race starts is worth 2x to 4x on those slots. It beat the field four years out of four.</p>
+                        <span class="mt-4 inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 group-hover:text-white transition-colors">Read on -&gt;</span>
                     </a>
-        
-                    <a href="https://ap39.crystllabs.com/alpha/quantum-tour-de-france-fantasy" target="_blank" rel="noopener noreferrer" class="group block text-left rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandBlue/40 p-6 shadow-lg shadow-black/20 transition-all">
-                        <div class="flex justify-between items-center mb-4">
-                            <span class="text-[11px] font-mono text-brandBlue tracking-wide">BUILD_002 // DIRECTIVE</span>
-                            <span class="text-[11px] font-mono text-gray-500">2026-07-16</span>
-                        </div>
-                        <h2 class="text-lg font-semibold text-white mb-3 group-hover:text-brandBlue transition-colors">I Picked My Tour de France Fantasy Team With a Real Quantum Computer. It Told Me Not to Buy Pogačar.</h2>
-                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
-                            I optimized my Tour de France fantasy roster with real IBM quantum hardware: gate-based QAOA, not a hybrid solver. A provably lossless 172-to-45 rider reduction, an exact classical ILP baseline, and four real QPU jobs later, the optimal team benches Pogačar, and a trained 21-qubit circuit found that exact optimum twice through the noise.
-                        </p>
-                        <div class="flex flex-wrap justify-between items-center gap-4 border-t border-white/10 pt-4">
-                            <div class="flex flex-wrap gap-2">
-                                <span class="text-[11px] font-mono text-gray-400 bg-white/5 px-2.5 py-1 rounded border border-white/10">AP39</span>
-
-                            </div>
-                            <span class="text-[11px] font-mono text-gray-500 group-hover:text-white transition-colors">
-                                READ ON AP39 ->
-                            </span>
-                        </div>
+                    <a href="blog/quantum-tour-de-france-fantasy-graded.html" class="group block rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all">
+                        <div class="font-mono text-[10px] uppercase tracking-widest text-brandBlue/90 mb-2">Directive 2026-07-29 / 11 min</div>
+                        <h2 class="text-lg md:text-xl font-bold text-white leading-snug group-hover:text-brandPink transition-colors">The Quantum Computer Was Right About Pogačar by 84 Points. Four Editions of Data Say That Was a Coin Flip.</h2>
+                        <p class="mt-2.5 text-sm text-gray-400 leading-relaxed">I graded the quantum-picked fantasy team against a hindsight-optimal ILP and four editions of Velogames data. It scored 11,924 and finished outside the top 300. The Pogačar call was correct and worth 0.57%; the real loss was 2,859 points of budget allocation, traceable to a single ranking error at 24 credits.</p>
+                        <span class="mt-4 inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 group-hover:text-white transition-colors">Read on -&gt;</span>
                     </a>
-        
-                    <a href="https://ap39.crystllabs.com/alpha/the-80mb-hello-world" target="_blank" rel="noopener noreferrer" class="group block text-left rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandBlue/40 p-6 shadow-lg shadow-black/20 transition-all">
-                        <div class="flex justify-between items-center mb-4">
-                            <span class="text-[11px] font-mono text-brandBlue tracking-wide">BUILD_001 // DIRECTIVE</span>
-                            <span class="text-[11px] font-mono text-gray-500">2026-07-13</span>
-                        </div>
-                        <h2 class="text-lg font-semibold text-white mb-3 group-hover:text-brandBlue transition-colors">The 80MB "Hello World": Why Your Framework Is a Liability</h2>
-                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
-                            A fresh React Native "Hello, World" ships 50-80MB of native libraries and boots an entire second runtime before it draws a pixel; the same app in native Kotlin lands under 500KB. Binary size and boot latency aren't implementation details, they're user-facing costs paid on every install and every cold start.
-                        </p>
-                        <div class="flex flex-wrap justify-between items-center gap-4 border-t border-white/10 pt-4">
-                            <div class="flex flex-wrap gap-2">
-                                <span class="text-[11px] font-mono text-gray-400 bg-white/5 px-2.5 py-1 rounded border border-white/10">AP39</span>
-
-                            </div>
-                            <span class="text-[11px] font-mono text-gray-500 group-hover:text-white transition-colors">
-                                READ ON AP39 ->
-                            </span>
-                        </div>
+                    <a href="blog/quantum-velogames-qaoa.html" class="group block rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all">
+                        <div class="font-mono text-[10px] uppercase tracking-widest text-brandBlue/90 mb-2">Directive 2026-07-22 / 7 min</div>
+                        <h2 class="text-lg md:text-xl font-bold text-white leading-snug group-hover:text-brandPink transition-colors">Simulating the Tour de France on a 127-Qubit Quantum Processor</h2>
+                        <p class="mt-2.5 text-sm text-gray-400 leading-relaxed">A Velogames roster is a multidimensional 0-1 knapsack, and knapsack is one of the benchmark problems QAOA is meant to own. The classical ILP solved it in 40ms. Real IBM hardware got to roughly 91% of optimal, and why it fell short is the actual result.</p>
+                        <span class="mt-4 inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 group-hover:text-white transition-colors">Read on -&gt;</span>
                     </a>
-        
-                    <!-- END_STATIC_POSTS -->
+                    <a href="blog/quantum-tour-de-france-fantasy.html" class="group block rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all">
+                        <div class="font-mono text-[10px] uppercase tracking-widest text-brandBlue/90 mb-2">Directive 2026-07-16 / 10 min</div>
+                        <h2 class="text-lg md:text-xl font-bold text-white leading-snug group-hover:text-brandPink transition-colors">I Picked My Tour de France Fantasy Team With a Real Quantum Computer. It Told Me Not to Buy Pogačar.</h2>
+                        <p class="mt-2.5 text-sm text-gray-400 leading-relaxed">I optimized my Tour de France fantasy roster with real IBM quantum hardware: gate-based QAOA, not a hybrid solver. A provably lossless 172-to-45 rider reduction, an exact classical ILP baseline, and four real QPU jobs later, the optimal team benches Pogačar, and a trained 21-qubit circuit found that exact optimum twice through the noise.</p>
+                        <span class="mt-4 inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 group-hover:text-white transition-colors">Read on -&gt;</span>
+                    </a>
+                    <a href="blog/the-80mb-hello-world.html" class="group block rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all">
+                        <div class="font-mono text-[10px] uppercase tracking-widest text-brandBlue/90 mb-2">Directive 2026-07-13 / 6 min</div>
+                        <h2 class="text-lg md:text-xl font-bold text-white leading-snug group-hover:text-brandPink transition-colors">The 80MB &quot;Hello World&quot;: Why Your Framework Is a Liability</h2>
+                        <p class="mt-2.5 text-sm text-gray-400 leading-relaxed">A fresh React Native &quot;Hello, World&quot; ships 50-80MB of native libraries and boots an entire second runtime before it draws a pixel; the same app in native Kotlin lands under 500KB. Binary size and boot latency aren&#x27;t implementation details, they&#x27;re user-facing costs paid on every install and every cold start.</p>
+                        <span class="mt-4 inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 group-hover:text-white transition-colors">Read on -&gt;</span>
+                    </a>
+                    <a href="blog/cyberpunk-production-logs.html" class="group block rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all">
+                        <div class="font-mono text-[10px] uppercase tracking-widest text-brandBlue/90 mb-2">Directive 2026-07-08 / 7 min</div>
+                        <h2 class="text-lg md:text-xl font-bold text-white leading-snug group-hover:text-brandPink transition-colors">Piping Production Logs Into Cyberpunk 2077</h2>
+                        <p class="mt-2.5 text-sm text-gray-400 leading-relaxed">A live SSH session on a phone, bridged over a WebSocket, rasterised into a render target and bound at runtime into REDengine&#x27;s material system. Not an overlay. The billboard itself, respecting depth and occlusion like any other object in the scene.</p>
+                        <span class="mt-4 inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 group-hover:text-white transition-colors">Read on -&gt;</span>
+                    </a>
+                    <a href="blog/triangulating-my-cat.html" class="group block rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all">
+                        <div class="font-mono text-[10px] uppercase tracking-widest text-brandBlue/90 mb-2">Directive 2026-06-24 / 6 min</div>
+                        <h2 class="text-lg md:text-xl font-bold text-white leading-snug group-hover:text-brandPink transition-colors">Triangulating My Cat Using Custom Sonar</h2>
+                        <p class="mt-2.5 text-sm text-gray-400 leading-relaxed">Three broken smartphones, a 2kHz-to-18kHz chirp and GCC-PHAT cross-correlation at 192kHz gave 2cm positional accuracy on a calibration speaker. Then the cat refused to cooperate, and the fix was to stop transmitting entirely.</p>
+                        <span class="mt-4 inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 group-hover:text-white transition-colors">Read on -&gt;</span>
+                    </a>
+                    <a href="blog/40-hours-12ms-spike.html" class="group block rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all">
+                        <div class="font-mono text-[10px] uppercase tracking-widest text-brandBlue/90 mb-2">Directive 2026-06-10 / 6 min</div>
+                        <h2 class="text-lg md:text-xl font-bold text-white leading-snug group-hover:text-brandPink transition-colors">I Spent 40 Hours Fixing a 12ms Spike</h2>
+                        <p class="mt-2.5 text-sm text-gray-400 leading-relaxed">No stack trace, no error message, just a stutter QA described with their hands. Forty hours of systrace and heap diffs traced it to a single Rect allocated inside onDraw(). The fix was three lines. The ratio is the entire genre.</p>
+                        <span class="mt-4 inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 group-hover:text-white transition-colors">Read on -&gt;</span>
+                    </a>
+                    <a href="blog/programming-against-physics.html" class="group block rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all">
+                        <div class="font-mono text-[10px] uppercase tracking-widest text-brandBlue/90 mb-2">Directive 2026-05-27 / 6 min</div>
+                        <h2 class="text-lg md:text-xl font-bold text-white leading-snug group-hover:text-brandPink transition-colors">Programming Against the Laws of Physics</h2>
+                        <p class="mt-2.5 text-sm text-gray-400 leading-relaxed">Every `for` loop is a physical event. Code compiles down to charge moved across gates, charge dissipates as heat, and heat has to go somewhere before the chip throttles or the battery drains. The mental model of &quot;code as text&quot; stops the story at step one.</p>
+                        <span class="mt-4 inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 group-hover:text-white transition-colors">Read on -&gt;</span>
+                    </a>
+                    <a href="blog/bus-factor-of-one.html" class="group block rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all">
+                        <div class="font-mono text-[10px] uppercase tracking-widest text-brandBlue/90 mb-2">Directive 2026-05-12 / 6 min</div>
+                        <h2 class="text-lg md:text-xl font-bold text-white leading-snug group-hover:text-brandPink transition-colors">The &quot;Bus Factor&quot; of One: Engineering for the Solo Dev</h2>
+                        <p class="mt-2.5 text-sm text-gray-400 leading-relaxed">&quot;Bus factor of one&quot; isn&#x27;t a risk you mitigate with more headcount when there is no headcount to add. You mitigate it with architecture. The design constraint: if I stop touching the stack tomorrow, it keeps running for five years.</p>
+                        <span class="mt-4 inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 group-hover:text-white transition-colors">Read on -&gt;</span>
+                    </a>
+                    <a href="blog/flat-files-over-databases.html" class="group block rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all">
+                        <div class="font-mono text-[10px] uppercase tracking-widest text-brandBlue/90 mb-2">Directive 2026-04-28 / 6 min</div>
+                        <h2 class="text-lg md:text-xl font-bold text-white leading-snug group-hover:text-brandPink transition-colors">Why I Keep My Data in Text Files (And You Should Too)</h2>
+                        <p class="mt-2.5 text-sm text-gray-400 leading-relaxed">A managed cluster is a single point of failure sitting behind an API you don&#x27;t own. A SQLite file has exactly one failure mode: the disk fails. You can test that one, back up against it in a line of shell, and never wait on someone else&#x27;s incident response team.</p>
+                        <span class="mt-4 inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 group-hover:text-white transition-colors">Read on -&gt;</span>
+                    </a>
                 </div>
             </div>
         </main>
     </div>
 
     <script>
-        const i18n = {
-            en: {
-                nav_run: "CONNECTED", exp_src: "src_files",
-                file_index: "index.html", file_projects: "projects.html", link_blogs: "blogs.html", link_crew: "personnel.html",
-                file_privacy: "privacy.html", file_terms: "terms.html", file_deletion: "data-deletion.html",
-                blogs_head: "Blogs", blogs_sub: "Dispatches from the Crystl Labs crew.", section_blogs: "Blogs //"
-            },
-            ko: {
-                nav_run: "연결됨", exp_src: "소스_파일",
-                file_index: "인덱스.html", file_projects: "프로젝트.html", link_blogs: "블로그.html", link_crew: "인력.html",
-                file_privacy: "개인정보처리방침.html", file_terms: "이용약관.html", file_deletion: "데이터삭제.html",
-                blogs_head: "블로그", blogs_sub: "크리스탈 랩스 크루의 소식.", section_blogs: "블로그 //"
-            },
-            ja: {
-                nav_run: "接続済み", exp_src: "ソースファイル",
-                file_index: "インデックス.html", file_projects: "プロジェクト.html", link_blogs: "ブログ.html", link_crew: "スタッフ.html",
-                file_privacy: "プライバシーポリシー.html", file_terms: "利用規約.html", file_deletion: "データ削除.html",
-                blogs_head: "ブログ", blogs_sub: "クリスタル・ラボのクルーからの便り。", section_blogs: "ブログ //"
-            }
-        };
-
-        function switchLang(lang) {
-            localStorage.setItem('crystl_lang', lang);
-            document.getElementById('langSelect').value = lang;
-            document.querySelectorAll('[data-i18n]').forEach(el => {
-                const key = el.getAttribute('data-i18n');
-                if (i18n[lang] && i18n[lang][key]) el.innerHTML = i18n[lang][key];
-            });
-        }
-
         function toggleMenu() {
             document.getElementById('sidebar').classList.toggle('-translate-x-full');
             document.getElementById('sidebarBackdrop').classList.toggle('hidden');
             document.getElementById('iconOpen').classList.toggle('hidden');
             document.getElementById('iconClose').classList.toggle('hidden');
         }
-
-        window.onload = () => {
-            let lang = localStorage.getItem('crystl_lang');
-            if (!['en', 'ko', 'ja'].includes(lang)) lang = 'ko';
-            switchLang(lang);
-        };
     </script>
 </body>
 </html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rug Pull: Crypto Tycoon | Crystl Labs</title>
+    <meta name="description" content="Launch your own coin, then decide whether to make it real or run.">
+    <meta property="og:title" content="Rug Pull: Crypto Tycoon | Crystl Labs">
+    <meta property="og:description" content="Launch your own coin, then decide whether to make it real or run.">
+    <meta property="og:image" content="rugpull.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/rugpull.html">
+    <link rel="icon" type="image/png" href="../favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../blogs.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">blogs.html</a></li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../contact.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">contact.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="rugpull.png" alt="Rug Pull: Crypto Tycoon" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Rug Pull: Crypto Tycoon</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 border border-gray-500/40 bg-gray-500/10 rounded px-1.5 py-0.5">In development</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Launch your own coin, then decide whether to make it real or run.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Trade your way out of a basement, launch your own coin, then face the only question the game actually cares about: do you build the thing you promised, or take the money and run. Either answer keeps the game going. That is the point. There is no ending screen where you get away with it, because your name follows you into the next cycle and the people you burned remember. The loop runs weekly: pick projects, resolve them, watch the cycle reset and see who is still willing to talk to you. Built in Godot for Android, portrait, with a prologue, a coin launch, and both the build and the rug as fully implemented resolutions.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-12">
+                    <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Dev log //</h2>
+                    <p class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-6 max-w-2xl">Young and moving fast. The prologue, coin launch, weekly project loop, both build and rug resolutions and the cycle reset are all in and green behind 52 headless tests. The art is deliberately not in the repository: it is generated locally from a licensed pack that cannot be redistributed, so a fresh clone runs on placeholder blocks until three build commands are run. That constraint is why several entries are about tooling rather than gameplay.</p>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 mb-6">
+                        <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
+                            <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Commits</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">9</div>
+                        </div>
+                        <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
+                            <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Days w/ changes</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">2</div>
+                        </div>
+                        <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
+                            <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Started</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">12 AUG 2026</div>
+                        </div>
+                    </div>
+                    <ul class="rounded-2xl border border-white/10 bg-panelBg/40 px-4 md:px-5 py-2">
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <time datetime="2026-08-15" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">15 AUG 2026</time>
+                            <span class="text-sm text-gray-300 leading-relaxed">Add cycle, project, and resolution systems with prologue and tutorial flow, plus test coverage</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <time datetime="2026-08-12" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">12 AUG 2026</time>
+                            <span class="text-sm text-gray-300 leading-relaxed">Handoff: START_HERE.md, and mark the missing screen as the next job</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Fix the hidden HUD, centre the room, and take the Android export off blocked</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Replace GitHub Actions with a local pre-push hook, fix the renderer feature tag</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Record the CI blocker: Actions will not start on this account</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Phases 0-4: project skeleton, prop catalog, room, trading core, save</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Fold the repeating cycle into the design, add the master TODO</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Design doc and LimeZu prop pipeline</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Initial commit</span>
+                        </li>
+                    </ul>
+                    <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores and merge commits are filtered out.</p>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Rug Pull: Crypto Tycoon", "ko": "러그 풀: 크립토 타이쿤", "ja": "ラグプル: クリプトタイクーン"}, "tagline": {"en": "Launch your own coin, then decide whether to make it real or run.", "ko": "직접 코인을 발행하고, 진짜로 만들지 들고 튈지 정하세요.", "ja": "自分のコインを発行し、本物にするか持ち逃げするかを決めろ。"}, "desc": {"en": "Trade your way out of a basement, launch your own coin, then face the only question the game actually cares about: do you build the thing you promised, or take the money and run. Either answer keeps the game going. That is the point. There is no ending screen where you get away with it, because your name follows you into the next cycle and the people you burned remember. The loop runs weekly: pick projects, resolve them, watch the cycle reset and see who is still willing to talk to you. Built in Godot for Android, portrait, with a prologue, a coin launch, and both the build and the rug as fully implemented resolutions.", "ko": "지하실에서 트레이딩으로 시작해 직접 코인을 발행하고, 이 게임이 실제로 묻는 단 하나의 질문과 마주하세요. 약속한 것을 만들 것인가, 돈을 챙겨 도망칠 것인가. 어느 쪽을 택하든 게임은 계속됩니다. 그게 핵심입니다. 무사히 빠져나가는 엔딩 화면 같은 건 없습니다. 당신의 이름은 다음 사이클까지 따라오고, 당신이 태워버린 사람들은 기억하니까요. 루프는 주 단위로 돌아갑니다. 프로젝트를 고르고, 결과를 확정하고, 사이클이 초기화된 뒤 누가 아직 당신과 말을 섞어주는지 확인하세요. Godot으로 제작한 안드로이드 세로 화면 게임이며, 프롤로그와 코인 발행, 그리고 진짜로 만들기와 러그풀 양쪽 결말이 모두 구현되어 있습니다.", "ja": "地下室からトレードで這い上がり、自分のコインを発行し、そしてこのゲームが本当に問う唯一の質問に向き合います。約束したものを作るのか、金を持って逃げるのか。どちらを選んでもゲームは続きます。そこが肝心です。うまく逃げ切って終わる画面はありません。あなたの名前は次のサイクルまで付いて回り、焼かれた人々は覚えているからです。ループは週単位で回ります。案件を選び、決着させ、サイクルがリセットされた後で誰がまだ口をきいてくれるかを確かめる。Godot 製の Android 縦持ちタイトルで、プロローグ、コイン発行、そして本物にする・持ち逃げする両方の結末が実装済みです。"}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+</body>
+</html>

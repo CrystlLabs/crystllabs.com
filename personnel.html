@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" href="favicon.png">
 
     <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
@@ -84,6 +85,7 @@
                                 <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
                             </span>
                         </li>
+                        <li><a href="contact.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_contact">contact.html</span></a></li>
                         <li><a href="privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_privacy">privacy.html</span></a></li>
                         <li><a href="terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_terms">terms.html</span></a></li>
                         <li><a href="data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_deletion">data-deletion.html</span></a></li>
@@ -148,6 +150,26 @@
                         </div>
                     </div>
                 </div>
+
+                <h2 data-i18n="about_head" class="font-mono text-[11px] md:text-xs text-brandBlue mt-14 mb-5 md:mb-8 uppercase tracking-widest">About the studio //</h2>
+                <div class="grid gap-4 md:gap-6 md:grid-cols-2">
+                    <div class="rounded-2xl border border-white/10 bg-panelBg/60 p-6 shadow-lg shadow-black/20">
+                        <h3 data-i18n="about_who_h" class="text-base font-bold text-white mb-3">What Crystl Labs is</h3>
+                        <p data-i18n="about_who_p" class="text-sm text-gray-400 leading-relaxed">Crystl Labs is a small independent studio registered as a sole proprietorship in Siheung-si, Gyeonggi-do, South Korea. We build mobile games and utilities for Android, plus a handful of browser tools. There is no outside funding, no publisher and no agency behind any of it, which is why the roster is wide and the release notes are blunt.</p>
+                    </div>
+                    <div class="rounded-2xl border border-white/10 bg-panelBg/60 p-6 shadow-lg shadow-black/20">
+                        <h3 data-i18n="about_how_h" class="text-base font-bold text-white mb-3">How we build</h3>
+                        <p data-i18n="about_how_p" class="text-sm text-gray-400 leading-relaxed">Native Android in Kotlin and Jetpack Compose, with Godot where a game needs a real scene graph. Every project is version controlled from the first commit, and each project page on this site carries its own dev log pulled straight from that history. Twenty-one apps are in the roster: four are live on Google Play, the rest are in playtest or earlier.</p>
+                    </div>
+                    <div class="rounded-2xl border border-white/10 bg-panelBg/60 p-6 shadow-lg shadow-black/20">
+                        <h3 data-i18n="about_data_h" class="text-base font-bold text-white mb-3">Where your data goes</h3>
+                        <p data-i18n="about_data_p" class="text-sm text-gray-400 leading-relaxed">Mostly nowhere. The default for a Crystl Labs app is that your data stays on your device and we hold no copy of it, which is why several of our apps need no account and no server at all. Where an app does send something (crash reports, ads, billing), the privacy policy names it specifically rather than hiding behind a general clause.</p>
+                    </div>
+                    <div class="rounded-2xl border border-white/10 bg-panelBg/60 p-6 shadow-lg shadow-black/20">
+                        <h3 data-i18n="about_write_h" class="text-base font-bold text-white mb-3">Why we write</h3>
+                        <p data-i18n="about_write_p" class="text-sm text-gray-400 leading-relaxed">The blog exists because the interesting parts of this work are the measurements, not the announcements. Posts cover things like framework overhead, garbage collection stalls, quantum optimisation and acoustic positioning. Every number in them comes from a run that was actually made, and corrections are welcome.</p>
+                    </div>
+                </div>
             </div>
         </main>
     </div>
@@ -155,25 +177,28 @@
     <script>
         const i18n = {
             en: {
+                about_head: "About the studio //", about_who_h: "What Crystl Labs is", about_who_p: "Crystl Labs is a small independent studio registered as a sole proprietorship in Siheung-si, Gyeonggi-do, South Korea. We build mobile games and utilities for Android, plus a handful of browser tools. There is no outside funding, no publisher and no agency behind any of it, which is why the roster is wide and the release notes are blunt.", about_how_h: "How we build", about_how_p: "Native Android in Kotlin and Jetpack Compose, with Godot where a game needs a real scene graph. Every project is version controlled from the first commit, and each project page on this site carries its own dev log pulled straight from that history. Twenty-one apps are in the roster: four are live on Google Play, the rest are in playtest or earlier.", about_data_h: "Where your data goes", about_data_p: "Mostly nowhere. The default for a Crystl Labs app is that your data stays on your device and we hold no copy of it, which is why several of our apps need no account and no server at all. Where an app does send something (crash reports, ads, billing), the privacy policy names it specifically rather than hiding behind a general clause.", about_write_h: "Why we write", about_write_p: "The blog exists because the interesting parts of this work are the measurements, not the announcements. Posts cover things like framework overhead, garbage collection stalls, quantum optimisation and acoustic positioning. Every number in them comes from a run that was actually made, and corrections are welcome.",
                 nav_run: "CONNECTED", exp_src: "src_files", exp_logs: "public_logs",
                 file_index: "index.html", file_projects: "projects.html", link_blogs: "blogs.html", link_crew: "personnel.html",
-                file_privacy: "privacy.html", file_terms: "terms.html", file_deletion: "data-deletion.html",
+                file_contact: "contact.html", file_privacy: "privacy.html", file_terms: "terms.html", file_deletion: "data-deletion.html",
                 file_ceo: "ceo_executive.log", file_dev: "dev_senior.log",
                 personnel_head: "Personnel", personnel_sub: "The people behind Crystl Labs.",
                 crew_head: "Crew //", crew_ceo_bio: "Spearheading pan-Asian market penetration, enterprise operations, and high-yield portfolio development.", crew_dev_bio: "Producing end-to-end application life cycles, robust full-stack architecture, and advanced simulation engineering."
             },
             ko: {
+                about_head: "스튜디오 소개 //", about_who_h: "크리스탈 랩스는", about_who_p: "크리스탈 랩스는 경기도 시흥시에 개인사업자로 등록된 소규모 독립 스튜디오입니다. 안드로이드 모바일 게임과 유틸리티, 그리고 몇 가지 브라우저 도구를 만듭니다. 외부 투자도, 퍼블리셔도, 대행사도 없습니다. 그래서 라인업이 넓고 릴리스 노트가 솔직합니다.", about_how_h: "만드는 방식", about_how_p: "코틀린과 Jetpack Compose 기반의 네이티브 안드로이드, 실제 씬 그래프가 필요한 게임에는 Godot을 씁니다. 모든 프로젝트는 첫 커밋부터 버전 관리되며, 이 사이트의 각 프로젝트 페이지에는 그 기록에서 바로 가져온 개발 로그가 실려 있습니다. 현재 21개 앱 중 4개가 구글 플레이에 출시되어 있고 나머지는 플레이테스트 이전 단계입니다.", about_data_h: "데이터 처리 방침", about_data_p: "대부분 아무 데도 가지 않습니다. 크리스탈 랩스 앱의 기본 원칙은 데이터가 기기에 남고 당사는 사본을 보유하지 않는 것입니다. 그래서 여러 앱이 계정도 서버도 필요 없습니다. 앱이 무언가를 전송하는 경우(크래시 리포트, 광고, 결제)에는 개인정보처리방침에 포괄 조항이 아니라 구체적으로 명시합니다.", about_write_h: "글을 쓰는 이유", about_write_p: "이 일에서 흥미로운 부분은 발표가 아니라 측정값이기 때문입니다. 프레임워크 오버헤드, 가비지 컬렉션 지연, 양자 최적화, 음향 측위 같은 주제를 다룹니다. 글에 나오는 모든 수치는 실제로 실행한 결과이며, 정정 제보는 언제나 환영합니다.",
                 nav_run: "연결됨", exp_src: "소스_파일", exp_logs: "공개_블로그",
                 file_index: "인덱스.html", file_projects: "프로젝트.html", link_blogs: "블로그.html", link_crew: "인력.html",
-                file_privacy: "개인정보처리방침.html", file_terms: "이용약관.html", file_deletion: "데이터삭제.html",
+                file_contact: "문의.html", file_privacy: "개인정보처리방침.html", file_terms: "이용약관.html", file_deletion: "데이터삭제.html",
                 file_ceo: "ceo_경영진.log", file_dev: "dev_수석개발자.log",
                 personnel_head: "인력", personnel_sub: "크리스탈 랩스를 만드는 사람들.",
                 crew_head: "크루 //", crew_ceo_bio: "범아시아 시장 공략, 기업 운영, 고수익 포트폴리오 개발을 진두지휘합니다.", crew_dev_bio: "애플리케이션 전체 생명주기, 견고한 풀스택 아키텍처, 고급 시뮬레이션 엔지니어링을 총괄 제작합니다."
             },
             ja: {
+                about_head: "スタジオについて //", about_who_h: "Crystl Labs とは", about_who_p: "Crystl Labs は韓国・京畿道始興市に個人事業主として登録された小規模な独立スタジオです。Android 向けのモバイルゲームとユーティリティ、そしていくつかのブラウザツールを作っています。外部資金もパブリッシャーも代理店もありません。だからこそラインナップは広く、リリースノートは率直です。", about_how_h: "作り方", about_how_p: "Kotlin と Jetpack Compose によるネイティブ Android、本格的なシーングラフが必要なゲームには Godot を使います。すべてのプロジェクトは最初のコミットからバージョン管理されており、本サイトの各プロジェクトページにはその履歴から直接生成した開発ログを掲載しています。21 本のうち 4 本が Google Play で公開中、残りはプレイテスト以前の段階です。", about_data_h: "データの扱い", about_data_p: "ほとんどどこにも送りません。Crystl Labs のアプリは、データが端末内に留まり当社が複製を保持しないことを既定としています。そのため多くのアプリはアカウントもサーバーも必要としません。アプリが何かを送信する場合（クラッシュレポート、広告、課金）は、包括的な文言ではなくプライバシーポリシーに個別に明記します。", about_write_h: "書く理由", about_write_p: "この仕事で面白いのは発表ではなく計測だからです。フレームワークのオーバーヘッド、ガベージコレクションによる停止、量子最適化、音響測位などを扱います。記事中の数値はすべて実際に実行した結果であり、訂正のご指摘を歓迎します。",
                 nav_run: "接続済み", exp_src: "ソースファイル", exp_logs: "公開ブログ",
                 file_index: "インデックス.html", file_projects: "プロジェクト.html", link_blogs: "ブログ.html", link_crew: "スタッフ.html",
-                file_privacy: "プライバシーポリシー.html", file_terms: "利用規約.html", file_deletion: "データ削除.html",
+                file_contact: "お問い合わせ.html", file_privacy: "プライバシーポリシー.html", file_terms: "利用規約.html", file_deletion: "データ削除.html",
                 file_ceo: "ceo_役員.log", file_dev: "dev_シニア開発者.log",
                 personnel_head: "スタッフ", personnel_sub: "クリスタル・ラボを支える人々。",
                 crew_head: "クルー //", crew_ceo_bio: "汎アジア市場浸透、事業運営、高収益ポートフォリオ開発を陣頭指揮。", crew_dev_bio: "アプリケーションのライフサイクル全体、堅牢なフルスタック設計、高度なシミュレーションエンジニアリングをプロデュース。"

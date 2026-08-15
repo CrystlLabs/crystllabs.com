@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
+    <title>Piping Production Logs Into Cyberpunk 2077 | Crystl Labs</title>
+    <meta name="description" content="A live SSH session on a phone, bridged over a WebSocket, rasterised into a render target and bound at runtime into REDengine&#x27;s material system. Not an overlay. The billboard itself, respecting depth and occlusion like any other object in the scene.">
+    <link rel="canonical" href="https://crystllabs.com/blog/cyberpunk-production-logs.html">
+    <meta property="og:title" content="Piping Production Logs Into Cyberpunk 2077 | Crystl Labs">
+    <meta property="og:description" content="A live SSH session on a phone, bridged over a WebSocket, rasterised into a render target and bound at runtime into REDengine&#x27;s material system. Not an overlay. The billboard itself, respecting depth and occlusion like any other object in the scene.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://crystllabs.com/blog/cyberpunk-production-logs.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="../favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        :root { color-scheme: dark; }
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+    </style>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Piping Production Logs Into Cyberpunk 2077", "description": "A live SSH session on a phone, bridged over a WebSocket, rasterised into a render target and bound at runtime into REDengine's material system. Not an overlay. The billboard itself, respecting depth and occlusion like any other object in the scene.", "datePublished": "2026-07-08T00:00:00Z", "author": {"@type": "Person", "name": "AP39", "url": "https://ap39.crystllabs.com/"}, "publisher": {"@type": "Organization", "name": "Crystl Labs", "logo": {"@type": "ImageObject", "url": "https://crystllabs.com/crystl1.png"}}, "mainEntityOfPage": "https://crystllabs.com/blog/cyberpunk-production-logs.html", "wordCount": 1478}</script>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+            <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+            <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+        </a>
+        <span class="hidden md:inline-flex items-center gap-1.5 font-mono text-[11px] text-brandGreen/90 uppercase tracking-wide">
+            <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+            <span>CONNECTED</span>
+        </span>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>&#128193;</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                            <li><a href="../projects.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">projects.html</a></li>
+                            <li><a href="../blogs.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">blogs.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span></a></li>
+                            <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                            <li><a href="../contact.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">contact.html</a></li>
+                            <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                            <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                            <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <article class="max-w-3xl mx-auto">
+                <a href="../blogs.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all posts</a>
+
+                <header class="mb-8 pb-8 border-b border-white/10">
+                    <div class="font-mono text-[11px] uppercase tracking-widest text-brandBlue/90 mb-3">Directive 2026-07-08</div>
+                    <h1 class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Piping Production Logs Into Cyberpunk 2077</h1>
+                    <p class="mt-4 text-gray-400 text-sm md:text-base leading-relaxed">A live SSH session on a phone, bridged over a WebSocket, rasterised into a render target and bound at runtime into REDengine&#x27;s material system. Not an overlay. The billboard itself, respecting depth and occlusion like any other object in the scene.</p>
+                    <div class="mt-5 flex flex-wrap items-center gap-3 font-mono text-[11px] uppercase tracking-wider text-gray-500">
+                        <span class="text-brandPink/90">By AP39</span>
+                        <span class="text-white/20">/</span>
+                        <time datetime="2026-07-08">08 JUL 2026</time>
+                        <span class="text-white/20">/</span>
+                        <span>7 min read</span>
+                    </div>
+                </header>
+
+                <div class="text-[15px] md:text-base">
+<p class="my-5 leading-[1.75] text-gray-300">Night City already looks like a server room that decided to become a city. Every billboard is scrolling ad copy, every alley is lit by some corporation&#x27;s neon logo, and the entire aesthetic is built around the idea that information is physically plastered onto the environment. So the question that started this project wasn&#x27;t &quot;can I mod this game,&quot; it was much pettier than that: could one of those billboards show my actual production logs, live, streaming out of a real FastAPI backend, while I walked past it in-game. Not a screenshot. Not a mockup. A genuinely live SSH session, tailing real logs, rendered as a texture on a wall in a video game.</p>
+<p class="my-5 leading-[1.75] text-gray-300">The answer turned out to be yes, and getting there was less about hacking in the dramatic sense and more about three separate, unglamorous engineering problems stacked on top of each other: getting a live text stream out of a phone, getting that stream into the game&#x27;s render pipeline, and finding the right piece of the game&#x27;s memory to hijack without crashing it.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">Problem One: Getting the Logs Out of the Phone</h3>
+<p class="my-5 leading-[1.75] text-gray-300">The actual log source was boring by design, which is the entire point of the zero-maintenance architecture the backend runs on. A FastAPI service, logging structured output to stdout, captured by the process supervisor and tailed over SSH from a Termux session on Android. That session already existed as part of the normal development workflow, the same terminal used for day-to-day work on the backend, just pointed at production instead of a local dev server.</p>
+<p class="my-5 leading-[1.75] text-gray-300">The wrinkle was getting that live text stream out of a phone&#x27;s terminal session and into a process running on a desktop machine, which is where the game itself lived. Rather than trying to pipe raw SSH output across devices, which gets messy fast with terminal escape codes and PTY quirks, the terminal output got mirrored through a lightweight local WebSocket bridge: a small Python script on the Termux side, reading the SSH session&#x27;s output stream, forwarding each new line as a plain-text WebSocket message to a listener running alongside the game.</p>
+<pre class="my-6 overflow-x-auto rounded-xl border border-white/10 bg-black/40 p-4 text-[13px] leading-relaxed"><code class="font-mono text-gray-300">import asyncio
+import websockets
+
+async def stream_logs(websocket):
+    proc = await asyncio.create_subprocess_exec(
+        &quot;ssh&quot;, &quot;prod-server&quot;, &quot;tail -f /var/log/backend/app.log&quot;,
+        stdout=asyncio.subprocess.PIPE
+    )
+    while True:
+        line = await proc.stdout.readline()
+        if line:
+            await websocket.send(line.decode().strip())
+
+asyncio.run(websockets.serve(stream_logs, &quot;0.0.0.0&quot;, 8765))</code></pre>
+<p class="my-5 leading-[1.75] text-gray-300">Simple, and deliberately so. Anything more elaborate than &quot;read a line, forward a line&quot; was solving a problem this project didn&#x27;t actually have.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">Problem Two: Getting Text Into the Game&#x27;s Render Pipeline</h3>
+<p class="my-5 leading-[1.75] text-gray-300">Cyberpunk 2077 runs on REDengine 4, and the modding community around it has, over several years, built genuinely excellent tooling for exactly this kind of intervention: Cyber Engine Tweaks (CET), which injects a Lua scripting runtime directly into the running game process and exposes hooks into large parts of the engine, including ImGui-based overlay rendering that draws directly on top of the game&#x27;s own frame output.</p>
+<p class="my-5 leading-[1.75] text-gray-300">The first working version didn&#x27;t touch the billboard&#x27;s actual in-world texture at all, it used CET&#x27;s ImGui overlay layer to draw a text panel anchored to the screen position of the billboard mesh, updated every frame based on the player&#x27;s camera position relative to the billboard&#x27;s world coordinates. That&#x27;s a legitimate technique, screen-space overlay anchored to a 3D world position, and it got text visibly &quot;attached&quot; to the billboard reasonably quickly.</p>
+<pre class="my-6 overflow-x-auto rounded-xl border border-white/10 bg-black/40 p-4 text-[13px] leading-relaxed"><code class="font-mono text-gray-300">registerForEvent(&quot;onDraw&quot;, function()
+    local billboardWorldPos = Vector4.new(1024.5, -892.3, 34.0, 1.0)
+    local screenPos = Game.WorldToScreen(billboardWorldPos)
+    if screenPos.onScreen then
+        ImGui.SetNextWindowPos(screenPos.x, screenPos.y)
+        ImGui.Begin(&quot;log_overlay&quot;, true, ImGuiWindowFlags.NoDecoration)
+        for _, line in ipairs(recentLogLines) do
+            ImGui.Text(line)
+        end
+        ImGui.End()
+    end
+end)</code></pre>
+<p class="my-5 leading-[1.75] text-gray-300">This worked, but it was cheating in a way that bothered me more than it should have. An overlay isn&#x27;t actually part of the billboard, it&#x27;s a screen-space sticker floating in front of the frame, and it breaks immediately the moment the billboard is partially occluded by a building or an NPC walking past it, since the overlay has no concept of depth or occlusion against the actual 3D scene. If the goal was a billboard that genuinely displayed the logs, not a floating label pretending to, the text needed to actually live inside the billboard&#x27;s material as a texture, respecting depth, lighting, and occlusion like any other object in the scene.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">Problem Three: Actually Replacing the Texture</h3>
+<p class="my-5 leading-[1.75] text-gray-300">This is where the project stopped being &quot;write a mod using documented APIs&quot; and became &quot;go find the specific piece of memory holding a texture reference and swap it out from underneath the renderer,&quot; which is a meaningfully different, much less forgiving kind of work.</p>
+<p class="my-5 leading-[1.75] text-gray-300">Billboards in REDengine are backed by standard material and texture assets, referenced by a resource path baked into the level&#x27;s static mesh data. The approach that ended up working combined WolvenKit, the community&#x27;s asset extraction and inspection tool, to identify the exact texture resource path bound to the billboard&#x27;s material slot, with a runtime texture swap performed through CET&#x27;s lower-level resource hooks, intercepting the material&#x27;s bound texture at load time and substituting a dynamically generated one instead of the original static asset.</p>
+<p class="my-5 leading-[1.75] text-gray-300">The dynamic texture itself was the actual payload: a render target, generated fresh, or at least at a throttled refresh interval, by rasterizing the latest handful of log lines as text onto a texture buffer, matching the resolution and aspect ratio the original billboard asset expected so the material&#x27;s UV mapping didn&#x27;t distort or tile the text incorrectly across the mesh.</p>
+<pre class="my-6 overflow-x-auto rounded-xl border border-white/10 bg-black/40 p-4 text-[13px] leading-relaxed"><code class="font-mono text-gray-300">local function updateLogTexture()
+    local canvas = RenderTarget.new(1024, 512)
+    canvas:Clear(0, 0, 0, 200)
+    local y = 10
+    for _, line in ipairs(recentLogLines) do
+        canvas:DrawText(line, 10, y, &quot;monospace&quot;, 18, 0, 255, 120)
+        y = y + 22
+    end
+    materialInstance:SetTextureParameter(&quot;BaseColor&quot;, canvas)
+end</code></pre>
+<p class="my-5 leading-[1.75] text-gray-300">Throttling mattered more than expected. Regenerating and rebinding the texture every single frame introduced a visible stutter, the same texture-upload cost any game engine pays for streaming a new texture to the GPU, just paid sixty times a second instead of the handful of times a second actually needed for legible scrolling logs. Capping the refresh to roughly four updates per second was indistinguishable from live to the eye, and made the frame time cost negligible.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">What Actually Broke, Repeatedly</h3>
+<p class="my-5 leading-[1.75] text-gray-300">The overlay version was forgiving. The material-level texture swap was not, and the two failure modes that ate the most debugging time were both memory-adjacent in the way reverse-engineering work usually is. First, holding a stale reference to the material instance across a scene reload, when the billboard&#x27;s chunk streamed out and back in, the original pointer no longer referred to a valid object, and writing to it produced exactly the crash you&#x27;d expect from touching freed memory. The fix was re-resolving the material reference on every relevant streaming event instead of caching it once and assuming permanence.</p>
+<p class="my-5 leading-[1.75] text-gray-300">Second, and more subtly, text legibility at in-game viewing distance turned out to be a rendering problem, not a data problem. The billboard sat far enough from typical player paths that a naively rendered 18-point monospace font on the texture became an illegible smear once mapped onto the mesh and viewed from thirty meters away in-engine. The eventual fix was rendering the text at a much larger effective size on the texture itself, oversized deliberately, relying on the billboard&#x27;s actual in-world scale to bring it back down to a legible size at typical viewing distance, rather than trying to match a &quot;natural&quot; font size that made sense on a flat 1024x512 canvas but not on a ten-meter advertising panel.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">Standing in Night City, Reading My Own Stack Trace</h3>
+<p class="my-5 leading-[1.75] text-gray-300">The finished result is, admittedly, a very silly thing to have built: walking down a rain-slicked street in a cyberpunk dystopia and glancing up at an advertising billboard to see, in real time, that a background job on the actual production server just finished processing a batch, or that a request took 340ms longer than it should have. But underneath the silliness sits a genuinely complete, working pipeline: a live SSH session on a phone, bridged over a local socket, rendered as a dynamically generated texture, bound at runtime into a AAA game engine&#x27;s material system by walking past the intended asset pipeline entirely.</p>
+<p class="my-5 leading-[1.75] text-gray-300">None of the individual pieces were exotic. WebSockets, a render-to-texture call, a resource hook. What made it feel like reverse engineering rather than scripting was the absence of any documentation for the specific thing being attempted, texture resources are meant to be static assets shipped with the game, not live buffers rewritten from an external data source sixty times a minute. Getting there meant reading disassembled engine calls, testing against a live process, and accepting that half the &quot;documentation&quot; was a crash log explaining exactly which assumption had just been violated.</p>
+<p class="my-5 leading-[1.75] text-gray-300">Night City doesn&#x27;t actually know it&#x27;s showing production logs. It just knows a texture changed, the same way it would if I&#x27;d painted over the billboard by hand. Which, in a sense, is exactly what happened.</p>
+                </div>
+
+                <footer class="mt-14 pt-8 border-t border-white/10">
+                    <p class="text-sm text-gray-500 leading-relaxed">Written by AP39, who builds the apps at
+                        <a href="../index.html" class="text-brandBlue hover:text-brandPink underline underline-offset-2 transition-colors">Crystl Labs</a>.
+                        Numbers in these posts come from runs that were actually made, not from memory. Corrections go to
+                        <a href="../contact.html" class="text-brandBlue hover:text-brandPink underline underline-offset-2 transition-colors">contact</a>.</p>
+                    <nav class="mt-8 flex justify-between gap-4"><a href="the-80mb-hello-world.html" class="group max-w-[48%] text-left rounded-xl border border-white/10 bg-panelBg/50 hover:border-brandPink/40 hover:bg-panelBg px-4 py-3 transition-all"><span class="block font-mono text-[10px] uppercase tracking-wider text-gray-500">Newer</span><span class="block mt-1 text-sm text-gray-300 group-hover:text-white transition-colors">The 80MB &quot;Hello World&quot;: Why Your Framework Is a Liability</span></a><a href="triangulating-my-cat.html" class="group max-w-[48%] text-right ml-auto rounded-xl border border-white/10 bg-panelBg/50 hover:border-brandPink/40 hover:bg-panelBg px-4 py-3 transition-all"><span class="block font-mono text-[10px] uppercase tracking-wider text-gray-500">Older</span><span class="block mt-1 text-sm text-gray-300 group-hover:text-white transition-colors">Triangulating My Cat Using Custom Sonar</span></a></nav>
+                </footer>
+            </article>
+        </main>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

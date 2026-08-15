@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rich Man Poor Man | Crystl Labs</title>
+    <meta name="description" content="Guess what the filthy rich and the dirt poor have in common.">
+    <meta property="og:title" content="Rich Man Poor Man | Crystl Labs">
+    <meta property="og:description" content="Guess what the filthy rich and the dirt poor have in common.">
+    <meta property="og:image" content="rich-man-poor-man.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/rich-man-poor-man.html">
+    <link rel="icon" type="image/png" href="../favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../blogs.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">blogs.html</a></li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../contact.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">contact.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="rich-man-poor-man.png" alt="Rich Man Poor Man" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Rich Man Poor Man</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Web</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Guess what the filthy rich and the dirt poor have in common.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">A party game of class warfare that runs in a browser with no signup and no install. Some things only the filthy rich do. Some things only the dirt poor do. The joke, and the whole game, is the overlap: the things both of them do while the middle class is left holding the bill. Play the Daily Challenge, the same ten rounds for everyone, resetting at noon KST, or Free Play for an endless draw from over six hundred scenarios. Every reveal comes with three punchlines, one per class. Score 100 a correct answer with a streak bonus from the second one, and climb from Peak Middle Class to Economic Horseshoe Genius. Liked cards feed a Hall of Fame, you can submit your own, and it installs as a PWA and works offline after the first visit.</p>
+
+                <a id="apStoreLink" href="https://richmanpoorman.crystllabs.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3a15 15 0 0 0 0 18M12 3a15 15 0 0 1 0 18M3 12h18M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18z"/></svg>
+                    <span id="apStore">Play in your browser</span>
+                </a>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/rich-man-poor-man/01.jpg" alt="Rich Man Poor Man screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/rich-man-poor-man/02.jpg" alt="Rich Man Poor Man screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/rich-man-poor-man/03.jpg" alt="Rich Man Poor Man screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/rich-man-poor-man/04.jpg" alt="Rich Man Poor Man screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+
+                <section class="mt-12">
+                    <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Dev log //</h2>
+                    <p class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-6 max-w-2xl">A single static page with no backend, which keeps the log unusually clean: almost every entry is content or balance rather than plumbing. The scenario bank has grown well past the 370 it launched with, and the interesting entries are the ones tuning how the game feels rather than what it contains, scaling the seeded vote counts so the Hall of Fame does not look fake on day one, and capping Community Picks so user submissions cannot bury the curated ones.</p>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 mb-6">
+                        <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
+                            <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Commits</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">13</div>
+                        </div>
+                        <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
+                            <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Days w/ changes</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">6</div>
+                        </div>
+                        <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
+                            <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Started</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">13 JUL 2026</div>
+                        </div>
+                    </div>
+                    <ul class="rounded-2xl border border-white/10 bg-panelBg/40 px-4 md:px-5 py-2">
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <time datetime="2026-08-08" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">08 AUG 2026</time>
+                            <span class="text-sm text-gray-300 leading-relaxed">Add 50 questions, scale seeded votes, cap Community Picks, add @ handles</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <time datetime="2026-07-29" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">29 JUL 2026</time>
+                            <span class="text-sm text-gray-300 leading-relaxed">Add robots.txt and sitemap.xml</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Fix broken Privacy and Terms footer links</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <time datetime="2026-07-27" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">27 JUL 2026</time>
+                            <span class="text-sm text-gray-300 leading-relaxed">Add ads.txt and policy links to footer</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <time datetime="2026-07-22" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">22 JUL 2026</time>
+                            <span class="text-sm text-gray-300 leading-relaxed">Add AdSense loader + bypass ad hosts in service worker</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <time datetime="2026-07-14" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">14 JUL 2026</time>
+                            <span class="text-sm text-gray-300 leading-relaxed">Format shared result text with line breaks instead of one smashed line</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <time datetime="2026-07-13" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">13 JUL 2026</time>
+                            <span class="text-sm text-gray-300 leading-relaxed">Add 235 daily scenarios (605 total)</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Reword tagline: neither one reads the terms</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Reset daily to Day 1 with global noon-KST rollover</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Fit reveal card on one desktop screen without scrolling</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Fit gameplay on one screen without scrolling</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Create CNAME</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Initial commit</span>
+                        </li>
+                    </ul>
+                    <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores and merge commits are filtered out.</p>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Rich Man Poor Man", "ko": "리치 맨 푸어 맨", "ja": "リッチマン・プアマン"}, "tagline": {"en": "Guess what the filthy rich and the dirt poor have in common.", "ko": "엄청난 부자와 찢어지게 가난한 사람의 공통점을 맞혀보세요.", "ja": "大金持ちと極貧が同じことをする瞬間を当てろ。"}, "desc": {"en": "A party game of class warfare that runs in a browser with no signup and no install. Some things only the filthy rich do. Some things only the dirt poor do. The joke, and the whole game, is the overlap: the things both of them do while the middle class is left holding the bill. Play the Daily Challenge, the same ten rounds for everyone, resetting at noon KST, or Free Play for an endless draw from over six hundred scenarios. Every reveal comes with three punchlines, one per class. Score 100 a correct answer with a streak bonus from the second one, and climb from Peak Middle Class to Economic Horseshoe Genius. Liked cards feed a Hall of Fame, you can submit your own, and it installs as a PWA and works offline after the first visit.", "ko": "브라우저에서 바로 돌아가는 계급 전쟁 파티 게임입니다. 가입도 설치도 필요 없습니다. 어떤 건 엄청난 부자만 합니다. 어떤 건 찢어지게 가난한 사람만 하죠. 그런데 진짜 웃긴 건, 그리고 이 게임의 전부는 겹치는 지점입니다. 둘 다 하는 일들, 그리고 그 계산서를 떠안는 중산층. 모두에게 동일한 10라운드가 주어지고 한국시간 정오에 초기화되는 데일리 챌린지를 즐기거나, 600개가 넘는 시나리오에서 무한히 뽑는 프리 플레이를 하세요. 정답이 공개될 때마다 계급별로 세 개의 펀치라인이 따라옵니다. 정답당 100점, 두 번째 연속 정답부터 스트릭 보너스가 붙고, 완벽한 중산층에서 경제 편자 이론의 천재까지 등급이 올라갑니다. 좋아요를 많이 받은 카드는 명예의 전당에 오르고, 직접 제출할 수도 있으며, PWA로 설치하면 첫 방문 이후 오프라인에서도 작동합니다.", "ja": "ブラウザだけで動く階級闘争パーティゲーム。登録もインストールも不要です。大金持ちしかやらないことがある。極貧しかやらないこともある。面白いのは、そしてこのゲームの全部は、その重なりです。両方がやること、そしてその請求書を押し付けられる中産階級。全員に同じ10ラウンドが配られ韓国時間の正午にリセットされるデイリーチャレンジか、600 以上のシナリオから無限に引くフリープレイで遊べます。正解が明かされるたびに階級ごとの3つのオチが付いてきます。正解ごとに100点、2連続目からストリークボーナス、完璧な中産階級から経済の馬蹄理論の天才まで駆け上がりましょう。人気カードは殿堂入りし、自分で投稿もでき、PWA としてインストールすれば初回訪問後はオフラインでも動きます。"}};
+        const STR = {"en": {"store": "Play in your browser", "shots": "Screenshots //"}, "ko": {"store": "브라우저에서 플레이", "shots": "스크린샷 //"}, "ja": {"store": "ブラウザでプレイ", "shots": "スクリーンショット //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+</body>
+</html>

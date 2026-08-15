@@ -37,6 +37,13 @@ def play_svg(cls='w-4 h-4'):
             'l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>')
 
 
+def globe_svg(cls='w-4 h-4'):
+    return (f'<svg class="{cls}" fill="none" viewBox="0 0 24 24" stroke="currentColor" '
+            'stroke-width="2" aria-hidden="true"><path stroke-linecap="round" '
+            'stroke-linejoin="round" d="M12 3a15 15 0 0 0 0 18M12 3a15 15 0 0 1 0 18M3 12h18'
+            'M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18z"/></svg>')
+
+
 def load_apps():
     with open(DATA_FILE, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -85,6 +92,121 @@ def status_badge(app, extra_class=''):
 
 
 # ---------------------------------------------------------------------------
+# Dev log
+#
+# devlog_data.json is produced by build_devlog.py straight out of each app's git
+# history, so every dated line below is a commit that exists. The intro is the
+# only hand-written part. Rendered oldest-last, newest first, and capped: the
+# full reflog is not reading material.
+# ---------------------------------------------------------------------------
+DEVLOG_FILE = os.path.join(ROOT, 'devlog_data.json')
+_DEVLOG = None
+MAX_ENTRIES = 40
+
+
+def devlog_all():
+    global _DEVLOG
+    if _DEVLOG is None:
+        if os.path.exists(DEVLOG_FILE):
+            with open(DEVLOG_FILE, encoding='utf-8') as f:
+                _DEVLOG = json.load(f)
+        else:
+            _DEVLOG = {}
+    return _DEVLOG
+
+
+MIN_LOG_ENTRIES = 25
+MIN_DESC_WORDS = 90
+
+
+def is_indexable(app):
+    """A page earns a place in the index by having something to read.
+
+    A shipped app always qualifies. An unshipped one qualifies two ways: a dev log
+    long enough that the page is a build history, or a description substantial
+    enough to stand on its own. A young project can be worth reading before it has
+    much history, and an old one can be worth reading with a thin description, so
+    either route is enough. What stays out is the page that has neither.
+    """
+    if is_live(app):
+        return True
+    log = devlog_all().get(app['slug']) or {}
+    if len([e for e in log.get('entries', []) if not e.get('chore')]) >= MIN_LOG_ENTRIES:
+        return True
+    return len((app.get('desc', {}).get('en') or '').split()) >= MIN_DESC_WORDS
+
+
+def _pretty_day(d):
+    try:
+        y, m, dd = d.split('-')
+        return f"{dd} {['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][int(m)-1]} {y}"
+    except Exception:
+        return d
+
+
+def render_devlog(app):
+    log = devlog_all().get(app['slug'])
+    if not log or not log.get('entries'):
+        return ''
+
+    s = log['stats']
+    # Product changes carry the story; chores are dropped from the visible list
+    entries = [e for e in log['entries'] if not e.get('chore')][:MAX_ENTRIES]
+    if not entries:
+        entries = log['entries'][:MAX_ENTRIES]
+
+    def stat(label, value):
+        return (f'''
+                        <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
+                            <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">{label}</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">{esc(str(value))}</div>
+                        </div>''')
+
+    tiles = stat('Commits', s['commits']) + stat('Days w/ changes', s['activeDays'])
+    tiles += stat('Started', _pretty_day(s['firstDay']))
+    if s.get('version'):
+        tiles += stat('Version', s['version'])
+
+    intro = log.get('intro') or ''
+    intro_html = (f'''
+                    <p class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-6 max-w-2xl">{esc(intro)}</p>'''
+                  if intro else '')
+
+    rows = ''
+    last_day = None
+    for e in entries:
+        day = e['date']
+        stamp = (f'<time datetime="{esc(day)}" class="shrink-0 w-[92px] font-mono text-[10px] '
+                 f'uppercase tracking-wider text-brandBlue/80 pt-0.5">{_pretty_day(day)}</time>'
+                 if day != last_day else
+                 '<span class="shrink-0 w-[92px]"></span>')
+        last_day = day
+        rows += f'''
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            {stamp}
+                            <span class="text-sm text-gray-300 leading-relaxed">{esc(e['subject'])}</span>
+                        </li>'''
+
+    more = ''
+    total = len([e for e in log['entries'] if not e.get('chore')])
+    if total > len(entries):
+        more = (f'''
+                    <p class="mt-4 font-mono text-[11px] text-gray-500">Showing the {len(entries)} most recent of '''
+                f'''{total} logged changes.</p>''')
+
+    return f'''
+
+                <section class="mt-12">
+                    <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Dev log //</h2>{intro_html}
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 mb-6">{tiles}
+                    </div>
+                    <ul class="rounded-2xl border border-white/10 bg-panelBg/40 px-4 md:px-5 py-2">{rows}
+                    </ul>{more}
+                    <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores and merge commits are filtered out.</p>
+                </section>'''
+
+
+# ---------------------------------------------------------------------------
 # Standalone per-app page
 # ---------------------------------------------------------------------------
 def render_page(app):
@@ -103,27 +225,41 @@ def render_page(app):
     live = is_live(app)
     store_url = esc(app.get('storeUrl', ''))
 
+    robots = '' if is_indexable(app) else '\n    <meta name="robots" content="noindex, follow">'
+
     # Stage badge next to Platform / Tier
     live_badge = '\n                            ' + status_badge(app)
 
-    # Store button: a real anchor once the app ships, the old dead chip until then
+    # Store button. A browser game is not "on Google Play" and a finished web tool
+    # whose subdomain is not up yet is not "in development", so the label follows
+    # the platform rather than assuming every project ships through the Play Store.
+    web = app.get('platform', '').lower().startswith('web')
+    icon = globe_svg if web else play_svg
+
     if live:
         store_block = f'''<a id="apStoreLink" href="{store_url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
-                    {play_svg()}
-                    <span id="apStore">Get it on Google Play</span>
+                    {icon()}
+                    <span id="apStore">{'Play in your browser' if web else 'Get it on Google Play'}</span>
                 </a>'''
     else:
         store_block = f'''<div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
-                    {play_svg('w-4 h-4 text-brandGreen/80')}
-                    <span id="apStore">In development</span>
+                    {icon('w-4 h-4 text-brandGreen/80')}
+                    <span id="apStore">{'Coming soon' if web else 'In development'}</span>
                 </div>'''
 
-    store_labels = ({'en': 'Get it on Google Play', 'ko': 'Google Play에서 받기', 'ja': 'Google Play で入手'}
-                    if live else
-                    {'en': 'In development', 'ko': '개발 중', 'ja': '開発中'})
+    if live:
+        store_labels = ({'en': 'Play in your browser', 'ko': '브라우저에서 플레이', 'ja': 'ブラウザでプレイ'}
+                        if web else
+                        {'en': 'Get it on Google Play', 'ko': 'Google Play에서 받기', 'ja': 'Google Play で入手'})
+    else:
+        store_labels = ({'en': 'Coming soon', 'ko': '출시 예정', 'ja': '近日公開'}
+                        if web else
+                        {'en': 'In development', 'ko': '개발 중', 'ja': '開発中'})
     shots_labels = {'en': 'Screenshots //', 'ko': '스크린샷 //', 'ja': 'スクリーンショット //'}
     store_str = json.dumps({lang: {'store': store_labels[lang], 'shots': shots_labels[lang]}
                             for lang in LANGS}, ensure_ascii=False)
+
+    devlog_block = render_devlog(app)
 
     shots = app.get('screenshots') or []
     if shots:
@@ -151,9 +287,10 @@ def render_page(app):
     <meta property="og:description" content="{tagline_en}">
     <meta property="og:image" content="{esc(app['icon'])}">
     <meta property="og:type" content="website">
-    <link rel="canonical" href="https://crystllabs.com/apps/{slug}.html">
+    <link rel="canonical" href="https://crystllabs.com/apps/{slug}.html">{robots}
     <link rel="icon" type="image/png" href="../favicon.png">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {{
@@ -225,6 +362,7 @@ def render_page(app):
                         </li>
                         <li><a href="../blogs.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">blogs.html</a></li>
                         <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../contact.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">contact.html</a></li>
                         <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
                         <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
                         <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
@@ -252,7 +390,7 @@ def render_page(app):
 
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">{desc_en}</p>
 
-                {store_block}{shots_block}
+                {store_block}{shots_block}{devlog_block}
             </div>
         </main>
     </div>
@@ -506,23 +644,41 @@ def seed_static_cards(apps):
 
 SITE = 'https://crystllabs.com'
 
+
+def blog_slugs():
+    """Posts are compiled by build_blog.py from blog_src/. Read the source rather
+    than the output so a half-written build cannot silently drop a URL."""
+    import glob as _glob
+    return sorted(os.path.splitext(os.path.basename(p))[0]
+                  for p in _glob.glob(os.path.join(ROOT, 'blog_src', '*.json')))
+
 TOP_PAGES = [
     ('', '1.0'),
-    ('projects.html', '0.9'),
-    ('blogs.html', '0.7'),
+    ('blogs.html', '0.9'),
+    ('projects.html', '0.8'),
     ('personnel.html', '0.6'),
-    ('privacy.html', '0.5'),
-    ('terms.html', '0.5'),
-    ('data-deletion.html', '0.5'),
+    ('contact.html', '0.6'),
+    ('privacy.html', '0.4'),
+    ('terms.html', '0.4'),
+    ('data-deletion.html', '0.4'),
 ]
 
 
 def write_sitemap(apps):
+    """Only pages we actually want indexed. Unshipped apps carry a noindex tag
+    (see render_page), so listing them here would just contradict it."""
     urls = [f'{SITE}/{p}' for p, _ in TOP_PAGES]
     prios = [pr for _, pr in TOP_PAGES]
+
+    for slug in blog_slugs():
+        urls.append(f'{SITE}/blog/{slug}.html')
+        prios.append('0.9')
+
     for a in apps:
+        if not is_indexable(a):
+            continue
         urls.append(f"{SITE}/apps/{a['slug']}.html")
-        prios.append('0.8')
+        prios.append('0.8' if is_live(a) else '0.6')
 
     body = '\n'.join(
         f'  <url>\n    <loc>{u}</loc>\n    <priority>{p}</priority>\n  </url>'

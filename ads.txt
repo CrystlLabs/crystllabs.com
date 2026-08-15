@@ -1,1 +1,13 @@
 google.com, pub-8883757785147352, DIRECT, f08c47fec0942fa0
+
+# Google only crawls a subdomain's ads.txt if the root file points at it.
+# Without these lines, inventory on the subdomains is unauthorised.
+subdomain=ap39.crystllabs.com
+subdomain=richmanpoorman.crystllabs.com
+subdomain=statclash.crystllabs.com
+subdomain=starclash.crystllabs.com
+subdomain=codesnob.crystllabs.com
+subdomain=fontguesser.crystllabs.com
+subdomain=whatyear.crystllabs.com
+subdomain=inflation.crystllabs.com
+subdomain=tools.crystllabs.com

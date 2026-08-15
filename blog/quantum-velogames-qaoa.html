@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
+    <title>Simulating the Tour de France on a 127-Qubit Quantum Processor | Crystl Labs</title>
+    <meta name="description" content="A Velogames roster is a multidimensional 0-1 knapsack, and knapsack is one of the benchmark problems QAOA is meant to own. The classical ILP solved it in 40ms. Real IBM hardware got to roughly 91% of optimal, and why it fell short is the actual result.">
+    <link rel="canonical" href="https://crystllabs.com/blog/quantum-velogames-qaoa.html">
+    <meta property="og:title" content="Simulating the Tour de France on a 127-Qubit Quantum Processor | Crystl Labs">
+    <meta property="og:description" content="A Velogames roster is a multidimensional 0-1 knapsack, and knapsack is one of the benchmark problems QAOA is meant to own. The classical ILP solved it in 40ms. Real IBM hardware got to roughly 91% of optimal, and why it fell short is the actual result.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://crystllabs.com/blog/quantum-velogames-qaoa.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="../favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        :root { color-scheme: dark; }
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+    </style>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Simulating the Tour de France on a 127-Qubit Quantum Processor", "description": "A Velogames roster is a multidimensional 0-1 knapsack, and knapsack is one of the benchmark problems QAOA is meant to own. The classical ILP solved it in 40ms. Real IBM hardware got to roughly 91% of optimal, and why it fell short is the actual result.", "datePublished": "2026-07-22T00:00:00Z", "author": {"@type": "Person", "name": "AP39", "url": "https://ap39.crystllabs.com/"}, "publisher": {"@type": "Organization", "name": "Crystl Labs", "logo": {"@type": "ImageObject", "url": "https://crystllabs.com/crystl1.png"}}, "mainEntityOfPage": "https://crystllabs.com/blog/quantum-velogames-qaoa.html", "wordCount": 1444}</script>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+            <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+            <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+        </a>
+        <span class="hidden md:inline-flex items-center gap-1.5 font-mono text-[11px] text-brandGreen/90 uppercase tracking-wide">
+            <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+            <span>CONNECTED</span>
+        </span>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>&#128193;</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                            <li><a href="../projects.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">projects.html</a></li>
+                            <li><a href="../blogs.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">blogs.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span></a></li>
+                            <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                            <li><a href="../contact.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">contact.html</a></li>
+                            <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                            <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                            <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <article class="max-w-3xl mx-auto">
+                <a href="../blogs.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all posts</a>
+
+                <header class="mb-8 pb-8 border-b border-white/10">
+                    <div class="font-mono text-[11px] uppercase tracking-widest text-brandBlue/90 mb-3">Directive 2026-07-22</div>
+                    <h1 class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Simulating the Tour de France on a 127-Qubit Quantum Processor</h1>
+                    <p class="mt-4 text-gray-400 text-sm md:text-base leading-relaxed">A Velogames roster is a multidimensional 0-1 knapsack, and knapsack is one of the benchmark problems QAOA is meant to own. The classical ILP solved it in 40ms. Real IBM hardware got to roughly 91% of optimal, and why it fell short is the actual result.</p>
+                    <div class="mt-5 flex flex-wrap items-center gap-3 font-mono text-[11px] uppercase tracking-wider text-gray-500">
+                        <span class="text-brandPink/90">By AP39</span>
+                        <span class="text-white/20">/</span>
+                        <time datetime="2026-07-22">22 JUL 2026</time>
+                        <span class="text-white/20">/</span>
+                        <span>7 min read</span>
+                    </div>
+                </header>
+
+                <div class="text-[15px] md:text-base">
+<p class="my-5 leading-[1.75] text-gray-300">Every July, the same optimization problem shows up disguised as a hobby: pick a Velogames roster of riders, stay under a 100-credit budget, maximize points across three weeks of racing. It&#x27;s a constrained combinatorial optimization problem wearing a cycling jersey, and constrained combinatorial optimization problems have a very specific, very tempting property. They map almost directly onto the exact class of problem quantum annealing and gate-based quantum optimization were theoretically built to attack. So instead of doing what every sane fantasy cycling player does, guessing based on form and parcours, I formulated the entire roster selection as a 0-1 knapsack problem and ran it on a 127-qubit IBM quantum processor to see if the universe&#x27;s most exotic computing hardware could out-draft a spreadsheet.</p>
+<p class="my-5 leading-[1.75] text-gray-300">The honest answer, up front, is more interesting than a clean victory for quantum supremacy. But getting to that answer required actually building the thing, not just gesturing at it.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">The Roster Problem, Stated as Math</h3>
+<p class="my-5 leading-[1.75] text-gray-300">Velogames constrains you to a fixed credit budget (100 credits) spread across a fixed roster size, drawing from a pool of riders each assigned a credit cost and, retrospectively, a points total based on real race results. Strip away the cycling-specific framing and the structure underneath is textbook 0-1 knapsack: a set of items (riders), each with a weight (credit cost) and a value (projected points), select a subset that maximizes total value subject to a total weight constraint, where each item is either fully included or fully excluded.</p>
+<p class="my-5 leading-[1.75] text-gray-300">The multidimensional part comes from Velogames&#x27; actual rules, which don&#x27;t just cap total credits, they also require specific slot categories to be filled (a mix of All-Rounders, Climbers, Sprinters, Unclassed riders, and a mandatory pick from one of the weaker teams). That turns a single-constraint knapsack into a multidimensional one: every rider carries not just a cost and a value, but a category vector, and the optimizer has to satisfy the budget constraint and every category-count constraint simultaneously.</p>
+<p class="my-5 leading-[1.75] text-gray-300">Classically, this is expressed as an integer linear program:</p>
+<pre class="my-6 overflow-x-auto rounded-xl border border-white/10 bg-black/40 p-4 text-[13px] leading-relaxed"><code class="font-mono text-gray-300">maximize:   sum(value[i] * x[i] for i in riders)
+subject to: sum(cost[i] * x[i] for i in riders) &lt;= 100
+            sum(x[i] for i in category[c]) == slot_count[c], for each category c
+            x[i] in {0, 1}</code></pre>
+<p class="my-5 leading-[1.75] text-gray-300">That formulation, handed to a classical ILP solver, is not hard. It&#x27;s the kind of problem branch-and-bound solvers chew through in well under a second for a rider pool in the low hundreds. Which raises the obvious question of why bother with a quantum processor at all, and the honest answer is curiosity plus the fact that this exact problem class, constrained knapsack, is one of the standard benchmark problems the quantum optimization community itself uses to demonstrate QAOA. If it was going to prove itself anywhere, it was going to be here.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">From Knapsack to QUBO to a Hamiltonian</h3>
+<p class="my-5 leading-[1.75] text-gray-300">Gate-based quantum optimization via QAOA doesn&#x27;t take a linear program as input. It needs the problem reformulated as a QUBO, a quadratic unconstrained binary optimization problem, which then maps onto an Ising Hamiltonian the quantum circuit can actually encode as qubit interactions. That reformulation is where most of the real engineering effort went, not in the quantum circuit itself.</p>
+<p class="my-5 leading-[1.75] text-gray-300">Constraints in a QUBO aren&#x27;t enforced structurally, the way they are in an ILP solver. They&#x27;re enforced by penalty terms added into the objective function, weighted heavily enough that any solution violating a constraint scores worse than any valid solution, no matter how good its raw point total looks. The budget constraint became a penalty term:</p>
+<pre class="my-6 overflow-x-auto rounded-xl border border-white/10 bg-black/40 p-4 text-[13px] leading-relaxed"><code class="font-mono text-gray-300">penalty_budget = lambda_budget * (sum(cost[i] * x[i] for i in riders) - 100) ** 2</code></pre>
+<p class="my-5 leading-[1.75] text-gray-300">Squaring the constraint violation is what turns a linear inequality into a quadratic penalty a QUBO can express, and choosing <code class="px-1.5 py-0.5 rounded bg-white/10 text-brandGreen/90 font-mono text-[0.85em]">lambda_budget</code> correctly turned out to be its own delicate balancing act: too small, and the optimizer happily blows the budget in exchange for a few extra points; too large, and the penalty term dominates the landscape so completely that the optimizer stops caring about maximizing points at all, it just desperately avoids the penalty. Each category slot constraint needed its own analogous quadratic penalty term, and getting five or six of these penalty weights tuned relative to each other, and relative to the actual point-value scale of the objective, ate more debugging time than the quantum circuit itself.</p>
+<p class="my-5 leading-[1.75] text-gray-300">Once assembled, the full QUBO for even a modestly-sized rider pool, around 80 real riders considered for selection, required one qubit per rider as a binary decision variable, comfortably within the 127-qubit budget of the processor, at least in terms of raw qubit count.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">Running QAOA on Real Hardware</h3>
+<p class="my-5 leading-[1.75] text-gray-300">QAOA works by alternating layers of a &quot;cost&quot; unitary, derived directly from the QUBO&#x27;s Hamiltonian, with a &quot;mixer&quot; unitary that lets the quantum state explore across different candidate solutions, repeated for <code class="px-1.5 py-0.5 rounded bg-white/10 text-brandGreen/90 font-mono text-[0.85em]">p</code> layers, with <code class="px-1.5 py-0.5 rounded bg-white/10 text-brandGreen/90 font-mono text-[0.85em]">2p</code> classical parameters tuned by a classical optimizer running alongside the quantum circuit in a hybrid loop.</p>
+<pre class="my-6 overflow-x-auto rounded-xl border border-white/10 bg-black/40 p-4 text-[13px] leading-relaxed"><code class="font-mono text-gray-300">from qiskit_optimization.applications import Knapsack
+from qiskit_algorithms import QAOA
+from qiskit_algorithms.optimizers import COBYLA
+from qiskit.primitives import Sampler
+
+qaoa = QAOA(sampler=Sampler(), optimizer=COBYLA(maxiter=200), reps=3)
+result = qaoa.compute_minimum_eigenvalue(qubo_hamiltonian)</code></pre>
+<p class="my-5 leading-[1.75] text-gray-300"><code class="px-1.5 py-0.5 rounded bg-white/10 text-brandGreen/90 font-mono text-[0.85em]">reps=3</code> (three QAOA layers, <code class="px-1.5 py-0.5 rounded bg-white/10 text-brandGreen/90 font-mono text-[0.85em]">p=3</code>) was already a compromise. More layers generally improve the quality of the approximation the circuit can reach, but every additional layer adds circuit depth, and circuit depth on real NISQ-era hardware is where the entire experiment&#x27;s honesty gets tested. Each additional layer means more two-qubit gates, and every two-qubit gate on current superconducting hardware carries a non-trivial error rate, somewhere in the range of a fraction of a percent per gate depending on which physical qubits are involved. Stack enough of them across 80 problem qubits worth of interaction terms and the cumulative decoherence across the circuit&#x27;s depth starts eating into the signal before the algorithm ever gets a chance to converge on a good answer.</p>
+<p class="my-5 leading-[1.75] text-gray-300">Getting an 80-variable QUBO&#x27;s interaction graph mapped onto the actual physical qubit connectivity of the processor required transpilation with substantial SWAP gate insertion, since the QUBO&#x27;s interaction graph (every rider potentially penalized against every other rider sharing a category constraint) is far denser than the physical hardware&#x27;s native qubit-to-qubit connectivity. Every inserted SWAP gate is itself built from multiple two-qubit gates, meaning the effective circuit depth actually executed on hardware ballooned well past the &quot;3 layers&quot; the algorithm nominally specified.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">The Result, Honestly Reported</h3>
+<p class="my-5 leading-[1.75] text-gray-300">The classical ILP solver found the provably optimal roster, the mathematically best possible combination under every constraint, in about 40 milliseconds. The QAOA run on real IBM hardware, after roughly 200 hybrid optimization iterations and a meaningful queue wait for hardware time, returned a sampled distribution over candidate bitstrings, and the best bitstring pulled from that distribution scored approximately 91% of the classically optimal roster&#x27;s projected points, while occasionally sampling constraint-violating solutions that had to be discarded entirely.</p>
+<p class="my-5 leading-[1.75] text-gray-300">That&#x27;s not a quantum failure in any deep sense, it&#x27;s exactly the outcome the current state of NISQ-era hardware predicts. QAOA on a problem this size, at this circuit depth, on hardware with today&#x27;s gate error rates, isn&#x27;t trying to prove it can beat a 40-millisecond classical solve. Nobody serious in the field currently claims it can, for a problem this small. The actual research value of running combinatorial optimization on near-term quantum hardware lives in a different place: characterizing exactly how solution quality degrades as problem size and circuit depth scale, and how far current hardware still sits from the fault-tolerant regime where these algorithms are expected to eventually matter.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">The Actual Takeaway</h3>
+<p class="my-5 leading-[1.75] text-gray-300">Running a Velogames roster through a genuine 127-qubit quantum processor wasn&#x27;t really a story about beating a spreadsheet. A spreadsheet, or more precisely a well-implemented branch-and-bound ILP solver, remains the objectively correct tool for this exact problem today, by a margin measured in orders of magnitude, both in solve time and in guaranteed optimality. Nothing about that changes because the quantum run was novel.</p>
+<p class="my-5 leading-[1.75] text-gray-300">What it did produce was a very concrete, hands-on encounter with the actual gap between where quantum optimization theory currently stands and where fault-tolerant, error-corrected hardware would need to be for that theory to translate into a practical advantage on a problem this size. The QUBO formulation was clean. The Hamiltonian mapping was correct. The circuit ran, sampled, and converged toward a decent, non-trivial answer. It just wasn&#x27;t a better answer, and understanding precisely why, gate error rates compounding across transpiled circuit depth, penalty term tuning fighting against a shallow variational landscape, is a far more honest and far more useful result than pretending the quantum processor won a race it was never actually equipped to enter yet.</p>
+<p class="my-5 leading-[1.75] text-gray-300">The peloton, for now, remains more efficiently optimized by branch-and-bound than by superposition.</p>
+                </div>
+
+                <footer class="mt-14 pt-8 border-t border-white/10">
+                    <p class="text-sm text-gray-500 leading-relaxed">Written by AP39, who builds the apps at
+                        <a href="../index.html" class="text-brandBlue hover:text-brandPink underline underline-offset-2 transition-colors">Crystl Labs</a>.
+                        Numbers in these posts come from runs that were actually made, not from memory. Corrections go to
+                        <a href="../contact.html" class="text-brandBlue hover:text-brandPink underline underline-offset-2 transition-colors">contact</a>.</p>
+                    <nav class="mt-8 flex justify-between gap-4"><a href="quantum-tour-de-france-fantasy-graded.html" class="group max-w-[48%] text-left rounded-xl border border-white/10 bg-panelBg/50 hover:border-brandPink/40 hover:bg-panelBg px-4 py-3 transition-all"><span class="block font-mono text-[10px] uppercase tracking-wider text-gray-500">Newer</span><span class="block mt-1 text-sm text-gray-300 group-hover:text-white transition-colors">The Quantum Computer Was Right About Pogačar by 84 Points. Four Editions of Data Say That Was a Coin Flip.</span></a><a href="quantum-tour-de-france-fantasy.html" class="group max-w-[48%] text-right ml-auto rounded-xl border border-white/10 bg-panelBg/50 hover:border-brandPink/40 hover:bg-panelBg px-4 py-3 transition-all"><span class="block font-mono text-[10px] uppercase tracking-wider text-gray-500">Older</span><span class="block mt-1 text-sm text-gray-300 group-hover:text-white transition-colors">I Picked My Tour de France Fantasy Team With a Real Quantum Computer. It Told Me Not to Buy Pogačar.</span></a></nav>
+                </footer>
+            </article>
+        </main>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
+    <title>Why I Keep My Data in Text Files (And You Should Too) | Crystl Labs</title>
+    <meta name="description" content="A managed cluster is a single point of failure sitting behind an API you don&#x27;t own. A SQLite file has exactly one failure mode: the disk fails. You can test that one, back up against it in a line of shell, and never wait on someone else&#x27;s incident response team.">
+    <link rel="canonical" href="https://crystllabs.com/blog/flat-files-over-databases.html">
+    <meta property="og:title" content="Why I Keep My Data in Text Files (And You Should Too) | Crystl Labs">
+    <meta property="og:description" content="A managed cluster is a single point of failure sitting behind an API you don&#x27;t own. A SQLite file has exactly one failure mode: the disk fails. You can test that one, back up against it in a line of shell, and never wait on someone else&#x27;s incident response team.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://crystllabs.com/blog/flat-files-over-databases.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="../favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        :root { color-scheme: dark; }
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+    </style>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Why I Keep My Data in Text Files (And You Should Too)", "description": "A managed cluster is a single point of failure sitting behind an API you don't own. A SQLite file has exactly one failure mode: the disk fails. You can test that one, back up against it in a line of shell, and never wait on someone else's incident response team.", "datePublished": "2026-04-28T00:00:00Z", "author": {"@type": "Person", "name": "AP39", "url": "https://ap39.crystllabs.com/"}, "publisher": {"@type": "Organization", "name": "Crystl Labs", "logo": {"@type": "ImageObject", "url": "https://crystllabs.com/crystl1.png"}}, "mainEntityOfPage": "https://crystllabs.com/blog/flat-files-over-databases.html", "wordCount": 1253}</script>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+            <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+            <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+        </a>
+        <span class="hidden md:inline-flex items-center gap-1.5 font-mono text-[11px] text-brandGreen/90 uppercase tracking-wide">
+            <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+            <span>CONNECTED</span>
+        </span>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>&#128193;</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                            <li><a href="../projects.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">projects.html</a></li>
+                            <li><a href="../blogs.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">blogs.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span></a></li>
+                            <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                            <li><a href="../contact.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">contact.html</a></li>
+                            <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                            <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                            <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <article class="max-w-3xl mx-auto">
+                <a href="../blogs.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all posts</a>
+
+                <header class="mb-8 pb-8 border-b border-white/10">
+                    <div class="font-mono text-[11px] uppercase tracking-widest text-brandBlue/90 mb-3">Directive 2026-04-28</div>
+                    <h1 class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Why I Keep My Data in Text Files (And You Should Too)</h1>
+                    <p class="mt-4 text-gray-400 text-sm md:text-base leading-relaxed">A managed cluster is a single point of failure sitting behind an API you don&#x27;t own. A SQLite file has exactly one failure mode: the disk fails. You can test that one, back up against it in a line of shell, and never wait on someone else&#x27;s incident response team.</p>
+                    <div class="mt-5 flex flex-wrap items-center gap-3 font-mono text-[11px] uppercase tracking-wider text-gray-500">
+                        <span class="text-brandPink/90">By AP39</span>
+                        <span class="text-white/20">/</span>
+                        <time datetime="2026-04-28">28 APR 2026</time>
+                        <span class="text-white/20">/</span>
+                        <span>6 min read</span>
+                    </div>
+                </header>
+
+                <div class="text-[15px] md:text-base">
+<p class="my-5 leading-[1.75] text-gray-300">Databases have become a cult, and nobody in the congregation is allowed to ask the obvious question out loud: do you actually have the traffic to justify any of this? Somewhere along the way, &quot;cloud-hosted, multi-region, horizontally-sharded SQL cluster&quot; stopped being an answer to a scaling problem and became the default starting point, the thing you reach for on day one, before you&#x27;ve shipped a single feature, before you have a single user, before you have any evidence at all that a single Postgres instance on a single machine would have buckled under your load. It won&#x27;t. For the overwhelming majority of apps that will ever be built, it never will.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">The Single Point of Failure You Already Have</h3>
+<p class="my-5 leading-[1.75] text-gray-300">Here&#x27;s the sales pitch for the distributed database: resilience. No single point of failure. Automatic failover. Multi-region replication so a data center fire in one continent doesn&#x27;t take down your app in another. It&#x27;s a genuinely compelling pitch, right up until you notice that you&#x27;ve traded one single point of failure for a dozen new ones you don&#x27;t control and can&#x27;t debug at 2am.</p>
+<p class="my-5 leading-[1.75] text-gray-300">Your managed database cluster is a single point of failure sitting behind an API you don&#x27;t own, maintained by an operations team you&#x27;ll never speak to, with an incident response time measured against their SLA, not your users&#x27; patience. When it goes down, and managed cloud databases do go down, entire regions of them, on schedules nobody announces in advance, you get to sit in a status page refresh loop with everyone else who trusted the same abstraction, unable to do anything but wait. That&#x27;s not resilience. That&#x27;s outsourced fragility with better marketing.</p>
+<p class="my-5 leading-[1.75] text-gray-300">A single SQLite file sitting on disk has exactly one failure mode: the disk fails. You know exactly what that failure mode looks like, you can test it, you can back up against it trivially, and you are never, under any circumstances, waiting on someone else&#x27;s incident response team to fix your own database.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">The Math Nobody Runs Before Choosing Postgres-as-a-Service</h3>
+<p class="my-5 leading-[1.75] text-gray-300">Modern SQLite, properly indexed, on a single machine with a reasonable SSD, handles tens of thousands of reads per second and comfortably into the thousands of writes per second for the overwhelming majority of app workloads, single-writer constraints and all. That&#x27;s not a cute benchmark, that&#x27;s a number most side projects, most internal tools, and most early-stage products will never come close to touching in their entire lifetime.</p>
+<p class="my-5 leading-[1.75] text-gray-300">Ask yourself honestly what your actual concurrent write load looks like. Not your aspirational, Series-B-pitch-deck, hockey-stick-growth-chart write load. Your real one, this month, with your real user count. For a huge share of apps that answer is somewhere between &quot;a few dozen writes a minute&quot; and &quot;a few hundred a day,&quot; a load that a laptop from four years ago running SQLite off a local SSD wouldn&#x27;t even register as work. You bolted on a distributed cluster to solve a scaling problem you don&#x27;t have, and in exchange you paid a very real cost: network round trips on every single query, a whole new class of connection-pool exhaustion bugs, a monthly bill, and an entire operational surface area (backups, replicas, failover, migrations across a live cluster) that exists purely to serve traffic you were never going to see.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">Backups Are Where the Cult Really Falls Apart</h3>
+<p class="my-5 leading-[1.75] text-gray-300">Ask a team running a managed multi-region cluster to walk you through their actual disaster recovery process, step by step, from &quot;the primary region is gone&quot; to &quot;the app is serving correct data again.&quot; Watch how long the explanation takes. Watch how many acronyms show up. Watch how much of it depends on a vendor dashboard staying reachable during the exact outage you&#x27;re trying to recover from.</p>
+<p class="my-5 leading-[1.75] text-gray-300">Now ask what it takes to back up a flat file or a single SQLite database. It&#x27;s a file. You copy the file. <code class="px-1.5 py-0.5 rounded bg-white/10 text-brandGreen/90 font-mono text-[0.85em]">cp data.sqlite backup/data-$(date +%s).sqlite</code>, cron it, ship the copy somewhere durable, done. Restoring is copying it back. There is no replication lag to reason about, no eventual-consistency window where a read might return stale data depending on which replica answered, no multi-step runbook with steps that can silently fail out of order. The entire backup and restore story fits in one line of shell and is fully understandable by a single engineer with zero specialized distributed-systems training.</p>
+<p class="my-5 leading-[1.75] text-gray-300">This isn&#x27;t a toy-scale argument either. Companies running SQLite in production at meaningful scale routinely point to exactly this property: a database you can literally hand someone as a single file is a database whose failure modes you can actually reason about, instead of trusting to a vendor&#x27;s internal architecture you&#x27;ll never get to inspect.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">Where the Cult Has a Point (And Where It Stops)</h3>
+<p class="my-5 leading-[1.75] text-gray-300">None of this is an argument that distributed databases are useless. If you are actually running multi-region traffic in the millions of requests per day, with genuine concurrent-write contention from thousands of simultaneous users hammering the same rows, a single-file database is the wrong tool, and pretending otherwise is its own kind of cult behavior in reverse. Real scale is real, and when it shows up, the tradeoffs flip: network overhead becomes worth it, operational complexity becomes worth it, because the alternative is an actual outage caused by an actual bottleneck.</p>
+<p class="my-5 leading-[1.75] text-gray-300">The problem was never that distributed databases are bad engineering. The problem is that &quot;distributed database&quot; became the reflexive answer to &quot;how should I store data,&quot; asked and answered before anyone checked whether the question needed that answer. It&#x27;s cargo cult architecture: copying the infrastructure choices of companies operating at a scale you don&#x27;t have, because their blog posts are the ones that get shared, not because your actual traffic graph has anything in common with theirs.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">What This Looks Like in Practice</h3>
+<p class="my-5 leading-[1.75] text-gray-300">For a genuinely large share of apps, especially the solo-developer, early-stage, &quot;I have an idea and I&#x27;m building it&quot; category, the honest architecture looks something like this: SQLite as the primary datastore, WAL mode enabled for better concurrent read/write behavior, a properly designed schema with real indexes (the &quot;properly indexed&quot; part isn&#x27;t optional, an unindexed flat file is genuinely slow, an indexed one is not), and a simple, boring, cron-driven backup script shipping copies to durable object storage on a schedule.</p>
+<p class="my-5 leading-[1.75] text-gray-300">That setup is faster than a network-hop-per-query cloud database for the vast majority of real-world query patterns, because there&#x27;s no network hop at all, the query executes on the same machine as the code calling it. It&#x27;s cheaper, because you&#x27;re paying for a disk instead of a managed service markup. It&#x27;s easier to reason about during an incident, because the entire failure surface is a single file on a single disk instead of a distributed system&#x27;s worth of moving parts you didn&#x27;t build and can&#x27;t fully see into. And it&#x27;s easier to migrate away from later, if and when you actually hit the scale that justifies something bigger, because a well-structured SQLite schema translates to Postgres in an afternoon, not a rewrite.</p>
+<p class="my-5 leading-[1.75] text-gray-300">The distributed cluster isn&#x27;t wrong. It&#x27;s premature, in the overwhelming majority of cases where teams reach for it, applied to a scale problem that exists only in the pitch deck, not in the traffic logs. Reach for the flat file first. Reach for SQLite first. Let real, measured, undeniable load be the thing that eventually forces your hand toward something more complex, instead of letting a blog post from a company processing a billion requests a day make that decision for you before you&#x27;ve shipped anything at all.</p>
+                </div>
+
+                <footer class="mt-14 pt-8 border-t border-white/10">
+                    <p class="text-sm text-gray-500 leading-relaxed">Written by AP39, who builds the apps at
+                        <a href="../index.html" class="text-brandBlue hover:text-brandPink underline underline-offset-2 transition-colors">Crystl Labs</a>.
+                        Numbers in these posts come from runs that were actually made, not from memory. Corrections go to
+                        <a href="../contact.html" class="text-brandBlue hover:text-brandPink underline underline-offset-2 transition-colors">contact</a>.</p>
+                    <nav class="mt-8 flex justify-between gap-4"><a href="bus-factor-of-one.html" class="group max-w-[48%] text-left rounded-xl border border-white/10 bg-panelBg/50 hover:border-brandPink/40 hover:bg-panelBg px-4 py-3 transition-all"><span class="block font-mono text-[10px] uppercase tracking-wider text-gray-500">Newer</span><span class="block mt-1 text-sm text-gray-300 group-hover:text-white transition-colors">The &quot;Bus Factor&quot; of One: Engineering for the Solo Dev</span></a><span></span></nav>
+                </footer>
+            </article>
+        </main>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
