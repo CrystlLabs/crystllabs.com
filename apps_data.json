@@ -427,7 +427,14 @@
    },
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.dork",
-   "releasedOn": "2026-08-20"
+   "releasedOn": "2026-08-20",
+   "screenshots": [
+    "shots/dork/01.jpg",
+    "shots/dork/02.jpg",
+    "shots/dork/03.jpg",
+    "shots/dork/04.jpg",
+    "shots/dork/05.jpg"
+   ]
   },
   {
    "slug": "letterman",

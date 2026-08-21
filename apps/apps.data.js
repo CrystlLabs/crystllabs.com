@@ -56,7 +56,13 @@ window.CRYSTL_APPS = [
         },
         "status": "Live",
         "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.dork",
-        "screenshots": []
+        "screenshots": [
+            "apps/shots/dork/01.jpg",
+            "apps/shots/dork/02.jpg",
+            "apps/shots/dork/03.jpg",
+            "apps/shots/dork/04.jpg",
+            "apps/shots/dork/05.jpg"
+        ]
     },
     {
         "id": "mise",
