@@ -77,6 +77,18 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://crystllabs.com/apps/bent-fc.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/dork.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/mise.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://crystllabs.com/apps/marathon-kid.html</loc>
     <priority>0.8</priority>
   </url>
@@ -141,11 +153,11 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://crystllabs.com/apps/bent-fc.html</loc>
+    <loc>https://crystllabs.com/apps/domestique.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://crystllabs.com/apps/domestique.html</loc>
+    <loc>https://crystllabs.com/apps/chess-drill-instructor.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
@@ -153,15 +165,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://crystllabs.com/apps/dork.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://crystllabs.com/apps/letterman.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/apps/mise.html</loc>
     <priority>0.6</priority>
   </url>
   <url>

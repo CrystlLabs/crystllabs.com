@@ -95,13 +95,14 @@ def status_badge(app, extra_class=''):
 # Dev log
 #
 # devlog_data.json is produced by build_devlog.py straight out of each app's git
-# history, so every dated line below is a commit that exists. The intro is the
-# only hand-written part. Rendered oldest-last, newest first, and capped: the
-# full reflog is not reading material.
+# history, so every dated line below is a commit that exists. build_devlog.py has
+# already thrown out the chores, the phase numbers and the notes-to-self; this
+# side just shows the newest handful of what is left. The intro is the only
+# hand-written part.
 # ---------------------------------------------------------------------------
 DEVLOG_FILE = os.path.join(ROOT, 'devlog_data.json')
 _DEVLOG = None
-MAX_ENTRIES = 40
+MAX_ENTRIES = 12
 
 
 def devlog_all():
@@ -115,23 +116,27 @@ def devlog_all():
     return _DEVLOG
 
 
-MIN_LOG_ENTRIES = 25
+MIN_LOG_COMMITS = 25
 MIN_DESC_WORDS = 90
 
 
 def is_indexable(app):
     """A page earns a place in the index by having something to read.
 
-    A shipped app always qualifies. An unshipped one qualifies two ways: a dev log
+    A shipped app always qualifies. An unshipped one qualifies two ways: a history
     long enough that the page is a build history, or a description substantial
     enough to stand on its own. A young project can be worth reading before it has
     much history, and an old one can be worth reading with a thin description, so
     either route is enough. What stays out is the page that has neither.
+
+    The test is the commit count, not the number of visible log lines: the visible
+    lines are a filtered highlight reel, so a long-running project with a terse
+    commit style would fail a line count while plainly deserving a page.
     """
     if is_live(app):
         return True
     log = devlog_all().get(app['slug']) or {}
-    if len([e for e in log.get('entries', []) if not e.get('chore')]) >= MIN_LOG_ENTRIES:
+    if (log.get('stats') or {}).get('commits', 0) >= MIN_LOG_COMMITS:
         return True
     return len((app.get('desc', {}).get('en') or '').split()) >= MIN_DESC_WORDS
 
@@ -150,10 +155,7 @@ def render_devlog(app):
         return ''
 
     s = log['stats']
-    # Product changes carry the story; chores are dropped from the visible list
-    entries = [e for e in log['entries'] if not e.get('chore')][:MAX_ENTRIES]
-    if not entries:
-        entries = log['entries'][:MAX_ENTRIES]
+    entries = log['entries'][:MAX_ENTRIES]
 
     def stat(label, value):
         return (f'''
@@ -188,11 +190,10 @@ def render_devlog(app):
                         </li>'''
 
     more = ''
-    total = len([e for e in log['entries'] if not e.get('chore')])
-    if total > len(entries):
+    if s['commits'] > len(entries):
         more = (f'''
-                    <p class="mt-4 font-mono text-[11px] text-gray-500">Showing the {len(entries)} most recent of '''
-                f'''{total} logged changes.</p>''')
+                    <p class="mt-4 font-mono text-[11px] text-gray-500">The {len(entries)} most recent '''
+                f'''changes worth reading, out of {s['commits']} commits.</p>''')
 
     return f'''
 
@@ -202,7 +203,7 @@ def render_devlog(app):
                     </div>
                     <ul class="rounded-2xl border border-white/10 bg-panelBg/40 px-4 md:px-5 py-2">{rows}
                     </ul>{more}
-                    <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores and merge commits are filtered out.</p>
+                    <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores, merges and internal housekeeping are filtered out.</p>
                 </section>'''
 
 

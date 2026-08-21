@@ -128,7 +128,7 @@
 
                 <section class="mt-12">
                     <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Dev log //</h2>
-                    <p class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-6 max-w-2xl">Short history, because these sites share almost everything: the engine, the share loop, the daily plumbing and the base CSS all live in the monorepo&#x27;s shared/ folder, so a change that improves StatClash usually shows up in that folder rather than this one. What is committed here is the deck and the theme. The deck builder hits the YouTube Data API and caches, so re-filtering costs nothing and only a genuine refresh spends quota.</p>
+                    <p class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-6 max-w-2xl">Short history, because these sites share almost everything through the monorepo&#x27;s shared/ folder. What is committed here is the deck and the theme.</p>
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 mb-6">
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Commits</div>
@@ -147,10 +147,6 @@
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <time datetime="2026-08-01" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">01 AUG 2026</time>
                             <span class="text-sm text-gray-300 leading-relaxed">Font Guesser: 54 self-hosted typefaces, distractors by classification</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Resource hints on the LCP path; record live Lighthouse numbers</span>
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <span class="shrink-0 w-[92px]"></span>
@@ -177,7 +173,8 @@
                             <span class="text-sm text-gray-300 leading-relaxed">Rework web prototypes into one repo with a shared engine</span>
                         </li>
                     </ul>
-                    <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores and merge commits are filtered out.</p>
+                    <p class="mt-4 font-mono text-[11px] text-gray-500">The 7 most recent changes worth reading, out of 8 commits.</p>
+                    <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores, merges and internal housekeeping are filtered out.</p>
                 </section>
             </div>
         </main>

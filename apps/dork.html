@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dork95 | Crystl Labs</title>
+    <title>DORK | Crystl Labs</title>
     <meta name="description" content="A text adventure you play entirely by ear — LOOK doesn&#x27;t work here.">
-    <meta property="og:title" content="Dork95 | Crystl Labs">
+    <meta property="og:title" content="DORK | Crystl Labs">
     <meta property="og:description" content="A text adventure you play entirely by ear — LOOK doesn&#x27;t work here.">
     <meta property="og:image" content="dork.png">
     <meta property="og:type" content="website">
@@ -98,13 +98,13 @@
                 <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
 
                 <header class="flex items-center gap-5 mb-6">
-                    <img id="apIcon" src="dork.png" alt="Dork95" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <img id="apIcon" src="dork.png" alt="DORK" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
                     <div>
-                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Dork95</h1>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">DORK</h1>
                         <div class="flex flex-wrap items-center gap-2 mt-2">
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
-                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandBlue border border-brandBlue/40 bg-brandBlue/10 rounded px-1.5 py-0.5">In playtest</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
                         </div>
                     </div>
                 </header>
@@ -113,22 +113,22 @@
 
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">DORK: Long Beach &#x27;95 is a text adventure for a blind protagonist: you can&#x27;t LOOK, only LISTEN, SMELL, and FEEL your way through one legendary night in 1995 Long Beach. Explore 15 places — a backyard show with a live procedural ska band, a haunted ocean liner, a braille blackjack table — chasing RAD points before sunrise. Six endings, two secrets, and a dog named Lou Dog who&#x27;ll follow you for a Slim Jim. One self-contained file, no ads, no network, no eyes needed.</p>
 
-                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
-                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
-                    <span id="apStore">In development</span>
-                </div>
+                <a id="apStoreLink" href="https://play.google.com/store/apps/details?id=com.crystllabs.dork" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">Get it on Google Play</span>
+                </a>
 
                 <section class="mt-12">
                     <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Dev log //</h2>
-                    <p class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-6 max-w-2xl">A word game with a small rule set and a long tail of edge cases, which is the usual ratio for anything that has to validate what a player typed.</p>
+                    <p class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-6 max-w-2xl">A text adventure for a blind protagonist: no LOOK, only LISTEN, SMELL and FEEL. Most of the work is the parser and the long tail of edge cases that come with anything that has to understand what a player typed.</p>
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 mb-6">
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Commits</div>
-                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">37</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">41</div>
                         </div>
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Days w/ changes</div>
-                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">8</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">10</div>
                         </div>
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Started</div>
@@ -137,23 +137,15 @@
                     </div>
                     <ul class="rounded-2xl border border-white/10 bg-panelBg/40 px-4 md:px-5 py-2">
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <time datetime="2026-08-15" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">15 AUG 2026</time>
-                            <span class="text-sm text-gray-300 leading-relaxed">Update ship TODO</span>
+                            <time datetime="2026-08-19" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">19 AUG 2026</time>
+                            <span class="text-sm text-gray-300 leading-relaxed">Guard the sunrise interstitial, which nothing was guarding</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Store asset fixes and a ship checklist</span>
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <time datetime="2026-08-09" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">09 AUG 2026</time>
-                            <span class="text-sm text-gray-300 leading-relaxed">Add docs/ship-card.md and reconcile every doc that had gone stale</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Ignore the local release/ folder</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">K.6: full night on the signed build, and a store screenshot set that shows it</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
                             <span class="text-sm text-gray-300 leading-relaxed">Remove the eyes-free playability claim from all copy</span>
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
@@ -163,14 +155,6 @@
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <span class="shrink-0 w-[92px]"></span>
                             <span class="text-sm text-gray-300 leading-relaxed">Add travel interstitials on a 25-minute play-clock cooldown</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Add AdMob: sunrise interstitial + SPOT ME rewarded, and fix the copy that said &quot;No ads&quot;</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Rename the package id to com.crystllabs.dork</span>
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <span class="shrink-0 w-[92px]"></span>
@@ -185,35 +169,7 @@
                             <span class="text-sm text-gray-300 leading-relaxed">Add in-app privacy policy + support contact; sign with the portfolio key</span>
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <time datetime="2026-07-29" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">29 JUL 2026</time>
-                            <span class="text-sm text-gray-300 leading-relaxed">L10: stop telling app players to refresh a page</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">G.2.5: Note 20 smoke pass, A4 completed for API &lt; 35, B.1.5 closed</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Phase G: emulator smoke pass, A4 white-system-bars fix, 8 store screenshots</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Phases H, I, J: store graphics, all store copy, v1.0.0 pre-release</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Fix all 36 bugs in bugsfound.md; add three regression suites</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <time datetime="2026-07-23" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">23 JUL 2026</time>
-                            <span class="text-sm text-gray-300 leading-relaxed">Create bugsfound.md</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <time datetime="2026-07-13" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">13 JUL 2026</time>
-                            <span class="text-sm text-gray-300 leading-relaxed">Add Korean sister-app feasibility spike (experiments/ko-slice)</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
                             <span class="text-sm text-gray-300 leading-relaxed">Revise monetization: free at launch instead of paid $2.99</span>
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
@@ -222,58 +178,23 @@
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Add self-serve /playtest: Sonnet-driven Android emulator smoke test</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
                             <span class="text-sm text-gray-300 leading-relaxed">Fix WebView boot crash: global `var history` shadowed window.history</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">3.2.3 epilogue flag-matrix test; new icon; Capacitor Android platform</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">3.1.1 object-aware senses + 6.1.3 item context actions</span>
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <span class="shrink-0 w-[92px]"></span>
                             <span class="text-sm text-gray-300 leading-relaxed">Writing pass: engine.js prose polish + blind-senses fixes</span>
                         </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Writing pass: prose polish, clock-coherence fixes, parser-robustness tests</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <time datetime="2026-07-10" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">10 JUL 2026</time>
-                            <span class="text-sm text-gray-300 leading-relaxed">v0.4.0 — Phases 8-10: torture QA, launch runbook, Queen Mary + trophies + speedruns</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">fix package.json description encoding</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">v0.3.0 — Phases 4-7: audio polish, accessibility, touch UI, Play Store compliance pack</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">v0.2.0 — Phases 1-3: src split + build, test suite, save/load, settings, parser QoL, content expansion</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">v0.1.0 — playable prototype: 14 rooms, 10 collectables, procedural audio</span>
-                        </li>
                     </ul>
-                    <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores and merge commits are filtered out.</p>
+                    <p class="mt-4 font-mono text-[11px] text-gray-500">The 12 most recent changes worth reading, out of 41 commits.</p>
+                    <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores, merges and internal housekeeping are filtered out.</p>
                 </section>
             </div>
         </main>
     </div>
 
     <script>
-        const APP = {"name": {"en": "Dork95", "ko": "Dork95", "ja": "Dork95"}, "tagline": {"en": "A text adventure you play entirely by ear — LOOK doesn't work here.", "ko": "귀로만 플레이하는 텍스트 어드벤처 — 여기선 '보기'가 통하지 않습니다.", "ja": "耳だけでプレイするテキストアドベンチャー——ここでは「見る」は使えない。"}, "desc": {"en": "DORK: Long Beach '95 is a text adventure for a blind protagonist: you can't LOOK, only LISTEN, SMELL, and FEEL your way through one legendary night in 1995 Long Beach. Explore 15 places — a backyard show with a live procedural ska band, a haunted ocean liner, a braille blackjack table — chasing RAD points before sunrise. Six endings, two secrets, and a dog named Lou Dog who'll follow you for a Slim Jim. One self-contained file, no ads, no network, no eyes needed.", "ko": "도크: 롱비치 '95는 앞을 보지 못하는 주인공의 텍스트 어드벤처입니다. '보기'는 쓸 수 없고, 오직 듣고 맡고 만지며 1995년 롱비치의 전설적인 하룻밤을 헤쳐나가야 합니다. 라이브 스카 밴드가 연주하는 뒷마당 공연부터 유령이 나온다는 대형 여객선까지 15곳을 탐험하며 해가 뜨기 전 RAD 포인트를 쌓으세요. 엔딩 6개, 비밀 2개, 슬림짐 하나면 어디든 따라오는 개 루 독까지. 광고도 네트워크도 필요 없는, 단 하나의 파일로 완성된 게임입니다.", "ja": "『DORK: Long Beach '95』は目の見えない主人公によるテキストアドベンチャー。「見る」は使えず、聞いて、嗅いで、触れて1995年ロングビーチの伝説の一夜を駆け抜ける。生演奏スカバンドの裏庭ライブから幽霊が出るという大型客船まで、15の場所を探索しながら日の出前にRADポイントを稼ごう。エンディング6種、隠し要素2つ、スリムジム一本でどこまでもついてくる愛犬ラウ・ドッグも。広告もネット接続も不要、たった一つのファイルで完結する。"}};
-        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}};
+        const APP = {"name": {"en": "DORK", "ko": "DORK", "ja": "DORK"}, "tagline": {"en": "A text adventure you play entirely by ear — LOOK doesn't work here.", "ko": "귀로만 플레이하는 텍스트 어드벤처 — 여기선 '보기'가 통하지 않습니다.", "ja": "耳だけでプレイするテキストアドベンチャー——ここでは「見る」は使えない。"}, "desc": {"en": "DORK: Long Beach '95 is a text adventure for a blind protagonist: you can't LOOK, only LISTEN, SMELL, and FEEL your way through one legendary night in 1995 Long Beach. Explore 15 places — a backyard show with a live procedural ska band, a haunted ocean liner, a braille blackjack table — chasing RAD points before sunrise. Six endings, two secrets, and a dog named Lou Dog who'll follow you for a Slim Jim. One self-contained file, no ads, no network, no eyes needed.", "ko": "도크: 롱비치 '95는 앞을 보지 못하는 주인공의 텍스트 어드벤처입니다. '보기'는 쓸 수 없고, 오직 듣고 맡고 만지며 1995년 롱비치의 전설적인 하룻밤을 헤쳐나가야 합니다. 라이브 스카 밴드가 연주하는 뒷마당 공연부터 유령이 나온다는 대형 여객선까지 15곳을 탐험하며 해가 뜨기 전 RAD 포인트를 쌓으세요. 엔딩 6개, 비밀 2개, 슬림짐 하나면 어디든 따라오는 개 루 독까지. 광고도 네트워크도 필요 없는, 단 하나의 파일로 완성된 게임입니다.", "ja": "『DORK: Long Beach '95』は目の見えない主人公によるテキストアドベンチャー。「見る」は使えず、聞いて、嗅いで、触れて1995年ロングビーチの伝説の一夜を駆け抜ける。生演奏スカバンドの裏庭ライブから幽霊が出るという大型客船まで、15の場所を探索しながら日の出前にRADポイントを稼ごう。エンディング6種、隠し要素2つ、スリムジム一本でどこまでもついてくる愛犬ラウ・ドッグも。広告もネット接続も不要、たった一つのファイルで完結する。"}};
+        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
             return ['en','ko','ja'].includes(l) ? l : 'ko';

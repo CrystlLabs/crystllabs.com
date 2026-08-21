@@ -131,7 +131,7 @@
 
                 <section class="mt-12">
                     <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Dev log //</h2>
-                    <p class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-6 max-w-2xl">The most heavily tested thing in the portfolio, and the log shows it: 144 entries, a green gate re-run at 177 tests, and eight release candidates before anything reached a public track. The numbered task codes (A1, A7, A9, C3.1) come from a working checklist kept alongside the repo, so the history is unusually legible about what was deliberate and what was a fix. Two entries are the good kind of embarrassing. RC7 exists only because RC6 predates a fix for nine strings that rendered a literal %% to the player, an escaped-percent bug that survived until someone read the UI carefully. And RC5 exists because the game loop kept running while the app was backgrounded, which is the sort of thing you only catch by putting the phone down mid-session.</p>
+                    <p class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-6 max-w-2xl">The most heavily tested thing in the portfolio: eight release candidates before anything reached a public track. One of them exists only because the game loop kept running while the phone was in a pocket.</p>
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 mb-6">
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Commits</div>
@@ -152,168 +152,56 @@
                     </div>
                     <ul class="rounded-2xl border border-white/10 bg-panelBg/40 px-4 md:px-5 py-2">
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <time datetime="2026-08-15" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">15 AUG 2026</time>
-                            <span class="text-sm text-gray-300 leading-relaxed">Update release log, TODO, and worklog; add fable docs</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <time datetime="2026-07-31" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">31 JUL 2026</time>
-                            <span class="text-sm text-gray-300 leading-relaxed">RC8: versionCode 5 -- RC7 predates the escaped-percent fix</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Fix nine strings that rendered a literal %% to the player, and guard it</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">RC7: versionCode 4 -- RC6 predates A9</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A9: nothing camps on the office any more</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <time datetime="2026-07-30" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">30 JUL 2026</time>
-                            <span class="text-sm text-gray-300 leading-relaxed">RELEASE_LOG: RC6 row -- versionCode 3, all checks green</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">RC6: versionCode 3 (codes 1 and 2 are spent on Play)</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A8.2.b: make the eight tutorial tips re-readable</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A7: tell the player when something worked</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">PLAYTEST: first human pacing number -- row 1.1 confirmed at 64s</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">RELEASE_LOG: record RC5&#x27;s commit SHA</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Stop the game loop when the app is backgrounded (RC5, versionCode 2)</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">RC4: the build that went to Play, and Track C on record</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <time datetime="2026-07-28" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">28 JUL 2026</time>
-                            <span class="text-sm text-gray-300 leading-relaxed">Delete the credits screen; add the 512x512 store icon (C3.1)</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A2: RC3 built and verified -- there is a valid release baseline again</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A6: green gate re-run -- 177 tests, lint zero errors</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.3c: the last two generated messages -- offline earnings, exploit patched</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.3c: batch 4 -- the engine&#x27;s own generated messages</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.3c: batch 3 -- world events, heists, the Fixer, freelance</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.3c: batch 2 -- tutorial tips and achievements</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.3c: id-keyed content, batch 1 -- the breach loop</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.3b: the last two persisted strings -- generated prose</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">C3.2: feature graphic approved -- terminal concept</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">C8 final: ship Japanese unreviewed as a recorded risk</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.5: ko/ja menu screens verified; Settings had no scroller</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A3 verified on an emulator -- and the code fix alone was not enough</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.6: final store listing copy in en, ko and ja</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.4: ko and ja complete -- 593/593 keys in both locales</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.4 (2/N): menu tree, tutorial, AdvancedTech; guard the crypto glyph</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.4 (1/N): start ko and ja; add a translation checker</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.3b: add target ids to breach results and backdoors</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <time datetime="2026-07-27" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">27 JUL 2026</time>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.3b: fix the counter-op landmine and re-key freelance by id</span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Release builds served no ads at all</span>
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.3a COMPLETE: the property-carrying enums</span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Fix contentRow: widthIn must precede fillMaxWidth</span>
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.2 COMPLETE: all 25 ui/ files externalized</span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Delay the interstitial so it never lands on the triggering tap</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <time datetime="2026-07-24" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">24 JUL 2026</time>
+                            <span class="text-sm text-gray-300 leading-relaxed">Add store listing and gameplay screenshots</span>
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.2 (11/N): SafehouseUI, AuctionUI, FixerUI</span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Fix tutorial dead-end: reorder upgrade-before-hire + cheaper first room</span>
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.2: make the stock position line a plural; pin PluralsCandidate at 3</span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Hide tutorial popup while _root menu is open</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <time datetime="2026-07-23" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">23 JUL 2026</time>
+                            <span class="text-sm text-gray-300 leading-relaxed">Unify all dialogs on NeonDialog + restyle the _root menu</span>
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.2: record accurate remaining scope (114 genuine literals, 7 files)</span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Design-system kit + fix Threat Map UI and background-audio bug</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <time datetime="2026-07-20" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">20 JUL 2026</time>
+                            <span class="text-sm text-gray-300 leading-relaxed">Add AdMob ads: 3 rewarded placements + 1 throttled interstitial</span>
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.2 (10/N): PrestigeShopUI and StoreAndHireUI</span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Store-readiness pass: rebrand menus, icon, perma-dark, release minify</span>
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.2 (9/N): StockMarketUI, HeistBoardUI, AutomationUI</span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Balance pass: idle-income nerf, upkeep scale-from-0, safehouse raid teeth, chemistry buff</span>
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">A1.2 (8/N): MainGameScreen complete; found a localization landmine</span>
+                            <time datetime="2026-07-18" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">18 JUL 2026</time>
+                            <span class="text-sm text-gray-300 leading-relaxed">Drive move cleanup: repoint hardcoded paths to D:, prune obsolete scripts</span>
                         </li>
                     </ul>
-                    <p class="mt-4 font-mono text-[11px] text-gray-500">Showing the 40 most recent of 131 logged changes.</p>
-                    <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores and merge commits are filtered out.</p>
+                    <p class="mt-4 font-mono text-[11px] text-gray-500">The 12 most recent changes worth reading, out of 159 commits.</p>
+                    <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores, merges and internal housekeeping are filtered out.</p>
                 </section>
             </div>
         </main>

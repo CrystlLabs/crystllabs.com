@@ -104,7 +104,7 @@
                         <div class="flex flex-wrap items-center gap-2 mt-2">
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
-                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandBlue border border-brandBlue/40 bg-brandBlue/10 rounded px-1.5 py-0.5">In playtest</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
                         </div>
                     </div>
                 </header>
@@ -113,10 +113,10 @@
 
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Mise is a cookbook that does the tedious part. Point it at a web link, a PDF, a photo or pasted text and it turns it into a structured recipe on-device — no account, no API key, and no recipe server. Your recipe content stays on your device. Then cook: each step shows only the ingredients that step needs and starts its own timers, which keep running even if the app is killed. Scale servings, build a shopping list, log the dish with a photo, and keep the whole book backed up to a file you own.</p>
 
-                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
-                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
-                    <span id="apStore">In development</span>
-                </div>
+                <a id="apStoreLink" href="https://play.google.com/store/apps/details?id=com.crystllabs.cooking" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">Get it on Google Play</span>
+                </a>
 
                 <section class="mt-10">
                     <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
@@ -135,11 +135,11 @@
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 mb-6">
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Commits</div>
-                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">52</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">63</div>
                         </div>
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Days w/ changes</div>
-                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">8</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">10</div>
                         </div>
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Started</div>
@@ -147,10 +147,26 @@
                         </div>
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Version</div>
-                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">1.0.0</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">1.0.1</div>
                         </div>
                     </div>
                     <ul class="rounded-2xl border border-white/10 bg-panelBg/40 px-4 md:px-5 py-2">
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <time datetime="2026-08-21" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">21 AUG 2026</time>
+                            <span class="text-sm text-gray-300 leading-relaxed">Remove the noads purchase: Mise is ad-only</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <time datetime="2026-08-19" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">19 AUG 2026</time>
+                            <span class="text-sm text-gray-300 leading-relaxed">Store listing: ASO pass on the CJK title and short description</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Remove the GitHub Actions workflow</span>
+                        </li>
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <span class="shrink-0 w-[92px]"></span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Restore the alpha channel Play requires on the listing icon</span>
+                        </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <time datetime="2026-08-13" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">13 AUG 2026</time>
                             <span class="text-sm text-gray-300 leading-relaxed">Complete app fixes: voice, cook, backup, photos, imports</span>
@@ -160,160 +176,20 @@
                             <span class="text-sm text-gray-300 leading-relaxed">Every store asset Play asks for now exists</span>
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <time datetime="2026-07-30" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">30 JUL 2026</time>
-                            <span class="text-sm text-gray-300 leading-relaxed">Finished app icon, and refresh the whole Play listing</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">No AI in 1.0</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Crystl Style: draw a recipe as a bracket table</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Add the end-to-end import-to-timer UI test, ignored pending one device pass</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Fix the two defects the Note 20 playtest found</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Make the instrumentation tests actually run (21/21 green on hardware)</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Sync the docs to the new monetization model</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <time datetime="2026-07-29" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">29 JUL 2026</time>
-                            <span class="text-sm text-gray-300 leading-relaxed">Real AdMob ids, and a proper interstitial frequency policy</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Capture the phone store screenshots (TODO 8.3)</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">S4.3: accent themes, and close out the solo plan</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">S4.2: cook notes, and make cook history visible at all</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">S4.1: add the &quot;Quick wins&quot; home shelf</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Solo plan S1-S3: test guards, version bump, parser sections</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">TODO: tick what the playtest session actually closed</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
                             <span class="text-sm text-gray-300 leading-relaxed">Add real food photos to the demo library</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Add a seeded demo library for store screenshots (TODO 8.7)</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Fix five copy/format defects found in the device playtest</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Fix P0: parser regex was invalid on Android, breaking every import</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Rework store docs for the ads model</span>
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <span class="shrink-0 w-[92px]"></span>
                             <span class="text-sm text-gray-300 leading-relaxed">Premium now sells ad removal; wire the one interstitial</span>
                         </li>
                         <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Replace AI-gated import with a rules parser; ungate importing</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Swap USE_EXACT_ALARM for SCHEDULE_EXACT_ALARM; fix lint errors</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Phase 7: write all Play Store copy, EN/KO/JA</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Phase 1: mark 1.2-1.7 done, record evidence</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Gitignore .kotlin/ compiler session artifacts</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Phase 1 hygiene: untrack scratchpad, refresh handoff docs</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Archive feature roadmap, add road-to-1.0 TODO</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <time datetime="2026-07-18" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">18 JUL 2026</time>
-                            <span class="text-sm text-gray-300 leading-relaxed">Fix 65+ audit findings across import, timers, backup, and UI</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Fix import overlay, Gemini error masking, and duplicate share instance</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">@ Add debug-only premium unlock for testing</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Repoint hardcoded dev paths from C:\Users\ace\Documents\Crystl to D:\Crystl</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">Checkpoint before C:-&gt;D: drive move</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <time datetime="2026-07-14" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">14 JUL 2026</time>
-                            <span class="text-sm text-gray-300 leading-relaxed">@ Update session handoff for Phases 10-12 + PR #1</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">@ Phase 11 hands-free cooking + Phase 12 collections &amp; filters</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">@ Phase 10 ingestion wedge + 12.1 library layout</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
                             <time datetime="2026-07-13" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">13 JUL 2026</time>
-                            <span class="text-sm text-gray-300 leading-relaxed">Fix 4 playtest defects: timer FGS crash/wedge, step restore, import i18n</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">TODO: add full multi-language i18n expansion (post-playtest)</span>
-                        </li>
-                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
-                            <span class="shrink-0 w-[92px]"></span>
-                            <span class="text-sm text-gray-300 leading-relaxed">playtest: add &quot;go playtest&quot; trigger + verified env details</span>
+                            <span class="text-sm text-gray-300 leading-relaxed">Fix crash: duplicate LazyColumn keys on recipe detail scroll</span>
                         </li>
                     </ul>
-                    <p class="mt-4 font-mono text-[11px] text-gray-500">Showing the 40 most recent of 49 logged changes.</p>
-                    <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores and merge commits are filtered out.</p>
+                    <p class="mt-4 font-mono text-[11px] text-gray-500">The 9 most recent changes worth reading, out of 63 commits.</p>
+                    <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores, merges and internal housekeeping are filtered out.</p>
                 </section>
             </div>
         </main>
@@ -321,7 +197,7 @@
 
     <script>
         const APP = {"name": {"en": "Mise", "ko": "미즈", "ja": "ミース"}, "tagline": {"en": "Import any recipe, then cook it step by step with the timers run for you.", "ko": "어떤 레시피든 가져오고, 타이머까지 대신 돌려주는 단계별 조리 모드로 요리하세요.", "ja": "どんなレシピも取り込んで、タイマーまで任せられるステップ調理モードで作る。"}, "desc": {"en": "Mise is a cookbook that does the tedious part. Point it at a web link, a PDF, a photo or pasted text and it turns it into a structured recipe on-device — no account, no API key, and no recipe server. Your recipe content stays on your device. Then cook: each step shows only the ingredients that step needs and starts its own timers, which keep running even if the app is killed. Scale servings, build a shopping list, log the dish with a photo, and keep the whole book backed up to a file you own.", "ko": "미즈는 귀찮은 일을 대신하는 요리책입니다. 웹 링크나 PDF, 사진, 붙여넣은 텍스트를 주면 기기 안에서 구조화된 레시피로 정리합니다. 계정도, API 키도, 레시피 서버도 필요 없습니다. 레시피 내용은 기기에 보관됩니다. 그다음은 조리입니다. 각 단계는 그 단계에 필요한 재료만 보여 주고 자체 타이머를 돌리며, 앱이 종료돼도 타이머는 계속 갑니다. 인분을 조절하고, 장보기 목록을 만들고, 완성한 요리를 사진으로 기록하고, 책 전체를 내 파일로 백업하세요.", "ja": "『ミース』は面倒な部分を引き受けるレシピ帳。ウェブのリンク、PDF、写真、貼り付けたテキストを渡せば、端末の中で構造化されたレシピに整える。アカウントもAPIキーもレシピ用サーバーも不要。レシピの内容は端末に保存される。あとは作るだけ。各ステップはその工程に必要な材料だけを見せ、専用のタイマーを走らせる。アプリを落としてもタイマーは止まらない。人数分の調整、買い物リスト、写真つきの調理記録、そして自分の手元に残るファイルへの丸ごとバックアップ。"}};
-        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}};
+        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
             return ['en','ko','ja'].includes(l) ? l : 'ko';

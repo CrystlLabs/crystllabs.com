@@ -2,6 +2,34 @@
 
 All notable changes to the Crystl Labs website are documented here.
 
+## 2026-08-22
+
+### Added
+- **Three more apps are live on Google Play**: Bent FC: Soccer Club Chairman
+  (`com.crystllabs.corruptfm`), DORK: Blind Text Adventure (`com.crystllabs.dork`)
+  and Mise: Recipe Book & Timers (`com.crystllabs.cooking`). All three were
+  carrying an "In playtest" badge and no store link; they now carry the Live badge,
+  the store button and their release date. Store links verified against the Play
+  developer listing, which is the same ten titles plus Cage of Glory, whose page
+  is US-visible but not distributed to Korea.
+
+### Changed
+- **The dev logs are a highlight reel, not a reflog.** `build_devlog.py` now drops
+  everything that only made sense from inside the work: phase numbers, audit
+  rounds, TODO and PLAN ids, notes to self, test and chore commits, code
+  identifiers, pixel-level layout tweaks, and any subject with a narrative
+  ", and ..." tail. Runs of commits on the same topic collapse to the newest one.
+  Every surviving line is still the commit exactly as written, only its
+  conventional-commit prefix (`fix:`, `feat(scope):`) is stripped. Across the
+  portfolio that is 2,165 raw entries down to 391 kept, of which each page shows
+  the newest 12 rather than 40.
+- **The per-app intros are shorter.** Seventeen of them ran to a full paragraph or
+  more and several pointed at entries the filter now removes; they are two
+  sentences each. The DORK intro described the wrong game and has been rewritten.
+- **A page earns indexing on its commit count, not its visible log length.** With
+  the log filtered, a long-running project with a terse commit style would have
+  failed a line-count test while plainly deserving a page.
+
 ## 2026-08-16
 
 AdSense rejected the site on 2026-08-14 for **"Low value content."** It was
