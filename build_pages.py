@@ -15,7 +15,7 @@ from build_blog import HEAD, TAIL, sidebar, SITE
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
-EMAIL = 'crystllabs@gmail.com'
+EMAIL = 'dev@crystllabs.com'
 
 
 def render_contact():
