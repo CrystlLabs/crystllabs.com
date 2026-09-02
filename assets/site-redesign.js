@@ -123,14 +123,14 @@
     portal.setAttribute('aria-label', 'Featured Crystl Labs worlds');
     portal.innerHTML = `<div class="portal-aperture">
       <div class="portal-void" aria-hidden="true"></div>
-      <a class="portal-plane portal-plane--one" href="${url('apps/bent-fc.html')}">
-        <img src="${url('apps/bent-fc.png')}" alt=""><span>Bent FC</span><small>World 01 · Football</small>
+      <a class="portal-plane portal-plane--one" href="https://crystlquant.com" target="_blank" rel="noopener noreferrer">
+        <img src="${url('assets/crystlquant-logo.png')}" alt=""><span>CrystlQuant</span><small>World 01 · Forecasting</small>
       </a>
-      <a class="portal-plane portal-plane--two" href="${url('apps/dork.html')}">
-        <img src="${url('apps/dork.png')}" alt=""><span>DORK</span><small>World 02 · Audio</small>
+      <a class="portal-plane portal-plane--two" href="${url('apps/bent-fc.html')}">
+        <img src="${url('apps/bent-fc.png')}" alt=""><span>Bent FC</span><small>World 02 · Football</small>
       </a>
-      <a class="portal-plane portal-plane--three" href="${url('apps/mise.html')}">
-        <img src="${url('apps/mise.png')}" alt=""><span>Mise</span><small>World 03 · Kitchen</small>
+      <a class="portal-plane portal-plane--three" href="${url('apps/cage-of-glory.html')}">
+        <img src="${url('apps/cage-of-glory.png')}" alt=""><span>Cage of Glory</span><small>World 03 · MMA</small>
       </a>
     </div><span class="portal-index">Drag your gaze · Enter a world</span>`;
     hero.insertAdjacentElement('afterend', portal);
@@ -158,7 +158,7 @@
       const current = document.getElementById('apIcon')?.getAttribute('src');
       images = [current || url('assets/crystl-mark.svg')];
     } else if (['crystl-projects','crystl-journal'].includes(pageClass)) {
-      images = [url('apps/bent-fc.png'), url('apps/dork.png'), url('apps/mise.png')];
+      images = [url('assets/crystlquant-logo.png'), url('apps/bent-fc.png'), url('apps/cage-of-glory.png')];
     } else {
       images = [url('assets/crystl-mark.svg')];
     }
