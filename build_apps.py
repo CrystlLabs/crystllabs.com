@@ -289,10 +289,11 @@ def render_page(app):
     <meta property="og:image" content="{esc(app['icon'])}">
     <meta property="og:type" content="website">
     <link rel="canonical" href="https://crystllabs.com/apps/{slug}.html">{robots}
-    <link rel="icon" type="image/png" href="../favicon.png">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <script src="https://cdn.tailwindcss.com"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
     <script>
         tailwind.config = {{
             theme: {{
@@ -423,6 +424,7 @@ def render_page(app):
         }}
         window.onload = () => switchLang(currentLang());
     </script>
+    <script src="/assets/site-redesign.js"></script>
 </body>
 </html>
 """

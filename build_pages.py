@@ -96,6 +96,7 @@ REDIRECT = '''<!DOCTYPE html>
 <!-- {why} -->
 <meta http-equiv="refresh" content="0; url={to}">
 <link rel="canonical" href="{canonical}">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
 <style>
   body{{background:#0a0a12;color:#e8e8ef;font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif;
        display:flex;align-items:center;justify-content:center;height:100vh;margin:0;text-align:center}}

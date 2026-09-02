@@ -235,10 +235,11 @@ HEAD = '''<!DOCTYPE html>
     <meta property="og:type" content="{ogtype}">
     <meta property="og:url" content="{canonical}">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="icon" type="image/png" href="{root}favicon.png">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <script src="https://cdn.tailwindcss.com"></script>
     ''' + ADSENSE + '''
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
     <script>
         tailwind.config = {{
             theme: {{
@@ -282,6 +283,7 @@ TAIL = '''        </main>
             document.getElementById('iconClose').classList.toggle('hidden');
         }
     </script>
+    <script src="/assets/site-redesign.js"></script>
 </body>
 </html>
 '''
