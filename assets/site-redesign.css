@@ -229,42 +229,48 @@ main [class*="tracking-widest"] {
 .crystl-portal {
   --rx: 0deg; --ry: 0deg;
   grid-column: 2; grid-row: 1 / span 2;
-  position: relative; min-height: min(700px,74vh); isolation: isolate; perspective: 1300px;
+  position: relative; min-height: min(680px,72vh); isolation: isolate; perspective: 1300px;
 }
 .crystl-portal::before {
-  content: ""; position: absolute; inset: 7% 1% 3% 5%; z-index: -2;
-  background: radial-gradient(ellipse at center, rgba(67,61,122,.26), transparent 64%);
-  filter: blur(25px);
+  content: ""; position: absolute; inset: 8% 10% 5%; z-index: -2;
+  background: radial-gradient(ellipse at center,rgba(73,61,138,.3),rgba(30,25,61,.08) 50%,transparent 72%);
+  filter: blur(28px);
 }
-.portal-aperture { position: absolute; inset: 4% 0 3%; transform-style: preserve-3d; transform: rotateX(var(--rx)) rotateY(var(--ry)); transition: transform .45s var(--ease-out); }
+.portal-aperture {
+  position: absolute; inset: 3% 0 7%; display: grid; grid-template-rows: repeat(3,minmax(0,1fr));
+  gap: clamp(12px,1.5vw,20px); padding: 5% 7%; transform-style: preserve-3d;
+  transform: rotateX(var(--rx)) rotateY(var(--ry)); transition: transform .45s var(--ease-out);
+}
 .portal-void {
-  position: absolute; inset: 13% 4% 10% 5%;
-  clip-path: polygon(0 48%, 83% 0, 61% 100%, 20% 78%);
-  background: #020208;
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,.1), 0 55px 90px rgba(0,0,0,.8);
+  position: absolute; inset: 1%; border-radius: 42px;
+  background: linear-gradient(145deg,rgba(11,11,20,.92),rgba(3,3,7,.72));
+  border: 1px solid rgba(255,255,255,.07);
+  box-shadow: inset 0 0 80px rgba(93,72,176,.08),0 55px 90px rgba(0,0,0,.46);
 }
 .portal-plane {
-  position: absolute; display: flex; align-items: center; text-decoration: none; overflow: hidden;
-  border: 1px solid rgba(255,255,255,.13); transform-style: preserve-3d;
-  transition: filter .4s ease, transform .6s var(--ease-out), border-color .4s ease;
+  position: relative; z-index: 1; display: flex; align-items: center; align-self: stretch; justify-self: center;
+  width: min(88%,680px); min-width: 0; padding: clamp(18px,2.4vw,30px) clamp(22px,3vw,38px);
+  border: 1px solid rgba(255,255,255,.14); border-radius: 28px; overflow: hidden;
+  text-decoration: none; transform-style: preserve-3d; transform: translateZ(0);
+  box-shadow: 0 18px 42px rgba(0,0,0,.3),inset 0 1px rgba(255,255,255,.06);
+  transition: filter .4s ease,transform .6s var(--ease-out),border-color .4s ease,box-shadow .4s ease;
 }
 .portal-plane::before { content: ""; position: absolute; inset: 0; opacity: .75; transition: opacity .5s ease, transform 1s var(--ease-out); }
 .portal-plane::after { content: ""; position: absolute; inset: 0; background: linear-gradient(120deg,transparent 10%,rgba(255,255,255,.14),transparent 55%); transform: translateX(-100%); transition: transform .9s var(--ease-out); }
-.portal-plane:hover { z-index: 8; border-color: rgba(255,255,255,.48); filter: saturate(1.22) brightness(1.1); }
+.portal-plane:hover { z-index: 8; border-color: rgba(255,255,255,.42); filter: saturate(1.15) brightness(1.06); transform: translateZ(18px) translateY(-3px); box-shadow: 0 26px 58px rgba(0,0,0,.42),inset 0 1px rgba(255,255,255,.09); }
 .portal-plane:hover::after { transform: translateX(100%); }
 .portal-plane:hover::before { transform: scale(1.04); opacity: 1; }
-.portal-plane img { position: relative; z-index: 2; width: clamp(38px,4vw,68px); aspect-ratio: 1; border-radius: 22%; box-shadow: 0 14px 34px rgba(0,0,0,.45); }
-.portal-copy { position: relative; z-index: 2; display: block; min-width: 0; margin-left: 16px; color: white; }
-.portal-copy > span { display: block; font-family: var(--serif); font-size: clamp(22px,2.4vw,42px); line-height: .95; white-space: nowrap; }
-.portal-copy > small { display: block; margin-top: 9px; color: rgba(255,255,255,.62); font: 8px/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; white-space: nowrap; }
-.portal-plane--one { inset: 9% 9% 56% 22%; clip-path: polygon(0 44%,100% 0,78% 100%,10% 90%); padding: 10% 10% 4% 22%; transform: translateZ(35px) rotate(-1deg); background: #091447; }
+.portal-plane img { position: relative; z-index: 2; flex: none; width: clamp(58px,5vw,78px); aspect-ratio: 1; object-fit: contain; border-radius: 22%; box-shadow: 0 14px 34px rgba(0,0,0,.45); }
+.portal-copy { position: relative; z-index: 2; display: block; min-width: 0; margin-left: clamp(16px,2vw,24px); color: white; }
+.portal-copy > span { display: block; font-family: var(--serif); font-size: clamp(28px,2.7vw,42px); line-height: .95; white-space: nowrap; }
+.portal-copy > small { display: block; margin-top: 10px; color: rgba(255,255,255,.67); font: 9px/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; white-space: nowrap; }
+.portal-plane--one { background: #091447; }
 .portal-plane--one::before { background: radial-gradient(circle at 64% 30%,#2252d9 0,transparent 42%), linear-gradient(140deg,#07102d,#142a9e 54%,#06091c); }
-.portal-plane--two { inset: 35% 15% 29% 8%; clip-path: polygon(5% 0,100% 15%,77% 100%,0 67%); padding: 4% 16% 2% 19%; transform: translateZ(70px) rotate(1deg); background: #8d2d1a; }
+.portal-plane--two { background: #8d2d1a; }
 .portal-plane--two::before { background: radial-gradient(circle at 42% 52%,#ff6847 0,transparent 40%), linear-gradient(155deg,#30110c,#b43622 58%,#1b080a); }
-.portal-plane--three { inset: 60% 24% 4% 18%; clip-path: polygon(0 0,100% 18%,66% 100%,9% 78%); padding: 0 14% 5% 26%; transform: translateZ(100px) rotate(-2deg); background: #42226b; }
+.portal-plane--three { background: #42226b; }
 .portal-plane--three::before { background: radial-gradient(circle at 55% 52%,#9f75ff 0,transparent 38%), linear-gradient(145deg,#1e1236,#5c3591 60%,#170d29); }
-.portal-plane--three .portal-copy > span { font-size: clamp(20px,2vw,32px); }
-.portal-index { position: absolute; right: 4%; bottom: 1%; color: #716d78; font: 9px/1.5 var(--mono); letter-spacing: .18em; text-transform: uppercase; writing-mode: vertical-rl; }
+.portal-index { position: absolute; left: 50%; bottom: 1%; transform: translateX(-50%); color: #716d78; font: 8px/1.5 var(--mono); letter-spacing: .16em; text-transform: uppercase; white-space: nowrap; }
 
 .crystl-home #apps,.crystl-home #frontier,.crystl-home #writing,
 .crystl-home main > div:first-child > section:not(:first-of-type) { grid-column: 1 / -1; }
@@ -386,15 +392,14 @@ body:not(.crystl-home) main > div[class*="max-w-"] > header:first-of-type p { ma
   .crystl-home main header > p[data-i18n="hero_tagline"] { font-size: clamp(46px,14vw,68px) !important; line-height: .92 !important; }
   .crystl-home main header > p[data-i18n="hero_tagline"]::after { margin-top: 16px; font-size: 9px; line-height: 1.55; }
   .crystl-home main section:first-of-type { margin-top: 14px !important; }
-  .crystl-portal { min-height: 430px; margin: 0 -4px; }
-  .portal-void { inset: 10% 0 8%; clip-path: polygon(0 40%,97% 0,72% 100%,8% 79%); }
-  .portal-plane img { width: 40px; }
-  .portal-copy { margin-left: 9px; }
-  .portal-copy > span { font-size: clamp(19px,5vw,23px); line-height: .95; }
-  .portal-copy > small { margin-top: 5px; font-size: 7px; letter-spacing: .1em; }
-  .portal-plane--one { inset: 7% 1% 60% 13%; padding: 12% 3% 3% 16%; }
-  .portal-plane--two { inset: 34% 5% 33% 4%; padding: 3% 8% 1% 17%; }
-  .portal-plane--three { inset: 61% 8% 6% 10%; padding: 0 5% 4% 18%; }
+  .crystl-portal { width: calc(100vw - 28px); max-width: 100%; min-height: 430px; margin: 18px 0 0; }
+  .portal-aperture { inset: 0 0 6%; gap: 10px; padding: 12px 0; }
+  .portal-void { inset: 0; border-radius: 28px; }
+  .portal-plane { justify-self: start; width: calc(100vw - 52px); max-width: calc(100% - 24px); margin-left: 12px; padding: 13px 20px; border-radius: 20px; }
+  .portal-plane img { width: 48px; }
+  .portal-copy { margin-left: 13px; }
+  .portal-copy > span { font-size: clamp(21px,6vw,25px); line-height: .95; }
+  .portal-copy > small { margin-top: 6px; font-size: 7.5px; letter-spacing: .1em; }
   .portal-index { display: none; }
   .crystl-home #apps { margin-top: 24px !important; }
   .crystl-home #appCarousel { gap: 12px !important; }
@@ -418,8 +423,9 @@ body:not(.crystl-home) main > div[class*="max-w-"] > header:first-of-type p { ma
 
 @media (max-width: 420px) {
   .crystl-portal { min-height: 390px; }
-  .portal-plane img { width: 34px; }
-  .portal-copy > span { font-size: 18px; }
+  .portal-plane { padding: 11px 16px; }
+  .portal-plane img { width: 44px; }
+  .portal-copy > span { font-size: 20px; }
   .crystl-home main header > p[data-i18n="hero_tagline"] { font-size: 44px !important; }
   #appGrid { gap: 8px !important; }
   #appGrid > * { min-height: 208px; padding: 12px 8px !important; }
