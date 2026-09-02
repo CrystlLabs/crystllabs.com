@@ -23,6 +23,9 @@
     ['Studio', 'personnel.html'],
     ['Contact', 'contact.html']
   ];
+  const isCurrent = (href) => path.endsWith(`/${href}`)
+    || (href === 'projects.html' && path.includes('/apps/'))
+    || (href === 'blogs.html' && path.includes('/blog/'));
 
   const nav = document.querySelector('body > nav');
   if (nav) {
@@ -42,7 +45,7 @@
       const a = document.createElement('a');
       a.href = url(href);
       a.textContent = label;
-      if (path.endsWith(`/${href}`) || (href === 'projects.html' && path.includes('/apps/')) || (href === 'blogs.html' && path.includes('/blog/'))) a.setAttribute('aria-current', 'page');
+      if (isCurrent(href)) a.setAttribute('aria-current', 'page');
       primary.appendChild(a);
     });
 
@@ -58,13 +61,20 @@
   if (menuButton) {
     menuButton.className = 'crystl-menu-button';
     menuButton.setAttribute('aria-label', 'Open navigation');
+    menuButton.setAttribute('aria-expanded', 'false');
+    menuButton.setAttribute('aria-controls', 'sidebar');
+    menuButton.addEventListener('click', () => requestAnimationFrame(() => {
+      const isOpen = !document.getElementById('sidebar')?.classList.contains('-translate-x-full');
+      menuButton.setAttribute('aria-expanded', String(isOpen));
+      menuButton.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
+    }));
   }
 
   const sidebar = document.getElementById('sidebar');
   if (sidebar) {
+    const mobileLinks = [...links, ['Privacy', 'privacy.html']];
     sidebar.innerHTML = `<nav class="crystl-mobile-menu" aria-label="Mobile navigation">
-      ${links.map(([label, href]) => `<a href="${url(href)}">${label}</a>`).join('')}
-      <a href="${url('privacy.html')}">Privacy</a>
+      ${mobileLinks.map(([label, href]) => `<a href="${url(href)}"${isCurrent(href) ? ' aria-current="page"' : ''}>${label}</a>`).join('')}
       <small>Independent · Seoul · Online<br>Elegant worlds, deeply simulated.</small>
     </nav>`;
   }
@@ -124,13 +134,13 @@
     portal.innerHTML = `<div class="portal-aperture">
       <div class="portal-void" aria-hidden="true"></div>
       <a class="portal-plane portal-plane--one" href="https://crystlquant.com" target="_blank" rel="noopener noreferrer">
-        <img src="${url('assets/crystlquant-logo.png')}" alt=""><span>CrystlQuant</span><small>World 01 · Forecasting</small>
+        <img src="${url('assets/crystlquant-logo.png')}" alt=""><span class="portal-copy"><span>CrystlQuant</span><small>World 01 · Forecasting</small></span>
       </a>
       <a class="portal-plane portal-plane--two" href="${url('apps/bent-fc.html')}">
-        <img src="${url('apps/bent-fc.png')}" alt=""><span>Bent FC</span><small>World 02 · Football</small>
+        <img src="${url('apps/bent-fc.png')}" alt=""><span class="portal-copy"><span>Bent FC</span><small>World 02 · Football</small></span>
       </a>
       <a class="portal-plane portal-plane--three" href="${url('apps/cage-of-glory.html')}">
-        <img src="${url('apps/cage-of-glory.png')}" alt=""><span>Cage of Glory</span><small>World 03 · MMA</small>
+        <img src="${url('apps/cage-of-glory.png')}" alt=""><span class="portal-copy"><span>Cage of Glory</span><small>World 03 · MMA</small></span>
       </a>
     </div><span class="portal-index">Drag your gaze · Enter a world</span>`;
     hero.insertAdjacentElement('afterend', portal);

@@ -28,7 +28,7 @@ body {
   overflow-x: hidden !important;
   overflow-y: auto !important;
 }
-body::selection { background: rgba(116,80,238,.5); color: white; }
+::selection { background: rgba(116,80,238,.5); color: white; }
 
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: var(--ink); }
@@ -117,6 +117,7 @@ body > div.flex { overflow: visible !important; }
   padding: 16px 0; border-bottom: 1px solid var(--line);
   color: var(--paper); font-family: var(--serif); font-size: 30px; text-decoration: none;
 }
+.crystl-mobile-menu a[aria-current="page"] { color: #a998ff; }
 .crystl-mobile-menu small { margin-top: auto; color: #77737d; font: 9px/1.7 var(--mono); letter-spacing: .14em; text-transform: uppercase; }
 #sidebarBackdrop { position: fixed !important; inset: 0 !important; top: 0 !important; z-index: 75 !important; backdrop-filter: blur(8px); }
 
@@ -253,15 +254,16 @@ main [class*="tracking-widest"] {
 .portal-plane:hover::after { transform: translateX(100%); }
 .portal-plane:hover::before { transform: scale(1.04); opacity: 1; }
 .portal-plane img { position: relative; z-index: 2; width: clamp(38px,4vw,68px); aspect-ratio: 1; border-radius: 22%; box-shadow: 0 14px 34px rgba(0,0,0,.45); }
-.portal-plane span { position: relative; z-index: 2; margin-left: 16px; color: white; font-family: var(--serif); font-size: clamp(22px,2.4vw,42px); white-space: nowrap; }
-.portal-plane small { position: absolute; z-index: 2; right: 8%; bottom: 13%; color: rgba(255,255,255,.55); font: 8px/1 var(--mono); letter-spacing: .16em; text-transform: uppercase; }
+.portal-copy { position: relative; z-index: 2; display: block; min-width: 0; margin-left: 16px; color: white; }
+.portal-copy > span { display: block; font-family: var(--serif); font-size: clamp(22px,2.4vw,42px); line-height: .95; white-space: nowrap; }
+.portal-copy > small { display: block; margin-top: 9px; color: rgba(255,255,255,.62); font: 8px/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; white-space: nowrap; }
 .portal-plane--one { inset: 9% 9% 56% 22%; clip-path: polygon(0 44%,100% 0,78% 100%,10% 90%); padding: 10% 10% 4% 22%; transform: translateZ(35px) rotate(-1deg); background: #091447; }
 .portal-plane--one::before { background: radial-gradient(circle at 64% 30%,#2252d9 0,transparent 42%), linear-gradient(140deg,#07102d,#142a9e 54%,#06091c); }
 .portal-plane--two { inset: 35% 15% 29% 8%; clip-path: polygon(5% 0,100% 15%,77% 100%,0 67%); padding: 4% 16% 2% 19%; transform: translateZ(70px) rotate(1deg); background: #8d2d1a; }
 .portal-plane--two::before { background: radial-gradient(circle at 42% 52%,#ff6847 0,transparent 40%), linear-gradient(155deg,#30110c,#b43622 58%,#1b080a); }
 .portal-plane--three { inset: 60% 24% 4% 18%; clip-path: polygon(0 0,100% 18%,66% 100%,9% 78%); padding: 0 14% 5% 26%; transform: translateZ(100px) rotate(-2deg); background: #42226b; }
 .portal-plane--three::before { background: radial-gradient(circle at 55% 52%,#9f75ff 0,transparent 38%), linear-gradient(145deg,#1e1236,#5c3591 60%,#170d29); }
-.portal-plane--three span { font-size: clamp(20px,2vw,32px); }
+.portal-plane--three .portal-copy > span { font-size: clamp(20px,2vw,32px); }
 .portal-index { position: absolute; right: 4%; bottom: 1%; color: #716d78; font: 9px/1.5 var(--mono); letter-spacing: .18em; text-transform: uppercase; writing-mode: vertical-rl; }
 
 .crystl-home #apps,.crystl-home #frontier,.crystl-home #writing,
@@ -366,7 +368,8 @@ body:not(.crystl-home) main > div[class*="max-w-"] > header:first-of-type p { ma
   body > nav.crystl-nav { position: sticky !important; height: 68px; padding: 0 18px !important; grid-template-columns: 1fr auto; }
   .crystl-brand img { width: 30px; height: 30px; }
   .crystl-wordmark { font-size: 21px; }
-  .crystl-nav-links,.crystl-nav-tools { display: none; }
+  .crystl-nav-links { display: none; }
+  .crystl-nav-tools { display: flex; margin-right: 52px; }
   #sidebar {
     display: block !important; position: fixed !important; inset: 0 0 0 auto !important; top: 0 !important;
     width: min(86vw,360px) !important; padding: 68px 0 0 !important; z-index: 80 !important;
@@ -386,8 +389,9 @@ body:not(.crystl-home) main > div[class*="max-w-"] > header:first-of-type p { ma
   .crystl-portal { min-height: 430px; margin: 0 -4px; }
   .portal-void { inset: 10% 0 8%; clip-path: polygon(0 40%,97% 0,72% 100%,8% 79%); }
   .portal-plane img { width: 40px; }
-  .portal-plane span { margin-left: 9px; font-size: clamp(19px,5vw,23px); line-height: .95; }
-  .portal-plane small { display: none; }
+  .portal-copy { margin-left: 9px; }
+  .portal-copy > span { font-size: clamp(19px,5vw,23px); line-height: .95; }
+  .portal-copy > small { margin-top: 5px; font-size: 7px; letter-spacing: .1em; }
   .portal-plane--one { inset: 7% 1% 60% 13%; padding: 12% 3% 3% 16%; }
   .portal-plane--two { inset: 34% 5% 33% 4%; padding: 3% 8% 1% 17%; }
   .portal-plane--three { inset: 61% 8% 6% 10%; padding: 0 5% 4% 18%; }
@@ -415,7 +419,7 @@ body:not(.crystl-home) main > div[class*="max-w-"] > header:first-of-type p { ma
 @media (max-width: 420px) {
   .crystl-portal { min-height: 390px; }
   .portal-plane img { width: 34px; }
-  .portal-plane span { font-size: 18px; }
+  .portal-copy > span { font-size: 18px; }
   .crystl-home main header > p[data-i18n="hero_tagline"] { font-size: 44px !important; }
   #appGrid { gap: 8px !important; }
   #appGrid > * { min-height: 208px; padding: 12px 8px !important; }
