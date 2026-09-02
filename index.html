@@ -94,6 +94,8 @@
                 <option value="en">EN</option>
                 <option value="ko">KR</option>
                 <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
             </select>
         </div>
     </nav>
@@ -140,7 +142,7 @@
                         <h1 data-title="ru" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">Кристалл Лабс</h1>
                         <h1 data-title="it" class="text-gradient text-6xl md:text-8xl font-extrabold tracking-tight leading-tight pb-3 md:pb-4 morph-title">Cristallo Labs</h1>
                     </div>
-                    <p class="mt-1 md:mt-2 font-mono text-sm md:text-base text-brandBlue tracking-wide" data-i18n="hero_tagline">우아한 세계, 깊이 있는 시뮬레이션.</p>
+                    <p class="mt-1 md:mt-2 font-mono text-sm md:text-base text-brandBlue tracking-wide" data-i18n="hero_tagline" data-supporting-copy="Independent software, games, and experiments.">우아한 세계, 깊이 있는 시뮬레이션.</p>
                 </header>
 
                 <section class="mb-8 md:mb-10 flex items-center justify-center gap-4">
@@ -281,27 +283,27 @@
 
 
                 <!-- prerender:homeWriting -->
-                <section class="mt-12 md:mt-16">
+                <section id="writing" class="mt-12 md:mt-16">
                     <div class="flex items-baseline justify-between mb-4 md:mb-5">
-                        <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest">Writing //</h2>
-                        <a href="blogs.html" class="font-mono text-[11px] text-gray-500 hover:text-white transition-colors">View all -&gt;</a>
+                        <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest" data-i18n="writing_head">Writing //</h2>
+                        <a href="blogs.html" class="font-mono text-[11px] text-gray-500 hover:text-white transition-colors" data-i18n="view_all">View all -&gt;</a>
                     </div>
-                    <p class="text-sm text-gray-400 leading-relaxed mb-5 max-w-2xl">Engineering write-ups from the workbench: what we measured, what it cost, and what changed because of it. 11 posts.</p>
+                    <p class="text-sm text-gray-400 leading-relaxed mb-5 max-w-2xl" data-i18n="writing_intro">Engineering write-ups from the workbench: what we measured, what it cost, and what changed because of it. 11 posts.</p>
                     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
                         <a href="blog/how-to-win-velogames.html" class="group rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all block">
                             <div class="font-mono text-[10px] uppercase tracking-widest text-brandBlue/90 mb-2">2026-08-05 / 9 min</div>
-                            <h3 class="text-base md:text-lg font-bold text-white leading-snug group-hover:text-brandPink transition-colors">Everyone Argues About Pogačar. Velogames Is Decided by the Three Riders Nobody Thinks About.</h3>
-                            <p class="mt-2 text-sm text-gray-400 leading-relaxed">Four editions of Velogames Tour de France data, 720 riders and 15,840 rider-rounds, on how the game is actually won. The three mandatory Unclassed slo&hellip;</p>
+                            <h3 class="text-base md:text-lg font-bold text-white leading-snug group-hover:text-brandPink transition-colors" data-i18n="writing_one_title">Everyone Argues About Pogačar. Velogames Is Decided by the Three Riders Nobody Thinks About.</h3>
+                            <p class="mt-2 text-sm text-gray-400 leading-relaxed" data-i18n="writing_one_excerpt">Four editions of Velogames Tour de France data, 720 riders and 15,840 rider-rounds, on how the game is actually won. The three mandatory Unclassed slo&hellip;</p>
                         </a>
                         <a href="blog/quantum-tour-de-france-fantasy-graded.html" class="group rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all block">
                             <div class="font-mono text-[10px] uppercase tracking-widest text-brandBlue/90 mb-2">2026-07-29 / 11 min</div>
-                            <h3 class="text-base md:text-lg font-bold text-white leading-snug group-hover:text-brandPink transition-colors">The Quantum Computer Was Right About Pogačar by 84 Points. Four Editions of Data Say That Was a Coin Flip.</h3>
-                            <p class="mt-2 text-sm text-gray-400 leading-relaxed">I graded the quantum-picked fantasy team against a hindsight-optimal ILP and four editions of Velogames data. It scored 11,924 and finished outside th&hellip;</p>
+                            <h3 class="text-base md:text-lg font-bold text-white leading-snug group-hover:text-brandPink transition-colors" data-i18n="writing_two_title">The Quantum Computer Was Right About Pogačar by 84 Points. Four Editions of Data Say That Was a Coin Flip.</h3>
+                            <p class="mt-2 text-sm text-gray-400 leading-relaxed" data-i18n="writing_two_excerpt">I graded the quantum-picked fantasy team against a hindsight-optimal ILP and four editions of Velogames data. It scored 11,924 and finished outside th&hellip;</p>
                         </a>
                         <a href="blog/quantum-velogames-qaoa.html" class="group rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all block">
                             <div class="font-mono text-[10px] uppercase tracking-widest text-brandBlue/90 mb-2">2026-07-22 / 7 min</div>
-                            <h3 class="text-base md:text-lg font-bold text-white leading-snug group-hover:text-brandPink transition-colors">Simulating the Tour de France on a 127-Qubit Quantum Processor</h3>
-                            <p class="mt-2 text-sm text-gray-400 leading-relaxed">A Velogames roster is a multidimensional 0-1 knapsack, and knapsack is one of the benchmark problems QAOA is meant to own. The classical ILP solved it&hellip;</p>
+                            <h3 class="text-base md:text-lg font-bold text-white leading-snug group-hover:text-brandPink transition-colors" data-i18n="writing_three_title">Simulating the Tour de France on a 127-Qubit Quantum Processor</h3>
+                            <p class="mt-2 text-sm text-gray-400 leading-relaxed" data-i18n="writing_three_excerpt">A Velogames roster is a multidimensional 0-1 knapsack, and knapsack is one of the benchmark problems QAOA is meant to own. The classical ILP solved it&hellip;</p>
                         </a>
                     </div>
                 </section>
@@ -453,6 +455,204 @@
                 live_dep: "最新リリース //", heat_head: "フロンティア //", sites_head: "サイト //", view_all: "すべて見る -&gt;", redacted: "[ 機密事項 ]", dep_pend: "デプロイ待機中", await_clear: "承認待機中", section_blogs: "ブログ //",
                 store_dev: "開発中", store_live: "Google Play で入手", view_page: "詳細ページを開く", tap_details: "タップして詳細",
                 crew_head: "クルー //", crew_ceo_bio: "経営責任者。アジア市場運営、事業管理、ポートフォリオ成長戦略を担当。", crew_dev_bio: "シニア開発者。フルスタック設計、シミュレーションシステム、全アプリを担当。"
+            },
+            es: {
+                nav_run: "CONECTADO",
+                exp_src: "archivos_fuente", exp_logs: "blogs_públicos",
+                file_index: "índice.html", file_projects: "proyectos.html", link_blogs: "blog.html", link_crew: "equipo.html", file_privacy: "privacidad.html", file_terms: "términos.html", file_deletion: "eliminar-datos.html",
+                file_ceo: "ceo_dirección.log", file_dev: "dev_principal.log",
+                hero_title: "Crystl Labs",
+                hero_tagline: "Mundos elegantes, simulados en profundidad.", supporting_copy: "Software independiente, juegos y experimentos.",
+                live_dep: "Últimos lanzamientos //", heat_head: "Frontera //", sites_head: "Sitios //", view_all: "Ver todo -&gt;", redacted: "[ CENSURADO ]", dep_pend: "Despliegue pendiente", await_clear: "Pendiente de aprobación", section_blogs: "Blog //",
+                store_dev: "En desarrollo", store_live: "Consíguelo en Google Play", store_web: "Jugar en el navegador", view_page: "Abrir página completa", tap_details: "Toca para ver los detalles",
+                live: "Disponible", prerelease: "Prelanzamiento", coming_soon: "Próximamente",
+                nav_projects: "Proyectos", nav_journal: "Diario", nav_studio: "Estudio", nav_contact: "Contacto", nav_privacy: "Privacidad", nav_terms: "Términos", nav_deletion: "Eliminar datos",
+                nav_open: "Abrir navegación", nav_close: "Cerrar navegación", nav_primary: "Navegación principal", nav_mobile: "Navegación móvil", nav_legal: "Navegación legal", modal_close: "Cerrar", mobile_meta: "Independiente · Seúl · Conectado",
+                portal_one: "Mundo 01 · Pronósticos", portal_two: "Mundo 02 · Fútbol", portal_three: "Mundo 03 · MMA", portal_index: "Elige un mundo",
+                writing_head: "Artículos //", writing_intro: "Notas de ingeniería desde el banco de trabajo: qué medimos, cuánto costó y qué cambió como resultado. 11 artículos.",
+                writing_one_title: "Todo el mundo discute sobre Pogačar. Velogames se decide por los tres ciclistas en los que nadie piensa.", writing_one_excerpt: "Cuatro ediciones de datos del Tour de Francia de Velogames, 720 ciclistas y 15.840 registros de ciclista por ronda explican cómo se gana realmente…",
+                writing_two_title: "El ordenador cuántico acertó con Pogačar por 84 puntos. Cuatro ediciones de datos dicen que fue cuestión de suerte.", writing_two_excerpt: "Comparamos el equipo elegido por el ordenador cuántico con un modelo ILP óptimo a posteriori y cuatro ediciones de datos de Velogames. Sumó 11.924 puntos…",
+                writing_three_title: "Simular el Tour de Francia en un procesador cuántico de 127 cúbits", writing_three_excerpt: "Una plantilla de Velogames es un problema de mochila multidimensional 0-1, uno de los retos de referencia que QAOA aspira a resolver. El ILP clásico lo resolvió…",
+                crew_head: "Equipo //", crew_ceo_bio: "Dirección ejecutiva. Operaciones en el mercado asiático, administración empresarial y estrategia de crecimiento de la cartera.", crew_dev_bio: "Desarrollador principal. Arquitectura full stack, sistemas de simulación y toda la cartera de aplicaciones."
+            },
+            "pt-BR": {
+                nav_run: "CONECTADO",
+                exp_src: "arquivos_fonte", exp_logs: "blogs_públicos",
+                file_index: "índice.html", file_projects: "projetos.html", link_blogs: "blog.html", link_crew: "equipe.html", file_privacy: "privacidade.html", file_terms: "termos.html", file_deletion: "excluir-dados.html",
+                file_ceo: "ceo_diretoria.log", file_dev: "dev_principal.log",
+                hero_title: "Crystl Labs",
+                hero_tagline: "Mundos elegantes, profundamente simulados.", supporting_copy: "Software independente, jogos e experimentos.",
+                live_dep: "Últimos lançamentos //", heat_head: "Fronteira //", sites_head: "Sites //", view_all: "Ver todos -&gt;", redacted: "[ CENSURADO ]", dep_pend: "Publicação pendente", await_clear: "Aguardando aprovação", section_blogs: "Blog //",
+                store_dev: "Em desenvolvimento", store_live: "Disponível no Google Play", store_web: "Jogar no navegador", view_page: "Abrir página completa", tap_details: "Toque para ver os detalhes",
+                live: "Disponível", prerelease: "Pré-lançamento", coming_soon: "Em breve",
+                nav_projects: "Projetos", nav_journal: "Diário", nav_studio: "Estúdio", nav_contact: "Contato", nav_privacy: "Privacidade", nav_terms: "Termos", nav_deletion: "Exclusão de dados",
+                nav_open: "Abrir navegação", nav_close: "Fechar navegação", nav_primary: "Navegação principal", nav_mobile: "Navegação móvel", nav_legal: "Navegação legal", modal_close: "Fechar", mobile_meta: "Independente · Seul · Conectado",
+                portal_one: "Mundo 01 · Previsões", portal_two: "Mundo 02 · Futebol", portal_three: "Mundo 03 · MMA", portal_index: "Escolha um mundo",
+                writing_head: "Artigos //", writing_intro: "Relatos de engenharia direto da bancada: o que medimos, quanto custou e o que mudou por causa disso. 11 artigos.",
+                writing_one_title: "Todo mundo discute sobre Pogačar. O Velogames é decidido pelos três ciclistas em quem ninguém pensa.", writing_one_excerpt: "Quatro edições de dados do Tour de France no Velogames, 720 ciclistas e 15.840 registros de ciclista por rodada mostram como o jogo é realmente vencido…",
+                writing_two_title: "O computador quântico acertou Pogačar por 84 pontos. Quatro edições de dados dizem que foi pura sorte.", writing_two_excerpt: "Comparamos a equipe escolhida pelo computador quântico com um ILP retrospectivamente ideal e quatro edições de dados do Velogames. Ela marcou 11.924 pontos…",
+                writing_three_title: "Simulando o Tour de France em um processador quântico de 127 qubits", writing_three_excerpt: "Uma equipe do Velogames é um problema de mochila multidimensional 0-1, um dos desafios de referência que o QAOA pretende dominar. O ILP clássico resolveu…",
+                crew_head: "Equipe //", crew_ceo_bio: "Liderança executiva. Operações no mercado asiático, administração empresarial e estratégia de crescimento do portfólio.", crew_dev_bio: "Desenvolvedor principal. Arquitetura full stack, sistemas de simulação e todo o portfólio de aplicativos."
+            }
+        };
+
+        // Homepage-only localized marketing copy. Product names remain unchanged.
+        const APP_COPY = {
+            es: {
+                "water-polo-smash": {
+                    tagline: "Tira hacia atrás, carga el efecto y curva la pelota para superar al portero.",
+                    desc: "Water Polo Smash es un juego de tiro con un solo control: tira hacia atrás, apunta y suelta. El efecto que das al lanzamiento lo es todo: curva la pelota alrededor de la mano del portero para colocarla en la escuadra, o arriesga demasiado y acabará en el poste. El modo Simulación aplica resistencia del aire y gravedad reales; el modo Arcade las cambia por curvas salvajes y multiplicadores de combo. Hay porteros jefe cada cinco niveles, una sala de trofeos y un Laboratorio de Trayectorias para ajustar la física antes del partido."
+                },
+                "marathon-kid": {
+                    tagline: "Entrena a un chico de barrio hasta convertirlo en campeón de maratón.",
+                    desc: "Marathon Legend es un simulador de carreras de fondo en el que formas a un corredor desde cero: ritmo, resistencia y determinación. Gestiona el entrenamiento, supera el muro y persigue la meta por una ciudad de pixel art al atardecer. El guardado en la nube mantiene tu progreso contigo."
+                },
+                "stonewheel": {
+                    tagline: "Encadena trucos increíbles, esquiva las tareas y consigue las diez figuras antes que Chad Bradley.",
+                    desc: "Stonewheel es un simulador de vida skater totalmente noventero. Administra tu paga y tu tiempo libre entre la escuela y las tareas, y sal a la calle para dominar 50 trucos: flips, grabs, grinds y darkslides. Aprende movimientos de los personajes del pueblo, desde sobornar al fanático del arcade hasta superar a tu rival Chad. Compite por reunir las diez figuras de lucha Slamboree Legends antes que él, con pixel art robusto y audio noventero completamente sintetizado."
+                },
+                "zero-day-syndicate": {
+                    tagline: "Dirige un equipo de hackers. Contrata talento, crea exploits y mantén a raya la presión.",
+                    desc: "Zero-Day Syndicate es un simulador de gestión sobre el negocio de las intrusiones. Desde una oficina isométrica contratas y formas personal, desarrollas exploits y frameworks, y ejecutas brechas, golpes y botnets contra objetivos reales. Hay que blanquear el dinero, controlar la presión y ganar una reputación que abre puertas que el efectivo no puede. La operación avanza por tres eras tecnológicas —Web 2.0, cripto, y después IA y computación cuántica— y un sistema de prestigio conserva lo aprendido para la siguiente partida."
+                },
+                "bent-fc": {
+                    tagline: "Soborna, dópate y amaña tu camino desde la liga del barrio hasta la gloria continental.",
+                    desc: "Bent FC es un simulador de gestión futbolística en pixel art donde no eres el entrenador, sino el presidente corrupto que está por encima. Puedes ascender por méritos, pero el camino rápido pasa por árbitros sobornados, programas de dopaje discretos, resultados pactados, entradas que terminan carreras y documentos que nunca sobreviven a una auditoría. Cada atajo te compra una temporada y te pasa factura más adelante. Presentación al estilo Kairosoft y una simulación que se toma la corrupción en serio."
+                },
+                "bleacher-busters": {
+                    tagline: "Desliza para batear. Manda pelotas a la órbita. Tienes 30 días para superar a tus rivales.",
+                    desc: "Bleacher Busters es un derby de jonrones centrado en una sola cosa: mandar la pelota absurdamente lejos. Desliza por la zona de strike para batear y sigue la bola más allá de las gradas, la autopista y la atmósfera, con distancia, velocidad de salida y tiempo de vuelo medidos en cada golpe. La temporada dura 30 días de juego y tres bateadores rivales persiguen tu cuenta, así que cada día de entrenamiento es un día sin batear. Mejora tus estadísticas, compra bates, amplía el estadio, vence a tres pitchers jefe, asciende de liga y vuelve a empezar para superar tu récord. Retos diarios, un Ghost Derby semanal con códigos y 24 monumentos por derribar alargan la competición."
+                },
+                "cage-of-glory": {
+                    tagline: "Ábrete paso desde los clubes hasta el cinturón mundial de MMA.",
+                    desc: "Cage of Glory es un simulador de carrera de MMA en el que creas un luchador y asciendes desde pequeños eventos de club hasta el oro del campeonato. Entrena tus habilidades, gestiona el plan de combate y sube en la clasificación rumbo al cinturón. Progresión profunda con una base fácil de aprender y jugar."
+                },
+                "wall-street-1987": {
+                    tagline: "Convierte un préstamo de 5.000 dólares en un imperio de Wall Street antes de que llegue la SEC.",
+                    desc: "Wall Street: 1987 es un RPG retro de bolsa que te deja en una oficina de sótano con un préstamo de 5.000 dólares de Tony y una línea telefónica conectada a más de 50 acciones. Compra barato, vende caro, cierra acuerdos en negro y controla la atención de la SEC antes de que una redada lo borre todo. Pasa del sótano a una isla privada en el extranjero y derrota a tres legendarios jefes corporativos para demostrar que la Calle es tuya. Sintetizadores chiptune y teletipos constantes mantienen intacto el espíritu de 1987."
+                },
+                "bikini-bay": {
+                    tagline: "Construye un campamento de surf, diseña las tablas y lleva a tu equipo al título mundial.",
+                    desc: "Bikini Bay es el Grand Prix Story del surf: diez años para convertir una choza en la arena en un programa capaz de ganar la clasificación mundial. Descubre y desarrolla surfistas, fabrica tablas cuya forma cambia de verdad su manera de surfear, interpreta las olas y envía al equipo a mangas y circuitos contra cuatro campamentos rivales con personalidad propia. Pixel art contundente al estilo Kairosoft y bucles de progreso que siempre recompensan."
+                },
+                "dork": {
+                    tagline: "Una aventura de texto que se juega de oído: aquí MIRAR no funciona.",
+                    desc: "DORK: Long Beach '95 es una aventura de texto con un protagonista ciego: no puedes MIRAR, solo ESCUCHAR, OLER y TOCAR para abrirte paso por una noche legendaria del Long Beach de 1995. Explora 15 lugares —un concierto en un patio con una banda ska procedural, un transatlántico embrujado y una mesa de blackjack en braille— mientras buscas puntos RAD antes del amanecer. Seis finales, dos secretos y un perro llamado Lou Dog que te seguirá por un Slim Jim. Un único archivo autónomo, sin anuncios, sin red y sin necesidad de ver."
+                },
+                "mise": {
+                    tagline: "Importa cualquier receta y cocínala paso a paso con los temporizadores en marcha.",
+                    desc: "Mise es un recetario que se ocupa de la parte tediosa. Dale un enlace, PDF, foto o texto y lo convierte en una receta estructurada dentro del dispositivo, sin cuenta, clave de API ni servidor de recetas. El contenido permanece en tu dispositivo. Al cocinar, cada paso muestra solo los ingredientes que necesita e inicia sus propios temporizadores, que siguen funcionando aunque la app se cierre. Ajusta porciones, crea la lista de compras, registra el plato con una foto y guarda todo el recetario en un archivo que controlas."
+                },
+                "rich-man-poor-man": {
+                    tagline: "Adivina qué tienen en común los asquerosamente ricos y los desesperadamente pobres.",
+                    desc: "Un juego de fiesta sobre la guerra de clases que funciona en el navegador, sin registro ni instalación. Algunas cosas solo las hacen los ultrarricos; otras, solo los muy pobres. La broma —y todo el juego— está en la intersección: lo que ambos hacen mientras la clase media paga la cuenta. Juega el Reto Diario, las mismas diez rondas para todos, o el modo libre con más de seiscientos escenarios. Cada revelación trae tres remates, uno por clase. Suma 100 puntos por acierto, encadena rachas, alimenta el Salón de la Fama con tus favoritas, envía tus propias tarjetas e instala la PWA para jugar sin conexión después de la primera visita."
+                },
+                "crystl-suite": {
+                    tagline: "75 herramientas en el navegador. Nada de lo que abras sale de tu dispositivo.",
+                    desc: "Las herramientas internas que Crystl Labs creó para su propio trabajo, ahora abiertas a todos. Son setenta y cinco: elimina EXIF y GPS de fotos, convierte HEIC a JPG, extrae audio de vídeo, combina, firma y marca PDFs, prueba expresiones regulares sin bloquear la pestaña, genera favicons, decodifica JWT, revisa subredes o usa una pizarra, metrónomo o temporizador Pomodoro. Todas funcionan en tu navegador: no hay subidas, cuentas, servidores que guarden tus archivos ni facturas. Al eliminar el backend tampoco queda una superficie de ataque que merezca la pena atacar."
+                },
+                "statclash": {
+                    tagline: "Mayor o menor con visitas de YouTube: éxitos de mil millones y fantasmas del viejo internet.",
+                    desc: "Dos vídeos de YouTube: una cifra de visitas visible y otra oculta. Mayor o menor. Ese es todo el juego, y cuesta más de lo que parece porque tu intuición sobre lo que internet realmente vio suele fallar. El mazo reúne 44 vídeos obtenidos de la API de YouTube Data v3; cada cifra es el recuento real cuando se creó, no una aproximación. Funciona en el navegador sin cuenta ni instalación, guarda tu récord localmente y termina la racha en cuanto fallas."
+                },
+                "starclash": {
+                    tagline: "¿Qué repositorio recibió más estrellas? Mayor o menor con estrellas de GitHub.",
+                    desc: "La misma fórmula de mayor o menor que StatClash para un público muy distinto: 64 repositorios de GitHub y sus estrellas, directamente desde la API REST de GitHub. Es un juego separado porque quien quiere discutir si Julia tiene más estrellas que ReactOS no busca lo mismo que quien adivina visitas de YouTube. Cada tarjeta incluye etiquetas de lenguaje y avatares del repositorio, las mismas pistas que usarías en el sitio real."
+                },
+                "code-snob": {
+                    tagline: "Reconoce el lenguaje de programación a partir de tres líneas.",
+                    desc: "Aparece un fragmento breve en una terminal y debes identificar el lenguaje. Cincuenta y seis rondas de once familias: arrays, BEAM, llaves, JVM, legacy, Lisp, lógica, ML, scripting, shell y sistemas. La familia se muestra porque convierte una adivinanza imposible en una decisión real: saber que un fragmento es ML reduce las opciones a OCaml, F#, Elm y PureScript, y entonces hay que leer la sintaxis. Buenos distractores convierten una adivinanza en un juego, no en lanzar una moneda. Sin cuenta ni instalación; la racha se guarda localmente."
+                },
+                "font-guesser": {
+                    tagline: "Reconoce la tipografía a partir de una muestra. Cincuenta y cuatro, alojadas localmente.",
+                    desc: "Una muestra aparece con la tipografía real y debes nombrarla. Cincuenta y cuatro familias en nueve categorías: sans geométrica, grotesca y humanista; serif antigua, didona y slab; monoespaciada, display y script. Cada archivo está alojado localmente, en vez de depender de un CDN que podría sustituirlo silenciosamente y volver imposible el juego. Como en Code Snob, la categoría aparece primero para que las cuatro opciones sean realmente parecidas y tengas que mirar las formas de las letras."
+                },
+                "what-year": {
+                    tagline: "Tres cosas debutaron el mismo año. Adivínalo. Un rompecabezas al día.",
+                    desc: "Una película, una canción de éxito y un acontecimiento, todos del mismo año. Mueve el control de 1960 a 2024 y fija tu respuesta. Hay 65 rompecabezas, uno al día e igual para todos, contados desde una fecha fija para que nadie reciba un tablero distinto. Blazing Saddles, Waterloo y la invención del cubo de Rubik corresponden a 1974; si fallas por dieciocho años, la pantalla de resultados te lo dice sin suavizarlo. Las rachas sobreviven a una recarga, se rompen al perder un día y pueden compartirse al estilo Wordle."
+                },
+                "inflation-price": {
+                    tagline: "Una HP-35 costaba 395 dólares en 1972. ¿Cuánto sería hoy?",
+                    desc: "Ves un producto real, su año de lanzamiento y el precio original. Escribe cuánto crees que equivaldría hoy y confirma. Son 38 artículos, desde la primera calculadora científica de bolsillo hasta una PlayStation 5. La conversión no usa un multiplicador inventado: se basa en la serie CPI-U de Estados Unidos (CUUR0000SA0, todos los artículos, promedio urbano, sin ajuste estacional) de la Oficina de Estadísticas Laborales, con 2024 como año base. Por eso merece la pena jugar en vez de discutir."
+                }
+            },
+            "pt-BR": {
+                "water-polo-smash": {
+                    tagline: "Puxe, carregue o efeito e faça a bola contornar o goleiro.",
+                    desc: "Water Polo Smash é um jogo de arremesso com um único controle: puxe, mire e solte. O efeito aplicado à bola é o jogo inteiro — curve o arremesso ao redor da mão do goleiro para acertar o ângulo, ou exagere e veja a bola bater na trave. O modo Simulação usa resistência do ar e gravidade reais; o Arcade troca isso por curvas radicais e multiplicadores de combo. Há goleiros chefes a cada cinco níveis, uma sala de troféus e um Laboratório de Trajetórias que revela a física para você ajustar a curva antes da partida."
+                },
+                "marathon-kid": {
+                    tagline: "Treine um garoto das ruas até transformá-lo em campeão de maratona.",
+                    desc: "Marathon Legend é um simulador de corrida de resistência em que você desenvolve um corredor do zero: ritmo, fôlego e garra. Gerencie o treinamento, atravesse o muro e persiga a linha de chegada por uma cidade em pixel art na hora dourada. O salvamento na nuvem mantém seu progresso sempre por perto."
+                },
+                "stonewheel": {
+                    tagline: "Mande linhas insanas, fuja das tarefas e pegue as dez figuras antes de Chad Bradley.",
+                    desc: "Stonewheel é um simulador de vida skatista totalmente anos 90. Administre a mesada e o tempo livre entre escola e tarefas, depois vá para as ruas aprender 50 manobras — flips, grabs, grinds e darkslides. Aprenda movimentos com os personagens da cidade, de subornar o rato do fliperama a superar seu rival Chad. Corra para colecionar as dez figuras de luta livre Slamboree Legends antes dele, com pixel art robusta e áudio dos anos 90 totalmente sintetizado."
+                },
+                "zero-day-syndicate": {
+                    tagline: "Comande uma equipe hacker. Contrate talentos, crie exploits e mantenha a pressão sob controle.",
+                    desc: "Zero-Day Syndicate é um simulador de gestão sobre o negócio das invasões. Em um escritório isométrico, você contrata e treina a equipe, desenvolve exploits e frameworks próprios e executa ataques, golpes e botnets contra alvos reais. O dinheiro precisa ser lavado, a pressão precisa ser controlada e a reputação abre portas que o dinheiro não abre. A operação atravessa três eras tecnológicas — Web 2.0, cripto e depois IA e computação quântica — enquanto um sistema de prestígio leva o aprendizado para a próxima campanha."
+                },
+                "bent-fc": {
+                    tagline: "Suborne, dope e manipule seu caminho da várzea até a glória continental.",
+                    desc: "Bent FC é um simulador de gestão de futebol em pixel art no qual você não é o técnico, mas o presidente corrupto acima dele. Dá para subir por mérito, porém o atalho passa por árbitros subornados, programas discretos de doping, resultados combinados, carrinhos que encerram carreiras e documentos que nunca sobrevivem a uma auditoria. Cada atalho compra uma temporada e cobra a conta depois. Visual no estilo Kairosoft e uma simulação que leva a corrupção a sério."
+                },
+                "bleacher-busters": {
+                    tagline: "Deslize para rebater. Lance bolas até a órbita. Você tem 30 dias para superar os rivais.",
+                    desc: "Bleacher Busters é um derby de home runs sobre uma única coisa: rebater a bola absurdamente longe. Deslize pela zona de strike e acompanhe a bola para além das arquibancadas, da rodovia e da atmosfera, com distância, velocidade de saída e tempo de voo medidos a cada rebatida. A temporada tem 30 dias e três rebatedores rivais perseguem sua contagem; cada dia de treino é um dia sem rebater. Melhore atributos, compre tacos, amplie o estádio, derrote três arremessadores chefes, suba de liga e reinicie para buscar seu recorde. Desafios diários, Ghost Derby semanal com códigos e 24 marcos para destruir mantêm a disputa viva."
+                },
+                "cage-of-glory": {
+                    tagline: "Abra caminho dos eventos de clube até o cinturão mundial de MMA.",
+                    desc: "Cage of Glory é um simulador de carreira no MMA em que você cria um lutador e sobe de pequenos eventos de clube até o ouro do campeonato. Treine habilidades, gerencie o plano de luta e avance no ranking rumo ao cinturão. Progressão profunda com uma base fácil de aprender e jogar."
+                },
+                "wall-street-1987": {
+                    tagline: "Transforme um empréstimo de US$ 5.000 em um império de Wall Street antes que a SEC chegue.",
+                    desc: "Wall Street: 1987 é um RPG retrô de mercado que coloca você num escritório de porão, com um empréstimo de US$ 5.000 do Tony e uma linha telefônica ligada a mais de 50 ações. Compre na baixa, venda na alta, feche acordos por fora e controle a atenção da SEC antes que uma batida acabe com tudo. Saia do porão até chegar a uma ilha particular offshore e derrote três chefes corporativos lendários para provar que a Rua é sua. Sintetizadores chiptune e cotações rolando preservam o puro clima de 1987."
+                },
+                "bikini-bay": {
+                    tagline: "Construa um acampamento de surfe, modele as pranchas e leve a equipe ao título mundial.",
+                    desc: "Bikini Bay é o Grand Prix Story do surfe: uma jornada de dez anos para transformar uma cabana na areia em um programa vencedor do ranking mundial. Descubra e desenvolva surfistas, fabrique pranchas cujo formato realmente muda a forma de surfar, leia as ondas e envie a equipe para baterias e circuitos contra quatro acampamentos rivais com personalidades próprias. Pixel art marcante no estilo Kairosoft sobre ciclos de progressão que sempre recompensam."
+                },
+                "dork": {
+                    tagline: "Uma aventura em texto jogada inteiramente de ouvido — OLHAR não funciona aqui.",
+                    desc: "DORK: Long Beach '95 é uma aventura em texto com um protagonista cego: você não pode OLHAR, apenas OUVIR, CHEIRAR e TOCAR para atravessar uma noite lendária na Long Beach de 1995. Explore 15 lugares — um show no quintal com uma banda de ska procedural, um transatlântico assombrado e uma mesa de blackjack em braile — em busca de pontos RAD antes do amanhecer. Seis finais, dois segredos e um cachorro chamado Lou Dog que segue você por um Slim Jim. Um arquivo independente, sem anúncios, sem rede e sem precisar enxergar."
+                },
+                "mise": {
+                    tagline: "Importe qualquer receita e cozinhe passo a passo com os timers funcionando por você.",
+                    desc: "Mise é um livro de receitas que cuida da parte tediosa. Aponte para um link, PDF, foto ou texto e ele transforma tudo em uma receita estruturada no aparelho — sem conta, chave de API ou servidor de receitas. O conteúdo fica no seu dispositivo. Na hora de cozinhar, cada etapa mostra apenas os ingredientes necessários e inicia seus próprios timers, que continuam mesmo se o app for encerrado. Ajuste porções, monte a lista de compras, registre o prato com uma foto e mantenha o livro inteiro salvo em um arquivo que pertence a você."
+                },
+                "rich-man-poor-man": {
+                    tagline: "Descubra o que os podres de ricos e os miseravelmente pobres têm em comum.",
+                    desc: "Um jogo de festa sobre luta de classes que roda no navegador, sem cadastro nem instalação. Algumas coisas só os podres de ricos fazem; outras, só os miseravelmente pobres. A piada — e o jogo inteiro — está na interseção: aquilo que ambos fazem enquanto a classe média paga a conta. Jogue o Desafio Diário, com as mesmas dez rodadas para todos, ou o modo livre com mais de seiscentos cenários. Cada revelação traz três piadas, uma por classe. Ganhe 100 pontos por acerto, emende sequências, alimente o Hall da Fama com suas favoritas, envie suas próprias cartas e instale o PWA para jogar offline depois da primeira visita."
+                },
+                "crystl-suite": {
+                    tagline: "75 ferramentas no navegador. Nada do que você abre sai do seu dispositivo.",
+                    desc: "As ferramentas internas que a Crystl Labs criou para o próprio trabalho, agora abertas a todos. São setenta e cinco: remova EXIF e GPS de fotos, converta HEIC para JPG, extraia áudio de vídeos, combine, assine e marque PDFs, teste regex sem travar a aba, gere favicons, decodifique JWT, verifique sub-redes ou use um quadro branco, metrônomo ou timer Pomodoro. Todas rodam no navegador: não há upload, conta, servidor guardando arquivos ou cobrança. Depois que o backend foi removido, também não restou uma superfície de ataque que valha a pena atacar."
+                },
+                "statclash": {
+                    tagline: "Maior ou menor com visualizações do YouTube: bilhões de views e fantasmas da velha internet.",
+                    desc: "Dois vídeos do YouTube: uma contagem de visualizações aparece e a outra fica escondida. Maior ou menor. Esse é o jogo inteiro, e é mais difícil do que parece porque sua intuição sobre o que a internet realmente assistiu costuma estar errada. O baralho tem 44 vídeos obtidos pela API YouTube Data v3; cada número é a contagem real no momento em que o baralho foi criado, não uma aproximação. Roda no navegador sem conta nem instalação, salva seu recorde localmente e encerra a sequência no primeiro erro."
+                },
+                "starclash": {
+                    tagline: "Qual repositório ganhou mais estrelas? Maior ou menor com estrelas do GitHub.",
+                    desc: "A mesma fórmula de maior ou menor do StatClash para um público bem diferente: 64 repositórios do GitHub e suas estrelas, direto da API REST do GitHub. É um jogo separado porque quem quer discutir se Julia tem mais estrelas que ReactOS não procura a mesma coisa que quem adivinha views do YouTube. Cada carta inclui etiquetas de linguagem e avatares dos repositórios, as mesmas pistas que você usaria no site real."
+                },
+                "code-snob": {
+                    tagline: "Descubra a linguagem de programação a partir de três linhas.",
+                    desc: "Um trecho curto aparece numa janela de terminal e você identifica a linguagem. São 56 rodadas em onze famílias: arrays, BEAM, chaves, JVM, legadas, Lisp, lógica, ML, scripting, shell e sistemas. A família aparece porque transforma um chute impossível numa escolha de verdade: saber que o trecho é ML reduz as opções a OCaml, F#, Elm e PureScript, e então você precisa ler a sintaxe. Bons distratores fazem de uma adivinhação um jogo, não um cara ou coroa. Sem conta nem instalação; a sequência fica salva localmente."
+                },
+                "font-guesser": {
+                    tagline: "Descubra a fonte a partir de uma amostra. Cinquenta e quatro, hospedadas localmente.",
+                    desc: "Uma amostra aparece na tela usando a fonte verdadeira e você precisa identificá-la. São 54 fontes em nove categorias: sans geométrica, grotesca e humanista; serif antiga, didona e slab; monoespaçada, display e script. Cada arquivo é hospedado localmente em vez de vir de um CDN que poderia substituir tudo silenciosamente e tornar o jogo impossível. Como em Code Snob, a categoria aparece primeiro para que as quatro opções sejam realmente parecidas e você precise observar o desenho das letras."
+                },
+                "what-year": {
+                    tagline: "Três coisas estrearam no mesmo ano. Descubra qual. Um desafio por dia.",
+                    desc: "Um filme, uma música de sucesso e um acontecimento, todos do mesmo ano. Arraste o controle de 1960 a 2024 e confirme a resposta. São 65 desafios, um por dia e igual para todos, contados a partir de uma data fixa para ninguém receber um tabuleiro diferente. Blazing Saddles, Waterloo e a invenção do cubo mágico são de 1974; se você errar por dezoito anos, a tela de resultado avisa sem aliviar. As sequências sobrevivem ao recarregamento, quebram quando você perde um dia e podem ser compartilhadas no estilo Wordle."
+                },
+                "inflation-price": {
+                    tagline: "Uma HP-35 custava US$ 395 em 1972. Quanto seria hoje?",
+                    desc: "Você vê um produto real, o ano de lançamento e o preço original. Digite quanto acha que isso valeria hoje e confirme. São 38 itens, da primeira calculadora científica de bolso ao PlayStation 5. A conversão não usa um multiplicador inventado: ela roda sobre a série CPI-U dos Estados Unidos (CUUR0000SA0, todos os itens, média urbana, sem ajuste sazonal) do Bureau of Labor Statistics, com 2024 como ano-base. É isso que faz o jogo valer a pena em vez de virar uma discussão."
+                }
             }
         };
 
@@ -462,29 +662,39 @@
 
         // Prerelease frontier projects — name only, no store link/description yet
         const heatProjects = [
-            { name: "Crystl Quant", tag: "Reality engine.", url: "https://crystlquant.com" },
-            { name: "Project Oscar", tag: "Cognitive offset." },
-            { name: "Zero Cool", tag: "Root access.", url: "apps/zero-cool.html", badge: "In development" }
+            { name: "Crystl Quant", tag: { en: "Reality engine.", es: "Motor de realidad.", "pt-BR": "Motor de realidade." }, url: "https://crystlquant.com" },
+            { name: "Project Oscar", tag: { en: "Cognitive offset.", es: "Desfase cognitivo.", "pt-BR": "Deslocamento cognitivo." } },
+            { name: "Zero Cool", tag: { en: "Root access.", es: "Acceso raíz.", "pt-BR": "Acesso root." }, url: "apps/zero-cool.html", statusKey: "store_dev" }
         ];
 
         // Live web properties on crystllabs.com subdomains — playable in the browser
         const siteProjects = [
-            { name: "Rich Man Poor Man", initial: "R", tag: "Guess what the filthy rich and the dirt poor have in common.", url: "apps/rich-man-poor-man.html" },
-            { name: "Crystl Suite", initial: "S", tag: "75 browser tools. Nothing you open ever leaves your machine.", url: "apps/crystl-suite.html" },
-            { name: "StatClash", initial: "Y", tag: "Higher or lower, on YouTube view counts.", url: "apps/statclash.html" },
-            { name: "StarClash", initial: "G", tag: "Which repo did the internet star harder?", url: "apps/starclash.html" },
-            { name: "Code Snob", initial: "C", tag: "Name the programming language from three lines of it.", url: "apps/code-snob.html" },
-            { name: "Font Guesser", initial: "F", tag: "Name the typeface from a specimen. 54 of them.", url: "apps/font-guesser.html" },
-            { name: "What Year Was It?", initial: "W", tag: "Three things debuted the same year. Name it.", url: "apps/what-year.html" },
-            { name: "The Inflation Price Is Right", initial: "$", tag: "What would that 1972 price be in today’s money?", url: "apps/inflation-price.html" }
+            { name: "Rich Man Poor Man", initial: "R", slug: "rich-man-poor-man", tag: "Guess what the filthy rich and the dirt poor have in common.", url: "apps/rich-man-poor-man.html" },
+            { name: "Crystl Suite", initial: "S", slug: "crystl-suite", tag: "75 browser tools. Nothing you open ever leaves your machine.", url: "apps/crystl-suite.html" },
+            { name: "StatClash", initial: "Y", slug: "statclash", tag: "Higher or lower, on YouTube view counts.", url: "apps/statclash.html" },
+            { name: "StarClash", initial: "G", slug: "starclash", tag: "Which repo did the internet star harder?", url: "apps/starclash.html" },
+            { name: "Code Snob", initial: "C", slug: "code-snob", tag: "Name the programming language from three lines of it.", url: "apps/code-snob.html" },
+            { name: "Font Guesser", initial: "F", slug: "font-guesser", tag: "Name the typeface from a specimen. 54 of them.", url: "apps/font-guesser.html" },
+            { name: "What Year Was It?", initial: "W", slug: "what-year", tag: "Three things debuted the same year. Name it.", url: "apps/what-year.html" },
+            { name: "The Inflation Price Is Right", initial: "$", slug: "inflation-price", tag: "What would that 1972 price be in today’s money?", url: "apps/inflation-price.html" }
         ];
+
+        const supportedLanguages = ['en', 'ko', 'ja', 'es', 'pt-BR'];
 
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
-            return ['en', 'ko', 'ja'].includes(l) ? l : 'ko';
+            return supportedLanguages.includes(l) ? l : 'ko';
         }
 
-        function renderHeat() {
+        function localized(value, lang) {
+            return typeof value === 'string' ? value : value?.[lang] || value?.en || '';
+        }
+
+        function appText(app, field, lang) {
+            return APP_COPY[lang]?.[app.slug]?.[field] || app[field]?.[lang] || app[field]?.en || '';
+        }
+
+        function renderHeat(lang) {
             const wrap = document.getElementById('heatCarousel');
             if (!wrap) return;
             // A frontier entry with a page of its own becomes a link; the rest
@@ -496,8 +706,8 @@
                     </div>
                     <div>
                         <h3 class="text-base md:text-lg font-bold text-white leading-tight${p.url ? ' group-hover:text-brandPink transition-colors' : ''}">${p.name}</h3>
-                        <p class="mt-0.5 text-xs md:text-sm text-gray-400">${p.tag}</p>
-                        <span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">${p.badge || 'Prerelease'}</span>
+                        <p class="mt-0.5 text-xs md:text-sm text-gray-400">${localized(p.tag, lang)}</p>
+                        <span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">${p.statusKey ? i18n[lang][p.statusKey] : (i18n[lang].prerelease || 'Prerelease')}</span>
                     </div>`;
                 const cls = 'group rounded-2xl border border-brandBlue/30 bg-gradient-to-br from-brandBlue/10 via-panelBg/60 to-brandPink/5 p-5 md:p-6 shadow-lg shadow-black/20 flex items-center gap-4';
                 return p.url
@@ -506,19 +716,19 @@
             }).join('');
         }
 
-        function renderSites() {
+        function renderSites(lang) {
             const wrap = document.getElementById('siteGrid');
             if (!wrap) return;
             wrap.innerHTML = siteProjects.map(p => {
                 const live = !!p.url;
                 const tag = live
-                    ? '<span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Live</span>'
-                    : `<span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 border border-gray-500/40 bg-gray-500/10 rounded px-1.5 py-0.5">${p.soon || 'Coming soon'}</span>`;
+                    ? `<span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">${i18n[lang].live || 'Live'}</span>`
+                    : `<span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 border border-gray-500/40 bg-gray-500/10 rounded px-1.5 py-0.5">${p.soon || i18n[lang].coming_soon || 'Coming soon'}</span>`;
                 const inner = `
                     <div class="w-14 h-14 md:w-16 md:h-16 shrink-0 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-xl md:text-2xl font-extrabold text-gradient">${p.initial}</div>
                     <div>
                         <h3 class="text-base md:text-lg font-bold text-white leading-tight ${live ? 'group-hover:text-brandPink transition-colors' : ''}">${p.name}</h3>
-                        <p class="mt-0.5 text-xs md:text-sm text-gray-400">${p.tag}</p>
+                        <p class="mt-0.5 text-xs md:text-sm text-gray-400">${APP_COPY[lang]?.[p.slug]?.tagline || p.tag}</p>
                         ${tag}
                     </div>`;
                 return live
@@ -534,25 +744,25 @@
                 <button onclick="openAppModal(${i})" class="group snap-start shrink-0 w-64 md:w-72 text-left rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all">
                     <div class="flex items-center gap-4 mb-4">
                         <img src="${a.icon}" alt="" class="w-14 h-14 md:w-16 md:h-16 rounded-2xl border border-white/10 shadow-md shadow-black/30 shrink-0">
-                        <h3 class="text-base md:text-lg font-bold text-white leading-tight group-hover:text-brandPink transition-colors">${a.name[lang]}</h3>
+                        <h3 class="text-base md:text-lg font-bold text-white leading-tight group-hover:text-brandPink transition-colors">${a.name[lang] || a.name.en}</h3>
                     </div>
-                    <p class="text-sm text-gray-400 leading-relaxed">${a.tagline[lang]}</p>
-                    <span class="mt-3 block">${a.status === 'Live' ? '<span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>' : ''}</span>
+                    <p class="text-sm text-gray-400 leading-relaxed">${appText(a, 'tagline', lang)}</p>
+                    <span class="mt-3 block">${a.status === 'Live' ? `<span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">${i18n[lang].live || 'Live'}</span>` : ''}</span>
                     <span class="mt-4 block font-mono text-sm tracking-[0.4em] text-gray-600 group-hover:text-brandPink group-hover:tracking-[0.55em] transition-all">&gt;&gt;&gt;</span>
                 </button>
             `).join('');
         }
 
         // Store-button label for browser projects, kept beside the modal that uses it.
-        const STORE_WEB = { en: 'Play in your browser', ko: '브라우저에서 플레이', ja: 'ブラウザでプレイ' };
+        const STORE_WEB = { en: 'Play in your browser', ko: '브라우저에서 플레이', ja: 'ブラウザでプレイ', es: 'Jugar en el navegador', 'pt-BR': 'Jogar no navegador' };
 
         function openAppModal(i) {
             const a = apps[i];
             const lang = currentLang();
             document.getElementById('amIcon').src = a.icon;
-            document.getElementById('amName').textContent = a.name[lang];
-            document.getElementById('amTagline').textContent = a.tagline[lang];
-            document.getElementById('amDesc').textContent = a.desc[lang];
+            document.getElementById('amName').textContent = a.name[lang] || a.name.en;
+            document.getElementById('amTagline').textContent = appText(a, 'tagline', lang);
+            document.getElementById('amDesc').textContent = appText(a, 'desc', lang);
             document.getElementById('amPlatform').textContent = a.platform || 'Android';
             document.getElementById('amPageLink').href = a.page || (a.slug ? `apps/${a.slug}.html` : '#');
 
@@ -572,7 +782,7 @@
             const shotsWrap = document.getElementById('amShots');
             const shots = a.screenshots || [];
             shotsWrap.innerHTML = shots.map((s, n) => `
-                <img src="${s}" alt="${a.name[lang]} ${n + 1}" loading="lazy" class="snap-start shrink-0 w-28 md:w-32 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                <img src="${s}" alt="${a.name[lang] || a.name.en} ${n + 1}" loading="lazy" class="snap-start shrink-0 w-28 md:w-32 rounded-xl border border-white/10 shadow-lg shadow-black/30">
             `).join('');
             shotsWrap.style.display = shots.length ? 'flex' : 'none';
             document.getElementById('appModal').classList.remove('hidden');
@@ -626,17 +836,64 @@
         }
 
         function switchLang(lang) {
+            if (!supportedLanguages.includes(lang)) lang = 'ko';
             localStorage.setItem('crystl_lang', lang);
             document.getElementById('langSelect').value = lang;
+            document.documentElement.lang = lang;
 
             document.querySelectorAll('[data-i18n]').forEach(el => {
                 const key = el.getAttribute('data-i18n');
                 if (i18n[lang] && i18n[lang][key]) el.innerHTML = i18n[lang][key];
             });
 
-            renderHeat();
-            renderSites();
+            const hero = document.querySelector('[data-i18n="hero_tagline"]');
+            hero?.setAttribute('data-supporting-copy', i18n[lang].supporting_copy || 'Independent software, games, and experiments.');
+            translateSharedChrome(lang);
+            renderHeat(lang);
+            renderSites(lang);
             renderApps(lang);
+        }
+
+        function translateSharedChrome(lang) {
+            const t = i18n[lang];
+            if (!t.nav_projects) return;
+
+            const labels = {
+                'projects.html': t.nav_projects,
+                'blogs.html': t.nav_journal,
+                'personnel.html': t.nav_studio,
+                'contact.html': t.nav_contact,
+                'privacy.html': t.nav_privacy,
+                'terms.html': t.nav_terms,
+                'data-deletion.html': t.nav_deletion
+            };
+            document.querySelectorAll('.crystl-nav-links a,.crystl-mobile-menu a,.crystl-footer a').forEach(link => {
+                const href = link.getAttribute('href') || '';
+                const key = Object.keys(labels).find(name => href.endsWith(name));
+                if (key) link.textContent = labels[key];
+            });
+            const status = document.querySelector('.crystl-status');
+            if (status) status.textContent = `Seoul · ${t.nav_run}`;
+
+            const menuButton = document.querySelector('.crystl-menu-button');
+            if (menuButton) {
+                menuButton.dataset.openLabel = t.nav_open;
+                menuButton.dataset.closeLabel = t.nav_close;
+                menuButton.setAttribute('aria-label', menuButton.getAttribute('aria-expanded') === 'true' ? t.nav_close : t.nav_open);
+            }
+            document.querySelector('.crystl-nav-links')?.setAttribute('aria-label', t.nav_primary);
+            document.querySelector('.crystl-mobile-menu')?.setAttribute('aria-label', t.nav_mobile);
+            document.querySelector('.crystl-footer nav')?.setAttribute('aria-label', t.nav_legal);
+            const mobileMeta = document.querySelector('.crystl-mobile-menu small');
+            if (mobileMeta) mobileMeta.innerHTML = `${t.mobile_meta}<br>${t.hero_tagline}`;
+            document.querySelector('#appModal button[onclick*="closeAppModal"]')?.setAttribute('aria-label', t.modal_close);
+
+            const portalLabels = [t.portal_one, t.portal_two, t.portal_three];
+            document.querySelectorAll('.portal-plane small').forEach((label, index) => {
+                label.textContent = portalLabels[index];
+            });
+            const portalIndex = document.querySelector('.portal-index');
+            if (portalIndex) portalIndex.textContent = t.portal_index;
         }
 
         function toggleMenu() {
@@ -673,10 +930,11 @@
         }
 
         window.onload = () => {
-            let lang = localStorage.getItem('crystl_lang');
+            const requestedLang = new URLSearchParams(location.search).get('lang');
+            let lang = supportedLanguages.includes(requestedLang) ? requestedLang : localStorage.getItem('crystl_lang');
             if (!lang) {
                 const bLang = navigator.language.slice(0, 2);
-                lang = ['en', 'ko', 'ja'].includes(bLang) ? bLang : 'ko';
+                lang = bLang === 'pt' ? 'pt-BR' : (supportedLanguages.includes(bLang) ? bLang : 'ko');
             }
             switchLang(lang);
             startTextCycle();

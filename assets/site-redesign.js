@@ -66,7 +66,9 @@
     menuButton.addEventListener('click', () => requestAnimationFrame(() => {
       const isOpen = !document.getElementById('sidebar')?.classList.contains('-translate-x-full');
       menuButton.setAttribute('aria-expanded', String(isOpen));
-      menuButton.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
+      menuButton.setAttribute('aria-label', isOpen
+        ? (menuButton.dataset.closeLabel || 'Close navigation')
+        : (menuButton.dataset.openLabel || 'Open navigation'));
     }));
   }
 
