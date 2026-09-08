@@ -13,17 +13,23 @@
    "name": {
     "en": "Water Polo Smash",
     "ko": "워터 폴로 스매시",
-    "ja": "ウォーターポロ・スマッシュ"
+    "ja": "ウォーターポロ・スマッシュ",
+    "es": "Water Polo Smash",
+    "pt-BR": "Water Polo Smash"
    },
    "tagline": {
     "en": "Drag back, load the spin, and bend the ball past the keeper.",
     "ko": "당겨서 스핀을 걸고, 골키퍼를 넘기는 슛을 날리세요.",
-    "ja": "引いてスピンをかけ、キーパーをかわして決めろ。"
+    "ja": "引いてスピンをかけ、キーパーをかわして決めろ。",
+    "es": "Tira hacia atrás, carga el efecto y curva el balón por delante del portero.",
+    "pt-BR": "Puxe, carregue o efeito e curve a bola por cima do goleiro."
    },
    "desc": {
     "en": "Water Polo Smash is a shooting game with one control: drag back, aim, let go. The spin you put on the throw is the whole game — bend it around the keeper's hand and it drops into the top corner, get greedy and it comes off the post. Simulation mode runs real air drag and gravity, so clean technique scores. Arcade throws that out for wild curves and combo multipliers. Boss keepers every fifth level, a trophy room to fill, and a Trajectory Lab that exposes the physics so you can tune your curve before you take it into a match.",
     "ko": "워터 폴로 스매시는 조작이 하나뿐인 슈팅 게임입니다. 당기고, 조준하고, 놓으세요. 승부를 가르는 것은 슛에 실린 스핀입니다. 골키퍼의 손끝을 스치듯 휘어 들어가면 골대 구석에 꽂히고, 욕심을 내면 골포스트를 맞고 나옵니다. 시뮬레이션 모드는 실제 공기 저항과 중력을 적용해 정확한 기술에 점수를 주고, 아케이드 모드는 그것을 버리고 과감한 커브와 콤보 배수를 택합니다. 5레벨마다 보스 골키퍼가 등장하고, 채워야 할 트로피 룸이 있으며, 궤적 연구소에서는 물리 값을 직접 만져 커브를 다듬은 뒤 경기에 들어갈 수 있습니다.",
-    "ja": "ウォーターポロ・スマッシュは操作がひとつだけのシューティングゲーム。引いて、狙って、離す。勝敗を分けるのはシュートにかけたスピンだ。キーパーの指先をかすめて曲がればゴール上隅へ、欲を出せばポストに弾かれる。シミュレーションモードは実際の空気抵抗と重力を再現し、正確な技術に報いる。アーケードモードはそれを捨て、大胆なカーブとコンボ倍率を選ぶ。5レベルごとにボスキーパーが登場し、埋めるべきトロフィールームがあり、弾道ラボでは物理値を直接いじってカーブを調整してから試合に臨める。"
+    "ja": "ウォーターポロ・スマッシュは操作がひとつだけのシューティングゲーム。引いて、狙って、離す。勝敗を分けるのはシュートにかけたスピンだ。キーパーの指先をかすめて曲がればゴール上隅へ、欲を出せばポストに弾かれる。シミュレーションモードは実際の空気抵抗と重力を再現し、正確な技術に報いる。アーケードモードはそれを捨て、大胆なカーブとコンボ倍率を選ぶ。5レベルごとにボスキーパーが登場し、埋めるべきトロフィールームがあり、弾道ラボでは物理値を直接いじってカーブを調整してから試合に臨める。",
+    "es": "Water Polo Smash es un juego de tiro con un solo control: tira hacia atrás, apunta y suelta. El efecto que le metes al lanzamiento es todo el juego: cúrvalo alrededor de la mano del portero y cae en la escuadra, pásate de codicioso y se va al poste. El modo simulación aplica resistencia del aire y gravedad reales, así que la técnica limpia puntúa. El arcade tira eso por la borda a cambio de curvas salvajes y multiplicadores de combo. Porteros jefe cada cinco niveles, una sala de trofeos que llenar y un Laboratorio de Trayectoria que expone la física para que ajustes tu curva antes de llevarla a un partido.",
+    "pt-BR": "Water Polo Smash é um jogo de arremesso com um único controle: puxe, mire, solte. O efeito que você coloca no arremesso é o jogo inteiro: curve em volta da mão do goleiro e a bola cai no ângulo; fique ganancioso e ela bate na trave. O modo simulação usa arrasto do ar e gravidade reais, então técnica limpa pontua. O arcade joga isso fora em troca de curvas absurdas e multiplicadores de combo. Goleiros chefes a cada cinco fases, uma sala de troféus para encher e um Laboratório de Trajetória que expõe a física para você ajustar a curva antes de levá-la para a partida."
    },
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.waterpolosmash",
@@ -49,17 +55,23 @@
    "name": {
     "en": "Marathon Legend",
     "ko": "마라톤 레전드",
-    "ja": "マラソン・レジェンド"
+    "ja": "マラソン・レジェンド",
+    "es": "Marathon Legend",
+    "pt-BR": "Marathon Legend"
    },
    "tagline": {
     "en": "Train a scrappy street kid into a marathon champion.",
     "ko": "거리의 소년을 마라톤 챔피언으로 키워내세요.",
-    "ja": "街の少年をマラソン王者へと育て上げよう。"
+    "ja": "街の少年をマラソン王者へと育て上げよう。",
+    "es": "Convierte a un chaval de la calle en campeón de maratón.",
+    "pt-BR": "Transforme um moleque de rua em campeão de maratona."
    },
    "desc": {
     "en": "Marathon Legend is an endurance-running sim where you build a runner from the ground up — pace, stamina, and grit. Manage training, push through the wall, and chase the finish line across a pixel-art city at golden hour. Cloud saves keep your progress with you.",
     "ko": "마라톤 레전드는 지구력 러닝 시뮬레이션입니다. 페이스, 스태미나, 근성을 관리하며 러너를 성장시키고, 황혼의 픽셀 도시를 달려 결승선을 향해 나아가세요. 클라우드 저장으로 진행 상황이 안전하게 보관됩니다.",
-    "ja": "マラソン・レジェンドは持久力ランニングシミュレーション。ペース、スタミナ、根性を管理してランナーを育て、夕暮れのピクセルシティを駆け抜けてゴールを目指そう。クラウドセーブで進行状況を安全に保存。"
+    "ja": "マラソン・レジェンドは持久力ランニングシミュレーション。ペース、スタミナ、根性を管理してランナーを育て、夕暮れのピクセルシティを駆け抜けてゴールを目指そう。クラウドセーブで進行状況を安全に保存。",
+    "es": "Marathon Legend es un simulador de carrera de fondo donde construyes a un corredor desde cero: ritmo, resistencia y carácter. Gestiona los entrenamientos, atraviesa el muro y persigue la meta por una ciudad en pixel art a la hora dorada. Las partidas guardadas en la nube llevan tu progreso contigo.",
+    "pt-BR": "Marathon Legend é um simulador de corrida de resistência em que você constrói um corredor do zero: ritmo, fôlego e raça. Gerencie os treinos, atravesse a parede e persiga a linha de chegada por uma cidade em pixel art na hora dourada. Os saves na nuvem levam seu progresso com você."
    },
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.marathonkid",
@@ -85,17 +97,23 @@
    "name": {
     "en": "Stonewheel",
     "ko": "스톤휠",
-    "ja": "ストーンウィール"
+    "ja": "ストーンウィール",
+    "es": "Stonewheel",
+    "pt-BR": "Stonewheel"
    },
    "tagline": {
     "en": "Skate sick lines, dodge chores, and beat Chad Bradley to all ten wrestling figures.",
     "ko": "잡일을 해치우고 거리로 나가, 라이벌 채드보다 먼저 레슬링 피규어 10개를 모으세요.",
-    "ja": "雑用をこなして街へ繰り出せ、90年代スケーターライフ全開。"
+    "ja": "雑用をこなして街へ繰り出せ、90年代スケーターライフ全開。",
+    "es": "Patina líneas brutales, esquiva las tareas y gánale a Chad Bradley los diez muñecos.",
+    "pt-BR": "Ande linhas insanas, fuja das tarefas e vença Chad Bradley pelos dez bonecos."
    },
    "desc": {
     "en": "Stonewheel is a totally-90s skater life-sim: manage your allowance and free time between school and chores, then hit the streets to land 50 learnable tricks — flips, grabs, grinds, and darkslides. Learn new moves from the town's cast of characters, from bribing the arcade rat to out-skating your rival Chad. Race to collect all ten Slamboree Legends wrestling figures before he beats you to it, in chunky pixel art with fully synthesized 90s audio.",
     "ko": "스톤휠은 완전한 90년대 감성의 스케이터 라이프 시뮬레이션입니다. 용돈과 시간을 관리하며 학교와 잡일 사이를 오가다, 거리로 나가 플립, 그랩, 그라인드, 다크슬라이드 등 50가지 트릭을 익히세요. 오락실 쥐에게 뇌물을 주거나 라이벌 채드를 이겨서 새로운 기술을 배우고, 그가 먼저 손대기 전에 슬램보리 레전드 피규어 10개를 모두 모으세요. 투박한 픽셀 아트와 완전 합성음으로 재현한 90년대 사운드가 함께합니다.",
-    "ja": "『ストーンウィール』は生粋の90年代スケーターライフシム。小遣いと時間をやりくりして学校と雑用をこなし、街に出てフリップ、グラブ、グラインド、ダークスライドなど50種のトリックを習得しよう。ゲーセンのネズミに賄賂を渡したり、ライバルのチャドを打ち負かして新技を覚え、彼より先にスラムボリー・レジェンズのフィギュアを10体すべて集めろ。無骨なピクセルアートと完全シンセ音源の90年代サウンドが彩る。"
+    "ja": "『ストーンウィール』は生粋の90年代スケーターライフシム。小遣いと時間をやりくりして学校と雑用をこなし、街に出てフリップ、グラブ、グラインド、ダークスライドなど50種のトリックを習得しよう。ゲーセンのネズミに賄賂を渡したり、ライバルのチャドを打ち負かして新技を覚え、彼より先にスラムボリー・レジェンズのフィギュアを10体すべて集めろ。無骨なピクセルアートと完全シンセ音源の90年代サウンドが彩る。",
+    "es": "Stonewheel es un simulador de vida de skater totalmente noventero: administra tu paga y tu tiempo libre entre el instituto y las tareas de casa, y luego sal a la calle a clavar cincuenta trucos aprendibles, entre flips, grabs, grinds y darkslides. Aprende movimientos nuevos del elenco del pueblo, desde sobornar a la rata del salón recreativo hasta patinar mejor que tu rival Chad. Corre para reunir los diez muñecos de Slamboree Legends antes de que él se te adelante, en pixel art grueso y con audio noventero totalmente sintetizado.",
+    "pt-BR": "Stonewheel é um sim de vida de skatista totalmente anos 90: administre sua mesada e seu tempo livre entre a escola e as tarefas de casa, e depois vá para a rua acertar cinquenta manobras aprendíveis, entre flips, grabs, grinds e darkslides. Aprenda movimentos novos com o elenco da cidade, de subornar o rato do fliperama a andar melhor que seu rival Chad. Corra para juntar os dez bonecos de Slamboree Legends antes que ele consiga, em pixel art grosso e áudio noventista totalmente sintetizado."
    },
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.skaterbros",
@@ -128,17 +146,23 @@
    "name": {
     "en": "Zero-Day Syndicate",
     "ko": "제로데이 신디케이트",
-    "ja": "ゼロデイ・シンジケート"
+    "ja": "ゼロデイ・シンジケート",
+    "es": "Zero-Day Syndicate",
+    "pt-BR": "Zero-Day Syndicate"
    },
    "tagline": {
     "en": "Run a hacker crew. Hire the talent, build the exploits, keep the heat off.",
     "ko": "해커 조직을 운영하세요. 인재를 뽑고, 익스플로잇을 만들고, 추적을 따돌리세요.",
-    "ja": "ハッカー組織を経営しろ。人材を雇い、エクスプロイトを育て、追跡をかわせ。"
+    "ja": "ハッカー組織を経営しろ。人材を雇い、エクスプロイトを育て、追跡をかわせ。",
+    "es": "Dirige una banda de hackers. Contrata talento, crea exploits y quítate el calor de encima.",
+    "pt-BR": "Comande uma equipe de hackers. Contrate talento, crie exploits e despiste o calor."
    },
    "desc": {
     "en": "Zero-Day Syndicate is a management sim about the business of breaking in. From an isometric office you hire and train staff, develop custom exploits and frameworks, and run breaches, heists and botnets against real targets. The money has to be laundered, the heat has to be managed, and clout opens doors that cash never will. The operation grows through three technology eras — Web 2.0, crypto, then AI and quantum — and a prestige system carries what you learned into the next run.",
     "ko": "제로데이 신디케이트는 침입을 사업으로 다루는 경영 시뮬레이션입니다. 아이소메트릭 사무실에서 직원을 고용하고 훈련시키며, 전용 익스플로잇과 프레임워크를 개발하고, 실제 표적을 상대로 침투와 강탈, 봇넷을 운영합니다. 돈은 세탁해야 하고 추적은 관리해야 하며, 명성은 현금으로 열 수 없는 문을 열어 줍니다. 조직은 웹 2.0, 크립토, AI와 양자라는 세 시대를 거치며 성장하고, 프레스티지 시스템이 배운 것을 다음 회차로 이어 줍니다.",
-    "ja": "『ゼロデイ・シンジケート』は、侵入をビジネスとして扱う経営シミュレーション。アイソメトリックのオフィスでスタッフを雇って育て、専用のエクスプロイトとフレームワークを開発し、標的への侵入・強奪・ボットネット運用をこなす。金は洗浄し、追跡は管理し、現金では開かない扉は名声で開ける。組織はWeb 2.0、暗号資産、AIと量子という三つの時代を越えて成長し、プレステージシステムが得たものを次の周回へ持ち越す。"
+    "ja": "『ゼロデイ・シンジケート』は、侵入をビジネスとして扱う経営シミュレーション。アイソメトリックのオフィスでスタッフを雇って育て、専用のエクスプロイトとフレームワークを開発し、標的への侵入・強奪・ボットネット運用をこなす。金は洗浄し、追跡は管理し、現金では開かない扉は名声で開ける。組織はWeb 2.0、暗号資産、AIと量子という三つの時代を越えて成長し、プレステージシステムが得たものを次の周回へ持ち越す。",
+    "es": "Zero-Day Syndicate es un simulador de gestión sobre el negocio de entrar donde no debes. Desde una oficina isométrica contratas y formas personal, desarrollas exploits y frameworks propios y ejecutas brechas, golpes y botnets contra objetivos reales. El dinero hay que blanquearlo, el calor hay que gestionarlo y la reputación abre puertas que el efectivo nunca abrirá. La operación crece a lo largo de tres eras tecnológicas (Web 2.0, cripto y luego IA y cuántica) y un sistema de prestigio arrastra lo aprendido a la siguiente partida.",
+    "pt-BR": "Zero-Day Syndicate é um sim de gestão sobre o negócio de invadir. De um escritório isométrico você contrata e treina pessoal, desenvolve exploits e frameworks próprios e executa invasões, golpes e botnets contra alvos reais. O dinheiro precisa ser lavado, o calor precisa ser administrado e o prestígio abre portas que o dinheiro nunca abre. A operação cresce por três eras tecnológicas (Web 2.0, cripto e depois IA e quântica) e um sistema de prestígio carrega o que você aprendeu para a próxima run."
    }
   },
   {
@@ -160,17 +184,23 @@
    "name": {
     "en": "Bent FC",
     "ko": "벤트 FC",
-    "ja": "ベントFC"
+    "ja": "ベントFC",
+    "es": "Bent FC",
+    "pt-BR": "Bent FC"
    },
    "tagline": {
     "en": "Bribe, dope and fix your way from the Sunday Gutter League to continental glory.",
     "ko": "뇌물과 도핑, 승부조작으로 동네 리그에서 대륙 정상까지 올라가세요.",
-    "ja": "賄賂とドーピングと八百長で、日曜の草リーグから大陸制覇まで上り詰めろ。"
+    "ja": "賄賂とドーピングと八百長で、日曜の草リーグから大陸制覇まで上り詰めろ。",
+    "es": "Soborna, dopa y amaña desde la liga dominical hasta la gloria continental.",
+    "pt-BR": "Suborne, dope e manipule da várzea até a glória continental."
    },
    "desc": {
     "en": "Bent FC is a pixel football management sim where you are not the manager — you are the crooked chairman above him. Climb the pyramid on merit if you like, but the fast route runs through bribed officials, quiet doping programmes, arranged results, tackles that end careers, and paperwork that never quite survives an audit. Every shortcut buys a season and costs you later. Kairosoft-style presentation, a simulation that takes the corruption seriously.",
     "ko": "벤트 FC는 감독이 아니라 그 위에 있는 부패한 구단주가 되는 픽셀 축구 경영 시뮬레이션입니다. 원한다면 정정당당하게 올라가도 되지만, 빠른 길은 매수된 심판과 조용한 도핑 프로그램, 짜인 결과, 선수 생명을 끊는 태클, 감사에서 결코 살아남지 못할 서류를 지나갑니다. 모든 지름길은 한 시즌을 사고 나중에 청구서를 보냅니다. 카이로소프트풍 연출에, 부패를 진지하게 다루는 시뮬레이션입니다.",
-    "ja": "『ベントFC』は、監督ではなくその上に立つ汚れた会長を演じるピクセルサッカー経営シミュレーション。正攻法で昇格してもいいが、近道は買収された審判、静かなドーピング計画、仕組まれた結果、選手生命を断つタックル、監査に耐えない書類の上を通っている。近道はどれも一シーズンを買い、後で請求書が届く。カイロソフト的な見た目に、腐敗を真面目に扱うシミュレーションを載せた。"
+    "ja": "『ベントFC』は、監督ではなくその上に立つ汚れた会長を演じるピクセルサッカー経営シミュレーション。正攻法で昇格してもいいが、近道は買収された審判、静かなドーピング計画、仕組まれた結果、選手生命を断つタックル、監査に耐えない書類の上を通っている。近道はどれも一シーズンを買い、後で請求書が届く。カイロソフト的な見た目に、腐敗を真面目に扱うシミュレーションを載せた。",
+    "es": "Bent FC es un simulador de gestión futbolística en pixel art donde tú no eres el entrenador, sino el presidente corrupto que está por encima de él. Sube la pirámide por méritos si quieres, pero la vía rápida pasa por árbitros comprados, programas de dopaje discretos, resultados pactados, entradas que acaban carreras y papeleo que nunca sobrevive del todo a una auditoría. Cada atajo compra una temporada y te cuesta más adelante. Presentación al estilo Kairosoft con una simulación que se toma la corrupción en serio.",
+    "pt-BR": "Bent FC é um sim de gestão de futebol em pixel art no qual você não é o técnico, e sim o presidente corrupto acima dele. Suba a pirâmide no mérito se quiser, mas o caminho rápido passa por árbitros comprados, programas de doping discretos, resultados combinados, entradas que encerram carreiras e papelada que nunca sobrevive a uma auditoria. Cada atalho compra uma temporada e cobra depois. Apresentação estilo Kairosoft com uma simulação que leva a corrupção a sério."
    },
    "releasedOn": "2026-08-21"
   },
@@ -187,17 +217,23 @@
    "name": {
     "en": "Bleacher Busters",
     "ko": "블리처 버스터즈",
-    "ja": "ブリーチャー・バスターズ"
+    "ja": "ブリーチャー・バスターズ",
+    "es": "Bleacher Busters",
+    "pt-BR": "Bleacher Busters"
    },
    "tagline": {
     "en": "Swipe to swing. Launch baseballs into orbit. 30 days to out-hit your rivals.",
     "ko": "스와이프로 스윙! 야구공을 우주까지 날려보세요. 30일 시즌, 라이벌을 넘어라.",
-    "ja": "スワイプでスイング。打球を成層圏の外へ。30日シーズンでライバルを打ち負かせ。"
+    "ja": "スワイプでスイング。打球を成層圏の外へ。30日シーズンでライバルを打ち負かせ。",
+    "es": "Desliza para batear. Manda pelotas a órbita. 30 días para superar a tus rivales.",
+    "pt-BR": "Deslize para rebater. Mande bolas para a órbita. 30 dias para superar seus rivais."
    },
    "desc": {
     "en": "Bleacher Busters is a home run derby about one thing: hitting a baseball absurdly far. Swipe across the strike zone to swing, then follow the ball past the bleachers, past the highway and out of the atmosphere while every hit is measured for distance, exit velocity and hang time. A season is 30 in-game days with three rival sluggers chasing your home run count, so every day you spend training is a day you are not hitting. Train your stats, buy better bats, build the stadium and out-hit three boss pitchers to climb the leagues, then prestige and chase your own career record. Daily Challenges, a weekly Ghost Derby with share codes and 24 landmarks to flatten keep it running long after the season ends.",
     "ko": "블리처 버스터즈는 단 하나에 집중한 홈런 더비입니다. 야구공을 터무니없이 멀리 보내는 것. 스트라이크 존을 스와이프해 스윙하고, 관중석과 고속도로를 넘어 대기권 밖까지 날아가는 공을 따라가세요. 비거리, 타구 속도, 체공 시간까지 모든 타구가 기록됩니다. 한 시즌은 게임 내 30일이고 세 명의 라이벌 슬러거가 내내 당신의 홈런 수를 추격하니, 훈련에 쓴 하루는 타석에 서지 않은 하루입니다. 능력치를 훈련하고 배트를 사고 구장을 지어 세 명의 보스 투수를 넘어 리그를 올라간 뒤, 프레스티지로 자신의 커리어 기록에 도전하세요. 데일리 챌린지, 공유 코드로 겨루는 주간 고스트 더비, 그리고 24개의 랜드마크가 시즌이 끝난 뒤에도 이어집니다.",
-    "ja": "ブリーチャー・バスターズは、たった一つのことに全力を注いだホームランダービー。野球のボールを、とんでもなく遠くへ飛ばすこと。ストライクゾーンをスワイプしてスイングし、スタンドと高速道路を越えて大気圏の外まで飛ぶ打球を追いかけよう。飛距離、打球速度、滞空時間まで、すべての打球が計測される。1シーズンはゲーム内の30日。その間ずっと3人のライバル強打者があなたのホームラン数を追いかけるので、トレーニングに使った1日は打席に立たなかった1日だ。能力を鍛え、バットを買い、球場を建て、3人のボス投手を打ち負かしてリーグを駆け上がり、プレステージで自分自身のキャリア記録に挑もう。デイリーチャレンジ、共有コードで競う週替わりのゴーストダービー、そして24のランドマークがシーズン後も続く。"
+    "ja": "ブリーチャー・バスターズは、たった一つのことに全力を注いだホームランダービー。野球のボールを、とんでもなく遠くへ飛ばすこと。ストライクゾーンをスワイプしてスイングし、スタンドと高速道路を越えて大気圏の外まで飛ぶ打球を追いかけよう。飛距離、打球速度、滞空時間まで、すべての打球が計測される。1シーズンはゲーム内の30日。その間ずっと3人のライバル強打者があなたのホームラン数を追いかけるので、トレーニングに使った1日は打席に立たなかった1日だ。能力を鍛え、バットを買い、球場を建て、3人のボス投手を打ち負かしてリーグを駆け上がり、プレステージで自分自身のキャリア記録に挑もう。デイリーチャレンジ、共有コードで競う週替わりのゴーストダービー、そして24のランドマークがシーズン後も続く。",
+    "es": "Bleacher Busters es un concurso de jonrones sobre una sola cosa: golpear una pelota absurdamente lejos. Desliza por la zona de strike para batear y luego sigue la bola más allá de las gradas, más allá de la autopista y fuera de la atmósfera, mientras cada golpe se mide en distancia, velocidad de salida y tiempo en el aire. Una temporada son 30 días de juego con tres bateadores rivales persiguiendo tu cuenta de jonrones, así que cada día que entrenas es un día que no bateas. Mejora tus estadísticas, compra bates, construye el estadio y supera a tres lanzadores jefe. Retos diarios, un Ghost Derby semanal con códigos y 24 hitos que aplastar.",
+    "pt-BR": "Bleacher Busters é um home run derby sobre uma coisa só: rebater uma bola absurdamente longe. Deslize pela zona de strike para rebater e depois siga a bola além das arquibancadas, além da rodovia e para fora da atmosfera, com cada tacada medida em distância, velocidade de saída e tempo no ar. Uma temporada são 30 dias de jogo com três rebatedores rivais perseguindo sua contagem de home runs, então cada dia treinando é um dia sem rebater. Melhore seus atributos, compre tacos, construa o estádio e supere três arremessadores chefes. Desafios diários, um Ghost Derby semanal com códigos e 24 marcos para derrubar."
    },
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.bleacherbusters",
@@ -223,17 +259,23 @@
    "name": {
     "en": "Cage of Glory",
     "ko": "케이지 오브 글로리",
-    "ja": "ケージ・オブ・グローリー"
+    "ja": "ケージ・オブ・グローリー",
+    "es": "Cage of Glory",
+    "pt-BR": "Cage of Glory"
    },
    "tagline": {
     "en": "Claw your way from club shows to the MMA title belt.",
     "ko": "클럽 무대에서 시작해 MMA 챔피언 벨트까지 쟁취하세요.",
-    "ja": "クラブ興行からMMA王座のベルトまで駆け上がれ。"
+    "ja": "クラブ興行からMMA王座のベルトまで駆け上がれ。",
+    "es": "Ábrete paso a zarpazos desde las veladas de club hasta el cinturón de MMA.",
+    "pt-BR": "Abra caminho na unha das lutas de clube até o cinturão do MMA."
    },
    "desc": {
     "en": "Cage of Glory is an MMA career sim where you build a fighter and climb from small club shows to championship gold. Train the skills, manage the game plan, and fight your way up the rankings toward the belt. Deep progression with a pick-up-and-play core.",
     "ko": "케이지 오브 글로리는 MMA 커리어 시뮬레이션입니다. 파이터를 육성하고 작은 클럽 무대에서 챔피언 자리까지 올라가세요. 기술을 훈련하고 전략을 세우며 랭킹을 뚫고 벨트를 향해 싸우세요. 깊이 있는 성장 시스템과 손쉬운 조작이 결합되었습니다.",
-    "ja": "ケージ・オブ・グローリーはMMAキャリアシミュレーション。ファイターを育成し、小さなクラブ興行から王座まで駆け上がろう。スキルを鍛え、戦略を練り、ランキングを勝ち抜いてベルトを目指せ。奥深い成長要素と手軽な操作を両立。"
+    "ja": "ケージ・オブ・グローリーはMMAキャリアシミュレーション。ファイターを育成し、小さなクラブ興行から王座まで駆け上がろう。スキルを鍛え、戦略を練り、ランキングを勝ち抜いてベルトを目指せ。奥深い成長要素と手軽な操作を両立。",
+    "es": "Cage of Glory es un simulador de carrera de MMA donde construyes a un luchador y subes desde pequeñas veladas de club hasta el oro del campeonato. Entrena las habilidades, gestiona el plan de pelea y ábrete camino en el ranking hacia el cinturón. Progresión profunda con un núcleo fácil de coger y jugar.",
+    "pt-BR": "Cage of Glory é um simulador de carreira no MMA em que você constrói um lutador e sobe de pequenos eventos de clube até o ouro do campeonato. Treine as habilidades, gerencie o plano de luta e abra caminho no ranking rumo ao cinturão. Progressão profunda com um núcleo fácil de pegar e jogar."
    },
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.mmakid",
@@ -253,24 +295,37 @@
    "sourceDir": "D:/Crystl/cycle-kid",
    "tier": "Flagship",
    "platform": "Android",
-   "status": "In playtest",
-   "storeUrl": "",
-   "screenshots": [],
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.domestique",
+   "screenshots": [
+    "shots/domestique/01.jpg",
+    "shots/domestique/02.jpg",
+    "shots/domestique/03.jpg",
+    "shots/domestique/04.jpg",
+    "shots/domestique/05.jpg"
+   ],
    "name": {
     "en": "Domestique",
     "ko": "도메스티크",
-    "ja": "ドメスティック"
+    "ja": "ドメスティック",
+    "es": "Domestique",
+    "pt-BR": "Domestique"
    },
    "tagline": {
     "en": "Ride for the leader, or become one. A pro cycling career from nobody to the Tour.",
     "ko": "에이스를 위해 달릴 것인가, 에이스가 될 것인가. 무명에서 투르까지의 프로 사이클 커리어.",
-    "ja": "エースのために走るか、エースになるか。無名からツールまでのプロ自転車キャリア。"
+    "ja": "エースのために走るか、エースになるか。無名からツールまでのプロ自転車キャリア。",
+    "es": "Corre para el líder, o conviértete en uno. Una carrera profesional de la nada al Tour.",
+    "pt-BR": "Pedale para o líder ou vire um. Uma carreira profissional do zero ao Tour."
    },
    "desc": {
     "en": "Domestique is a professional cycling career sim with a long memory. Sign contracts, commit to a race programme, and spend a season's budget on the events that will actually move your standing. In the race you set team orders and burn a shared energy pool to pace the bunch, chase a break or shield your leader from the wind — and every one of those calls costs you something later. Injuries, sponsor mandates and team harmony all compound. Retro-but-refined 16-bit spirit, Kairosoft-inspired but deeper.",
     "ko": "도메스티크는 기억이 오래가는 프로 사이클 커리어 시뮬레이션입니다. 계약을 맺고 시즌 레이스 프로그램을 확정하며, 순위를 실제로 끌어올릴 대회에 한정된 예산을 배분하세요. 레이스에서는 팀 오더를 내리고 공유 에너지를 소모해 집단을 견인하거나, 선두 그룹을 추격하거나, 에이스를 바람에서 보호합니다. 그 모든 판단은 나중에 대가를 치릅니다. 부상과 스폰서 요구, 팀 화합이 계속 쌓입니다. 복고를 다듬은 16비트 감성, 카이로소프트에서 출발했지만 더 깊습니다.",
-    "ja": "『ドメスティック』は記憶の長いプロ自転車キャリアシミュレーション。契約を結び、シーズンのレースプログラムを決め、限られた予算を順位に本当に効く大会へ振り分ける。レースではチームオーダーを出し、共有エネルギーを削って集団を牽引し、逃げを追い、エースを風から守る。その判断はすべて後で代償を伴う。怪我、スポンサーの要求、チームの和が積み重なっていく。レトロを磨いた16ビットの空気、カイロソフト的でありながらより深い。"
-   }
+    "ja": "『ドメスティック』は記憶の長いプロ自転車キャリアシミュレーション。契約を結び、シーズンのレースプログラムを決め、限られた予算を順位に本当に効く大会へ振り分ける。レースではチームオーダーを出し、共有エネルギーを削って集団を牽引し、逃げを追い、エースを風から守る。その判断はすべて後で代償を伴う。怪我、スポンサーの要求、チームの和が積み重なっていく。レトロを磨いた16ビットの空気、カイロソフト的でありながらより深い。",
+    "es": "Domestique es un simulador de carrera profesional de ciclismo con buena memoria. Firma contratos, comprométete con un calendario y gasta el presupuesto de la temporada en las pruebas que de verdad moverán tu clasificación. En carrera das órdenes de equipo y quemas una reserva de energía compartida para marcar el ritmo del pelotón, perseguir una fuga o proteger a tu líder del viento, y cada una de esas decisiones te cuesta algo más tarde. Lesiones, exigencias de patrocinadores y armonía de equipo se acumulan. Espíritu de 16 bits refinado, inspirado en Kairosoft pero más profundo.",
+    "pt-BR": "Domestique é um simulador de carreira no ciclismo profissional com memória longa. Assine contratos, comprometa-se com um calendário e gaste o orçamento da temporada nas provas que realmente mexem na sua classificação. Na corrida você dá ordens de equipe e queima uma reserva de energia compartilhada para ditar o ritmo do pelotão, perseguir uma fuga ou proteger seu líder do vento, e cada uma dessas decisões cobra depois. Lesões, exigências de patrocinadores e harmonia do time se acumulam. Espírito 16 bits refinado, inspirado em Kairosoft mas mais profundo."
+   },
+   "releasedOn": "2026-09-07"
   },
   {
    "slug": "wall-street-1987",
@@ -285,17 +340,23 @@
    "name": {
     "en": "Wall Street: 1987",
     "ko": "월 스트리트: 1987",
-    "ja": "ウォールストリート:1987"
+    "ja": "ウォールストリート:1987",
+    "es": "Wall Street: 1987",
+    "pt-BR": "Wall Street: 1987"
    },
    "tagline": {
     "en": "Turn a $5,000 loan into a Wall Street empire — before the SEC catches up.",
     "ko": "5천 달러 대출로 시작해 월가의 제국을 세우세요, SEC가 잡기 전에.",
-    "ja": "5000ドルの借金からウォール街の帝国を築け、SECに捕まる前に。"
+    "ja": "5000ドルの借金からウォール街の帝国を築け、SECに捕まる前に。",
+    "es": "Convierte un préstamo de 5.000 dólares en un imperio antes de que llegue la SEC.",
+    "pt-BR": "Transforme um empréstimo de US$ 5.000 num império antes que a SEC te alcance."
    },
    "desc": {
     "en": "Wall Street: 1987 is a retro trading RPG that drops you in a basement office with a $5,000 loan from Tony and a phone line to 50+ live stocks. Buy low, sell high, cut black-book deals, and manage your SEC heat before a raid wipes you out. Climb from that basement to a private offshore island, then take down three legendary corporate bosses to prove you own the Street. Chiptune synths and scrolling tickers keep it pure 1987.",
     "ko": "월 스트리트: 1987은 복고풍 트레이딩 RPG로, 토니에게 5천 달러를 빌려 지하 사무실에서 시작해 50개 이상의 실시간 주식을 거래합니다. 싸게 사서 비싸게 팔고, 비밀 거래를 성사시키고, SEC의 감시가 급습으로 이어지기 전에 위험 수위를 관리하세요. 지하 사무실에서 개인 소유 섬까지 올라가, 전설적인 세 기업 보스를 무너뜨려 월가의 진짜 주인임을 증명하세요. 칩튠 신스와 흘러가는 시세표가 1987년의 감성을 그대로 담아냅니다.",
-    "ja": "『ウォールストリート:1987』はレトロなトレーディングRPG。トニーから5000ドルを借りて地下オフィスから始まり、50銘柄以上の株をリアルタイムで売買する。安く買って高く売り、裏取引をまとめ、SECの強制捜査を受ける前にヒートを管理しよう。地下オフィスから個人所有の島まで成り上がり、伝説の三大企業ボスを倒してウォール街の頂点を証明せよ。チップチューンのシンセと流れるティッカーが1987年そのものを再現。"
+    "ja": "『ウォールストリート:1987』はレトロなトレーディングRPG。トニーから5000ドルを借りて地下オフィスから始まり、50銘柄以上の株をリアルタイムで売買する。安く買って高く売り、裏取引をまとめ、SECの強制捜査を受ける前にヒートを管理しよう。地下オフィスから個人所有の島まで成り上がり、伝説の三大企業ボスを倒してウォール街の頂点を証明せよ。チップチューンのシンセと流れるティッカーが1987年そのものを再現。",
+    "es": "Wall Street: 1987 es un RPG de trading retro que te deja en una oficina de sótano con un préstamo de 5.000 dólares de Tony y una línea telefónica a más de cincuenta valores en vivo. Compra barato, vende caro, cierra tratos de libro negro y controla tu calor con la SEC antes de que una redada te borre del mapa. Sube desde ese sótano hasta una isla privada en paraíso fiscal y luego derriba a tres jefes corporativos legendarios para demostrar que la calle es tuya. Sintetizadores chiptune y teletipos en movimiento lo mantienen puro 1987.",
+    "pt-BR": "Wall Street: 1987 é um RPG de trading retrô que te larga num escritório de porão com um empréstimo de US$ 5.000 do Tony e uma linha telefônica para mais de cinquenta ações ao vivo. Compre na baixa, venda na alta, feche acordos de livro-caixa paralelo e administre seu calor com a SEC antes que uma batida te apague. Suba daquele porão até uma ilha privada offshore e depois derrube três chefes corporativos lendários para provar que a rua é sua. Sintetizadores chiptune e tickers rolando mantêm tudo puro 1987."
    },
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.wallstreetkid",
@@ -327,17 +388,23 @@
    "name": {
     "en": "Bikini Bay",
     "ko": "비키니 베이",
-    "ja": "ビキニ・ベイ"
+    "ja": "ビキニ・ベイ",
+    "es": "Bikini Bay",
+    "pt-BR": "Bikini Bay"
    },
    "tagline": {
     "en": "Build a surf camp, shape the boards, and take your team to a world title.",
     "ko": "서핑 캠프를 짓고, 보드를 깎고, 팀을 세계 정상으로 이끄세요.",
-    "ja": "サーフキャンプを建て、ボードを削り、チームを世界一へ導け。"
+    "ja": "サーフキャンプを建て、ボードを削り、チームを世界一へ導け。",
+    "es": "Monta un campamento de surf, moldea las tablas y lleva a tu equipo al título mundial.",
+    "pt-BR": "Monte um camp de surfe, modele as pranchas e leve seu time ao título mundial."
    },
    "desc": {
     "en": "Bikini Bay is the Grand Prix Story of surfing: a ten-year arc where you build a camp from a shack on the sand into a program that wins world rankings. Scout and develop surfers, craft boards whose shape actually changes how they ride, read the break, and send your team into heats and tour series against four rival AI camps with personalities of their own. Chunky Kairosoft-style pixel art over progression loops that keep paying off.",
     "ko": "비키니 베이는 서핑판 그랑프리 스토리입니다. 모래사장의 판잣집을 세계 랭킹을 노리는 프로그램으로 키우는 10년의 여정이죠. 서퍼를 발굴해 육성하고, 실제 주행 감각이 달라지는 보드를 제작하고, 파도를 읽고, 저마다 성격이 있는 네 라이벌 캠프와 히트와 투어 시리즈에서 겨루세요. 두툼한 카이로소프트풍 픽셀 아트 위에 계속 보상을 주는 성장 루프를 얹었습니다.",
-    "ja": "『ビキニ・ベイ』はサーフィン版のグランプリストーリー。砂浜の掘っ立て小屋を世界ランキングを狙うチームへ育てる十年の物語だ。サーファーを発掘して育て、形状で乗り味が実際に変わるボードを削り、波を読み、それぞれ性格を持つ四つのライバルキャンプとヒートやツアーシリーズで競い合う。ずんぐりしたカイロソフト風ピクセルアートの下に、報われ続ける成長ループが走っている。"
+    "ja": "『ビキニ・ベイ』はサーフィン版のグランプリストーリー。砂浜の掘っ立て小屋を世界ランキングを狙うチームへ育てる十年の物語だ。サーファーを発掘して育て、形状で乗り味が実際に変わるボードを削り、波を読み、それぞれ性格を持つ四つのライバルキャンプとヒートやツアーシリーズで競い合う。ずんぐりしたカイロソフト風ピクセルアートの下に、報われ続ける成長ループが走っている。",
+    "es": "Bikini Bay es el Grand Prix Story del surf: un arco de diez años en el que conviertes una chabola en la arena en un programa que gana rankings mundiales. Busca y desarrolla surfistas, fabrica tablas cuya forma cambia de verdad cómo se surfea, lee la rompiente y manda a tu equipo a las mangas y a las series del tour contra cuatro campamentos rivales con personalidad propia. Pixel art grueso al estilo Kairosoft sobre bucles de progresión que siguen pagando.",
+    "pt-BR": "Bikini Bay é o Grand Prix Story do surfe: um arco de dez anos em que você transforma um barraco na areia num programa que ganha rankings mundiais. Descubra e desenvolva surfistas, fabrique pranchas cujo shape realmente muda como elas andam, leia o pico e mande seu time para as baterias e para o circuito contra quatro camps rivais com personalidade própria. Pixel art grosso no estilo Kairosoft sobre ciclos de progressão que continuam rendendo."
    },
    "releasedOn": "2026-08-16"
   },
@@ -354,19 +421,34 @@
    "name": {
     "en": "Chess Drill Instructor",
     "ko": "체스 드릴 인스트럭터",
-    "ja": "チェス・ドリル・インストラクター"
+    "ja": "チェス・ドリル・インストラクター",
+    "es": "Chess Drill Instructor",
+    "pt-BR": "Chess Drill Instructor"
    },
    "tagline": {
     "en": "A no-excuses drill sergeant that grinds your chess tactics sharp.",
     "ko": "변명은 통하지 않는 훈련 교관이 당신의 체스 전술을 단련시킵니다.",
-    "ja": "言い訳無用の鬼教官があなたのチェス戦術を鍛え上げる。"
+    "ja": "言い訳無用の鬼教官があなたのチェス戦術を鍛え上げる。",
+    "es": "Un sargento instructor sin excusas que te afila las tácticas de ajedrez.",
+    "pt-BR": "Um sargento instrutor sem desculpas que afia suas táticas de xadrez."
    },
    "desc": {
     "en": "Chess Drill Instructor is tactics training with attitude. A relentless drill sergeant runs you through puzzle sets, calls out your blunders, and drills the patterns until they're second nature. Powered by an AI tactics engine, built to make you sharper one rep at a time.",
     "ko": "체스 드릴 인스트럭터는 개성 넘치는 전술 훈련 앱입니다. 엄격한 교관이 퍼즐 세트를 반복시키고, 실수를 지적하며, 패턴이 몸에 밸 때까지 단련시킵니다. AI 전술 엔진 기반으로, 한 세트씩 당신을 더 날카롭게 만듭니다.",
-    "ja": "チェス・ドリル・インストラクターは個性派の戦術トレーニング。厳しい教官がパズルを反復させ、ミスを指摘し、パターンが体に染みつくまで叩き込む。AI戦術エンジン搭載で、一問ごとにあなたを鋭くする。"
+    "ja": "チェス・ドリル・インストラクターは個性派の戦術トレーニング。厳しい教官がパズルを反復させ、ミスを指摘し、パターンが体に染みつくまで叩き込む。AI戦術エンジン搭載で、一問ごとにあなたを鋭くする。",
+    "es": "Chess Drill Instructor es entrenamiento táctico con actitud. Un sargento instructor implacable te hace pasar por series de problemas, te canta los errores y machaca los patrones hasta que salen solos. Impulsado por un motor táctico con IA, hecho para volverte más agudo repetición a repetición.",
+    "pt-BR": "Chess Drill Instructor é treino tático com atitude. Um sargento instrutor implacável te leva por séries de problemas, aponta seus erros e martela os padrões até virarem instinto. Movido por um motor tático com IA, feito para te deixar mais afiado uma repetição por vez."
    },
-   "status": "In playtest"
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.chessdrillinstructor",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/chess-drill-instructor/01.jpg",
+    "shots/chess-drill-instructor/02.jpg",
+    "shots/chess-drill-instructor/03.jpg",
+    "shots/chess-drill-instructor/04.jpg",
+    "shots/chess-drill-instructor/05.jpg"
+   ]
   },
   {
    "slug": "crystl-health",
@@ -381,23 +463,28 @@
     "shots/crystl-health/01.jpg",
     "shots/crystl-health/02.jpg",
     "shots/crystl-health/03.jpg",
-    "shots/crystl-health/04.jpg",
-    "shots/crystl-health/05.jpg"
+    "shots/crystl-health/04.jpg"
    ],
    "name": {
     "en": "Crystl: Supplements and Fasting",
     "ko": "Crystl: 영양제와 단식",
-    "ja": "Crystl: サプリと断食"
+    "ja": "Crystl: サプリと断食",
+    "es": "Crystl: Suplementos y Ayuno",
+    "pt-BR": "Crystl: Suplementos e Jejum"
    },
    "tagline": {
     "en": "Track what you actually take, and what it is doing to your biological age.",
     "ko": "실제로 무엇을 챙겨 먹는지, 그것이 생물학적 나이에 어떤 영향을 주는지 기록하세요.",
-    "ja": "実際に何を摂っているか、それが生物学的年齢に何をしているかを記録する。"
+    "ja": "実際に何を摂っているか、それが生物学的年齢に何をしているかを記録する。",
+    "es": "Registra lo que tomas de verdad y qué le está haciendo a tu edad biológica.",
+    "pt-BR": "Registre o que você realmente toma e o que isso faz com sua idade biológica."
    },
    "desc": {
     "en": "Crystl: Supplements and Fasting is a supplement and biomarker tracker for people who want the number, not the vibes. Log what you take and when, keep your bloodwork in one place, and see your biological age calculated with the published Levine 2018 PhenoAge method rather than an invented score. Multiple profiles, everything stored locally, and the whole interface in English, Korean, Japanese and Spanish.",
     "ko": "Crystl: 영양제와 단식은 분위기가 아니라 숫자를 원하는 사람을 위한 영양제·바이오마커 기록 앱입니다. 무엇을 언제 먹었는지 기록하고, 혈액 검사 결과를 한곳에 모으고, 임의로 만든 점수가 아니라 공개된 Levine 2018 PhenoAge 방식으로 계산한 생물학적 나이를 확인하세요. 프로필을 여러 개 만들 수 있고, 모든 데이터는 기기에 저장되며, 인터페이스 전체가 영어·한국어·일본어·스페인어를 지원합니다.",
-    "ja": "『Crystl: サプリと断食』は、雰囲気ではなく数字が欲しい人のためのサプリメント・バイオマーカー記録アプリ。何をいつ摂ったかを記録し、血液検査の結果を一か所にまとめ、独自の点数ではなく公表されたLevine 2018のPhenoAge法で算出した生物学的年齢を確認できる。プロフィールは複数作成可能、データはすべて端末内に保存、インターフェースは英語・韓国語・日本語・スペイン語に対応。"
+    "ja": "『Crystl: サプリと断食』は、雰囲気ではなく数字が欲しい人のためのサプリメント・バイオマーカー記録アプリ。何をいつ摂ったかを記録し、血液検査の結果を一か所にまとめ、独自の点数ではなく公表されたLevine 2018のPhenoAge法で算出した生物学的年齢を確認できる。プロフィールは複数作成可能、データはすべて端末内に保存、インターフェースは英語・韓国語・日本語・スペイン語に対応。",
+    "es": "Crystl: Suplementos y Ayuno es un registro de suplementos y biomarcadores para quien quiere el número, no la sensación. Anota qué tomas y cuándo, guarda tus analíticas en un solo sitio y consulta tu edad biológica calculada con el método publicado PhenoAge de Levine 2018, no con una puntuación inventada. Varios perfiles, todo almacenado localmente y la interfaz completa en inglés, coreano, japonés y español.",
+    "pt-BR": "Crystl: Suplementos e Jejum é um registro de suplementos e biomarcadores para quem quer o número, não a sensação. Anote o que toma e quando, mantenha seus exames num só lugar e veja sua idade biológica calculada pelo método publicado PhenoAge de Levine 2018, e não por uma pontuação inventada. Vários perfis, tudo armazenado localmente e a interface inteira em inglês, coreano, japonês e espanhol."
    }
   },
   {
@@ -413,17 +500,23 @@
    "name": {
     "en": "DORK",
     "ko": "DORK",
-    "ja": "DORK"
+    "ja": "DORK",
+    "es": "DORK",
+    "pt-BR": "DORK"
    },
    "tagline": {
     "en": "A text adventure you play entirely by ear — LOOK doesn't work here.",
     "ko": "귀로만 플레이하는 텍스트 어드벤처 — 여기선 '보기'가 통하지 않습니다.",
-    "ja": "耳だけでプレイするテキストアドベンチャー——ここでは「見る」は使えない。"
+    "ja": "耳だけでプレイするテキストアドベンチャー——ここでは「見る」は使えない。",
+    "es": "Una aventura de texto que juegas solo de oído: aquí MIRAR no funciona.",
+    "pt-BR": "Uma aventura de texto jogada só de ouvido: aqui OLHAR não funciona."
    },
    "desc": {
     "en": "DORK: Long Beach '95 is a text adventure for a blind protagonist: you can't LOOK, only LISTEN, SMELL, and FEEL your way through one legendary night in 1995 Long Beach. Explore 15 places — a backyard show with a live procedural ska band, a haunted ocean liner, a braille blackjack table — chasing RAD points before sunrise. Six endings, two secrets, and a dog named Lou Dog who'll follow you for a Slim Jim. One self-contained file, no ads, no network, no eyes needed.",
     "ko": "도크: 롱비치 '95는 앞을 보지 못하는 주인공의 텍스트 어드벤처입니다. '보기'는 쓸 수 없고, 오직 듣고 맡고 만지며 1995년 롱비치의 전설적인 하룻밤을 헤쳐나가야 합니다. 라이브 스카 밴드가 연주하는 뒷마당 공연부터 유령이 나온다는 대형 여객선까지 15곳을 탐험하며 해가 뜨기 전 RAD 포인트를 쌓으세요. 엔딩 6개, 비밀 2개, 슬림짐 하나면 어디든 따라오는 개 루 독까지. 광고도 네트워크도 필요 없는, 단 하나의 파일로 완성된 게임입니다.",
-    "ja": "『DORK: Long Beach '95』は目の見えない主人公によるテキストアドベンチャー。「見る」は使えず、聞いて、嗅いで、触れて1995年ロングビーチの伝説の一夜を駆け抜ける。生演奏スカバンドの裏庭ライブから幽霊が出るという大型客船まで、15の場所を探索しながら日の出前にRADポイントを稼ごう。エンディング6種、隠し要素2つ、スリムジム一本でどこまでもついてくる愛犬ラウ・ドッグも。広告もネット接続も不要、たった一つのファイルで完結する。"
+    "ja": "『DORK: Long Beach '95』は目の見えない主人公によるテキストアドベンチャー。「見る」は使えず、聞いて、嗅いで、触れて1995年ロングビーチの伝説の一夜を駆け抜ける。生演奏スカバンドの裏庭ライブから幽霊が出るという大型客船まで、15の場所を探索しながら日の出前にRADポイントを稼ごう。エンディング6種、隠し要素2つ、スリムジム一本でどこまでもついてくる愛犬ラウ・ドッグも。広告もネット接続も不要、たった一つのファイルで完結する。",
+    "es": "DORK: Long Beach '95 es una aventura de texto con un protagonista ciego: no puedes MIRAR, solo ESCUCHAR, OLER y PALPAR tu camino a través de una noche legendaria en el Long Beach de 1995. Explora quince lugares (un concierto en un patio trasero con una banda de ska generada en tiempo real, un transatlántico embrujado, una mesa de blackjack en braille) persiguiendo puntos RAD antes del amanecer. Seis finales, dos secretos y un perro llamado Lou Dog que te seguirá por un Slim Jim. Un único archivo autónomo, sin anuncios, sin red y sin necesidad de ojos.",
+    "pt-BR": "DORK: Long Beach '95 é uma aventura de texto com um protagonista cego: você não pode OLHAR, só OUVIR, CHEIRAR e TATEAR seu caminho por uma noite lendária na Long Beach de 1995. Explore quinze lugares (um show de quintal com uma banda de ska gerada em tempo real, um transatlântico assombrado, uma mesa de blackjack em braile) atrás de pontos RAD antes do amanhecer. Seis finais, dois segredos e um cachorro chamado Lou Dog que te segue por um Slim Jim. Um único arquivo autônomo, sem anúncios, sem rede e sem precisar de olhos."
    },
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.dork",
@@ -443,24 +536,37 @@
    "sourceDir": "D:/Crystl/letterman",
    "tier": "Volume",
    "platform": "Android",
-   "status": "In playtest",
-   "storeUrl": "",
-   "screenshots": [],
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.letterman",
+   "screenshots": [
+    "shots/letterman/01.jpg",
+    "shots/letterman/02.jpg",
+    "shots/letterman/03.jpg",
+    "shots/letterman/04.jpg",
+    "shots/letterman/05.jpg"
+   ],
    "name": {
     "en": "Letterman",
     "ko": "레터맨",
-    "ja": "レターマン"
+    "ja": "レターマン",
+    "es": "Letterman",
+    "pt-BR": "Letterman"
    },
    "tagline": {
     "en": "Run the block by day, own the blacktop by night. Try not to wreck either.",
     "ko": "낮에는 동네를 누비고, 밤에는 코트를 지배하세요. 둘 다 망치지 않는 게 관건입니다.",
-    "ja": "昼は街を走り、夜はコートを支配する。どちらも壊さずにいられるか。"
+    "ja": "昼は街を走り、夜はコートを支配する。どちらも壊さずにいられるか。",
+    "es": "De día el barrio, de noche la cancha. Intenta no destrozar ninguno de los dos.",
+    "pt-BR": "De dia a quebrada, de noite a quadra. Tente não destruir nenhuma das duas."
    },
    "desc": {
     "en": "Letterman is a gritty life sim about a high-school hooper with two lives that do not want to coexist. Days belong to the block — people, obligations, trouble that finds you. Nights belong to the blacktop, where reputation is the only currency that counts. Push either side too hard and the other starts falling apart, and the game is honest about which choices cost what.",
     "ko": "레터맨은 공존하기 어려운 두 개의 삶을 가진 고등학교 농구 선수의 거친 인생 시뮬레이션입니다. 낮은 동네의 것입니다. 사람들, 의무, 그리고 알아서 찾아오는 골칫거리가 있죠. 밤은 코트의 것이고, 그곳에서는 평판만이 통화입니다. 어느 한쪽을 너무 몰아붙이면 다른 쪽이 무너지기 시작하며, 게임은 어떤 선택이 무엇을 대가로 하는지 솔직하게 보여 줍니다.",
-    "ja": "『レターマン』は、両立を拒む二つの生活を抱えた高校バスケ選手の、ざらついた人生シミュレーション。昼は街のもの。人付き合い、義務、勝手に寄ってくる面倒がある。夜はコートのもので、そこでは評判だけが通貨になる。どちらかに寄せすぎればもう一方が崩れ始め、ゲームはどの選択が何を代償にするのかを正直に見せてくる。"
-   }
+    "ja": "『レターマン』は、両立を拒む二つの生活を抱えた高校バスケ選手の、ざらついた人生シミュレーション。昼は街のもの。人付き合い、義務、勝手に寄ってくる面倒がある。夜はコートのもので、そこでは評判だけが通貨になる。どちらかに寄せすぎればもう一方が崩れ始め、ゲームはどの選択が何を代償にするのかを正直に見せてくる。",
+    "es": "Letterman es un simulador de vida áspero sobre un jugador de baloncesto de instituto con dos vidas que no quieren convivir. Los días pertenecen al barrio: gente, obligaciones y problemas que te encuentran. Las noches pertenecen a la cancha, donde la reputación es la única moneda que cuenta. Apriétale demasiado a un lado y el otro empieza a caerse, y el juego es honesto sobre qué cuesta cada decisión.",
+    "pt-BR": "Letterman é um sim de vida áspero sobre um jogador de basquete do ensino médio com duas vidas que não querem coexistir. Os dias pertencem à quebrada: gente, obrigações e problemas que te encontram. As noites pertencem à quadra, onde reputação é a única moeda que vale. Force demais um lado e o outro começa a desabar, e o jogo é honesto sobre o que cada escolha custa."
+   },
+   "releasedOn": "2026-09-07"
   },
   {
    "slug": "mise",
@@ -481,17 +587,23 @@
    "name": {
     "en": "Mise",
     "ko": "미즈",
-    "ja": "ミース"
+    "ja": "ミース",
+    "es": "Mise",
+    "pt-BR": "Mise"
    },
    "tagline": {
     "en": "Import any recipe, then cook it step by step with the timers run for you.",
     "ko": "어떤 레시피든 가져오고, 타이머까지 대신 돌려주는 단계별 조리 모드로 요리하세요.",
-    "ja": "どんなレシピも取り込んで、タイマーまで任せられるステップ調理モードで作る。"
+    "ja": "どんなレシピも取り込んで、タイマーまで任せられるステップ調理モードで作る。",
+    "es": "Importa cualquier receta y cocínala paso a paso con los temporizadores puestos.",
+    "pt-BR": "Importe qualquer receita e cozinhe passo a passo com os timers rodando por você."
    },
    "desc": {
     "en": "Mise is a cookbook that does the tedious part. Point it at a web link, a PDF, a photo or pasted text and it turns it into a structured recipe on-device — no account, no API key, and no recipe server. Your recipe content stays on your device. Then cook: each step shows only the ingredients that step needs and starts its own timers, which keep running even if the app is killed. Scale servings, build a shopping list, log the dish with a photo, and keep the whole book backed up to a file you own.",
     "ko": "미즈는 귀찮은 일을 대신하는 요리책입니다. 웹 링크나 PDF, 사진, 붙여넣은 텍스트를 주면 기기 안에서 구조화된 레시피로 정리합니다. 계정도, API 키도, 레시피 서버도 필요 없습니다. 레시피 내용은 기기에 보관됩니다. 그다음은 조리입니다. 각 단계는 그 단계에 필요한 재료만 보여 주고 자체 타이머를 돌리며, 앱이 종료돼도 타이머는 계속 갑니다. 인분을 조절하고, 장보기 목록을 만들고, 완성한 요리를 사진으로 기록하고, 책 전체를 내 파일로 백업하세요.",
-    "ja": "『ミース』は面倒な部分を引き受けるレシピ帳。ウェブのリンク、PDF、写真、貼り付けたテキストを渡せば、端末の中で構造化されたレシピに整える。アカウントもAPIキーもレシピ用サーバーも不要。レシピの内容は端末に保存される。あとは作るだけ。各ステップはその工程に必要な材料だけを見せ、専用のタイマーを走らせる。アプリを落としてもタイマーは止まらない。人数分の調整、買い物リスト、写真つきの調理記録、そして自分の手元に残るファイルへの丸ごとバックアップ。"
+    "ja": "『ミース』は面倒な部分を引き受けるレシピ帳。ウェブのリンク、PDF、写真、貼り付けたテキストを渡せば、端末の中で構造化されたレシピに整える。アカウントもAPIキーもレシピ用サーバーも不要。レシピの内容は端末に保存される。あとは作るだけ。各ステップはその工程に必要な材料だけを見せ、専用のタイマーを走らせる。アプリを落としてもタイマーは止まらない。人数分の調整、買い物リスト、写真つきの調理記録、そして自分の手元に残るファイルへの丸ごとバックアップ。",
+    "es": "Mise es un recetario que hace la parte tediosa. Apúntalo a un enlace web, un PDF, una foto o texto pegado y lo convierte en una receta estructurada en el propio dispositivo: sin cuenta, sin clave de API y sin servidor de recetas. El contenido de tus recetas se queda en tu dispositivo. Luego cocinas: cada paso muestra solo los ingredientes que ese paso necesita y arranca sus propios temporizadores, que siguen corriendo aunque cierres la aplicación. Escala raciones, arma la lista de la compra, registra el plato con una foto y guarda todo el libro en un archivo que es tuyo.",
+    "pt-BR": "Mise é um livro de receitas que faz a parte chata. Aponte para um link, um PDF, uma foto ou um texto colado e ele vira uma receita estruturada no próprio aparelho: sem conta, sem chave de API e sem servidor de receitas. O conteúdo das suas receitas fica no seu aparelho. Depois é só cozinhar: cada passo mostra só os ingredientes daquele passo e dispara os próprios timers, que continuam correndo mesmo se o app for fechado. Ajuste as porções, monte a lista de compras, registre o prato com uma foto e mantenha o livro inteiro num arquivo que é seu."
    },
    "releasedOn": "2026-08-20"
   },
@@ -508,19 +620,34 @@
    "name": {
     "en": "Murder Phone",
     "ko": "머더 폰",
-    "ja": "マーダーフォン"
+    "ja": "マーダーフォン",
+    "es": "Murder Phone",
+    "pt-BR": "Murder Phone"
    },
    "tagline": {
     "en": "Crack open a murder victim's phone — and catch the killer hiding in the contacts.",
     "ko": "살인 사건 피해자의 휴대폰이 당신 손에. 문자 하나로 범인을 밝혀내세요.",
-    "ja": "被害者のスマホがあなたの手に。メッセージひとつで犯人を暴け。"
+    "ja": "被害者のスマホがあなたの手に。メッセージひとつで犯人を暴け。",
+    "es": "Abre el móvil de una víctima de asesinato y caza al culpable escondido en los contactos.",
+    "pt-BR": "Abra o celular de uma vítima de assassinato e ache o culpado escondido nos contatos."
    },
    "desc": {
     "en": "Murder Phone drops a dead stranger's phone in your hands — real texts, real contacts, real secrets. Scroll their threads, pick the replies that crack a suspect, and follow the evidence until someone confesses. Every case is a different phone, a different victim, and a different killer hiding in the contact list. No typing, no dice rolls — just you, the messages, and the truth.",
     "ko": "머더 폰에서는 낯선 피해자의 휴대폰을 넘겨받아 진짜 같은 문자와 연락처, 감춰진 비밀을 파헤칩니다. 대화를 넘기며 용의자를 무너뜨릴 답장을 고르고, 단서를 따라가 자백을 받아내세요. 사건마다 다른 휴대폰, 다른 피해자, 연락처 속에 숨은 다른 범인이 기다립니다. 타이핑도 운도 필요 없이, 오직 메시지와 진실뿐입니다.",
-    "ja": "『マーダーフォン』では見知らぬ被害者のスマホを託され、本物そっくりのメッセージと連絡先、隠された秘密を暴いていく。スレッドをめくり、容疑者を追い詰める返信を選び、証拠をたどって自白まで導け。事件ごとに違うスマホ、違う被害者、連絡先の中に潜む違う犯人。タイピングも運も不要、あるのはメッセージと真実だけ。"
+    "ja": "『マーダーフォン』では見知らぬ被害者のスマホを託され、本物そっくりのメッセージと連絡先、隠された秘密を暴いていく。スレッドをめくり、容疑者を追い詰める返信を選び、証拠をたどって自白まで導け。事件ごとに違うスマホ、違う被害者、連絡先の中に潜む違う犯人。タイピングも運も不要、あるのはメッセージと真実だけ。",
+    "es": "Murder Phone te pone en las manos el móvil de un desconocido muerto: mensajes reales, contactos reales, secretos reales. Recorre sus conversaciones, elige las respuestas que hacen saltar a un sospechoso y sigue las pruebas hasta que alguien confiesa. Cada caso es un móvil distinto, una víctima distinta y un asesino distinto escondido en la lista de contactos. Sin escribir nada y sin tiradas de dados: solo tú, los mensajes y la verdad.",
+    "pt-BR": "Murder Phone coloca nas suas mãos o celular de um desconhecido morto: mensagens reais, contatos reais, segredos reais. Percorra as conversas, escolha as respostas que fazem um suspeito escorregar e siga as provas até alguém confessar. Cada caso é um celular diferente, uma vítima diferente e um assassino diferente escondido na lista de contatos. Sem digitar nada e sem rolagem de dados: só você, as mensagens e a verdade."
    },
-   "status": "In playtest"
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.murderphone",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/murder-phone/01.jpg",
+    "shots/murder-phone/02.jpg",
+    "shots/murder-phone/03.jpg",
+    "shots/murder-phone/04.jpg",
+    "shots/murder-phone/05.jpg"
+   ]
   },
   {
    "slug": "pubg-di",
@@ -535,17 +662,23 @@
    "name": {
     "en": "PUBG DI",
     "ko": "PUBG DI",
-    "ja": "PUBG DI"
+    "ja": "PUBG DI",
+    "es": "PUBG DI",
+    "pt-BR": "PUBG DI"
    },
    "tagline": {
     "en": "Your PUBG matches, graded by a drill instructor who doesn't do participation trophies.",
     "ko": "참가상은 없습니다. PUBG 교관이 당신의 전적을 냉정하게 평가합니다.",
-    "ja": "参加賞はない。PUBG教官があなたの戦績を容赦なく採点する。"
+    "ja": "参加賞はない。PUBG教官があなたの戦績を容赦なく採点する。",
+    "es": "Tus partidas de PUBG, calificadas por un instructor que no reparte diplomas de participación.",
+    "pt-BR": "Suas partidas de PUBG, avaliadas por um instrutor que não dá troféu de participação."
    },
    "desc": {
     "en": "PUBG Drill Instructor pulls your recent PUBG PC matches — kills, damage, placement, time survived — into a dashboard of past deployments. Pick an instructor persona (IRON, SHARP, or NIGHTFALL) and request an AI tactical briefing that tears down your last fight and tells you what to fix. Consent-gated data transmission keeps you in control, and a rewarded ad tops up briefings when you run out. Built for players who want the truth about their gameplay, not another kill-count screen.",
     "ko": "PUBG 드릴 인스트럭터는 최근 PUBG PC 전적—킬, 데미지, 순위, 생존 시간—을 대시보드로 정리해 보여줍니다. IRON, SHARP, NIGHTFALL 중 교관을 선택하고 AI 전술 브리핑을 요청하면 지난 전투를 낱낱이 분석해 개선할 점을 알려줍니다. 데이터 전송은 동의 절차를 거쳐 안전하게 관리되며, 브리핑이 소진되면 리워드 광고로 충전할 수 있습니다. 단순한 킬 수 화면이 아닌, 진짜 실력 진단을 원하는 플레이어를 위한 앱입니다.",
-    "ja": "PUBGドリルインストラクターは直近のPUBG PC戦績——キル数、ダメージ、順位、生存時間——をダッシュボードにまとめて表示。IRON、SHARP、NIGHTFALLの中から教官を選び、AI戦術ブリーフィングを依頼すれば直近の戦闘を徹底分析し、改善点を教えてくれる。データ送信は同意制で管理され、ブリーフィングが尽きたらリワード広告でチャージ可能。ただのキル数画面ではなく、本当の実力診断を求めるプレイヤーのためのアプリ。"
+    "ja": "PUBGドリルインストラクターは直近のPUBG PC戦績——キル数、ダメージ、順位、生存時間——をダッシュボードにまとめて表示。IRON、SHARP、NIGHTFALLの中から教官を選び、AI戦術ブリーフィングを依頼すれば直近の戦闘を徹底分析し、改善点を教えてくれる。データ送信は同意制で管理され、ブリーフィングが尽きたらリワード広告でチャージ可能。ただのキル数画面ではなく、本当の実力診断を求めるプレイヤーのためのアプリ。",
+    "es": "PUBG Drill Instructor recoge tus partidas recientes de PUBG en PC (bajas, daño, colocación, tiempo sobrevivido) en un panel de despliegues pasados. Elige una persona instructora (IRON, SHARP o NIGHTFALL) y pide un informe táctico con IA que destroza tu último combate y te dice qué corregir. La transmisión de datos está condicionada a tu consentimiento y un anuncio recompensado recarga informes cuando se acaban. Hecho para quien quiere la verdad sobre su juego, no otra pantalla de bajas.",
+    "pt-BR": "PUBG Drill Instructor puxa suas partidas recentes de PUBG no PC (abates, dano, colocação, tempo sobrevivido) para um painel de operações passadas. Escolha uma persona de instrutor (IRON, SHARP ou NIGHTFALL) e peça um briefing tático com IA que desmonta seu último confronto e diz o que corrigir. A transmissão de dados depende do seu consentimento e um anúncio premiado recarrega briefings quando acabam. Feito para quem quer a verdade sobre o próprio jogo, não mais uma tela de abates."
    },
    "status": "In playtest"
   },
@@ -556,8 +689,8 @@
    "sourceDir": "D:/Crystl/pepperspot",
    "tier": "Volume",
    "platform": "Android",
-   "status": "In playtest",
-   "storeUrl": "",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.pepperspot",
    "screenshots": [
     "shots/sauce-boss/01.jpg",
     "shots/sauce-boss/02.jpg",
@@ -568,18 +701,25 @@
    "name": {
     "en": "Sauce Boss",
     "ko": "소스 보스",
-    "ja": "ソース・ボス"
+    "ja": "ソース・ボス",
+    "es": "Sauce Boss",
+    "pt-BR": "Sauce Boss"
    },
    "tagline": {
     "en": "Grow the pods, cook them down, bottle the heat. Build a hot-sauce empire.",
     "ko": "고추를 기르고, 졸이고, 병에 담으세요. 핫소스 제국을 세울 시간입니다.",
-    "ja": "唐辛子を育て、煮詰め、瓶に詰めろ。ホットソース帝国を築く時間だ。"
+    "ja": "唐辛子を育て、煮詰め、瓶に詰めろ。ホットソース帝国を築く時間だ。",
+    "es": "Cultiva las vainas, cuécelas y embotella el picante. Levanta un imperio de salsa.",
+    "pt-BR": "Plante as pimentas, cozinhe e engarrafe a ardência. Construa um império de molho."
    },
    "desc": {
     "en": "Sauce Boss is a chili farm and hot-sauce tycoon in a chunky pixel shell. Plant and cross varieties, dry and ferment the harvest, cook it down into recipes with real heat curves, then price and stock a shop that customers actually judge. Rank up from a roadside table to a brand, one bottle at a time. Deep shop-management simulation, Kairosoft in spirit, built to be picked up in short sittings.",
     "ko": "소스 보스는 두툼한 픽셀 아트로 감싼 고추 농장 겸 핫소스 타이쿤입니다. 품종을 심고 교배하고, 수확물을 말리고 발효시키고, 실제 매운맛 곡선을 가진 레시피로 졸여 내세요. 그다음 손님이 실제로 평가하는 가게에 가격을 매기고 물건을 채웁니다. 길가 좌판에서 브랜드로, 한 병씩 올라가세요. 카이로소프트의 정신을 담은 깊이 있는 가게 경영 시뮬레이션이며, 짧게 짧게 즐기도록 만들었습니다.",
-    "ja": "『ソース・ボス』は、ずんぐりしたピクセルの殻をかぶった唐辛子農園＆ホットソース経営ゲーム。品種を植えて掛け合わせ、収穫物を乾かして発酵させ、本物の辛さカーブを持つレシピへ煮詰める。そのうえで、客が本当に品定めする店に値段をつけて並べる。路上の台からブランドへ、一本ずつ上がっていく。カイロソフトの精神を汲んだ深い店舗経営シミュレーションで、短い時間でも遊べるように作られている。"
-   }
+    "ja": "『ソース・ボス』は、ずんぐりしたピクセルの殻をかぶった唐辛子農園＆ホットソース経営ゲーム。品種を植えて掛け合わせ、収穫物を乾かして発酵させ、本物の辛さカーブを持つレシピへ煮詰める。そのうえで、客が本当に品定めする店に値段をつけて並べる。路上の台からブランドへ、一本ずつ上がっていく。カイロソフトの精神を汲んだ深い店舗経営シミュレーションで、短い時間でも遊べるように作られている。",
+    "es": "Sauce Boss es un tycoon de granja de chiles y salsa picante con envoltorio de pixel art grueso. Planta y cruza variedades, seca y fermenta la cosecha, cuécela hasta convertirla en recetas con curvas de picante reales y luego pon precio y surte una tienda donde los clientes te juzgan de verdad. Sube de un puesto en la carretera a una marca, botella a botella. Simulación profunda de gestión de tienda, Kairosoft en espíritu, pensada para sesiones cortas.",
+    "pt-BR": "Sauce Boss é um tycoon de fazenda de pimentas e molho picante numa casca de pixel art grosso. Plante e cruze variedades, seque e fermente a colheita, cozinhe até virar receitas com curvas de ardência reais e depois precifique e abasteça uma loja onde os clientes realmente julgam. Suba de uma barraca de beira de estrada a uma marca, um vidro por vez. Simulação profunda de gestão de loja, Kairosoft no espírito, feita para sessões curtas."
+   },
+   "releasedOn": "2026-09-07"
   },
   {
    "slug": "young-homie",
@@ -590,21 +730,33 @@
    "platform": "Android",
    "status": "Early dev",
    "storeUrl": "",
-   "screenshots": [],
+   "screenshots": [
+    "shots/young-homie/01.jpg",
+    "shots/young-homie/02.jpg",
+    "shots/young-homie/03.jpg",
+    "shots/young-homie/04.jpg",
+    "shots/young-homie/05.jpg"
+   ],
    "name": {
     "en": "Young Homie",
     "ko": "영 호미",
-    "ja": "ヤング・ホーミー"
+    "ja": "ヤング・ホーミー",
+    "es": "Young Homie",
+    "pt-BR": "Young Homie"
    },
    "tagline": {
     "en": "A turn-based barrio RPG with timed hits, a crew of six, and a long memory.",
     "ko": "타이밍 공격과 여섯 명의 크루, 그리고 긴 기억을 가진 턴제 바리오 RPG.",
-    "ja": "タイミング入力と六人のクルー、そして長い記憶を持つターン制バリオRPG。"
+    "ja": "タイミング入力と六人のクルー、そして長い記憶を持つターン制バリオRPG。",
+    "es": "Un RPG por turnos de barrio con golpes cronometrados, seis compañeros y buena memoria.",
+    "pt-BR": "Um RPG de turnos de quebrada com golpes cronometrados, seis parceiros e boa memória."
    },
    "desc": {
     "en": "Young Homie is a turn-based RPG built to be excellent at four to six hours rather than a shorter version of something bigger. Both sides of every exchange run on timed hits, so defence is as active as attack. Recruit a crew of six across four classes, work a two-currency economy, take branching quests through three connected blocks, and fast-travel a neighbourhood that remembers what you did in it. Synty POLYGON art, built for handheld play in landscape.",
     "ko": "영 호미는 더 큰 게임의 축소판이 아니라 4~6시간짜리로서 완성도를 갖추도록 만든 턴제 RPG입니다. 공격과 방어 양쪽 모두 타이밍 입력으로 진행되어, 수비도 공격만큼 능동적입니다. 네 개 직업군에서 여섯 명의 크루를 모으고, 두 가지 화폐 경제를 굴리고, 서로 연결된 세 구역에서 분기하는 퀘스트를 수행하고, 당신이 한 일을 기억하는 동네를 빠르게 오가세요. 신티 폴리곤 아트에 가로 모드 휴대 플레이를 위해 설계했습니다.",
-    "ja": "『ヤング・ホーミー』は、大作の短縮版ではなく、4〜6時間という尺で優れていることを狙って作られたターン制RPG。攻守どちらもタイミング入力で進むため、防御も攻撃と同じくらい能動的だ。四つのクラスから六人のクルーを集め、二種類の通貨経済を回し、つながった三つのブロックで分岐するクエストを進め、自分の行いを覚えている街をファストトラベルで巡る。Synty POLYGONのアート、横持ちの携帯プレイ向け設計。"
+    "ja": "『ヤング・ホーミー』は、大作の短縮版ではなく、4〜6時間という尺で優れていることを狙って作られたターン制RPG。攻守どちらもタイミング入力で進むため、防御も攻撃と同じくらい能動的だ。四つのクラスから六人のクルーを集め、二種類の通貨経済を回し、つながった三つのブロックで分岐するクエストを進め、自分の行いを覚えている街をファストトラベルで巡る。Synty POLYGONのアート、横持ちの携帯プレイ向け設計。",
+    "es": "Young Homie es un RPG por turnos hecho para ser excelente en cuatro a seis horas en lugar de ser una versión corta de algo más grande. Los dos lados de cada intercambio funcionan con golpes cronometrados, así que defender es tan activo como atacar. Recluta un grupo de seis en cuatro clases, maneja una economía de dos monedas, sigue misiones ramificadas por tres manzanas conectadas y viaja rápido por un barrio que recuerda lo que hiciste en él. Arte Synty POLYGON, pensado para jugar en horizontal en portátil.",
+    "pt-BR": "Young Homie é um RPG de turnos feito para ser excelente em quatro a seis horas, e não para ser a versão curta de algo maior. Os dois lados de cada troca funcionam com golpes cronometrados, então defender é tão ativo quanto atacar. Recrute um grupo de seis em quatro classes, administre uma economia de duas moedas, siga missões ramificadas por três quarteirões conectados e use viagem rápida num bairro que lembra o que você fez nele. Arte Synty POLYGON, feito para jogar na horizontal no portátil."
    }
   },
   {
@@ -614,24 +766,37 @@
    "sourceDir": "D:/Crystl/californiatrail",
    "tier": "Volume",
    "platform": "Android",
-   "status": "Early dev",
-   "storeUrl": "",
-   "screenshots": [],
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.californiatrail",
+   "screenshots": [
+    "shots/california-trail/01.jpg",
+    "shots/california-trail/02.jpg",
+    "shots/california-trail/03.jpg",
+    "shots/california-trail/04.jpg",
+    "shots/california-trail/05.jpg"
+   ],
    "name": {
     "en": "California Trail",
     "ko": "캘리포니아 트레일",
-    "ja": "カリフォルニア・トレイル"
+    "ja": "カリフォルニア・トレイル",
+    "es": "California Trail",
+    "pt-BR": "California Trail"
    },
    "tagline": {
     "en": "Oregon Trail, except the frontier is the 405 and the oxen are tires.",
     "ko": "오리건 트레일, 다만 개척지는 405 고속도로이고 소 대신 타이어입니다.",
-    "ja": "オレゴン・トレイル、ただし開拓地は405号線で、牛の代わりはタイヤ。"
+    "ja": "オレゴン・トレイル、ただし開拓地は405号線で、牛の代わりはタイヤ。",
+    "es": "Oregon Trail, salvo que la frontera es la 405 y los bueyes son neumáticos.",
+    "pt-BR": "Oregon Trail, só que a fronteira é a 405 e os bois são pneus."
    },
    "desc": {
     "en": "The rent notice arrives and the number is impossible. A family loads everything it owns into a rusted minivan and drives eight hundred miles south from Humboldt County to a cousin's spare room in San Diego. California Trail plays The Oregon Trail straight, beat for beat, with the freeway as the frontier and the 405 at four in the afternoon as the river you have to ford. Affectionate parody with real teeth: the warmth is aimed at the family, the bite at rent, water policy, wildfire season and gig work. The family is never the joke.",
     "ko": "임대료 고지서가 도착했고 금액은 감당할 수 없습니다. 한 가족이 가진 것을 전부 낡은 미니밴에 싣고 험볼트 카운티에서 샌디에이고에 있는 사촌의 남는 방까지 800마일을 남쪽으로 달립니다. 캘리포니아 트레일은 오리건 트레일을 순서 그대로 정면으로 재현하되, 개척지는 고속도로이고 건너야 할 강은 오후 네 시의 405입니다. 애정이 담겼지만 이빨이 있는 패러디입니다. 따뜻함은 가족을 향하고, 날은 임대료와 물 정책, 산불 시즌, 긱 노동을 향합니다. 가족은 결코 웃음거리가 아닙니다.",
-    "ja": "家賃の通知が届き、その金額はどうにもならない。一家は持ち物すべてを錆びたミニバンに積み、ハンボルト郡からサンディエゴのいとこの空き部屋まで八百マイルを南下する。『カリフォルニア・トレイル』は『オレゴン・トレイル』を一拍ずつ正面から再現する。ただし開拓地はフリーウェイで、渡らねばならない川は午後四時の405号線だ。愛情はあるが牙のあるパロディ。温かさは家族に向き、刃は家賃、水政策、山火事の季節、ギグワークに向く。家族が笑いものになることは決してない。"
-   }
+    "ja": "家賃の通知が届き、その金額はどうにもならない。一家は持ち物すべてを錆びたミニバンに積み、ハンボルト郡からサンディエゴのいとこの空き部屋まで八百マイルを南下する。『カリフォルニア・トレイル』は『オレゴン・トレイル』を一拍ずつ正面から再現する。ただし開拓地はフリーウェイで、渡らねばならない川は午後四時の405号線だ。愛情はあるが牙のあるパロディ。温かさは家族に向き、刃は家賃、水政策、山火事の季節、ギグワークに向く。家族が笑いものになることは決してない。",
+    "es": "Llega el aviso del alquiler y la cifra es imposible. Una familia carga todo lo que tiene en una furgoneta oxidada y conduce mil trescientos kilómetros al sur, del condado de Humboldt al cuarto libre de un primo en San Diego. California Trail juega The Oregon Trail en serio, compás a compás, con la autopista como frontera y la 405 a las cuatro de la tarde como el río que hay que vadear. Parodia cariñosa con dientes de verdad: el cariño va dirigido a la familia y el mordisco al alquiler, la política del agua, la temporada de incendios y el trabajo por encargo. La familia nunca es el chiste.",
+    "pt-BR": "Chega o aviso do aluguel e o número é impossível. Uma família carrega tudo o que tem numa minivan enferrujada e dirige mil e trezentos quilômetros para o sul, do condado de Humboldt até o quarto vago de um primo em San Diego. California Trail joga The Oregon Trail a sério, compasso por compasso, com a rodovia como fronteira e a 405 às quatro da tarde como o rio que precisa ser atravessado. Paródia carinhosa com dentes de verdade: o carinho é com a família e a mordida é no aluguel, na política da água, na temporada de incêndios e no trabalho por aplicativo. A família nunca é a piada."
+   },
+   "releasedOn": "2026-09-07"
   },
   {
    "slug": "windward",
@@ -640,24 +805,37 @@
    "sourceDir": "D:/Crystl/boattrader",
    "tier": "Volume",
    "platform": "Android",
-   "status": "Early dev",
-   "storeUrl": "",
-   "screenshots": [],
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.boattrader",
+   "screenshots": [
+    "shots/windward/01.jpg",
+    "shots/windward/02.jpg",
+    "shots/windward/03.jpg",
+    "shots/windward/04.jpg",
+    "shots/windward/05.jpg"
+   ],
    "name": {
     "en": "Windward",
     "ko": "윈드워드",
-    "ja": "ウィンドワード"
+    "ja": "ウィンドワード",
+    "es": "Windward",
+    "pt-BR": "Windward"
    },
    "tagline": {
     "en": "Buy low, sail far, sell high. Then set the standing orders and let the fleet run itself.",
     "ko": "싸게 사서 멀리 실어 비싸게 파세요. 그다음엔 항로를 지정해 두고 선단이 알아서 돌게 하면 됩니다.",
-    "ja": "安く買い、遠くへ運び、高く売る。あとは航路を決めて、船団に任せればいい。"
+    "ja": "安く買い、遠くへ運び、高く売る。あとは航路を決めて、船団に任せればいい。",
+    "es": "Compra barato, navega lejos, vende caro. Luego deja las órdenes fijas y que la flota se gobierne sola.",
+    "pt-BR": "Compre barato, navegue longe, venda caro. Depois deixe as ordens fixas e a frota se vira."
    },
    "desc": {
     "en": "Windward is an age-of-sail trading company sim built around one idea: you should end up running a company, not a boat. Start by sailing every run yourself, learning which ports pay for what and which crossings are worth the risk. As the fleet grows you stop steering and start writing standing orders, until ships trade profitably while you are looking somewhere else. Combat is a single decision, not a second game. Hand-assembled 32x32 pixel art, and your company is a flag rather than a face.",
     "ko": "윈드워드는 한 가지 생각 위에 세운 대항해 시대 무역 회사 시뮬레이션입니다. 결국 배가 아니라 회사를 운영하게 되어야 한다는 것이죠. 처음에는 모든 항해를 직접 하며 어느 항구가 무엇에 값을 치르는지, 어느 항로가 위험을 감수할 만한지 배웁니다. 선단이 커지면 조타를 놓고 상시 지시를 작성하기 시작하며, 결국 당신이 다른 곳을 보는 동안에도 배들이 이익을 냅니다. 전투는 두 번째 게임이 아니라 하나의 선택입니다. 손으로 조립한 32x32 픽셀 아트를 쓰고, 회사의 정체성은 얼굴이 아니라 깃발입니다.",
-    "ja": "『ウィンドワード』は、ひとつの発想の上に建てられた大航海時代の貿易会社シミュレーション。最後には船ではなく会社を経営しているべきだ、という発想だ。最初はすべての航海を自分で走らせ、どの港が何に金を払うか、どの航路が危険に見合うかを覚える。船団が育つと舵から手を離し、常設の指示を書き始める。やがて別のことをしている間にも船が利益を上げるようになる。戦闘はもうひとつのゲームではなく、ひとつの選択だ。手で組み上げた32×32のピクセルアートを用い、会社の顔は人物ではなく旗である。"
-   }
+    "ja": "『ウィンドワード』は、ひとつの発想の上に建てられた大航海時代の貿易会社シミュレーション。最後には船ではなく会社を経営しているべきだ、という発想だ。最初はすべての航海を自分で走らせ、どの港が何に金を払うか、どの航路が危険に見合うかを覚える。船団が育つと舵から手を離し、常設の指示を書き始める。やがて別のことをしている間にも船が利益を上げるようになる。戦闘はもうひとつのゲームではなく、ひとつの選択だ。手で組み上げた32×32のピクセルアートを用い、会社の顔は人物ではなく旗である。",
+    "es": "Windward es un simulador de compañía comercial en la era de la vela construido sobre una idea: deberías acabar dirigiendo una empresa, no un barco. Empiezas navegando tú mismo cada trayecto, aprendiendo qué puertos pagan por qué y qué travesías merecen el riesgo. A medida que la flota crece dejas de llevar el timón y empiezas a escribir órdenes permanentes, hasta que los barcos comercian con beneficio mientras tú miras a otro lado. El combate es una sola decisión, no un segundo juego. Pixel art de 32x32 montado a mano, y tu compañía es una bandera, no una cara.",
+    "pt-BR": "Windward é um simulador de companhia mercante na era da vela construído sobre uma ideia: você deve acabar comandando uma empresa, não um barco. Você começa navegando cada rota você mesmo, aprendendo quais portos pagam pelo quê e quais travessias valem o risco. Conforme a frota cresce, você para de pilotar e passa a escrever ordens permanentes, até que os navios negociem com lucro enquanto você olha para outro lado. O combate é uma decisão única, não um segundo jogo. Pixel art 32x32 montado à mão, e sua companhia é uma bandeira, não um rosto."
+   },
+   "releasedOn": "2026-09-07"
   },
   {
    "slug": "zero-cool",
@@ -678,17 +856,23 @@
    "name": {
     "en": "Zero Cool",
     "ko": "제로 쿨",
-    "ja": "ゼロ・クール"
+    "ja": "ゼロ・クール",
+    "es": "Zero Cool",
+    "pt-BR": "Zero Cool"
    },
    "tagline": {
     "en": "Script kiddy to kingpin. Build the crew, take the neighborhood.",
     "ko": "스크립트 키디에서 조직 보스까지. 크루를 키우고 동네를 접수하세요.",
-    "ja": "スクリプトキディからキングピンへ。クルーを育て、街を掌握しろ。"
+    "ja": "スクリプトキディからキングピンへ。クルーを育て、街を掌握しろ。",
+    "es": "De script kiddie a capo. Monta la banda y toma el barrio.",
+    "pt-BR": "De script kiddie a chefão. Monte a equipe e tome o bairro."
    },
    "desc": {
     "en": "Zero Cool is a street-to-kingpin crime empire game for PC, premium and one-time purchase with no in-app purchases. You start as a script kiddy with a rig in a bedroom and four hacking verbs, and finish running a neighborhood. Five chapters, each recruiting one crew member with a skill of their own: the hacker, the enforcer, and the ones after them. Underneath sits a living city that keeps moving whether you are watching or not: around 200 simulated residents, a law system that reacts, rival factions, territory that changes hands, and a market that prices itself. The project began as a pure hacking sim and pivoted in July 2026 to the crime empire above. Hacking became Chapter 1 and the crew's first skill, and roughly eighty percent of the original engine carried straight over.",
     "ko": "제로 쿨은 PC용 범죄 제국 게임입니다. 프리미엄 단일 구매이며 인앱 결제는 없습니다. 침실의 낡은 장비와 네 가지 해킹 동사만 가진 스크립트 키디로 시작해, 동네 전체를 장악하며 끝납니다. 다섯 개의 챕터마다 고유한 기술을 가진 크루원이 한 명씩 합류합니다. 해커, 해결사, 그리고 그 뒤를 잇는 이들. 그 아래에는 플레이어가 보든 말든 계속 돌아가는 도시가 있습니다. 약 200명의 시뮬레이션 주민, 반응하는 법 집행 시스템, 라이벌 세력, 주인이 바뀌는 구역, 그리고 스스로 가격을 정하는 시장. 이 프로젝트는 순수 해킹 시뮬레이터로 시작해 2026년 7월 위 형태로 전환되었습니다. 해킹은 챕터 1이자 크루의 첫 기술이 되었고, 기존 엔진의 약 80퍼센트가 그대로 이어졌습니다.",
-    "ja": "ゼロ・クールは PC 向けの犯罪帝国ゲームです。買い切りのプレミアム版で、アプリ内課金はありません。寝室のリグと4つのハッキング動詞だけを持つスクリプトキディとして始まり、街を仕切る側で終わります。5つの章それぞれで、独自スキルを持つクルーが1人ずつ加わります。ハッカー、エンフォーサー、そしてその先へ。その土台には、プレイヤーが見ていようといまいと動き続ける街があります。約200人のシミュレートされた住民、反応する法システム、対立勢力、持ち主が変わる縄張り、そして自ら値を決める市場。本作は純粋なハッキングシムとして始まり、2026年7月に上記の形へ方向転換しました。ハッキングは第1章とクルーの最初のスキルになり、既存エンジンの約8割がそのまま引き継がれています。"
+    "ja": "ゼロ・クールは PC 向けの犯罪帝国ゲームです。買い切りのプレミアム版で、アプリ内課金はありません。寝室のリグと4つのハッキング動詞だけを持つスクリプトキディとして始まり、街を仕切る側で終わります。5つの章それぞれで、独自スキルを持つクルーが1人ずつ加わります。ハッカー、エンフォーサー、そしてその先へ。その土台には、プレイヤーが見ていようといまいと動き続ける街があります。約200人のシミュレートされた住民、反応する法システム、対立勢力、持ち主が変わる縄張り、そして自ら値を決める市場。本作は純粋なハッキングシムとして始まり、2026年7月に上記の形へ方向転換しました。ハッキングは第1章とクルーの最初のスキルになり、既存エンジンの約8割がそのまま引き継がれています。",
+    "es": "Zero Cool es un juego de imperio criminal de la calle al trono para PC, premium y de compra única sin compras dentro de la aplicación. Empiezas como script kiddie con un equipo en un dormitorio y cuatro verbos de hackeo, y terminas dirigiendo un barrio. Cinco capítulos, cada uno recluta a un miembro con una habilidad propia: el hacker, el ejecutor y los que vienen después. Debajo hay una ciudad viva que sigue moviéndose la mires o no: unos doscientos residentes simulados, un sistema legal que reacciona, facciones rivales, territorio que cambia de manos y un mercado que se pone precio solo. El proyecto empezó como simulador de hackeo puro y viró en julio de 2026 al imperio criminal de arriba.",
+    "pt-BR": "Zero Cool é um jogo de império criminoso da rua ao topo para PC, premium e de compra única sem compras no app. Você começa como script kiddie com um PC no quarto e quatro verbos de hackeamento, e termina comandando um bairro. Cinco capítulos, cada um recrutando um membro com uma habilidade própria: o hacker, o executor e os que vêm depois. Por baixo há uma cidade viva que segue se movendo esteja você olhando ou não: cerca de duzentos moradores simulados, um sistema legal que reage, facções rivais, território que troca de mãos e um mercado que se precifica sozinho. O projeto começou como sim de hackeamento puro e virou em julho de 2026 no império criminoso acima."
    },
    "section": "frontier"
   },
@@ -711,17 +895,23 @@
    "name": {
     "en": "Bent FC: Tournament Edition",
     "ko": "벤트 FC: 토너먼트 에디션",
-    "ja": "ベント FC: トーナメントエディション"
+    "ja": "ベント FC: トーナメントエディション",
+    "es": "Bent FC: Tournament Edition",
+    "pt-BR": "Bent FC: Tournament Edition"
    },
    "tagline": {
     "en": "Bribe a whole nation into a tournament it has no business attending.",
     "ko": "자격도 없는 대회에, 나라 전체를 매수해서 올려보내세요.",
-    "ja": "出場資格のない大会へ、国ごと買収して連れて行け。"
+    "ja": "出場資格のない大会へ、国ごと買収して連れて行け。",
+    "es": "Soborna a toda una nación para meterla en un torneo al que no tiene nada que ir.",
+    "pt-BR": "Suborne uma nação inteira até um torneio no qual ela não tem nada que fazer."
    },
    "desc": {
     "en": "The sequel to Bent FC, and a bigger job than the first one. You are the general secretary of a small football federation and its team manager at the same time, which means you do both halves of the corruption yourself. During matches you draw the ball: aim a pass, a shot or a run and live with where it goes. Between them you run the federation, buying, bribing, naturalising, blackmailing and laundering your nation through qualifying into a tournament it has no business being at. The minigames are the bent part made literal, an envelope, a ballot, a shredder, a shaker, a dossier, each one a small deniable act with its own way of going wrong.",
     "ko": "벤트 FC의 후속작이며, 전작보다 훨씬 큰 일을 맡게 됩니다. 당신은 작은 축구협회의 사무총장이자 대표팀 감독입니다. 즉 부패의 양쪽 절반을 모두 직접 처리합니다. 경기 중에는 공의 궤적을 직접 그립니다. 패스, 슈팅, 침투를 조준하고 그 결과를 감수하세요. 경기 사이에는 협회를 운영합니다. 매수하고, 뇌물을 주고, 귀화시키고, 협박하고, 돈을 세탁해 예선을 통과시켜 자격 없는 대회로 나라를 올려보내세요. 미니게임은 그 부정을 그대로 구현한 것입니다. 봉투, 투표용지, 파쇄기, 셰이커, 서류철. 각각 부인 가능한 작은 행위이며, 각자의 방식으로 어긋납니다.",
-    "ja": "ベント FC の続編であり、前作より大仕事です。あなたは小国サッカー協会の事務総長であると同時に代表監督でもあります。つまり汚職の両側を自分でやることになります。試合中はボールの軌道を自分で描きます。パス、シュート、走り込みを狙い、その結果を受け入れてください。試合の合間には協会を運営します。買い、賄賂を贈り、帰化させ、脅し、資金を洗い、予選を突破して出場資格のない大会へ国を送り込むのです。ミニゲームはその不正をそのまま形にしたもの。封筒、投票用紙、シュレッダー、シェイカー、書類。どれも否認可能な小さな行為であり、それぞれの壊れ方をします。"
+    "ja": "ベント FC の続編であり、前作より大仕事です。あなたは小国サッカー協会の事務総長であると同時に代表監督でもあります。つまり汚職の両側を自分でやることになります。試合中はボールの軌道を自分で描きます。パス、シュート、走り込みを狙い、その結果を受け入れてください。試合の合間には協会を運営します。買い、賄賂を贈り、帰化させ、脅し、資金を洗い、予選を突破して出場資格のない大会へ国を送り込むのです。ミニゲームはその不正をそのまま形にしたもの。封筒、投票用紙、シュレッダー、シェイカー、書類。どれも否認可能な小さな行為であり、それぞれの壊れ方をします。",
+    "es": "La secuela de Bent FC, y un trabajo más grande que el primero. Eres a la vez el secretario general de una pequeña federación de fútbol y el seleccionador, lo que significa que haces tú mismo las dos mitades de la corrupción. Durante los partidos dibujas el balón: apuntas un pase, un tiro o una carrera y vives con dónde acaba. Entre ellos diriges la federación, comprando, sobornando, nacionalizando, chantajeando y blanqueando a tu país a través de la clasificación hasta un torneo al que no debería llegar. Los minijuegos son la parte corrupta hecha literal: un sobre, una papeleta, una trituradora, una coctelera, un dosier, cada uno un pequeño acto negable con su propia forma de salir mal.",
+    "pt-BR": "A sequência de Bent FC, e um trabalho maior que o primeiro. Você é ao mesmo tempo o secretário-geral de uma pequena federação de futebol e o técnico da seleção, o que significa que faz sozinho as duas metades da corrupção. Durante as partidas você desenha a bola: mira um passe, um chute ou uma corrida e aceita onde ela vai parar. Entre elas você toca a federação, comprando, subornando, naturalizando, chantageando e lavando seu país pelas eliminatórias até um torneio no qual ele não deveria estar. Os minijogos são a parte corrupta feita literal: um envelope, uma cédula, uma trituradora, uma coqueteleira, um dossiê, cada um um pequeno ato negável com seu próprio jeito de dar errado."
    }
   },
   {
@@ -731,24 +921,37 @@
    "sourceDir": "D:/Crystl/rugpull",
    "tier": "Volume",
    "platform": "Android",
-   "status": "In development",
-   "storeUrl": "",
-   "screenshots": [],
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.rugpull",
+   "screenshots": [
+    "shots/rugpull/01.jpg",
+    "shots/rugpull/02.jpg",
+    "shots/rugpull/03.jpg",
+    "shots/rugpull/04.jpg",
+    "shots/rugpull/05.jpg"
+   ],
    "name": {
     "en": "Rug Pull: Crypto Tycoon",
     "ko": "러그 풀: 크립토 타이쿤",
-    "ja": "ラグプル: クリプトタイクーン"
+    "ja": "ラグプル: クリプトタイクーン",
+    "es": "Rug Pull: Crypto Tycoon",
+    "pt-BR": "Rug Pull: Crypto Tycoon"
    },
    "tagline": {
     "en": "Launch your own coin, then decide whether to make it real or run.",
     "ko": "직접 코인을 발행하고, 진짜로 만들지 들고 튈지 정하세요.",
-    "ja": "自分のコインを発行し、本物にするか持ち逃げするかを決めろ。"
+    "ja": "自分のコインを発行し、本物にするか持ち逃げするかを決めろ。",
+    "es": "Lanza tu propia moneda y luego decide si la haces real o te largas con la caja.",
+    "pt-BR": "Lance sua própria moeda e decida se a torna real ou some com o dinheiro."
    },
    "desc": {
     "en": "Trade your way out of a basement, launch your own coin, then face the only question the game actually cares about: do you build the thing you promised, or take the money and run. Either answer keeps the game going. That is the point. There is no ending screen where you get away with it, because your name follows you into the next cycle and the people you burned remember. The loop runs weekly: pick projects, resolve them, watch the cycle reset and see who is still willing to talk to you. Built in Godot for Android, portrait, with a prologue, a coin launch, and both the build and the rug as fully implemented resolutions.",
     "ko": "지하실에서 트레이딩으로 시작해 직접 코인을 발행하고, 이 게임이 실제로 묻는 단 하나의 질문과 마주하세요. 약속한 것을 만들 것인가, 돈을 챙겨 도망칠 것인가. 어느 쪽을 택하든 게임은 계속됩니다. 그게 핵심입니다. 무사히 빠져나가는 엔딩 화면 같은 건 없습니다. 당신의 이름은 다음 사이클까지 따라오고, 당신이 태워버린 사람들은 기억하니까요. 루프는 주 단위로 돌아갑니다. 프로젝트를 고르고, 결과를 확정하고, 사이클이 초기화된 뒤 누가 아직 당신과 말을 섞어주는지 확인하세요. Godot으로 제작한 안드로이드 세로 화면 게임이며, 프롤로그와 코인 발행, 그리고 진짜로 만들기와 러그풀 양쪽 결말이 모두 구현되어 있습니다.",
-    "ja": "地下室からトレードで這い上がり、自分のコインを発行し、そしてこのゲームが本当に問う唯一の質問に向き合います。約束したものを作るのか、金を持って逃げるのか。どちらを選んでもゲームは続きます。そこが肝心です。うまく逃げ切って終わる画面はありません。あなたの名前は次のサイクルまで付いて回り、焼かれた人々は覚えているからです。ループは週単位で回ります。案件を選び、決着させ、サイクルがリセットされた後で誰がまだ口をきいてくれるかを確かめる。Godot 製の Android 縦持ちタイトルで、プロローグ、コイン発行、そして本物にする・持ち逃げする両方の結末が実装済みです。"
-   }
+    "ja": "地下室からトレードで這い上がり、自分のコインを発行し、そしてこのゲームが本当に問う唯一の質問に向き合います。約束したものを作るのか、金を持って逃げるのか。どちらを選んでもゲームは続きます。そこが肝心です。うまく逃げ切って終わる画面はありません。あなたの名前は次のサイクルまで付いて回り、焼かれた人々は覚えているからです。ループは週単位で回ります。案件を選び、決着させ、サイクルがリセットされた後で誰がまだ口をきいてくれるかを確かめる。Godot 製の Android 縦持ちタイトルで、プロローグ、コイン発行、そして本物にする・持ち逃げする両方の結末が実装済みです。",
+    "es": "Opera hasta salir de un sótano, lanza tu propia moneda y afronta la única pregunta que al juego le importa de verdad: ¿construyes lo que prometiste o te llevas el dinero y desapareces? Cualquiera de las dos respuestas continúa la partida. Ese es el asunto. No hay pantalla final donde te sales con la tuya, porque tu nombre te sigue al siguiente ciclo y la gente a la que quemaste se acuerda. El bucle es semanal: eliges proyectos, los resuelves, ves reiniciarse el ciclo y compruebas quién sigue dispuesto a hablar contigo. Hecho en Godot para Android, en vertical, con un prólogo, un lanzamiento de moneda y tanto la construcción como la estafa implementadas por completo.",
+    "pt-BR": "Opere até sair de um porão, lance sua própria moeda e encare a única pergunta com que o jogo realmente se importa: você constrói o que prometeu ou pega o dinheiro e some? Qualquer uma das respostas mantém o jogo rodando. É esse o ponto. Não existe tela final em que você se safa, porque seu nome te acompanha no ciclo seguinte e as pessoas que você queimou lembram. O ciclo é semanal: escolha projetos, resolva-os, veja o ciclo reiniciar e descubra quem ainda topa falar com você. Feito em Godot para Android, em retrato, com um prólogo, um lançamento de moeda e tanto a construção quanto o golpe implementados por completo."
+   },
+   "releasedOn": "2026-09-07"
   },
   {
    "slug": "office-politics",
@@ -757,8 +960,8 @@
    "sourceDir": "D:/Crystl/officepolitics",
    "tier": "Volume",
    "platform": "Android",
-   "status": "In development",
-   "storeUrl": "",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.officepolitics",
    "screenshots": [
     "shots/office-politics/01.jpg",
     "shots/office-politics/02.jpg",
@@ -769,18 +972,25 @@
    "name": {
     "en": "Office Politics",
     "ko": "오피스 폴리틱스",
-    "ja": "オフィス・ポリティクス"
+    "ja": "オフィス・ポリティクス",
+    "es": "Office Politics",
+    "pt-BR": "Office Politics"
    },
    "tagline": {
     "en": "You are new here. Develop beef with your coworkers. Fight them for the title.",
     "ko": "당신은 신입입니다. 동료들과 척지고, 사내 타이틀을 걸고 싸우세요.",
-    "ja": "あなたは新入り。同僚と揉めて、社内タイトルを賭けて戦え。"
+    "ja": "あなたは新入り。同僚と揉めて、社内タイトルを賭けて戦え。",
+    "es": "Eres el nuevo. Genera rencillas con tus compañeros. Pelea con ellos por el título.",
+    "pt-BR": "Você é o novato. Arranje treta com os colegas. Lute com eles pelo título."
    },
    "desc": {
     "en": "A turn-based office roguelite. You are new at a company, you develop beef with your coworkers, and you settle it the only way the game allows: you fight them for the office title. Thirteen powers, two ways to lose, and a choice at the end of every fight between humiliating the loser and finishing clean, which is the decision the rest of the run remembers. Godot, pixel art at a 640x360 logical resolution. Honest current state: the vertical slice is built, tested and playable, and it is not fun yet. One power solves the whole fight and the Heat mechanic never bites. That is diagnosed rather than guessed, and it is the next thing being fixed.",
     "ko": "턴제 오피스 로그라이트입니다. 회사에 갓 들어온 당신은 동료들과 척을 지고, 이 게임이 허용하는 유일한 방식으로 결판을 냅니다. 사내 타이틀을 걸고 싸우는 것이죠. 13가지 능력, 두 가지 패배 조건, 그리고 매 전투가 끝날 때마다 패자를 망신 줄지 깔끔하게 끝낼지 선택해야 합니다. 남은 런이 기억하는 건 바로 그 선택입니다. Godot, 640x360 논리 해상도의 픽셀 아트. 현재 상태를 솔직히 말하자면, 수직 슬라이스는 완성되어 테스트를 통과했고 플레이도 가능하지만 아직 재미있지는 않습니다. 능력 하나가 전투 전체를 해결해버리고 히트 수치는 전혀 위협이 되지 않습니다. 추측이 아니라 진단된 문제이며, 다음으로 고칠 대상입니다.",
-    "ja": "ターン制のオフィス・ローグライトです。会社に入ったばかりのあなたは同僚と揉め、このゲームが許す唯一の方法で決着をつけます。社内タイトルを賭けて戦うのです。13の能力、2種類の敗北条件、そして戦闘のたびに敗者を辱めるか綺麗に終わらせるかの選択。残りのランが覚えているのはその選択です。Godot、論理解像度 640x360 のピクセルアート。現状を正直に書くと、バーティカルスライスは完成しテスト済みでプレイ可能ですが、まだ面白くありません。ひとつの能力が戦闘全体を解決してしまい、ヒート値が一度も効いてこない。推測ではなく診断済みの問題であり、次に直す対象です。"
-   }
+    "ja": "ターン制のオフィス・ローグライトです。会社に入ったばかりのあなたは同僚と揉め、このゲームが許す唯一の方法で決着をつけます。社内タイトルを賭けて戦うのです。13の能力、2種類の敗北条件、そして戦闘のたびに敗者を辱めるか綺麗に終わらせるかの選択。残りのランが覚えているのはその選択です。Godot、論理解像度 640x360 のピクセルアート。現状を正直に書くと、バーティカルスライスは完成しテスト済みでプレイ可能ですが、まだ面白くありません。ひとつの能力が戦闘全体を解決してしまい、ヒート値が一度も効いてこない。推測ではなく診断済みの問題であり、次に直す対象です。",
+    "es": "Un roguelite de oficina por turnos. Eres nuevo en una empresa, generas rencillas con tus compañeros y las resuelves de la única forma que el juego permite: peleando con ellos por el título de la oficina. Trece poderes, dos formas de perder y una elección al final de cada pelea entre humillar al perdedor o terminar limpio, que es la decisión que el resto de la partida recuerda. Godot, pixel art a una resolución lógica de 640x360. Estado actual honesto: la rebanada vertical está construida, probada y jugable, y todavía no es divertida. Un poder resuelve toda la pelea y la mecánica de Calor nunca muerde. Está diagnosticado, no adivinado, y es lo siguiente que se arregla.",
+    "pt-BR": "Um roguelite de escritório por turnos. Você é novo numa empresa, arranja treta com os colegas e resolve do único jeito que o jogo permite: lutando com eles pelo título do escritório. Treze poderes, dois jeitos de perder e uma escolha ao fim de cada luta entre humilhar o perdedor ou encerrar limpo, que é a decisão de que o resto da run se lembra. Godot, pixel art numa resolução lógica de 640x360. Estado atual honesto: a fatia vertical está construída, testada e jogável, e ainda não é divertida. Um poder resolve a luta inteira e a mecânica de Calor nunca morde. Isso está diagnosticado, não chutado, e é a próxima coisa a ser corrigida."
+   },
+   "releasedOn": "2026-09-07"
   },
   {
    "slug": "rich-man-poor-man",
@@ -801,17 +1011,23 @@
    "name": {
     "en": "Rich Man Poor Man",
     "ko": "리치 맨 푸어 맨",
-    "ja": "リッチマン・プアマン"
+    "ja": "リッチマン・プアマン",
+    "es": "Rich Man Poor Man",
+    "pt-BR": "Rich Man Poor Man"
    },
    "tagline": {
     "en": "Guess what the filthy rich and the dirt poor have in common.",
     "ko": "엄청난 부자와 찢어지게 가난한 사람의 공통점을 맞혀보세요.",
-    "ja": "大金持ちと極貧が同じことをする瞬間を当てろ。"
+    "ja": "大金持ちと極貧が同じことをする瞬間を当てろ。",
+    "es": "Adivina qué tienen en común los asquerosamente ricos y los muertos de hambre.",
+    "pt-BR": "Adivinhe o que os podres de ricos e os duros têm em comum."
    },
    "desc": {
     "en": "A party game of class warfare that runs in a browser with no signup and no install. Some things only the filthy rich do. Some things only the dirt poor do. The joke, and the whole game, is the overlap: the things both of them do while the middle class is left holding the bill. Play the Daily Challenge, the same ten rounds for everyone, resetting at noon KST, or Free Play for an endless draw from over six hundred scenarios. Every reveal comes with three punchlines, one per class. Score 100 a correct answer with a streak bonus from the second one, and climb from Peak Middle Class to Economic Horseshoe Genius. Liked cards feed a Hall of Fame, you can submit your own, and it installs as a PWA and works offline after the first visit.",
     "ko": "브라우저에서 바로 돌아가는 계급 전쟁 파티 게임입니다. 가입도 설치도 필요 없습니다. 어떤 건 엄청난 부자만 합니다. 어떤 건 찢어지게 가난한 사람만 하죠. 그런데 진짜 웃긴 건, 그리고 이 게임의 전부는 겹치는 지점입니다. 둘 다 하는 일들, 그리고 그 계산서를 떠안는 중산층. 모두에게 동일한 10라운드가 주어지고 한국시간 정오에 초기화되는 데일리 챌린지를 즐기거나, 600개가 넘는 시나리오에서 무한히 뽑는 프리 플레이를 하세요. 정답이 공개될 때마다 계급별로 세 개의 펀치라인이 따라옵니다. 정답당 100점, 두 번째 연속 정답부터 스트릭 보너스가 붙고, 완벽한 중산층에서 경제 편자 이론의 천재까지 등급이 올라갑니다. 좋아요를 많이 받은 카드는 명예의 전당에 오르고, 직접 제출할 수도 있으며, PWA로 설치하면 첫 방문 이후 오프라인에서도 작동합니다.",
-    "ja": "ブラウザだけで動く階級闘争パーティゲーム。登録もインストールも不要です。大金持ちしかやらないことがある。極貧しかやらないこともある。面白いのは、そしてこのゲームの全部は、その重なりです。両方がやること、そしてその請求書を押し付けられる中産階級。全員に同じ10ラウンドが配られ韓国時間の正午にリセットされるデイリーチャレンジか、600 以上のシナリオから無限に引くフリープレイで遊べます。正解が明かされるたびに階級ごとの3つのオチが付いてきます。正解ごとに100点、2連続目からストリークボーナス、完璧な中産階級から経済の馬蹄理論の天才まで駆け上がりましょう。人気カードは殿堂入りし、自分で投稿もでき、PWA としてインストールすれば初回訪問後はオフラインでも動きます。"
+    "ja": "ブラウザだけで動く階級闘争パーティゲーム。登録もインストールも不要です。大金持ちしかやらないことがある。極貧しかやらないこともある。面白いのは、そしてこのゲームの全部は、その重なりです。両方がやること、そしてその請求書を押し付けられる中産階級。全員に同じ10ラウンドが配られ韓国時間の正午にリセットされるデイリーチャレンジか、600 以上のシナリオから無限に引くフリープレイで遊べます。正解が明かされるたびに階級ごとの3つのオチが付いてきます。正解ごとに100点、2連続目からストリークボーナス、完璧な中産階級から経済の馬蹄理論の天才まで駆け上がりましょう。人気カードは殿堂入りし、自分で投稿もでき、PWA としてインストールすれば初回訪問後はオフラインでも動きます。",
+    "es": "Un juego de fiesta sobre lucha de clases que corre en el navegador sin registro ni instalación. Hay cosas que solo hacen los asquerosamente ricos. Hay cosas que solo hacen los muertos de hambre. El chiste, y el juego entero, es el solapamiento: las cosas que hacen ambos mientras la clase media se queda con la factura. Juega el Reto Diario, las mismas diez rondas para todos, que se reinicia al mediodía KST, o el Modo Libre con un mazo infinito de más de seiscientos escenarios. Cada revelación trae tres remates, uno por clase. Cien puntos por acierto con bonus de racha desde el segundo, y subes de Clase Media en su Cénit a Genio de la Herradura Económica. Se instala como PWA y funciona sin conexión tras la primera visita.",
+    "pt-BR": "Um jogo de festa sobre luta de classes que roda no navegador sem cadastro e sem instalação. Existem coisas que só os podres de ricos fazem. Existem coisas que só os duros fazem. A piada, e o jogo inteiro, é a sobreposição: as coisas que os dois fazem enquanto a classe média fica com a conta. Jogue o Desafio Diário, as mesmas dez rodadas para todo mundo, que reinicia ao meio-dia KST, ou o Modo Livre com um baralho infinito de mais de seiscentos cenários. Cada revelação vem com três tiradas, uma por classe. Cem pontos por acerto com bônus de sequência a partir do segundo, e você sobe de Auge da Classe Média a Gênio da Ferradura Econômica. Instala como PWA e funciona offline depois da primeira visita."
    },
    "section": "sites"
   },
@@ -833,17 +1049,23 @@
    "name": {
     "en": "Crystl Suite",
     "ko": "크리스탈 스위트",
-    "ja": "クリスタル・スイート"
+    "ja": "クリスタル・スイート",
+    "es": "Crystl Suite",
+    "pt-BR": "Crystl Suite"
    },
    "tagline": {
     "en": "75 browser tools. Nothing you open ever leaves your machine.",
     "ko": "75개의 브라우저 도구. 무엇을 열든 기기 밖으로 나가지 않습니다.",
-    "ja": "75 のブラウザツール。開いたものは端末の外に出ません。"
+    "ja": "75 のブラウザツール。開いたものは端末の外に出ません。",
+    "es": "75 herramientas de navegador. Nada de lo que abras sale nunca de tu máquina.",
+    "pt-BR": "75 ferramentas de navegador. Nada do que você abre sai da sua máquina."
    },
    "desc": {
     "en": "The internal tools Crystl Labs built for its own work, opened up for everyone. Seventy-five of them: scrub EXIF and GPS out of a photo, convert HEIC to JPG, pull audio out of a video, merge and sign and watermark PDFs, test a regex without freezing the tab, generate favicons, decode a JWT, check a subnet, run a whiteboard or a metronome or a Pomodoro timer. The rule that shaped the whole thing is that every one of them runs in your browser. There is no upload step, no account, no server holding your file, and no bill, because after the backend was removed there is nothing left to run. That also means there is no attack surface worth attacking.",
     "ko": "크리스탈 랩스가 자체 작업용으로 만든 내부 도구들을 모두에게 공개합니다. 총 75개입니다. 사진에서 EXIF와 GPS를 지우고, HEIC를 JPG로 변환하고, 영상에서 오디오를 추출하고, PDF를 병합·서명·워터마크 처리하고, 탭을 멈추지 않고 정규식을 테스트하고, 파비콘을 만들고, JWT를 디코딩하고, 서브넷을 계산하고, 화이트보드나 메트로놈이나 뽀모도로 타이머를 돌릴 수 있습니다. 전체를 관통하는 원칙은 단 하나, 모든 도구가 당신의 브라우저 안에서 실행된다는 것입니다. 업로드 단계도, 계정도, 파일을 보관하는 서버도, 청구서도 없습니다. 백엔드를 제거한 뒤로는 돌릴 것 자체가 없기 때문입니다. 덕분에 공격할 만한 표면도 남아 있지 않습니다.",
-    "ja": "Crystl Labs が自分たちの作業用に作った内部ツールを、そのまま公開しました。全部で75本。写真から EXIF と GPS を消す、HEIC を JPG に変換する、動画から音声を抜く、PDF を結合・署名・透かし入れする、タブを固まらせずに正規表現を試す、ファビコンを作る、JWT をデコードする、サブネットを計算する、ホワイトボードやメトロノームやポモドーロタイマーを動かす。全体を貫くルールはひとつ、どれもあなたのブラウザの中で動くということです。アップロード手順もアカウントもファイルを預かるサーバーも請求書もありません。バックエンドを撤去した後は、動かすものが何も残っていないからです。おかげで攻撃する価値のある面も残っていません。"
+    "ja": "Crystl Labs が自分たちの作業用に作った内部ツールを、そのまま公開しました。全部で75本。写真から EXIF と GPS を消す、HEIC を JPG に変換する、動画から音声を抜く、PDF を結合・署名・透かし入れする、タブを固まらせずに正規表現を試す、ファビコンを作る、JWT をデコードする、サブネットを計算する、ホワイトボードやメトロノームやポモドーロタイマーを動かす。全体を貫くルールはひとつ、どれもあなたのブラウザの中で動くということです。アップロード手順もアカウントもファイルを預かるサーバーも請求書もありません。バックエンドを撤去した後は、動かすものが何も残っていないからです。おかげで攻撃する価値のある面も残っていません。",
+    "es": "Las herramientas internas que Crystl Labs construyó para su propio trabajo, abiertas a todo el mundo. Setenta y cinco: limpia EXIF y GPS de una foto, convierte HEIC a JPG, saca el audio de un vídeo, une, firma y marca PDFs, prueba una expresión regular sin congelar la pestaña, genera favicons, decodifica un JWT, comprueba una subred, usa una pizarra, un metrónomo o un temporizador Pomodoro. La regla que le dio forma a todo es que cada una corre en tu navegador. No hay paso de subida, ni cuenta, ni servidor guardando tu archivo, ni factura, porque tras retirar el backend no queda nada que ejecutar. Eso también significa que no hay superficie de ataque que merezca la pena atacar.",
+    "pt-BR": "As ferramentas internas que a Crystl Labs construiu para o próprio trabalho, abertas a todo mundo. Setenta e cinco delas: limpe EXIF e GPS de uma foto, converta HEIC para JPG, extraia o áudio de um vídeo, junte, assine e marque PDFs, teste uma expressão regular sem travar a aba, gere favicons, decodifique um JWT, cheque uma sub-rede, use um quadro branco, um metrônomo ou um timer Pomodoro. A regra que moldou tudo é que cada uma roda no seu navegador. Não há etapa de upload, nem conta, nem servidor guardando seu arquivo, nem fatura, porque depois que o backend saiu não restou nada para rodar. Isso também significa que não há superfície de ataque que valha atacar."
    },
    "releasedOn": "2026-08-16",
    "section": "sites"
@@ -866,17 +1088,23 @@
    "name": {
     "en": "StatClash",
     "ko": "스탯클래시",
-    "ja": "スタットクラッシュ"
+    "ja": "スタットクラッシュ",
+    "es": "StatClash",
+    "pt-BR": "StatClash"
    },
    "tagline": {
     "en": "Higher or lower, on YouTube view counts. The billion-view club and the ghosts of the old internet.",
     "ko": "유튜브 조회수로 겨루는 하이 로우 게임. 10억 조회 클럽과 옛 인터넷의 유령들.",
-    "ja": "YouTube の再生回数で挑むハイ＆ロー。10億回クラブと、古いインターネットの亡霊たち。"
+    "ja": "YouTube の再生回数で挑むハイ＆ロー。10億回クラブと、古いインターネットの亡霊たち。",
+    "es": "Más o menos, con visitas de YouTube. El club de los mil millones y los fantasmas de la vieja internet.",
+    "pt-BR": "Maior ou menor, com views do YouTube. O clube do bilhão e os fantasmas da internet antiga."
    },
    "desc": {
     "en": "Two YouTube videos, one view count shown, one hidden. Higher or lower. That is the whole game, and it is harder than it sounds, because your instinct about what the internet actually watched is usually wrong. The deck is 44 videos pulled from the YouTube Data API v3 rather than typed in from memory, which matters: every number on screen is the real count at the time the deck was built, not an approximation. Runs in the browser with no account and no install, keeps your best score locally, and the streak ends the moment you guess wrong.",
     "ko": "유튜브 영상 두 개, 한쪽은 조회수가 보이고 다른 쪽은 가려져 있습니다. 더 높을까요, 낮을까요. 게임은 이게 전부지만 생각보다 어렵습니다. 인터넷이 실제로 무엇을 봤는지에 대한 당신의 직감은 대체로 틀리거든요. 덱은 YouTube Data API v3에서 가져온 44개 영상으로, 기억에 의존해 입력한 값이 아닙니다. 이 점이 중요합니다. 화면의 모든 숫자는 덱을 만든 시점의 실제 조회수이지 어림값이 아닙니다. 계정도 설치도 없이 브라우저에서 돌아가고, 최고 점수는 기기에 저장되며, 한 번 틀리면 연속 기록은 거기서 끝납니다.",
-    "ja": "YouTube の動画が2本、片方は再生回数が見えていて、もう片方は隠されています。上か、下か。ゲームはそれだけですが、思ったより難しい。インターネットが実際に何を観たのかについての直感は、たいてい外れるからです。デッキは YouTube Data API v3 から取得した44本。記憶を頼りに打ち込んだ数字ではありません。ここが肝心で、画面に出る数値はすべてデッキ生成時点の実測値であって概算ではありません。アカウントもインストールも不要でブラウザ内で動き、ベストスコアは端末に保存され、一度外せば連続記録はそこで終わります。"
+    "ja": "YouTube の動画が2本、片方は再生回数が見えていて、もう片方は隠されています。上か、下か。ゲームはそれだけですが、思ったより難しい。インターネットが実際に何を観たのかについての直感は、たいてい外れるからです。デッキは YouTube Data API v3 から取得した44本。記憶を頼りに打ち込んだ数字ではありません。ここが肝心で、画面に出る数値はすべてデッキ生成時点の実測値であって概算ではありません。アカウントもインストールも不要でブラウザ内で動き、ベストスコアは端末に保存され、一度外せば連続記録はそこで終わります。",
+    "es": "Dos vídeos de YouTube, un recuento de visitas visible y otro oculto. Más o menos. Ese es todo el juego, y es más difícil de lo que parece, porque tu intuición sobre lo que internet vio de verdad suele estar equivocada. El mazo son 44 vídeos sacados de la YouTube Data API v3 en lugar de escritos de memoria, y eso importa: cada número en pantalla es el recuento real en el momento en que se armó el mazo, no una aproximación. Corre en el navegador sin cuenta ni instalación, guarda tu mejor marca localmente, y la racha se acaba en cuanto fallas.",
+    "pt-BR": "Dois vídeos do YouTube, uma contagem de views visível e outra escondida. Maior ou menor. É esse o jogo inteiro, e é mais difícil do que parece, porque sua intuição sobre o que a internet realmente assistiu costuma estar errada. O baralho são 44 vídeos puxados da YouTube Data API v3 em vez de digitados de memória, e isso importa: cada número na tela é a contagem real no momento em que o baralho foi montado, não uma aproximação. Roda no navegador sem conta e sem instalação, guarda seu recorde localmente, e a sequência acaba no instante em que você erra."
    }
   },
   {
@@ -897,17 +1125,23 @@
    "name": {
     "en": "StarClash",
     "ko": "스타클래시",
-    "ja": "スタークラッシュ"
+    "ja": "スタークラッシュ",
+    "es": "StarClash",
+    "pt-BR": "StarClash"
    },
    "tagline": {
     "en": "Which repo did the internet star harder? Higher or lower, on GitHub stars.",
     "ko": "인터넷은 어느 저장소에 더 별을 줬을까요? 깃허브 스타로 겨루는 하이 로우.",
-    "ja": "インターネットはどちらのリポジトリにより多くの星をつけたか。GitHub スターのハイ＆ロー。"
+    "ja": "インターネットはどちらのリポジトリにより多くの星をつけたか。GitHub スターのハイ＆ロー。",
+    "es": "¿A qué repo le dio internet más estrellas? Más o menos, con estrellas de GitHub.",
+    "pt-BR": "Qual repo a internet estrelou mais? Maior ou menor, com estrelas do GitHub."
    },
    "desc": {
     "en": "The same higher-or-lower shape as StatClash, pointed at a very different audience: 64 GitHub repositories and their star counts, straight from the GitHub REST API. It splits off from StatClash rather than hiding behind a deck picker, because a developer who wants to argue about whether Julia has more stars than ReactOS is not the same person who wants to guess YouTube views, and putting a menu in front of both would have served neither. Language tags and repository avatars come with each card, so you are guessing from the same signals you would use on the real site.",
     "ko": "스탯클래시와 같은 하이 로우 구조지만 겨냥하는 대상이 전혀 다릅니다. GitHub REST API에서 직접 가져온 64개 저장소와 스타 수로 겨룹니다. 덱 선택 메뉴 뒤에 숨기지 않고 스탯클래시에서 아예 분리했습니다. Julia가 ReactOS보다 스타가 많은지를 두고 논쟁하고 싶은 개발자와 유튜브 조회수를 맞히고 싶은 사람은 같은 사람이 아니고, 둘 앞에 메뉴를 놓으면 양쪽 다 만족시키지 못하기 때문입니다. 각 카드에는 언어 태그와 저장소 아바타가 함께 표시되므로, 실제 깃허브에서 쓰는 것과 같은 단서로 추측하게 됩니다.",
-    "ja": "StatClash と同じハイ＆ローの形ですが、狙う相手はまるで違います。GitHub REST API から直接取得した64のリポジトリとスター数で勝負します。デッキ選択メニューの裏に隠さず、StatClash から切り離しました。Julia が ReactOS よりスターが多いかを議論したい開発者と、YouTube の再生回数を当てたい人は同じ人ではなく、両者の前にメニューを置けばどちらも満足させられないからです。各カードには言語タグとリポジトリのアバターが付くので、実際の GitHub で使うのと同じ手がかりで推測できます。"
+    "ja": "StatClash と同じハイ＆ローの形ですが、狙う相手はまるで違います。GitHub REST API から直接取得した64のリポジトリとスター数で勝負します。デッキ選択メニューの裏に隠さず、StatClash から切り離しました。Julia が ReactOS よりスターが多いかを議論したい開発者と、YouTube の再生回数を当てたい人は同じ人ではなく、両者の前にメニューを置けばどちらも満足させられないからです。各カードには言語タグとリポジトリのアバターが付くので、実際の GitHub で使うのと同じ手がかりで推測できます。",
+    "es": "La misma forma de más o menos que StatClash, apuntada a un público muy distinto: 64 repositorios de GitHub y sus recuentos de estrellas, directos de la API REST de GitHub. Se separa de StatClash en vez de esconderse tras un selector de mazos, porque quien quiere discutir si Julia tiene más estrellas que ReactOS no es la misma persona que quiere adivinar visitas de YouTube, y poner un menú delante de ambos no habría servido a ninguno. Cada carta trae etiquetas de lenguaje y el avatar del repositorio, así que adivinas con las mismas señales que usarías en el sitio real.",
+    "pt-BR": "O mesmo formato de maior ou menor do StatClash, apontado para um público bem diferente: 64 repositórios do GitHub e suas contagens de estrelas, direto da API REST do GitHub. Ele se separa do StatClash em vez de se esconder atrás de um seletor de baralhos, porque quem quer discutir se Julia tem mais estrelas que ReactOS não é a mesma pessoa que quer chutar views do YouTube, e colocar um menu na frente dos dois não teria servido a nenhum. Cada carta traz etiquetas de linguagem e o avatar do repositório, então você chuta com os mesmos sinais que usaria no site de verdade."
    }
   },
   {
@@ -928,17 +1162,23 @@
    "name": {
     "en": "Code Snob",
     "ko": "코드 스놉",
-    "ja": "コード・スノッブ"
+    "ja": "コード・スノッブ",
+    "es": "Code Snob",
+    "pt-BR": "Code Snob"
    },
    "tagline": {
     "en": "Name the programming language from three lines of it.",
     "ko": "세 줄만 보고 프로그래밍 언어를 맞혀보세요.",
-    "ja": "3行だけ見て、プログラミング言語を当てろ。"
+    "ja": "3行だけ見て、プログラミング言語を当てろ。",
+    "es": "Adivina el lenguaje de programación a partir de tres líneas suyas.",
+    "pt-BR": "Diga a linguagem de programação a partir de três linhas dela."
    },
    "desc": {
     "en": "A short snippet appears in a terminal window and you name the language. Fifty-six rounds drawn from eleven families: array, BEAM, curly-brace, JVM, legacy, Lisp, logic, ML, scripting, shell and systems. The family is shown, which is the entire design decision: it turns a hopeless guess into a real one, because knowing a snippet is ML narrows it to OCaml, F#, Elm and PureScript and now you have to actually read the syntax. Getting the distractors right is what makes a guessing game a game rather than a coin flip. No account, no install, streak kept locally.",
     "ko": "터미널 창에 짧은 코드가 뜨고, 당신은 언어를 맞힙니다. 배열, BEAM, 중괄호, JVM, 레거시, 리스프, 논리, ML, 스크립팅, 셸, 시스템까지 11개 계열에서 뽑은 56라운드. 계열이 미리 표시되는데, 이게 설계의 핵심입니다. 가망 없는 찍기를 진짜 추리로 바꿔주거든요. ML 계열임을 알면 OCaml, F#, Elm, PureScript로 좁혀지고, 이제부터는 문법을 실제로 읽어야 합니다. 오답 선택지를 잘 고르는 것이야말로 추측 게임을 동전 던지기가 아닌 게임으로 만듭니다. 계정도 설치도 없고 연속 기록은 기기에 저장됩니다.",
-    "ja": "ターミナル風のウィンドウに短いコードが表示され、あなたは言語を答えます。配列、BEAM、波括弧、JVM、レガシー、Lisp、論理、ML、スクリプティング、シェル、システムの11系統から選んだ56ラウンド。系統は先に示されます。これが設計の肝で、当てずっぽうを本物の推理に変えるからです。ML 系だと分かれば OCaml、F#、Elm、PureScript に絞られ、そこから先は実際に構文を読むことになります。ダミー選択肢をきちんと選ぶことこそ、推測ゲームをコイン投げではなくゲームにします。アカウントもインストールも不要、連続記録は端末に保存されます。"
+    "ja": "ターミナル風のウィンドウに短いコードが表示され、あなたは言語を答えます。配列、BEAM、波括弧、JVM、レガシー、Lisp、論理、ML、スクリプティング、シェル、システムの11系統から選んだ56ラウンド。系統は先に示されます。これが設計の肝で、当てずっぽうを本物の推理に変えるからです。ML 系だと分かれば OCaml、F#、Elm、PureScript に絞られ、そこから先は実際に構文を読むことになります。ダミー選択肢をきちんと選ぶことこそ、推測ゲームをコイン投げではなくゲームにします。アカウントもインストールも不要、連続記録は端末に保存されます。",
+    "es": "Aparece un fragmento corto en una ventana de terminal y tú nombras el lenguaje. Cincuenta y seis rondas sacadas de once familias: array, BEAM, llaves, JVM, legado, Lisp, lógica, ML, scripting, shell y sistemas. Se muestra la familia, y esa es toda la decisión de diseño: convierte una adivinanza imposible en una de verdad, porque saber que un fragmento es ML lo reduce a OCaml, F#, Elm y PureScript y ahora tienes que leer la sintaxis de verdad. Acertar con los distractores es lo que convierte un juego de adivinar en un juego y no en una moneda al aire. Sin cuenta, sin instalación, racha guardada localmente.",
+    "pt-BR": "Um trecho curto aparece numa janela de terminal e você diz a linguagem. Cinquenta e seis rodadas tiradas de onze famílias: array, BEAM, chaves, JVM, legado, Lisp, lógica, ML, scripting, shell e sistemas. A família é mostrada, e essa é a decisão de design inteira: transforma um chute impossível num chute de verdade, porque saber que um trecho é ML reduz para OCaml, F#, Elm e PureScript e agora você precisa realmente ler a sintaxe. Acertar os distratores é o que faz um jogo de adivinhação ser um jogo e não cara ou coroa. Sem conta, sem instalação, sequência guardada localmente."
    }
   },
   {
@@ -959,17 +1199,23 @@
    "name": {
     "en": "Font Guesser",
     "ko": "폰트 게서",
-    "ja": "フォント・ゲッサー"
+    "ja": "フォント・ゲッサー",
+    "es": "Font Guesser",
+    "pt-BR": "Font Guesser"
    },
    "tagline": {
     "en": "Name the typeface from a specimen. Fifty-four of them, self-hosted.",
     "ko": "견본만 보고 서체를 맞혀보세요. 자체 호스팅한 54종.",
-    "ja": "見本を見て書体を当てろ。自前ホストの54書体。"
+    "ja": "見本を見て書体を当てろ。自前ホストの54書体。",
+    "es": "Nombra la tipografía a partir de un espécimen. Cincuenta y cuatro, alojadas aquí mismo.",
+    "pt-BR": "Diga a tipografia a partir de um espécime. Cinquenta e quatro, hospedadas aqui."
    },
    "desc": {
     "en": "A specimen renders on screen, set in the actual typeface, and you name it. Fifty-four faces across nine classifications: geometric sans, grotesque sans, humanist sans, oldstyle serif, didone serif, slab serif, mono, display and script. Every font file is self-hosted rather than pulled from a font CDN, which is the difference between a game that works and one that silently renders every round in a fallback face and makes the whole thing impossible. Like Code Snob, the classification is shown up front so the four options are genuinely confusable and you have to look at the letterforms.",
     "ko": "실제 서체로 조판된 견본이 화면에 나타나고, 당신은 그 이름을 맞힙니다. 9개 분류에 걸친 54종. 지오메트릭 산세리프, 그로테스크 산세리프, 휴머니스트 산세리프, 올드스타일 세리프, 디도네 세리프, 슬랩 세리프, 모노, 디스플레이, 스크립트. 모든 폰트 파일은 폰트 CDN이 아니라 자체 호스팅합니다. 이건 제대로 작동하는 게임과, 매 라운드를 대체 서체로 조용히 렌더링해 게임 자체를 불가능하게 만드는 것의 차이입니다. 코드 스놉과 마찬가지로 분류를 먼저 보여주기 때문에 네 개의 선택지가 실제로 헷갈리고, 글자 형태를 직접 봐야 합니다.",
-    "ja": "実際の書体で組まれた見本が表示され、あなたはその名前を答えます。9分類にわたる54書体。ジオメトリック・サンセリフ、グロテスク・サンセリフ、ヒューマニスト・サンセリフ、オールドスタイル・セリフ、ディドネ・セリフ、スラブ・セリフ、モノ、ディスプレイ、スクリプト。フォントファイルはすべてフォント CDN ではなく自前でホストしています。これは、ちゃんと成立するゲームと、毎ラウンド代替書体で静かにレンダリングされて成立しなくなるものとの差です。Code Snob と同様、分類を先に示すので4つの選択肢は本当に紛らわしく、字形をきちんと見る必要があります。"
+    "ja": "実際の書体で組まれた見本が表示され、あなたはその名前を答えます。9分類にわたる54書体。ジオメトリック・サンセリフ、グロテスク・サンセリフ、ヒューマニスト・サンセリフ、オールドスタイル・セリフ、ディドネ・セリフ、スラブ・セリフ、モノ、ディスプレイ、スクリプト。フォントファイルはすべてフォント CDN ではなく自前でホストしています。これは、ちゃんと成立するゲームと、毎ラウンド代替書体で静かにレンダリングされて成立しなくなるものとの差です。Code Snob と同様、分類を先に示すので4つの選択肢は本当に紛らわしく、字形をきちんと見る必要があります。",
+    "es": "Se renderiza un espécimen en pantalla, compuesto en la tipografía real, y tú la nombras. Cincuenta y cuatro familias en nueve clasificaciones: sans geométrica, sans grotesca, sans humanista, serif antigua, serif didona, egipcia, mono, display y script. Cada archivo de fuente está alojado en el propio sitio en lugar de tomarse de una CDN, que es la diferencia entre un juego que funciona y uno que renderiza en silencio cada ronda con una fuente de reserva y vuelve todo imposible. Como en Code Snob, la clasificación se muestra de entrada, así que las cuatro opciones son de verdad confundibles y hay que mirar las formas de las letras.",
+    "pt-BR": "Um espécime é renderizado na tela, composto na tipografia real, e você diz o nome dela. Cinquenta e quatro fontes em nove classificações: sans geométrica, sans grotesca, sans humanista, serifa antiga, serifa didone, egípcia, mono, display e script. Cada arquivo de fonte é hospedado no próprio site em vez de vir de uma CDN, e essa é a diferença entre um jogo que funciona e um que silenciosamente renderiza cada rodada numa fonte de fallback e torna tudo impossível. Como no Code Snob, a classificação é mostrada de cara, então as quatro opções são de fato confundíveis e você precisa olhar as formas das letras."
    }
   },
   {
@@ -990,17 +1236,23 @@
    "name": {
     "en": "What Year Was It?",
     "ko": "무슨 해였을까?",
-    "ja": "あれは何年？"
+    "ja": "あれは何年？",
+    "es": "¿De qué año fue?",
+    "pt-BR": "Que ano foi?"
    },
    "tagline": {
     "en": "Three things debuted the same year. Name it. One puzzle a day.",
     "ko": "세 가지가 같은 해에 등장했습니다. 그 해를 맞혀보세요. 하루 한 문제.",
-    "ja": "3つが同じ年に登場した。その年を当てろ。1日1問。"
+    "ja": "3つが同じ年に登場した。その年を当てろ。1日1問。",
+    "es": "Tres cosas debutaron el mismo año. Dilo. Un acertijo al día.",
+    "pt-BR": "Três coisas estrearam no mesmo ano. Diga qual. Um enigma por dia."
    },
    "desc": {
     "en": "A film, a hit song and a thing that happened, all from the same year. Drag the slider from 1960 to 2024 and lock in your answer. Sixty-five puzzles, one per day, the same puzzle for everyone, counted from a fixed epoch so nobody gets a different board. Blazing Saddles, Waterloo and the invention of the Rubik's Cube is 1974, and if you were off by eighteen years the result screen tells you so without softening it. Streaks survive a reload and break on a missed day, and a share grid goes out the way Wordle's does.",
     "ko": "영화 한 편, 히트곡 하나, 그리고 그 해에 일어난 일 하나. 모두 같은 해입니다. 1960년부터 2024년까지 슬라이더를 움직여 답을 확정하세요. 65개의 퍼즐, 하루에 하나씩, 모두에게 같은 문제가 주어집니다. 고정된 기준일로부터 계산하므로 누구도 다른 판을 받지 않습니다. 블레이징 새들, 워털루, 루빅스 큐브의 발명은 1974년이고, 18년이나 빗나갔다면 결과 화면이 돌려 말하지 않고 그대로 알려줍니다. 연속 기록은 새로고침을 견디고 하루를 놓치면 끊기며, 워들처럼 공유용 그리드가 나갑니다.",
-    "ja": "映画が1本、ヒット曲が1曲、そしてその年に起きた出来事がひとつ。すべて同じ年のものです。1960年から2024年までスライダーを動かして答えを確定します。65問、1日1問、全員に同じ問題。固定した起点日から数えるので、誰も違う盤面を受け取りません。『ブレージングサドル』と『恋のウォータールー』とルービックキューブの発明は1974年で、18年ずれていたら結果画面がそれを包み隠さず告げます。連続記録はリロードに耐え、1日空けると途切れ、Wordle と同じように共有用グリッドが出ます。"
+    "ja": "映画が1本、ヒット曲が1曲、そしてその年に起きた出来事がひとつ。すべて同じ年のものです。1960年から2024年までスライダーを動かして答えを確定します。65問、1日1問、全員に同じ問題。固定した起点日から数えるので、誰も違う盤面を受け取りません。『ブレージングサドル』と『恋のウォータールー』とルービックキューブの発明は1974年で、18年ずれていたら結果画面がそれを包み隠さず告げます。連続記録はリロードに耐え、1日空けると途切れ、Wordle と同じように共有用グリッドが出ます。",
+    "es": "Una película, una canción de éxito y algo que pasó, todo del mismo año. Arrastra el deslizador de 1960 a 2024 y confirma tu respuesta. Sesenta y cinco acertijos, uno al día, el mismo para todo el mundo, contados desde una época fija para que nadie tenga un tablero distinto. Sillas de montar calientes, Waterloo y la invención del cubo de Rubik es 1974, y si te desviaste dieciocho años la pantalla de resultados te lo dice sin suavizarlo. Las rachas sobreviven a una recarga y se rompen al saltarse un día, y la cuadrícula para compartir sale como la de Wordle.",
+    "pt-BR": "Um filme, uma música de sucesso e uma coisa que aconteceu, tudo do mesmo ano. Arraste o controle de 1960 a 2024 e confirme sua resposta. Sessenta e cinco enigmas, um por dia, o mesmo para todo mundo, contados a partir de uma época fixa para que ninguém pegue um tabuleiro diferente. Banzé no Oeste, Waterloo e a invenção do cubo mágico é 1974, e se você errou por dezoito anos a tela de resultado diz isso sem suavizar. As sequências sobrevivem a um recarregamento e quebram num dia perdido, e a grade de compartilhamento sai como a do Wordle."
    }
   },
   {
@@ -1021,18 +1273,988 @@
    "name": {
     "en": "The Inflation Price Is Right",
     "ko": "인플레이션 프라이스 이즈 라이트",
-    "ja": "ザ・インフレ・プライス・イズ・ライト"
+    "ja": "ザ・インフレ・プライス・イズ・ライト",
+    "es": "El precio de la inflación",
+    "pt-BR": "O preço da inflação"
    },
    "tagline": {
     "en": "An HP-35 cost $395 in 1972. What is that in today's money?",
     "ko": "1972년에 HP-35는 395달러였습니다. 지금 돈으로는 얼마일까요?",
-    "ja": "1972年、HP-35 は395ドルだった。今の金額でいくら？"
+    "ja": "1972年、HP-35 は395ドルだった。今の金額でいくら？",
+    "es": "Una HP-35 costaba 395 dólares en 1972. ¿Cuánto es eso en dinero de hoy?",
+    "pt-BR": "Uma HP-35 custava US$ 395 em 1972. Quanto é isso em dinheiro de hoje?"
    },
    "desc": {
     "en": "You are shown a real product, the year it launched and what it cost then. You type what you think that is in today's money and lock it in. Thirty-eight items, from the first scientific calculator you could put in a pocket to a PlayStation 5. The conversion is not a made-up multiplier: it runs on the US CPI-U series (CUUR0000SA0, all items, city average, not seasonally adjusted) fetched from the Bureau of Labor Statistics, which is public domain government data, with 2024 as the base year. That is the whole reason the game is worth playing rather than arguing with.",
     "ko": "실제 제품과 출시 연도, 그리고 당시 가격이 제시됩니다. 그게 오늘날 돈으로 얼마일지 입력하고 확정하세요. 주머니에 넣을 수 있었던 최초의 공학용 계산기부터 플레이스테이션 5까지 38개 품목. 환산은 임의로 정한 배수가 아닙니다. 미국 노동통계국에서 가져온 CPI-U 시계열(CUUR0000SA0, 전 품목, 도시 평균, 계절조정 없음)을 사용하며, 이는 공개 영역의 정부 데이터이고 기준 연도는 2024년입니다. 이 게임이 말싸움이 아니라 해볼 만한 게임인 이유가 바로 그것입니다.",
-    "ja": "実在の製品と、その発売年、当時の価格が示されます。それが今の金額でいくらになるかを入力して確定してください。ポケットに入る最初の関数電卓から PlayStation 5 まで、38品目。換算は適当な倍率ではありません。米国労働統計局から取得した CPI-U 系列（CUUR0000SA0、全品目、都市平均、季節調整なし）を使い、これはパブリックドメインの政府データで、基準年は2024年です。このゲームが言い争いではなく遊ぶ価値のあるものである理由は、まさにそこにあります。"
+    "ja": "実在の製品と、その発売年、当時の価格が示されます。それが今の金額でいくらになるかを入力して確定してください。ポケットに入る最初の関数電卓から PlayStation 5 まで、38品目。換算は適当な倍率ではありません。米国労働統計局から取得した CPI-U 系列（CUUR0000SA0、全品目、都市平均、季節調整なし）を使い、これはパブリックドメインの政府データで、基準年は2024年です。このゲームが言い争いではなく遊ぶ価値のあるものである理由は、まさにそこにあります。",
+    "es": "Se te muestra un producto real, el año en que salió y lo que costaba entonces. Escribes lo que crees que es eso en dinero de hoy y lo confirmas. Treinta y ocho artículos, desde la primera calculadora científica que cabía en un bolsillo hasta una PlayStation 5. La conversión no es un multiplicador inventado: funciona con la serie CPI-U de Estados Unidos (CUUR0000SA0, todos los artículos, media urbana, sin ajuste estacional) obtenida de la Oficina de Estadísticas Laborales, que es dato público del gobierno, con 2024 como año base. Esa es toda la razón por la que el juego vale la pena en lugar de dar pie a discusiones.",
+    "pt-BR": "Você vê um produto real, o ano em que ele foi lançado e quanto custava na época. Digita quanto acha que isso dá em dinheiro de hoje e confirma. Trinta e oito itens, da primeira calculadora científica de bolso a um PlayStation 5. A conversão não é um multiplicador inventado: ela roda sobre a série CPI-U dos Estados Unidos (CUUR0000SA0, todos os itens, média urbana, sem ajuste sazonal) obtida do Bureau of Labor Statistics, que é dado público do governo, com 2024 como ano-base. É essa a razão inteira de o jogo valer a pena em vez de virar discussão."
    }
+  },
+  {
+   "slug": "bare-knuckle",
+   "boardName": "Bare Knuckle",
+   "shippingName": "Bare Knuckle: Fight Club",
+   "sourceDir": "D:/Crystl/bareknuckle",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Bare Knuckle",
+    "ko": "베어 너클",
+    "ja": "ベアナックル",
+    "es": "Bare Knuckle",
+    "pt-BR": "Bare Knuckle"
+   },
+   "tagline": {
+    "en": "No gloves, no rounds, no referee. Every punch costs the hand that threw it.",
+    "ko": "글러브도, 라운드도, 심판도 없다. 모든 주먹은 그 주먹을 낸 손을 망가뜨린다.",
+    "ja": "グローブなし、ラウンドなし、レフェリーなし。放った拳は、放った手を壊す。",
+    "es": "Sin guantes, sin asaltos, sin árbitro. Cada golpe le cuesta a la mano que lo lanza.",
+    "pt-BR": "Sem luvas, sem rounds, sem juiz. Cada soco cobra o preço da mão que o deu."
+   },
+   "desc": {
+    "en": "You fight for money in car parks and pub back rooms. There are no gloves, no rounds and no referee, so nothing ends a fight except one man staying down. Every punch you throw damages the hand that threw it, which means the punch that wins the fight is usually the punch that breaks your hand. A broken hand is career damage. One fight is four to six minutes. Between bouts you pick the next fight off the circuit board and spend the purse on your hands, your corner or your debts. The crowd is the meter and it pays: a short violent win is worth more than an ugly grinding one. The career ends in a body, not a belt.",
+    "ko": "주차장과 술집 뒷방에서 돈을 걸고 싸운다. 글러브도, 라운드도, 심판도 없다. 한쪽이 일어나지 않을 때까지 끝나지 않는다. 주먹을 낼 때마다 그 주먹을 낸 손이 망가진다. 경기를 끝내는 한 방이 대개 손을 부러뜨리는 한 방이다. 부러진 손은 커리어에 남는다. 한 경기는 4~6분이다. 경기 사이에는 다음 상대를 고르고, 받은 돈을 손에 쓸지 코너에 쓸지 빚을 갚을지 정한다. 관중이 곧 계기판이고, 짧고 잔인한 승리가 지저분하게 끌린 승리보다 값이 나간다. 이 커리어는 벨트가 아니라 몸으로 끝난다.",
+    "ja": "駐車場やパブの奥の部屋で、金を賭けて殴り合う。グローブもラウンドもレフェリーもない。どちらかが立ち上がらなくなるまで終わらない。拳を放つたび、放った手が壊れていく。試合を決める一撃は、たいてい自分の手を折る一撃だ。折れた手はキャリアそのものに残る。一試合は4〜6分。試合の合間に次の相手を選び、稼ぎを手に使うか、コーナーに使うか、借金に回すかを決める。観客がメーターであり、短く暴力的な勝利のほうが、泥臭く長引いた勝利より高く売れる。このキャリアはベルトではなく、身体で終わる。",
+    "es": "Peleas por dinero en aparcamientos y trastiendas de bar. No hay guantes, ni asaltos, ni árbitro: nada termina un combate salvo que alguien no se levante. Cada golpe que lanzas daña la mano que lo lanzó, así que el golpe que gana la pelea suele ser el que te rompe la mano. Una mano rota es daño de carrera. Un combate dura de cuatro a seis minutos. Entre peleas eliges el siguiente combate del circuito y gastas la bolsa en tus manos, tu esquina o tus deudas. El público es el medidor y paga: una victoria corta y brutal vale más que una fea y trabajada. La carrera termina en un cuerpo, no en un cinturón.",
+    "pt-BR": "Você luta por dinheiro em estacionamentos e nos fundos de bares. Não há luvas, rounds nem juiz: nada encerra uma luta além de alguém não levantar mais. Cada soco que você dá machuca a mão que o deu, então o golpe que vence a luta costuma ser o que quebra sua mão. Uma mão quebrada é dano de carreira. Uma luta dura de quatro a seis minutos. Entre os combates você escolhe a próxima luta no circuito e gasta a bolsa com as mãos, o córner ou as dívidas. A plateia é o medidor e ela paga: uma vitória curta e violenta vale mais que uma feia e arrastada. A carreira termina num corpo, não num cinturão."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.bareknuckle",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/bare-knuckle/01.jpg",
+    "shots/bare-knuckle/02.jpg",
+    "shots/bare-knuckle/03.jpg",
+    "shots/bare-knuckle/04.jpg",
+    "shots/bare-knuckle/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "cabinet",
+   "boardName": "Cabinet",
+   "shippingName": "Cabinet: Arcade Repair Shop",
+   "sourceDir": "D:/Crystl/cabinet",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Cabinet",
+    "ko": "캐비닛",
+    "ja": "キャビネット",
+    "es": "Cabinet",
+    "pt-BR": "Cabinet"
+   },
+   "tagline": {
+    "en": "Fix dead arcade machines. Three tests, one guess, then flip the switch.",
+    "ko": "죽은 오락실 기계를 되살리세요. 검사 세 번, 판정 한 번, 그리고 전원.",
+    "ja": "死んだアーケード筐体を直す。検査は三つ、判断は一つ、そして電源。",
+    "es": "Repara máquinas recreativas muertas. Tres pruebas, una apuesta y al interruptor.",
+    "pt-BR": "Conserte fliperamas mortos. Três testes, um palpite e liga a chave."
+   },
+   "desc": {
+    "en": "A dead arcade machine arrives on a trolley with a note taped to the glass, and the note never uses an electrical word. It hums like the fridge did. The picture rolls like it is on a boat. You get three tests: power, board, screen. Each one costs money and bench time, and each one crosses names off a list of eight faults. Then you commit to one, fit the part, and flip the switch. Three tests will always tell you the answer. Three tests will not always be worth it. That is the whole game. When it works, a game that does not exist plays itself for ten seconds under its own marquee, in four colours. A different one every machine.",
+    "ko": "죽은 오락실 기계가 손수레에 실려 옵니다. 유리에는 쪽지가 붙어 있고, 쪽지에는 전기 용어가 한 마디도 없습니다. 냉장고처럼 웅웅거려요. 화면이 배 탄 것처럼 흘러내려요. 검사는 세 가지입니다. 전원, 기판, 화면. 하나하나가 돈과 작업 시간을 먹고, 여덟 가지 고장 후보를 하나씩 지워 갑니다. 그다음 하나를 고르고, 부품을 달고, 전원을 넣습니다. 세 번 다 검사하면 답은 반드시 나오지만, 그만한 값어치가 늘 있는 것은 아닙니다. 이 게임은 그게 전부입니다. 고쳐지면 세상에 없는 게임이 십 초 동안 자기 간판을 달고 네 가지 색으로 혼자 돌아갑니다. 기계마다 다른 게임입니다.",
+    "ja": "死んだアーケード筐体が台車で運ばれてくる。ガラスにはメモが貼ってあり、そこには電気の用語が一つも出てこない。冷蔵庫みたいに唸ってた。画面が船に乗ってるみたいに流れる。検査は三つ。電源、基板、画面。どれも金と作業台の時間を食い、八つの故障候補を一つずつ消していく。そして一つに賭け、部品を付け、電源を入れる。三つ全部やれば答えは必ず出る。ただし、それが割に合うとは限らない。このゲームはそれだけだ。直ると、この世に存在しないゲームが十秒だけ、自前のマーキーを掲げて四色で勝手に動く。筐体ごとに違うゲームが。",
+    "es": "Llega una máquina recreativa muerta en una carretilla, con una nota pegada al cristal que nunca usa una palabra eléctrica. Zumbaba como la nevera. La imagen rueda como si fuera en barco. Tienes tres pruebas: corriente, placa, pantalla. Cada una cuesta dinero y tiempo de banco, y cada una tacha nombres de una lista de ocho averías. Luego te comprometes con una, montas la pieza y accionas el interruptor. Tres pruebas siempre te dan la respuesta. Tres pruebas no siempre merecen la pena. Ese es todo el juego. Cuando funciona, un juego que no existe se juega solo durante diez segundos bajo su propia marquesina, en cuatro colores. Uno distinto en cada máquina.",
+    "pt-BR": "Um fliperama morto chega num carrinho, com um bilhete colado no vidro que nunca usa uma palavra elétrica. Zumbia como a geladeira. A imagem rola como se estivesse num barco. Você tem três testes: força, placa, tela. Cada um custa dinheiro e tempo de bancada, e cada um risca nomes de uma lista de oito defeitos. Depois você aposta em um, instala a peça e liga a chave. Três testes sempre dão a resposta. Três testes nem sempre valem a pena. É esse o jogo inteiro. Quando funciona, um jogo que não existe roda sozinho por dez segundos sob sua própria marquise, em quatro cores. Um diferente em cada máquina."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.cabinet",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/cabinet/01.jpg",
+    "shots/cabinet/02.jpg",
+    "shots/cabinet/03.jpg",
+    "shots/cabinet/04.jpg",
+    "shots/cabinet/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "cell-block",
+   "boardName": "Cell Block",
+   "shippingName": "Cell Block: Prison Story",
+   "sourceDir": "D:/Crystl/cellblock",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Cell Block",
+    "ko": "셀 블록",
+    "ja": "セルブロック",
+    "es": "Cell Block",
+    "pt-BR": "Cell Block"
+   },
+   "tagline": {
+    "en": "One day inside. Four choices. What you owe carries over, by name.",
+    "ko": "안에서의 하루. 네 번의 선택. 진 빚과 받을 것은 이름째로 남는다.",
+    "ja": "塀の中の一日。四つの選択。貸しも借りも、名前ごと残る。",
+    "es": "Un día dentro. Cuatro decisiones. Lo que debes se arrastra, con nombre y apellido.",
+    "pt-BR": "Um dia lá dentro. Quatro escolhas. O que você deve fica, com nome e tudo."
+   },
+   "desc": {
+    "en": "You are inside for thirty days. Four blocks a day: yard, work detail, association, and the last hour before the landing goes dark. One choice in each. That is the whole game, and there is no clock anywhere in it. Nothing resets. A favour you did on day four is still owed to you on day thirty, by name. A debt you took to get through a bad week keeps getting older until you pay it or somebody comes to collect. The ledger is the game. Eight people share the landing and none of them forget. A day takes two or three minutes to read, then the block goes dark one cell at a time and the day's ledger writes itself on the wall.",
+    "ko": "형기는 서른 날. 하루는 네 시간으로 나뉜다. 운동, 작업, 휴게, 그리고 복도가 어두워지기 전 마지막 한 시간. 각 시간에 선택은 하나. 그게 전부이고, 이 게임 어디에도 시계는 없다. 아무것도 초기화되지 않는다. 나흘째에 해준 호의는 서른째 날에도 상대의 이름으로 남아 있다. 힘든 한 주를 넘기려고 진 빚은 갚거나 누가 받으러 올 때까지 그대로 나이를 먹는다. 장부가 곧 게임이다. 복도에는 여덟 명이 같이 살고, 그 기억은 흐려지지 않는다. 하루 분량은 읽는 데 2~3분. 그다음 감방 불이 하나씩 꺼지고, 어둠 속에서 그날의 장부가 벽에 적힌다.",
+    "ja": "刑期は三十日。一日は四つの時間に分かれる。運動場、作業、談話、そして廊下の灯が落ちる前の最後の一時間。それぞれで選択は一つだけ。それがすべてで、このゲームのどこにも時計はない。何もリセットされない。四日目にした貸しは、三十日目にも相手の名前とともに残っている。ひどい一週間を凌ぐために作った借りは、返すか、誰かが取り立てに来るまで、そのまま歳を取る。台帳こそがゲームだ。同じ廊下には八人が暮らし、その記憶は薄れない。一日分は読むのに二、三分。そのあと独房の灯が一つずつ落ち、暗闇の中でその日の台帳が壁に書かれる。",
+    "es": "Estás dentro treinta días. Cuatro bloques al día: el patio, el destino de trabajo, la hora común y la última hora antes de que se apague la galería. Una decisión en cada uno. Ese es todo el juego, y no hay ningún reloj en él. Nada se reinicia. Un favor que hiciste el día cuatro te lo siguen debiendo el día treinta, con nombre. Una deuda que asumiste para pasar una mala semana envejece hasta que la pagas o alguien viene a cobrarla. El libro de cuentas es el juego. Ocho personas comparten la galería y ninguna olvida. Un día se lee en dos o tres minutos, y luego las celdas se apagan una a una.",
+    "pt-BR": "Você está preso por trinta dias. Quatro blocos por dia: o pátio, o trabalho, o convívio e a última hora antes de a galeria apagar. Uma escolha em cada um. É esse o jogo inteiro, e não existe relógio nenhum nele. Nada é reiniciado. Um favor que você fez no dia quatro ainda é devido no dia trinta, com nome e tudo. Uma dívida feita para atravessar uma semana ruim vai envelhecendo até você pagar ou alguém vir cobrar. O livro de contas é o jogo. Oito pessoas dividem a galeria e nenhuma esquece. Um dia se lê em dois ou três minutos, e depois as celas apagam uma a uma."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.cellblock",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/cell-block/01.jpg",
+    "shots/cell-block/02.jpg",
+    "shots/cell-block/03.jpg",
+    "shots/cell-block/04.jpg",
+    "shots/cell-block/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "corner-store",
+   "boardName": "Corner Store",
+   "shippingName": "Corner Store: Shop Manager",
+   "sourceDir": "D:/Crystl/cornerstore",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Corner Store",
+    "ko": "코너스토어",
+    "ja": "コーナーストア",
+    "es": "Corner Store",
+    "pt-BR": "Corner Store"
+   },
+   "tagline": {
+    "en": "Order the stock. Open the doors. Watch the shift. A pixel art shop sim.",
+    "ko": "아침에 주문서를 씁니다. 문을 열면 끝. 3분짜리 도트 가게 경영 게임.",
+    "ja": "発注表を書く。店を開ける。あとは見ているだけ。3分のドット絵店舗経営。",
+    "es": "Haz el pedido. Abre las puertas. Mira el turno. Simulador de tienda en pixel art.",
+    "pt-BR": "Faça o pedido. Abra as portas. Assista ao turno. Sim de loja em pixel art."
+   },
+   "desc": {
+    "en": "You are the shop manager of a corner store the size of one room. Every morning you fill in the order sheet: milk, bread, crisps, cola, whatever you think today wants. Then the doors open and you find out. This is not a game about tapping customers. Once the shift starts you cannot change your mind. If a shelf is empty they leave. If the queue gets long they leave anyway. You get three trips to the back room and no more. At close the receipt prints out of the register one line at a time: every sale, every walkout, every crate of milk that went off. Demand moves week to week, so last week's order sheet is a bad guess. A shift takes about three minutes.",
+    "ko": "당신은 방 한 칸짜리 편의점 사장님입니다. 매일 아침 주문서를 씁니다. 우유, 빵, 과자, 콜라. 오늘 뭐가 팔릴지 찍는 겁니다. 그리고 문을 엽니다. 손님을 탭해서 계산하는 게임이 아닙니다. 영업이 시작되면 발주는 못 바꿉니다. 진열대가 비어 있으면 그냥 나갑니다. 줄이 길어져도 그냥 나갑니다. 창고에 갈 수 있는 건 하루 세 번뿐입니다. 마감하면 금전등록기에서 영수증이 한 줄씩 뽑혀 나옵니다. 판매도, 그냥 나가버린 손님도, 아무도 안 사서 상해버린 우유도. 수요는 주마다 움직여서 지난주 주문서는 오늘의 오답입니다. 한 번의 영업은 약 3분입니다.",
+    "ja": "部屋一つ分の大きさのコンビニの店長になる。毎朝、発注表を書く。牛乳、パン、スナック、コーラ。今日は何が売れるかを当てるだけだ。そして店を開ける。客をタップして捌くゲームではない。営業が始まったら発注は変えられない。棚が空なら何も買わずに帰る。列が長くなってもやはり帰る。バックヤードに行けるのは一日三回まで。閉店するとレジからレシートが一行ずつ出てくる。売上も、帰った客も、誰も買わずに傷んだ牛乳も。需要は週ごとに動くので、先週の発注表は今日の誤答だ。一営業は約3分。",
+    "es": "Eres el encargado de una tienda de barrio del tamaño de una habitación. Cada mañana rellenas la hoja de pedido: leche, pan, patatas fritas, refrescos, lo que creas que pide el día. Luego abres las puertas y lo descubres. Esto no va de tocar clientes. Una vez empieza el turno no puedes cambiar de idea. Si un estante está vacío, se van. Si la cola se alarga, también se van. Tienes tres viajes al almacén y ni uno más. Al cerrar, el tique sale de la caja línea a línea: cada venta, cada abandono, cada caja de leche caducada. La demanda se mueve, así que el pedido de la semana pasada es una mala apuesta. Un turno dura unos tres minutos.",
+    "pt-BR": "Você é o gerente de uma loja de esquina do tamanho de um cômodo. Toda manhã preenche a folha de pedido: leite, pão, salgadinho, refrigerante, o que achar que o dia pede. Depois abre as portas e descobre. Não é um jogo de tocar em clientes. Começou o turno, não dá para mudar de ideia. Se a prateleira está vazia, o cliente vai embora. Se a fila cresce, ele vai embora do mesmo jeito. Você tem três idas ao estoque e nada além disso. No fechamento o cupom sai da caixa linha a linha: cada venda, cada desistência, cada caixa de leite vencida. A demanda muda toda semana. Um turno dura cerca de três minutos."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.cornerstore",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/corner-store/01.jpg",
+    "shots/corner-store/02.jpg",
+    "shots/corner-store/03.jpg",
+    "shots/corner-store/04.jpg",
+    "shots/corner-store/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "counter",
+   "boardName": "Counter",
+   "shippingName": "Counter: Dungeon Shop Keeper",
+   "sourceDir": "D:/Crystl/counter",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Counter",
+    "ko": "카운터",
+    "ja": "カウンター",
+    "es": "Counter",
+    "pt-BR": "Counter"
+   },
+   "tagline": {
+    "en": "Haggle with heroes who need coin tonight. Three offers, then they walk out.",
+    "ko": "급한 사람에게 싸게 사고, 셈 못하는 사람에게 비싸게. 흥정은 세 번까지.",
+    "ja": "今夜の金が要る冒険者と値を競る。やり取りは三回、そこで客は帰る。",
+    "es": "Regatea con héroes que necesitan monedas esta noche. Tres ofertas y se van.",
+    "pt-BR": "Pechinche com heróis que precisam de moeda hoje. Três ofertas e eles saem."
+   },
+   "desc": {
+    "en": "Heroes come out of the hole with things they do not understand and rent due on Tuesday. You have a set of scales and no scruples. Counter is a dungeon shop game about the part nobody else simulates: naming the number. Buy low from people who cannot wait, sell high to people who cannot count. Shutters up to shutters down is two or three minutes. They say a number first and it is never their best one. Counter it, hold, or walk. Three exchanges and they go. Nothing ever tells you what a thing is worth, not the shelf, not the ledger, not the sale afterwards. Stock goes stale, and the rent is due whether the day went well or not.",
+    "ko": "모험가들이 굴에서 나옵니다. 손에는 정체 모를 물건, 화요일에는 집세. 당신에게는 저울 하나와 양심 없음이 있습니다. 카운터는 다른 게임이 다루지 않는 한 가지, 값을 부르는 순간만 다루는 던전 상점 경영 게임입니다. 급한 사람에게 싸게 사고, 셈이 안 되는 사람에게 비싸게 넘깁니다. 셔터를 올리고 내리기까지 2~3분. 손님이 먼저 값을 부르고, 그 값은 절대 최선이 아닙니다. 되받거나, 버티거나, 돌아섭니다. 세 번 주고받으면 손님은 갑니다. 진짜 값은 선반에도 장부에도 판 뒤에도 나오지 않습니다. 재고는 상하고, 집세는 오늘이 어땠든 나갑니다.",
+    "ja": "冒険者たちが穴から出てくる。手には正体不明の品、火曜日には家賃。こちらにあるのは天秤ひとつと、良心のなさだけ。カウンターは、他のどのゲームも扱わない部分、つまり「値を口にする瞬間」だけを扱うダンジョン店舗経営ゲームだ。待てない相手から安く買い、勘定のできない相手に高く売る。シャッターを上げて下ろすまで2〜3分。相手が先に値を言うが、それが本気の値であることは決してない。返すか、粘るか、席を立つか。やり取りは三回で相手は帰る。本当の価値は棚も台帳も、売った後も教えてくれない。在庫は傷み、家賃は今日の出来に関係なく出ていく。",
+    "es": "Los héroes salen del agujero con cosas que no entienden y el alquiler venciendo el martes. Tú tienes una balanza y ningún escrúpulo. Counter es un juego de tienda de mazmorra sobre la parte que nadie más simula: decir la cifra. Compra barato a quien no puede esperar y vende caro a quien no sabe contar. De subir la persiana a bajarla pasan dos o tres minutos. Ellos dicen un número primero y nunca es el mejor que tienen. Replica, aguanta o márchate. Tres intercambios y se van. Nada te dice nunca cuánto vale algo: ni el estante, ni el libro, ni la venta posterior. El género se estropea y el alquiler vence igual.",
+    "pt-BR": "Os heróis saem do buraco com coisas que não entendem e o aluguel vencendo na terça. Você tem uma balança e nenhum escrúpulo. Counter é um jogo de loja de masmorra sobre a parte que ninguém mais simula: dizer o número. Compre barato de quem não pode esperar e venda caro para quem não sabe contar. Da porta aberta à porta fechada são dois ou três minutos. Eles dizem um número primeiro e nunca é o melhor deles. Rebata, segure ou vá embora. Três trocas e eles saem. Nada nunca te diz quanto uma coisa vale: nem a prateleira, nem o livro, nem a venda depois. O estoque estraga e o aluguel vence de qualquer jeito."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.counter",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/counter/01.jpg",
+    "shots/counter/02.jpg",
+    "shots/counter/03.jpg",
+    "shots/counter/04.jpg",
+    "shots/counter/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "door-policy",
+   "boardName": "Door Policy",
+   "shippingName": "Door Policy: Club Bouncer Sim",
+   "sourceDir": "D:/Crystl/doorpolicy",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Door Policy",
+    "ko": "도어 폴리시",
+    "ja": "ドアポリシー",
+    "es": "Door Policy",
+    "pt-BR": "Door Policy"
+   },
+   "tagline": {
+    "en": "Bouncer on a basement door. Decide who gets in. Find out in the morning.",
+    "ko": "클럽 가드 3분 시뮬. 오늘 지침대로 들여보내고, 아침에 대가를 확인한다.",
+    "ja": "地下クラブのドア番。誰を入れるか決める。答えは朝に出る。",
+    "es": "Portero en la puerta de un sótano. Decide quién entra. Lo sabrás por la mañana.",
+    "pt-BR": "Segurança na porta de um subsolo. Decida quem entra. Descubra de manhã."
+   },
+   "desc": {
+    "en": "You are the bouncer on the door of a basement club. A card in your pocket lists tonight's rules, the queue comes up the steps one at a time, and you decide who gets in. In the morning you find out what you caused. Tap NO or IN to judge somebody, or swipe to move quickly, and tap a guest's card to look at the ID properly. The shutter comes down at three, then the morning pan shows the room you made, the takings, and a note from the owner. About three minutes a night, sixty nights on the calendar. The card changes every night, so last night's habits are not tonight's answer. 60,291 distinct faces, and a forged ID always leaves something visible.",
+    "ko": "지하에 있는 클럽. 계단 위에는 줄이 서 있고, 주머니에는 오늘 누구를 들여보낼지 적힌 지침이 있습니다. 한 영업일은 3분이면 끝납니다. 거절 또는 입장을 눌러 판단하고, 빠르게 하려면 좌우로 밀어도 됩니다. 카드를 누르면 신분증이 보입니다. 이름, 생년월일, 사진, 그리고 눈앞에 서 있는 얼굴. 새벽 3시에 셔터가 내려가고, 아침 화면이 당신이 만든 방과 금고, 그리고 사장이 남긴 쪽지를 보여줍니다. 달력에는 60일이 있습니다. 매일 지침이 바뀌어서 어제 맞았던 답이 오늘은 틀립니다. 6만 가지가 넘는 얼굴, 그리고 위조 신분증에는 앞면에 반드시 표시가 남습니다.",
+    "ja": "地下クラブのドア番だ。ポケットには今夜の規則を書いたカード。階段を一人ずつ上がってくる列を見て、誰を入れるか決める。朝になって、自分が何を引き起こしたかを知る。拒否か入場を押して判断し、急ぎたければスワイプでもいい。カードを押せば身分証を細かく見られる。名前、生年月日、写真、そして目の前の顔。三時にシャッターが下り、朝のパンが、あなたが作った店内と売上と、オーナーのメモを見せる。一晩およそ三分、カレンダーは六十日。規則は毎晩変わるので、昨夜の癖は今夜の答えにならない。顔は六万通り以上、偽造身分証は必ず表面に痕跡を残す。",
+    "es": "Eres el portero de un club en un sótano. Una tarjeta en tu bolsillo lista las normas de esta noche, la cola sube los escalones de uno en uno y tú decides quién entra. Por la mañana descubres qué provocaste. Pulsa NO o ENTRA para juzgar a alguien, o desliza para ir rápido, y toca su tarjeta para mirar bien el carné. La persiana baja a las tres y luego la panorámica de la mañana muestra la sala que creaste, la recaudación y una nota del dueño. Unos tres minutos por noche, sesenta noches en el calendario. La tarjeta cambia cada noche. 60.291 caras distintas, y un carné falso siempre deja algo visible.",
+    "pt-BR": "Você é o segurança na porta de um clube no subsolo. Um cartão no bolso lista as regras de hoje, a fila sobe os degraus um por um e você decide quem entra. De manhã você descobre o que causou. Toque em NÃO ou ENTRA para julgar alguém, ou deslize para ir rápido, e toque no cartão do cliente para olhar o documento direito. A grade desce às três e então a panorâmica da manhã mostra o salão que você fez, o caixa e um bilhete do dono. Cerca de três minutos por noite, sessenta noites no calendário. O cartão muda toda noite. 60.291 rostos distintos, e um documento falso sempre deixa algo visível."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.doorpolicy",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/door-policy/01.jpg",
+    "shots/door-policy/02.jpg",
+    "shots/door-policy/03.jpg",
+    "shots/door-policy/04.jpg",
+    "shots/door-policy/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "flip-this-flat",
+   "boardName": "Flip This Flat",
+   "shippingName": "Flip This Flat: Home Design",
+   "sourceDir": "D:/Crystl/flipflat",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Flip This Flat",
+    "ko": "집 고쳐 팔기",
+    "ja": "フリップ・ディス・フラット",
+    "es": "Flip This Flat",
+    "pt-BR": "Flip This Flat"
+   },
+   "tagline": {
+    "en": "Buy a wreck, clear it out, furnish it and sell it on. One flat, three minutes.",
+    "ko": "폐가를 사서 고치고, 꾸미고, 되판다. 한 채에 3분.",
+    "ja": "廃屋を買い、片づけ、家具を入れ、売り抜ける。一軒あたり3分。",
+    "es": "Compra una ruina, vacíala, amuéblala y véndela. Un piso, tres minutos.",
+    "pt-BR": "Compre uma ruína, esvazie, mobilie e revenda. Um apê, três minutos."
+   },
+   "desc": {
+    "en": "Buy a wreck. Clear it out. Furnish it. Sell it for more than you paid. Flip This Flat is a renovation game about one apartment at a time. No timers to wait out, no energy bar, no queue. Three places on the market at once: a wreck is cheap to buy and dear to fix, a dated one is the other way round. Somebody left a lot behind, so tap it out of there and check what you find. Then drag furniture from a catalogue of hundreds of pieces, because a room filled too little looks abandoned and one filled too much looks like a warehouse. A young family wants bedrooms, an investor wants every inch working. Decorate for whoever is coming.",
+    "ko": "폐가를 삽니다. 짐을 치웁니다. 가구를 놓습니다. 산 값보다 비싸게 팝니다. 집 고쳐 팔기는 한 번에 한 채씩 집을 고쳐 파는 인테리어 게임입니다. 기다릴 타이머도, 에너지도, 대기열도 없습니다. 매물은 한 번에 세 건. 폐가는 싸게 사서 비싸게 고치고, 오래된 집은 그 반대입니다. 전 주인이 두고 간 것이 많으니 눌러서 치우되 무엇이 나오는지 확인하세요. 그다음 수백 개의 가구를 바닥으로 끌어다 놓습니다. 너무 비우면 빈집 같고, 너무 채우면 창고 같습니다. 젊은 가족은 침실을 보고, 임대 투자자는 빈틈을 봅니다. 살 사람에 맞춰 꾸미세요.",
+    "ja": "廃屋を買う。片づける。家具を入れる。買値より高く売る。フリップ・ディス・フラットは、一度に一軒だけを扱うリフォーム売却ゲームだ。待つタイマーもスタミナも順番待ちもない。売り物件は常に三件。廃屋は安く買えて直すのが高く、古びた物件はその逆だ。前の住人が置いていったものが山ほどあるので、押して片づけつつ、何が出てくるかを確かめる。それから数百点のカタログから家具を床にドラッグしていく。入れなさすぎれば空き家に見え、入れすぎれば倉庫に見える。若い家族は寝室を見て、投資家は無駄な面積を見る。買い手に合わせて飾ること。",
+    "es": "Compra una ruina. Vacíala. Amuéblala. Véndela por más de lo que pagaste. Flip This Flat es un juego de reformas sobre un piso cada vez. Sin temporizadores, sin barra de energía, sin colas. Tres inmuebles en el mercado a la vez: una ruina es barata de comprar y cara de arreglar, y una vivienda anticuada al revés. Alguien dejó mucho atrás, así que tócalo para sacarlo y mira lo que encuentras. Luego arrastra muebles de un catálogo de cientos de piezas, porque una habitación demasiado vacía parece abandonada y una demasiado llena parece un almacén. Una familia joven quiere dormitorios, un inversor quiere cada metro rentable. Decora para quien vaya a venir.",
+    "pt-BR": "Compre uma ruína. Esvazie. Mobilie. Venda por mais do que pagou. Flip This Flat é um jogo de reforma sobre um apartamento por vez. Sem temporizadores, sem barra de energia, sem fila. Três imóveis no mercado ao mesmo tempo: uma ruína é barata de comprar e cara de consertar, e um apê datado é o contrário. Alguém deixou muita coisa para trás, então toque para tirar e veja o que aparece. Depois arraste móveis de um catálogo com centenas de peças, porque um cômodo vazio demais parece abandonado e um cheio demais parece depósito. Uma família jovem quer quartos, um investidor quer cada metro rendendo. Decore para quem vem visitar."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.flipflat",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/flip-this-flat/01.jpg",
+    "shots/flip-this-flat/02.jpg",
+    "shots/flip-this-flat/03.jpg",
+    "shots/flip-this-flat/04.jpg",
+    "shots/flip-this-flat/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "front-page",
+   "boardName": "Front Page",
+   "shippingName": "Front Page: Newspaper Sim",
+   "sourceDir": "D:/Crystl/frontpage",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Front Page",
+    "ko": "프론트 페이지",
+    "ja": "フロントページ",
+    "es": "Front Page",
+    "pt-BR": "Front Page"
+   },
+   "tagline": {
+    "en": "Write the headline. Print the paper. Readers, the law, the owner: pick one.",
+    "ko": "헤드라인을 직접 씁니다. 인쇄합니다. 독자, 법, 사주. 셋 다는 못 챙깁니다.",
+    "ja": "見出しを書く。刷る。読者、法、オーナー。三つは立てられない。",
+    "es": "Escribe el titular. Imprime el diario. Lectores, la ley, el dueño: elige uno.",
+    "pt-BR": "Escreva a manchete. Imprima o jornal. Leitores, a lei, o dono: escolha um."
+   },
+   "desc": {
+    "en": "Write the headline. Print the paper. Find out what the town thinks. Five stories drop on the wire every morning. Pick the lead, pick what runs underneath it, pick a photograph, then write the headline yourself out of fragments and put it on the press. Nobody here will tell you whether it was any good. The town will. You answer to three people and you cannot keep all three: readers want heat, the law wants truth, and the proprietor wants his own opinions back in print by Thursday. In the morning: circulation, complaints, one letter to the editor, and a phone call from somebody who is not happy. Print something thin about somebody who can afford a solicitor and you will get a writ.",
+    "ko": "헤드라인을 씁니다. 신문을 찍습니다. 그리고 동네가 뭐라고 하는지 봅니다. 매일 아침 통신선에 기사 다섯 건이 들어옵니다. 톱을 고르고, 그 아래에 뭘 붙일지 고르고, 사진을 고른 다음, 조각난 단어들로 헤드라인을 직접 만들어 윤전기에 올립니다. 잘 썼는지 알려 주는 사람은 없습니다. 동네가 알려 줍니다. 당신이 답해야 할 사람은 셋이고, 셋 다 챙길 수는 없습니다. 독자는 자극을, 법은 사실을, 사주는 목요일까지 자기 의견이 활자로 돌아오길 원합니다. 아침이면 판매 부수, 항의, 독자 편지 한 통, 그리고 기분이 상한 누군가의 전화가 옵니다. 변호사를 살 수 있는 사람에 대해 근거 없이 쓰면 소장이 날아옵니다.",
+    "ja": "見出しを書く。新聞を刷る。町がどう言うかを知る。毎朝、通信線に記事が五本流れてくる。トップを選び、その下に何を置くかを選び、写真を選び、断片から見出しを自分で組み立てて輪転機にかける。出来がよかったかどうかを教えてくれる者はいない。町が教える。答えるべき相手は三人いて、三人とも立てることはできない。読者は熱を求め、法は事実を求め、オーナーは木曜までに自分の意見が活字で返ってくることを求める。翌朝には部数、苦情、投書が一通、そして機嫌を損ねた誰かからの電話。弁護士を雇える相手について薄い記事を刷れば、訴状が届く。",
+    "es": "Escribe el titular. Imprime el diario. Descubre qué piensa el pueblo. Cada mañana llegan cinco historias por el teletipo. Elige la principal, elige lo que va debajo, elige una fotografía y luego escribe tú mismo el titular a partir de fragmentos y mándalo a la rotativa. Aquí nadie te dirá si estuvo bien. El pueblo sí. Respondes ante tres personas y no puedes contentar a las tres: los lectores quieren calor, la ley quiere verdad y el propietario quiere sus propias opiniones impresas para el jueves. Por la mañana: tirada, quejas, una carta al director y una llamada de alguien que no está contento. Publica algo flojo sobre quien pueda pagar un abogado y tendrás una demanda.",
+    "pt-BR": "Escreva a manchete. Imprima o jornal. Descubra o que a cidade acha. Cinco matérias caem no telex toda manhã. Escolha a principal, escolha o que vai embaixo, escolha uma foto e depois escreva você mesmo a manchete a partir de fragmentos e mande para a rotativa. Aqui ninguém vai dizer se ficou bom. A cidade dirá. Você responde a três pessoas e não consegue agradar as três: os leitores querem calor, a lei quer verdade e o dono quer as próprias opiniões impressas até quinta. De manhã: tiragem, reclamações, uma carta do leitor e um telefonema de alguém insatisfeito. Publique algo frágil sobre quem pode pagar advogado e vem a ação judicial."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.frontpage",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/front-page/01.jpg",
+    "shots/front-page/02.jpg",
+    "shots/front-page/03.jpg",
+    "shots/front-page/04.jpg",
+    "shots/front-page/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "heel-turn",
+   "boardName": "Heel Turn",
+   "shippingName": "Heel Turn: Wrestling Game",
+   "sourceDir": "D:/Crystl/heelturn",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Heel Turn",
+    "ko": "힐 턴",
+    "ja": "ヒール・ターン",
+    "es": "Heel Turn",
+    "pt-BR": "Heel Turn"
+   },
+   "tagline": {
+    "en": "Read the crowd, work the match, or steal the finish in a wrestling career RPG.",
+    "ko": "관중을 읽고, 경기를 만들고, 아니면 짜인 결말을 훔친다. 프로레슬링 커리어 RPG.",
+    "ja": "客を読み、試合を組み立て、あるいは決められた結末を奪う。プロレス・キャリアRPG。",
+    "es": "Lee al público, trabaja el combate o roba el final. RPG de carrera de lucha libre.",
+    "pt-BR": "Leia a plateia, construa a luta ou roube o final. RPG de carreira no wrestling."
+   },
+   "desc": {
+    "en": "The finish is written. Your reputation isn't. Heel Turn is a choice-driven wrestling game about eight shows, one main event, and every dangerous decision between the bells. Read your rival's tells, manage your stamina, work the crowd, and choose whether to honor the booked finish or go into business for yourself. Work clean sequences to earn locker-room trust. Make it real to hurt your rival and draw a louder reaction. Never throw a wild shot when your opponent is braced to counter. Between shows, spend your purse on recovery, rehearse to build permanent ringcraft, take safer bookings or demand the spotlight. Promoters remember whether you delivered. The locker room remembers even more.",
+    "ko": "결말은 이미 정해져 있습니다. 당신의 평판은 아닙니다. 힐 턴은 여덟 번의 흥행과 한 번의 메인이벤트, 그리고 공 사이의 모든 위험한 결정을 다루는 선택형 프로레슬링 게임입니다. 상대의 버릇을 읽고, 체력을 관리하고, 관중을 다루고, 짜인 결말을 지킬지 아니면 자기 이익을 챙길지 고릅니다. 깨끗하게 주고받으면 라커룸의 신뢰를 얻습니다. 진짜로 때리면 상대는 다치고 반응은 커집니다. 상대가 받아칠 자세일 때는 무리한 기술을 걸지 마세요. 흥행 사이에는 받은 돈을 회복에 쓰거나, 연습으로 기량을 올리거나, 안전한 카드를 받거나 조명을 요구할 수 있습니다. 프로모터는 결과를 기억하고, 라커룸은 더 오래 기억합니다.",
+    "ja": "結末は決まっている。あなたの評判は決まっていない。ヒール・ターンは、八興行と一つのメインイベント、そしてゴングの間にあるすべての危険な決断を扱う選択型プロレスゲームだ。相手の癖を読み、スタミナを管理し、客を動かし、決められた結末を守るか、自分のために動くかを選ぶ。きれいに攻防を組み立てれば控室の信頼が得られる。本気で当てれば相手は傷つき、反応は大きくなる。相手が返し技に構えているときに大振りはしないこと。興行の合間はギャラを回復に使い、稽古で技術を上げ、安全なカードを受けるかスポットライトを要求する。プロモーターは結果を覚え、控室はもっと長く覚えている。",
+    "es": "El final está escrito. Tu reputación no. Heel Turn es un juego de lucha libre basado en decisiones sobre ocho funciones, un combate estelar y cada elección peligrosa entre campanas. Lee los gestos de tu rival, gestiona tu resistencia, trabaja al público y decide si respetas el final pactado o vas por tu cuenta. Encadena secuencias limpias para ganarte la confianza del vestuario. Hazlo real para lastimar a tu rival y arrancar una reacción más fuerte. Nunca lances un golpe salvaje cuando el rival está listo para contrarrestar. Entre funciones gastas la bolsa en recuperación, ensayas para ganar oficio permanente y aceptas carteles seguros o exiges el foco. Los promotores recuerdan. El vestuario recuerda más.",
+    "pt-BR": "O final está escrito. Sua reputação não. Heel Turn é um jogo de wrestling guiado por escolhas sobre oito shows, uma luta principal e cada decisão perigosa entre os sinos. Leia os sinais do rival, administre seu fôlego, trabalhe a plateia e decida se honra o final combinado ou age por conta própria. Encadeie sequências limpas para ganhar a confiança do vestiário. Faça de verdade para machucar o rival e arrancar uma reação mais alta. Nunca dê um golpe descuidado quando o oponente está pronto para contra-atacar. Entre os shows, gaste a bolsa em recuperação, treine para ganhar técnica permanente e aceite lutas seguras ou exija os holofotes. Os promotores lembram. O vestiário lembra mais."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.heelturn",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/heel-turn/01.jpg",
+    "shots/heel-turn/02.jpg",
+    "shots/heel-turn/03.jpg",
+    "shots/heel-turn/04.jpg",
+    "shots/heel-turn/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "lemon-lot",
+   "boardName": "Lemon Lot",
+   "shippingName": "Lemon Lot: Used Car Tycoon",
+   "sourceDir": "D:/Crystl/lemonlot",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Lemon Lot",
+    "ko": "레몬 랏",
+    "ja": "レモン・ロット",
+    "es": "Lemon Lot",
+    "pt-BR": "Lemon Lot"
+   },
+   "tagline": {
+    "en": "Every car on the lot has a story. You decide how much of it the buyer hears.",
+    "ko": "모든 차에는 사연이 있습니다. 손님이 그중 얼마를 듣게 될지는 당신이 정합니다.",
+    "ja": "並んだ車にはどれも事情がある。客がその何割を聞くかは、あなたが決める。",
+    "es": "Cada coche del solar tiene una historia. Tú decides cuánta oye el comprador.",
+    "pt-BR": "Todo carro do pátio tem uma história. Você decide quanto o comprador ouve."
+   },
+   "desc": {
+    "en": "Six cars on a gravel forecourt in Calderwick. Big Ron has gone to Spain and left you the keys, the padlock, the kettle and a drawer of brown letters nobody ever opened. Lemon Lot is a used car dealer simulator about the gap between what a car is and what the windscreen card says it is. Tuesday you buy at auction, Saturday you sell to whoever walks onto the gravel, and in between you decide what the buyer gets told. Thirty-six faults, and for each one three buttons: fix it, hide it, or say it out loud. Fixing costs money today, saying it costs price today, hiding costs nothing today, and that is the entire trap.",
+    "ko": "칼더윅의 자갈밭 매매장에 차 여섯 대. 빅 론은 스페인으로 떠나면서 열쇠와 자물쇠와 주전자, 그리고 아무도 뜯지 않은 갈색 편지 한 서랍을 남겼습니다. 레몬 랏은 차의 실제 상태와 앞유리 카드에 적힌 말 사이의 간격을 다루는 중고차 딜러 시뮬레이션입니다. 화요일에는 경매에서 사고, 토요일에는 자갈밭에 들어오는 사람에게 팝니다. 그 사이에 손님이 무엇까지 듣게 될지를 당신이 정합니다. 결함 36종, 하나하나에 버튼이 셋 있습니다. 고치거나, 덮거나, 그냥 말하거나. 고치면 오늘 돈이 들고, 말하면 오늘 값이 깎이고, 덮으면 오늘은 아무것도 안 듭니다. 함정은 전부 거기 있습니다.",
+    "ja": "カルダーウィックの砂利敷きの展示場に車が六台。ビッグ・ロンはスペインへ行き、鍵と南京錠とやかん、そして誰も開けなかった茶封筒の引き出しを残していった。レモン・ロットは、車の実態とフロントガラスの表示カードに書かれた言葉との差を扱う中古車ディーラー・シミュレーターだ。火曜にオークションで仕入れ、土曜に砂利場へ来た客に売る。その間に、客が何をどこまで聞かされるかを決めるのはあなただ。不具合は三十六種類。それぞれにボタンが三つ。直す、隠す、口に出す。直せば今日金がかかり、言えば今日値が下がり、隠せば今日は何もかからない。罠はすべてそこにある。",
+    "es": "Seis coches en un solar de gravilla en Calderwick. Big Ron se ha ido a España y te ha dejado las llaves, el candado, el hervidor y un cajón de cartas marrones que nadie abrió jamás. Lemon Lot es un simulador de vendedor de coches usados sobre la distancia entre lo que un coche es y lo que dice el cartel del parabrisas. El martes compras en subasta, el sábado vendes a quien pise la gravilla, y entre medias decides qué se le cuenta al comprador. Treinta y seis averías, y para cada una tres botones: arreglarla, taparla o decirla en voz alta. Arreglar cuesta dinero hoy, decirlo cuesta precio hoy, taparlo no cuesta nada hoy, y ahí está toda la trampa.",
+    "pt-BR": "Seis carros num pátio de cascalho em Calderwick. Big Ron foi para a Espanha e deixou as chaves, o cadeado, a chaleira e uma gaveta de cartas pardas que ninguém nunca abriu. Lemon Lot é um simulador de revendedor de usados sobre a distância entre o que um carro é e o que diz a placa no para-brisa. Na terça você compra no leilão, no sábado vende para quem pisa no cascalho, e no meio disso decide o que o comprador vai ouvir. Trinta e seis defeitos, e para cada um três botões: consertar, esconder ou dizer em voz alta. Consertar custa dinheiro hoje, dizer custa preço hoje, esconder não custa nada hoje, e é aí que está a armadilha."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.lemonlot",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/lemon-lot/01.jpg",
+    "shots/lemon-lot/02.jpg",
+    "shots/lemon-lot/03.jpg",
+    "shots/lemon-lot/04.jpg",
+    "shots/lemon-lot/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "lost-property",
+   "boardName": "Lost Property",
+   "shippingName": "Lost Property: Sorting Office",
+   "sourceDir": "D:/Crystl/lostproperty",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Lost Property",
+    "ko": "분실물 보관소",
+    "ja": "ロスト・プロパティ",
+    "es": "Lost Property",
+    "pt-BR": "Lost Property"
+   },
+   "tagline": {
+    "en": "A sorting office, four bad descriptions a day. Find it, or say it is not here.",
+    "ko": "하루 네 명, 설명은 엉망. 선반을 정리해 찾아 주거나, 여기 없다고 말한다.",
+    "ja": "遺失物係、一日四人、説明はどれも当てにならない。探し出すか、ここにはないと言うか。",
+    "es": "Una oficina de objetos perdidos y cuatro malas descripciones al día. Encuéntralo o di que no está.",
+    "pt-BR": "Um achados e perdidos, quatro descrições ruins por dia. Ache, ou diga que não está aqui."
+   },
+   "desc": {
+    "en": "A sorting office at the back of a station, and a queue of people who cannot describe their own umbrella. Hand the right thing to the right person. Refuse the rest. The office opens and the shelf fills with twenty-odd things nobody meant to leave. Four claimants come to the counter, three lines each, and none of them is much help. It's black. Or navy. It's the kind that isn't a colour. Refusing correctly pays exactly what handing over correctly pays, and handing over the wrong thing costs you twice. Four hundred objects. Nothing is cleared overnight, so what you do not return is still there tomorrow. The shelf is the difficulty, and the shelf is whatever you failed to return.",
+    "ko": "역 뒤편의 분실물 보관소. 아무도 두고 갈 생각이 없었던 물건이 쌓인 선반과, 자기 우산 하나 제대로 설명하지 못하는 사람들의 줄. 맞는 사람에게 맞는 물건을 건네고, 나머지는 돌려보냅니다. 문을 열면 선반에 스무 개 남짓한 물건이 올라옵니다. 하루에 네 명이 카운터로 오고, 각자 세 줄씩 말하지만 도움이 되는 줄은 없습니다. 검은색이에요. 아니면 남색. 색이라고 하기도 뭐한 그런 거요. 없다고 맞게 말하면 건네주고 맞은 것과 똑같이 값을 받습니다. 엉뚱한 걸 건네면 두 번 손해입니다. 물건은 사백 개. 돌려주지 못한 물건은 내일도 그 자리에 있습니다. 선반이 곧 난이도입니다.",
+    "ja": "駅の裏手にある遺失物係。誰も置いていくつもりのなかった品が積まれた棚と、自分の傘一本まともに説明できない人たちの列。正しい相手に正しい品を渡し、それ以外は帰す。窓口が開くと、棚に二十数点の落とし物が並ぶ。一日に四人が来て、それぞれ三行しゃべるが、役に立つ行は一つもない。黒です。いや紺かも。色とも言えないような色で。ないと正しく答えたときの報酬は、正しく渡したときとまったく同じだ。違う品を渡せば損は二重になる。品物は四百点。返せなかった品は明日もそこにある。棚そのものが難易度だ。",
+    "es": "Una oficina de objetos perdidos al fondo de una estación y una cola de gente incapaz de describir su propio paraguas. Entrega la cosa correcta a la persona correcta. Rechaza el resto. Abre la oficina y el estante se llena con veintitantas cosas que nadie pensaba dejarse. Cuatro reclamantes llegan al mostrador, tres frases cada uno, y ninguno ayuda mucho. Es negro. O azul marino. De ese que no es un color. Rechazar correctamente paga exactamente lo mismo que entregar correctamente, y entregar lo equivocado te cuesta el doble. Cuatrocientos objetos. Nada se limpia de la noche a la mañana: lo que no devuelves sigue ahí mañana. El estante es la dificultad.",
+    "pt-BR": "Um achados e perdidos nos fundos de uma estação e uma fila de gente incapaz de descrever o próprio guarda-chuva. Entregue a coisa certa à pessoa certa. Recuse o resto. A repartição abre e a prateleira enche com vinte e tantas coisas que ninguém pretendia esquecer. Quatro reclamantes chegam ao balcão, três frases cada, e nenhum ajuda muito. É preto. Ou azul-marinho. Daqueles que nem são uma cor. Recusar corretamente paga exatamente o mesmo que entregar corretamente, e entregar a coisa errada custa em dobro. Quatrocentos objetos. Nada é limpo durante a noite: o que você não devolve continua ali amanhã. A prateleira é a dificuldade."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.lostproperty",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/lost-property/01.jpg",
+    "shots/lost-property/02.jpg",
+    "shots/lost-property/03.jpg",
+    "shots/lost-property/04.jpg",
+    "shots/lost-property/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "night-shift",
+   "boardName": "Night Shift",
+   "shippingName": "Night Shift: Hospital Sim",
+   "sourceDir": "D:/Crystl/nightshiftgame",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Night Shift",
+    "ko": "야간 근무",
+    "ja": "ナイトシフト",
+    "es": "Night Shift",
+    "pt-BR": "Night Shift"
+   },
+   "tagline": {
+    "en": "Eight bays, two nurses, and a ward that carries on whether you act or not.",
+    "ko": "병상 여덟, 간호사 둘, 하룻밤. 동선을 그으면 그대로 돕니다.",
+    "ja": "ベッド八床、看護師二人。手を止めても病棟は回り続ける。",
+    "es": "Ocho camas, dos enfermeras y una planta que sigue actúes o no.",
+    "pt-BR": "Oito leitos, duas enfermeiras e uma ala que segue agindo você ou não."
+   },
+   "desc": {
+    "en": "Eight hours. Two nurses. Eight bays. Night Shift is a hospital ward game about indirect control. You never touch a patient. Tap bays in the order you want them seen, then tap a nurse: she walks that route and does what needs doing at each one. Then you watch, and decide what the next route is. Ten at night to six in the morning, in about three minutes. Nobody gets better here. The best a night does is hold the ward level until morning, and holding it is the whole job. People arrive on their own schedule and get worse on their own clock. A route that zig-zags spends the night in the corridor. Nobody dies in this game. The one bad outcome is a transfer.",
+    "ko": "여덟 시간. 간호사 둘. 병상 여덟. 야간 근무는 간접 조작으로 굴러가는 병동 운영 게임입니다. 환자를 직접 만지지 않습니다. 돌 순서대로 병상을 누르고 간호사를 누르면, 그 순서로 걸으며 필요한 처치를 합니다. 그다음에는 지켜보고, 다음 동선을 정합니다. 22시부터 06시까지가 실제로는 약 3분입니다. 여기서 낫는 사람은 없습니다. 하룻밤이 해낼 수 있는 최선은 아침까지 병동을 평평하게 유지하는 것이고, 그게 일의 전부입니다. 환자는 알아서 도착하고 알아서 나빠집니다. 층을 가로지르는 동선은 복도에서 밤을 보냅니다. 이 게임에서 죽는 사람은 없고, 유일하게 나쁜 결말은 전원입니다.",
+    "ja": "八時間。看護師二人。ベッド八床。ナイトシフトは、間接操作で回る病棟運営ゲームだ。患者に直接触れることはない。回ってほしい順にベッドを押し、看護師を押す。彼女はその順路を歩き、各ベッドで必要な処置をする。あとは見ていて、次の順路を決める。夜十時から朝六時までが実時間で約三分。ここで良くなる人はいない。一晩でできる最善は、朝まで病棟を平らに保つこと。それが仕事のすべてだ。患者は勝手に来て、勝手に悪くなる。往復する順路は夜を廊下で使い切る。このゲームで人は死なない。唯一の悪い結末は転院だ。",
+    "es": "Ocho horas. Dos enfermeras. Ocho camas. Night Shift es un juego de planta hospitalaria sobre el control indirecto. Nunca tocas a un paciente. Pulsa las camas en el orden en que quieres que se vean y luego pulsa una enfermera: ella recorre esa ruta y hace lo necesario en cada una. Después observas y decides la siguiente ruta. De las diez de la noche a las seis de la mañana, en unos tres minutos. Aquí nadie mejora. Lo mejor que puede hacer una noche es mantener la planta estable hasta la mañana, y mantenerla es todo el trabajo. La gente llega a su ritmo y empeora a su propio reloj. Nadie muere en este juego: el único mal desenlace es un traslado.",
+    "pt-BR": "Oito horas. Duas enfermeiras. Oito leitos. Night Shift é um jogo de ala hospitalar sobre controle indireto. Você nunca toca num paciente. Toque nos leitos na ordem em que quer que sejam atendidos e depois toque numa enfermeira: ela percorre esse trajeto e faz o necessário em cada um. Depois você observa e decide o próximo trajeto. Das dez da noite às seis da manhã, em cerca de três minutos. Aqui ninguém melhora. O melhor que uma noite consegue é manter a ala estável até de manhã, e manter é o trabalho inteiro. As pessoas chegam no próprio horário e pioram no próprio relógio. Ninguém morre neste jogo: o único desfecho ruim é uma transferência."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.nightshift",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/night-shift/01.jpg",
+    "shots/night-shift/02.jpg",
+    "shots/night-shift/03.jpg",
+    "shots/night-shift/04.jpg",
+    "shots/night-shift/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "rap-sheet",
+   "boardName": "Rap Sheet",
+   "shippingName": "Rap Sheet: Crime Life Sim",
+   "sourceDir": "D:/Crystl/rapsheet",
+   "tier": "Flagship",
+   "platform": "Android",
+   "name": {
+    "en": "Rap Sheet",
+    "ko": "전과 기록",
+    "ja": "ラップシート",
+    "es": "Rap Sheet",
+    "pt-BR": "Rap Sheet"
+   },
+   "tagline": {
+    "en": "A life simulator in text. One life, start to finish, every choice on it a crime.",
+    "ko": "텍스트 인생 시뮬레이션. 한 사람의 일생, 그 안의 모든 선택이 범죄다.",
+    "ja": "テキストの人生シミュレーター。一人の生涯、その選択のすべてが犯罪だ。",
+    "es": "Un simulador de vida en texto. Una vida entera y cada decisión en ella es un delito.",
+    "pt-BR": "Um simulador de vida em texto. Uma vida inteira, e cada escolha nela é um crime."
+   },
+   "desc": {
+    "en": "One life, start to finish, and every choice on it is a crime. This is a text life simulator. You are born, you age one year at a time, and the file gets longer until you die or the sentence outlasts you. Each year two to four things happen and you choose how you answer, then you act from a menu that grows as you do: a job, a hustle, a person, a crime. Everything you did that year rolls against the police, and the answer is nothing, a stop, a charge or a warrant. If you are charged there is a lawyer, a plea, a trial and a sentence. One run is thirty to fifty minutes. Heat is the clock, and heat is what ends the run.",
+    "ko": "한 사람의 일생. 그 안의 모든 선택이 범죄다. 글로 된 인생 시뮬레이션이다. 태어나고, 한 해씩 나이를 먹고, 죽거나 형기가 더 길어질 때까지 파일이 두꺼워진다. 한 해마다 두세 가지 일이 일어나고, 어떻게 답할지 고른다. 그다음에 움직인다. 일자리, 한탕, 사람, 그리고 범죄. 그해에 한 일이 전부 경찰과 맞붙는다. 아무 일도 없거나, 불심검문이거나, 입건이거나, 수배다. 입건되면 변호사, 형량 협상, 재판, 선고가 이어진다. 한 판은 30분에서 50분이다. 전과는 기록에 남아 남은 인생 내내 문을 하나씩 닫고, 수배 열기가 곧 시계다.",
+    "ja": "一人の生涯。そこにある選択のすべてが犯罪だ。これはテキストの人生シミュレーターである。生まれ、一年ずつ歳を取り、死ぬか刑期が自分より長くなるまでファイルは厚くなっていく。毎年二つから四つの出来事が起き、どう応じるかを選ぶ。それから動く。仕事、シノギ、人、そして犯罪。その年にやったことがすべて警察と突き合わされ、結果は何もなしか、職質か、立件か、指名手配だ。立件されれば弁護士、司法取引、裁判、判決が続く。一周は三十分から五十分。前科は記録に残り、残りの人生の扉を一つずつ閉じていく。手配の熱こそが時計だ。",
+    "es": "Una vida entera, de principio a fin, y cada decisión en ella es un delito. Este es un simulador de vida en texto. Naces, envejeces un año cada vez y el expediente se alarga hasta que mueres o la condena te sobrevive. Cada año ocurren de dos a cuatro cosas y eliges cómo respondes, y luego actúas desde un menú que crece contigo: un trabajo, un negocio, una persona, un delito. Todo lo que hiciste ese año se juega contra la policía, y la respuesta es nada, un control, una imputación o una orden de busca. Si te imputan hay abogado, acuerdo, juicio y condena. Una partida dura de treinta a cincuenta minutos. El calor es el reloj.",
+    "pt-BR": "Uma vida inteira, do começo ao fim, e cada escolha nela é um crime. Este é um simulador de vida em texto. Você nasce, envelhece um ano por vez e a ficha vai engrossando até você morrer ou a pena durar mais que você. A cada ano acontecem de duas a quatro coisas e você escolhe como responde, e então age a partir de um menu que cresce junto: um emprego, um corre, uma pessoa, um crime. Tudo o que você fez naquele ano é confrontado com a polícia, e o resultado é nada, uma abordagem, uma acusação ou um mandado. Se for acusado, vem advogado, acordo, julgamento e pena. Uma run dura de trinta a cinquenta minutos."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.rapsheet",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/rap-sheet/01.jpg",
+    "shots/rap-sheet/02.jpg",
+    "shots/rap-sheet/03.jpg",
+    "shots/rap-sheet/04.jpg",
+    "shots/rap-sheet/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "reading-room",
+   "boardName": "Reading Room",
+   "shippingName": "Reading Room: Tarot Shop Sim",
+   "sourceDir": "D:/Crystl/readingroom",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Reading Room",
+    "ko": "타로 가게",
+    "ja": "リーディングルーム",
+    "es": "Reading Room",
+    "pt-BR": "Reading Room"
+   },
+   "tagline": {
+    "en": "Somebody sits down, says one thing, hides another. You decide what it means.",
+    "ko": "카드 석 장, 낯선 사람 한 명. 판단은 당신 몫이고, 값은 손님이 정합니다.",
+    "ja": "客が座り、一つ話し、一つ隠す。意味を決めるのはあなただ。",
+    "es": "Alguien se sienta, dice una cosa y esconde otra. Tú decides qué significa.",
+    "pt-BR": "Alguém senta, diz uma coisa e esconde outra. Você decide o que significa."
+   },
+   "desc": {
+    "en": "Nobody here can see the future, including you. Somebody sits down. They tell you one thing about themselves and hide a second one. Three cards go down. You decide, out loud, what they mean, and they pay whatever they thought it was worth. Reading Room is a tarot shop game about listening. Four clients a day, about thirty-five seconds each. No grid, no clock inside a reading, nothing to tap quickly. The only pressure in the room is the person across the table. What they want is in the first thing they say. Every card offers more than one reading, so turn it and pick the tone: kind, blunt, or the interesting one. You never see a face, only a silhouette and a pair of hands.",
+    "ko": "여기엔 미래를 보는 사람이 없습니다. 당신도 아닙니다. 손님이 앉습니다. 자기 이야기 하나를 꺼내고, 하나는 숨깁니다. 카드 석 장을 내려놓고, 당신이 소리 내어 뜻을 정합니다. 손님은 그만한 값이라고 생각한 만큼 놓고 갑니다. 타로 가게는 듣는 게임입니다. 하루에 손님 네 명, 한 명에 35초쯤. 격자도, 읽는 동안 가는 시계도, 빨리 눌러야 하는 것도 없습니다. 이 방의 압박은 맞은편에 앉은 사람뿐입니다. 원하는 것은 첫마디에 들어 있습니다. 카드 한 장에 읽는 방법이 여럿이라, 카드를 넘기고 어조를 고릅니다. 부드럽게, 단호하게, 아니면 재미있는 쪽으로. 얼굴은 끝까지 보이지 않고 실루엣과 두 손뿐입니다.",
+    "ja": "ここには未来が見える者はいない。あなたも含めて。客が座る。自分のことを一つ話し、もう一つは隠す。カードが三枚置かれる。その意味を、あなたが声に出して決める。客は自分がそれだけの価値だと思った額を置いて帰る。リーディングルームは「聞くこと」のゲームだ。一日に客は四人、一人あたり三十五秒ほど。グリッドも、鑑定中に進む時計も、素早く押すものもない。この部屋の圧力は、向かいに座る人間だけだ。求めているものは最初の一言に入っている。カード一枚に読み方は複数あり、めくってから語調を選ぶ。やさしく、はっきりと、あるいは面白いほうへ。顔は最後まで見えず、シルエットと両手だけだ。",
+    "es": "Aquí nadie puede ver el futuro, tú tampoco. Alguien se sienta. Te cuenta una cosa sobre sí mismo y esconde una segunda. Caen tres cartas. Tú decides, en voz alta, qué significan, y paga lo que le haya parecido que valía. Reading Room es un juego de tienda de tarot sobre escuchar. Cuatro clientes al día, unos treinta y cinco segundos cada uno. Sin cuadrícula, sin reloj dentro de una lectura, nada que pulsar deprisa. La única presión de la sala es la persona al otro lado de la mesa. Lo que quiere está en lo primero que dice. Cada carta admite más de una lectura: gírala y elige el tono. Nunca ves una cara, solo una silueta y unas manos.",
+    "pt-BR": "Aqui ninguém enxerga o futuro, você inclusive. Alguém senta. Conta uma coisa sobre si e esconde uma segunda. Três cartas descem. Você decide, em voz alta, o que elas significam, e a pessoa paga o quanto achou que valia. Reading Room é um jogo de loja de tarô sobre escutar. Quatro clientes por dia, cerca de trinta e cinco segundos cada. Sem grade, sem relógio dentro de uma leitura, nada para tocar rápido. A única pressão na sala é a pessoa do outro lado da mesa. O que ela quer está na primeira coisa que diz. Cada carta admite mais de uma leitura: vire e escolha o tom. Você nunca vê um rosto, só uma silhueta e um par de mãos."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.readingroom",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/reading-room/01.jpg",
+    "shots/reading-room/02.jpg",
+    "shots/reading-room/03.jpg",
+    "shots/reading-room/04.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "route",
+   "boardName": "Route",
+   "shippingName": "Route: Vending Machine Round",
+   "sourceDir": "D:/Crystl/route",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Route",
+    "ko": "루트",
+    "ja": "ルート",
+    "es": "Route",
+    "pt-BR": "Route"
+   },
+   "tagline": {
+    "en": "Six machines, one van, one day. Restock the round and set a price.",
+    "ko": "자판기 여섯 대, 트럭 한 대, 하루. 채우고, 값을 매기고, 결과는 내일 안다.",
+    "ja": "自販機六台、バン一台、一日。補充して、値段を決める。",
+    "es": "Seis máquinas, una furgoneta, un día. Repón la ruta y pon un precio.",
+    "pt-BR": "Seis máquinas, uma van, um dia. Reabasteça a rota e defina o preço."
+   },
+   "desc": {
+    "en": "Six vending machines. One van. One day. You drive the round, see what sold since you were last there, restock out of the back, and set one price at every stop. Load the van once, because it will not hold enough for everything. Nothing you decide today is settled today: the price you set at a machine is what it pays out the next time you stand in front of it. Six stops is about three minutes, and the last one is midnight. Six streets that want different things, a roof lot that is nearly dead until it is hot out, weather that moves all of it, and every pitch charging rent whether you stocked it or not. It is not idle. Nothing earns while you are away.",
+    "ko": "자판기 여섯 대. 트럭 한 대. 하루. 지난번 이후로 뭐가 팔렸는지 보고, 트럭 짐칸에서 채워 넣고, 정차마다 값을 하나 매깁니다. 트럭은 아침에 한 번만 싣고, 전부를 채울 만큼 들어가지 않습니다. 오늘 정한 것은 오늘 정산되지 않습니다. 자판기에 매긴 값은 다음에 그 앞에 다시 설 때 돈이 되어 돌아옵니다. 한 판은 여섯 군데, 약 3분이고 마지막 정차는 자정입니다. 거리마다 원하는 것이 다릅니다. 사거리는 따뜻한 커피가, 오락실 거리는 차가운 탄산이 나갑니다. 날씨가 전부를 움직이고, 자리세는 채웠든 안 채웠든 매일 나갑니다. 방치형이 아닙니다. 자리를 비운 동안 버는 것은 없습니다.",
+    "ja": "自販機六台。バン一台。一日。前回からの売れ行きを見て、荷台から補充し、各停車地で値段を一つ決める。積み込みは朝の一回だけで、全部を満たすほどは載らない。今日決めたことは今日精算されない。ある機械に付けた値段は、次にその前に立ったときに金になって返ってくる。六か所で約三分、最後の停車は真夜中だ。通りごとに求めるものが違う。交差点は通勤客と温かいコーヒー、ゲームセンター前は若者と冷えた炭酸。天候がすべてを動かし、場所代は補充してもしなくても毎日出ていく。放置ゲームではない。離れている間に稼ぐものは何もない。",
+    "es": "Seis máquinas expendedoras. Una furgoneta. Un día. Haces la ruta, ves qué se ha vendido desde la última vez, repones desde atrás y fijas un precio en cada parada. Cargas la furgoneta una sola vez, porque no cabe todo. Nada de lo que decides hoy se liquida hoy: el precio que pones en una máquina es lo que paga la próxima vez que te plantas delante. Seis paradas son unos tres minutos, y la última es medianoche. Seis calles que quieren cosas distintas, un parking en azotea casi muerto hasta que aprieta el calor, un clima que lo mueve todo y cada emplazamiento cobrando alquiler la repongas o no. No es idle: nada gana mientras no estás.",
+    "pt-BR": "Seis máquinas de venda. Uma van. Um dia. Você faz a rota, vê o que vendeu desde a última vez, reabastece pelo bagageiro e define um preço em cada parada. Carrega a van uma única vez, porque não cabe tudo. Nada do que você decide hoje é liquidado hoje: o preço que você põe numa máquina é o que ela paga na próxima vez que você parar na frente dela. Seis paradas dão cerca de três minutos, e a última é meia-noite. Seis ruas que querem coisas diferentes, um estacionamento de cobertura quase morto até o calor apertar, o clima mexendo em tudo e cada ponto cobrando aluguel abastecido ou não. Não é idle: nada rende enquanto você está fora."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.route",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/route/01.jpg",
+    "shots/route/02.jpg",
+    "shots/route/03.jpg",
+    "shots/route/04.jpg",
+    "shots/route/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "scoop",
+   "boardName": "Scoop",
+   "shippingName": "Scoop: Ice Cream Rush",
+   "sourceDir": "D:/Crystl/scoop",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Scoop",
+    "ko": "스쿱",
+    "ja": "スクープ",
+    "es": "Scoop",
+    "pt-BR": "Scoop"
+   },
+   "tagline": {
+    "en": "An ice cream shop on the beat. One rush, one queue, one ridiculous tower.",
+    "ko": "한 타임은 3분. 박자에 맞춰 콘을 쌓고, 줄이 밀리지 않게 하세요.",
+    "ja": "ビートに合わせるアイス屋。一ラッシュ、一列、ばかげた塔が一本。",
+    "es": "Una heladería a compás. Una hora punta, una cola y una torre ridícula.",
+    "pt-BR": "Uma sorveteria no compasso. Um corre, uma fila e uma torre ridícula."
+   },
+   "desc": {
+    "en": "Serve ice cream to the beat. One shift is three minutes long. Orders arrive on the beat, the tempo climbs from 92 to 148 BPM while you work, and every cone you hand over on the beat pays more than one you fumble out half a second late. It is a cooking rush with a metronome in it. Build in order: cone first, then the scoops, then the topping. Wrong thing, wrong order, and that cone goes in the bin. Every scoop you serve stacks onto one cone at the edge of the counter, growing and leaning all rush. Portrait, one hand, no tutorial to sit through. Twelve flavours, and each one changes which customers are worth chasing.",
+    "ko": "박자에 맞춰 아이스크림을 파는 가게입니다. 한 타임은 3분입니다. 주문은 박자에 맞춰 들어오고, 템포는 92에서 148 BPM까지 계속 빨라집니다. 박자에 맞춰 건넨 콘은 반 박자 늦게 건넨 콘보다 더 받습니다. 메트로놈이 들어 있는 시간 관리 게임입니다. 순서대로 쌓으세요. 콘 먼저, 그다음 스쿱, 마지막에 토핑. 틀린 걸 올리거나 순서가 틀리면 그 콘은 그대로 버립니다. 건넨 스쿱은 전부 카운터 끝의 콘 하나에 쌓여 한 타임 내내 자라고 기울어집니다. 세로 화면, 한 손, 붙잡고 설명하는 튜토리얼 없음. 맛은 열두 가지이고, 무엇을 사느냐에 따라 쫓을 손님이 달라집니다.",
+    "ja": "ビートに合わせてアイスを売る店だ。一シフトは三分。注文は拍に乗って届き、テンポは作業中に92から148BPMまで上がっていく。拍に合わせて渡したコーンは、半拍遅れてもたついたコーンより多く払われる。メトロノーム入りのタイムマネジメントゲームだ。順番に積むこと。コーンが先、次にスクープ、最後にトッピング。違うものや違う順序なら、そのコーンはそのままゴミ箱行きだ。渡したスクープはすべてカウンター端の一本のコーンに積み上がり、ラッシュの間ずっと伸びて傾いていく。縦画面、片手、長いチュートリアルなし。フレーバーは十二種類で、どれを仕入れるかで狙うべき客が変わる。",
+    "es": "Sirve helados a compás. Un turno dura tres minutos. Los pedidos llegan a tiempo, el tempo sube de 92 a 148 BPM mientras trabajas, y cada cucurucho que entregas en el pulso paga más que uno que sacas medio segundo tarde. Es una hora punta de cocina con un metrónomo dentro. Monta en orden: primero el cono, luego las bolas, luego el topping. Cosa equivocada u orden equivocado y ese cucurucho va a la basura. Cada bola que sirves se apila en un único cono al borde del mostrador, que crece y se inclina durante todo el turno. Vertical, una mano, sin tutorial que aguantar. Doce sabores, y cada uno cambia a qué clientes conviene perseguir.",
+    "pt-BR": "Sirva sorvete no compasso. Um turno dura três minutos. Os pedidos chegam na batida, o andamento sobe de 92 para 148 BPM enquanto você trabalha, e cada casquinha entregue no tempo paga mais que uma entregue meio segundo atrasada. É um corre de cozinha com um metrônomo dentro. Monte na ordem: casquinha primeiro, depois as bolas, depois a cobertura. Coisa errada ou ordem errada e a casquinha vai para o lixo. Cada bola servida se empilha numa única casquinha na ponta do balcão, que cresce e inclina o turno inteiro. Retrato, uma mão, sem tutorial para aguentar. Doze sabores, e cada um muda quais clientes vale a pena perseguir."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.scoop",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/scoop/01.jpg",
+    "shots/scoop/02.jpg",
+    "shots/scoop/03.jpg",
+    "shots/scoop/04.jpg",
+    "shots/scoop/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "slumlord",
+   "boardName": "Slumlord",
+   "shippingName": "Slumlord: Landlord Empire",
+   "sourceDir": "D:/Crystl/slumlord",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Slumlord",
+    "ko": "건물주",
+    "ja": "スラムロード",
+    "es": "Slumlord",
+    "pt-BR": "Slumlord"
+   },
+   "tagline": {
+    "en": "Buy the worst flats in town. Fix what you feel like. Hope nobody notices.",
+    "ko": "동네에서 제일 낡은 건물을 삽니다. 고칠 건 골라서 고칩니다.",
+    "ja": "町で一番ひどい物件を買う。直すのは気が向いたものだけ。",
+    "es": "Compra los peores pisos del barrio. Arregla lo que te apetezca. Ojalá nadie note.",
+    "pt-BR": "Compre os piores apês da cidade. Conserte o que der na telha. Torça para ninguém notar."
+   },
+   "desc": {
+    "en": "You own twelve flats on Bellweather Row. The roof leaks, the boiler is older than one of your tenants, and the rent lands on the first of every month whatever you do about it. Slumlord is a landlord simulator about the gap between what a building needs and what you feel like paying for. Every month people write to you: the lift-off paint, the window that opens four inches, the smoke alarm that came away in someone's hand. Three buttons: fix it, stall it, or refuse it. Fixing costs money now, stalling costs nothing and costs you later, refusing leaves the hole exactly where it was. Fifteen years, one month at a time, no timers. The council is a real opponent.",
+    "ko": "당신 소유의 낡은 아파트, 열두 세대. 지붕에서는 물이 새고, 보일러는 세입자보다 나이가 많습니다. 그래도 월세는 매달 1일에 들어옵니다. 당신이 뭘 하든 말든. 건물주는 건물에 필요한 돈과 당신이 쓰고 싶은 돈 사이의 간격을 다루는 임대 시뮬레이션입니다. 매달 사람들이 연락을 합니다. 벗겨진 페인트. 10센티만 열리고 멈추는 창문. 손에 그대로 떨어져 나온 화재감지기. 버튼은 세 개입니다. 고친다, 미룬다, 거절한다. 고치면 지금 돈이 나가고, 미루면 지금은 공짜지만 나중에 비싸고, 거절하면 구멍은 그대로 남습니다. 15년을 한 달씩. 타이머는 없고, 구청은 진짜 상대입니다.",
+    "ja": "ベルウェザー通りに十二戸の古いアパートを持っている。屋根は雨漏りし、ボイラーは入居者の一人より年上で、それでも家賃は毎月一日に入ってくる。あなたが何をしようとしまいと。スラムロードは、建物が必要とする金と、あなたが払う気のある金との差を扱う賃貸経営シミュレーターだ。毎月、住人から連絡が来る。剥がれた塗装。十センチしか開かない窓。手の中で外れた火災報知器。ボタンは三つ。直す、先延ばす、断る。直せば今金が出て、先延ばせば今はただで後が高く、断れば穴はそのまま残る。十五年を一か月ずつ。タイマーはなく、役所は本物の敵だ。",
+    "es": "Tienes doce pisos en Bellweather Row. El tejado gotea, la caldera es más vieja que uno de tus inquilinos y el alquiler entra el día uno de cada mes hagas lo que hagas. Slumlord es un simulador de casero sobre la distancia entre lo que un edificio necesita y lo que a ti te apetece pagar. Cada mes la gente te escribe: la pintura que se despega, la ventana que abre diez centímetros, el detector de humo que se quedó en la mano de alguien. Tres botones: arreglarlo, darle largas o negarte. Arreglar cuesta dinero ahora, dar largas no cuesta nada y te cuesta después, negarte deja el agujero donde estaba. Quince años, mes a mes. El ayuntamiento es un rival real.",
+    "pt-BR": "Você tem doze apartamentos na Bellweather Row. O telhado vaza, a caldeira é mais velha que um dos inquilinos, e o aluguel cai no dia primeiro de todo mês faça você o que fizer. Slumlord é um simulador de locador sobre a distância entre o que um prédio precisa e o que você tem vontade de pagar. Todo mês as pessoas escrevem: a tinta que descasca, a janela que abre dez centímetros, o detector de fumaça que soltou na mão de alguém. Três botões: consertar, enrolar ou recusar. Consertar custa dinheiro agora, enrolar não custa nada e custa depois, recusar deixa o buraco exatamente onde estava. Quinze anos, um mês por vez. A prefeitura é um adversário de verdade."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.slumlord",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/slumlord/01.jpg",
+    "shots/slumlord/02.jpg",
+    "shots/slumlord/03.jpg",
+    "shots/slumlord/04.jpg",
+    "shots/slumlord/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "supply-run",
+   "boardName": "Supply Run",
+   "shippingName": "Supply Run: Loot the House",
+   "sourceDir": "D:/Crystl/supplyrun",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Supply Run",
+    "ko": "서플라이 런",
+    "ja": "サプライ・ラン",
+    "es": "Supply Run",
+    "pt-BR": "Supply Run"
+   },
+   "tagline": {
+    "en": "One bag, a meter that only goes up, and a door you can take at any time.",
+    "ko": "가방 하나, 올라가기만 하는 소음. 나갈 때는 당신이 정합니다. 한 판 3분.",
+    "ja": "鞄ひとつ、上がる一方のメーター、いつでも出られるドア。",
+    "es": "Una bolsa, un medidor que solo sube y una puerta que puedes tomar cuando quieras.",
+    "pt-BR": "Uma bolsa, um medidor que só sobe e uma porta que você pode usar a qualquer hora."
+   },
+   "desc": {
+    "en": "One house. One bag. A noise meter that only ever goes up. Supply Run is a scavenging game about knowing when to leave. Three houses on offer, each with a size, a risk and a rumour from whoever was in last. Pick one, go in, and carry out what you can before the house hears you. Two or three minutes, door to door. Tap anything with a drawer, a door or a lid, and every one you open is heard. The bag holds weight, not things, so a heavy item is two light ones you are not carrying. Get out with the bag and it is yours. Fill the meter first and you lose the bag. The nearer the meter is to full, the quieter it gets.",
+    "ko": "집 한 채. 가방 하나. 올라가기만 하는 소음 막대. 서플라이 런은 언제 나갈지를 정하는 게임입니다. 집 세 채가 나옵니다. 크기도, 위험도, 먼저 다녀간 사람의 소문도 다릅니다. 하나 골라 들어가서, 집이 알아채기 전에 챙길 만큼 챙겨 나옵니다. 들어가서 나오기까지 2~3분. 서랍, 문, 뚜껑이 달린 것은 다 열어 볼 수 있고, 열 때마다 소리가 납니다. 가방은 개수가 아니라 무게입니다. 무거운 물건 하나는, 들지 않기로 한 가벼운 물건 둘입니다. 가방째 나오면 다 가지고, 소리가 먼저 차면 가방을 잃습니다. 소음이 찰수록 소리는 오히려 조용해집니다.",
+    "ja": "家が一軒。鞄が一つ。上がる一方の騒音メーター。サプライ・ランは「いつ引き上げるか」を決めるゲームだ。候補の家は三軒。広さも危険度も、先に入った誰かの噂も違う。一軒選んで入り、家に気づかれる前に運べるだけ運び出す。入って出るまで二、三分。引き出し、扉、蓋のあるものは全部開けられるが、開けるたびに音が出る。鞄は個数ではなく重さで決まる。重い物ひとつは、持たないと決めた軽い物二つだ。鞄ごと出られればすべて自分のもの。先にメーターが満ちれば鞄を失う。メーターが満ちるほど、音はむしろ静かになっていく。",
+    "es": "Una casa. Una bolsa. Un medidor de ruido que solo sube. Supply Run es un juego de saqueo sobre saber cuándo marcharse. Tres casas en oferta, cada una con su tamaño, su riesgo y un rumor de quien entró la última vez. Elige una, entra y saca lo que puedas antes de que la casa te oiga. Dos o tres minutos, de puerta a puerta. Toca cualquier cosa con cajón, puerta o tapa: cada una que abres se oye. La bolsa aguanta peso, no objetos, así que una cosa pesada son dos ligeras que no llevas. Sal con la bolsa y es tuya. Llena el medidor antes y pierdes la bolsa. Cuanto más lleno está el medidor, más silencio hay.",
+    "pt-BR": "Uma casa. Uma bolsa. Um medidor de ruído que só sobe. Supply Run é um jogo de saque sobre saber a hora de sair. Três casas na oferta, cada uma com tamanho, risco e um boato de quem entrou por último. Escolha uma, entre e leve o que der antes de a casa te ouvir. Dois ou três minutos, da porta à porta. Toque em qualquer coisa com gaveta, porta ou tampa: cada uma que você abre é ouvida. A bolsa aguenta peso, não itens, então uma coisa pesada são duas leves que você não está levando. Saia com a bolsa e ela é sua. Encha o medidor antes e você perde a bolsa. Quanto mais cheio o medidor, mais silencioso fica."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.supplyrun",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/supply-run/01.jpg",
+    "shots/supply-run/02.jpg",
+    "shots/supply-run/03.jpg",
+    "shots/supply-run/04.jpg",
+    "shots/supply-run/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "the-fence",
+   "boardName": "The Fence",
+   "shippingName": "The Fence: Pawn Shop Tycoon",
+   "sourceDir": "D:/Crystl/fence",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "The Fence",
+    "ko": "더 펜스",
+    "ja": "ザ・フェンス",
+    "es": "The Fence",
+    "pt-BR": "The Fence"
+   },
+   "tagline": {
+    "en": "Half your stock is stolen. The trick is knowing which half, and who is asking.",
+    "ko": "재고의 절반은 장물입니다. 어느 절반인지, 그리고 누가 묻고 있는지가 관건입니다.",
+    "ja": "在庫の半分は盗品だ。問題はどちらの半分か、そして誰が訊きに来たかだ。",
+    "es": "La mitad de tu género es robado. La gracia es saber qué mitad y quién pregunta.",
+    "pt-BR": "Metade do seu estoque é roubada. A questão é saber qual metade e quem está perguntando."
+   },
+   "desc": {
+    "en": "You run a pawn shop. People come to your counter with things they want to turn into money, and a story about where those things came from. Some of the stories are true. The best margins are on the items you should not have taken. A career runs four years, one day at a time, in forty to sixty minutes. Each day somebody puts an object on your counter and you get a look at it, a look at them, and a price to argue over. Buy it or pass, put it in the window or the back room, and find out on the day a police officer walks in with a property list. Appraise by eye first, then with tools you buy. Nervous is not the same as lying.",
+    "ko": "전당포를 운영합니다. 사람들이 돈으로 바꾸고 싶은 물건과, 그 물건이 어디서 왔는지에 대한 이야기를 들고 카운터로 옵니다. 그중 몇 개는 사실입니다. 마진이 제일 좋은 물건은 받지 말았어야 할 물건입니다. 한 커리어는 4년이고 하루씩 진행되며, 40분에서 60분이 걸립니다. 매일 누군가가 카운터에 물건을 올려놓고, 당신은 물건을 보고, 사람을 보고, 값을 두고 다툽니다. 사거나 넘기고, 진열장에 둘지 뒷방에 둘지 정하고, 경찰이 도난품 목록을 들고 들어오는 날에 답을 확인합니다. 처음엔 눈으로, 나중엔 사서 갖춘 도구로 감정합니다. 긴장한 것과 거짓말하는 것은 다릅니다.",
+    "ja": "質屋を営んでいる。人々は金に換えたい品と、その品がどこから来たかという話を持ってカウンターに来る。その話のいくつかは本当だ。一番利幅が大きいのは、引き取るべきでなかった品である。キャリアは四年、一日ずつ進み、通しで四十分から六十分。毎日誰かがカウンターに品を置き、あなたは品を見て、人を見て、値段で押し合う。買うか見送るか、ショーケースに出すか奥の部屋に回すかを決め、警官が盗品リストを持って入ってきた日に答え合わせをする。最初は目で、やがて買い揃えた道具で鑑定する。緊張していることと、嘘をついていることは別だ。",
+    "es": "Regentas una casa de empeños. La gente llega a tu mostrador con cosas que quiere convertir en dinero y una historia sobre de dónde salieron. Algunas historias son ciertas. Los mejores márgenes están en los artículos que no deberías haber aceptado. Una carrera dura cuatro años, un día cada vez, en cuarenta a sesenta minutos. Cada día alguien pone un objeto en tu mostrador y tú lo miras a él, miras el objeto y discutes un precio. Cómpralo o pásalo, ponlo en el escaparate o en la trastienda, y descúbrelo el día que entra un policía con una lista de objetos denunciados. Tasas primero a ojo y luego con herramientas que compras. Estar nervioso no es lo mismo que mentir.",
+    "pt-BR": "Você toca uma casa de penhores. As pessoas chegam ao seu balcão com coisas que querem transformar em dinheiro e uma história sobre de onde elas vieram. Algumas histórias são verdadeiras. As melhores margens estão nos itens que você não deveria ter aceitado. Uma carreira dura quatro anos, um dia por vez, em quarenta a sessenta minutos. Todo dia alguém põe um objeto no seu balcão e você olha o objeto, olha a pessoa e discute um preço. Compre ou passe, ponha na vitrine ou nos fundos, e descubra no dia em que um policial entra com uma lista de itens roubados. Avalie primeiro a olho e depois com ferramentas que você compra. Nervoso não é o mesmo que mentindo."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.fence",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/the-fence/01.jpg",
+    "shots/the-fence/02.jpg",
+    "shots/the-fence/03.jpg",
+    "shots/the-fence/04.jpg",
+    "shots/the-fence/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "the-house",
+   "boardName": "The House",
+   "shippingName": "The House: Casino Tycoon",
+   "sourceDir": "D:/Crystl/thehouse",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "The House",
+    "ko": "더 하우스",
+    "ja": "ザ・ハウス",
+    "es": "The House",
+    "pt-BR": "The House"
+   },
+   "tagline": {
+    "en": "The house always wins. You decide by how much, and who notices.",
+    "ko": "하우스는 언제나 이깁니다. 얼마나 이길지, 누가 눈치챌지는 당신이 정합니다.",
+    "ja": "胴元は必ず勝つ。どれだけ勝つか、誰が気づくかを決めるのはあなただ。",
+    "es": "La banca siempre gana. Tú decides por cuánto y quién se da cuenta.",
+    "pt-BR": "A banca sempre ganha. Você decide por quanto e quem percebe."
+   },
+   "desc": {
+    "en": "You run the floor. Tables, machines, staff, comps and the payout percentage are all dials, and every one of them is visible to somebody. Set the floor before the doors open. Then the night runs and it does not pause. Tourists lose. Grinders grind. Whales swing hard. Counters take you apart if nobody is watching. Security calls come in while you are still reading the last one. Money comes off the floor and then it has to be explained: clean money goes to the bank, the rest goes through the books, the restaurant, or a friend. The gaming commission audits payouts, staff records and cash flow, and the bigger you get the harder they look. Three years, forty to sixty minutes.",
+    "ko": "당신이 플로어를 운영합니다. 테이블, 머신, 직원, 서비스, 지급률까지 전부 손잡이이고, 그 하나하나를 누군가는 보고 있습니다. 문을 열기 전에 플로어를 세팅합니다. 그다음 밤이 시작되면 멈추지 않습니다. 관광객은 잃고, 상주 도박꾼은 갈고, 큰손은 크게 흔들고, 카운터는 아무도 안 볼 때 당신을 뜯어냅니다. 보안 호출은 앞의 것을 읽는 중에도 계속 들어옵니다. 플로어에서 나온 돈은 설명되어야 합니다. 깨끗한 돈은 은행으로, 나머지는 장부나 식당이나 아는 사람을 거칩니다. 감독위원회는 지급률과 인사 기록과 현금 흐름을 감사하고, 규모가 커질수록 더 깐깐하게 봅니다. 3년, 40~60분.",
+    "ja": "フロアを仕切るのはあなただ。テーブル、マシン、スタッフ、コンプ、そして払戻率まですべてがつまみであり、そのどれもが誰かの目に映っている。開店前にフロアを設定する。そして夜が始まれば、止まらない。観光客は負け、常連は削り、大口は大きく振れ、カウンターは誰も見ていなければあなたを解体する。警備の呼び出しは、前の一件を読み終える前に次が来る。フロアから上がった金は、そのあと説明されなければならない。きれいな金は銀行へ、残りは帳簿かレストランか知り合いを通る。監督委員会は払戻率と人事記録と資金の流れを監査し、規模が大きくなるほど厳しく見る。三年、四十〜六十分。",
+    "es": "Diriges el salón. Mesas, máquinas, personal, invitaciones y el porcentaje de pago son mandos, y cada uno de ellos lo ve alguien. Configura el salón antes de abrir. Luego la noche corre y no se detiene. Los turistas pierden. Los habituales raspan. Los ballenas mueven fuerte. Los contadores te desmontan si nadie mira. Los avisos de seguridad entran mientras aún lees el anterior. El dinero sale del salón y luego hay que explicarlo: el limpio va al banco, el resto pasa por los libros, el restaurante o un amigo. La comisión del juego audita pagos, personal y flujo de caja, y cuanto más creces, más de cerca miran. Tres años, cuarenta a sesenta minutos.",
+    "pt-BR": "Você comanda o salão. Mesas, máquinas, equipe, cortesias e o percentual de pagamento são todos botões, e cada um deles é visível para alguém. Configure o salão antes de abrir as portas. Depois a noite corre e não pausa. Turistas perdem. Frequentadores raspam. Baleias apostam alto. Contadores te desmontam se ninguém estiver olhando. Os chamados da segurança chegam enquanto você ainda lê o anterior. O dinheiro sai do salão e depois precisa ser explicado: o limpo vai para o banco, o resto passa pelos livros, pelo restaurante ou por um amigo. A comissão de jogos audita pagamentos, registros e fluxo de caixa, e quanto maior você fica, mais de perto eles olham."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.thehouse",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/the-house/01.jpg",
+    "shots/the-house/02.jpg",
+    "shots/the-house/03.jpg",
+    "shots/the-house/04.jpg",
+    "shots/the-house/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "the-yard",
+   "boardName": "The Yard",
+   "shippingName": "The Yard: Prison Fight RPG",
+   "sourceDir": "D:/Crystl/theyard",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "The Yard",
+    "ko": "더 야드",
+    "ja": "ザ・ヤード",
+    "es": "The Yard",
+    "pt-BR": "The Yard"
+   },
+   "tagline": {
+    "en": "Survive the sentence, fight smart, earn parole, or risk a prison-yard escape.",
+    "ko": "형기를 버티고, 영리하게 싸우고, 가석방을 받거나, 탈옥에 전부를 겁니다.",
+    "ja": "刑期を生き延び、賢く戦い、仮釈放を勝ち取るか、脱走に賭けるか。",
+    "es": "Sobrevive la condena, pelea con cabeza, gana la condicional o arriésgate a fugarte.",
+    "pt-BR": "Sobreviva à pena, lute com cabeça, ganhe a condicional ou arrisque uma fuga."
+   },
+   "desc": {
+    "en": "Thirty days on the board. Three choices each day. One way out, if you can find it. The Yard is a gritty prison survival RPG built around hard daily decisions. Work details earn cigarettes and parole favor but drain your energy. Keeping your head down restores health and lowers suspicion. Building support opens a dangerous shortcut, while a clean record can bring freedom closer at a hearing. When a yard fight starts, brute force is not enough: read your rival's stance, guard the wide right, jab while they circle, and attack the body when their hands rise. Spend carefully at the commissary. Suspicion changes the odds, and failure adds days to the sentence.",
+    "ko": "판에 서른 날. 하루에 세 번의 선택. 나가는 길은 하나, 찾을 수 있다면. 더 야드는 매일의 힘든 결정을 중심으로 만든 거친 교도소 생존 RPG입니다. 작업은 담배와 가석방 점수를 벌지만 체력을 깎습니다. 조용히 지내면 체력이 회복되고 의심이 줄어듭니다. 사람을 모으면 위험한 지름길이 열리고, 기록이 깨끗하면 심사에서 자유가 가까워집니다. 운동장에서 싸움이 시작되면 힘만으로는 안 됩니다. 상대의 자세를 읽고, 크게 도는 오른손을 막고, 상대가 돌 때 잽을 넣고, 손이 올라가면 몸통을 치세요. 매점에서는 신중하게 쓰세요. 의심은 확률을 바꾸고, 실패는 형기를 늘립니다.",
+    "ja": "盤上に三十日。一日に三つの選択。出口は一つ、見つけられればの話だ。ザ・ヤードは、日々の重い決断を軸に作られた硬派な刑務所サバイバルRPGである。作業はタバコと仮釈放の心証を稼ぐが、体力を削る。目立たずにいれば体力が戻り、疑いが下がる。仲間を作れば危険な近道が開き、記録がきれいなら審査で自由が近づく。運動場で喧嘩が始まったら、力任せでは足りない。相手の構えを読み、大きく回る右をガードし、相手が回っている間にジャブを刺し、手が上がったらボディを狙う。売店では慎重に使うこと。疑いは確率を変え、失敗は刑期を延ばす。",
+    "es": "Treinta días en el tablero. Tres decisiones cada día. Una salida, si logras encontrarla. The Yard es un RPG de supervivencia carcelaria construido sobre decisiones diarias duras. Los destinos de trabajo dan cigarrillos y puntos para la condicional, pero agotan tu energía. Mantener la cabeza baja recupera salud y baja la sospecha. Ganar apoyos abre un atajo peligroso, mientras que un expediente limpio acerca la libertad en la vista. Cuando empieza una pelea en el patio, la fuerza bruta no basta: lee la guardia del rival, cubre la derecha abierta, mete el jab mientras rodea y ataca al cuerpo cuando suba las manos. Gasta con cuidado en el economato. La sospecha cambia las probabilidades.",
+    "pt-BR": "Trinta dias no tabuleiro. Três escolhas por dia. Uma saída, se você conseguir achar. The Yard é um RPG de sobrevivência na prisão construído em torno de decisões diárias difíceis. Os trabalhos rendem cigarros e pontos para a condicional, mas drenam sua energia. Ficar na sua recupera saúde e baixa a suspeita. Formar apoio abre um atalho perigoso, enquanto uma ficha limpa aproxima a liberdade na audiência. Quando começa uma briga no pátio, força bruta não basta: leia a guarda do rival, proteja a direita aberta, jogue o jab enquanto ele circula e ataque o corpo quando as mãos subirem. Gaste com cuidado na cantina. A suspeita muda as chances e o fracasso soma dias à pena."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.theyard",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/the-yard/01.jpg",
+    "shots/the-yard/02.jpg",
+    "shots/the-yard/03.jpg",
+    "shots/the-yard/04.jpg",
+    "shots/the-yard/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "trace",
+   "boardName": "Trace",
+   "shippingName": "Trace: Crime Scene Cleaner",
+   "sourceDir": "D:/Crystl/trace",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Trace",
+    "ko": "트레이스",
+    "ja": "トレース",
+    "es": "Trace",
+    "pt-BR": "Trace"
+   },
+   "tagline": {
+    "en": "Crime scene cleaner, one room a night. Make it boring before six in the morning.",
+    "ko": "사건 현장 청소부. 하룻밤에 방 하나. 여섯 시 전에 아무 일 없던 방으로.",
+    "ja": "事件現場の清掃人。一晩に一部屋。朝六時までに、何もなかった部屋にする。",
+    "es": "Limpiador de escenas del crimen, una sala por noche. Hazla aburrida antes de las seis.",
+    "pt-BR": "Faxineiro de cena do crime, um cômodo por noite. Deixe sem graça antes das seis."
+   },
+   "desc": {
+    "en": "A client texts you an address and a deadline, and never says what happened. This is a crime scene cleaner game about one room a night. You have until six in the morning to make the room boring. The text arrives, the room comes up all at once, and you go through it. Six to twelve traces are in there at three tiers of visibility: a stain, a scuff, a smear, a burn, a shard, a footprint. The obvious ones are free. The rest are under, behind and inside things, so drag anything that will move and open anything with a lid. A room scores on boring, not clean. Leaving early with everything found pays more. Nothing is shown: no wound, no weapon, no body.",
+    "ko": "의뢰인이 주소와 시간을 문자로 보냅니다. 무슨 일이 있었는지는 말하지 않습니다. 사건 현장 청소부의 하룻밤, 방 하나짜리 게임입니다. 새벽 여섯 시까지 그 방을 아무 일 없던 방으로 만들면 됩니다. 문자가 오면 방이 한 번에 뜹니다. 흔적은 여섯에서 열두 개, 눈에 띄는 정도가 세 단계입니다. 얼룩, 긁힘, 번짐, 그을음, 파편, 발자국. 눈에 보이는 것은 공짜입니다. 나머지는 물건 밑과 뒤와 안에 있으니 움직이는 것은 다 끌어 보고, 뚜껑이 있는 것은 다 열어 봅니다. 방은 깨끗한지가 아니라 아무 일 없어 보이는지로 채점됩니다. 다 찾고 일찍 나가는 쪽이 더 많이 받습니다. 보여지는 것은 없습니다.",
+    "ja": "依頼人が住所と時刻をメールで送ってくる。何があったかは決して言わない。事件現場の清掃人の一晩、一部屋だけを扱うゲームだ。朝六時までに、その部屋を「何もなかった部屋」にすればいい。メールが届くと部屋が一度に立ち上がり、そこを見て回る。痕跡は六から十二、目立ち方は三段階。染み、こすれ、擦過、焦げ、破片、足跡。目に入るものはただで片づく。残りは物の下と裏と中にあるので、動くものは全部引き、蓋のあるものは全部開ける。部屋は「きれいか」ではなく「何もなかったように見えるか」で採点される。全部見つけて早く出るほうが多く受け取れる。描写はされない。傷も、凶器も、遺体も出てこない。",
+    "es": "Un cliente te manda por mensaje una dirección y una hora límite, y nunca dice qué pasó. Este es un juego de limpiador de escenas del crimen sobre una sala por noche. Tienes hasta las seis de la mañana para volver aburrida esa sala. Llega el mensaje, la sala aparece de golpe y la recorres. Dentro hay de seis a doce rastros en tres niveles de visibilidad: una mancha, un roce, un manchón, una quemadura, una esquirla, una huella. Los obvios salen gratis. El resto está debajo, detrás y dentro de las cosas, así que arrastra todo lo que se mueva y abre todo lo que tenga tapa. Una sala se puntúa por aburrida, no por limpia. No se muestra nada: ni herida, ni arma, ni cuerpo.",
+    "pt-BR": "Um cliente manda por mensagem um endereço e um prazo, e nunca diz o que aconteceu. Este é um jogo de faxineiro de cena do crime sobre um cômodo por noite. Você tem até as seis da manhã para deixar o cômodo sem graça. A mensagem chega, o cômodo aparece de uma vez e você o percorre. Há de seis a doze vestígios em três níveis de visibilidade: uma mancha, um arranhão, um borrão, uma queimadura, um caco, uma pegada. Os óbvios saem de graça. O resto está embaixo, atrás e dentro das coisas, então arraste tudo que se mexe e abra tudo que tem tampa. O cômodo é pontuado por ser sem graça, não por estar limpo. Nada é mostrado: nem ferida, nem arma, nem corpo."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.trace",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/trace/01.jpg",
+    "shots/trace/02.jpg",
+    "shots/trace/03.jpg",
+    "shots/trace/04.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
+  },
+  {
+   "slug": "wrong-shift",
+   "boardName": "Wrong Shift",
+   "shippingName": "Wrong Shift: Find the Anomaly",
+   "sourceDir": "D:/Crystl/wrongshift",
+   "tier": "Volume",
+   "platform": "Android",
+   "name": {
+    "en": "Wrong Shift",
+    "ko": "이상한 근무",
+    "ja": "ロングシフト",
+    "es": "Wrong Shift",
+    "pt-BR": "Wrong Shift"
+   },
+   "tagline": {
+    "en": "Six feeds, one building, one night. Name what changed, or log all clear.",
+    "ko": "카메라 여섯 대, 하룻밤. 달라진 것을 찾아 보고하세요. 정답은 새벽에 나옵니다.",
+    "ja": "モニター六台、建物一棟、一晩。変わったものを言い当てるか、異常なしと記録するか。",
+    "es": "Seis cámaras, un edificio, una noche. Nombra lo que cambió o registra sin novedad.",
+    "pt-BR": "Seis câmeras, um prédio, uma noite. Diga o que mudou ou registre tudo em ordem."
+   },
+   "desc": {
+    "en": "Six camera feeds. One building. One night. Every hour the building is slightly not the building it was. Wrong Shift is a security camera game about noticing. The feeds refresh on the hour and something is different in zero or one of them. Tap the thing and name it, or press All clear. About eight sweeps, tightening, and the whole night runs two to three minutes. Reporting nothing is also an answer: logging something that did not change costs you more than missing something that did. You find out at dawn, not before. An anomaly is a wrong ordinary thing. Nothing jumps out at you and nothing chases you.",
+    "ko": "카메라 여섯 대. 건물 하나. 하룻밤. 한 시간마다 건물은 조금씩 어제의 그 건물이 아니게 됩니다. 이상한 근무는 이상현상을 찾아내는 감시 카메라 게임입니다. 정시가 되면 화면이 갱신되고, 여섯 대 중 0대 또는 1대에서 무언가가 달라져 있습니다. 달라진 것을 누르고 이름을 고르거나, 이상 없음을 누릅니다. 여덟 번쯤 돌면 하룻밤이 끝나고, 전부 합쳐 2~3분입니다. 아무것도 없다는 것도 답입니다. 달라지지 않은 것을 보고하면 달라진 것을 놓친 것보다 더 큰 손해입니다. 정답은 새벽에만 나옵니다. 이상현상은 평범한 것이 어긋난 것이고, 튀어나오거나 쫓아오지 않습니다.",
+    "ja": "モニターは六台。建物は一棟。夜は一晩。一時間ごとに、建物はほんの少しだけ昨日の建物でなくなっていく。ロングシフトは「気づくこと」の監視カメラゲームだ。毎正時に映像が更新され、六台のうち〇台か一台で何かが変わっている。変わったものを押して名前を選ぶか、異常なしを押す。八周ほどで一晩が終わり、全部で二、三分。何もないというのも答えだ。変わっていないものを報告する損は、変わったものを見逃す損より大きい。答えが出るのは夜明けだけ。異常とは、ありふれたものがずれていることだ。飛び出してこないし、追いかけてもこない。",
+    "es": "Seis señales de cámara. Un edificio. Una noche. Cada hora el edificio es ligeramente distinto del que era. Wrong Shift es un juego de cámaras de seguridad sobre fijarse. Las señales se refrescan en punto y algo es diferente en cero o una de ellas. Toca la cosa y nómbrala, o pulsa Sin novedad. Unas ocho rondas, cada vez más apretadas, y la noche entera dura dos o tres minutos. No informar de nada también es una respuesta: registrar algo que no cambió te cuesta más que pasar por alto algo que sí. Lo descubres al amanecer, no antes. Una anomalía es una cosa corriente que está mal. Nada salta ni te persigue.",
+    "pt-BR": "Seis sinais de câmera. Um prédio. Uma noite. A cada hora o prédio é levemente diferente do que era. Wrong Shift é um jogo de câmeras de segurança sobre reparar nas coisas. Os sinais atualizam na hora cheia e algo está diferente em zero ou uma delas. Toque na coisa e diga o nome, ou aperte Tudo em ordem. Cerca de oito rondas, cada vez mais apertadas, e a noite inteira dura dois ou três minutos. Não relatar nada também é uma resposta: registrar algo que não mudou custa mais do que deixar passar algo que mudou. Você descobre ao amanhecer, não antes. Uma anomalia é uma coisa comum que está errada. Nada salta e nada te persegue."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.wrongshift",
+   "releasedOn": "2026-09-07",
+   "screenshots": [
+    "shots/wrong-shift/01.jpg",
+    "shots/wrong-shift/02.jpg",
+    "shots/wrong-shift/03.jpg",
+    "shots/wrong-shift/04.jpg",
+    "shots/wrong-shift/05.jpg"
+   ],
+   "onSiteAlready": false,
+   "iconSourcePath": null,
+   "nameMismatchNote": ""
   }
  ]
 }

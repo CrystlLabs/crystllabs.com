@@ -62,6 +62,8 @@
                 <option value="en">EN</option>
                 <option value="ko">KR</option>
                 <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
             </select>
         </div>
     </nav>
@@ -182,14 +184,14 @@
     </div>
 
     <script>
-        const APP = {"name": {"en": "What Year Was It?", "ko": "무슨 해였을까?", "ja": "あれは何年？"}, "tagline": {"en": "Three things debuted the same year. Name it. One puzzle a day.", "ko": "세 가지가 같은 해에 등장했습니다. 그 해를 맞혀보세요. 하루 한 문제.", "ja": "3つが同じ年に登場した。その年を当てろ。1日1問。"}, "desc": {"en": "A film, a hit song and a thing that happened, all from the same year. Drag the slider from 1960 to 2024 and lock in your answer. Sixty-five puzzles, one per day, the same puzzle for everyone, counted from a fixed epoch so nobody gets a different board. Blazing Saddles, Waterloo and the invention of the Rubik's Cube is 1974, and if you were off by eighteen years the result screen tells you so without softening it. Streaks survive a reload and break on a missed day, and a share grid goes out the way Wordle's does.", "ko": "영화 한 편, 히트곡 하나, 그리고 그 해에 일어난 일 하나. 모두 같은 해입니다. 1960년부터 2024년까지 슬라이더를 움직여 답을 확정하세요. 65개의 퍼즐, 하루에 하나씩, 모두에게 같은 문제가 주어집니다. 고정된 기준일로부터 계산하므로 누구도 다른 판을 받지 않습니다. 블레이징 새들, 워털루, 루빅스 큐브의 발명은 1974년이고, 18년이나 빗나갔다면 결과 화면이 돌려 말하지 않고 그대로 알려줍니다. 연속 기록은 새로고침을 견디고 하루를 놓치면 끊기며, 워들처럼 공유용 그리드가 나갑니다.", "ja": "映画が1本、ヒット曲が1曲、そしてその年に起きた出来事がひとつ。すべて同じ年のものです。1960年から2024年までスライダーを動かして答えを確定します。65問、1日1問、全員に同じ問題。固定した起点日から数えるので、誰も違う盤面を受け取りません。『ブレージングサドル』と『恋のウォータールー』とルービックキューブの発明は1974年で、18年ずれていたら結果画面がそれを包み隠さず告げます。連続記録はリロードに耐え、1日空けると途切れ、Wordle と同じように共有用グリッドが出ます。"}};
-        const STR = {"en": {"store": "Play in your browser", "shots": "Screenshots //"}, "ko": {"store": "브라우저에서 플레이", "shots": "스크린샷 //"}, "ja": {"store": "ブラウザでプレイ", "shots": "スクリーンショット //"}};
+        const APP = {"name": {"en": "What Year Was It?", "ko": "무슨 해였을까?", "ja": "あれは何年？", "es": "¿De qué año fue?", "pt-BR": "Que ano foi?"}, "tagline": {"en": "Three things debuted the same year. Name it. One puzzle a day.", "ko": "세 가지가 같은 해에 등장했습니다. 그 해를 맞혀보세요. 하루 한 문제.", "ja": "3つが同じ年に登場した。その年を当てろ。1日1問。", "es": "Tres cosas debutaron el mismo año. Dilo. Un acertijo al día.", "pt-BR": "Três coisas estrearam no mesmo ano. Diga qual. Um enigma por dia."}, "desc": {"en": "A film, a hit song and a thing that happened, all from the same year. Drag the slider from 1960 to 2024 and lock in your answer. Sixty-five puzzles, one per day, the same puzzle for everyone, counted from a fixed epoch so nobody gets a different board. Blazing Saddles, Waterloo and the invention of the Rubik's Cube is 1974, and if you were off by eighteen years the result screen tells you so without softening it. Streaks survive a reload and break on a missed day, and a share grid goes out the way Wordle's does.", "ko": "영화 한 편, 히트곡 하나, 그리고 그 해에 일어난 일 하나. 모두 같은 해입니다. 1960년부터 2024년까지 슬라이더를 움직여 답을 확정하세요. 65개의 퍼즐, 하루에 하나씩, 모두에게 같은 문제가 주어집니다. 고정된 기준일로부터 계산하므로 누구도 다른 판을 받지 않습니다. 블레이징 새들, 워털루, 루빅스 큐브의 발명은 1974년이고, 18년이나 빗나갔다면 결과 화면이 돌려 말하지 않고 그대로 알려줍니다. 연속 기록은 새로고침을 견디고 하루를 놓치면 끊기며, 워들처럼 공유용 그리드가 나갑니다.", "ja": "映画が1本、ヒット曲が1曲、そしてその年に起きた出来事がひとつ。すべて同じ年のものです。1960年から2024年までスライダーを動かして答えを確定します。65問、1日1問、全員に同じ問題。固定した起点日から数えるので、誰も違う盤面を受け取りません。『ブレージングサドル』と『恋のウォータールー』とルービックキューブの発明は1974年で、18年ずれていたら結果画面がそれを包み隠さず告げます。連続記録はリロードに耐え、1日空けると途切れ、Wordle と同じように共有用グリッドが出ます。", "es": "Una película, una canción de éxito y algo que pasó, todo del mismo año. Arrastra el deslizador de 1960 a 2024 y confirma tu respuesta. Sesenta y cinco acertijos, uno al día, el mismo para todo el mundo, contados desde una época fija para que nadie tenga un tablero distinto. Sillas de montar calientes, Waterloo y la invención del cubo de Rubik es 1974, y si te desviaste dieciocho años la pantalla de resultados te lo dice sin suavizarlo. Las rachas sobreviven a una recarga y se rompen al saltarse un día, y la cuadrícula para compartir sale como la de Wordle.", "pt-BR": "Um filme, uma música de sucesso e uma coisa que aconteceu, tudo do mesmo ano. Arraste o controle de 1960 a 2024 e confirme sua resposta. Sessenta e cinco enigmas, um por dia, o mesmo para todo mundo, contados a partir de uma época fixa para que ninguém pegue um tabuleiro diferente. Banzé no Oeste, Waterloo e a invenção do cubo mágico é 1974, e se você errou por dezoito anos a tela de resultado diz isso sem suavizar. As sequências sobrevivem a um recarregamento e quebram num dia perdido, e a grade de compartilhamento sai como a do Wordle."}};
+        const STR = {"en": {"store": "Play in your browser", "shots": "Screenshots //"}, "ko": {"store": "브라우저에서 플레이", "shots": "스크린샷 //"}, "ja": {"store": "ブラウザでプレイ", "shots": "スクリーンショット //"}, "es": {"store": "Jugar en el navegador", "shots": "Capturas //"}, "pt-BR": {"store": "Jogar no navegador", "shots": "Capturas //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
-            return ['en','ko','ja'].includes(l) ? l : 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
         }
         function switchLang(lang) {
-            if (!['en','ko','ja'].includes(lang)) lang = 'ko';
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
             localStorage.setItem('crystl_lang', lang);
             document.getElementById('langSelect').value = lang;
             document.getElementById('apName').textContent = APP.name[lang];

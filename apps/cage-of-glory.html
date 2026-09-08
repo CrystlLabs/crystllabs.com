@@ -62,6 +62,8 @@
                 <option value="en">EN</option>
                 <option value="ko">KR</option>
                 <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
             </select>
         </div>
     </nav>
@@ -209,14 +211,14 @@
     </div>
 
     <script>
-        const APP = {"name": {"en": "Cage of Glory", "ko": "케이지 오브 글로리", "ja": "ケージ・オブ・グローリー"}, "tagline": {"en": "Claw your way from club shows to the MMA title belt.", "ko": "클럽 무대에서 시작해 MMA 챔피언 벨트까지 쟁취하세요.", "ja": "クラブ興行からMMA王座のベルトまで駆け上がれ。"}, "desc": {"en": "Cage of Glory is an MMA career sim where you build a fighter and climb from small club shows to championship gold. Train the skills, manage the game plan, and fight your way up the rankings toward the belt. Deep progression with a pick-up-and-play core.", "ko": "케이지 오브 글로리는 MMA 커리어 시뮬레이션입니다. 파이터를 육성하고 작은 클럽 무대에서 챔피언 자리까지 올라가세요. 기술을 훈련하고 전략을 세우며 랭킹을 뚫고 벨트를 향해 싸우세요. 깊이 있는 성장 시스템과 손쉬운 조작이 결합되었습니다.", "ja": "ケージ・オブ・グローリーはMMAキャリアシミュレーション。ファイターを育成し、小さなクラブ興行から王座まで駆け上がろう。スキルを鍛え、戦略を練り、ランキングを勝ち抜いてベルトを目指せ。奥深い成長要素と手軽な操作を両立。"}};
-        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}};
+        const APP = {"name": {"en": "Cage of Glory", "ko": "케이지 오브 글로리", "ja": "ケージ・オブ・グローリー", "es": "Cage of Glory", "pt-BR": "Cage of Glory"}, "tagline": {"en": "Claw your way from club shows to the MMA title belt.", "ko": "클럽 무대에서 시작해 MMA 챔피언 벨트까지 쟁취하세요.", "ja": "クラブ興行からMMA王座のベルトまで駆け上がれ。", "es": "Ábrete paso a zarpazos desde las veladas de club hasta el cinturón de MMA.", "pt-BR": "Abra caminho na unha das lutas de clube até o cinturão do MMA."}, "desc": {"en": "Cage of Glory is an MMA career sim where you build a fighter and climb from small club shows to championship gold. Train the skills, manage the game plan, and fight your way up the rankings toward the belt. Deep progression with a pick-up-and-play core.", "ko": "케이지 오브 글로리는 MMA 커리어 시뮬레이션입니다. 파이터를 육성하고 작은 클럽 무대에서 챔피언 자리까지 올라가세요. 기술을 훈련하고 전략을 세우며 랭킹을 뚫고 벨트를 향해 싸우세요. 깊이 있는 성장 시스템과 손쉬운 조작이 결합되었습니다.", "ja": "ケージ・オブ・グローリーはMMAキャリアシミュレーション。ファイターを育成し、小さなクラブ興行から王座まで駆け上がろう。スキルを鍛え、戦略を練り、ランキングを勝ち抜いてベルトを目指せ。奥深い成長要素と手軽な操作を両立。", "es": "Cage of Glory es un simulador de carrera de MMA donde construyes a un luchador y subes desde pequeñas veladas de club hasta el oro del campeonato. Entrena las habilidades, gestiona el plan de pelea y ábrete camino en el ranking hacia el cinturón. Progresión profunda con un núcleo fácil de coger y jugar.", "pt-BR": "Cage of Glory é um simulador de carreira no MMA em que você constrói um lutador e sobe de pequenos eventos de clube até o ouro do campeonato. Treine as habilidades, gerencie o plano de luta e abra caminho no ranking rumo ao cinturão. Progressão profunda com um núcleo fácil de pegar e jogar."}};
+        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "shots": "Capturas //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
-            return ['en','ko','ja'].includes(l) ? l : 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
         }
         function switchLang(lang) {
-            if (!['en','ko','ja'].includes(lang)) lang = 'ko';
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
             localStorage.setItem('crystl_lang', lang);
             document.getElementById('langSelect').value = lang;
             document.getElementById('apName').textContent = APP.name[lang];

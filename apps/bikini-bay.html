@@ -62,6 +62,8 @@
                 <option value="en">EN</option>
                 <option value="ko">KR</option>
                 <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
             </select>
         </div>
     </nav>
@@ -209,14 +211,14 @@
     </div>
 
     <script>
-        const APP = {"name": {"en": "Bikini Bay", "ko": "비키니 베이", "ja": "ビキニ・ベイ"}, "tagline": {"en": "Build a surf camp, shape the boards, and take your team to a world title.", "ko": "서핑 캠프를 짓고, 보드를 깎고, 팀을 세계 정상으로 이끄세요.", "ja": "サーフキャンプを建て、ボードを削り、チームを世界一へ導け。"}, "desc": {"en": "Bikini Bay is the Grand Prix Story of surfing: a ten-year arc where you build a camp from a shack on the sand into a program that wins world rankings. Scout and develop surfers, craft boards whose shape actually changes how they ride, read the break, and send your team into heats and tour series against four rival AI camps with personalities of their own. Chunky Kairosoft-style pixel art over progression loops that keep paying off.", "ko": "비키니 베이는 서핑판 그랑프리 스토리입니다. 모래사장의 판잣집을 세계 랭킹을 노리는 프로그램으로 키우는 10년의 여정이죠. 서퍼를 발굴해 육성하고, 실제 주행 감각이 달라지는 보드를 제작하고, 파도를 읽고, 저마다 성격이 있는 네 라이벌 캠프와 히트와 투어 시리즈에서 겨루세요. 두툼한 카이로소프트풍 픽셀 아트 위에 계속 보상을 주는 성장 루프를 얹었습니다.", "ja": "『ビキニ・ベイ』はサーフィン版のグランプリストーリー。砂浜の掘っ立て小屋を世界ランキングを狙うチームへ育てる十年の物語だ。サーファーを発掘して育て、形状で乗り味が実際に変わるボードを削り、波を読み、それぞれ性格を持つ四つのライバルキャンプとヒートやツアーシリーズで競い合う。ずんぐりしたカイロソフト風ピクセルアートの下に、報われ続ける成長ループが走っている。"}};
-        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}};
+        const APP = {"name": {"en": "Bikini Bay", "ko": "비키니 베이", "ja": "ビキニ・ベイ", "es": "Bikini Bay", "pt-BR": "Bikini Bay"}, "tagline": {"en": "Build a surf camp, shape the boards, and take your team to a world title.", "ko": "서핑 캠프를 짓고, 보드를 깎고, 팀을 세계 정상으로 이끄세요.", "ja": "サーフキャンプを建て、ボードを削り、チームを世界一へ導け。", "es": "Monta un campamento de surf, moldea las tablas y lleva a tu equipo al título mundial.", "pt-BR": "Monte um camp de surfe, modele as pranchas e leve seu time ao título mundial."}, "desc": {"en": "Bikini Bay is the Grand Prix Story of surfing: a ten-year arc where you build a camp from a shack on the sand into a program that wins world rankings. Scout and develop surfers, craft boards whose shape actually changes how they ride, read the break, and send your team into heats and tour series against four rival AI camps with personalities of their own. Chunky Kairosoft-style pixel art over progression loops that keep paying off.", "ko": "비키니 베이는 서핑판 그랑프리 스토리입니다. 모래사장의 판잣집을 세계 랭킹을 노리는 프로그램으로 키우는 10년의 여정이죠. 서퍼를 발굴해 육성하고, 실제 주행 감각이 달라지는 보드를 제작하고, 파도를 읽고, 저마다 성격이 있는 네 라이벌 캠프와 히트와 투어 시리즈에서 겨루세요. 두툼한 카이로소프트풍 픽셀 아트 위에 계속 보상을 주는 성장 루프를 얹었습니다.", "ja": "『ビキニ・ベイ』はサーフィン版のグランプリストーリー。砂浜の掘っ立て小屋を世界ランキングを狙うチームへ育てる十年の物語だ。サーファーを発掘して育て、形状で乗り味が実際に変わるボードを削り、波を読み、それぞれ性格を持つ四つのライバルキャンプとヒートやツアーシリーズで競い合う。ずんぐりしたカイロソフト風ピクセルアートの下に、報われ続ける成長ループが走っている。", "es": "Bikini Bay es el Grand Prix Story del surf: un arco de diez años en el que conviertes una chabola en la arena en un programa que gana rankings mundiales. Busca y desarrolla surfistas, fabrica tablas cuya forma cambia de verdad cómo se surfea, lee la rompiente y manda a tu equipo a las mangas y a las series del tour contra cuatro campamentos rivales con personalidad propia. Pixel art grueso al estilo Kairosoft sobre bucles de progresión que siguen pagando.", "pt-BR": "Bikini Bay é o Grand Prix Story do surfe: um arco de dez anos em que você transforma um barraco na areia num programa que ganha rankings mundiais. Descubra e desenvolva surfistas, fabrique pranchas cujo shape realmente muda como elas andam, leia o pico e mande seu time para as baterias e para o circuito contra quatro camps rivais com personalidade própria. Pixel art grosso no estilo Kairosoft sobre ciclos de progressão que continuam rendendo."}};
+        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "shots": "Capturas //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
-            return ['en','ko','ja'].includes(l) ? l : 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
         }
         function switchLang(lang) {
-            if (!['en','ko','ja'].includes(lang)) lang = 'ko';
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
             localStorage.setItem('crystl_lang', lang);
             document.getElementById('langSelect').value = lang;
             document.getElementById('apName').textContent = APP.name[lang];

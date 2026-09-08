@@ -62,6 +62,8 @@
                 <option value="en">EN</option>
                 <option value="ko">KR</option>
                 <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
             </select>
         </div>
     </nav>
@@ -119,17 +121,28 @@
                     <span id="apStore">In development</span>
                 </div>
 
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/young-homie/01.jpg" alt="Young Homie screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/young-homie/02.jpg" alt="Young Homie screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/young-homie/03.jpg" alt="Young Homie screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/young-homie/04.jpg" alt="Young Homie screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/young-homie/05.jpg" alt="Young Homie screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+
                 <section class="mt-12">
                     <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Dev log //</h2>
                     <p class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-6 max-w-2xl">Early development. The log is scaffolding and prototype work rather than anything that resembles a finished loop yet.</p>
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 mb-6">
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Commits</div>
-                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">65</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">68</div>
                         </div>
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Days w/ changes</div>
-                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">11</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">14</div>
                         </div>
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Started</div>
@@ -162,7 +175,7 @@
                             <span class="text-sm text-gray-300 leading-relaxed">An arena per encounter</span>
                         </li>
                     </ul>
-                    <p class="mt-4 font-mono text-[11px] text-gray-500">The 6 most recent changes worth reading, out of 65 commits.</p>
+                    <p class="mt-4 font-mono text-[11px] text-gray-500">The 6 most recent changes worth reading, out of 68 commits.</p>
                     <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores, merges and internal housekeeping are filtered out.</p>
                 </section>
             </div>
@@ -170,14 +183,14 @@
     </div>
 
     <script>
-        const APP = {"name": {"en": "Young Homie", "ko": "영 호미", "ja": "ヤング・ホーミー"}, "tagline": {"en": "A turn-based barrio RPG with timed hits, a crew of six, and a long memory.", "ko": "타이밍 공격과 여섯 명의 크루, 그리고 긴 기억을 가진 턴제 바리오 RPG.", "ja": "タイミング入力と六人のクルー、そして長い記憶を持つターン制バリオRPG。"}, "desc": {"en": "Young Homie is a turn-based RPG built to be excellent at four to six hours rather than a shorter version of something bigger. Both sides of every exchange run on timed hits, so defence is as active as attack. Recruit a crew of six across four classes, work a two-currency economy, take branching quests through three connected blocks, and fast-travel a neighbourhood that remembers what you did in it. Synty POLYGON art, built for handheld play in landscape.", "ko": "영 호미는 더 큰 게임의 축소판이 아니라 4~6시간짜리로서 완성도를 갖추도록 만든 턴제 RPG입니다. 공격과 방어 양쪽 모두 타이밍 입력으로 진행되어, 수비도 공격만큼 능동적입니다. 네 개 직업군에서 여섯 명의 크루를 모으고, 두 가지 화폐 경제를 굴리고, 서로 연결된 세 구역에서 분기하는 퀘스트를 수행하고, 당신이 한 일을 기억하는 동네를 빠르게 오가세요. 신티 폴리곤 아트에 가로 모드 휴대 플레이를 위해 설계했습니다.", "ja": "『ヤング・ホーミー』は、大作の短縮版ではなく、4〜6時間という尺で優れていることを狙って作られたターン制RPG。攻守どちらもタイミング入力で進むため、防御も攻撃と同じくらい能動的だ。四つのクラスから六人のクルーを集め、二種類の通貨経済を回し、つながった三つのブロックで分岐するクエストを進め、自分の行いを覚えている街をファストトラベルで巡る。Synty POLYGONのアート、横持ちの携帯プレイ向け設計。"}};
-        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}};
+        const APP = {"name": {"en": "Young Homie", "ko": "영 호미", "ja": "ヤング・ホーミー", "es": "Young Homie", "pt-BR": "Young Homie"}, "tagline": {"en": "A turn-based barrio RPG with timed hits, a crew of six, and a long memory.", "ko": "타이밍 공격과 여섯 명의 크루, 그리고 긴 기억을 가진 턴제 바리오 RPG.", "ja": "タイミング入力と六人のクルー、そして長い記憶を持つターン制バリオRPG。", "es": "Un RPG por turnos de barrio con golpes cronometrados, seis compañeros y buena memoria.", "pt-BR": "Um RPG de turnos de quebrada com golpes cronometrados, seis parceiros e boa memória."}, "desc": {"en": "Young Homie is a turn-based RPG built to be excellent at four to six hours rather than a shorter version of something bigger. Both sides of every exchange run on timed hits, so defence is as active as attack. Recruit a crew of six across four classes, work a two-currency economy, take branching quests through three connected blocks, and fast-travel a neighbourhood that remembers what you did in it. Synty POLYGON art, built for handheld play in landscape.", "ko": "영 호미는 더 큰 게임의 축소판이 아니라 4~6시간짜리로서 완성도를 갖추도록 만든 턴제 RPG입니다. 공격과 방어 양쪽 모두 타이밍 입력으로 진행되어, 수비도 공격만큼 능동적입니다. 네 개 직업군에서 여섯 명의 크루를 모으고, 두 가지 화폐 경제를 굴리고, 서로 연결된 세 구역에서 분기하는 퀘스트를 수행하고, 당신이 한 일을 기억하는 동네를 빠르게 오가세요. 신티 폴리곤 아트에 가로 모드 휴대 플레이를 위해 설계했습니다.", "ja": "『ヤング・ホーミー』は、大作の短縮版ではなく、4〜6時間という尺で優れていることを狙って作られたターン制RPG。攻守どちらもタイミング入力で進むため、防御も攻撃と同じくらい能動的だ。四つのクラスから六人のクルーを集め、二種類の通貨経済を回し、つながった三つのブロックで分岐するクエストを進め、自分の行いを覚えている街をファストトラベルで巡る。Synty POLYGONのアート、横持ちの携帯プレイ向け設計。", "es": "Young Homie es un RPG por turnos hecho para ser excelente en cuatro a seis horas en lugar de ser una versión corta de algo más grande. Los dos lados de cada intercambio funcionan con golpes cronometrados, así que defender es tan activo como atacar. Recluta un grupo de seis en cuatro clases, maneja una economía de dos monedas, sigue misiones ramificadas por tres manzanas conectadas y viaja rápido por un barrio que recuerda lo que hiciste en él. Arte Synty POLYGON, pensado para jugar en horizontal en portátil.", "pt-BR": "Young Homie é um RPG de turnos feito para ser excelente em quatro a seis horas, e não para ser a versão curta de algo maior. Os dois lados de cada troca funcionam com golpes cronometrados, então defender é tão ativo quanto atacar. Recrute um grupo de seis em quatro classes, administre uma economia de duas moedas, siga missões ramificadas por três quarteirões conectados e use viagem rápida num bairro que lembra o que você fez nele. Arte Synty POLYGON, feito para jogar na horizontal no portátil."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
-            return ['en','ko','ja'].includes(l) ? l : 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
         }
         function switchLang(lang) {
-            if (!['en','ko','ja'].includes(lang)) lang = 'ko';
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
             localStorage.setItem('crystl_lang', lang);
             document.getElementById('langSelect').value = lang;
             document.getElementById('apName').textContent = APP.name[lang];

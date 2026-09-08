@@ -62,6 +62,8 @@
                 <option value="en">EN</option>
                 <option value="ko">KR</option>
                 <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
             </select>
         </div>
     </nav>
@@ -105,7 +107,7 @@
                         <div class="flex flex-wrap items-center gap-2 mt-2">
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
-                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 border border-gray-500/40 bg-gray-500/10 rounded px-1.5 py-0.5">Early dev</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
                         </div>
                     </div>
                 </header>
@@ -114,10 +116,21 @@
 
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Windward is an age-of-sail trading company sim built around one idea: you should end up running a company, not a boat. Start by sailing every run yourself, learning which ports pay for what and which crossings are worth the risk. As the fleet grows you stop steering and start writing standing orders, until ships trade profitably while you are looking somewhere else. Combat is a single decision, not a second game. Hand-assembled 32x32 pixel art, and your company is a flag rather than a face.</p>
 
-                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
-                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
-                    <span id="apStore">In development</span>
-                </div>
+                <a id="apStoreLink" href="https://play.google.com/store/apps/details?id=com.crystllabs.boattrader" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">Get it on Google Play</span>
+                </a>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/windward/01.jpg" alt="Windward screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/windward/02.jpg" alt="Windward screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/windward/03.jpg" alt="Windward screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/windward/04.jpg" alt="Windward screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/windward/05.jpg" alt="Windward screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
 
                 <section class="mt-12">
                     <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Dev log //</h2>
@@ -125,11 +138,11 @@
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 mb-6">
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Commits</div>
-                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">36</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">38</div>
                         </div>
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Days w/ changes</div>
-                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">4</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">6</div>
                         </div>
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Started</div>
@@ -166,7 +179,7 @@
                             <span class="text-sm text-gray-300 leading-relaxed">Bill upkeep as lump-sum payroll instead of a per-second bleed</span>
                         </li>
                     </ul>
-                    <p class="mt-4 font-mono text-[11px] text-gray-500">The 7 most recent changes worth reading, out of 36 commits.</p>
+                    <p class="mt-4 font-mono text-[11px] text-gray-500">The 7 most recent changes worth reading, out of 38 commits.</p>
                     <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores, merges and internal housekeeping are filtered out.</p>
                 </section>
             </div>
@@ -174,14 +187,14 @@
     </div>
 
     <script>
-        const APP = {"name": {"en": "Windward", "ko": "윈드워드", "ja": "ウィンドワード"}, "tagline": {"en": "Buy low, sail far, sell high. Then set the standing orders and let the fleet run itself.", "ko": "싸게 사서 멀리 실어 비싸게 파세요. 그다음엔 항로를 지정해 두고 선단이 알아서 돌게 하면 됩니다.", "ja": "安く買い、遠くへ運び、高く売る。あとは航路を決めて、船団に任せればいい。"}, "desc": {"en": "Windward is an age-of-sail trading company sim built around one idea: you should end up running a company, not a boat. Start by sailing every run yourself, learning which ports pay for what and which crossings are worth the risk. As the fleet grows you stop steering and start writing standing orders, until ships trade profitably while you are looking somewhere else. Combat is a single decision, not a second game. Hand-assembled 32x32 pixel art, and your company is a flag rather than a face.", "ko": "윈드워드는 한 가지 생각 위에 세운 대항해 시대 무역 회사 시뮬레이션입니다. 결국 배가 아니라 회사를 운영하게 되어야 한다는 것이죠. 처음에는 모든 항해를 직접 하며 어느 항구가 무엇에 값을 치르는지, 어느 항로가 위험을 감수할 만한지 배웁니다. 선단이 커지면 조타를 놓고 상시 지시를 작성하기 시작하며, 결국 당신이 다른 곳을 보는 동안에도 배들이 이익을 냅니다. 전투는 두 번째 게임이 아니라 하나의 선택입니다. 손으로 조립한 32x32 픽셀 아트를 쓰고, 회사의 정체성은 얼굴이 아니라 깃발입니다.", "ja": "『ウィンドワード』は、ひとつの発想の上に建てられた大航海時代の貿易会社シミュレーション。最後には船ではなく会社を経営しているべきだ、という発想だ。最初はすべての航海を自分で走らせ、どの港が何に金を払うか、どの航路が危険に見合うかを覚える。船団が育つと舵から手を離し、常設の指示を書き始める。やがて別のことをしている間にも船が利益を上げるようになる。戦闘はもうひとつのゲームではなく、ひとつの選択だ。手で組み上げた32×32のピクセルアートを用い、会社の顔は人物ではなく旗である。"}};
-        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}};
+        const APP = {"name": {"en": "Windward", "ko": "윈드워드", "ja": "ウィンドワード", "es": "Windward", "pt-BR": "Windward"}, "tagline": {"en": "Buy low, sail far, sell high. Then set the standing orders and let the fleet run itself.", "ko": "싸게 사서 멀리 실어 비싸게 파세요. 그다음엔 항로를 지정해 두고 선단이 알아서 돌게 하면 됩니다.", "ja": "安く買い、遠くへ運び、高く売る。あとは航路を決めて、船団に任せればいい。", "es": "Compra barato, navega lejos, vende caro. Luego deja las órdenes fijas y que la flota se gobierne sola.", "pt-BR": "Compre barato, navegue longe, venda caro. Depois deixe as ordens fixas e a frota se vira."}, "desc": {"en": "Windward is an age-of-sail trading company sim built around one idea: you should end up running a company, not a boat. Start by sailing every run yourself, learning which ports pay for what and which crossings are worth the risk. As the fleet grows you stop steering and start writing standing orders, until ships trade profitably while you are looking somewhere else. Combat is a single decision, not a second game. Hand-assembled 32x32 pixel art, and your company is a flag rather than a face.", "ko": "윈드워드는 한 가지 생각 위에 세운 대항해 시대 무역 회사 시뮬레이션입니다. 결국 배가 아니라 회사를 운영하게 되어야 한다는 것이죠. 처음에는 모든 항해를 직접 하며 어느 항구가 무엇에 값을 치르는지, 어느 항로가 위험을 감수할 만한지 배웁니다. 선단이 커지면 조타를 놓고 상시 지시를 작성하기 시작하며, 결국 당신이 다른 곳을 보는 동안에도 배들이 이익을 냅니다. 전투는 두 번째 게임이 아니라 하나의 선택입니다. 손으로 조립한 32x32 픽셀 아트를 쓰고, 회사의 정체성은 얼굴이 아니라 깃발입니다.", "ja": "『ウィンドワード』は、ひとつの発想の上に建てられた大航海時代の貿易会社シミュレーション。最後には船ではなく会社を経営しているべきだ、という発想だ。最初はすべての航海を自分で走らせ、どの港が何に金を払うか、どの航路が危険に見合うかを覚える。船団が育つと舵から手を離し、常設の指示を書き始める。やがて別のことをしている間にも船が利益を上げるようになる。戦闘はもうひとつのゲームではなく、ひとつの選択だ。手で組み上げた32×32のピクセルアートを用い、会社の顔は人物ではなく旗である。", "es": "Windward es un simulador de compañía comercial en la era de la vela construido sobre una idea: deberías acabar dirigiendo una empresa, no un barco. Empiezas navegando tú mismo cada trayecto, aprendiendo qué puertos pagan por qué y qué travesías merecen el riesgo. A medida que la flota crece dejas de llevar el timón y empiezas a escribir órdenes permanentes, hasta que los barcos comercian con beneficio mientras tú miras a otro lado. El combate es una sola decisión, no un segundo juego. Pixel art de 32x32 montado a mano, y tu compañía es una bandera, no una cara.", "pt-BR": "Windward é um simulador de companhia mercante na era da vela construído sobre uma ideia: você deve acabar comandando uma empresa, não um barco. Você começa navegando cada rota você mesmo, aprendendo quais portos pagam pelo quê e quais travessias valem o risco. Conforme a frota cresce, você para de pilotar e passa a escrever ordens permanentes, até que os navios negociem com lucro enquanto você olha para outro lado. O combate é uma decisão única, não um segundo jogo. Pixel art 32x32 montado à mão, e sua companhia é uma bandeira, não um rosto."}};
+        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "shots": "Capturas //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
-            return ['en','ko','ja'].includes(l) ? l : 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
         }
         function switchLang(lang) {
-            if (!['en','ko','ja'].includes(lang)) lang = 'ko';
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
             localStorage.setItem('crystl_lang', lang);
             document.getElementById('langSelect').value = lang;
             document.getElementById('apName').textContent = APP.name[lang];

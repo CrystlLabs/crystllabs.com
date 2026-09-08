@@ -23,7 +23,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_FILE = os.path.join(ROOT, 'apps_data.json')
 APPS_DIR = os.path.join(ROOT, 'apps')
 
-LANGS = ('en', 'ko', 'ja')
+LANGS = ('en', 'ko', 'ja', 'es', 'pt-BR')
 
 
 def esc(s):
@@ -249,14 +249,19 @@ def render_page(app):
                 </div>'''
 
     if live:
-        store_labels = ({'en': 'Play in your browser', 'ko': '브라우저에서 플레이', 'ja': 'ブラウザでプレイ'}
+        store_labels = ({'en': 'Play in your browser', 'ko': '브라우저에서 플레이', 'ja': 'ブラウザでプレイ',
+                         'es': 'Jugar en el navegador', 'pt-BR': 'Jogar no navegador'}
                         if web else
-                        {'en': 'Get it on Google Play', 'ko': 'Google Play에서 받기', 'ja': 'Google Play で入手'})
+                        {'en': 'Get it on Google Play', 'ko': 'Google Play에서 받기', 'ja': 'Google Play で入手',
+                         'es': 'Consíguelo en Google Play', 'pt-BR': 'Disponível no Google Play'})
     else:
-        store_labels = ({'en': 'Coming soon', 'ko': '출시 예정', 'ja': '近日公開'}
+        store_labels = ({'en': 'Coming soon', 'ko': '출시 예정', 'ja': '近日公開',
+                         'es': 'Próximamente', 'pt-BR': 'Em breve'}
                         if web else
-                        {'en': 'In development', 'ko': '개발 중', 'ja': '開発中'})
-    shots_labels = {'en': 'Screenshots //', 'ko': '스크린샷 //', 'ja': 'スクリーンショット //'}
+                        {'en': 'In development', 'ko': '개발 중', 'ja': '開発中',
+                         'es': 'En desarrollo', 'pt-BR': 'Em desenvolvimento'})
+    shots_labels = {'en': 'Screenshots //', 'ko': '스크린샷 //', 'ja': 'スクリーンショット //',
+                    'es': 'Capturas //', 'pt-BR': 'Capturas //'}
     store_str = json.dumps({lang: {'store': store_labels[lang], 'shots': shots_labels[lang]}
                             for lang in LANGS}, ensure_ascii=False)
 
@@ -341,6 +346,8 @@ def render_page(app):
                 <option value="en">EN</option>
                 <option value="ko">KR</option>
                 <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
             </select>
         </div>
     </nav>
@@ -402,10 +409,10 @@ def render_page(app):
         const STR = {store_str};
         function currentLang() {{
             const l = localStorage.getItem('crystl_lang') || 'ko';
-            return ['en','ko','ja'].includes(l) ? l : 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
         }}
         function switchLang(lang) {{
-            if (!['en','ko','ja'].includes(lang)) lang = 'ko';
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
             localStorage.setItem('crystl_lang', lang);
             document.getElementById('langSelect').value = lang;
             document.getElementById('apName').textContent = APP.name[lang];

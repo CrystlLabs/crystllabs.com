@@ -62,6 +62,8 @@
                 <option value="en">EN</option>
                 <option value="ko">KR</option>
                 <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
             </select>
         </div>
     </nav>
@@ -105,7 +107,7 @@
                         <div class="flex flex-wrap items-center gap-2 mt-2">
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
-                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 border border-gray-500/40 bg-gray-500/10 rounded px-1.5 py-0.5">In development</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
                         </div>
                     </div>
                 </header>
@@ -114,10 +116,10 @@
 
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">A turn-based office roguelite. You are new at a company, you develop beef with your coworkers, and you settle it the only way the game allows: you fight them for the office title. Thirteen powers, two ways to lose, and a choice at the end of every fight between humiliating the loser and finishing clean, which is the decision the rest of the run remembers. Godot, pixel art at a 640x360 logical resolution. Honest current state: the vertical slice is built, tested and playable, and it is not fun yet. One power solves the whole fight and the Heat mechanic never bites. That is diagnosed rather than guessed, and it is the next thing being fixed.</p>
 
-                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
-                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
-                    <span id="apStore">In development</span>
-                </div>
+                <a id="apStoreLink" href="https://play.google.com/store/apps/details?id=com.crystllabs.officepolitics" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">Get it on Google Play</span>
+                </a>
 
                 <section class="mt-10">
                     <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
@@ -129,19 +131,46 @@
                         <img src="shots/office-politics/05.jpg" alt="Office Politics screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
                     </div>
                 </section>
+
+                <section class="mt-12">
+                    <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Dev log //</h2>
+                    <p class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-6 max-w-2xl">Nothing to a playable vertical slice: art pipeline, fight screen, and one complete fight with all thirteen powers. The honest next step is not more building, it is tuning a fight with one dominant power and a Heat meter that never bites.</p>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 mb-6">
+                        <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
+                            <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Commits</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">7</div>
+                        </div>
+                        <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
+                            <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Days w/ changes</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">5</div>
+                        </div>
+                        <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
+                            <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Started</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">12 AUG 2026</div>
+                        </div>
+                    </div>
+                    <ul class="rounded-2xl border border-white/10 bg-panelBg/40 px-4 md:px-5 py-2">
+                        <li class="flex gap-3 md:gap-4 py-2 border-b border-white/5 last:border-0">
+                            <time datetime="2026-08-26" class="shrink-0 w-[92px] font-mono text-[10px] uppercase tracking-wider text-brandBlue/80 pt-0.5">26 AUG 2026</time>
+                            <span class="text-sm text-gray-300 leading-relaxed">Wire the playable app flow and restore mid-fight state</span>
+                        </li>
+                    </ul>
+                    <p class="mt-4 font-mono text-[11px] text-gray-500">The 1 most recent changes worth reading, out of 7 commits.</p>
+                    <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores, merges and internal housekeeping are filtered out.</p>
+                </section>
             </div>
         </main>
     </div>
 
     <script>
-        const APP = {"name": {"en": "Office Politics", "ko": "오피스 폴리틱스", "ja": "オフィス・ポリティクス"}, "tagline": {"en": "You are new here. Develop beef with your coworkers. Fight them for the title.", "ko": "당신은 신입입니다. 동료들과 척지고, 사내 타이틀을 걸고 싸우세요.", "ja": "あなたは新入り。同僚と揉めて、社内タイトルを賭けて戦え。"}, "desc": {"en": "A turn-based office roguelite. You are new at a company, you develop beef with your coworkers, and you settle it the only way the game allows: you fight them for the office title. Thirteen powers, two ways to lose, and a choice at the end of every fight between humiliating the loser and finishing clean, which is the decision the rest of the run remembers. Godot, pixel art at a 640x360 logical resolution. Honest current state: the vertical slice is built, tested and playable, and it is not fun yet. One power solves the whole fight and the Heat mechanic never bites. That is diagnosed rather than guessed, and it is the next thing being fixed.", "ko": "턴제 오피스 로그라이트입니다. 회사에 갓 들어온 당신은 동료들과 척을 지고, 이 게임이 허용하는 유일한 방식으로 결판을 냅니다. 사내 타이틀을 걸고 싸우는 것이죠. 13가지 능력, 두 가지 패배 조건, 그리고 매 전투가 끝날 때마다 패자를 망신 줄지 깔끔하게 끝낼지 선택해야 합니다. 남은 런이 기억하는 건 바로 그 선택입니다. Godot, 640x360 논리 해상도의 픽셀 아트. 현재 상태를 솔직히 말하자면, 수직 슬라이스는 완성되어 테스트를 통과했고 플레이도 가능하지만 아직 재미있지는 않습니다. 능력 하나가 전투 전체를 해결해버리고 히트 수치는 전혀 위협이 되지 않습니다. 추측이 아니라 진단된 문제이며, 다음으로 고칠 대상입니다.", "ja": "ターン制のオフィス・ローグライトです。会社に入ったばかりのあなたは同僚と揉め、このゲームが許す唯一の方法で決着をつけます。社内タイトルを賭けて戦うのです。13の能力、2種類の敗北条件、そして戦闘のたびに敗者を辱めるか綺麗に終わらせるかの選択。残りのランが覚えているのはその選択です。Godot、論理解像度 640x360 のピクセルアート。現状を正直に書くと、バーティカルスライスは完成しテスト済みでプレイ可能ですが、まだ面白くありません。ひとつの能力が戦闘全体を解決してしまい、ヒート値が一度も効いてこない。推測ではなく診断済みの問題であり、次に直す対象です。"}};
-        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}};
+        const APP = {"name": {"en": "Office Politics", "ko": "오피스 폴리틱스", "ja": "オフィス・ポリティクス", "es": "Office Politics", "pt-BR": "Office Politics"}, "tagline": {"en": "You are new here. Develop beef with your coworkers. Fight them for the title.", "ko": "당신은 신입입니다. 동료들과 척지고, 사내 타이틀을 걸고 싸우세요.", "ja": "あなたは新入り。同僚と揉めて、社内タイトルを賭けて戦え。", "es": "Eres el nuevo. Genera rencillas con tus compañeros. Pelea con ellos por el título.", "pt-BR": "Você é o novato. Arranje treta com os colegas. Lute com eles pelo título."}, "desc": {"en": "A turn-based office roguelite. You are new at a company, you develop beef with your coworkers, and you settle it the only way the game allows: you fight them for the office title. Thirteen powers, two ways to lose, and a choice at the end of every fight between humiliating the loser and finishing clean, which is the decision the rest of the run remembers. Godot, pixel art at a 640x360 logical resolution. Honest current state: the vertical slice is built, tested and playable, and it is not fun yet. One power solves the whole fight and the Heat mechanic never bites. That is diagnosed rather than guessed, and it is the next thing being fixed.", "ko": "턴제 오피스 로그라이트입니다. 회사에 갓 들어온 당신은 동료들과 척을 지고, 이 게임이 허용하는 유일한 방식으로 결판을 냅니다. 사내 타이틀을 걸고 싸우는 것이죠. 13가지 능력, 두 가지 패배 조건, 그리고 매 전투가 끝날 때마다 패자를 망신 줄지 깔끔하게 끝낼지 선택해야 합니다. 남은 런이 기억하는 건 바로 그 선택입니다. Godot, 640x360 논리 해상도의 픽셀 아트. 현재 상태를 솔직히 말하자면, 수직 슬라이스는 완성되어 테스트를 통과했고 플레이도 가능하지만 아직 재미있지는 않습니다. 능력 하나가 전투 전체를 해결해버리고 히트 수치는 전혀 위협이 되지 않습니다. 추측이 아니라 진단된 문제이며, 다음으로 고칠 대상입니다.", "ja": "ターン制のオフィス・ローグライトです。会社に入ったばかりのあなたは同僚と揉め、このゲームが許す唯一の方法で決着をつけます。社内タイトルを賭けて戦うのです。13の能力、2種類の敗北条件、そして戦闘のたびに敗者を辱めるか綺麗に終わらせるかの選択。残りのランが覚えているのはその選択です。Godot、論理解像度 640x360 のピクセルアート。現状を正直に書くと、バーティカルスライスは完成しテスト済みでプレイ可能ですが、まだ面白くありません。ひとつの能力が戦闘全体を解決してしまい、ヒート値が一度も効いてこない。推測ではなく診断済みの問題であり、次に直す対象です。", "es": "Un roguelite de oficina por turnos. Eres nuevo en una empresa, generas rencillas con tus compañeros y las resuelves de la única forma que el juego permite: peleando con ellos por el título de la oficina. Trece poderes, dos formas de perder y una elección al final de cada pelea entre humillar al perdedor o terminar limpio, que es la decisión que el resto de la partida recuerda. Godot, pixel art a una resolución lógica de 640x360. Estado actual honesto: la rebanada vertical está construida, probada y jugable, y todavía no es divertida. Un poder resuelve toda la pelea y la mecánica de Calor nunca muerde. Está diagnosticado, no adivinado, y es lo siguiente que se arregla.", "pt-BR": "Um roguelite de escritório por turnos. Você é novo numa empresa, arranja treta com os colegas e resolve do único jeito que o jogo permite: lutando com eles pelo título do escritório. Treze poderes, dois jeitos de perder e uma escolha ao fim de cada luta entre humilhar o perdedor ou encerrar limpo, que é a decisão de que o resto da run se lembra. Godot, pixel art numa resolução lógica de 640x360. Estado atual honesto: a fatia vertical está construída, testada e jogável, e ainda não é divertida. Um poder resolve a luta inteira e a mecânica de Calor nunca morde. Isso está diagnosticado, não chutado, e é a próxima coisa a ser corrigida."}};
+        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "shots": "Capturas //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
-            return ['en','ko','ja'].includes(l) ? l : 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
         }
         function switchLang(lang) {
-            if (!['en','ko','ja'].includes(lang)) lang = 'ko';
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
             localStorage.setItem('crystl_lang', lang);
             document.getElementById('langSelect').value = lang;
             document.getElementById('apName').textContent = APP.name[lang];

@@ -62,6 +62,8 @@
                 <option value="en">EN</option>
                 <option value="ko">KR</option>
                 <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
             </select>
         </div>
     </nav>
@@ -105,7 +107,7 @@
                         <div class="flex flex-wrap items-center gap-2 mt-2">
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
-                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandBlue border border-brandBlue/40 bg-brandBlue/10 rounded px-1.5 py-0.5">In playtest</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
                         </div>
                     </div>
                 </header>
@@ -114,10 +116,21 @@
 
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Letterman is a gritty life sim about a high-school hooper with two lives that do not want to coexist. Days belong to the block — people, obligations, trouble that finds you. Nights belong to the blacktop, where reputation is the only currency that counts. Push either side too hard and the other starts falling apart, and the game is honest about which choices cost what.</p>
 
-                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
-                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
-                    <span id="apStore">In development</span>
-                </div>
+                <a id="apStoreLink" href="https://play.google.com/store/apps/details?id=com.crystllabs.letterman" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">Get it on Google Play</span>
+                </a>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/letterman/01.jpg" alt="Letterman screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/letterman/02.jpg" alt="Letterman screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/letterman/03.jpg" alt="Letterman screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/letterman/04.jpg" alt="Letterman screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/letterman/05.jpg" alt="Letterman screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
 
                 <section class="mt-12">
                     <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Dev log //</h2>
@@ -125,11 +138,11 @@
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 mb-6">
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Commits</div>
-                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">64</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">66</div>
                         </div>
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Days w/ changes</div>
-                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">12</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">14</div>
                         </div>
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Started</div>
@@ -186,7 +199,7 @@
                             <span class="text-sm text-gray-300 leading-relaxed">Pixel font: Silkscreen (OFL) project-wide</span>
                         </li>
                     </ul>
-                    <p class="mt-4 font-mono text-[11px] text-gray-500">The 12 most recent changes worth reading, out of 64 commits.</p>
+                    <p class="mt-4 font-mono text-[11px] text-gray-500">The 12 most recent changes worth reading, out of 66 commits.</p>
                     <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores, merges and internal housekeeping are filtered out.</p>
                 </section>
             </div>
@@ -194,14 +207,14 @@
     </div>
 
     <script>
-        const APP = {"name": {"en": "Letterman", "ko": "레터맨", "ja": "レターマン"}, "tagline": {"en": "Run the block by day, own the blacktop by night. Try not to wreck either.", "ko": "낮에는 동네를 누비고, 밤에는 코트를 지배하세요. 둘 다 망치지 않는 게 관건입니다.", "ja": "昼は街を走り、夜はコートを支配する。どちらも壊さずにいられるか。"}, "desc": {"en": "Letterman is a gritty life sim about a high-school hooper with two lives that do not want to coexist. Days belong to the block — people, obligations, trouble that finds you. Nights belong to the blacktop, where reputation is the only currency that counts. Push either side too hard and the other starts falling apart, and the game is honest about which choices cost what.", "ko": "레터맨은 공존하기 어려운 두 개의 삶을 가진 고등학교 농구 선수의 거친 인생 시뮬레이션입니다. 낮은 동네의 것입니다. 사람들, 의무, 그리고 알아서 찾아오는 골칫거리가 있죠. 밤은 코트의 것이고, 그곳에서는 평판만이 통화입니다. 어느 한쪽을 너무 몰아붙이면 다른 쪽이 무너지기 시작하며, 게임은 어떤 선택이 무엇을 대가로 하는지 솔직하게 보여 줍니다.", "ja": "『レターマン』は、両立を拒む二つの生活を抱えた高校バスケ選手の、ざらついた人生シミュレーション。昼は街のもの。人付き合い、義務、勝手に寄ってくる面倒がある。夜はコートのもので、そこでは評判だけが通貨になる。どちらかに寄せすぎればもう一方が崩れ始め、ゲームはどの選択が何を代償にするのかを正直に見せてくる。"}};
-        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}};
+        const APP = {"name": {"en": "Letterman", "ko": "레터맨", "ja": "レターマン", "es": "Letterman", "pt-BR": "Letterman"}, "tagline": {"en": "Run the block by day, own the blacktop by night. Try not to wreck either.", "ko": "낮에는 동네를 누비고, 밤에는 코트를 지배하세요. 둘 다 망치지 않는 게 관건입니다.", "ja": "昼は街を走り、夜はコートを支配する。どちらも壊さずにいられるか。", "es": "De día el barrio, de noche la cancha. Intenta no destrozar ninguno de los dos.", "pt-BR": "De dia a quebrada, de noite a quadra. Tente não destruir nenhuma das duas."}, "desc": {"en": "Letterman is a gritty life sim about a high-school hooper with two lives that do not want to coexist. Days belong to the block — people, obligations, trouble that finds you. Nights belong to the blacktop, where reputation is the only currency that counts. Push either side too hard and the other starts falling apart, and the game is honest about which choices cost what.", "ko": "레터맨은 공존하기 어려운 두 개의 삶을 가진 고등학교 농구 선수의 거친 인생 시뮬레이션입니다. 낮은 동네의 것입니다. 사람들, 의무, 그리고 알아서 찾아오는 골칫거리가 있죠. 밤은 코트의 것이고, 그곳에서는 평판만이 통화입니다. 어느 한쪽을 너무 몰아붙이면 다른 쪽이 무너지기 시작하며, 게임은 어떤 선택이 무엇을 대가로 하는지 솔직하게 보여 줍니다.", "ja": "『レターマン』は、両立を拒む二つの生活を抱えた高校バスケ選手の、ざらついた人生シミュレーション。昼は街のもの。人付き合い、義務、勝手に寄ってくる面倒がある。夜はコートのもので、そこでは評判だけが通貨になる。どちらかに寄せすぎればもう一方が崩れ始め、ゲームはどの選択が何を代償にするのかを正直に見せてくる。", "es": "Letterman es un simulador de vida áspero sobre un jugador de baloncesto de instituto con dos vidas que no quieren convivir. Los días pertenecen al barrio: gente, obligaciones y problemas que te encuentran. Las noches pertenecen a la cancha, donde la reputación es la única moneda que cuenta. Apriétale demasiado a un lado y el otro empieza a caerse, y el juego es honesto sobre qué cuesta cada decisión.", "pt-BR": "Letterman é um sim de vida áspero sobre um jogador de basquete do ensino médio com duas vidas que não querem coexistir. Os dias pertencem à quebrada: gente, obrigações e problemas que te encontram. As noites pertencem à quadra, onde reputação é a única moeda que vale. Force demais um lado e o outro começa a desabar, e o jogo é honesto sobre o que cada escolha custa."}};
+        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "shots": "Capturas //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
-            return ['en','ko','ja'].includes(l) ? l : 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
         }
         function switchLang(lang) {
-            if (!['en','ko','ja'].includes(lang)) lang = 'ko';
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
             localStorage.setItem('crystl_lang', lang);
             document.getElementById('langSelect').value = lang;
             document.getElementById('apName').textContent = APP.name[lang];

@@ -63,6 +63,8 @@
                 <option value="en">EN</option>
                 <option value="ko">KR</option>
                 <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
             </select>
         </div>
     </nav>
@@ -163,14 +165,14 @@
     </div>
 
     <script>
-        const APP = {"name": {"en": "PUBG DI", "ko": "PUBG DI", "ja": "PUBG DI"}, "tagline": {"en": "Your PUBG matches, graded by a drill instructor who doesn't do participation trophies.", "ko": "참가상은 없습니다. PUBG 교관이 당신의 전적을 냉정하게 평가합니다.", "ja": "参加賞はない。PUBG教官があなたの戦績を容赦なく採点する。"}, "desc": {"en": "PUBG Drill Instructor pulls your recent PUBG PC matches — kills, damage, placement, time survived — into a dashboard of past deployments. Pick an instructor persona (IRON, SHARP, or NIGHTFALL) and request an AI tactical briefing that tears down your last fight and tells you what to fix. Consent-gated data transmission keeps you in control, and a rewarded ad tops up briefings when you run out. Built for players who want the truth about their gameplay, not another kill-count screen.", "ko": "PUBG 드릴 인스트럭터는 최근 PUBG PC 전적—킬, 데미지, 순위, 생존 시간—을 대시보드로 정리해 보여줍니다. IRON, SHARP, NIGHTFALL 중 교관을 선택하고 AI 전술 브리핑을 요청하면 지난 전투를 낱낱이 분석해 개선할 점을 알려줍니다. 데이터 전송은 동의 절차를 거쳐 안전하게 관리되며, 브리핑이 소진되면 리워드 광고로 충전할 수 있습니다. 단순한 킬 수 화면이 아닌, 진짜 실력 진단을 원하는 플레이어를 위한 앱입니다.", "ja": "PUBGドリルインストラクターは直近のPUBG PC戦績——キル数、ダメージ、順位、生存時間——をダッシュボードにまとめて表示。IRON、SHARP、NIGHTFALLの中から教官を選び、AI戦術ブリーフィングを依頼すれば直近の戦闘を徹底分析し、改善点を教えてくれる。データ送信は同意制で管理され、ブリーフィングが尽きたらリワード広告でチャージ可能。ただのキル数画面ではなく、本当の実力診断を求めるプレイヤーのためのアプリ。"}};
-        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}};
+        const APP = {"name": {"en": "PUBG DI", "ko": "PUBG DI", "ja": "PUBG DI", "es": "PUBG DI", "pt-BR": "PUBG DI"}, "tagline": {"en": "Your PUBG matches, graded by a drill instructor who doesn't do participation trophies.", "ko": "참가상은 없습니다. PUBG 교관이 당신의 전적을 냉정하게 평가합니다.", "ja": "参加賞はない。PUBG教官があなたの戦績を容赦なく採点する。", "es": "Tus partidas de PUBG, calificadas por un instructor que no reparte diplomas de participación.", "pt-BR": "Suas partidas de PUBG, avaliadas por um instrutor que não dá troféu de participação."}, "desc": {"en": "PUBG Drill Instructor pulls your recent PUBG PC matches — kills, damage, placement, time survived — into a dashboard of past deployments. Pick an instructor persona (IRON, SHARP, or NIGHTFALL) and request an AI tactical briefing that tears down your last fight and tells you what to fix. Consent-gated data transmission keeps you in control, and a rewarded ad tops up briefings when you run out. Built for players who want the truth about their gameplay, not another kill-count screen.", "ko": "PUBG 드릴 인스트럭터는 최근 PUBG PC 전적—킬, 데미지, 순위, 생존 시간—을 대시보드로 정리해 보여줍니다. IRON, SHARP, NIGHTFALL 중 교관을 선택하고 AI 전술 브리핑을 요청하면 지난 전투를 낱낱이 분석해 개선할 점을 알려줍니다. 데이터 전송은 동의 절차를 거쳐 안전하게 관리되며, 브리핑이 소진되면 리워드 광고로 충전할 수 있습니다. 단순한 킬 수 화면이 아닌, 진짜 실력 진단을 원하는 플레이어를 위한 앱입니다.", "ja": "PUBGドリルインストラクターは直近のPUBG PC戦績——キル数、ダメージ、順位、生存時間——をダッシュボードにまとめて表示。IRON、SHARP、NIGHTFALLの中から教官を選び、AI戦術ブリーフィングを依頼すれば直近の戦闘を徹底分析し、改善点を教えてくれる。データ送信は同意制で管理され、ブリーフィングが尽きたらリワード広告でチャージ可能。ただのキル数画面ではなく、本当の実力診断を求めるプレイヤーのためのアプリ。", "es": "PUBG Drill Instructor recoge tus partidas recientes de PUBG en PC (bajas, daño, colocación, tiempo sobrevivido) en un panel de despliegues pasados. Elige una persona instructora (IRON, SHARP o NIGHTFALL) y pide un informe táctico con IA que destroza tu último combate y te dice qué corregir. La transmisión de datos está condicionada a tu consentimiento y un anuncio recompensado recarga informes cuando se acaban. Hecho para quien quiere la verdad sobre su juego, no otra pantalla de bajas.", "pt-BR": "PUBG Drill Instructor puxa suas partidas recentes de PUBG no PC (abates, dano, colocação, tempo sobrevivido) para um painel de operações passadas. Escolha uma persona de instrutor (IRON, SHARP ou NIGHTFALL) e peça um briefing tático com IA que desmonta seu último confronto e diz o que corrigir. A transmissão de dados depende do seu consentimento e um anúncio premiado recarrega briefings quando acabam. Feito para quem quer a verdade sobre o próprio jogo, não mais uma tela de abates."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
-            return ['en','ko','ja'].includes(l) ? l : 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
         }
         function switchLang(lang) {
-            if (!['en','ko','ja'].includes(lang)) lang = 'ko';
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
             localStorage.setItem('crystl_lang', lang);
             document.getElementById('langSelect').value = lang;
             document.getElementById('apName').textContent = APP.name[lang];

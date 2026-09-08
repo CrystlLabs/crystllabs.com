@@ -62,6 +62,8 @@
                 <option value="en">EN</option>
                 <option value="ko">KR</option>
                 <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
             </select>
         </div>
     </nav>
@@ -205,14 +207,14 @@
     </div>
 
     <script>
-        const APP = {"name": {"en": "DORK", "ko": "DORK", "ja": "DORK"}, "tagline": {"en": "A text adventure you play entirely by ear — LOOK doesn't work here.", "ko": "귀로만 플레이하는 텍스트 어드벤처 — 여기선 '보기'가 통하지 않습니다.", "ja": "耳だけでプレイするテキストアドベンチャー——ここでは「見る」は使えない。"}, "desc": {"en": "DORK: Long Beach '95 is a text adventure for a blind protagonist: you can't LOOK, only LISTEN, SMELL, and FEEL your way through one legendary night in 1995 Long Beach. Explore 15 places — a backyard show with a live procedural ska band, a haunted ocean liner, a braille blackjack table — chasing RAD points before sunrise. Six endings, two secrets, and a dog named Lou Dog who'll follow you for a Slim Jim. One self-contained file, no ads, no network, no eyes needed.", "ko": "도크: 롱비치 '95는 앞을 보지 못하는 주인공의 텍스트 어드벤처입니다. '보기'는 쓸 수 없고, 오직 듣고 맡고 만지며 1995년 롱비치의 전설적인 하룻밤을 헤쳐나가야 합니다. 라이브 스카 밴드가 연주하는 뒷마당 공연부터 유령이 나온다는 대형 여객선까지 15곳을 탐험하며 해가 뜨기 전 RAD 포인트를 쌓으세요. 엔딩 6개, 비밀 2개, 슬림짐 하나면 어디든 따라오는 개 루 독까지. 광고도 네트워크도 필요 없는, 단 하나의 파일로 완성된 게임입니다.", "ja": "『DORK: Long Beach '95』は目の見えない主人公によるテキストアドベンチャー。「見る」は使えず、聞いて、嗅いで、触れて1995年ロングビーチの伝説の一夜を駆け抜ける。生演奏スカバンドの裏庭ライブから幽霊が出るという大型客船まで、15の場所を探索しながら日の出前にRADポイントを稼ごう。エンディング6種、隠し要素2つ、スリムジム一本でどこまでもついてくる愛犬ラウ・ドッグも。広告もネット接続も不要、たった一つのファイルで完結する。"}};
-        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}};
+        const APP = {"name": {"en": "DORK", "ko": "DORK", "ja": "DORK", "es": "DORK", "pt-BR": "DORK"}, "tagline": {"en": "A text adventure you play entirely by ear — LOOK doesn't work here.", "ko": "귀로만 플레이하는 텍스트 어드벤처 — 여기선 '보기'가 통하지 않습니다.", "ja": "耳だけでプレイするテキストアドベンチャー——ここでは「見る」は使えない。", "es": "Una aventura de texto que juegas solo de oído: aquí MIRAR no funciona.", "pt-BR": "Uma aventura de texto jogada só de ouvido: aqui OLHAR não funciona."}, "desc": {"en": "DORK: Long Beach '95 is a text adventure for a blind protagonist: you can't LOOK, only LISTEN, SMELL, and FEEL your way through one legendary night in 1995 Long Beach. Explore 15 places — a backyard show with a live procedural ska band, a haunted ocean liner, a braille blackjack table — chasing RAD points before sunrise. Six endings, two secrets, and a dog named Lou Dog who'll follow you for a Slim Jim. One self-contained file, no ads, no network, no eyes needed.", "ko": "도크: 롱비치 '95는 앞을 보지 못하는 주인공의 텍스트 어드벤처입니다. '보기'는 쓸 수 없고, 오직 듣고 맡고 만지며 1995년 롱비치의 전설적인 하룻밤을 헤쳐나가야 합니다. 라이브 스카 밴드가 연주하는 뒷마당 공연부터 유령이 나온다는 대형 여객선까지 15곳을 탐험하며 해가 뜨기 전 RAD 포인트를 쌓으세요. 엔딩 6개, 비밀 2개, 슬림짐 하나면 어디든 따라오는 개 루 독까지. 광고도 네트워크도 필요 없는, 단 하나의 파일로 완성된 게임입니다.", "ja": "『DORK: Long Beach '95』は目の見えない主人公によるテキストアドベンチャー。「見る」は使えず、聞いて、嗅いで、触れて1995年ロングビーチの伝説の一夜を駆け抜ける。生演奏スカバンドの裏庭ライブから幽霊が出るという大型客船まで、15の場所を探索しながら日の出前にRADポイントを稼ごう。エンディング6種、隠し要素2つ、スリムジム一本でどこまでもついてくる愛犬ラウ・ドッグも。広告もネット接続も不要、たった一つのファイルで完結する。", "es": "DORK: Long Beach '95 es una aventura de texto con un protagonista ciego: no puedes MIRAR, solo ESCUCHAR, OLER y PALPAR tu camino a través de una noche legendaria en el Long Beach de 1995. Explora quince lugares (un concierto en un patio trasero con una banda de ska generada en tiempo real, un transatlántico embrujado, una mesa de blackjack en braille) persiguiendo puntos RAD antes del amanecer. Seis finales, dos secretos y un perro llamado Lou Dog que te seguirá por un Slim Jim. Un único archivo autónomo, sin anuncios, sin red y sin necesidad de ojos.", "pt-BR": "DORK: Long Beach '95 é uma aventura de texto com um protagonista cego: você não pode OLHAR, só OUVIR, CHEIRAR e TATEAR seu caminho por uma noite lendária na Long Beach de 1995. Explore quinze lugares (um show de quintal com uma banda de ska gerada em tempo real, um transatlântico assombrado, uma mesa de blackjack em braile) atrás de pontos RAD antes do amanhecer. Seis finais, dois segredos e um cachorro chamado Lou Dog que te segue por um Slim Jim. Um único arquivo autônomo, sem anúncios, sem rede e sem precisar de olhos."}};
+        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "shots": "Capturas //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
-            return ['en','ko','ja'].includes(l) ? l : 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
         }
         function switchLang(lang) {
-            if (!['en','ko','ja'].includes(lang)) lang = 'ko';
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
             localStorage.setItem('crystl_lang', lang);
             document.getElementById('langSelect').value = lang;
             document.getElementById('apName').textContent = APP.name[lang];

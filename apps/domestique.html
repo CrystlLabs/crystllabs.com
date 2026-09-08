@@ -62,6 +62,8 @@
                 <option value="en">EN</option>
                 <option value="ko">KR</option>
                 <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
             </select>
         </div>
     </nav>
@@ -105,7 +107,7 @@
                         <div class="flex flex-wrap items-center gap-2 mt-2">
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandPink/90 border border-brandPink/30 rounded px-1.5 py-0.5">Flagship</span>
-                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandBlue border border-brandBlue/40 bg-brandBlue/10 rounded px-1.5 py-0.5">In playtest</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
                         </div>
                     </div>
                 </header>
@@ -114,10 +116,21 @@
 
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Domestique is a professional cycling career sim with a long memory. Sign contracts, commit to a race programme, and spend a season&#x27;s budget on the events that will actually move your standing. In the race you set team orders and burn a shared energy pool to pace the bunch, chase a break or shield your leader from the wind — and every one of those calls costs you something later. Injuries, sponsor mandates and team harmony all compound. Retro-but-refined 16-bit spirit, Kairosoft-inspired but deeper.</p>
 
-                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
-                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
-                    <span id="apStore">In development</span>
-                </div>
+                <a id="apStoreLink" href="https://play.google.com/store/apps/details?id=com.crystllabs.domestique" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">Get it on Google Play</span>
+                </a>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/domestique/01.jpg" alt="Domestique screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/domestique/02.jpg" alt="Domestique screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/domestique/03.jpg" alt="Domestique screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/domestique/04.jpg" alt="Domestique screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/domestique/05.jpg" alt="Domestique screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
 
                 <section class="mt-12">
                     <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Dev log //</h2>
@@ -125,7 +138,7 @@
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 mb-6">
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Commits</div>
-                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">172</div>
+                            <div class="mt-0.5 text-sm md:text-base font-semibold text-white">174</div>
                         </div>
                         <div class="rounded-xl border border-white/10 bg-panelBg/50 px-3 py-2.5">
                             <div class="font-mono text-[10px] uppercase tracking-wider text-gray-500">Days w/ changes</div>
@@ -186,7 +199,7 @@
                             <span class="text-sm text-gray-300 leading-relaxed">Rewrite IAPManager against the real billing API</span>
                         </li>
                     </ul>
-                    <p class="mt-4 font-mono text-[11px] text-gray-500">The 12 most recent changes worth reading, out of 172 commits.</p>
+                    <p class="mt-4 font-mono text-[11px] text-gray-500">The 12 most recent changes worth reading, out of 174 commits.</p>
                     <p class="mt-4 text-xs text-gray-500 leading-relaxed">Every line above is a real commit from this app's repository, on the date it was made. Build chores, merges and internal housekeeping are filtered out.</p>
                 </section>
             </div>
@@ -194,14 +207,14 @@
     </div>
 
     <script>
-        const APP = {"name": {"en": "Domestique", "ko": "도메스티크", "ja": "ドメスティック"}, "tagline": {"en": "Ride for the leader, or become one. A pro cycling career from nobody to the Tour.", "ko": "에이스를 위해 달릴 것인가, 에이스가 될 것인가. 무명에서 투르까지의 프로 사이클 커리어.", "ja": "エースのために走るか、エースになるか。無名からツールまでのプロ自転車キャリア。"}, "desc": {"en": "Domestique is a professional cycling career sim with a long memory. Sign contracts, commit to a race programme, and spend a season's budget on the events that will actually move your standing. In the race you set team orders and burn a shared energy pool to pace the bunch, chase a break or shield your leader from the wind — and every one of those calls costs you something later. Injuries, sponsor mandates and team harmony all compound. Retro-but-refined 16-bit spirit, Kairosoft-inspired but deeper.", "ko": "도메스티크는 기억이 오래가는 프로 사이클 커리어 시뮬레이션입니다. 계약을 맺고 시즌 레이스 프로그램을 확정하며, 순위를 실제로 끌어올릴 대회에 한정된 예산을 배분하세요. 레이스에서는 팀 오더를 내리고 공유 에너지를 소모해 집단을 견인하거나, 선두 그룹을 추격하거나, 에이스를 바람에서 보호합니다. 그 모든 판단은 나중에 대가를 치릅니다. 부상과 스폰서 요구, 팀 화합이 계속 쌓입니다. 복고를 다듬은 16비트 감성, 카이로소프트에서 출발했지만 더 깊습니다.", "ja": "『ドメスティック』は記憶の長いプロ自転車キャリアシミュレーション。契約を結び、シーズンのレースプログラムを決め、限られた予算を順位に本当に効く大会へ振り分ける。レースではチームオーダーを出し、共有エネルギーを削って集団を牽引し、逃げを追い、エースを風から守る。その判断はすべて後で代償を伴う。怪我、スポンサーの要求、チームの和が積み重なっていく。レトロを磨いた16ビットの空気、カイロソフト的でありながらより深い。"}};
-        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}};
+        const APP = {"name": {"en": "Domestique", "ko": "도메스티크", "ja": "ドメスティック", "es": "Domestique", "pt-BR": "Domestique"}, "tagline": {"en": "Ride for the leader, or become one. A pro cycling career from nobody to the Tour.", "ko": "에이스를 위해 달릴 것인가, 에이스가 될 것인가. 무명에서 투르까지의 프로 사이클 커리어.", "ja": "エースのために走るか、エースになるか。無名からツールまでのプロ自転車キャリア。", "es": "Corre para el líder, o conviértete en uno. Una carrera profesional de la nada al Tour.", "pt-BR": "Pedale para o líder ou vire um. Uma carreira profissional do zero ao Tour."}, "desc": {"en": "Domestique is a professional cycling career sim with a long memory. Sign contracts, commit to a race programme, and spend a season's budget on the events that will actually move your standing. In the race you set team orders and burn a shared energy pool to pace the bunch, chase a break or shield your leader from the wind — and every one of those calls costs you something later. Injuries, sponsor mandates and team harmony all compound. Retro-but-refined 16-bit spirit, Kairosoft-inspired but deeper.", "ko": "도메스티크는 기억이 오래가는 프로 사이클 커리어 시뮬레이션입니다. 계약을 맺고 시즌 레이스 프로그램을 확정하며, 순위를 실제로 끌어올릴 대회에 한정된 예산을 배분하세요. 레이스에서는 팀 오더를 내리고 공유 에너지를 소모해 집단을 견인하거나, 선두 그룹을 추격하거나, 에이스를 바람에서 보호합니다. 그 모든 판단은 나중에 대가를 치릅니다. 부상과 스폰서 요구, 팀 화합이 계속 쌓입니다. 복고를 다듬은 16비트 감성, 카이로소프트에서 출발했지만 더 깊습니다.", "ja": "『ドメスティック』は記憶の長いプロ自転車キャリアシミュレーション。契約を結び、シーズンのレースプログラムを決め、限られた予算を順位に本当に効く大会へ振り分ける。レースではチームオーダーを出し、共有エネルギーを削って集団を牽引し、逃げを追い、エースを風から守る。その判断はすべて後で代償を伴う。怪我、スポンサーの要求、チームの和が積み重なっていく。レトロを磨いた16ビットの空気、カイロソフト的でありながらより深い。", "es": "Domestique es un simulador de carrera profesional de ciclismo con buena memoria. Firma contratos, comprométete con un calendario y gasta el presupuesto de la temporada en las pruebas que de verdad moverán tu clasificación. En carrera das órdenes de equipo y quemas una reserva de energía compartida para marcar el ritmo del pelotón, perseguir una fuga o proteger a tu líder del viento, y cada una de esas decisiones te cuesta algo más tarde. Lesiones, exigencias de patrocinadores y armonía de equipo se acumulan. Espíritu de 16 bits refinado, inspirado en Kairosoft pero más profundo.", "pt-BR": "Domestique é um simulador de carreira no ciclismo profissional com memória longa. Assine contratos, comprometa-se com um calendário e gaste o orçamento da temporada nas provas que realmente mexem na sua classificação. Na corrida você dá ordens de equipe e queima uma reserva de energia compartilhada para ditar o ritmo do pelotão, perseguir uma fuga ou proteger seu líder do vento, e cada uma dessas decisões cobra depois. Lesões, exigências de patrocinadores e harmonia do time se acumulam. Espírito 16 bits refinado, inspirado em Kairosoft mas mais profundo."}};
+        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "shots": "Capturas //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
-            return ['en','ko','ja'].includes(l) ? l : 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
         }
         function switchLang(lang) {
-            if (!['en','ko','ja'].includes(lang)) lang = 'ko';
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
             localStorage.setItem('crystl_lang', lang);
             document.getElementById('langSelect').value = lang;
             document.getElementById('apName').textContent = APP.name[lang];

@@ -77,6 +77,134 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://crystllabs.com/apps/domestique.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/chess-drill-instructor.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/letterman.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/murder-phone.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/sauce-boss.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/california-trail.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/windward.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/rugpull.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/office-politics.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/bare-knuckle.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/cabinet.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/cell-block.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/corner-store.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/counter.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/door-policy.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/flip-this-flat.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/front-page.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/heel-turn.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/lemon-lot.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/lost-property.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/night-shift.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/rap-sheet.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/reading-room.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/route.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/scoop.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/slumlord.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/supply-run.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/the-fence.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/the-house.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/the-yard.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/trace.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crystllabs.com/apps/wrong-shift.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://crystllabs.com/apps/bent-fc.html</loc>
     <priority>0.8</priority>
   </url>
@@ -153,23 +281,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://crystllabs.com/apps/domestique.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/apps/chess-drill-instructor.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://crystllabs.com/apps/crystl-health.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/apps/letterman.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/apps/murder-phone.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
@@ -181,23 +293,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://crystllabs.com/apps/rugpull.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/apps/office-politics.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://crystllabs.com/apps/young-homie.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/apps/california-trail.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/apps/windward.html</loc>
     <priority>0.6</priority>
   </url>
 </urlset>

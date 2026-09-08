@@ -361,10 +361,10 @@
  },
  "bent-fc": {
   "stats": {
-   "commits": 412,
-   "activeDays": 28,
+   "commits": 426,
+   "activeDays": 30,
    "firstDay": "2026-07-09",
-   "lastDay": "2026-08-21",
+   "lastDay": "2026-08-29",
    "version": "",
    "tags": [
     "v3.9-transparent",
@@ -374,6 +374,30 @@
   },
   "intro": "By a wide margin the most-committed project here. A football management game where the corruption is the mechanic rather than a modifier, which means most of the log is balance work: what a bribe costs, what it buys, and how quickly the league notices.",
   "entries": [
+   {
+    "date": "2026-08-29",
+    "subject": "SHIP: name the 1.1.0 code 18 bundle and its SHA-256"
+   },
+   {
+    "date": "2026-08-29",
+    "subject": "Fit the translation to the screen: 12 readability passes green in 3 languages"
+   },
+   {
+    "date": "2026-08-29",
+    "subject": "Translate Bent FC into Brazilian Portuguese and Latin American Spanish"
+   },
+   {
+    "date": "2026-08-29",
+    "subject": "Translate the chrome, the meters, the newspaper and the handbook"
+   },
+   {
+    "date": "2026-08-29",
+    "subject": "Put the pt-BR and es-419 listings into Play Console"
+   },
+   {
+    "date": "2026-08-29",
+    "subject": "Store listing copy for pt-BR and es-419"
+   },
    {
     "date": "2026-08-21",
     "subject": "Store art: the new feature graphic and the 512 icon"
@@ -385,10 +409,6 @@
    {
     "date": "2026-08-20",
     "subject": "Sentry: stop attaching a log file that Android never writes"
-   },
-   {
-    "date": "2026-08-19",
-    "subject": "Store listing: ASO pass on the CJK title and short description"
    },
    {
     "date": "2026-08-19",
@@ -473,35 +493,15 @@
    {
     "date": "2026-07-12",
     "subject": "Fix mobile touch scrolling across all scroll areas"
-   },
-   {
-    "date": "2026-07-12",
-    "subject": "Reel: fix double-ball on open-play saves"
-   },
-   {
-    "date": "2026-07-10",
-    "subject": "Polish 2.5: front page furniture"
-   },
-   {
-    "date": "2026-07-10",
-    "subject": "Polish 2.4: stage the downfall climax"
-   },
-   {
-    "date": "2026-07-10",
-    "subject": "Polish 2.2: Big Moment & reel micro-juice"
-   },
-   {
-    "date": "2026-07-10",
-    "subject": "Polish 2.1: season screen information juice"
    }
   ]
  },
  "bleacher-busters": {
   "stats": {
-   "commits": 60,
-   "activeDays": 21,
+   "commits": 61,
+   "activeDays": 22,
    "firstDay": "2026-04-04",
-   "lastDay": "2026-08-21",
+   "lastDay": "2026-08-22",
    "version": "",
    "tags": []
   },
@@ -734,7 +734,7 @@
  },
  "domestique": {
   "stats": {
-   "commits": 172,
+   "commits": 174,
    "activeDays": 28,
    "firstDay": "2026-04-10",
    "lastDay": "2026-08-22",
@@ -1033,10 +1033,10 @@
  },
  "chess-drill-instructor": {
   "stats": {
-   "commits": 25,
-   "activeDays": 13,
+   "commits": 26,
+   "activeDays": 14,
    "firstDay": "2026-03-19",
-   "lastDay": "2026-07-13",
+   "lastDay": "2026-08-29",
    "version": "1.0",
    "tags": []
   },
@@ -1078,10 +1078,10 @@
  },
  "crystl-health": {
   "stats": {
-   "commits": 51,
-   "activeDays": 10,
+   "commits": 52,
+   "activeDays": 11,
    "firstDay": "2026-04-12",
-   "lastDay": "2026-08-19",
+   "lastDay": "2026-08-29",
    "version": "1.1",
    "tags": []
   },
@@ -1218,10 +1218,10 @@
  },
  "letterman": {
   "stats": {
-   "commits": 64,
-   "activeDays": 12,
+   "commits": 66,
+   "activeDays": 14,
    "firstDay": "2026-07-10",
-   "lastDay": "2026-08-21",
+   "lastDay": "2026-08-29",
    "version": "",
    "tags": []
   },
@@ -1336,10 +1336,10 @@
  },
  "murder-phone": {
   "stats": {
-   "commits": 115,
-   "activeDays": 15,
+   "commits": 116,
+   "activeDays": 16,
    "firstDay": "2026-07-01",
-   "lastDay": "2026-08-19",
+   "lastDay": "2026-08-29",
    "version": "",
    "tags": [
     "pre-consolidation"
@@ -1452,10 +1452,10 @@
  },
  "sauce-boss": {
   "stats": {
-   "commits": 23,
-   "activeDays": 4,
+   "commits": 24,
+   "activeDays": 5,
    "firstDay": "2026-07-29",
-   "lastDay": "2026-08-19",
+   "lastDay": "2026-08-29",
    "version": "",
    "tags": []
   },
@@ -1497,10 +1497,10 @@
  },
  "young-homie": {
   "stats": {
-   "commits": 65,
-   "activeDays": 11,
+   "commits": 68,
+   "activeDays": 14,
    "firstDay": "2026-07-28",
-   "lastDay": "2026-08-20",
+   "lastDay": "2026-09-05",
    "version": "",
    "tags": []
   },
@@ -1534,10 +1534,10 @@
  },
  "california-trail": {
   "stats": {
-   "commits": 54,
-   "activeDays": 7,
+   "commits": 56,
+   "activeDays": 9,
    "firstDay": "2026-07-25",
-   "lastDay": "2026-08-20",
+   "lastDay": "2026-08-29",
    "version": "",
    "tags": []
   },
@@ -1563,10 +1563,10 @@
  },
  "windward": {
   "stats": {
-   "commits": 36,
-   "activeDays": 4,
+   "commits": 38,
+   "activeDays": 6,
    "firstDay": "2026-07-25",
-   "lastDay": "2026-08-20",
+   "lastDay": "2026-08-29",
    "version": "",
    "tags": []
   },
@@ -1604,15 +1604,19 @@
  },
  "zero-cool": {
   "stats": {
-   "commits": 320,
-   "activeDays": 18,
+   "commits": 324,
+   "activeDays": 19,
    "firstDay": "2026-07-12",
-   "lastDay": "2026-08-16",
+   "lastDay": "2026-08-22",
    "version": "",
    "tags": []
   },
   "intro": "This project changed shape halfway through. Everything before 25 July 2026 is a solo hacking sim; after it the game is a street-to-kingpin crime empire, with hacking demoted to Chapter 1 and most of the engine carried over intact.",
   "entries": [
+   {
+    "date": "2026-08-22",
+    "subject": "Play it properly: the pages were transparent and the camera was a metre high"
+   },
    {
     "date": "2026-07-30",
     "subject": "Dress the other four landmarks: no gray box is left in the game"
@@ -1673,10 +1677,10 @@
  },
  "bent-fc-tournament": {
   "stats": {
-   "commits": 106,
-   "activeDays": 9,
+   "commits": 110,
+   "activeDays": 10,
    "firstDay": "2026-08-09",
-   "lastDay": "2026-08-22",
+   "lastDay": "2026-08-29",
    "version": "",
    "tags": []
   },
@@ -1726,10 +1730,10 @@
  },
  "rugpull": {
   "stats": {
-   "commits": 10,
-   "activeDays": 3,
+   "commits": 12,
+   "activeDays": 5,
    "firstDay": "2026-08-12",
-   "lastDay": "2026-08-20",
+   "lastDay": "2026-08-29",
    "version": "",
    "tags": []
   },
@@ -1738,6 +1742,23 @@
    {
     "date": "2026-08-12",
     "subject": "Replace GitHub Actions with a local pre-push hook, fix the renderer feature tag"
+   }
+  ]
+ },
+ "office-politics": {
+  "stats": {
+   "commits": 7,
+   "activeDays": 5,
+   "firstDay": "2026-08-12",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "Nothing to a playable vertical slice: art pipeline, fight screen, and one complete fight with all thirteen powers. The honest next step is not more building, it is tuning a fight with one dominant power and a Heat meter that never bites.",
+  "entries": [
+   {
+    "date": "2026-08-26",
+    "subject": "Wire the playable app flow and restore mid-fight state"
    }
   ]
  },
@@ -1985,6 +2006,580 @@
    {
     "date": "2026-08-01",
     "subject": "Rework web prototypes into one repo with a shared engine"
+   }
+  ]
+ },
+ "bare-knuckle": {
+  "stats": {
+   "commits": 6,
+   "activeDays": 3,
+   "firstDay": "2026-08-22",
+   "lastDay": "2026-08-29",
+   "version": "0.2.0",
+   "tags": [
+    "baseline-fork"
+   ]
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-26",
+    "subject": "Add ad-only monetization and simplify fight loop"
+   },
+   {
+    "date": "2026-08-22",
+    "subject": "Fork Cage of Glory as Bare Knuckle"
+   }
+  ]
+ },
+ "cabinet": {
+  "stats": {
+   "commits": 11,
+   "activeDays": 6,
+   "firstDay": "2026-08-18",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-22",
+    "subject": "Cute Pass: cabinet"
+   },
+   {
+    "date": "2026-08-21",
+    "subject": "Ads only: remove the in-app purchase"
+   },
+   {
+    "date": "2026-08-19",
+    "subject": "Slate finish: all 15 games now build a signed release bundle"
+   },
+   {
+    "date": "2026-08-18",
+    "subject": "Sentry-minimal project shell"
+   }
+  ]
+ },
+ "cell-block": {
+  "stats": {
+   "commits": 13,
+   "activeDays": 6,
+   "firstDay": "2026-08-18",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-22",
+    "subject": "Cute Pass: cellblock"
+   },
+   {
+    "date": "2026-08-21",
+    "subject": "Ads only: remove the in-app purchase"
+   },
+   {
+    "date": "2026-08-21",
+    "subject": "Move the Play data-safety CSV into store/, add the 2:1 phone screenshots"
+   },
+   {
+    "date": "2026-08-20",
+    "subject": "Play IAP: `noads` at 2,900 KRW"
+   },
+   {
+    "date": "2026-08-19",
+    "subject": "Slate finish: all 15 games now build a signed release bundle"
+   }
+  ]
+ },
+ "corner-store": {
+  "stats": {
+   "commits": 12,
+   "activeDays": 6,
+   "firstDay": "2026-08-17",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-22",
+    "subject": "Cute Pass: cornerstore"
+   },
+   {
+    "date": "2026-08-21",
+    "subject": "Ads only: remove the in-app purchase"
+   },
+   {
+    "date": "2026-08-19",
+    "subject": "Slate finish: all 15 games now build a signed release bundle"
+   }
+  ]
+ },
+ "counter": {
+  "stats": {
+   "commits": 12,
+   "activeDays": 6,
+   "firstDay": "2026-08-18",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-22",
+    "subject": "Cute Pass: counter"
+   },
+   {
+    "date": "2026-08-21",
+    "subject": "Ads only: remove the in-app purchase"
+   },
+   {
+    "date": "2026-08-19",
+    "subject": "Slate finish: all 15 games now build a signed release bundle"
+   }
+  ]
+ },
+ "door-policy": {
+  "stats": {
+   "commits": 13,
+   "activeDays": 6,
+   "firstDay": "2026-08-17",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-21",
+    "subject": "Ads only: remove the in-app purchase"
+   },
+   {
+    "date": "2026-08-17",
+    "subject": "Close the Korean native read, settle the KO title on 경비원"
+   }
+  ]
+ },
+ "flip-this-flat": {
+  "stats": {
+   "commits": 14,
+   "activeDays": 6,
+   "firstDay": "2026-08-17",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-22",
+    "subject": "Cute Pass: flipflat"
+   },
+   {
+    "date": "2026-08-21",
+    "subject": "Ads only: remove the in-app purchase"
+   },
+   {
+    "date": "2026-08-21",
+    "subject": "Move the Play data-safety CSV into store/"
+   },
+   {
+    "date": "2026-08-20",
+    "subject": "Play IAP: `noads` at 2,900 KRW"
+   },
+   {
+    "date": "2026-08-19",
+    "subject": "Finish Flip This Flat: playtest, three fixes, signed release"
+   }
+  ]
+ },
+ "front-page": {
+  "stats": {
+   "commits": 13,
+   "activeDays": 6,
+   "firstDay": "2026-08-18",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-22",
+    "subject": "Cute Pass: frontpage"
+   },
+   {
+    "date": "2026-08-21",
+    "subject": "Ads only: remove the in-app purchase"
+   },
+   {
+    "date": "2026-08-20",
+    "subject": "Front Page: the art was the bug, not the taste"
+   },
+   {
+    "date": "2026-08-19",
+    "subject": "Slate finish: all 15 games now build a signed release bundle"
+   },
+   {
+    "date": "2026-08-18",
+    "subject": "Sentry-minimal project shell"
+   },
+   {
+    "date": "2026-08-18",
+    "subject": "Scaffold Front Page"
+   }
+  ]
+ },
+ "lemon-lot": {
+  "stats": {
+   "commits": 14,
+   "activeDays": 3,
+   "firstDay": "2026-08-20",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-22",
+    "subject": "Give the cars names"
+   },
+   {
+    "date": "2026-08-22",
+    "subject": "The simulation, measured rather than projected"
+   }
+  ]
+ },
+ "lost-property": {
+  "stats": {
+   "commits": 11,
+   "activeDays": 6,
+   "firstDay": "2026-08-18",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-22",
+    "subject": "Cute Pass: lostproperty"
+   },
+   {
+    "date": "2026-08-21",
+    "subject": "Ads only: remove the in-app purchase"
+   },
+   {
+    "date": "2026-08-19",
+    "subject": "Slate finish: all 15 games now build a signed release bundle"
+   },
+   {
+    "date": "2026-08-18",
+    "subject": "Sentry-minimal project shell"
+   },
+   {
+    "date": "2026-08-18",
+    "subject": "Scaffold Lost Property"
+   }
+  ]
+ },
+ "night-shift": {
+  "stats": {
+   "commits": 12,
+   "activeDays": 6,
+   "firstDay": "2026-08-18",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-22",
+    "subject": "Night Shift: the game is a finger on the ward now"
+   },
+   {
+    "date": "2026-08-21",
+    "subject": "Ads only: remove the in-app purchase"
+   },
+   {
+    "date": "2026-08-19",
+    "subject": "Slate finish: all 15 games now build a signed release bundle"
+   },
+   {
+    "date": "2026-08-18",
+    "subject": "Sentry-minimal project shell"
+   }
+  ]
+ },
+ "rap-sheet": {
+  "stats": {
+   "commits": 4,
+   "activeDays": 4,
+   "firstDay": "2026-08-20",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-24",
+    "subject": "Rap Sheet: the skeleton and the simulation"
+   }
+  ]
+ },
+ "reading-room": {
+  "stats": {
+   "commits": 12,
+   "activeDays": 6,
+   "firstDay": "2026-08-17",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-22",
+    "subject": "Cute Pass: readingroom"
+   },
+   {
+    "date": "2026-08-21",
+    "subject": "Ads only: remove the in-app purchase"
+   },
+   {
+    "date": "2026-08-19",
+    "subject": "Slate finish: all 15 games now build a signed release bundle"
+   }
+  ]
+ },
+ "route": {
+  "stats": {
+   "commits": 10,
+   "activeDays": 6,
+   "firstDay": "2026-08-18",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-19",
+    "subject": "Slate finish: all 15 games now build a signed release bundle"
+   },
+   {
+    "date": "2026-08-18",
+    "subject": "Wire Route's own live AdMob ids"
+   },
+   {
+    "date": "2026-08-18",
+    "subject": "Sentry-minimal project shell"
+   }
+  ]
+ },
+ "scoop": {
+  "stats": {
+   "commits": 14,
+   "activeDays": 6,
+   "firstDay": "2026-08-17",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-21",
+    "subject": "Faces at the counter, a guided first rush, a gentler opening, no IAP"
+   },
+   {
+    "date": "2026-08-19",
+    "subject": "Slate finish: all 15 games now build a signed release bundle"
+   }
+  ]
+ },
+ "slumlord": {
+  "stats": {
+   "commits": 29,
+   "activeDays": 3,
+   "firstDay": "2026-08-20",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-22",
+    "subject": "Put the new decisions on the first screen"
+   },
+   {
+    "date": "2026-08-22",
+    "subject": "An empty flat is a decision now, not a dice roll"
+   },
+   {
+    "date": "2026-08-22",
+    "subject": "One card on the map that says the thing worth knowing"
+   },
+   {
+    "date": "2026-08-22",
+    "subject": "Fail the build when writing is unreachable"
+   },
+   {
+    "date": "2026-08-22",
+    "subject": "The council writes to you"
+   },
+   {
+    "date": "2026-08-22",
+    "subject": "The month summary now knows what kind of month it was"
+   },
+   {
+    "date": "2026-08-22",
+    "subject": "Show the tenant, not just the fault"
+   },
+   {
+    "date": "2026-08-22",
+    "subject": "Three things the screenshots showed that no test could"
+   },
+   {
+    "date": "2026-08-22",
+    "subject": "Implement the six rewarded offers in the simulation"
+   },
+   {
+    "date": "2026-08-22",
+    "subject": "Make the suite actually build the game"
+   },
+   {
+    "date": "2026-08-22",
+    "subject": "The deck-to-kind bridge is now the identity"
+   },
+   {
+    "date": "2026-08-22",
+    "subject": "Retarget the copied tooling at this game"
+   },
+   {
+    "date": "2026-08-22",
+    "subject": "Fix a crash on boot: the router called a function Music does not have"
+   },
+   {
+    "date": "2026-08-22",
+    "subject": "Drop the last cross-game reference in SentryGate"
+   },
+   {
+    "date": "2026-08-22",
+    "subject": "Analytics: ask this game's questions, not the other slate's"
+   },
+   {
+    "date": "2026-08-22",
+    "subject": "Icon, splash and store graphics"
+   },
+   {
+    "date": "2026-08-22",
+    "subject": "Slumlord: engine, screens, art pipeline and the balance guard"
+   }
+  ]
+ },
+ "supply-run": {
+  "stats": {
+   "commits": 11,
+   "activeDays": 6,
+   "firstDay": "2026-08-18",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-22",
+    "subject": "Cute Pass: supplyrun"
+   },
+   {
+    "date": "2026-08-21",
+    "subject": "Ads only: remove the in-app purchase"
+   },
+   {
+    "date": "2026-08-19",
+    "subject": "Slate finish: all 15 games now build a signed release bundle"
+   }
+  ]
+ },
+ "the-fence": {
+  "stats": {
+   "commits": 4,
+   "activeDays": 4,
+   "firstDay": "2026-08-20",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-27",
+    "subject": "Remove IAP and finalize ad-supported Android release"
+   }
+  ]
+ },
+ "trace": {
+  "stats": {
+   "commits": 11,
+   "activeDays": 6,
+   "firstDay": "2026-08-17",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-22",
+    "subject": "Cute Pass: trace"
+   },
+   {
+    "date": "2026-08-21",
+    "subject": "Ads only: remove the in-app purchase"
+   },
+   {
+    "date": "2026-08-19",
+    "subject": "Slate finish: all 15 games now build a signed release bundle"
+   }
+  ]
+ },
+ "wrong-shift": {
+  "stats": {
+   "commits": 14,
+   "activeDays": 6,
+   "firstDay": "2026-08-18",
+   "lastDay": "2026-08-29",
+   "version": "",
+   "tags": []
+  },
+  "intro": "",
+  "entries": [
+   {
+    "date": "2026-08-22",
+    "subject": "Cute Pass: wrongshift"
+   },
+   {
+    "date": "2026-08-21",
+    "subject": "Ads only: remove the in-app purchase"
+   },
+   {
+    "date": "2026-08-19",
+    "subject": "Slate finish: all 15 games now build a signed release bundle"
+   },
+   {
+    "date": "2026-08-18",
+    "subject": "Live AdMob and Sentry: invert the guards that assumed placeholders"
    }
   ]
  }

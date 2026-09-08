@@ -62,6 +62,8 @@
                 <option value="en">EN</option>
                 <option value="ko">KR</option>
                 <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
             </select>
         </div>
     </nav>
@@ -209,14 +211,14 @@
     </div>
 
     <script>
-        const APP = {"name": {"en": "Marathon Legend", "ko": "마라톤 레전드", "ja": "マラソン・レジェンド"}, "tagline": {"en": "Train a scrappy street kid into a marathon champion.", "ko": "거리의 소년을 마라톤 챔피언으로 키워내세요.", "ja": "街の少年をマラソン王者へと育て上げよう。"}, "desc": {"en": "Marathon Legend is an endurance-running sim where you build a runner from the ground up — pace, stamina, and grit. Manage training, push through the wall, and chase the finish line across a pixel-art city at golden hour. Cloud saves keep your progress with you.", "ko": "마라톤 레전드는 지구력 러닝 시뮬레이션입니다. 페이스, 스태미나, 근성을 관리하며 러너를 성장시키고, 황혼의 픽셀 도시를 달려 결승선을 향해 나아가세요. 클라우드 저장으로 진행 상황이 안전하게 보관됩니다.", "ja": "マラソン・レジェンドは持久力ランニングシミュレーション。ペース、スタミナ、根性を管理してランナーを育て、夕暮れのピクセルシティを駆け抜けてゴールを目指そう。クラウドセーブで進行状況を安全に保存。"}};
-        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}};
+        const APP = {"name": {"en": "Marathon Legend", "ko": "마라톤 레전드", "ja": "マラソン・レジェンド", "es": "Marathon Legend", "pt-BR": "Marathon Legend"}, "tagline": {"en": "Train a scrappy street kid into a marathon champion.", "ko": "거리의 소년을 마라톤 챔피언으로 키워내세요.", "ja": "街の少年をマラソン王者へと育て上げよう。", "es": "Convierte a un chaval de la calle en campeón de maratón.", "pt-BR": "Transforme um moleque de rua em campeão de maratona."}, "desc": {"en": "Marathon Legend is an endurance-running sim where you build a runner from the ground up — pace, stamina, and grit. Manage training, push through the wall, and chase the finish line across a pixel-art city at golden hour. Cloud saves keep your progress with you.", "ko": "마라톤 레전드는 지구력 러닝 시뮬레이션입니다. 페이스, 스태미나, 근성을 관리하며 러너를 성장시키고, 황혼의 픽셀 도시를 달려 결승선을 향해 나아가세요. 클라우드 저장으로 진행 상황이 안전하게 보관됩니다.", "ja": "マラソン・レジェンドは持久力ランニングシミュレーション。ペース、スタミナ、根性を管理してランナーを育て、夕暮れのピクセルシティを駆け抜けてゴールを目指そう。クラウドセーブで進行状況を安全に保存。", "es": "Marathon Legend es un simulador de carrera de fondo donde construyes a un corredor desde cero: ritmo, resistencia y carácter. Gestiona los entrenamientos, atraviesa el muro y persigue la meta por una ciudad en pixel art a la hora dorada. Las partidas guardadas en la nube llevan tu progreso contigo.", "pt-BR": "Marathon Legend é um simulador de corrida de resistência em que você constrói um corredor do zero: ritmo, fôlego e raça. Gerencie os treinos, atravesse a parede e persiga a linha de chegada por uma cidade em pixel art na hora dourada. Os saves na nuvem levam seu progresso com você."}};
+        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "shots": "Capturas //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
-            return ['en','ko','ja'].includes(l) ? l : 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
         }
         function switchLang(lang) {
-            if (!['en','ko','ja'].includes(lang)) lang = 'ko';
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
             localStorage.setItem('crystl_lang', lang);
             document.getElementById('langSelect').value = lang;
             document.getElementById('apName').textContent = APP.name[lang];
