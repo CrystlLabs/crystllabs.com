@@ -87,8 +87,6 @@ def render_contact():
                 <div class="mt-6 rounded-2xl border border-white/10 bg-panelBg/40 p-5 md:p-6">
                     <h2 class="font-mono text-[11px] uppercase tracking-widest text-gray-500 mb-3">Elsewhere</h2>
                     <div class="flex flex-wrap gap-2.5 font-mono text-xs">
-                        <a href="https://x.com/crystllabs" class="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-gray-300 hover:text-white hover:border-brandPink/40 transition-colors">X &mdash; @crystllabs</a>
-                        <a href="https://x.com/ap39ap39" class="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-gray-300 hover:text-white hover:border-brandPink/40 transition-colors">X &mdash; @ap39ap39 (dev)</a>
                         <a href="https://ap39.crystllabs.com/" class="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-gray-300 hover:text-white hover:border-brandPink/40 transition-colors">ap39 &mdash; personal site</a>
                     </div>
                     <p class="mt-4 text-xs text-gray-500 leading-relaxed">Mail is the only channel that is checked every day. Social replies are best-effort. We do not accept unsolicited game pitches, and we do not buy backlinks, guest posts or sponsored placements &mdash; those mails are deleted unread.</p>
