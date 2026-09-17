@@ -31,7 +31,7 @@ def render_contact():
                     'addressRegion': 'Gyeonggi-do', 'addressCountry': 'KR'},
         'contactPoint': [{'@type': 'ContactPoint', 'contactType': 'customer support',
                           'email': EMAIL, 'availableLanguage': ['en', 'ko']}],
-        'sameAs': ['https://x.com/crystllabs', 'https://t.me/crystllabsTG'],
+        'sameAs': [],
     }, ensure_ascii=False)
 
     head = HEAD.format(
@@ -56,9 +56,21 @@ def render_contact():
             f'underline-offset-2 transition-colors">{EMAIL}</a>')
 
     return head + f'''            <div class="max-w-3xl mx-auto">
+                <header class="mb-6">
+                    <h1 class="text-3xl md:text-5xl font-extrabold text-white">Contact</h1>
+                    <p class="mt-3 text-gray-400 text-sm md:text-base leading-relaxed">For support, privacy, press, or anything else, email us.</p>
+                </header>
+                <div class="rounded-2xl border border-white/10 bg-panelBg/60 p-5 md:p-6 shadow-lg shadow-black/20">
+                    <h2 class="font-mono text-[11px] uppercase tracking-widest text-brandGreen/90 mb-3">Email</h2>
+                    <p class="text-sm text-gray-300 leading-relaxed">{mail}</p>
+                </div>
+            </div>
+''' + TAIL
+
+    return head + f'''            <div class="max-w-3xl mx-auto">
                 <header class="mb-8">
                     <h1 class="text-3xl md:text-5xl font-extrabold text-white">Contact</h1>
-                    <p class="mt-3 text-gray-400 text-sm md:text-base leading-relaxed">Crystl Labs is a one-person studio in Siheung-si, Gyeonggi-do, South Korea. There is no support desk and no ticket queue &mdash; mail goes straight to the person who wrote the code.</p>
+                    <p class="mt-3 text-gray-400 text-sm md:text-base leading-relaxed">For support, privacy, press, or anything else, email us.</p>
                 </header>
 
                 <div class="grid gap-4 md:grid-cols-2">{card('Support and bug reports', f"""
@@ -75,7 +87,6 @@ def render_contact():
                 <div class="mt-6 rounded-2xl border border-white/10 bg-panelBg/40 p-5 md:p-6">
                     <h2 class="font-mono text-[11px] uppercase tracking-widest text-gray-500 mb-3">Elsewhere</h2>
                     <div class="flex flex-wrap gap-2.5 font-mono text-xs">
-                        <a href="https://t.me/crystllabsTG" class="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-gray-300 hover:text-white hover:border-brandPink/40 transition-colors">Telegram &mdash; community</a>
                         <a href="https://x.com/crystllabs" class="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-gray-300 hover:text-white hover:border-brandPink/40 transition-colors">X &mdash; @crystllabs</a>
                         <a href="https://x.com/ap39ap39" class="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-gray-300 hover:text-white hover:border-brandPink/40 transition-colors">X &mdash; @ap39ap39 (dev)</a>
                         <a href="https://ap39.crystllabs.com/" class="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-gray-300 hover:text-white hover:border-brandPink/40 transition-colors">ap39 &mdash; personal site</a>

@@ -443,8 +443,7 @@ def render_page(app):
 def in_apps_section(app):
     """window.CRYSTL_APPS drives the Apps grid, carousel and modal only.
 
-    Not everything with a project page belongs there: Zero Cool is a PC game and
-    lives under Frontier, Rich Man Poor Man and Crystl Suite are web things and
+    Not everything with a project page belongs there: Rich Man Poor Man and Crystl Suite are web things and
     live under Sites. Those rows are their own arrays on the page and link
     straight to the project page, so keeping these out of CRYSTL_APPS is what
     stops them appearing as Android apps and as "Latest Releases".
@@ -501,6 +500,12 @@ def _seed(html_text, container_id, inner):
     return empty.sub(lambda m: m.group(1) + block + m.group(3), html_text, count=1)
 
 
+def _remove_section(html_text, section_id):
+    """Remove a retired top-level section from a static page."""
+    pattern = re.compile(r'\s*<section id="' + re.escape(section_id) + r'".*?</section>\s*', re.S)
+    return pattern.sub('\n', html_text, count=1)
+
+
 def _app_cards(apps, layout):
     out = []
     for a in apps:
@@ -538,6 +543,7 @@ def _heat_cards(html_text):
         src = entry.group(1)
         name = re.search(r'name\s*:\s*"([^"]*)"', src)
         tag = re.search(r'tag\s*:\s*"([^"]*)"', src)
+        icon = re.search(r'icon\s*:\s*"([^"]*)"', src)
         if not name:
             continue
         name = name.group(1)
@@ -546,8 +552,12 @@ def _heat_cards(html_text):
         badge = re.search(r'badge\s*:\s*"([^"]*)"', src)
         tag_html = f'\n                            <p class="mt-0.5 text-xs md:text-sm text-gray-400">{esc(tag.group(1))}</p>' if tag else ''
         label = esc(badge.group(1)) if badge else 'Prerelease'
+        icon_path = icon.group(1) if icon else ('assets/crystlquant-logo.png' if name == 'Crystl Quant' else '')
+        icon_html = (f'<img src="{esc(icon_path)}" alt="" class="w-20 h-20 shrink-0 rounded-2xl border border-white/10 object-cover">'
+                     if icon_path else
+                     f'<div class="w-14 h-14 md:w-16 md:h-16 shrink-0 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-xl md:text-2xl font-extrabold text-gradient">{esc(initial)}</div>')
         inner = f'''
-                            <div class="w-14 h-14 md:w-16 md:h-16 shrink-0 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-xl md:text-2xl font-extrabold text-gradient">{esc(initial)}</div>
+                            {icon_html}
                             <div>
                                 <h3 class="text-base md:text-lg font-bold text-white leading-tight{' group-hover:text-brandPink transition-colors' if url else ''}">{esc(name)}</h3>{tag_html}
                                 <span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">{label}</span>
@@ -647,6 +657,8 @@ def seed_static_cards(apps):
         with open(path, 'r', encoding='utf-8') as f:
             text = f.read()
         original = text
+        for retired in (['writing', 'sites'] if name == 'index.html' else ['sites']):
+            text = _remove_section(text, retired)
         for container_id, spec in containers:
             if spec is None:
                 inner = _heat_cards(text)

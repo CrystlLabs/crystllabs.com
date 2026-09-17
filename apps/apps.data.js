@@ -39,44 +39,6 @@ window.CRYSTL_APPS = [
         ]
     },
     {
-        "id": "chess-drill-instructor",
-        "slug": "chess-drill-instructor",
-        "icon": "apps/chess-drill-instructor.png",
-        "page": "apps/chess-drill-instructor.html",
-        "tier": "Volume",
-        "platform": "Android",
-        "name": {
-            "en": "Chess Drill Instructor",
-            "ko": "체스 드릴 인스트럭터",
-            "ja": "チェス・ドリル・インストラクター",
-            "es": "Chess Drill Instructor",
-            "pt-BR": "Chess Drill Instructor"
-        },
-        "tagline": {
-            "en": "A no-excuses drill sergeant that grinds your chess tactics sharp.",
-            "ko": "변명은 통하지 않는 훈련 교관이 당신의 체스 전술을 단련시킵니다.",
-            "ja": "言い訳無用の鬼教官があなたのチェス戦術を鍛え上げる。",
-            "es": "Un sargento instructor sin excusas que te afila las tácticas de ajedrez.",
-            "pt-BR": "Um sargento instrutor sem desculpas que afia suas táticas de xadrez."
-        },
-        "desc": {
-            "en": "Chess Drill Instructor is tactics training with attitude. A relentless drill sergeant runs you through puzzle sets, calls out your blunders, and drills the patterns until they're second nature. Powered by an AI tactics engine, built to make you sharper one rep at a time.",
-            "ko": "체스 드릴 인스트럭터는 개성 넘치는 전술 훈련 앱입니다. 엄격한 교관이 퍼즐 세트를 반복시키고, 실수를 지적하며, 패턴이 몸에 밸 때까지 단련시킵니다. AI 전술 엔진 기반으로, 한 세트씩 당신을 더 날카롭게 만듭니다.",
-            "ja": "チェス・ドリル・インストラクターは個性派の戦術トレーニング。厳しい教官がパズルを反復させ、ミスを指摘し、パターンが体に染みつくまで叩き込む。AI戦術エンジン搭載で、一問ごとにあなたを鋭くする。",
-            "es": "Chess Drill Instructor es entrenamiento táctico con actitud. Un sargento instructor implacable te hace pasar por series de problemas, te canta los errores y machaca los patrones hasta que salen solos. Impulsado por un motor táctico con IA, hecho para volverte más agudo repetición a repetición.",
-            "pt-BR": "Chess Drill Instructor é treino tático com atitude. Um sargento instrutor implacável te leva por séries de problemas, aponta seus erros e martela os padrões até virarem instinto. Movido por um motor tático com IA, feito para te deixar mais afiado uma repetição por vez."
-        },
-        "status": "Live",
-        "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.chessdrillinstructor",
-        "screenshots": [
-            "apps/shots/chess-drill-instructor/01.jpg",
-            "apps/shots/chess-drill-instructor/02.jpg",
-            "apps/shots/chess-drill-instructor/03.jpg",
-            "apps/shots/chess-drill-instructor/04.jpg",
-            "apps/shots/chess-drill-instructor/05.jpg"
-        ]
-    },
-    {
         "id": "letterman",
         "slug": "letterman",
         "icon": "apps/letterman.png",
@@ -1737,6 +1699,82 @@ window.CRYSTL_APPS = [
             "apps/shots/bent-fc-tournament/03.jpg",
             "apps/shots/bent-fc-tournament/04.jpg",
             "apps/shots/bent-fc-tournament/05.jpg"
+        ]
+    },
+    {
+        "id": "chess-drill-instructor",
+        "slug": "chess-drill-instructor",
+        "icon": "apps/chess-drill-instructor.png",
+        "page": "apps/chess-drill-instructor.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "Chess Drill Instructor",
+            "ko": "체스 드릴 인스트럭터",
+            "ja": "チェス・ドリル・インストラクター",
+            "es": "Chess Drill Instructor",
+            "pt-BR": "Chess Drill Instructor"
+        },
+        "tagline": {
+            "en": "A no-excuses drill sergeant that grinds your chess tactics sharp.",
+            "ko": "변명은 통하지 않는 훈련 교관이 당신의 체스 전술을 단련시킵니다.",
+            "ja": "言い訳無用の鬼教官があなたのチェス戦術を鍛え上げる。",
+            "es": "Un sargento instructor sin excusas que te afila las tácticas de ajedrez.",
+            "pt-BR": "Um sargento instrutor sem desculpas que afia suas táticas de xadrez."
+        },
+        "desc": {
+            "en": "Chess Drill Instructor is tactics training with attitude. A relentless drill sergeant runs you through puzzle sets, calls out your blunders, and drills the patterns until they're second nature. Powered by an AI tactics engine, built to make you sharper one rep at a time.",
+            "ko": "체스 드릴 인스트럭터는 개성 넘치는 전술 훈련 앱입니다. 엄격한 교관이 퍼즐 세트를 반복시키고, 실수를 지적하며, 패턴이 몸에 밸 때까지 단련시킵니다. AI 전술 엔진 기반으로, 한 세트씩 당신을 더 날카롭게 만듭니다.",
+            "ja": "チェス・ドリル・インストラクターは個性派の戦術トレーニング。厳しい教官がパズルを反復させ、ミスを指摘し、パターンが体に染みつくまで叩き込む。AI戦術エンジン搭載で、一問ごとにあなたを鋭くする。",
+            "es": "Chess Drill Instructor es entrenamiento táctico con actitud. Un sargento instructor implacable te hace pasar por series de problemas, te canta los errores y machaca los patrones hasta que salen solos. Impulsado por un motor táctico con IA, hecho para volverte más agudo repetición a repetición.",
+            "pt-BR": "Chess Drill Instructor é treino tático com atitude. Um sargento instrutor implacável te leva por séries de problemas, aponta seus erros e martela os padrões até virarem instinto. Movido por um motor tático com IA, feito para te deixar mais afiado uma repetição por vez."
+        },
+        "status": "In development",
+        "storeUrl": "",
+        "screenshots": [
+            "apps/shots/chess-drill-instructor/01.jpg",
+            "apps/shots/chess-drill-instructor/02.jpg",
+            "apps/shots/chess-drill-instructor/03.jpg",
+            "apps/shots/chess-drill-instructor/04.jpg",
+            "apps/shots/chess-drill-instructor/05.jpg"
+        ]
+    },
+    {
+        "id": "zero-cool",
+        "slug": "zero-cool",
+        "icon": "apps/zero-cool.png",
+        "page": "apps/zero-cool.html",
+        "tier": "Flagship",
+        "platform": "PC (Steam)",
+        "name": {
+            "en": "Zero Cool",
+            "ko": "제로 쿨",
+            "ja": "ゼロ・クール",
+            "es": "Zero Cool",
+            "pt-BR": "Zero Cool"
+        },
+        "tagline": {
+            "en": "Script kiddy to kingpin. Build the crew, take the neighborhood.",
+            "ko": "스크립트 키디에서 조직 보스까지. 크루를 키우고 동네를 접수하세요.",
+            "ja": "スクリプトキディからキングピンへ。クルーを育て、街を掌握しろ。",
+            "es": "De script kiddie a capo. Monta la banda y toma el barrio.",
+            "pt-BR": "De script kiddie a chefão. Monte a equipe e tome o bairro."
+        },
+        "desc": {
+            "en": "Zero Cool is a street-to-kingpin crime empire game for PC, premium and one-time purchase with no in-app purchases. You start as a script kiddy with a rig in a bedroom and four hacking verbs, and finish running a neighborhood. Five chapters, each recruiting one crew member with a skill of their own: the hacker, the enforcer, and the ones after them. Underneath sits a living city that keeps moving whether you are watching or not: around 200 simulated residents, a law system that reacts, rival factions, territory that changes hands, and a market that prices itself. The project began as a pure hacking sim and pivoted in July 2026 to the crime empire above. Hacking became Chapter 1 and the crew's first skill, and roughly eighty percent of the original engine carried straight over.",
+            "ko": "제로 쿨은 PC용 범죄 제국 게임입니다. 프리미엄 단일 구매이며 인앱 결제는 없습니다. 침실의 낡은 장비와 네 가지 해킹 동사만 가진 스크립트 키디로 시작해, 동네 전체를 장악하며 끝납니다. 다섯 개의 챕터마다 고유한 기술을 가진 크루원이 한 명씩 합류합니다. 해커, 해결사, 그리고 그 뒤를 잇는 이들. 그 아래에는 플레이어가 보든 말든 계속 돌아가는 도시가 있습니다. 약 200명의 시뮬레이션 주민, 반응하는 법 집행 시스템, 라이벌 세력, 주인이 바뀌는 구역, 그리고 스스로 가격을 정하는 시장. 이 프로젝트는 순수 해킹 시뮬레이터로 시작해 2026년 7월 위 형태로 전환되었습니다. 해킹은 챕터 1이자 크루의 첫 기술이 되었고, 기존 엔진의 약 80퍼센트가 그대로 이어졌습니다.",
+            "ja": "ゼロ・クールは PC 向けの犯罪帝国ゲームです。買い切りのプレミアム版で、アプリ内課金はありません。寝室のリグと4つのハッキング動詞だけを持つスクリプトキディとして始まり、街を仕切る側で終わります。5つの章それぞれで、独自スキルを持つクルーが1人ずつ加わります。ハッカー、エンフォーサー、そしてその先へ。その土台には、プレイヤーが見ていようといまいと動き続ける街があります。約200人のシミュレートされた住民、反応する法システム、対立勢力、持ち主が変わる縄張り、そして自ら値を決める市場。本作は純粋なハッキングシムとして始まり、2026年7月に上記の形へ方向転換しました。ハッキングは第1章とクルーの最初のスキルになり、既存エンジンの約8割がそのまま引き継がれています。",
+            "es": "Zero Cool es un juego de imperio criminal de la calle al trono para PC, premium y de compra única sin compras dentro de la aplicación. Empiezas como script kiddie con un equipo en un dormitorio y cuatro verbos de hackeo, y terminas dirigiendo un barrio. Cinco capítulos, cada uno recluta a un miembro con una habilidad propia: el hacker, el ejecutor y los que vienen después. Debajo hay una ciudad viva que sigue moviéndose la mires o no: unos doscientos residentes simulados, un sistema legal que reacciona, facciones rivales, territorio que cambia de manos y un mercado que se pone precio solo. El proyecto empezó como simulador de hackeo puro y viró en julio de 2026 al imperio criminal de arriba.",
+            "pt-BR": "Zero Cool é um jogo de império criminoso da rua ao topo para PC, premium e de compra única sem compras no app. Você começa como script kiddie com um PC no quarto e quatro verbos de hackeamento, e termina comandando um bairro. Cinco capítulos, cada um recrutando um membro com uma habilidade própria: o hacker, o executor e os que vêm depois. Por baixo há uma cidade viva que segue se movendo esteja você olhando ou não: cerca de duzentos moradores simulados, um sistema legal que reage, facções rivais, território que troca de mãos e um mercado que se precifica sozinho. O projeto começou como sim de hackeamento puro e virou em julho de 2026 no império criminoso acima."
+        },
+        "status": "In development",
+        "storeUrl": "",
+        "screenshots": [
+            "apps/shots/zero-cool/01.jpg",
+            "apps/shots/zero-cool/02.jpg",
+            "apps/shots/zero-cool/03.jpg",
+            "apps/shots/zero-cool/04.jpg",
+            "apps/shots/zero-cool/05.jpg"
         ]
     },
     {

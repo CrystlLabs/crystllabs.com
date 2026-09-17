@@ -107,7 +107,7 @@
                         <div class="flex flex-wrap items-center gap-2 mt-2">
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
-                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 border border-gray-500/40 bg-gray-500/10 rounded px-1.5 py-0.5">In development</span>
                         </div>
                     </div>
                 </header>
@@ -116,10 +116,10 @@
 
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Chess Drill Instructor is tactics training with attitude. A relentless drill sergeant runs you through puzzle sets, calls out your blunders, and drills the patterns until they&#x27;re second nature. Powered by an AI tactics engine, built to make you sharper one rep at a time.</p>
 
-                <a id="apStoreLink" href="https://play.google.com/store/apps/details?id=com.crystllabs.chessdrillinstructor" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
-                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
-                    <span id="apStore">Get it on Google Play</span>
-                </a>
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
 
                 <section class="mt-10">
                     <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
@@ -196,7 +196,7 @@
 
     <script>
         const APP = {"name": {"en": "Chess Drill Instructor", "ko": "체스 드릴 인스트럭터", "ja": "チェス・ドリル・インストラクター", "es": "Chess Drill Instructor", "pt-BR": "Chess Drill Instructor"}, "tagline": {"en": "A no-excuses drill sergeant that grinds your chess tactics sharp.", "ko": "변명은 통하지 않는 훈련 교관이 당신의 체스 전술을 단련시킵니다.", "ja": "言い訳無用の鬼教官があなたのチェス戦術を鍛え上げる。", "es": "Un sargento instructor sin excusas que te afila las tácticas de ajedrez.", "pt-BR": "Um sargento instrutor sem desculpas que afia suas táticas de xadrez."}, "desc": {"en": "Chess Drill Instructor is tactics training with attitude. A relentless drill sergeant runs you through puzzle sets, calls out your blunders, and drills the patterns until they're second nature. Powered by an AI tactics engine, built to make you sharper one rep at a time.", "ko": "체스 드릴 인스트럭터는 개성 넘치는 전술 훈련 앱입니다. 엄격한 교관이 퍼즐 세트를 반복시키고, 실수를 지적하며, 패턴이 몸에 밸 때까지 단련시킵니다. AI 전술 엔진 기반으로, 한 세트씩 당신을 더 날카롭게 만듭니다.", "ja": "チェス・ドリル・インストラクターは個性派の戦術トレーニング。厳しい教官がパズルを反復させ、ミスを指摘し、パターンが体に染みつくまで叩き込む。AI戦術エンジン搭載で、一問ごとにあなたを鋭くする。", "es": "Chess Drill Instructor es entrenamiento táctico con actitud. Un sargento instructor implacable te hace pasar por series de problemas, te canta los errores y machaca los patrones hasta que salen solos. Impulsado por un motor táctico con IA, hecho para volverte más agudo repetición a repetición.", "pt-BR": "Chess Drill Instructor é treino tático com atitude. Um sargento instrutor implacável te leva por séries de problemas, aponta seus erros e martela os padrões até virarem instinto. Movido por um motor tático com IA, feito para te deixar mais afiado uma repetição por vez."}};
-        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "shots": "Capturas //"}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
             return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';

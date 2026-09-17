@@ -199,7 +199,6 @@ def sidebar(root, active):
 
     links = ''.join('\n                            ' + item(h, l) for h, l in (
         ('projects.html', 'projects.html'),
-        ('blogs.html', 'blogs.html'),
         ('personnel.html', 'personnel.html'),
         ('contact.html', 'contact.html'),
         ('privacy.html', 'privacy.html'),

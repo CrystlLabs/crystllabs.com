@@ -19,13 +19,12 @@
   const url = (value) => `${root}/${value}`;
   const links = [
     ['Projects', 'projects.html'],
-    ['Journal', 'blogs.html'],
     ['Studio', 'personnel.html'],
     ['Contact', 'contact.html']
   ];
   const isCurrent = (href) => path.endsWith(`/${href}`)
     || (href === 'projects.html' && path.includes('/apps/'))
-    || (href === 'blogs.html' && path.includes('/blog/'));
+    ;
 
   const nav = document.querySelector('body > nav');
   if (nav) {

@@ -439,8 +439,8 @@
     "es": "Chess Drill Instructor es entrenamiento táctico con actitud. Un sargento instructor implacable te hace pasar por series de problemas, te canta los errores y machaca los patrones hasta que salen solos. Impulsado por un motor táctico con IA, hecho para volverte más agudo repetición a repetición.",
     "pt-BR": "Chess Drill Instructor é treino tático com atitude. Um sargento instrutor implacável te leva por séries de problemas, aponta seus erros e martela os padrões até virarem instinto. Movido por um motor tático com IA, feito para te deixar mais afiado uma repetição por vez."
    },
-   "status": "Live",
-   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.chessdrillinstructor",
+   "status": "In development",
+   "storeUrl": "",
    "releasedOn": "2026-09-07",
    "screenshots": [
     "shots/chess-drill-instructor/01.jpg",
@@ -874,7 +874,7 @@
     "es": "Zero Cool es un juego de imperio criminal de la calle al trono para PC, premium y de compra única sin compras dentro de la aplicación. Empiezas como script kiddie con un equipo en un dormitorio y cuatro verbos de hackeo, y terminas dirigiendo un barrio. Cinco capítulos, cada uno recluta a un miembro con una habilidad propia: el hacker, el ejecutor y los que vienen después. Debajo hay una ciudad viva que sigue moviéndose la mires o no: unos doscientos residentes simulados, un sistema legal que reacciona, facciones rivales, territorio que cambia de manos y un mercado que se pone precio solo. El proyecto empezó como simulador de hackeo puro y viró en julio de 2026 al imperio criminal de arriba.",
     "pt-BR": "Zero Cool é um jogo de império criminoso da rua ao topo para PC, premium e de compra única sem compras no app. Você começa como script kiddie com um PC no quarto e quatro verbos de hackeamento, e termina comandando um bairro. Cinco capítulos, cada um recrutando um membro com uma habilidade própria: o hacker, o executor e os que vêm depois. Por baixo há uma cidade viva que segue se movendo esteja você olhando ou não: cerca de duzentos moradores simulados, um sistema legal que reage, facções rivais, território que troca de mãos e um mercado que se precifica sozinho. O projeto começou como sim de hackeamento puro e virou em julho de 2026 no império criminoso acima."
    },
-   "section": "frontier"
+   "section": "apps"
   },
   {
    "slug": "bent-fc-tournament",
