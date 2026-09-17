@@ -49,7 +49,6 @@
 
     const tools = document.createElement('div');
     tools.className = 'crystl-nav-tools';
-    tools.innerHTML = '<span class="crystl-status">Seoul · Online</span>';
     if (lang) tools.appendChild(lang);
 
     nav.replaceChildren(brand, primary, tools);
