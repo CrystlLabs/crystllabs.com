@@ -369,9 +369,7 @@ def render_page(app):
                                 <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
                             </a>
                         </li>
-                        <li><a href="../blogs.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">blogs.html</a></li>
                         <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
-                        <li><a href="../contact.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">contact.html</a></li>
                         <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
                         <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
                         <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
@@ -701,10 +699,8 @@ def blog_slugs():
 
 TOP_PAGES = [
     ('', '1.0'),
-    ('blogs.html', '0.9'),
     ('projects.html', '0.8'),
     ('personnel.html', '0.6'),
-    ('contact.html', '0.6'),
     ('privacy.html', '0.4'),
     ('terms.html', '0.4'),
     ('data-deletion.html', '0.4'),
@@ -716,10 +712,6 @@ def write_sitemap(apps):
     (see render_page), so listing them here would just contradict it."""
     urls = [f'{SITE}/{p}' for p, _ in TOP_PAGES]
     prios = [pr for _, pr in TOP_PAGES]
-
-    for slug in blog_slugs():
-        urls.append(f'{SITE}/blog/{slug}.html')
-        prios.append('0.9')
 
     for a in apps:
         if not is_indexable(a):

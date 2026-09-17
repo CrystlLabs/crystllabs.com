@@ -123,19 +123,14 @@ REDIRECT = '''<!DOCTYPE html>
 
 
 def main():
-    out = os.path.join(ROOT, 'contact.html')
-    with open(out, 'w', encoding='utf-8', newline='') as f:
-        f.write(render_contact())
-    print('[PAGE] contact.html')
-
     # ceo-blog.html shipped one placeholder post ("Untitled Dispatch") whose only
     # link was a 404 to ceo/ceo_template.html. An orphan page with no content and
     # a dead link is exactly what a policy review penalises, so it now forwards to
     # the real blog instead of being indexed.
     with open(os.path.join(ROOT, 'ceo-blog.html'), 'w', encoding='utf-8', newline='') as f:
         f.write(REDIRECT.format(
-            title='Crystl Labs', to='blogs.html', label='the blog',
-            canonical=f'{SITE}/blogs.html',
+            title='Crystl Labs', to='index.html', label='the home page',
+            canonical=f'{SITE}/',
             why='Placeholder CEO page retired; its only post was never written.'))
     print('[PAGE] ceo-blog.html -> redirect to blogs.html')
 

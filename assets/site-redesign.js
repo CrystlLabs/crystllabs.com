@@ -19,8 +19,7 @@
   const url = (value) => `${root}/${value}`;
   const links = [
     ['Projects', 'projects.html'],
-    ['Studio', 'personnel.html'],
-    ['Contact', 'contact.html']
+    ['Studio', 'personnel.html']
   ];
   const isCurrent = (href) => path.endsWith(`/${href}`)
     || (href === 'projects.html' && path.includes('/apps/'))
@@ -76,7 +75,7 @@
     const mobileLinks = [...links, ['Privacy', 'privacy.html']];
     sidebar.innerHTML = `<nav class="crystl-mobile-menu" aria-label="Mobile navigation">
       ${mobileLinks.map(([label, href]) => `<a href="${url(href)}"${isCurrent(href) ? ' aria-current="page"' : ''}>${label}</a>`).join('')}
-      <small>Independent · Seoul · Online<br>Elegant worlds, deeply simulated.</small>
+      <small>Elegant worlds, deeply simulated.</small>
     </nav>`;
   }
 
@@ -87,6 +86,12 @@
 
   if (isHome) buildImpossibleWindow();
   else buildPocketWorld();
+
+  if (isHome) {
+    const appsSection = document.getElementById('apps');
+    const frontierSection = document.getElementById('frontier');
+    if (appsSection && frontierSection) appsSection.parentNode.insertBefore(frontierSection, appsSection);
+  }
 
   const revealTargets = document.querySelectorAll('main > div > section, main article > section, #appGrid > *, #heatGrid > *, #siteGrid > *');
   if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
@@ -115,7 +120,7 @@
   if (!document.querySelector('meta[http-equiv="refresh"]')) {
     const footer = document.createElement('footer');
     footer.className = 'crystl-footer';
-    footer.innerHTML = `<span>Crystl Labs · Seoul</span><nav aria-label="Legal navigation">
+    footer.innerHTML = `<nav aria-label="Legal navigation">
       <a href="${url('privacy.html')}">Privacy</a>
       <a href="${url('terms.html')}">Terms</a>
       <a href="${url('data-deletion.html')}">Data deletion</a>
@@ -143,7 +148,7 @@
       <a class="portal-plane portal-plane--three" href="${url('apps/cage-of-glory.html')}">
         <img src="${url('apps/cage-of-glory.png')}" alt=""><span class="portal-copy"><span>Cage of Glory</span><small>World 03 · MMA</small></span>
       </a>
-    </div><span class="portal-index">Drag your gaze · Enter a world</span>`;
+    </div>`;
     hero.insertAdjacentElement('afterend', portal);
 
     if (!matchMedia('(pointer: fine)').matches || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -168,7 +173,7 @@
     if (pageClass === 'crystl-app') {
       const current = document.getElementById('apIcon')?.getAttribute('src');
       images = [current || url('assets/crystl-mark.svg')];
-    } else if (['crystl-projects','crystl-journal'].includes(pageClass)) {
+    } else if (pageClass === 'crystl-projects') {
       images = [url('assets/crystlquant-logo.png'), url('apps/bent-fc.png'), url('apps/cage-of-glory.png')];
     } else {
       images = [url('assets/crystl-mark.svg')];

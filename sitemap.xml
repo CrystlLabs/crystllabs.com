@@ -5,19 +5,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://crystllabs.com/blogs.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://crystllabs.com/projects.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://crystllabs.com/personnel.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/contact.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
@@ -31,50 +23,6 @@
   <url>
     <loc>https://crystllabs.com/data-deletion.html</loc>
     <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/blog/40-hours-12ms-spike.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/blog/bus-factor-of-one.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/blog/cyberpunk-production-logs.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/blog/flat-files-over-databases.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/blog/how-to-win-velogames.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/blog/programming-against-physics.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/blog/quantum-tour-de-france-fantasy.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/blog/quantum-tour-de-france-fantasy-graded.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/blog/quantum-velogames-qaoa.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/blog/the-80mb-hello-world.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://crystllabs.com/blog/triangulating-my-cat.html</loc>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://crystllabs.com/apps/domestique.html</loc>

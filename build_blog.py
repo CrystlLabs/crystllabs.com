@@ -200,7 +200,6 @@ def sidebar(root, active):
     links = ''.join('\n                            ' + item(h, l) for h, l in (
         ('projects.html', 'projects.html'),
         ('personnel.html', 'personnel.html'),
-        ('contact.html', 'contact.html'),
         ('privacy.html', 'privacy.html'),
         ('terms.html', 'terms.html'),
         ('data-deletion.html', 'data-deletion.html'),
@@ -324,7 +323,7 @@ def render_post(p, prev_p, next_p):
                 f'{esc(other["title"])}</span></a>')
 
     return head + f'''            <article class="max-w-3xl mx-auto">
-                <a href="../blogs.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all posts</a>
+                <a href="../index.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- home</a>
 
                 <header class="mb-8 pb-8 border-b border-white/10">
                     <div class="font-mono text-[11px] uppercase tracking-widest text-brandBlue/90 mb-3">Directive {esc(p['day'])}</div>
@@ -347,7 +346,7 @@ def render_post(p, prev_p, next_p):
                     <p class="text-sm text-gray-500 leading-relaxed">Written by {AUTHOR}, who builds the apps at
                         <a href="../index.html" class="text-brandBlue hover:text-brandPink underline underline-offset-2 transition-colors">Crystl Labs</a>.
                         Numbers in these posts come from runs that were actually made, not from memory. Corrections go to
-                        <a href="../contact.html" class="text-brandBlue hover:text-brandPink underline underline-offset-2 transition-colors">contact</a>.</p>
+                        <a href="mailto:dev@crystllabs.com" class="text-brandBlue hover:text-brandPink underline underline-offset-2 transition-colors">email</a>.</p>
                     <nav class="mt-8 flex justify-between gap-4">{chip(next_p, 'Newer', 'text-left')}{chip(prev_p, 'Older', 'text-right ml-auto')}</nav>
                 </footer>
             </article>
@@ -447,11 +446,6 @@ def main():
             f.write(render_post(p, prev_p, next_p))
         print(f"[BLOG] post  -> blog/{p['slug']}.html  ({p['words']} words)")
 
-    with open(os.path.join(ROOT, 'blogs.html'), 'w', encoding='utf-8', newline='') as f:
-        f.write(render_index(posts))
-    print(f'[BLOG] index -> blogs.html ({len(posts)} posts, '
-          f'{sum(p["words"] for p in posts)} words total)')
-    seed_home_writing(posts)
     return posts
 
 

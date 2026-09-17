@@ -116,7 +116,6 @@
                     <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
                         <li><a href="projects.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_projects">projects.html</span></a></li>
                         <li><a href="personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="link_crew">personnel.html</span></a></li>
-                        <li><a href="contact.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">contact.html</a></li>
                         <li><a href="privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_privacy">privacy.html</span></a></li>
                         <li><a href="terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_terms">terms.html</span></a></li>
                         <li><a href="data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate"><span data-i18n="file_deletion">data-deletion.html</span></a></li>
@@ -148,6 +147,19 @@
                     <a href="mailto:dev@crystllabs.com" aria-label="Email Crystl Labs" class="w-12 h-12 rounded-xl border border-white/10 bg-panelBg/60 text-gray-400 flex items-center justify-center hover:text-brandPink hover:border-brandPink/40 hover:bg-panelBg transition-colors shadow-lg shadow-black/20">
                         <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M3 7.5A1.5 1.5 0 014.5 6h15A1.5 1.5 0 0121 7.5v9a1.5 1.5 0 01-1.5 1.5h-15A1.5 1.5 0 013 16.5v-9z"/><path stroke-linecap="round" stroke-linejoin="round" d="M3.5 7l8.5 6 8.5-6"/></svg>
                     </a>
+                </section>
+
+                <section id="frontier" class="mb-8 md:mb-10">
+                    <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4 md:mb-5" data-i18n="heat_head">Frontier //</h2>
+                    <div id="heatCarousel" class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6"><!-- prerender:heatCarousel -->
+                        <div class="group rounded-2xl border border-brandBlue/30 bg-gradient-to-br from-brandBlue/10 via-panelBg/60 to-brandPink/5 p-5 md:p-6 shadow-lg shadow-black/20 flex items-center gap-4">
+                            <img src="assets/crystlquant-logo.png" alt="" class="w-20 h-20 shrink-0 rounded-2xl border border-white/10 object-cover">
+                            <div>
+                                <h3 class="text-base md:text-lg font-bold text-white leading-tight">Crystl Quant</h3>
+                                <span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Prerelease</span>
+                            </div>
+                        </div>
+                    <!-- /prerender:heatCarousel --></div>
                 </section>
 
                 <section id="apps" class="mb-8 md:mb-12">
@@ -495,18 +507,7 @@
                     <!-- /prerender:appCarousel --></div>
                 </section>
 
-                <section id="frontier" class="mb-8 md:mb-10">
-                    <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4 md:mb-5" data-i18n="heat_head">Frontier //</h2>
-                    <div id="heatCarousel" class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6"><!-- prerender:heatCarousel -->
-                        <div class="group rounded-2xl border border-brandBlue/30 bg-gradient-to-br from-brandBlue/10 via-panelBg/60 to-brandPink/5 p-5 md:p-6 shadow-lg shadow-black/20 flex items-center gap-4">
-                            <img src="assets/crystlquant-logo.png" alt="" class="w-20 h-20 shrink-0 rounded-2xl border border-white/10 object-cover">
-                            <div>
-                                <h3 class="text-base md:text-lg font-bold text-white leading-tight">Crystl Quant</h3>
-                                <span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Prerelease</span>
-                            </div>
-                        </div>
-                    <!-- /prerender:heatCarousel --></div>
-                </section>
+
 </div>
         </main>
     </div>
@@ -828,9 +829,9 @@
             // stay plain cards rather than dead anchors.
             wrap.innerHTML = heatProjects.map(p => {
                 const inner = `
-                    <div class="w-14 h-14 md:w-16 md:h-16 shrink-0 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-xl md:text-2xl font-extrabold text-gradient">
-                        ${p.name.replace('Project ', '')[0]}
-                    </div>
+                    ${p.icon
+                        ? `<img src="${p.icon}" alt="" class="w-20 h-20 shrink-0 rounded-2xl border border-white/10 object-cover">`
+                        : `<div class="w-14 h-14 md:w-16 md:h-16 shrink-0 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-xl md:text-2xl font-extrabold text-gradient">${p.name.replace('Project ', '')[0]}</div>`}
                     <div>
                         <h3 class="text-base md:text-lg font-bold text-white leading-tight${p.url ? ' group-hover:text-brandPink transition-colors' : ''}">${p.name}</h3>
                         <p class="mt-0.5 text-xs md:text-sm text-gray-400">${localized(p.tag, lang)}</p>
