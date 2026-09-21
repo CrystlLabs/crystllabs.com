@@ -537,10 +537,12 @@ def _heat_cards(html_text):
     if not m:
         return ''
     out = []
-    for entry in re.finditer(r'\{([^}]*)\}', m.group(1)):
+    # One level of nesting, so an entry whose tag is a per-language object
+    # (index.html) still matches whole instead of stopping at the inner brace.
+    for entry in re.finditer(r'\{((?:[^{}]|\{[^{}]*\})*)\}', m.group(1)):
         src = entry.group(1)
         name = re.search(r'name\s*:\s*"([^"]*)"', src)
-        tag = re.search(r'tag\s*:\s*"([^"]*)"', src)
+        tag = re.search(r'tag\s*:\s*"([^"]*)"', src) or re.search(r'tag\s*:\s*\{[^}]*?en\s*:\s*"([^"]*)"', src)
         icon = re.search(r'icon\s*:\s*"([^"]*)"', src)
         if not name:
             continue
@@ -549,7 +551,12 @@ def _heat_cards(html_text):
         url = re.search(r'url\s*:\s*"([^"]*)"', src)
         badge = re.search(r'badge\s*:\s*"([^"]*)"', src)
         tag_html = f'\n                            <p class="mt-0.5 text-xs md:text-sm text-gray-400">{esc(tag.group(1))}</p>' if tag else ''
+        status_key = re.search(r'statusKey\s*:\s*"([^"]*)"', src)
         label = esc(badge.group(1)) if badge else 'Prerelease'
+        if status_key and status_key.group(1) == 'live':
+            label = 'Live'
+        badge_cls = ('text-brandGreen border-brandGreen/40 bg-brandGreen/10'
+                     if label.lower() == 'live' else 'text-brandBlue/90 border-brandBlue/30')
         icon_path = icon.group(1) if icon else ('assets/crystlquant-logo.png' if name == 'Crystl Quant' else '')
         icon_html = (f'<img src="{esc(icon_path)}" alt="" class="w-20 h-20 shrink-0 rounded-2xl border border-white/10 object-cover">'
                      if icon_path else
@@ -558,7 +565,7 @@ def _heat_cards(html_text):
                             {icon_html}
                             <div>
                                 <h3 class="text-base md:text-lg font-bold text-white leading-tight{' group-hover:text-brandPink transition-colors' if url else ''}">{esc(name)}</h3>{tag_html}
-                                <span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">{label}</span>
+                                <span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider {badge_cls} border rounded px-1.5 py-0.5">{label}</span>
                             </div>'''
         # A frontier entry with a page of its own becomes a link; the rest stay
         # as plain cards rather than dead anchors.
