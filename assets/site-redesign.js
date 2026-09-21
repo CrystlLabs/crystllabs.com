@@ -71,7 +71,7 @@
 
   const sidebar = document.getElementById('sidebar');
   if (sidebar) {
-    const mobileLinks = [...links, ['Privacy', 'privacy.html']];
+    const mobileLinks = links;
     sidebar.innerHTML = `<nav class="crystl-mobile-menu" aria-label="Mobile navigation">
       ${mobileLinks.map(([label, href]) => `<a href="${url(href)}"${isCurrent(href) ? ' aria-current="page"' : ''}>${label}</a>`).join('')}
       <small>Elegant worlds, deeply simulated.</small>
