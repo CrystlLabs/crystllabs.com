@@ -96,7 +96,7 @@
             <div class="max-w-3xl mx-auto">
                 <header class="mb-8 md:mb-12">
                     <h1 class="text-gradient text-4xl md:text-6xl font-extrabold tracking-tight leading-tight pb-2" data-i18n="p_title">Privacy Policy</h1>
-                    <p class="mt-1 font-mono text-sm md:text-base text-brandBlue tracking-wide" data-i18n="p_date">Last Updated: September 10, 2026</p>
+                    <p class="mt-1 font-mono text-sm md:text-base text-brandBlue tracking-wide" data-i18n="p_date">Last Updated: September 22, 2026</p>
                 </header>
 
                 <h2 class="font-mono text-[11px] md:text-xs text-brandBlue mb-5 md:mb-8 uppercase tracking-widest">//</h2>
@@ -136,7 +136,7 @@
                         <p class="mb-3" data-i18n="h2_intro">We use the information above to:</p>
                         <ul class="list-disc list-outside pl-5 space-y-2">
                             <li data-i18n="h2_li1">Create and manage your account, where an App offers accounts;</li>
-                            <li data-i18n="h2_li2">Provide the App's core features, including retrieving your public chess games and generating AI coaching analysis;</li>
+                            <li data-i18n="h2_li2">Provide the App's core features, including retrieving your public chess games and generating coaching analysis;</li>
                             <li data-i18n="h2_li3">Provide location-based or contacts-based features, where an App offers them;</li>
                             <li data-i18n="h2_li4">Display and measure advertising;</li>
                             <li data-i18n="h2_li5">Maintain, secure, and improve the Apps;</li>
@@ -153,8 +153,8 @@
                     </section>
 
                     <section>
-                        <h2 class="text-white font-semibold text-sm md:text-base mb-3" data-i18n="h4">4. AI Processing Providers</h2>
-                        <p class="mb-3" data-i18n="h4_p">To generate coaching feedback, we transmit your game data (and the associated callsign) to Google LLC's Gemini API, processed on Google's servers in the United States, solely to generate your coaching analysis. We currently use Gemini for this purpose and may add or change AI processing providers in the future, in which case we will update this section. We do not permit our AI providers to use your personal inputs to train their models, and we absolutely do not sell your data to data brokers.</p>
+                        <h2 class="text-white font-semibold text-sm md:text-base mb-3" data-i18n="h4">4. Analysis and AI Processing Providers</h2>
+                        <p class="mb-3" data-i18n="h4_p">How your game data is analyzed depends on the App. Chess Drill Instructor sends your game record and callsign to a Crystl Labs coaching server hosted in Canada, where the open-source Stockfish chess engine analyzes the game. No artificial intelligence or language-model provider is involved, and the game record is never sent to one. That server does not keep the raw game record or the raw callsign: identifiers are stored only as a one-way cryptographic digest, and the analysis records are deleted after 30 days. Our other coaching Apps transmit your game data (and the associated callsign) to Google LLC's Gemini API, processed on Google's servers in the United States, solely to generate your coaching analysis; we may add or change providers in the future, in which case we will update this section. We do not permit any AI provider to use your personal inputs to train their models, and we absolutely do not sell your data to data brokers.</p>
                         <p data-i18n="h4_p2"><span class="text-gray-300 font-medium">Health and wellness Apps.</span> Where an App offers health tracking, the data transmitted is your current supplement list, any blood-test results and DNA-derived markers you have entered, your fasting state, and readiness or recovery figures from a wearable you have connected. It is sent only when you tap the AI feature, and only after you accept a separate consent prompt that lists those items. Nothing read from Android Health Connect is included. See Section 14.</p>
                     </section>
 
@@ -192,7 +192,7 @@
 
                     <section>
                         <h2 class="text-white font-semibold text-sm md:text-base mb-3" data-i18n="h11">11. International Data Transfers</h2>
-                        <p data-i18n="h11_p">Your information may be processed on servers located outside your country. Specifically, if you use our AI coaching feature, your Chess.com callsign and associated game data are transmitted via secure API, each time you request coaching analysis, to Google LLC's Gemini API and processed on servers located in the United States, solely to generate your coaching analysis; this data is not retained by Google for model training or profiling. If you do not want this transfer to occur, simply do not enter your Chess.com username or use the AI coaching feature. Where applicable, our advertising and authentication providers may similarly process data outside your country. Where required, we rely on appropriate safeguards (such as standard contractual clauses or equivalent mechanisms) for these transfers.</p>
+                        <p data-i18n="h11_p">Your information may be processed on servers located outside your country. If you use Chess Drill Instructor's coaching feature, your Chess.com callsign and associated game data are transmitted via secure API, each time you request an analysis, to a Crystl Labs server located in Canada, solely to run the Stockfish chess engine on that game. If you use one of our other coaching Apps, the equivalent data goes to Google LLC's Gemini API and is processed on servers located in the United States; that data is not retained by Google for model training or profiling. If you do not want either transfer to occur, simply do not enter your Chess.com username or use the coaching feature. Where applicable, our advertising and authentication providers may similarly process data outside your country. Where required, we rely on appropriate safeguards (such as standard contractual clauses or equivalent mechanisms) for these transfers.</p>
                     </section>
 
                     <section>
@@ -217,7 +217,7 @@
                         <p class="mb-4" data-i18n="h14_p3">You may optionally upload a raw DNA export from a consumer testing service such as 23andMe or AncestryDNA. The file is read on your device, a small number of nutrition-related markers are kept, and the rest is discarded. The file itself is never uploaded anywhere. This is not a clinical genetic test and is not diagnostic.</p>
                         <p class="mb-3"><span class="text-gray-300 font-medium" data-i18n="h14_sub4">Who else can receive it, and only when you turn that feature on.</span></p>
                         <ul class="list-disc list-outside pl-5 space-y-2 mb-4">
-                            <li data-i18n="h14_li1"><span class="text-gray-300">Google (Gemini API).</span> When you use the AI feature, after a separate consent prompt naming exactly what is sent. See Section 4.</li>
+                            <li data-i18n="h14_li1"><span class="text-gray-300">A Crystl Labs coaching server, or Google (Gemini API).</span> When you use a coaching feature, after a separate consent prompt naming exactly what is sent and where it goes. See Section 4.</li>
                             <li data-i18n="h14_li2"><span class="text-gray-300">Oura and Whoop.</span> When you enter an access token, the App requests your sleep, readiness and recovery figures from that provider.</li>
                             <li data-i18n="h14_li3"><span class="text-gray-300">Open Food Facts.</span> When you scan a product barcode, that barcode is sent to look up the product. No health data is sent with it.</li>
                             <li data-i18n="h14_li4"><span class="text-gray-300">A destination you choose.</span> When you export a backup or a report for your doctor, the file is written wherever you direct the system file picker. From that point the file is outside our control.</li>
@@ -274,7 +274,7 @@
                 nav_run: "CONNECTED", exp_src: "src_files", exp_logs: "public_blogs",
                 file_index: "index.html", file_projects: "projects.html", link_blogs: "blogs.html", link_crew: "personnel.html", file_privacy: "privacy.html", file_terms: "terms.html", file_deletion: "data-deletion.html",
                 file_ceo: "ceo_executive.log", file_dev: "dev_senior.log",
-                p_title: "Privacy Policy", p_date: "Last Updated: September 10, 2026",
+                p_title: "Privacy Policy", p_date: "Last Updated: September 22, 2026",
                 intro: `This Privacy Policy explains how Crystl Labs ("we," "us," or "our") handles information in connection with everything we make: our mobile applications, our websites and web-based tools, and any other product or service we offer &mdash; free or paid, released or in preview, on any platform we publish to (collectively, the "Apps"). Not every App offers every feature described in this Policy &mdash; for example, some Apps do not offer user accounts, request location access, or request contacts access, and our websites generally offer far fewer of these features than our mobile applications do. The data we actually collect depends on the features a given App offers; where an App is distributed through the Google Play Store, see that App's "Data safety" section on its listing for the specifics of that App. If a section of this Policy describes something a given App does not do, that section does not apply to it. By using our Apps, you agree to the practices described here.`,
                 h1: "1. Information We Collect",
                 h1_sub1: "Information you provide.",
@@ -294,7 +294,7 @@
                 h2: "2. How We Use Your Information",
                 h2_intro: "We use the information above to:",
                 h2_li1: "Create and manage your account, where an App offers accounts;",
-                h2_li2: "Provide the App's core features, including retrieving your public chess games and generating AI coaching analysis;",
+                h2_li2: "Provide the App's core features, including retrieving your public chess games and generating coaching analysis;",
                 h2_li3: "Provide location-based or contacts-based features, where an App offers them;",
                 h2_li4: "Display and measure advertising;",
                 h2_li5: "Maintain, secure, and improve the Apps;",
@@ -306,8 +306,8 @@
                 h1_li13: `<span class="text-gray-300">Notifications (if applicable).</span> Some Apps ask permission to send you notifications &mdash; a reminder you set, or an alert that something you started in the App has finished. In our Apps these notifications are generated on your device from data already stored there: no information is sent to us or to anyone else in order to produce them, and we do not learn whether you opened one. If an App ever sends notifications from a server, it would use Firebase Cloud Messaging and store a randomly generated device token so the message can reach your device; that App's Play Store "Data safety" section will say so. You can turn notifications off at any time in the App's own settings or in your device's system settings, and every App keeps working with them switched off.`,
                 h3: "3. Chess.com Data",
                 h3_p: "When you provide a Chess.com username, the App requests your public profile, ratings, and game history from Chess.com's public API, and retrieves chess board images from Chess.com. We only access information that Chess.com makes publicly available. Your use of Chess.com is also governed by Chess.com's own privacy policy.",
-                h4: "4. AI Processing Providers",
-                h4_p: "To generate coaching feedback, we transmit your game data (and the associated callsign) to Google LLC's Gemini API, processed on Google's servers in the United States, solely to generate your coaching analysis. We currently use Gemini for this purpose and may add or change AI processing providers in the future, in which case we will update this section. We do not permit our AI providers to use your personal inputs to train their models, and we absolutely do not sell your data to data brokers.",
+                h4: "4. Analysis and AI Processing Providers",
+                h4_p: "How your game data is analyzed depends on the App. Chess Drill Instructor sends your game record and callsign to a Crystl Labs coaching server hosted in Canada, where the open-source Stockfish chess engine analyzes the game. No artificial intelligence or language-model provider is involved, and the game record is never sent to one. That server does not keep the raw game record or the raw callsign: identifiers are stored only as a one-way cryptographic digest, and the analysis records are deleted after 30 days. Our other coaching Apps transmit your game data (and the associated callsign) to Google LLC's Gemini API, processed on Google's servers in the United States, solely to generate your coaching analysis; we may add or change providers in the future, in which case we will update this section. We do not permit any AI provider to use your personal inputs to train their models, and we absolutely do not sell your data to data brokers.",
                 h5: "5. Advertising",
                 h5_p1: `Our Apps use Google AdMob, and may use other advertising networks such as Unity Ads, Meta Audience Network, or AppLovin, to display advertisements. These networks may collect and use your device's Advertising ID and related data to serve and measure ads, including personalized ads where permitted. Each network's use of your data is governed by its own privacy policy. You can learn how Google uses this data here: <a href="https://policies.google.com/technologies/partner-sites" class="text-brandBlue hover:underline" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>.`,
                 h5_p2: `<span class="text-gray-300 font-medium">Consent (EEA / UK).</span> If you are in the European Economic Area, the United Kingdom, or Switzerland, we request your consent for ad data use through Google's consent form before ads are shown. You may change or withdraw your choice at any time from within the App. You can also opt out of ad personalization in your device settings (Google &rarr; Ads &rarr; "Delete/Reset advertising ID" or "Opt out of Ads Personalization").`,
@@ -322,7 +322,7 @@
                 h10: "10. Security",
                 h10_p: "We use reasonable technical and organizational measures, including encrypted (HTTPS) connections, to protect information in transit. No method of transmission or storage is completely secure, and we cannot guarantee absolute security.",
                 h11: "11. International Data Transfers",
-                h11_p: "Your information may be processed on servers located outside your country. Specifically, if you use our AI coaching feature, your Chess.com callsign and associated game data are transmitted via secure API, each time you request coaching analysis, to Google LLC's Gemini API and processed on servers located in the United States, solely to generate your coaching analysis; this data is not retained by Google for model training or profiling. If you do not want this transfer to occur, simply do not enter your Chess.com username or use the AI coaching feature. Where applicable, our advertising and authentication providers may similarly process data outside your country. Where required, we rely on appropriate safeguards (such as standard contractual clauses or equivalent mechanisms) for these transfers.",
+                h11_p: "Your information may be processed on servers located outside your country. If you use Chess Drill Instructor's coaching feature, your Chess.com callsign and associated game data are transmitted via secure API, each time you request an analysis, to a Crystl Labs server located in Canada, solely to run the Stockfish chess engine on that game. If you use one of our other coaching Apps, the equivalent data goes to Google LLC's Gemini API and is processed on servers located in the United States; that data is not retained by Google for model training or profiling. If you do not want either transfer to occur, simply do not enter your Chess.com username or use the coaching feature. Where applicable, our advertising and authentication providers may similarly process data outside your country. Where required, we rely on appropriate safeguards (such as standard contractual clauses or equivalent mechanisms) for these transfers.",
                 h12: "12. Changes to This Policy",
                 h12_p: `We may update this Privacy Policy from time to time. Material changes will be reflected by updating the "Last Updated" date above, and continued use of the Apps after changes take effect constitutes acceptance of the revised policy.`,
                 h13: "13. Contact Us",
@@ -339,7 +339,7 @@
                 h14_sub3: `Genetic data.`,
                 h14_p3: `You may optionally upload a raw DNA export from a consumer testing service such as 23andMe or AncestryDNA. The file is read on your device, a small number of nutrition-related markers are kept, and the rest is discarded. The file itself is never uploaded anywhere. This is not a clinical genetic test and is not diagnostic.`,
                 h14_sub4: `Who else can receive it, and only when you turn that feature on.`,
-                h14_li1: `<span class="text-gray-300">Google (Gemini API).</span> When you use the AI feature, after a separate consent prompt naming exactly what is sent. See Section 4.`,
+                h14_li1: `<span class="text-gray-300">A Crystl Labs coaching server, or Google (Gemini API).</span> When you use a coaching feature, after a separate consent prompt naming exactly what is sent and where it goes. See Section 4.`,
                 h14_li2: `<span class="text-gray-300">Oura and Whoop.</span> When you enter an access token, the App requests your sleep, readiness and recovery figures from that provider.`,
                 h14_li3: `<span class="text-gray-300">Open Food Facts.</span> When you scan a product barcode, that barcode is sent to look up the product. No health data is sent with it.`,
                 h14_li4: `<span class="text-gray-300">A destination you choose.</span> When you export a backup or a report for your doctor, the file is written wherever you direct the system file picker. From that point the file is outside our control.`,
@@ -373,7 +373,7 @@
                 nav_run: "연결됨", exp_src: "소스_파일", exp_logs: "공개_블로그",
                 file_index: "인덱스.html", file_projects: "프로젝트.html", link_blogs: "블로그.html", link_crew: "인력.html", file_privacy: "개인정보처리방침.html", file_terms: "이용약관.html", file_deletion: "데이터삭제.html",
                 file_ceo: "ceo_경영진.log", file_dev: "dev_수석개발자.log",
-                p_title: "개인정보처리방침", p_date: "최종 수정일: 2026년 9월 10일",
+                p_title: "개인정보처리방침", p_date: "최종 수정일: 2026년 9월 22일",
                 intro: `본 개인정보처리방침은 Crystl Labs("당사")가 당사가 만드는 모든 것 &mdash; 모바일 애플리케이션, 웹사이트 및 웹 기반 도구, 그 밖에 당사가 제공하는 모든 제품 또는 서비스(유료 여부, 정식 출시 또는 프리뷰 여부, 배포 플랫폼을 불문하며, 이하 총칭하여 "앱")와 관련하여 정보를 처리하는 방식을 설명합니다. 모든 앱이 본 방침에서 설명하는 모든 기능을 제공하는 것은 아닙니다 &mdash; 예를 들어, 일부 앱은 계정 기능, 위치 정보 접근 요청, 또는 연락처 접근 요청을 제공하지 않으며, 당사의 웹사이트는 일반적으로 모바일 애플리케이션보다 훨씬 적은 기능을 제공합니다. 당사가 실제로 수집하는 데이터는 해당 앱이 제공하는 기능에 따라 달라집니다. Google Play 스토어를 통해 배포되는 앱의 경우, 구체적인 사항은 해당 앱 목록의 "데이터 보안" 섹션을 참고하시기 바랍니다. 본 방침의 특정 섹션이 어떤 앱이 수행하지 않는 사항을 설명하는 경우, 해당 섹션은 그 앱에 적용되지 않습니다. 당사의 앱을 이용함으로써 귀하는 본 방침에서 설명하는 관행에 동의하게 됩니다.`,
                 h1: "1. 당사가 수집하는 정보",
                 h1_sub1: "귀하가 제공하는 정보.",
@@ -405,8 +405,8 @@
                 h1_li13: `<span class="text-gray-300">알림(해당하는 경우).</span> 일부 앱은 귀하에게 알림을 보내기 위한 권한을 요청합니다 &mdash; 귀하가 설정한 리마인더나, 앱에서 시작한 작업이 완료되었다는 안내 등입니다. 당사의 앱에서 이러한 알림은 이미 기기에 저장되어 있는 데이터를 바탕으로 기기 내에서 생성됩니다. 알림을 생성하기 위해 당사나 제3자에게 전송되는 정보는 없으며, 당사는 귀하가 알림을 열어 보았는지 여부도 알 수 없습니다. 향후 어떤 앱이 서버에서 알림을 전송하게 되는 경우에는 Firebase 클라우드 메시징을 사용하고 메시지가 귀하의 기기에 도달할 수 있도록 무작위로 생성된 기기 토큰을 저장하게 되며, 해당 앱의 Play 스토어 "데이터 보안" 섹션에 그 사실이 명시됩니다. 귀하는 앱 자체 설정이나 기기의 시스템 설정에서 언제든지 알림을 끌 수 있으며, 알림을 끈 상태에서도 모든 앱은 정상적으로 작동합니다.`,
                 h3: "3. Chess.com 데이터",
                 h3_p: "귀하가 Chess.com 사용자명을 제공하면, 앱은 Chess.com의 공개 API로부터 귀하의 공개 프로필, 등급 및 게임 기록을 요청하고, Chess.com으로부터 체스 보드 이미지를 가져옵니다. 당사는 Chess.com이 공개적으로 제공하는 정보에만 접근합니다. 귀하의 Chess.com 이용은 Chess.com 자체의 개인정보처리방침의 적용을 받습니다.",
-                h4: "4. AI 처리 제공업체",
-                h4_p: "코칭 피드백을 생성하기 위해, 당사는 귀하의 게임 데이터(및 관련 콜사인)를 Google LLC의 Gemini API로 전송하며, 이는 오직 코칭 분석 생성만을 목적으로 미국에 소재한 Google 서버에서 처리됩니다. 당사는 현재 이 목적으로 Gemini를 사용하고 있으며, 향후 AI 처리 제공업체를 추가하거나 변경할 수 있고 이 경우 본 항목을 업데이트합니다. 당사는 AI 제공업체가 귀하의 개인 입력을 모델 학습에 사용하는 것을 허용하지 않으며, 데이터 브로커에게 귀하의 데이터를 판매하는 일은 절대 없습니다.",
+                h4: "4. 분석 및 AI 처리 제공업체",
+                h4_p: "게임 데이터의 분석 방식은 앱에 따라 다릅니다. Chess Drill Instructor는 귀하의 기보와 콜사인을 캐나다에 소재한 Crystl Labs 코칭 서버로 전송하며, 해당 서버에서 오픈소스 체스 엔진인 Stockfish가 대국을 분석합니다. 인공지능 또는 언어 모델 제공업체는 전혀 관여하지 않으며, 기보가 그러한 업체로 전송되는 일도 없습니다. 이 서버는 원본 기보나 원본 콜사인을 보관하지 않습니다. 식별자는 단방향 암호화 요약값으로만 저장되고, 분석 기록은 30일 후 삭제됩니다. 당사의 다른 코칭 앱은 귀하의 게임 데이터(및 관련 콜사인)를 Google LLC의 Gemini API로 전송하며, 이는 오직 코칭 분석 생성만을 목적으로 미국에 소재한 Google 서버에서 처리됩니다. 향후 제공업체를 추가하거나 변경할 수 있고 이 경우 본 항목을 업데이트합니다. 당사는 어떠한 AI 제공업체도 귀하의 개인 입력을 모델 학습에 사용하는 것을 허용하지 않으며, 데이터 브로커에게 귀하의 데이터를 판매하는 일은 절대 없습니다.",
                 h5: "5. 광고",
                 h5_p1: `당사의 앱은 광고 게재를 위해 Google AdMob을 사용하며, Unity Ads, Meta Audience Network, AppLovin과 같은 다른 광고 네트워크를 사용할 수도 있습니다. 이러한 네트워크는 허용되는 경우 맞춤형 광고를 포함하여 광고를 게재하고 측정하기 위해 귀하 기기의 광고 식별자 및 관련 데이터를 수집 및 사용할 수 있습니다. 각 네트워크의 데이터 사용은 해당 네트워크 자체의 개인정보처리방침의 적용을 받습니다. Google이 이 데이터를 사용하는 방식은 다음에서 확인할 수 있습니다: <a href="https://policies.google.com/technologies/partner-sites" class="text-brandBlue hover:underline" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>.`,
                 h5_p2: `<span class="text-gray-300 font-medium">동의(EEA/영국).</span> 귀하가 유럽경제지역(EEA), 영국 또는 스위스에 거주하는 경우, 광고가 표시되기 전에 Google의 동의 양식을 통해 광고 데이터 사용에 대한 귀하의 동의를 요청합니다. 귀하는 앱 내에서 언제든지 선택을 변경하거나 철회할 수 있습니다. 또한 기기 설정에서 광고 개인화를 거부할 수 있습니다(Google &rarr; 광고 &rarr; "광고 식별자 삭제/재설정" 또는 "광고 개인화 거부").`,
@@ -421,7 +421,7 @@
                 h10: "10. 보안",
                 h10_p: "당사는 전송 중인 정보를 보호하기 위해 암호화(HTTPS) 연결을 포함한 합리적인 기술적, 관리적 조치를 사용합니다. 어떠한 전송 또는 저장 방법도 완전히 안전하지는 않으며, 당사는 절대적인 보안을 보장할 수 없습니다.",
                 h11: "11. 국제 데이터 이전",
-                h11_p: "귀하의 정보는 귀하의 국가 밖에 위치한 서버에서 처리될 수 있습니다. 구체적으로, 귀하가 당사의 AI 코칭 기능을 이용하는 경우, 귀하의 Chess.com 콜사인 및 관련 게임 데이터는 코칭 분석을 요청할 때마다 안전한 API를 통해 Google LLC의 Gemini API로 전송되어 미국에 소재한 서버에서 오직 코칭 분석 생성만을 목적으로 처리되며, 이 데이터는 모델 학습이나 프로파일링을 위해 Google에 의해 보관되지 않습니다. 이러한 전송을 원하지 않으시는 경우, Chess.com 사용자명을 입력하거나 AI 코칭 기능을 사용하지 않으시면 됩니다. 해당하는 경우, 당사의 광고 및 인증 제공업체도 유사하게 귀하의 국가 밖에서 데이터를 처리할 수 있습니다. 필요한 경우, 당사는 이러한 이전에 대해 표준 계약 조항 등 적절한 안전장치를 마련합니다.",
+                h11_p: "귀하의 정보는 귀하의 국가 밖에 위치한 서버에서 처리될 수 있습니다. Chess Drill Instructor의 코칭 기능을 이용하는 경우, 귀하의 Chess.com 콜사인 및 관련 게임 데이터는 분석을 요청할 때마다 안전한 API를 통해 캐나다에 소재한 Crystl Labs 서버로 전송되며, 오직 해당 대국에 Stockfish 체스 엔진을 실행하기 위한 목적으로만 사용됩니다. 당사의 다른 코칭 앱을 이용하는 경우, 동일한 데이터가 Google LLC의 Gemini API로 전송되어 미국에 소재한 서버에서 처리되며, 이 데이터는 모델 학습이나 프로파일링을 위해 Google에 의해 보관되지 않습니다. 이러한 전송을 원하지 않으시는 경우, Chess.com 사용자명을 입력하거나 코칭 기능을 사용하지 않으시면 됩니다. 해당하는 경우, 당사의 광고 및 인증 제공업체도 유사하게 귀하의 국가 밖에서 데이터를 처리할 수 있습니다. 필요한 경우, 당사는 이러한 이전에 대해 표준 계약 조항 등 적절한 안전장치를 마련합니다.",
                 h12: "12. 본 방침의 변경",
                 h12_p: `당사는 수시로 본 개인정보처리방침을 업데이트할 수 있습니다. 중대한 변경 사항은 위의 "최종 수정일"을 갱신하는 방식으로 반영되며, 변경 사항이 적용된 이후에도 앱을 계속 사용하는 경우 개정된 방침에 동의하는 것으로 간주됩니다.`,
                 h13: "13. 문의하기",
@@ -438,7 +438,7 @@
                 h14_sub3: `유전 데이터.`,
                 h14_p3: `귀하는 23andMe 또는 AncestryDNA와 같은 소비자용 유전자 검사 서비스의 원본 DNA 파일을 선택적으로 업로드할 수 있습니다. 해당 파일은 귀하의 기기에서 판독되며, 영양과 관련된 소수의 마커만 보관되고 나머지는 폐기됩니다. 파일 자체는 어디에도 업로드되지 않습니다. 이는 임상 유전자 검사가 아니며 진단 목적으로 사용할 수 없습니다.`,
                 h14_sub4: `해당 기능을 켠 경우에 한하여 데이터를 수신할 수 있는 대상.`,
-                h14_li1: `<span class="text-gray-300">Google(Gemini API).</span> 귀하가 AI 기능을 사용할 때, 전송 내용을 명확히 안내하는 별도의 동의 절차를 거친 후에 전송됩니다. 4항을 참고하십시오.`,
+                h14_li1: `<span class="text-gray-300">Crystl Labs 코칭 서버 또는 Google(Gemini API).</span> 귀하가 코칭 기능을 사용할 때, 전송 내용과 전송처를 명확히 안내하는 별도의 동의 절차를 거친 후에 전송됩니다. 4항을 참고하십시오.`,
                 h14_li2: `<span class="text-gray-300">Oura 및 Whoop.</span> 귀하가 액세스 토큰을 입력하면, 앱이 해당 제공업체로부터 귀하의 수면, 준비도, 회복도 수치를 요청합니다.`,
                 h14_li3: `<span class="text-gray-300">Open Food Facts.</span> 귀하가 제품 바코드를 스캔하면 제품 조회를 위해 해당 바코드가 전송됩니다. 건강 데이터는 함께 전송되지 않습니다.`,
                 h14_li4: `<span class="text-gray-300">귀하가 지정하는 저장 위치.</span> 귀하가 백업 또는 의사 제출용 리포트를 내보내면, 파일은 귀하가 시스템 파일 선택기에서 지정한 위치에 저장됩니다. 그 이후 해당 파일은 당사의 관리 범위를 벗어납니다.`,
@@ -472,7 +472,7 @@
                 nav_run: "接続済み", exp_src: "ソースファイル", exp_logs: "公開ブログ",
                 file_index: "インデックス.html", file_projects: "プロジェクト.html", link_blogs: "ブログ.html", link_crew: "スタッフ.html", file_privacy: "プライバシーポリシー.html", file_terms: "利用規約.html", file_deletion: "データ削除.html",
                 file_ceo: "ceo_役員.log", file_dev: "dev_シニア開発者.log",
-                p_title: "プライバシーポリシー", p_date: "最終更新日: 2026年9月10日",
+                p_title: "プライバシーポリシー", p_date: "最終更新日: 2026年9月22日",
                 intro: `本プライバシーポリシーは、Crystl Labs（「当社」）が当社の提供するすべてのもの &mdash; モバイルアプリケーション、ウェブサイトおよびウェブベースのツール、その他当社が提供するあらゆる製品またはサービス（有料・無料、正式リリース・プレビューを問わず、また配信プラットフォームを問いません。以下、総称して「本アプリ」）に関連して情報をどのように取り扱うかを説明するものです。すべての本アプリが本ポリシーに記載されるすべての機能を提供するわけではありません。たとえば、一部の本アプリはアカウント機能、位置情報へのアクセス、または連絡先へのアクセスを提供せず、当社のウェブサイトは一般にモバイルアプリケーションよりも大幅に少ない機能しか提供しません。当社が実際に収集するデータは、各本アプリが提供する機能によって異なります。Google Playストアを通じて配信される本アプリについては、詳細は当該掲載ページの「データセーフティ」セクションをご確認ください。本ポリシーのある節が、ある本アプリが行わない事項を説明している場合、その節は当該本アプリには適用されません。本アプリをご利用いただくことにより、お客様は本ポリシーに記載された取り扱いに同意したものとみなされます。`,
                 h1: "1. 当社が収集する情報",
                 h1_sub1: "お客様が提供する情報。",
@@ -504,8 +504,8 @@
                 h1_li13: `<span class="text-gray-300">通知（該当する場合）。</span> 一部の本アプリは、お客様に通知を送信するための許可を求めます &mdash; お客様が設定したリマインダーや、アプリ内で開始された処理が完了したことのお知らせなどです。当社の本アプリにおいて、これらの通知は端末内にすでに保存されているデータから端末上で生成されます。通知を生成するために当社または第三者に送信される情報はなく、当社はお客様が通知を開いたかどうかを知ることもできません。将来いずれかの本アプリがサーバーから通知を送信する場合には、Firebase Cloud Messagingを使用し、メッセージがお客様の端末に届くよう無作為に生成された端末トークンを保存することになります。その場合、当該アプリのPlayストアの「データセーフティ」欄にその旨が記載されます。お客様は、本アプリの設定または端末のシステム設定からいつでも通知をオフにすることができ、通知をオフにした状態でもすべての本アプリは問題なく動作します。`,
                 h3: "3. Chess.comのデータ",
                 h3_p: "Chess.comのユーザー名を提供いただくと、本アプリはChess.comの公開APIから、お客様の公開プロフィール、レーティング、対局履歴を取得し、Chess.comからチェス盤の画像を取得します。当社はChess.comが公開しているデータにのみアクセスします。Chess.comのご利用については、Chess.com自身のプライバシーポリシーも適用されます。",
-                h4: "4. AI処理プロバイダー",
-                h4_p: "コーチングフィードバックを生成するため、当社はお客様の対局データ（および関連するコールサイン）を、Google LLCのGemini APIに送信し、コーチング分析の生成のみを目的として、米国内に所在するGoogleのサーバーで処理します。当社は現在この目的でGeminiを使用していますが、将来的にAI処理プロバイダーを追加または変更する場合があり、その際は本項目を更新します。当社はAIプロバイダーがお客様の個人的な入力データをモデルの学習に使用することを許可しておらず、データブローカーへのデータ販売も一切行いません。",
+                h4: "4. 分析およびAI処理プロバイダー",
+                h4_p: "対局データの分析方法はアプリによって異なります。Chess Drill Instructorは、お客様の棋譜とコールサインをカナダに所在するCrystl Labsのコーチングサーバーに送信し、オープンソースのチェスエンジンであるStockfishが対局を分析します。人工知能や言語モデルのプロバイダーは一切関与せず、棋譜がそれらに送信されることもありません。このサーバーは元の棋譜およびコールサインを保持しません。識別子は一方向の暗号学的ダイジェストとしてのみ保存され、分析記録は30日後に削除されます。当社の他のコーチングアプリは、お客様の対局データ（および関連するコールサイン）をGoogle LLCのGemini APIに送信し、コーチング分析の生成のみを目的として米国内のGoogleのサーバーで処理します。将来的にプロバイダーを追加または変更する場合があり、その際は本項目を更新します。当社はいかなるAIプロバイダーに対しても、お客様の個人的な入力データをモデルの学習に使用することを許可しておらず、データブローカーへのデータ販売も一切行いません。",
                 h5: "5. 広告",
                 h5_p1: `当社の本アプリは広告表示のためにGoogle AdMobを使用しており、Unity Ads、Meta Audience Network、AppLovinなど他の広告ネットワークを使用する場合もあります。これらのネットワークは、許可されている場合はパーソナライズ広告を含め、広告の配信および効果測定のために、お客様の端末の広告識別子および関連データを収集・使用する場合があります。各ネットワークによるデータの利用は、それぞれ独自のプライバシーポリシーに従います。Googleによるデータの利用方法については、こちらをご覧ください: <a href="https://policies.google.com/technologies/partner-sites" class="text-brandBlue hover:underline" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>。`,
                 h5_p2: `<span class="text-gray-300 font-medium">同意（EEA・英国）。</span> お客様が欧州経済領域（EEA）、英国、またはスイスにお住まいの場合、広告が表示される前に、Googleの同意フォームを通じて広告データの利用に関する同意を求めます。お客様は本アプリ内でいつでも選択を変更または撤回できます。また、端末の設定から広告のパーソナライズを無効にすることもできます（Google &rarr; 広告 &rarr;「広告IDの削除・リセット」または「広告のパーソナライズを無効にする」）。`,
@@ -520,7 +520,7 @@
                 h10: "10. セキュリティ",
                 h10_p: "当社は、送信中の情報を保護するため、暗号化（HTTPS）接続を含む合理的な技術的・組織的対策を講じています。いかなる送信・保存方法も完全に安全であるとは言えず、当社は絶対的なセキュリティを保証することはできません。",
                 h11: "11. 国際データ移転",
-                h11_p: "お客様の情報は、お客様の国以外に所在するサーバーで処理される場合があります。具体的には、お客様が当社のAIコーチング機能を利用する場合、お客様のChess.comコールサインおよび関連する対局データは、コーチング分析を依頼するたびに、安全なAPIを通じてGoogle LLCのGemini APIに送信され、コーチング分析の生成のみを目的として米国内に所在するサーバーで処理されます。このデータはGoogleによってモデルの学習やプロファイリングのために保持されることはありません。この移転を望まない場合は、Chess.comのユーザー名を入力しない、またはAIコーチング機能を使用しないようにしてください。該当する場合、当社の広告プロバイダーおよび認証プロバイダーも同様にお客様の国以外でデータを処理することがあります。必要な場合、当社は標準契約条項などの適切な保護措置を講じます。",
+                h11_p: "お客様の情報は、お客様の国以外に所在するサーバーで処理される場合があります。Chess Drill Instructorのコーチング機能を利用する場合、お客様のChess.comコールサインおよび関連する対局データは、分析を依頼するたびに、安全なAPIを通じてカナダに所在するCrystl Labsのサーバーに送信され、その対局にStockfishチェスエンジンを実行する目的のみに使用されます。当社の他のコーチングアプリを利用する場合、同等のデータはGoogle LLCのGemini APIに送信され、米国内に所在するサーバーで処理されます。このデータはGoogleによってモデルの学習やプロファイリングのために保持されることはありません。いずれの移転も望まない場合は、Chess.comのユーザー名を入力しない、またはコーチング機能を使用しないようにしてください。該当する場合、当社の広告プロバイダーおよび認証プロバイダーも同様にお客様の国以外でデータを処理することがあります。必要な場合、当社は標準契約条項などの適切な保護措置を講じます。",
                 h12: "12. 本ポリシーの変更",
                 h12_p: `当社は本プライバシーポリシーを随時更新することがあります。重要な変更がある場合は、上記の「最終更新日」を更新することで反映され、変更の発効後も本アプリのご利用を継続された場合、改定後のポリシーに同意されたものとみなされます。`,
                 h13: "13. お問い合わせ",
@@ -537,7 +537,7 @@
                 h14_sub3: `遺伝情報。`,
                 h14_p3: `お客様は、23andMeやAncestryDNAなどの消費者向け遺伝子検査サービスから出力した生のDNAファイルを、任意でアップロードすることができます。当該ファイルはお客様の端末上で読み取られ、栄養に関連するごく少数のマーカーのみが保持され、残りは破棄されます。ファイル自体がどこかにアップロードされることは一切ありません。これは臨床用の遺伝子検査ではなく、診断を目的とするものでもありません。`,
                 h14_sub4: `当該機能を有効にした場合に限り、データを受け取り得る相手。`,
-                h14_li1: `<span class="text-gray-300">Google（Gemini API）。</span> お客様がAI機能を使用する際に、送信内容を明示した個別の同意画面を経たうえで送信されます。第4項をご覧ください。`,
+                h14_li1: `<span class="text-gray-300">Crystl Labsのコーチングサーバー、またはGoogle（Gemini API）。</span> お客様がコーチング機能を使用する際に、送信内容と送信先を明示した個別の同意画面を経たうえで送信されます。第4項をご覧ください。`,
                 h14_li2: `<span class="text-gray-300">OuraおよびWhoop。</span> お客様がアクセストークンを入力すると、本アプリが当該提供事業者にお客様の睡眠、コンディション、リカバリーの指標を要求します。`,
                 h14_li3: `<span class="text-gray-300">Open Food Facts。</span> お客様が製品のバーコードをスキャンすると、製品情報の照会のために当該バーコードが送信されます。健康データが併せて送信されることはありません。`,
                 h14_li4: `<span class="text-gray-300">お客様が指定する保存先。</span> お客様がバックアップまたは医師向けレポートを書き出すと、ファイルはお客様がシステムのファイル選択画面で指定した場所に保存されます。それ以降、当該ファイルは当社の管理外となります。`,
