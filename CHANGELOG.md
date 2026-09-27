@@ -2,6 +2,20 @@
 
 All notable changes to the Crystl Labs website are documented here.
 
+## 2026-09-28
+
+### Changed
+- **Privacy notice, section 17 (Hindsight Market) matches the site as it runs now.** Since
+  2026-09-28 the research tools and the game need a free account (the public pages and a
+  teacher's class students do not); the old text still said accounts were optional. The
+  section now names Cloudflare Web Analytics (a cookie-free page-view count Cloudflare
+  serves on the zone) instead of claiming no third-party analytics, says what the email
+  address is used for (sign-in, and Pro alerts only when turned on), describes the new
+  account controls (sign out everywhere else, remove a passkey, add an email), and states
+  what deletion really does: posted scores stay on the boards with both the account and the
+  device link removed, and a nameless purchase record is kept so a refund can be matched.
+  All three languages (EN, KO, JA); "Last Updated" moved to September 28, 2026.
+
 ## 2026-08-22
 
 ### Added
