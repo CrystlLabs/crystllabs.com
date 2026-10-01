@@ -152,6 +152,14 @@
                 <section id="frontier" class="mb-8 md:mb-10">
                     <h2 class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4 md:mb-5" data-i18n="heat_head">Frontier //</h2>
                     <div id="heatCarousel" class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6"><!-- prerender:heatCarousel -->
+                        <a href="https://underfolio.com/?src=crystllabs" class="group rounded-2xl border border-brandBlue/30 bg-gradient-to-br from-brandBlue/10 via-panelBg/60 to-brandPink/5 p-5 md:p-6 shadow-lg shadow-black/20 hover:border-brandPink/40 transition-all flex items-center gap-4">
+                            <img src="assets/underfolio-icon.png" alt="" class="w-20 h-20 shrink-0 rounded-2xl border border-white/10 object-cover">
+                            <div><h3 class="text-base md:text-lg font-bold text-white leading-tight group-hover:text-brandPink transition-colors">Underfolio</h3>
+                                <p class="mt-0.5 text-xs md:text-sm text-gray-400">Market history you can test.</p>
+                                <span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border-brandGreen/40 bg-brandGreen/10 border rounded px-1.5 py-0.5">Live</span>
+                            </div>
+                        </a>
+
                         <a href="https://crystlquant.com" class="group rounded-2xl border border-brandBlue/30 bg-gradient-to-br from-brandBlue/10 via-panelBg/60 to-brandPink/5 p-5 md:p-6 shadow-lg shadow-black/20 hover:border-brandPink/40 transition-all flex items-center gap-4">
                             <img src="assets/crystlquant-logo.png" alt="" class="w-20 h-20 shrink-0 rounded-2xl border border-white/10 object-cover">
                             <div>
@@ -812,6 +820,7 @@
 
         // Prerelease frontier projects — name only, no store link/description yet
         const heatProjects = [
+            { name: "Underfolio", tag: { en: "Market history you can test.", ko: "검증할 수 있는 시장의 역사.", ja: "検証できる市場の歴史。", es: "Historia del mercado que puedes comprobar.", "pt-BR": "História do mercado que você pode testar." }, url: "https://underfolio.com/?src=crystllabs", icon: "assets/underfolio-icon.png", statusKey: "live", badge: "Live" },
             { name: "Crystl Quant", tag: { en: "Reality engine.", es: "Motor de realidad.", "pt-BR": "Motor de realidade." }, url: "https://crystlquant.com", icon: "assets/crystlquant-logo.png", statusKey: "live" }
         ];
 
