@@ -220,11 +220,6 @@ main [class*="tracking-widest"] {
   display: block; max-width: 330px; margin-top: 32px;
   color: #89858f; font: 11px/1.7 var(--mono); letter-spacing: .06em;
 }
-.crystl-home main section:first-of-type { grid-column: 1; justify-content: flex-start !important; margin: 30px 0 0 !important; }
-.crystl-home main section:first-of-type a {
-  width: 43px !important; height: 43px !important; border-radius: 50% !important;
-  border-color: var(--line) !important; background: transparent !important; box-shadow: none !important;
-}
 
 .crystl-portal {
   --rx: 0deg; --ry: 0deg;
@@ -393,7 +388,6 @@ body:not(.crystl-home) main > div[class*="max-w-"] > header:first-of-type p { ma
   .crystl-home main header::before { margin-bottom: 14px; }
   .crystl-home main header > p[data-i18n="hero_tagline"] { font-size: clamp(46px,14vw,68px) !important; line-height: .92 !important; }
   .crystl-home main header > p[data-i18n="hero_tagline"]::after { margin-top: 16px; font-size: 9px; line-height: 1.55; }
-  .crystl-home main section:first-of-type { margin-top: 14px !important; }
   .crystl-portal { width: calc(100vw - 28px); max-width: 100%; min-height: 440px; margin: 18px 0 0; }
   .portal-aperture { inset: 0 0 6%; gap: 5px; padding: 14px 0; }
   .portal-void { inset: 1% 0; clip-path: polygon(1% 15%,93% 0,100% 79%,12% 100%,0 47%); }
