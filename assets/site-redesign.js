@@ -124,6 +124,7 @@
       <a href="${url('terms.html')}">Terms</a>
       <a href="${url('data-deletion.html')}">Data deletion</a>
       <a href="mailto:dev@crystllabs.com">dev@crystllabs.com</a>
+      <a class="crystl-yt" href="https://www.youtube.com/@crystllabs" target="_blank" rel="noopener" aria-label="Crystl Labs on YouTube"><svg viewBox="0 0 28 20" aria-hidden="true"><rect width="28" height="20" rx="5" fill="#FF0000"/><path d="M11 5.5v9l8-4.5z" fill="#fff"/></svg>YouTube</a>
     </nav>`;
     body.appendChild(footer);
   }

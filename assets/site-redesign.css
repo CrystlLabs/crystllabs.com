@@ -353,6 +353,8 @@ body:not(.crystl-home) main > div[class*="max-w-"] > header:first-of-type p { ma
 .crystl-footer nav { display: flex; flex-wrap: wrap; gap: 22px; }
 .crystl-footer a { color: #77747e; text-decoration: none; transition: color .25s ease; }
 .crystl-footer a:hover { color: var(--paper); }
+.crystl-footer a.crystl-yt { display: inline-flex; align-items: center; gap: 7px; }
+.crystl-footer a.crystl-yt svg { width: 17px; height: 12px; flex-shrink: 0; }
 
 /* Reveal behavior; content remains visible without JS */
 .crystl-enhanced .crystl-reveal { opacity: 0; transform: translateY(24px); transition: opacity .9s var(--ease-out),transform .9s var(--ease-out); }
