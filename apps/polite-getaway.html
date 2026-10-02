@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polite Getaway | Crystl Labs</title>
+    <meta name="description" content="You drive the getaway car. Stop at every red and let everyone else go first.">
+    <meta property="og:title" content="Polite Getaway | Crystl Labs">
+    <meta property="og:description" content="You drive the getaway car. Stop at every red and let everyone else go first.">
+    <meta property="og:image" content="polite-getaway.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/polite-getaway.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="polite-getaway.png" alt="Polite Getaway" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Polite Getaway</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">You drive the getaway car. Stop at every red and let everyone else go first.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Polite Getaway is a driving game about the most careful getaway in history. The crew is in the back seat, the loot is in the boot, and the police are everywhere. The trick is to not look like a getaway car at all. Hold anywhere to drive and let go to brake. The route to the safehouse is set, so all you choose is when to go and when to wait. Run a red, speed past a patrol car or bump another car and suspicion climbs. Fill the meter and a chase starts, which loses you the round. Sitting still on a green looks odd too, and suspicion falls while you drive legally. There are 30 routes through a low-poly city, with traffic lights, cross traffic and police parked along the way, and a crew with opinions about every stop. Keep suspicion low for three stars, and fill a garage with 40 things, including five new getaway cars. Free with optional ads. No purchases, no account.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/polite-getaway/01.jpg" alt="Polite Getaway screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/polite-getaway/02.jpg" alt="Polite Getaway screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/polite-getaway/03.jpg" alt="Polite Getaway screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/polite-getaway/04.jpg" alt="Polite Getaway screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/polite-getaway/05.jpg" alt="Polite Getaway screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Polite Getaway", "ko": "폴라이트 겟어웨이", "ja": "ポライト・ゲッタウェイ", "es": "Polite Getaway", "pt-BR": "Polite Getaway"}, "tagline": {"en": "You drive the getaway car. Stop at every red and let everyone else go first.", "ko": "도주 차량은 당신이 몹니다. 빨간불마다 서고 다른 차에 먼저 양보하세요.", "ja": "逃走車のハンドルを握るのはあなた。赤信号では必ず止まり、ほかの車に道を譲ろう。", "es": "Conduces el coche de la huida. Para en cada semáforo en rojo y cede el paso a todos.", "pt-BR": "Você dirige o carro da fuga. Pare em todo sinal vermelho e deixe todo mundo passar."}, "desc": {"en": "Polite Getaway is a driving game about the most careful getaway in history. The crew is in the back seat, the loot is in the boot, and the police are everywhere. The trick is to not look like a getaway car at all. Hold anywhere to drive and let go to brake. The route to the safehouse is set, so all you choose is when to go and when to wait. Run a red, speed past a patrol car or bump another car and suspicion climbs. Fill the meter and a chase starts, which loses you the round. Sitting still on a green looks odd too, and suspicion falls while you drive legally. There are 30 routes through a low-poly city, with traffic lights, cross traffic and police parked along the way, and a crew with opinions about every stop. Keep suspicion low for three stars, and fill a garage with 40 things, including five new getaway cars. Free with optional ads. No purchases, no account.", "ko": "폴라이트 겟어웨이는 역사상 가장 조심스러운 도주를 다룬 운전 게임입니다. 뒷좌석엔 일당이, 트렁크엔 훔친 물건이 있고, 경찰은 어디에나 있습니다. 요령은 도주 차량처럼 보이지 않는 것입니다. 화면 아무 곳이나 누르고 있으면 달리고, 떼면 멈춥니다. 은신처까지 경로는 정해져 있으니 언제 가고 언제 기다릴지만 정하면 됩니다. 신호를 무시하거나, 순찰차 옆을 과속으로 지나가거나, 다른 차를 들이받으면 의심 수치가 오릅니다. 게이지가 가득 차면 추격전이 시작되고 그 판은 패배입니다. 초록불에 가만히 서 있어도 수상해 보이며, 법규를 지키며 달리면 의심이 줄어듭니다. 로우폴리 도시를 지나는 30개 경로에는 신호등, 교차 차량, 길가에 세워진 경찰차가 있고, 뒷좌석 일당은 정차할 때마다 한마디씩 합니다. 의심을 낮게 유지하면 별 3개를 받고, 새 도주 차량 5대를 포함한 40가지 물건으로 차고를 채울 수 있습니다. 무료이며 광고는 선택형입니다. 구매 요소도 계정도 없습니다.", "ja": "『ポライト・ゲッタウェイ』は、史上もっとも慎重な逃走劇を描くドライブゲーム。後部座席には仲間、トランクには盗品、そして警察はどこにでもいる。コツは逃走車に見えないこと。画面のどこかを押している間は進み、離すとブレーキ。隠れ家までのルートは決まっているので、決めるのはいつ進んでいつ待つかだけだ。信号無視、パトカーの横でのスピード違反、ほかの車への接触で疑いが高まる。メーターが満タンになるとカーチェイスが始まり、そのラウンドは負け。青信号で止まったままでも怪しまれ、交通ルールを守って走れば疑いは下がっていく。ローポリの街を抜ける30のルートには信号、横切る車、道沿いに停まったパトカーがあり、後ろの仲間は停車のたびに口を出してくる。疑いを低く抑えれば星3つ。新しい逃走車5台を含む40のアイテムでガレージを埋められる。無料で広告は任意。課金なし、アカウント不要。", "es": "Polite Getaway es un juego de conducción sobre la huida más prudente de la historia. La banda va en el asiento de atrás, el botín en el maletero y la policía está por todas partes. El truco es no parecer un coche de huida. Mantén pulsado en cualquier parte para avanzar y suelta para frenar. La ruta al piso franco está fijada, así que solo eliges cuándo arrancar y cuándo esperar. Si te saltas un rojo, pasas rápido junto a una patrulla o chocas con otro coche, la sospecha sube. Si el medidor se llena, empieza una persecución y pierdes la ronda. Quedarte parado en verde también resulta raro, y la sospecha baja mientras conduces dentro de la ley. Hay 30 rutas por una ciudad low-poly, con semáforos, tráfico cruzado y policías aparcados por el camino, y una banda que opina en cada parada. Mantén la sospecha baja para lograr tres estrellas y llena un garaje con 40 cosas, entre ellas cinco coches de huida nuevos. Gratis con anuncios opcionales. Sin compras y sin cuenta.", "pt-BR": "Polite Getaway é um jogo de direção sobre a fuga mais cuidadosa da história. A turma está no banco de trás, o roubo está no porta-malas e a polícia está em todo lugar. O segredo é não parecer um carro de fuga. Segure em qualquer lugar para andar e solte para frear. A rota até o esconderijo já está definida, então você só escolhe quando ir e quando esperar. Furar um sinal vermelho, correr perto de uma viatura ou bater em outro carro faz a suspeita subir. Se o medidor encher, começa uma perseguição e você perde a rodada. Ficar parado no verde também parece estranho, e a suspeita cai enquanto você dirige dentro da lei. São 30 rotas por uma cidade low-poly, com semáforos, tráfego cruzado e policiais estacionados pelo caminho, e uma turma que dá palpite em cada parada. Mantenha a suspeita baixa para ganhar três estrelas e encha uma garagem com 40 itens, incluindo cinco carros de fuga novos. Grátis com anúncios opcionais. Sem compras e sem conta."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

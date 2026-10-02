@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Pitch High | Crystl Labs</title>
+    <meta name="description" content="One school year, a 3v3 match every Friday, and a scout who is not counting goals.">
+    <meta property="og:title" content="Pixel Pitch High | Crystl Labs">
+    <meta property="og:description" content="One school year, a 3v3 match every Friday, and a scout who is not counting goals.">
+    <meta property="og:image" content="pixel-pitch-high.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/pixel-pitch-high.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="pixel-pitch-high.png" alt="Pixel Pitch High" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Pixel Pitch High</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">One school year, a 3v3 match every Friday, and a scout who is not counting goals.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">You transfer to Eastside High with a reputation you did not choose and one school year to replace it. Pixel Pitch High is a soccer career story. Each week is five days of three slots: class in the morning, an afternoon for training, a diner shift, the library, the physio or whoever asked first, and an evening that goes to whoever you give it to. Friday is the fixture, and you play it yourself: compact 3v3 with a virtual stick, sprint, through balls, shot power and placement and teammate commands. Coach Reyes sets an objective before kickoff and judges it whatever the score. Energy, health, grades and eligibility all count, and rumors spread if you ignore them. Scout Marcus Vale weighs teamwork, discipline, academics, composure and consistency far above goals, and his report shows its arithmetic. Five acts, and an ending that depends on who you kept. Offline, no account, opt-in rewarded ads, nothing for sale.</p>
+
+                <a id="apStoreLink" href="https://play.google.com/store/apps/details?id=com.crystllabs.pixelpitchhigh" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">Get it on Google Play</span>
+                </a>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/pixel-pitch-high/01.jpg" alt="Pixel Pitch High screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/pixel-pitch-high/02.jpg" alt="Pixel Pitch High screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/pixel-pitch-high/03.jpg" alt="Pixel Pitch High screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/pixel-pitch-high/04.jpg" alt="Pixel Pitch High screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/pixel-pitch-high/05.jpg" alt="Pixel Pitch High screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Pixel Pitch High", "ko": "픽셀 피치 하이", "ja": "ピクセル・ピッチ・ハイ", "es": "Pixel Pitch High", "pt-BR": "Pixel Pitch High"}, "tagline": {"en": "One school year, a 3v3 match every Friday, and a scout who is not counting goals.", "ko": "한 학년, 금요일마다 3대3 경기, 그리고 골을 세지 않는 스카우트.", "ja": "一学年、毎週金曜の3対3、そしてゴールを数えないスカウト。", "es": "Un curso escolar, un 3 contra 3 cada viernes y un ojeador que no cuenta goles.", "pt-BR": "Um ano letivo, um 3 contra 3 toda sexta e um olheiro que não conta gols."}, "desc": {"en": "You transfer to Eastside High with a reputation you did not choose and one school year to replace it. Pixel Pitch High is a soccer career story. Each week is five days of three slots: class in the morning, an afternoon for training, a diner shift, the library, the physio or whoever asked first, and an evening that goes to whoever you give it to. Friday is the fixture, and you play it yourself: compact 3v3 with a virtual stick, sprint, through balls, shot power and placement and teammate commands. Coach Reyes sets an objective before kickoff and judges it whatever the score. Energy, health, grades and eligibility all count, and rumors spread if you ignore them. Scout Marcus Vale weighs teamwork, discipline, academics, composure and consistency far above goals, and his report shows its arithmetic. Five acts, and an ending that depends on who you kept. Offline, no account, opt-in rewarded ads, nothing for sale.", "ko": "이스트사이드 고등학교로 전학 온 당신에게는 원치 않은 소문과, 그걸 바꿀 한 학년이 있습니다. 픽셀 피치 하이는 축구 커리어 이야기입니다. 한 주는 5일, 하루는 세 칸입니다. 오전은 수업, 오후 한 칸은 훈련이나 식당 아르바이트, 도서관, 재활실, 아니면 먼저 연락한 사람에게, 저녁 한 칸은 당신이 주기로 한 사람에게 갑니다. 금요일은 경기이고 직접 뜁니다. 가상 스틱, 스프린트, 스루패스, 슈팅 세기와 방향, 동료 지시가 있는 3대3입니다. 레예스 감독은 킥오프 전에 목표를 정하고, 점수와 상관없이 그걸로 평가합니다. 체력, 건강, 성적, 출전 자격이 모두 중요하고, 소문은 내버려 두면 퍼집니다. 스카우트 마커스 베일은 골보다 팀워크, 규율, 학업, 침착함, 꾸준함을 훨씬 무겁게 보고, 보고서에 계산 과정을 그대로 보여 줍니다. 5막 구성, 엔딩은 곁에 남긴 사람에 따라 달라집니다. 오프라인, 계정 없음, 보상형 광고는 선택, 판매하는 것 없음.", "ja": "イーストサイド高校に転校してきたあなたには、望んでもいない評判と、それを塗り替えるための一年がある。ピクセル・ピッチ・ハイはサッカーのキャリアストーリーだ。一週間は五日、一日は三つの枠。朝は授業、午後の一枠は練習か、ダイナーのバイトか、図書館か、リハビリ室か、先に声をかけてきた誰か。夜の一枠は、あなたが渡すと決めた相手のもの。金曜は試合で、自分でプレイする。バーチャルスティック、スプリント、スルーパス、シュートの強さとコース、味方への指示がある3対3だ。レイエス監督はキックオフ前に目標を出し、スコアに関係なくそれで評価する。体力、健康、成績、出場資格はすべて効いてきて、放っておいた噂は広がる。スカウトのマーカス・ヴェイルはゴールよりもチームワーク、規律、学業、冷静さ、安定感をはるかに重く見て、報告書に計算をそのまま示す。五幕構成で、エンディングは誰をそばに残したかで決まる。オフライン、アカウント不要、リワード広告は任意、売り物なし。ゲームは英語と韓国語。", "es": "Te cambias a Eastside High con una reputación que no elegiste y un curso escolar para cambiarla. Pixel Pitch High es una historia de carrera futbolística. Cada semana son cinco días de tres franjas: clase por la mañana, una tarde para entrenar, un turno en el diner, la biblioteca, el fisio o quien te lo pidió primero, y una noche para quien tú decidas. El viernes es el partido y lo juegas tú: un 3 contra 3 compacto con stick virtual, sprint, pases al hueco, potencia y colocación del tiro y órdenes a los compañeros. El entrenador Reyes fija un objetivo antes del saque y lo juzga sea cual sea el marcador. La energía, la salud, las notas y la elegibilidad cuentan, y los rumores se extienden si los ignoras. El ojeador Marcus Vale valora el trabajo en equipo, la disciplina, los estudios, la compostura y la regularidad muy por encima de los goles, y su informe muestra sus cuentas. Cinco actos y un final que depende de a quién conservaste. Sin conexión, sin cuenta, anuncios con recompensa opcionales, nada a la venta. El juego está en inglés y coreano.", "pt-BR": "Você muda de escola para a Eastside High com uma reputação que não escolheu e um ano letivo para mudá-la. Pixel Pitch High é uma história de carreira no futebol. Cada semana tem cinco dias de três horários: aula de manhã, uma tarde para treino, um turno na lanchonete, a biblioteca, o fisioterapeuta ou quem pediu primeiro, e uma noite para quem você escolher. Sexta é dia de jogo, e você joga: um 3 contra 3 compacto com direcional virtual, sprint, passes em profundidade, força e direção do chute e comandos para os colegas. O técnico Reyes define um objetivo antes do apito e julga por ele, seja qual for o placar. Energia, saúde, notas e elegibilidade contam, e boatos se espalham se você ignorar. O olheiro Marcus Vale pesa trabalho em equipe, disciplina, estudos, compostura e regularidade muito acima dos gols, e o relatório mostra as contas. Cinco atos e um final que depende de quem você manteve por perto. Offline, sem conta, anúncios recompensados opcionais, nada à venda. O jogo é em inglês e coreano."}};
+        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

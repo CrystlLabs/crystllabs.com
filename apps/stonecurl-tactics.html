@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stonecurl Tactics | Crystl Labs</title>
+    <meta name="description" content="Pick the line, set the weight, sweep it to the button. Curling, played as a puzzle.">
+    <meta property="og:title" content="Stonecurl Tactics | Crystl Labs">
+    <meta property="og:description" content="Pick the line, set the weight, sweep it to the button. Curling, played as a puzzle.">
+    <meta property="og:image" content="stonecurl-tactics.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/stonecurl-tactics.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="stonecurl-tactics.png" alt="Stonecurl Tactics" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Stonecurl Tactics</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Pick the line, set the weight, sweep it to the button. Curling, played as a puzzle.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Stonecurl Tactics is curling built around decisions. For each stone you choose a line, set the delivery weight and sweep the shot toward the button. Collisions can move a guard or clear a scoring stone, so a single stone can change the whole end. Play quick two-end games, 60 tactical challenges, or a full eight-end arcade match with eight stones per team. Ice settings and four rival shot styles change what the right call is, and last-stone advantage switches after a scoring end. Tournament guard-protection rules are not enforced, so the game is about the shots, not the rulebook. Career progression, offline daily challenges, practice, medals and personal records give you reasons to come back, and tokens earned in play unlock collection items. Core play works offline and progress stays on your device. Available in English, Spanish and Brazilian Portuguese. Free, with optional rewarded ads and occasional ads between sessions.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/stonecurl-tactics/01.jpg" alt="Stonecurl Tactics screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/stonecurl-tactics/02.jpg" alt="Stonecurl Tactics screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Stonecurl Tactics", "ko": "스톤컬 택틱스", "ja": "ストーンカール・タクティクス", "es": "Stonecurl Tactics", "pt-BR": "Stonecurl Tactics"}, "tagline": {"en": "Pick the line, set the weight, sweep it to the button. Curling, played as a puzzle.", "ko": "라인을 정하고, 세기를 맞추고, 버튼까지 스위핑하세요. 퍼즐처럼 즐기는 컬링.", "ja": "ラインを選び、ウェイトを決め、ボタンまでスイープ。パズルとして遊ぶカーリング。", "es": "Elige la línea, ajusta el peso y barre hasta el botón. Curling jugado como un puzle.", "pt-BR": "Escolha a linha, ajuste a força e varra até o botão. Curling jogado como quebra-cabeça."}, "desc": {"en": "Stonecurl Tactics is curling built around decisions. For each stone you choose a line, set the delivery weight and sweep the shot toward the button. Collisions can move a guard or clear a scoring stone, so a single stone can change the whole end. Play quick two-end games, 60 tactical challenges, or a full eight-end arcade match with eight stones per team. Ice settings and four rival shot styles change what the right call is, and last-stone advantage switches after a scoring end. Tournament guard-protection rules are not enforced, so the game is about the shots, not the rulebook. Career progression, offline daily challenges, practice, medals and personal records give you reasons to come back, and tokens earned in play unlock collection items. Core play works offline and progress stays on your device. Available in English, Spanish and Brazilian Portuguese. Free, with optional rewarded ads and occasional ads between sessions.", "ko": "스톤컬 택틱스는 판단에 초점을 맞춘 컬링 게임입니다. 스톤마다 라인을 고르고, 투구 세기를 정하고, 버튼을 향해 스위핑합니다. 충돌로 가드를 밀어내거나 득점 중인 스톤을 걷어낼 수 있어서 스톤 하나가 엔드 전체를 바꾸기도 합니다. 짧은 2엔드 경기, 전술 챌린지 60개, 팀당 8개의 스톤으로 치르는 8엔드 아케이드 경기를 즐길 수 있습니다. 빙판 설정과 4가지 상대 샷 스타일에 따라 정답이 달라지고, 득점한 엔드 뒤에는 마지막 스톤 우선권이 넘어갑니다. 대회용 가드 보호 규칙은 적용되지 않습니다. 커리어 진행, 오프라인 일일 챌린지, 연습, 메달, 개인 기록이 있고, 플레이로 모은 토큰으로 컬렉션 아이템을 열 수 있습니다. 핵심 플레이는 오프라인으로 가능하고 진행 상황은 기기에 저장됩니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다. 무료이며, 선택형 보상 광고와 세션 사이에 가끔 나오는 광고가 있습니다.", "ja": "『ストーンカール・タクティクス』は判断を軸にしたカーリングゲーム。ストーンごとにラインを選び、投げるウェイトを決め、ボタンへ向けてスイープする。衝突でガードを動かしたり得点中のストーンをはじき出したりできるので、たった一投でエンド全体がひっくり返ることもある。短い2エンド戦、60の戦術チャレンジ、1チーム8投で戦う8エンドのアーケードマッチを遊べる。氷の設定と4種類の相手のショットスタイルで最善手が変わり、得点したエンドの後はラストストーンの権利が移る。大会用のガード保護ルールは採用していない。キャリア、オフラインのデイリーチャレンジ、練習、メダル、自己ベストがあり、プレイで貯めたトークンでコレクションアイテムを解放できる。基本プレイはオフラインで遊べ、進行状況は端末に保存される。英語・スペイン語・ブラジルポルトガル語に対応。無料で、任意のリワード広告とセッションの合間にときどき広告がある。", "es": "Stonecurl Tactics es curling centrado en las decisiones. Para cada piedra eliges una línea, ajustas el peso del lanzamiento y barres el tiro hacia el botón. Los choques pueden mover una guardia o sacar una piedra que puntúa, así que una sola piedra puede cambiar todo el end. Juega partidas rápidas a dos ends, 60 desafíos tácticos o un partido arcade completo a ocho ends con ocho piedras por equipo. Los ajustes del hielo y cuatro estilos de tiro rivales cambian cuál es la jugada correcta, y la ventaja de la última piedra cambia tras un end con puntos. No se aplican las reglas de protección de guardias de torneo. La carrera, los desafíos diarios sin conexión, la práctica, las medallas y los récords personales te dan motivos para volver, y las fichas que ganas desbloquean objetos de colección. El juego principal funciona sin conexión y el progreso queda en tu dispositivo. Disponible en inglés, español y portugués de Brasil. Gratis, con anuncios con recompensa opcionales y anuncios ocasionales entre sesiones.", "pt-BR": "Stonecurl Tactics é curling focado em decisões. Para cada pedra você escolhe a linha, ajusta a força do lançamento e varre a jogada até o botão. As colisões podem tirar uma guarda do lugar ou limpar uma pedra que está pontuando, então uma única pedra pode mudar o end inteiro. Jogue partidas rápidas de dois ends, 60 desafios táticos ou uma partida arcade completa de oito ends com oito pedras por equipe. As condições do gelo e quatro estilos de jogada dos rivais mudam qual é a decisão certa, e a vantagem da última pedra troca de lado após um end com pontos. As regras de proteção de guarda de torneio não são aplicadas. A carreira, os desafios diários offline, o treino, as medalhas e os recordes pessoais dão motivos para voltar, e as fichas ganhas liberam itens de coleção. O jogo principal funciona offline e o progresso fica no seu aparelho. Disponível em inglês, espanhol e português do Brasil. Grátis, com anúncios premiados opcionais e anúncios ocasionais entre sessões."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

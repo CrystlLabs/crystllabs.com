@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pack It Perfect | Crystl Labs</title>
+    <meta name="description" content="Rotate the camera, the books and the socks until the case is filled with no gaps.">
+    <meta property="og:title" content="Pack It Perfect | Crystl Labs">
+    <meta property="og:description" content="Rotate the camera, the books and the socks until the case is filled with no gaps.">
+    <meta property="og:image" content="pack-it-perfect.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/pack-it-perfect.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="pack-it-perfect.png" alt="Pack It Perfect" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Pack It Perfect</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Rotate the camera, the books and the socks until the case is filled with no gaps.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Pack It Perfect turns books, cameras, clothes and travel essentials into shape puzzles. You pick an item, rotate it and find its place inside the case. The goal is to cover every square without overlapping another item or crossing the edge. Tap a packed item to take it back out and try a different arrangement. Every generated case has a complete packing solution, so a dead end means a different fit, not an impossible case. You travel through six packing themes, from weekend trips to moving day, with cases that get roomier as you go and a separate daily challenge. Place items by tapping or dragging, rotate pieces and undo recent moves. Two free hints per round each place an item for you and send any blockers back to the tray. Your placements and rotations are saved when you leave. Core puzzles work offline, with no account and no purchases. Optional rewarded videos give extra hints.</p>
+
+                <a id="apStoreLink" href="https://play.google.com/store/apps/details?id=com.crystllabs.packitperfect" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">Get it on Google Play</span>
+                </a>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/pack-it-perfect/01.jpg" alt="Pack It Perfect screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/pack-it-perfect/02.jpg" alt="Pack It Perfect screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/pack-it-perfect/03.jpg" alt="Pack It Perfect screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/pack-it-perfect/04.jpg" alt="Pack It Perfect screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Pack It Perfect", "ko": "팩 잇 퍼펙트", "ja": "パック・イット・パーフェクト", "es": "Pack It Perfect", "pt-BR": "Pack It Perfect"}, "tagline": {"en": "Rotate the camera, the books and the socks until the case is filled with no gaps.", "ko": "카메라와 책과 양말을 돌려 가며 가방을 빈틈없이 채우세요.", "ja": "カメラも本も靴下も回して、ケースを隙間なく埋める。", "es": "Gira la cámara, los libros y la ropa hasta llenar la maleta sin dejar huecos.", "pt-BR": "Gire a câmera, os livros e as roupas até encher a mala sem deixar espaço."}, "desc": {"en": "Pack It Perfect turns books, cameras, clothes and travel essentials into shape puzzles. You pick an item, rotate it and find its place inside the case. The goal is to cover every square without overlapping another item or crossing the edge. Tap a packed item to take it back out and try a different arrangement. Every generated case has a complete packing solution, so a dead end means a different fit, not an impossible case. You travel through six packing themes, from weekend trips to moving day, with cases that get roomier as you go and a separate daily challenge. Place items by tapping or dragging, rotate pieces and undo recent moves. Two free hints per round each place an item for you and send any blockers back to the tray. Your placements and rotations are saved when you leave. Core puzzles work offline, with no account and no purchases. Optional rewarded videos give extra hints.", "ko": "팩 잇 퍼펙트는 책과 카메라, 옷, 여행 필수품을 도형 퍼즐로 바꿉니다. 물건을 골라 돌리고 가방 안에 자리를 찾아 주세요. 목표는 다른 물건과 겹치거나 가장자리를 넘지 않고 모든 칸을 채우는 것입니다. 넣어 둔 물건을 탭하면 다시 꺼내 다른 배치를 시도할 수 있습니다. 생성되는 가방에는 모두 완벽한 정답이 있으니, 막혔다면 다른 배치가 필요할 뿐 풀 수 없는 가방은 아닙니다. 주말여행부터 이삿날까지 여섯 가지 테마를 지나며 가방은 점점 넉넉해지고, 별도의 일일 챌린지도 있습니다. 탭이나 드래그로 놓고, 조각을 돌리고, 최근 수를 되돌릴 수 있습니다. 라운드마다 무료 힌트 두 번은 물건 하나를 대신 놓아 주고 걸리는 물건을 트레이로 돌려보냅니다. 나갈 때 배치와 회전 상태가 저장됩니다. 핵심 퍼즐은 오프라인으로 되며 계정과 구매가 없습니다. 선택형 보상 동영상으로 힌트를 더 받을 수 있습니다.", "ja": "パック・イット・パーフェクトは、本やカメラ、服、旅の必需品を形のパズルに変える。アイテムを選んで回し、ケースの中に収まる場所を探す。ほかのアイテムと重ねず、縁からはみ出さずに、すべてのマスを埋めるのが目標だ。詰めたアイテムをタップすれば取り出して、別の並べ方を試せる。生成されるケースにはどれも完全な詰め方があるので、行き詰まったら並べ方を変えればいい。解けないケースはない。週末旅行から引っ越しの日まで六つのテーマを巡り、ケースはだんだん広くなり、別枠のデイリーチャレンジもある。タップかドラッグで置き、ピースを回し、直前の手を戻せる。ラウンドごとの無料ヒント二回は、アイテムを一つ置いてくれて、邪魔なアイテムをトレイに戻す。やめるときは配置と回転が保存される。基本パズルはオフラインで、アカウント不要、課金なし。任意のリワード動画でヒントを追加できる。", "es": "Pack It Perfect convierte libros, cámaras, ropa y cosas de viaje en rompecabezas de formas. Eliges un objeto, lo giras y le buscas sitio dentro de la maleta. El objetivo es cubrir todas las casillas sin encimar objetos ni salirte del borde. Toca un objeto ya colocado para sacarlo y probar otra distribución. Cada maleta generada tiene una solución completa, así que si te atascas hace falta otro acomodo, no es un caso imposible. Viajas por seis temas, de escapadas de fin de semana al día de la mudanza, con maletas cada vez más amplias y un reto diario aparte. Coloca tocando o arrastrando, gira piezas y deshaz jugadas recientes. Dos pistas gratis por ronda colocan un objeto por ti y devuelven a la bandeja lo que estorba. Tus colocaciones y giros se guardan al salir. Los rompecabezas funcionan sin conexión, sin cuenta y sin compras. Los videos con recompensa opcionales dan pistas extra.", "pt-BR": "Pack It Perfect transforma livros, câmeras, roupas e itens de viagem em quebra-cabeças de formas. Você escolhe um item, gira e encontra o lugar dele dentro da mala. O objetivo é cobrir todos os quadrados sem sobrepor itens nem passar da borda. Toque num item já guardado para tirá-lo e tentar outro arranjo. Toda mala gerada tem uma solução completa, então se travar é questão de outro encaixe, não de uma mala impossível. Você passa por seis temas, de viagens de fim de semana ao dia da mudança, com malas cada vez mais espaçosas e um desafio diário à parte. Coloque tocando ou arrastando, gire peças e desfaça jogadas recentes. Duas dicas grátis por rodada colocam um item para você e devolvem à bandeja o que estiver atrapalhando. Suas colocações e rotações ficam salvas ao sair. Os quebra-cabeças funcionam offline, sem conta e sem compras. Vídeos recompensados opcionais dão dicas extras."}};
+        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

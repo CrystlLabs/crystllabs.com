@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Search Routes | Crystl Labs</title>
+    <meta name="description" content="Eight words per grid, twelve themes, and a new route through the letters every day.">
+    <meta property="og:title" content="Word Search Routes | Crystl Labs">
+    <meta property="og:description" content="Eight words per grid, twelve themes, and a new route through the letters every day.">
+    <meta property="og:image" content="word-search-routes.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/word-search-routes.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="word-search-routes.png" alt="Word Search Routes" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Word Search Routes</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Eight words per grid, twelve themes, and a new route through the letters every day.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Word Search Routes turns each letter grid into a small expedition. Every route hides eight words, and you find them along straight lines across, down or diagonally, in either direction. Drag through the letters, tap the first and last letter, or use a keyboard. Each word you find leaves a colorful trail across the map. There are 12 themes, from gardens and the coast to music, the night sky and the kitchen, with 96 chosen words in each language. Switching language in Settings changes both the interface and the word lists, in English, Spanish or Brazilian Portuguese, and accented words appear exactly as they are written. Follow the journey of puzzles or come back for the daily route. Each route starts with three free clues, and revealed first letters stay marked while you search. There is no countdown, and your finds and clues are saved if you leave. Core play works offline, with no account and no in-app purchases. Optional rewarded videos give extra help.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/word-search-routes/01.jpg" alt="Word Search Routes screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/word-search-routes/02.jpg" alt="Word Search Routes screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/word-search-routes/03.jpg" alt="Word Search Routes screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/word-search-routes/04.jpg" alt="Word Search Routes screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Word Search Routes", "ko": "워드 서치 루트", "ja": "ワードサーチ・ルート", "es": "Word Search Routes", "pt-BR": "Word Search Routes"}, "tagline": {"en": "Eight words per grid, twelve themes, and a new route through the letters every day.", "ko": "판마다 단어 8개, 테마 12개, 그리고 매일 새로운 글자 길.", "ja": "1つの盤に8語、テーマは12種類、毎日新しい文字のルート。", "es": "Ocho palabras por sopa de letras, doce temas y una ruta nueva entre letras cada día.", "pt-BR": "Oito palavras por caça-palavras, doze temas e uma nova rota entre letras todo dia."}, "desc": {"en": "Word Search Routes turns each letter grid into a small expedition. Every route hides eight words, and you find them along straight lines across, down or diagonally, in either direction. Drag through the letters, tap the first and last letter, or use a keyboard. Each word you find leaves a colorful trail across the map. There are 12 themes, from gardens and the coast to music, the night sky and the kitchen, with 96 chosen words in each language. Switching language in Settings changes both the interface and the word lists, in English, Spanish or Brazilian Portuguese, and accented words appear exactly as they are written. Follow the journey of puzzles or come back for the daily route. Each route starts with three free clues, and revealed first letters stay marked while you search. There is no countdown, and your finds and clues are saved if you leave. Core play works offline, with no account and no in-app purchases. Optional rewarded videos give extra help.", "ko": "워드 서치 루트는 글자판 하나하나를 작은 탐험으로 바꿉니다. 루트마다 단어 8개가 숨어 있고, 가로, 세로, 대각선으로 이어진 직선 위에서 어느 방향으로든 찾으면 됩니다. 글자를 따라 드래그하거나, 첫 글자와 마지막 글자를 탭하거나, 키보드를 쓸 수 있습니다. 단어를 찾을 때마다 지도 위에 알록달록한 길이 남습니다. 정원과 바닷가부터 음악, 밤하늘, 부엌까지 12가지 테마가 있고, 언어마다 엄선한 단어가 96개씩 들어 있습니다. 설정에서 언어를 바꾸면 화면과 단어 목록이 함께 바뀌며 영어, 스페인어, 브라질 포르투갈어를 지원하고, 악센트가 있는 단어도 표기 그대로 나옵니다. 퍼즐 여정을 따라가거나 매일 새 루트에 도전하세요. 루트마다 무료 힌트가 3번 있고, 공개된 첫 글자는 찾는 동안 표시된 채로 남습니다. 제한 시간이 없고, 나가도 찾은 단어와 힌트가 저장됩니다. 핵심 플레이는 계정과 인앱 구매 없이 오프라인으로 가능합니다. 선택형 보상 영상으로 추가 도움을 받을 수 있습니다.", "ja": "『ワードサーチ・ルート』は、文字の盤面ひとつひとつを小さな探検に変える。各ルートには8つの単語が隠れていて、横、縦、斜めの直線上をどちら向きにでも探す。文字をなぞってドラッグしても、最初と最後の文字をタップしても、キーボードを使ってもいい。単語を見つけるたびに、地図の上にカラフルな道が残る。庭や海辺から音楽、夜空、キッチンまでテーマは12種類、各言語に厳選した単語が96語ずつ。設定で言語を変えると画面と単語リストの両方が切り替わり、英語・スペイン語・ブラジルポルトガル語に対応、アクセント付きの単語も表記どおりに出てくる。パズルの旅を進めても、毎日のルートに挑んでもいい。各ルートには無料ヒントが3回あり、明かした頭文字は探している間ずっと印が残る。カウントダウンはなく、途中でやめても見つけた単語とヒントは保存される。基本プレイはアカウント不要、アプリ内課金なしでオフラインで遊べる。任意のリワード動画で追加のヒントがもらえる。", "es": "Word Search Routes convierte cada sopa de letras en una pequeña expedición. Cada ruta esconde ocho palabras, y las encuentras en líneas rectas en horizontal, vertical o diagonal, en cualquier sentido. Arrastra por las letras, toca la primera y la última letra o usa un teclado. Cada palabra que encuentras deja un rastro de color en el mapa. Hay 12 temas, desde jardines y la costa hasta la música, el cielo nocturno y la cocina, con 96 palabras escogidas en cada idioma. Cambiar el idioma en Ajustes cambia tanto la interfaz como las listas de palabras, en inglés, español o portugués de Brasil, y las palabras con tilde aparecen tal como se escriben. Sigue el recorrido de puzles o vuelve por la ruta diaria. Cada ruta empieza con tres pistas gratis, y las letras iniciales reveladas quedan marcadas mientras buscas. No hay cuenta atrás, y tus hallazgos y pistas se guardan si sales. El juego principal funciona sin conexión, sin cuenta y sin compras dentro de la app. Los videos con recompensa opcionales dan ayuda extra.", "pt-BR": "Word Search Routes transforma cada caça-palavras numa pequena expedição. Cada rota esconde oito palavras, e você as encontra em linhas retas na horizontal, vertical ou diagonal, em qualquer sentido. Arraste pelas letras, toque na primeira e na última letra ou use um teclado. Cada palavra encontrada deixa uma trilha colorida no mapa. São 12 temas, de jardins e litoral a música, céu noturno e cozinha, com 96 palavras escolhidas em cada idioma. Trocar o idioma nas Configurações muda a interface e as listas de palavras, em inglês, espanhol ou português do Brasil, e as palavras acentuadas aparecem exatamente como se escrevem. Siga a jornada de quebra-cabeças ou volte para a rota diária. Cada rota começa com três dicas grátis, e as letras iniciais reveladas ficam marcadas enquanto você procura. Não há contagem regressiva, e suas descobertas e dicas ficam salvas se você sair. O jogo principal funciona offline, sem conta e sem compras no app. Vídeos premiados opcionais dão ajuda extra."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

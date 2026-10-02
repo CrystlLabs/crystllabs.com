@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glasshouse Seasons | Crystl Labs</title>
+    <meta name="description" content="Soil, water, light and heat decide the harvest. You decide where it sells.">
+    <meta property="og:title" content="Glasshouse Seasons | Crystl Labs">
+    <meta property="og:description" content="Soil, water, light and heat decide the harvest. You decide where it sells.">
+    <meta property="og:image" content="glasshouse-seasons.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/glasshouse-seasons.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="glasshouse-seasons.png" alt="Glasshouse Seasons" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Glasshouse Seasons</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Soil, water, light and heat decide the harvest. You decide where it sells.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Glasshouse Seasons is a greenhouse management sim. Soil, moisture, light and temperature shape every harvest, and the seasons keep changing underneath you. You grow 18 crop families and research 30 cultivars, each with traits that suit some conditions better than others. Day to day you manage the soil, the irrigation, the climate and crop rotation, and you watch freshness, because produce does not wait. When it is ready you choose where it goes: local stalls, restaurant orders or seasonal exhibitions. A growing notebook keeps track of what you learn, and 60 greenhouse contracts set the goals along the way. Pause whenever you need to think, change the simulation speed as things grow, and try different plans in three save slots. Core play and progression work offline. Optional rewarded ads give a bonus, and interstitial ads appear at breaks between shifts. Plays in English, Spanish and Brazilian Portuguese.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/glasshouse-seasons/01.jpg" alt="Glasshouse Seasons screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/glasshouse-seasons/02.jpg" alt="Glasshouse Seasons screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/glasshouse-seasons/03.jpg" alt="Glasshouse Seasons screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/glasshouse-seasons/04.jpg" alt="Glasshouse Seasons screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/glasshouse-seasons/05.jpg" alt="Glasshouse Seasons screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Glasshouse Seasons", "ko": "글라스하우스 시즌스", "ja": "グラスハウス・シーズンズ", "es": "Glasshouse Seasons", "pt-BR": "Glasshouse Seasons"}, "tagline": {"en": "Soil, water, light and heat decide the harvest. You decide where it sells.", "ko": "흙과 물, 빛과 온도가 수확을 정합니다. 어디에 팔지는 당신이 정합니다.", "ja": "土と水と光と温度が収穫を決める。どこで売るかを決めるのはあなた。", "es": "El suelo, el agua, la luz y el calor deciden la cosecha. Tú decides dónde venderla.", "pt-BR": "Solo, água, luz e calor decidem a colheita. Você decide onde vender."}, "desc": {"en": "Glasshouse Seasons is a greenhouse management sim. Soil, moisture, light and temperature shape every harvest, and the seasons keep changing underneath you. You grow 18 crop families and research 30 cultivars, each with traits that suit some conditions better than others. Day to day you manage the soil, the irrigation, the climate and crop rotation, and you watch freshness, because produce does not wait. When it is ready you choose where it goes: local stalls, restaurant orders or seasonal exhibitions. A growing notebook keeps track of what you learn, and 60 greenhouse contracts set the goals along the way. Pause whenever you need to think, change the simulation speed as things grow, and try different plans in three save slots. Core play and progression work offline. Optional rewarded ads give a bonus, and interstitial ads appear at breaks between shifts. Plays in English, Spanish and Brazilian Portuguese.", "ko": "글라스하우스 시즌스는 온실 경영 시뮬레이션입니다. 흙과 습도, 빛과 온도가 모든 수확을 좌우하고, 그 아래에서 계절은 계속 바뀝니다. 작물 18과를 기르고 품종 30종을 연구하는데, 품종마다 특정 조건에 더 잘 맞는 특성이 있습니다. 매일 흙과 관수, 기후, 돌려짓기를 관리하고, 수확물은 기다려 주지 않으니 신선도도 살펴야 합니다. 수확이 끝나면 어디로 보낼지 고릅니다. 동네 가판대, 식당 주문, 계절 전시회 중에서요. 재배 노트에는 알게 된 것이 기록되고, 온실 계약 60개가 그때그때의 목표가 됩니다. 생각이 필요하면 언제든 일시정지하고, 규모가 커지면 시뮬레이션 속도를 바꾸고, 저장 슬롯 세 개로 여러 방식을 시험해 보세요. 핵심 플레이와 진행은 오프라인으로 됩니다. 보상형 광고는 선택이며 보너스를 주고, 전면 광고는 교대 사이 쉬는 시간에 나옵니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다.", "ja": "グラスハウス・シーズンズは温室経営シミュレーションだ。土、湿度、光、温度がすべての収穫を左右し、その下で季節は移り変わり続ける。18の作物の科を育て、30の品種を研究する。品種ごとに、ある条件に向いた特性がある。日々、土と灌水と気候と輪作を管理し、収穫物は待ってくれないので鮮度にも目を配る。収穫したら行き先を選ぶ。地元の露店か、レストランの注文か、季節の品評会か。栽培ノートにわかったことが記録され、60の温室契約が道中の目標になる。考えたいときはいつでも一時停止でき、規模が大きくなればシミュレーション速度を変えられる。セーブスロットは三つあり、別のやり方も試せる。基本のプレイと進行はオフラインで動く。リワード広告は任意でボーナスがもらえ、インタースティシャル広告はシフトの合間に表示される。英語、スペイン語、ブラジルポルトガル語に対応。", "es": "Glasshouse Seasons es un simulador de gestión de invernadero. El suelo, la humedad, la luz y la temperatura dan forma a cada cosecha, y las estaciones no dejan de cambiar. Cultivas 18 familias de plantas e investigas 30 variedades, cada una con rasgos que encajan mejor en unas condiciones que en otras. Día a día gestionas el suelo, el riego, el clima y la rotación de cultivos, y vigilas la frescura, porque la cosecha no espera. Cuando está lista, eliges adónde va: puestos locales, pedidos de restaurantes o exposiciones de temporada. Un cuaderno de cultivo guarda lo que aprendes, y 60 contratos de invernadero marcan los objetivos. Pausa cuando necesites pensar, ajusta la velocidad de la simulación a medida que crece todo y prueba distintas estrategias en tres espacios de guardado. El juego y la progresión principal funcionan sin conexión. Los anuncios recompensados son opcionales y dan una bonificación, y los intersticiales aparecen en pausas entre turnos. En inglés, español y portugués de Brasil.", "pt-BR": "Glasshouse Seasons é um simulador de gestão de estufa. Solo, umidade, luz e temperatura moldam cada colheita, e as estações não param de mudar. Você cultiva 18 famílias de plantas e pesquisa 30 variedades, cada uma com características que combinam mais com certas condições. No dia a dia você cuida do solo, da irrigação, do clima e da rotação de culturas, e fica de olho no frescor, porque a produção não espera. Quando está pronta, você escolhe o destino: feiras locais, pedidos de restaurantes ou exposições sazonais. Um caderno de cultivo registra o que você aprende, e 60 contratos de estufa marcam as metas. Pause quando precisar pensar, ajuste a velocidade da simulação conforme tudo cresce e teste estratégias diferentes em três espaços de salvamento. A jogabilidade e a progressão principal funcionam sem internet. Anúncios recompensados são opcionais e dão um bônus, e os intersticiais aparecem nas pausas entre turnos. Em inglês, espanhol e português do Brasil."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

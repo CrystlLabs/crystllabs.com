@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jurassic Pixel | Crystl Labs</title>
+    <meta name="description" content="Pair two of a kind, check the odds, hatch the egg. 17 species, 85 colors to breed.">
+    <meta property="og:title" content="Jurassic Pixel | Crystl Labs">
+    <meta property="og:description" content="Pair two of a kind, check the odds, hatch the egg. 17 species, 85 colors to breed.">
+    <meta property="og:image" content="jurassic-pixel.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/jurassic-pixel.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="jurassic-pixel.png" alt="Jurassic Pixel" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Jurassic Pixel</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Pair two of a kind, check the odds, hatch the egg. 17 species, 85 colors to breed.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Your grandfather built a dinosaur park and never finished it. He left you a few pens, a hatchery and his breeding ledger: seventeen species, five colors each, most rows still blank. Pair two dinosaurs of the same kind and wait out the egg. The hatchling takes its color from its parents, usually one or the other and now and then a color neither had. The Hatchery shows the odds for every color before you pair, so the gamble is yours to plan. Hatchlings grow into adults on a real clock, app open or not. Sessions are short on purpose. Your dinosaurs bank coins while the app is closed, so you open it, collect, pay for the next pairing and close it again. Eggs take two to forty minutes. Five enclosures, six letters from your grandfather, thirty-five goals and a name for every dinosaur. Nothing dies, nothing gets sick, and a pairing never fails. Offline, no account, free with ads, no purchases. English, Korean, Spanish and Brazilian Portuguese.</p>
+
+                <a id="apStoreLink" href="https://play.google.com/store/apps/details?id=com.crystllabs.jurassicpixel" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">Get it on Google Play</span>
+                </a>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/jurassic-pixel/01.jpg" alt="Jurassic Pixel screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/jurassic-pixel/02.jpg" alt="Jurassic Pixel screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/jurassic-pixel/03.jpg" alt="Jurassic Pixel screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/jurassic-pixel/04.jpg" alt="Jurassic Pixel screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/jurassic-pixel/05.jpg" alt="Jurassic Pixel screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Jurassic Pixel", "ko": "쥬라기 픽셀", "ja": "ジュラシック・ピクセル", "es": "Jurassic Pixel", "pt-BR": "Jurassic Pixel"}, "tagline": {"en": "Pair two of a kind, check the odds, hatch the egg. 17 species, 85 colors to breed.", "ko": "같은 종 둘을 짝짓고, 확률을 보고, 알을 부화시키세요. 17종, 85가지 색.", "ja": "同じ種を2匹ペアにして、確率を見て、卵をかえす。17種、85色を育てよう。", "es": "Junta dos de una especie, mira las probabilidades y eclosiona el huevo. 17 especies, 85 colores.", "pt-BR": "Junte dois da mesma espécie, veja as chances e choque o ovo. 17 espécies, 85 cores."}, "desc": {"en": "Your grandfather built a dinosaur park and never finished it. He left you a few pens, a hatchery and his breeding ledger: seventeen species, five colors each, most rows still blank. Pair two dinosaurs of the same kind and wait out the egg. The hatchling takes its color from its parents, usually one or the other and now and then a color neither had. The Hatchery shows the odds for every color before you pair, so the gamble is yours to plan. Hatchlings grow into adults on a real clock, app open or not. Sessions are short on purpose. Your dinosaurs bank coins while the app is closed, so you open it, collect, pay for the next pairing and close it again. Eggs take two to forty minutes. Five enclosures, six letters from your grandfather, thirty-five goals and a name for every dinosaur. Nothing dies, nothing gets sick, and a pairing never fails. Offline, no account, free with ads, no purchases. English, Korean, Spanish and Brazilian Portuguese.", "ko": "할아버지는 공룡 공원을 짓다가 끝내 완성하지 못하셨습니다. 남은 건 우리 몇 개, 부화장 하나, 그리고 교배 장부 한 권. 열일곱 종, 종마다 다섯 가지 색, 대부분은 아직 빈칸입니다. 같은 종 공룡 두 마리를 짝짓고 알이 부화하기를 기다리세요. 새끼의 색은 부모에게서 옵니다. 대개 한쪽을 닮지만, 가끔은 둘 다 없던 색이 나옵니다. 짝짓기 전에 부화장에서 색마다 나올 확률을 보여 주니, 계획은 당신 몫입니다. 새끼는 앱을 켜 두든 꺼 두든 실제 시간에 맞춰 어른으로 자랍니다. 한 번 플레이는 일부러 짧습니다. 공룡들은 앱이 꺼져 있어도 코인을 모아 두니, 앱을 열어 수입을 챙기고 다음 짝짓기에 쓰고 다시 닫으면 됩니다. 알은 2분에서 40분이면 부화합니다. 우리 다섯 개, 할아버지의 편지 여섯 통, 목표 서른다섯 개, 그리고 공룡마다 붙는 이름. 아무도 죽지 않고, 아프지 않으며, 짝짓기는 실패하지 않습니다. 오프라인, 계정 없음, 광고가 있는 무료 게임이며 결제는 없습니다. 영어, 한국어, 스페인어, 브라질 포르투갈어를 지원합니다.", "ja": "祖父は恐竜パークを作り始めて、完成させないまま逝った。残されたのは囲いがいくつかと孵化場、そして繁殖台帳。17種、それぞれ5色、ほとんどの行はまだ空欄だ。同じ種の恐竜を2匹ペアにして、卵がかえるのを待つ。子どもの色は親から受け継ぐ。たいていはどちらかに似るが、ときどきどちらも持っていなかった色が出る。ペアにする前に孵化場が各色の確率を見せてくれるので、賭けの計画は自分で立てられる。子どもはアプリを開いていてもいなくても、実際の時間で大人に育つ。1回のプレイはあえて短い。恐竜たちはアプリを閉じている間もコインを貯めるので、開いて回収し、次のペアに使い、また閉じればいい。卵は2分から40分でかえる。囲いは5つ、祖父からの手紙が6通、目標が35個、恐竜1匹ずつに名前もつく。死ぬことも病気になることもなく、ペアリングが失敗することもない。オフライン、アカウント不要、広告付きの無料ゲームで課金なし。英語、韓国語、スペイン語、ブラジルポルトガル語に対応。", "es": "Tu abuelo construyó un parque de dinosaurios y nunca lo terminó. Te dejó unos cuantos recintos, un criadero y su libro de cría: diecisiete especies, cinco colores cada una, casi todas las filas en blanco. Junta dos dinosaurios de la misma especie y espera a que el huevo eclosione. La cría hereda el color de sus padres, casi siempre de uno o del otro, y de vez en cuando un color que ninguno tenía. El criadero muestra la probabilidad de cada color antes de juntarlos, así que la apuesta la planeas tú. Las crías crecen hasta adultas en tiempo real, con la app abierta o cerrada. Las sesiones son cortas a propósito. Tus dinosaurios juntan monedas con la app cerrada: la abres, recoges, pagas la siguiente pareja y la vuelves a cerrar. Los huevos tardan de dos a cuarenta minutos. Cinco recintos, seis cartas de tu abuelo, treinta y cinco objetivos y un nombre para cada dinosaurio. Nada muere, nada enferma y una pareja nunca falla. Sin conexión, sin cuenta, gratis con anuncios, sin compras. En inglés, coreano, español y portugués de Brasil.", "pt-BR": "Seu avô construiu um parque de dinossauros e nunca terminou. Ele deixou alguns recintos, uma chocadeira e o livro de criação: dezessete espécies, cinco cores cada, quase todas as linhas em branco. Junte dois dinossauros da mesma espécie e espere o ovo chocar. O filhote herda a cor dos pais, quase sempre de um ou do outro, e de vez em quando uma cor que nenhum dos dois tinha. A chocadeira mostra a chance de cada cor antes de você juntar, então a aposta é sua para planejar. Os filhotes crescem até virar adultos em tempo real, com o app aberto ou fechado. As sessões são curtas de propósito. Seus dinossauros juntam moedas com o app fechado: você abre, coleta, paga o próximo par e fecha de novo. Os ovos levam de dois a quarenta minutos. Cinco recintos, seis cartas do seu avô, trinta e cinco objetivos e um nome para cada dinossauro. Nada morre, nada adoece e um par nunca falha. Offline, sem conta, grátis com anúncios, sem compras. Em inglês, coreano, espanhol e português do Brasil."}};
+        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

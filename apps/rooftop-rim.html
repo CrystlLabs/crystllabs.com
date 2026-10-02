@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooftop Rim | Crystl Labs</title>
+    <meta name="description" content="Five-ball racks, bank shots and moving hoops on 40 courts above the city.">
+    <meta property="og:title" content="Rooftop Rim | Crystl Labs">
+    <meta property="og:description" content="Five-ball racks, bank shots and moving hoops on 40 courts above the city.">
+    <meta property="og:image" content="rooftop-rim.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/rooftop-rim.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="rooftop-rim.png" alt="Rooftop Rim" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Rooftop Rim</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Five-ball racks, bank shots and moving hoops on 40 courts above the city.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Rooftop Rim is a basketball shooting game set on rooftops above a warm-lit city. Every attempt gives you a rack of five balls. Drag down to set power, aim sideways and release. The power meter and the dots at the start of your arc show where the shot is heading. Score a clean swish or bank it off the backboard, and keep a streak going for bonus points. There are 40 short court challenges, and they ask you to adapt to new shooting positions, longer distances and hoops that move. Bronze, silver and gold medals mark your best runs, and a shot-by-shot scorecard shows every result. Try any court in practice, work through the campaign, or play the daily rack. Tokens from play unlock ball colors. Practice and assisted scores stay separate from campaign medals and personal records. No account, and progress is saved on your device. English, Spanish and Brazilian Portuguese. Free with ads at session breaks, plus an optional video for a three-ball practice rack.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/rooftop-rim/01.jpg" alt="Rooftop Rim screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/rooftop-rim/02.jpg" alt="Rooftop Rim screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/rooftop-rim/03.jpg" alt="Rooftop Rim screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/rooftop-rim/04.jpg" alt="Rooftop Rim screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Rooftop Rim", "ko": "루프탑 림", "ja": "ルーフトップ・リム", "es": "Rooftop Rim", "pt-BR": "Rooftop Rim"}, "tagline": {"en": "Five-ball racks, bank shots and moving hoops on 40 courts above the city.", "ko": "공 다섯 개, 뱅크슛, 움직이는 골대. 도시 위 40개 코트에서 슛을 던지세요.", "ja": "ボール5球、バンクショット、動くゴール。街の上の40コートでシュート。", "es": "Rondas de cinco balones, tiros a tablero y canastas móviles en 40 canchas sobre la ciudad.", "pt-BR": "Rodadas de cinco bolas, arremessos na tabela e cestas móveis em 40 quadras no alto da cidade."}, "desc": {"en": "Rooftop Rim is a basketball shooting game set on rooftops above a warm-lit city. Every attempt gives you a rack of five balls. Drag down to set power, aim sideways and release. The power meter and the dots at the start of your arc show where the shot is heading. Score a clean swish or bank it off the backboard, and keep a streak going for bonus points. There are 40 short court challenges, and they ask you to adapt to new shooting positions, longer distances and hoops that move. Bronze, silver and gold medals mark your best runs, and a shot-by-shot scorecard shows every result. Try any court in practice, work through the campaign, or play the daily rack. Tokens from play unlock ball colors. Practice and assisted scores stay separate from campaign medals and personal records. No account, and progress is saved on your device. English, Spanish and Brazilian Portuguese. Free with ads at session breaks, plus an optional video for a three-ball practice rack.", "ko": "루프탑 림은 따뜻한 불빛의 도시 위 옥상에서 즐기는 농구 슛 게임입니다. 시도마다 공 다섯 개가 주어집니다. 아래로 끌어 힘을 정하고, 좌우로 조준한 뒤 놓으세요. 파워 게이지와 궤적 시작 부분의 점들이 공이 향할 곳을 보여 줍니다. 림에 닿지 않는 깔끔한 슛을 넣거나 백보드를 맞혀 넣고, 연속 성공으로 보너스 점수를 쌓으세요. 짧은 코트 도전 40개가 있으며, 새로운 슛 위치, 더 먼 거리, 움직이는 골대에 적응해야 합니다. 동, 은, 금메달이 최고 기록을 표시하고, 슛 하나하나의 결과가 점수표에 남습니다. 연습에서 아무 코트나 던져 보거나, 캠페인을 진행하거나, 데일리 랙에 도전하세요. 플레이로 얻은 토큰으로 공 색상을 해금합니다. 연습과 보조 점수는 캠페인 메달, 개인 기록과 따로 관리됩니다. 계정이 필요 없고, 진행 상황은 기기에 저장됩니다. 영어, 스페인어, 브라질 포르투갈어 지원. 무료이며 세션 사이에 광고가 나오고, 선택형 영상으로 연습용 공 세 개를 받을 수 있습니다.", "ja": "ルーフトップ・リムは、温かな灯りの街を見下ろす屋上で遊ぶバスケットボールのシュートゲーム。1回の挑戦ごとにボールが5球。下にドラッグして強さを決め、左右に狙いをつけて離す。パワーメーターと軌道の始まりに並ぶ点が、ボールの行き先を教えてくれる。リングに触れないスウィッシュを決めるか、バックボードに当てて入れ、連続成功でボーナス点を重ねよう。短いコートチャレンジは40個。新しいシュート位置、より遠い距離、動くゴールへの対応が求められる。銅、銀、金メダルがベストを記録し、1本ごとの結果がスコアカードに残る。練習で好きなコートを試すも、キャンペーンを進めるも、デイリーラックに挑むも自由。プレイで得たトークンでボールの色を解放できる。練習とアシストのスコアは、キャンペーンのメダルや自己記録とは別に扱われる。アカウント不要、進行は端末に保存される。英語、スペイン語、ブラジルポルトガル語に対応。無料で、セッションの区切りに広告が入り、任意の動画で練習用の3球をもらえる。", "es": "Rooftop Rim es un juego de tiros de baloncesto en azoteas sobre una ciudad de luces cálidas. Cada intento te da una ronda de cinco balones. Arrastra hacia abajo para ajustar la fuerza, apunta a los lados y suelta. El medidor de fuerza y los puntos al inicio de la trayectoria muestran adónde va el tiro. Encesta limpio o aprovecha el tablero, y encadena canastas para sumar puntos extra. Hay 40 desafíos cortos en canchas que te piden adaptarte a nuevas posiciones, distancias más largas y canastas que se mueven. Las medallas de bronce, plata y oro marcan tus mejores rondas, y el marcador muestra cada tiro. Prueba cualquier cancha en práctica, avanza por el circuito o juega la ronda diaria. Las fichas que ganas desbloquean colores de balón. La práctica y las rondas asistidas van aparte de las medallas y los récords. Sin cuenta, y el progreso se guarda en tu dispositivo. En inglés, español y portugués de Brasil. Gratis con anuncios entre sesiones, más un video opcional para una ronda de práctica de tres balones.", "pt-BR": "Rooftop Rim é um jogo de arremessos de basquete em coberturas no alto de uma cidade iluminada. Cada tentativa dá a você uma rodada de cinco bolas. Arraste para baixo para ajustar a força, mire para os lados e solte. O medidor de força e os pontos no início da trajetória mostram para onde vai o arremesso. Faça uma cesta limpa ou use a tabela, e acerte em sequência para ganhar pontos extras. São 40 desafios rápidos em quadras que pedem adaptação a novas posições, distâncias maiores e cestas que se mexem. Medalhas de bronze, prata e ouro marcam suas melhores rodadas, e o placar mostra cada arremesso. Experimente qualquer quadra no treino, avance pela campanha ou jogue a rodada diária. As fichas que você ganha desbloqueiam cores de bola. Treino e rodadas assistidas ficam separados das medalhas e recordes. Sem conta, e o progresso fica salvo no dispositivo. Em inglês, espanhol e português do Brasil. Grátis com anúncios entre as sessões, mais um vídeo opcional para uma rodada de treino com três bolas."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

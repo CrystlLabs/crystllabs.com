@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Life Works | Crystl Labs</title>
+    <meta name="description" content="Turn a pile of scrap into useful products with conveyors, sorters and a lot of planning.">
+    <meta property="og:title" content="Second Life Works | Crystl Labs">
+    <meta property="og:description" content="Turn a pile of scrap into useful products with conveyors, sorters and a lot of planning.">
+    <meta property="og:image" content="second-life-works.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/second-life-works.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="second-life-works.png" alt="Second Life Works" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Second Life Works</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Turn a pile of scrap into useful products with conveyors, sorters and a lot of planning.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Second Life Works is a recycling factory sim. You start with a pile of scrap and build a workshop that turns it into finished products through a production line you design. There are 28 machine and facility types, and you route materials through conveyors, splitters, sorters and processors to make 40 items, from small fittings to larger household goods. The line does not run itself. Contamination creeps in, power runs short, machines wear down and buffers back up, and keeping all of that under control is the job. Save your layout, try challenge variants and work through 60 factory contracts. You can pause when you need to think, change the simulation speed as the operation grows, and keep three save slots for different approaches. Core play and progression work offline. Available in English, Spanish and Brazilian Portuguese. Free, with optional rewarded ads for a bonus and ads at breaks between shifts.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/second-life-works/01.jpg" alt="Second Life Works screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/second-life-works/02.jpg" alt="Second Life Works screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/second-life-works/03.jpg" alt="Second Life Works screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Second Life Works", "ko": "세컨드 라이프 웍스", "ja": "セカンドライフ・ワークス", "es": "Second Life Works", "pt-BR": "Second Life Works"}, "tagline": {"en": "Turn a pile of scrap into useful products with conveyors, sorters and a lot of planning.", "ko": "컨베이어와 분류기, 그리고 꼼꼼한 계획으로 고철 더미를 쓸모 있는 제품으로 바꾸세요.", "ja": "コンベアと仕分け機、そして綿密な計画で、スクラップの山を役立つ製品に変える。", "es": "Convierte un montón de chatarra en productos útiles con cintas, clasificadoras y planificación.", "pt-BR": "Transforme uma pilha de sucata em produtos úteis com esteiras, separadores e planejamento."}, "desc": {"en": "Second Life Works is a recycling factory sim. You start with a pile of scrap and build a workshop that turns it into finished products through a production line you design. There are 28 machine and facility types, and you route materials through conveyors, splitters, sorters and processors to make 40 items, from small fittings to larger household goods. The line does not run itself. Contamination creeps in, power runs short, machines wear down and buffers back up, and keeping all of that under control is the job. Save your layout, try challenge variants and work through 60 factory contracts. You can pause when you need to think, change the simulation speed as the operation grows, and keep three save slots for different approaches. Core play and progression work offline. Available in English, Spanish and Brazilian Portuguese. Free, with optional rewarded ads for a bonus and ads at breaks between shifts.", "ko": "세컨드 라이프 웍스는 재활용 공장 시뮬레이션입니다. 고철 더미에서 시작해, 직접 설계한 생산 라인으로 완제품을 만들어 내는 작업장을 짓습니다. 기계와 시설은 28종이며, 컨베이어, 분배기, 분류기, 가공기로 재료를 보내 작은 부품부터 큰 생활용품까지 40가지 물건을 만듭니다. 라인은 저절로 돌아가지 않습니다. 오염이 섞여 들고, 전력이 모자라고, 기계가 닳고, 버퍼가 막히는데, 이 모든 걸 관리하는 것이 여러분의 일입니다. 배치를 저장하고, 챌린지 변형에 도전하며, 60개의 공장 계약을 완수하세요. 생각할 시간이 필요하면 일시정지하고, 규모가 커지면 시뮬레이션 속도를 바꿀 수 있으며, 저장 슬롯 3개로 여러 방식을 시험할 수 있습니다. 핵심 플레이와 진행은 오프라인으로 가능합니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다. 무료이며, 보너스를 주는 선택형 보상 광고와 교대 사이의 광고가 있습니다.", "ja": "『セカンドライフ・ワークス』はリサイクル工場シミュレーション。スクラップの山から始め、自分で設計した生産ラインで完成品を生み出す工房を作る。機械と設備は28種類。コンベア、分配器、仕分け機、加工機に素材を通し、小さな部品から大きな日用品まで40種類のアイテムを作る。ラインは勝手には回らない。異物が混ざり、電力が足りなくなり、機械はすり減り、バッファは詰まる。それをすべて管理するのがあなたの仕事だ。レイアウトを保存し、チャレンジのバリエーションに挑み、60の工場契約をこなしていく。考えたいときは一時停止でき、規模が大きくなればシミュレーション速度を変えられ、3つのセーブスロットで別のやり方も試せる。基本プレイと進行はオフラインで可能。英語・スペイン語・ブラジルポルトガル語に対応。無料で、ボーナスがもらえる任意のリワード広告と、シフトの合間の広告がある。", "es": "Second Life Works es un simulador de fábrica de reciclaje. Empiezas con un montón de chatarra y construyes un taller que la convierte en productos terminados mediante una línea de producción que diseñas tú. Hay 28 tipos de máquinas e instalaciones, y llevas los materiales por cintas transportadoras, divisores, clasificadoras y procesadoras para fabricar 40 artículos, desde pequeñas piezas hasta objetos grandes para el hogar. La línea no funciona sola. Se cuela contaminación, falta energía, las máquinas se desgastan y los búferes se atascan, y mantener todo eso bajo control es tu trabajo. Guarda tu distribución, prueba variantes de desafío y completa 60 contratos de fábrica. Puedes pausar cuando necesites pensar, cambiar la velocidad de la simulación a medida que creces y tener tres ranuras de guardado para probar enfoques distintos. El juego y el progreso funcionan sin conexión. Disponible en inglés, español y portugués de Brasil. Gratis, con anuncios con recompensa opcionales para un bonus y anuncios en las pausas entre turnos.", "pt-BR": "Second Life Works é um simulador de fábrica de reciclagem. Você começa com uma pilha de sucata e monta uma oficina que a transforma em produtos acabados numa linha de produção que você mesmo projeta. São 28 tipos de máquinas e instalações, e você leva os materiais por esteiras, divisores, separadores e processadores para fazer 40 itens, de pequenas peças a utilidades domésticas maiores. A linha não anda sozinha. Entra contaminação, falta energia, as máquinas se desgastam e os buffers travam, e manter tudo isso sob controle é o seu trabalho. Salve o layout, experimente variantes de desafio e cumpra 60 contratos de fábrica. Dá para pausar quando precisar pensar, mudar a velocidade da simulação conforme a operação cresce e manter três espaços de salvamento para abordagens diferentes. O jogo e o progresso funcionam offline. Disponível em inglês, espanhol e português do Brasil. Grátis, com anúncios premiados opcionais para um bônus e anúncios nas pausas entre turnos."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

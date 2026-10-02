@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boltwork | Crystl Labs</title>
+    <meta name="description" content="Lift the screws, drop the plates, take the machine apart. 120 solvable boards.">
+    <meta property="og:title" content="Boltwork | Crystl Labs">
+    <meta property="og:description" content="Lift the screws, drop the plates, take the machine apart. 120 solvable boards.">
+    <meta property="og:image" content="boltwork.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/boltwork.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="boltwork.png" alt="Boltwork" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Boltwork</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Lift the screws, drop the plates, take the machine apart. 120 solvable boards.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Boltwork is a calm screw puzzle. Plates sit stacked on a steel pegboard, each one held down by screws. Tap a screw to lift it, then tap a free hole, or drag it straight there. When nothing is left holding a plate, it falls away. The catch is that a screw with another plate lying on it cannot be lifted, and if you run out of free holes with plates still on the board, you are stuck. So you plan the order before you move. There are 120 levels, from two plates up to fourteen, every one checked solvable, plus a new board each day. Clear a board in the fewest moves for stars. Glass plates show the screws hidden underneath, and coins from every level buy wood, candy and glass plates and brass, black, copper and gold screw heads. Plays offline, no account needed. Free with ads between levels, never during play. No purchases.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/boltwork/01.jpg" alt="Boltwork screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/boltwork/02.jpg" alt="Boltwork screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/boltwork/03.jpg" alt="Boltwork screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/boltwork/04.jpg" alt="Boltwork screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/boltwork/05.jpg" alt="Boltwork screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Boltwork", "ko": "볼트워크", "ja": "ボルトワーク", "es": "Boltwork", "pt-BR": "Boltwork"}, "tagline": {"en": "Lift the screws, drop the plates, take the machine apart. 120 solvable boards.", "ko": "나사를 빼고, 판을 떨어뜨리고, 기계를 분해하세요. 모두 풀리는 120개 보드.", "ja": "ネジを抜いて、板を落として、機械をばらす。すべて解ける120面。", "es": "Quita los tornillos, suelta las placas y desarma la máquina. 120 tableros con solución.", "pt-BR": "Tire os parafusos, derrube as placas e desmonte a máquina. 120 painéis com solução."}, "desc": {"en": "Boltwork is a calm screw puzzle. Plates sit stacked on a steel pegboard, each one held down by screws. Tap a screw to lift it, then tap a free hole, or drag it straight there. When nothing is left holding a plate, it falls away. The catch is that a screw with another plate lying on it cannot be lifted, and if you run out of free holes with plates still on the board, you are stuck. So you plan the order before you move. There are 120 levels, from two plates up to fourteen, every one checked solvable, plus a new board each day. Clear a board in the fewest moves for stars. Glass plates show the screws hidden underneath, and coins from every level buy wood, candy and glass plates and brass, black, copper and gold screw heads. Plays offline, no account needed. Free with ads between levels, never during play. No purchases.", "ko": "볼트워크는 차분한 나사 퍼즐입니다. 강철 타공판 위에 판들이 겹쳐 있고, 판마다 나사로 고정되어 있습니다. 나사를 눌러 들어 올린 뒤 빈 구멍을 누르거나, 바로 끌어다 놓으세요. 판을 붙잡는 나사가 하나도 남지 않으면 그 판은 떨어집니다. 다만 다른 판이 덮고 있는 나사는 뺄 수 없고, 판이 남아 있는데 빈 구멍이 바닥나면 막혀 버립니다. 그래서 움직이기 전에 순서를 먼저 계획해야 합니다. 판 두 장부터 열네 장까지, 모두 풀이를 검증한 120개 레벨과 매일 새로 나오는 보드가 있습니다. 최소 이동으로 보드를 비우면 별을 받습니다. 유리 판은 아래에 숨은 나사를 보여 주고, 레벨마다 얻는 코인으로 나무, 사탕, 유리 판과 황동, 검정, 구리, 금색 나사 머리를 살 수 있습니다. 계정 없이 오프라인으로 즐길 수 있습니다. 무료이며 광고는 레벨 사이에만 나오고 플레이 중에는 나오지 않습니다. 결제는 없습니다.", "ja": "ボルトワークは、落ち着いて遊べるネジパズル。鋼の穴あきボードに板が重なり、どの板もネジで留められている。ネジをタップして持ち上げ、空いた穴をタップするか、そのままドラッグで運ぶ。留めるものがなくなった板は落ちていく。ただし、別の板が上に載っているネジは抜けないし、板が残ったまま空き穴がなくなれば手詰まりになる。だから動かす前に順番を考える。板2枚から14枚まで、すべて解けることを確認済みの120レベルに、毎日新しいボードも。最少手数でクリアすると星がもらえる。ガラスの板は下に隠れたネジを見せてくれ、レベルごとに貯まるコインで木、キャンディ、ガラスの板や、真鍮、黒、銅、金のネジ頭を集められる。アカウント不要でオフラインで遊べる。無料で、広告はレベルの合間だけ、プレイ中には出ない。課金なし。", "es": "Boltwork es un puzle tranquilo de tornillos. Las placas están apiladas sobre un tablero de acero, cada una sujeta con tornillos. Toca un tornillo para levantarlo y luego toca un hueco libre, o arrástralo directo hasta ahí. Cuando ya nada sostiene una placa, se cae. El problema es que un tornillo con otra placa encima no se puede levantar, y si te quedas sin huecos libres con placas en el tablero, te atascas. Así que planeas el orden antes de mover. Hay 120 niveles, de dos placas a catorce, todos comprobados con solución, y un tablero nuevo cada día. Vacía un tablero con el menor número de movimientos para ganar estrellas. Las placas de vidrio muestran los tornillos escondidos debajo, y las monedas de cada nivel compran placas de madera, caramelo y vidrio y cabezas de latón, negras, de cobre y de oro. Funciona sin conexión y sin cuenta. Gratis con anuncios entre niveles, nunca durante el juego. Sin compras.", "pt-BR": "Boltwork é um puzzle tranquilo de parafusos. As placas estão empilhadas sobre um painel de aço, cada uma presa por parafusos. Toque em um parafuso para levantá-lo e depois em um furo livre, ou arraste direto até lá. Quando nada mais segura uma placa, ela cai. O porém é que um parafuso com outra placa por cima não pode ser levantado, e se os furos livres acabarem com placas no painel, você trava. Então você planeja a ordem antes de mexer. São 120 níveis, de duas placas a catorze, todos conferidos com solução, e um painel novo todo dia. Esvazie um painel com o menor número de jogadas para ganhar estrelas. Placas de vidro mostram os parafusos escondidos embaixo, e as moedas de cada nível compram placas de madeira, doce e vidro e cabeças de latão, pretas, de cobre e de ouro. Funciona offline e sem conta. Grátis com anúncios entre os níveis, nunca durante o jogo. Sem compras."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

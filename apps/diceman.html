@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DICEMAN | Crystl Labs</title>
+    <meta name="description" content="Three dice, one decision. Outplay nine rivals and build a street-dice career.">
+    <meta property="og:title" content="DICEMAN | Crystl Labs">
+    <meta property="og:description" content="Three dice, one decision. Outplay nine rivals and build a street-dice career.">
+    <meta property="og:image" content="diceman.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/diceman.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="diceman.png" alt="DICEMAN" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">DICEMAN</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-gray-500 border border-gray-500/40 bg-gray-500/10 rounded px-1.5 py-0.5">In development</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Three dice, one decision. Outplay nine rivals and build a street-dice career.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">DICEMAN is a tactical dice game with an offline career. You start with $50 in fictional cash and a leather jacket, and work your way from the corner to the top of three districts. A match is first to two rounds. Your rival locks a hand first. Then you roll three dice, tap to hold the ones you want, and spend limited Focus to reroll the rest. Triples beat straights, straights beat pairs, and pairs beat high totals. Your first roll each round is free, and Focus has to last the whole match. Nine rivals play in different styles. Train Focus, odds reads and composure between matches, earn three mastery marks per opponent, and beat district champions for their trophy chains. Collect 23 jackets, chains, watches, rings and dice sets; they are cosmetic and never change your rolls. Daily contracts, three-match Night Runs and free corner games fill out the career. No account and no purchases. All money is fictional, with no wagering or cash-out.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "DICEMAN", "ko": "다이스맨", "ja": "ダイスマン", "es": "DICEMAN", "pt-BR": "DICEMAN"}, "tagline": {"en": "Three dice, one decision. Outplay nine rivals and build a street-dice career.", "ko": "주사위 세 개, 결정은 하나. 라이벌 아홉 명을 꺾고 거리의 주사위 커리어를 쌓으세요.", "ja": "サイコロ3つ、決断はひとつ。9人のライバルを倒して、路上のダイス稼業をのし上がれ。", "es": "Tres dados, una decisión. Vence a nueve rivales y arma una carrera callejera de dados.", "pt-BR": "Três dados, uma decisão. Vença nove rivais e construa uma carreira de dados nas ruas."}, "desc": {"en": "DICEMAN is a tactical dice game with an offline career. You start with $50 in fictional cash and a leather jacket, and work your way from the corner to the top of three districts. A match is first to two rounds. Your rival locks a hand first. Then you roll three dice, tap to hold the ones you want, and spend limited Focus to reroll the rest. Triples beat straights, straights beat pairs, and pairs beat high totals. Your first roll each round is free, and Focus has to last the whole match. Nine rivals play in different styles. Train Focus, odds reads and composure between matches, earn three mastery marks per opponent, and beat district champions for their trophy chains. Collect 23 jackets, chains, watches, rings and dice sets; they are cosmetic and never change your rolls. Daily contracts, three-match Night Runs and free corner games fill out the career. No account and no purchases. All money is fictional, with no wagering or cash-out.", "ko": "다이스맨은 오프라인 커리어가 있는 전략 주사위 게임입니다. 가상의 현금 50달러와 가죽 재킷 한 벌로 시작해, 길모퉁이에서 세 구역의 정상까지 올라갑니다. 매치는 두 라운드를 먼저 이기면 끝납니다. 라이벌이 먼저 패를 확정합니다. 그다음 주사위 세 개를 굴리고, 남길 주사위를 눌러 고정한 뒤, 한정된 포커스를 써서 나머지를 다시 굴립니다. 트리플은 스트레이트를, 스트레이트는 페어를, 페어는 높은 합계를 이깁니다. 라운드마다 첫 굴림은 무료이고, 포커스는 매치 내내 아껴 써야 합니다. 라이벌 아홉 명은 저마다 스타일이 다릅니다. 매치 사이에 포커스, 확률 읽기, 침착함을 훈련하고, 상대마다 숙련 마크 세 개를 모으고, 구역 챔피언을 꺾어 트로피 체인을 얻으세요. 재킷, 체인, 시계, 반지, 주사위 세트 23종을 모을 수 있으며, 모두 꾸미기용이라 굴림에는 영향이 없습니다. 일일 계약, 세 판 연속 나이트 런, 무료 길모퉁이 게임이 커리어를 채웁니다. 계정도 결제도 없습니다. 모든 돈은 가상이며, 실제 돈 베팅이나 환전은 없습니다.", "ja": "ダイスマンは、オフラインのキャリアモードがある戦略サイコロゲーム。架空の現金50ドルと革ジャン1着から始めて、街角から3つの地区の頂点を目指す。試合は2ラウンド先取。ライバルが先に手を確定する。次にあなたがサイコロ3つを振り、残したい目をタップで固定し、限られたフォーカスを使って残りを振り直す。トリプルはストレートに、ストレートはペアに、ペアは合計の高さに勝つ。各ラウンドの最初の一投は無料で、フォーカスは試合全体でやりくりする。ライバル9人はそれぞれ戦い方が違う。試合の合間にフォーカス、確率の読み、平常心を鍛え、相手ごとに熟練マークを3つ集め、地区チャンピオンを倒してトロフィーチェーンを手に入れよう。ジャケット、チェーン、時計、指輪、ダイスセットの計23点を集められるが、見た目だけで出目は変わらない。デイリー契約、3連戦のナイトラン、無料の街角ゲームもある。アカウント不要、課金なし。お金はすべて架空で、現金の賭けや換金はない。", "es": "DICEMAN es un juego táctico de dados con una carrera sin conexión. Empiezas con $50 de dinero ficticio y una chamarra de cuero, y te abres camino desde la esquina hasta lo más alto de tres distritos. Gana la partida quien gane dos rondas. Tu rival fija su jugada primero. Luego lanzas tres dados, tocas los que quieres conservar y gastas Foco limitado para volver a lanzar los demás. Los tríos vencen a las escaleras, las escaleras a los pares y los pares a la suma más alta. La primera tirada de cada ronda es gratis, y el Foco tiene que alcanzarte para toda la partida. Nueve rivales juegan con estilos distintos. Entrena Foco, lectura de probabilidades y temple entre partidas, consigue tres marcas de dominio por rival y derrota a los campeones de distrito para ganar sus cadenas de trofeo. Colecciona 23 chamarras, cadenas, relojes, anillos y juegos de dados; son cosméticos y nunca cambian tus tiradas. Contratos diarios, Rachas nocturnas de tres partidas y juegos gratis en la esquina completan la carrera. Sin cuenta y sin compras. Todo el dinero es ficticio, sin apuestas ni retiros.", "pt-BR": "DICEMAN é um jogo tático de dados com carreira offline. Você começa com $50 em dinheiro fictício e uma jaqueta de couro, e sai da esquina rumo ao topo de três distritos. Vence a partida quem ganhar duas rodadas. Seu rival define a jogada primeiro. Depois você lança três dados, toca nos que quer manter e gasta Foco limitado para lançar os outros de novo. Trincas vencem sequências, sequências vencem pares, e pares vencem a maior soma. O primeiro lançamento de cada rodada é grátis, e o Foco precisa durar a partida inteira. Nove rivais jogam com estilos diferentes. Treine Foco, leitura de probabilidades e postura entre as partidas, conquiste três marcas de domínio por rival e derrote os campeões dos distritos para ganhar suas correntes de troféu. Colecione 23 jaquetas, correntes, relógios, anéis e conjuntos de dados; são visuais e nunca alteram seus lançamentos. Contratos diários, Desafios noturnos de três partidas e jogos grátis na esquina completam a carreira. Sem conta e sem compras. Todo o dinheiro é fictício, sem apostas nem saques."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

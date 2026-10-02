@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiny Tonics | Crystl Labs</title>
+    <meta name="description" content="Pour the layers until every flask is one color, cork it, and hand it over the counter.">
+    <meta property="og:title" content="Tiny Tonics | Crystl Labs">
+    <meta property="og:description" content="Pour the layers until every flask is one color, cork it, and hand it over the counter.">
+    <meta property="og:image" content="tiny-tonics.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/tiny-tonics.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="tiny-tonics.png" alt="Tiny Tonics" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Tiny Tonics</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Pour the layers until every flask is one color, cork it, and hand it over the counter.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Tiny Tonics is a color sort puzzle in a pixel potion shop. Tap a flask to pick it up and tap another to pour. The top color only pours into an empty flask or onto the same color, as many layers as fit. A flask full of one color gets its cork, and when every flask is corked or empty, a customer walks in and takes the potions. There are 120 levels, from 3 colors up to 12, each one checked solvable by a solver, growing from five flasks to fourteen in two rows. From level 31, mystery layers stay hidden until they reach the top. You get three free undos per level and a restart any time, and there is no timer. A daily puzzle arrives every day. Fewer pours earn more stars, and coins from each level buy 24 decorations for the shop, from plants to pets to lanterns. Plays offline, no account. Ads show between levels, never during play.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/tiny-tonics/01.jpg" alt="Tiny Tonics screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/tiny-tonics/02.jpg" alt="Tiny Tonics screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/tiny-tonics/03.jpg" alt="Tiny Tonics screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/tiny-tonics/04.jpg" alt="Tiny Tonics screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/tiny-tonics/05.jpg" alt="Tiny Tonics screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Tiny Tonics", "ko": "타이니 토닉스", "ja": "タイニートニック", "es": "Tiny Tonics", "pt-BR": "Tiny Tonics"}, "tagline": {"en": "Pour the layers until every flask is one color, cork it, and hand it over the counter.", "ko": "플라스크마다 한 색만 남을 때까지 붓고, 코르크를 막아 카운터 너머로 건네세요.", "ja": "どのフラスコも一色になるまで注ぎ分け、栓をしてカウンター越しに手渡す。", "es": "Vierte las capas hasta que cada frasco sea de un color, tápalo y entrégalo en el mostrador.", "pt-BR": "Despeje as camadas até cada frasco ter uma cor, arrolhe e entregue no balcão."}, "desc": {"en": "Tiny Tonics is a color sort puzzle in a pixel potion shop. Tap a flask to pick it up and tap another to pour. The top color only pours into an empty flask or onto the same color, as many layers as fit. A flask full of one color gets its cork, and when every flask is corked or empty, a customer walks in and takes the potions. There are 120 levels, from 3 colors up to 12, each one checked solvable by a solver, growing from five flasks to fourteen in two rows. From level 31, mystery layers stay hidden until they reach the top. You get three free undos per level and a restart any time, and there is no timer. A daily puzzle arrives every day. Fewer pours earn more stars, and coins from each level buy 24 decorations for the shop, from plants to pets to lanterns. Plays offline, no account. Ads show between levels, never during play.", "ko": "타이니 토닉스는 픽셀 물약 가게에서 하는 색 분류 퍼즐입니다. 플라스크를 탭해 들고, 다른 플라스크를 탭해 부으세요. 맨 위 색은 빈 플라스크나 같은 색 위에만, 들어가는 만큼 부어집니다. 한 색으로 가득 찬 플라스크는 코르크로 막히고, 모든 플라스크가 막히거나 비면 손님이 들어와 물약을 가져갑니다. 레벨은 120개로 3색부터 12색까지 있고, 모두 솔버로 풀 수 있음을 확인했습니다. 플라스크는 다섯 개에서 두 줄 열네 개까지 늘어납니다. 31레벨부터는 맨 위에 오기 전까지 보이지 않는 미스터리 층이 나옵니다. 레벨마다 무료 되돌리기 세 번, 언제든 다시 시작할 수 있고, 타이머는 없습니다. 일일 퍼즐이 매일 나옵니다. 적게 부을수록 별을 더 받고, 레벨마다 받는 코인으로 화분부터 반려동물, 등불까지 가게 장식 24종을 삽니다. 오프라인, 계정 없음. 광고는 레벨 사이에만 나오고 플레이 중에는 나오지 않습니다.", "ja": "タイニートニックは、ピクセルの薬屋で遊ぶ色分けパズルだ。フラスコをタップして持ち上げ、別のフラスコをタップして注ぐ。一番上の色は、空のフラスコか同じ色の上にだけ、入るだけ注がれる。一色で満たされたフラスコには栓がされ、すべてのフラスコが栓をされるか空になると、客が入ってきて薬を受け取る。レベルは120、3色から12色まで、どれもソルバーで解けることを確認済み。フラスコは五本から二列の十四本まで増える。31レベルからは、一番上に来るまで見えない謎の層が出てくる。レベルごとに無料の取り消しが三回、やり直しはいつでもでき、タイマーはない。デイリーパズルは毎日届く。少ない注ぎで星が増え、レベルごとのコインで植物からペット、ランタンまで、店の飾り24種を買える。オフライン、アカウント不要。広告はレベルの合間だけで、プレイ中には出ない。", "es": "Tiny Tonics es un rompecabezas de ordenar colores en una tienda de pociones pixelada. Toca un frasco para tomarlo y toca otro para verter. El color de arriba solo se vierte en un frasco vacío o sobre el mismo color, tantas capas como quepan. Un frasco lleno de un solo color recibe su corcho, y cuando todos están tapados o vacíos, entra un cliente y se lleva las pociones. Hay 120 niveles, de 3 colores hasta 12, todos comprobados con un solucionador, y pasan de cinco frascos a catorce en dos filas. Desde el nivel 31, las capas misteriosas quedan ocultas hasta llegar arriba. Tienes tres deshacer gratis por nivel y reinicio cuando quieras, y no hay temporizador. Cada día llega un rompecabezas diario. Menos vertidos dan más estrellas, y las monedas de cada nivel compran 24 adornos para la tienda, de plantas a mascotas y faroles. Sin conexión, sin cuenta. Los anuncios salen entre niveles, nunca durante el juego.", "pt-BR": "Tiny Tonics é um quebra-cabeça de separar cores numa loja de poções em pixel art. Toque num frasco para pegá-lo e toque em outro para despejar. A cor de cima só vai para um frasco vazio ou sobre a mesma cor, quantas camadas couberem. Um frasco cheio de uma cor só ganha sua rolha, e quando todos estão arrolhados ou vazios, um cliente entra e leva as poções. São 120 níveis, de 3 a 12 cores, todos verificados por um solucionador, indo de cinco frascos a catorze em duas fileiras. A partir do nível 31, camadas misteriosas ficam escondidas até chegarem ao topo. Você tem três desfazer grátis por nível e pode reiniciar quando quiser, sem cronômetro. Um quebra-cabeça diário chega todo dia. Menos despejos rendem mais estrelas, e as moedas de cada nível compram 24 enfeites para a loja, de plantas a bichinhos e lanternas. Offline, sem conta. Os anúncios aparecem entre níveis, nunca durante o jogo."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

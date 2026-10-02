@@ -2,6 +2,21 @@
 
 All notable changes to the Crystl Labs website are documented here.
 
+## 2026-10-03
+
+### Added
+- **90 apps added to the projects roster** (57 to 147 entries). Every app in the
+  2026-10-02 nanny snapshot (Play, AdMob, local) now has a page with its store icon,
+  tagline and description in EN/KO/JA/ES/PT-BR, plus phone screenshots where the store kit
+  had them. 22 are live on Play, 66 are Store prep (on Play awaiting review, or a finished
+  release kit), 2 are In development (DICEMAN, Cycling Fantasy Solver).
+
+### Changed
+- **Homepage hero is CrystlQuant, Underfolio and Murder Phone** (was CrystlQuant, Bent FC,
+  Cage of Glory), in `assets/site-redesign.js`.
+- Chess Drill Instructor and Crystl: Supplements and Fasting are Live with Play links;
+  Bent FC: Tournament Edition is Store prep.
+
 ## 2026-09-28
 
 ### Changed

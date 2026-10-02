@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Life | Crystl Labs</title>
+    <meta name="description" content="Twelve weeks of probation at a startup. Your boss, your rival and the founder all text.">
+    <meta property="og:title" content="Office Life | Crystl Labs">
+    <meta property="og:description" content="Twelve weeks of probation at a startup. Your boss, your rival and the founder all text.">
+    <meta property="og:image" content="office-life.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/office-life.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="office-life.png" alt="Office Life" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Office Life</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Twelve weeks of probation at a startup. Your boss, your rival and the founder all text.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Day one at a forty-person startup, and the whole game is your phone. Your manager wants weekly updates and means it. Your work bestie has already sent you the group chat&#x27;s history. Your rival replies-all. People Ops keeps a record of everything. The founder texts at 2am and expects an answer. All five have your number, all five read #general, and you have twelve weeks until the probation review. Messages land week by week and you pick every reply. No typing, no timers. Everyone remembers what you said, so backing one person costs you with the rest, and if the heat climbs, #general leaks it to the whole company. Twelve chapters, over 800 messages, twelve endings from Promoted to Extended to The 2am Job, and sixty moments to collect. Read Their Mind lets you watch a short ad to preview what a reply will do. The company and its people are invented. English, Spanish and Brazilian Portuguese. Free with ads, no account, plays offline.</p>
+
+                <a id="apStoreLink" href="https://play.google.com/store/apps/details?id=com.crystllabs.permylastemail" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">Get it on Google Play</span>
+                </a>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/office-life/01.jpg" alt="Office Life screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/office-life/02.jpg" alt="Office Life screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/office-life/03.jpg" alt="Office Life screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/office-life/04.jpg" alt="Office Life screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/office-life/05.jpg" alt="Office Life screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Office Life", "ko": "오피스 라이프", "ja": "オフィスライフ", "es": "Office Life", "pt-BR": "Office Life"}, "tagline": {"en": "Twelve weeks of probation at a startup. Your boss, your rival and the founder all text.", "ko": "스타트업 수습 12주. 상사도, 라이벌도, 창업자도 문자를 보냅니다.", "ja": "スタートアップで試用期間12週間。上司もライバルも創業者もメッセージを送ってくる。", "es": "Doce semanas de prueba en una startup. Tu jefa, tu rival y el fundador te escriben.", "pt-BR": "Doze semanas de experiência numa startup. Sua chefe, seu rival e o fundador te escrevem."}, "desc": {"en": "Day one at a forty-person startup, and the whole game is your phone. Your manager wants weekly updates and means it. Your work bestie has already sent you the group chat's history. Your rival replies-all. People Ops keeps a record of everything. The founder texts at 2am and expects an answer. All five have your number, all five read #general, and you have twelve weeks until the probation review. Messages land week by week and you pick every reply. No typing, no timers. Everyone remembers what you said, so backing one person costs you with the rest, and if the heat climbs, #general leaks it to the whole company. Twelve chapters, over 800 messages, twelve endings from Promoted to Extended to The 2am Job, and sixty moments to collect. Read Their Mind lets you watch a short ad to preview what a reply will do. The company and its people are invented. English, Spanish and Brazilian Portuguese. Free with ads, no account, plays offline.", "ko": "직원 40명짜리 스타트업 첫 출근, 게임 전체가 당신의 휴대폰 안에서 펼쳐집니다. 매니저는 주간 보고를 원하고, 진심입니다. 회사 절친은 이미 단톡방의 지난 대화를 보내 놨습니다. 라이벌은 전체 답장을 누릅니다. 인사팀은 모든 걸 기록합니다. 창업자는 새벽 2시에 문자를 보내고 답을 기다립니다. 다섯 명 모두 당신의 번호를 알고, 다섯 명 모두 #general을 읽으며, 수습 평가까지는 12주가 남았습니다. 메시지는 주마다 도착하고, 답장은 모두 직접 고릅니다. 타이핑도 타이머도 없습니다. 모두가 당신이 한 말을 기억하기 때문에 한 사람 편을 들면 나머지와의 관계가 흔들리고, 분위기가 과열되면 #general이 회사 전체에 퍼뜨립니다. 12개 챕터, 800개가 넘는 메시지, 승진부터 수습 연장, 새벽 2시의 일까지 12개의 엔딩, 모을 수 있는 순간 60개. '속마음 읽기'는 짧은 광고를 보고 답장의 결과를 미리 확인하는 기능입니다. 회사와 등장인물은 모두 허구입니다. 영어, 스페인어, 브라질 포르투갈어 지원. 광고가 있는 무료 게임이며 계정 없이 오프라인으로 플레이할 수 있습니다.", "ja": "社員40人のスタートアップに初出社。ゲームのすべてはあなたのスマホの中で進む。マネージャーは週報を求めていて、本気だ。職場の親友は、グループチャットの過去ログをもう送ってきた。ライバルは全員に返信する。人事はすべてを記録している。創業者は深夜2時にメッセージを送ってきて、返事を待っている。5人ともあなたの番号を知っていて、5人とも#generalを読んでいる。試用期間の評価まで12週間。メッセージは週ごとに届き、返信はすべて自分で選ぶ。文字入力もタイマーもない。誰もがあなたの言葉を覚えているので、誰かの味方をすれば他の人との関係に響き、空気が熱くなれば#generalが会社中に漏らす。全12章、800以上のメッセージ、昇進から試用延長、深夜2時の仕事まで12のエンディング、集められる60の瞬間。「心を読む」は短い広告を見て、返信の結果を先に確かめられる機能。会社も登場人物もすべて架空。英語、スペイン語、ブラジルポルトガル語に対応。広告付きの無料ゲームで、アカウント不要、オフラインで遊べる。", "es": "Primer día en una startup de cuarenta personas, y todo el juego es tu móvil. Tu jefa quiere informes semanales y lo dice en serio. Tu mejor amigo del trabajo ya te mandó el historial del grupo. Tu rival responde a todos. Recursos Humanos lo apunta todo. El fundador escribe a las 2 de la mañana y espera respuesta. Los cinco tienen tu número, los cinco leen #general, y tienes doce semanas hasta la evaluación de prueba. Los mensajes llegan semana a semana y tú eliges cada respuesta. Sin escribir, sin cronómetros. Todos recuerdan lo que dijiste, así que apoyar a uno te cuesta con el resto, y si la tensión sube, #general lo filtra a toda la empresa. Doce capítulos, más de ochocientos mensajes, doce finales, de Ascenso a Prórroga a El trabajo de las 2 a.m., y sesenta momentos para coleccionar. Leer su mente te deja ver un anuncio corto para saber qué hará una respuesta. La empresa y su gente son inventadas. En inglés, español y portugués de Brasil. Gratis con anuncios, sin cuenta, funciona sin conexión.", "pt-BR": "Primeiro dia numa startup de quarenta pessoas, e o jogo inteiro é o seu celular. Sua chefe quer relatórios semanais e fala sério. Seu melhor amigo do trabalho já te mandou o histórico do grupo. Seu rival responde para todos. O RH anota tudo. O fundador manda mensagem às 2 da manhã e espera resposta. Os cinco têm o seu número, os cinco leem o #general, e você tem doze semanas até a avaliação de experiência. As mensagens chegam semana a semana e você escolhe cada resposta. Sem digitar, sem cronômetro. Todo mundo lembra do que você disse, então apoiar um custa com os outros, e se a tensão subir, o #general vaza tudo para a empresa inteira. Doze capítulos, mais de oitocentas mensagens, doze finais, de Promovido a Prorrogado a O trabalho das 2 da manhã, e sessenta momentos para colecionar. Ler a mente deixa você assistir a um anúncio curto para ver o que uma resposta faz. A empresa e as pessoas são inventadas. Em inglês, espanhol e português do Brasil. Grátis com anúncios, sem conta, funciona offline."}};
+        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

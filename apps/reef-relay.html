@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reef Relay | Crystl Labs</title>
+    <meta name="description" content="Draw one current and a whole school of fish follows it home. 24 reefs, four-second lines.">
+    <meta property="og:title" content="Reef Relay | Crystl Labs">
+    <meta property="og:description" content="Draw one current and a whole school of fish follows it home. 24 reefs, four-second lines.">
+    <meta property="og:image" content="reef-relay.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/reef-relay.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="reef-relay.png" alt="Reef Relay" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Reef Relay</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Draw one current and a whole school of fish follows it home. 24 reefs, four-second lines.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Reef Relay is a puzzle about steering a whole school of fish with one line. Draw a current, lift your finger to release it, and the fish follow it toward the arch that matches their badge. A current lasts four seconds, and drawing again replaces it. Round and slim fish turn at different speeds, so you leave room for the whole group. There are 24 reef boards with high and low exits, coral slaloms, overlapping schools, narrow currents and moving jellyfish. Badges use circle, triangle and square shapes, so color is never the only guide. Rescue twelve fish to clear a board for bronze, silver or gold, and save a whole school for bonus points and five extra seconds. Clear six boards to unlock Endless Current. Twelve school challenges pay pearls toward eight reef color themes, and a playable tutorial gets you started. Plays offline with no account. Free with ads, and ads never rescue fish, change medals or unlock boards.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/reef-relay/01.jpg" alt="Reef Relay screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/reef-relay/02.jpg" alt="Reef Relay screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/reef-relay/03.jpg" alt="Reef Relay screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/reef-relay/04.jpg" alt="Reef Relay screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Reef Relay", "ko": "리프 릴레이", "ja": "リーフ・リレー", "es": "Reef Relay", "pt-BR": "Reef Relay"}, "tagline": {"en": "Draw one current and a whole school of fish follows it home. 24 reefs, four-second lines.", "ko": "물살 하나를 그리면 물고기 떼 전체가 따라 집으로 갑니다. 산호초 24곳, 4초짜리 선.", "ja": "水流を一本描けば、魚の群れがまるごとついて帰っていく。24のサンゴ礁、4秒の線。", "es": "Dibuja una corriente y todo un banco de peces la sigue a casa. 24 arrecifes, líneas de 4 s.", "pt-BR": "Desenhe uma corrente e um cardume inteiro segue até em casa. 24 recifes, linhas de 4 s."}, "desc": {"en": "Reef Relay is a puzzle about steering a whole school of fish with one line. Draw a current, lift your finger to release it, and the fish follow it toward the arch that matches their badge. A current lasts four seconds, and drawing again replaces it. Round and slim fish turn at different speeds, so you leave room for the whole group. There are 24 reef boards with high and low exits, coral slaloms, overlapping schools, narrow currents and moving jellyfish. Badges use circle, triangle and square shapes, so color is never the only guide. Rescue twelve fish to clear a board for bronze, silver or gold, and save a whole school for bonus points and five extra seconds. Clear six boards to unlock Endless Current. Twelve school challenges pay pearls toward eight reef color themes, and a playable tutorial gets you started. Plays offline with no account. Free with ads, and ads never rescue fish, change medals or unlock boards.", "ko": "리프 릴레이는 선 하나로 물고기 떼 전체를 이끄는 퍼즐입니다. 물살을 그리고 손가락을 떼면, 물고기들이 그 물살을 따라 자기 배지와 맞는 아치로 향합니다. 물살은 4초 동안 유지되고, 다시 그리면 새 물살로 바뀝니다. 둥근 물고기와 날씬한 물고기는 도는 속도가 달라서 무리 전체가 지나갈 여유를 둬야 합니다. 높고 낮은 출구, 산호 사이 슬라롬, 겹치는 물고기 떼, 좁은 물살, 움직이는 해파리가 있는 산호초 보드 24개가 준비되어 있습니다. 배지는 원, 삼각형, 사각형 모양이라 색깔만으로 구분할 필요가 없습니다. 물고기 12마리를 구하면 보드를 클리어하고 동, 은, 금메달을 받으며, 한 무리를 통째로 구하면 보너스 점수와 5초가 추가됩니다. 보드 6개를 클리어하면 엔드리스 커런트가 열립니다. 물고기 떼 챌린지 12개로 진주를 모아 산호초 색상 테마 8개를 열 수 있고, 직접 해 보는 튜토리얼로 시작할 수 있습니다. 계정 없이 오프라인으로 즐길 수 있습니다. 무료이며 광고가 있지만, 광고로 물고기를 구하거나 메달을 바꾸거나 보드를 여는 일은 없습니다.", "ja": "『リーフ・リレー』は、一本の線で魚の群れ全体を導くパズル。水流を描いて指を離すと、魚たちはその流れに乗って自分のバッジと同じアーチへ向かう。水流は4秒間続き、描き直すと新しい流れに置き換わる。丸い魚と細い魚は曲がる速さが違うので、群れ全体が通れる余裕を残しておこう。高い出口と低い出口、サンゴの間のスラローム、重なり合う群れ、狭い水流、動くクラゲが登場するサンゴ礁ボードは全24面。バッジは丸、三角、四角の形で区別でき、色だけに頼る必要はない。魚を12匹救えばボードクリアで銅・銀・金メダル、群れをまるごと救えばボーナス点と5秒の追加。6面クリアでエンドレス・カレントが解放される。12の群れチャレンジで真珠を集め、8種類のサンゴ礁カラーテーマを解放できる。遊びながら覚えるチュートリアル付き。アカウント不要でオフラインプレイ可能。無料で広告ありだが、広告で魚が救われたりメダルが変わったりボードが解放されたりすることはない。", "es": "Reef Relay es un puzle sobre guiar a todo un banco de peces con una sola línea. Dibuja una corriente, levanta el dedo para soltarla y los peces la siguen hacia el arco que coincide con su insignia. Una corriente dura cuatro segundos y dibujar otra la reemplaza. Los peces redondos y los delgados giran a velocidades distintas, así que dejas espacio para todo el grupo. Hay 24 arrecifes con salidas altas y bajas, eslálones entre corales, bancos que se cruzan, corrientes estrechas y medusas en movimiento. Las insignias usan círculo, triángulo y cuadrado, así que el color nunca es la única pista. Rescata doce peces para superar un arrecife con bronce, plata u oro, y salva un banco entero para ganar puntos extra y cinco segundos más. Supera seis arrecifes para desbloquear Corriente Infinita. Doce desafíos de banco dan perlas para ocho temas de color, y un tutorial jugable te ayuda a empezar. Funciona sin conexión y sin cuenta. Gratis con anuncios, y los anuncios nunca rescatan peces, cambian medallas ni desbloquean arrecifes.", "pt-BR": "Reef Relay é um quebra-cabeça sobre guiar um cardume inteiro com uma única linha. Desenhe uma corrente, levante o dedo para soltá-la e os peixes a seguem até o arco que combina com o emblema deles. Uma corrente dura quatro segundos, e desenhar de novo a substitui. Peixes redondos e finos viram em velocidades diferentes, então você deixa espaço para o grupo todo. São 24 recifes com saídas altas e baixas, slaloms entre corais, cardumes que se cruzam, correntes estreitas e águas-vivas em movimento. Os emblemas usam círculo, triângulo e quadrado, então a cor nunca é a única pista. Resgate doze peixes para concluir um recife com bronze, prata ou ouro, e salve um cardume inteiro para ganhar pontos extras e cinco segundos a mais. Conclua seis recifes para liberar Corrente Infinita. Doze desafios de cardume rendem pérolas para oito temas de cor, e um tutorial jogável ajuda no começo. Funciona offline e sem conta. Grátis com anúncios, e os anúncios nunca resgatam peixes, mudam medalhas ou liberam recifes."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

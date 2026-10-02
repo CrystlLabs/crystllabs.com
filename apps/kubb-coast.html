@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kubb Coast | Crystl Labs</title>
+    <meta name="description" content="Underarm throws, wooden kubbs, and a king you must not touch until the very end.">
+    <meta property="og:title" content="Kubb Coast | Crystl Labs">
+    <meta property="og:description" content="Underarm throws, wooden kubbs, and a king you must not touch until the very end.">
+    <meta property="og:image" content="kubb-coast.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/kubb-coast.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="kubb-coast.png" alt="Kubb Coast" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Kubb Coast</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Underarm throws, wooden kubbs, and a king you must not touch until the very end.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Kubb Coast is the wooden lawn game kubb, played across eight island settings. You throw batons underarm to clear the field kubbs, then attack the baseline, and leave the king for last, because hitting him early loses the game on the spot. Fallen kubbs get thrown back into the far half, so every six-baton turn sets up the next one. There are 50 career stages and 50 challenges, five rival accuracy profiles to play against, and local two-player games on one shared screen. Arcade matches are capped at twelve turns. A career mode, offline daily challenges, practice, medals and personal records keep you coming back, and tokens earned in play unlock collection items. Settings include assists, sound, music, vibration, reduced motion and a left-handed action layout. Core play works offline and progress stays on your device. Optional rewarded ads and occasional interstitial ads between finished sessions. Plays in English, Spanish and Brazilian Portuguese.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/kubb-coast/01.jpg" alt="Kubb Coast screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/kubb-coast/02.jpg" alt="Kubb Coast screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Kubb Coast", "ko": "쿱 코스트", "ja": "クッブ・コースト", "es": "Kubb Coast", "pt-BR": "Kubb Coast"}, "tagline": {"en": "Underarm throws, wooden kubbs, and a king you must not touch until the very end.", "ko": "언더핸드로 던지고 나무 쿱을 쓰러뜨리세요. 왕은 마지막까지 건드리면 안 됩니다.", "ja": "下手投げで木のクッブを倒す。キングには最後まで触れてはいけない。", "es": "Lanzamientos por lo bajo, kubbs de madera y un rey que no se toca hasta el final.", "pt-BR": "Arremessos por baixo, kubbs de madeira e um rei que não se toca até o fim."}, "desc": {"en": "Kubb Coast is the wooden lawn game kubb, played across eight island settings. You throw batons underarm to clear the field kubbs, then attack the baseline, and leave the king for last, because hitting him early loses the game on the spot. Fallen kubbs get thrown back into the far half, so every six-baton turn sets up the next one. There are 50 career stages and 50 challenges, five rival accuracy profiles to play against, and local two-player games on one shared screen. Arcade matches are capped at twelve turns. A career mode, offline daily challenges, practice, medals and personal records keep you coming back, and tokens earned in play unlock collection items. Settings include assists, sound, music, vibration, reduced motion and a left-handed action layout. Core play works offline and progress stays on your device. Optional rewarded ads and occasional interstitial ads between finished sessions. Plays in English, Spanish and Brazilian Portuguese.", "ko": "쿱 코스트는 나무 막대를 던지는 잔디 게임 쿱을 여덟 곳의 섬에서 즐기는 게임입니다. 막대를 언더핸드로 던져 필드 쿱을 치우고, 그다음 베이스라인을 공격하고, 왕은 마지막에 남겨 두세요. 왕을 일찍 맞히면 그 자리에서 집니다. 쓰러진 쿱은 상대 진영으로 다시 던져지니, 막대 여섯 개로 하는 매 턴이 다음 턴을 만듭니다. 커리어 스테이지 50개와 챌린지 50개, 정확도가 다른 라이벌 다섯 명이 있고, 한 화면을 나눠 쓰는 2인 로컬 대전도 됩니다. 아케이드 경기는 최대 12턴입니다. 커리어 모드, 오프라인 일일 챌린지, 연습, 메달, 개인 기록이 다시 찾을 이유가 되고, 플레이로 얻은 토큰으로 수집 아이템을 해금합니다. 설정에는 보조 기능, 사운드, 음악, 진동, 모션 줄이기, 왼손잡이 배치가 있습니다. 핵심 플레이는 오프라인으로 되고 진행 상황은 기기에 저장됩니다. 선택형 보상 광고와, 세션이 끝난 뒤 가끔 나오는 전면 광고가 있습니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다.", "ja": "クッブ・コーストは、木の棒を投げる芝生のゲーム、クッブを八つの島で遊ぶゲームだ。棒を下手で投げてフィールドのクッブを片づけ、次にベースラインを攻め、キングは最後に残す。早くキングに当てると、その場で負けになる。倒れたクッブは相手側の陣地へ投げ戻されるので、棒六本のターンが次のターンをつくる。キャリアステージ50、チャレンジ50、命中精度の異なるライバル五人がいて、一つの画面を分け合うローカル二人対戦もできる。アーケードの試合は最大12ターン。キャリアモード、オフラインのデイリーチャレンジ、練習、メダル、自己ベストが戻ってくる理由になり、プレイで集めたトークンでコレクションアイテムを解放する。設定にはアシスト、サウンド、音楽、振動、モーション軽減、左利き用の操作配置がある。基本プレイはオフラインで動き、進行は端末に保存される。任意のリワード広告と、セッション終了後のときどきのインタースティシャル広告あり。英語、スペイン語、ブラジルポルトガル語に対応。", "es": "Kubb Coast es kubb, el juego de césped con piezas de madera, en ocho escenarios isleños. Lanzas los bastones por lo bajo para derribar los kubbs de campo, luego atacas la línea de fondo y dejas al rey para el final, porque darle antes de tiempo te hace perder al instante. Los kubbs caídos se lanzan de vuelta a la mitad contraria, así que cada turno de seis bastones prepara el siguiente. Hay 50 etapas de carrera y 50 retos, cinco rivales con distinta precisión y partidas locales para dos en una misma pantalla. Las partidas arcade tienen un máximo de doce turnos. El modo carrera, los retos diarios sin conexión, la práctica, las medallas y las marcas personales te hacen volver, y las fichas que ganas jugando desbloquean objetos de colección. Los ajustes incluyen ayudas, sonido, música, vibración, movimiento reducido y controles para zurdos. El juego principal funciona sin conexión y el progreso queda en tu dispositivo. Anuncios con recompensa opcionales e intersticiales ocasionales entre sesiones terminadas. En inglés, español y portugués de Brasil.", "pt-BR": "Kubb Coast é o kubb, o jogo de gramado com peças de madeira, em oito cenários de ilha. Você arremessa os bastões por baixo para derrubar os kubbs de campo, depois ataca a linha de fundo e deixa o rei por último, porque acertá-lo cedo faz você perder na hora. Os kubbs derrubados voltam para a metade adversária, então cada turno de seis bastões prepara o seguinte. São 50 etapas de carreira e 50 desafios, cinco rivais com precisões diferentes e partidas locais para dois na mesma tela. As partidas arcade têm no máximo doze turnos. Modo carreira, desafios diários offline, treino, medalhas e recordes pessoais fazem você voltar, e as fichas ganhas jogando desbloqueiam itens de coleção. As configurações incluem assistências, som, música, vibração, movimento reduzido e controles para canhotos. O jogo principal funciona offline e o progresso fica no seu dispositivo. Anúncios opcionais com recompensa e intersticiais ocasionais entre sessões concluídas. Em inglês, espanhol e português do Brasil."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

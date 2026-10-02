@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tideline Salvage | Crystl Labs</title>
+    <meta name="description" content="Read the tides, send the fleet out, restore what comes back. A harbor salvage sim.">
+    <meta property="og:title" content="Tideline Salvage | Crystl Labs">
+    <meta property="og:description" content="Read the tides, send the fleet out, restore what comes back. A harbor salvage sim.">
+    <meta property="og:image" content="tideline-salvage.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/tideline-salvage.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="tideline-salvage.png" alt="Tideline Salvage" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Tideline Salvage</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Read the tides, send the fleet out, restore what comes back. A harbor salvage sim.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Tideline Salvage is a salvage and restoration sim set on a sleepy island harbor. You build dock space, a restoration workshop and storage, then open Operations to pick a salvage site and a boat configuration before sending the fleet out. Six boat types and five salvage sites give you choices to weigh against tides, weather, depth, fuel and hull condition. What comes back is weathered, and you restore it. The collection holds 60 artifacts, and you fund 20 harbor projects while working through 60 expedition contracts across five areas, from Home Harbor through Coral Reach, Stormwatch Isles and Sunken Passage to the Lighthouse Coast. Workshops, storage and museum facilities turn the harbor into a home for maritime history. A four-part tutorial gets you started. Plan at your own pace, pause when you need to think, and change the simulation speed. Three save slots let you try different approaches. Core play works offline. English, Spanish and Brazilian Portuguese. Free with optional rewarded ads and ads at breaks between expeditions.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/tideline-salvage/01.jpg" alt="Tideline Salvage screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/tideline-salvage/02.jpg" alt="Tideline Salvage screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/tideline-salvage/03.jpg" alt="Tideline Salvage screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Tideline Salvage", "ko": "타이드라인 샐비지", "ja": "タイドライン・サルベージ", "es": "Tideline Salvage", "pt-BR": "Tideline Salvage"}, "tagline": {"en": "Read the tides, send the fleet out, restore what comes back. A harbor salvage sim.", "ko": "물때를 읽고, 선단을 내보내고, 건져 온 것을 복원하세요. 항구 인양 시뮬레이션.", "ja": "潮を読み、船団を出し、持ち帰ったものを修復する。港のサルベージ経営シム。", "es": "Lee las mareas, envía la flota y restaura lo que vuelve. Un simulador de rescate en el puerto.", "pt-BR": "Leia as marés, mande a frota e restaure o que voltar. Um simulador de resgate no porto."}, "desc": {"en": "Tideline Salvage is a salvage and restoration sim set on a sleepy island harbor. You build dock space, a restoration workshop and storage, then open Operations to pick a salvage site and a boat configuration before sending the fleet out. Six boat types and five salvage sites give you choices to weigh against tides, weather, depth, fuel and hull condition. What comes back is weathered, and you restore it. The collection holds 60 artifacts, and you fund 20 harbor projects while working through 60 expedition contracts across five areas, from Home Harbor through Coral Reach, Stormwatch Isles and Sunken Passage to the Lighthouse Coast. Workshops, storage and museum facilities turn the harbor into a home for maritime history. A four-part tutorial gets you started. Plan at your own pace, pause when you need to think, and change the simulation speed. Three save slots let you try different approaches. Core play works offline. English, Spanish and Brazilian Portuguese. Free with optional rewarded ads and ads at breaks between expeditions.", "ko": "타이드라인 샐비지는 한적한 섬 항구를 배경으로 한 인양과 복원 시뮬레이션입니다. 부두 공간, 복원 작업장, 창고를 짓고, 운영 메뉴에서 인양 장소와 배 구성을 고른 뒤 선단을 내보냅니다. 배 여섯 종과 인양 장소 다섯 곳을 물때, 날씨, 수심, 연료, 선체 상태와 저울질해야 합니다. 건져 온 것은 낡아 있으니 복원합니다. 수집품은 60점이고, 홈 하버에서 코랄 리치, 스톰워치 제도, 선큰 패시지를 거쳐 라이트하우스 코스트까지 다섯 지역에서 탐사 계약 60개를 진행하며 항구 프로젝트 20개에 자금을 댑니다. 작업장, 창고, 박물관 시설이 항구를 해양사의 보금자리로 바꿔 놓습니다. 네 단계 튜토리얼이 시작을 도와줍니다. 원하는 속도로 계획하고, 생각할 시간이 필요하면 일시 정지하고, 규모가 커지면 시뮬레이션 속도를 바꾸세요. 저장 슬롯 세 개로 여러 방식을 시험할 수 있습니다. 기본 플레이는 오프라인으로 가능합니다. 영어, 스페인어, 브라질 포르투갈어 지원. 무료이며 선택형 보상형 광고와 탐사 사이의 광고가 있습니다.", "ja": "タイドライン・サルベージは、のどかな島の港を舞台にしたサルベージと修復のシミュレーション。桟橋、修復工房、倉庫を建て、オペレーションでサルベージ地点と船の編成を選んでから船団を送り出す。6種類の船と5つのサルベージ地点を、潮、天候、水深、燃料、船体の状態と天秤にかける。持ち帰ったものは傷んでいるので、修復する。コレクションは全60点。ホームハーバーからコーラルリーチ、ストームウォッチ諸島、サンクンパッセージを経てライトハウスコーストまで、5つのエリアで60の探索契約をこなしながら、20の港プロジェクトに資金を出す。工房、倉庫、博物館の施設が、港を海の歴史の居場所に変えていく。4段階のチュートリアルが最初を案内する。自分のペースで計画し、考えたいときは一時停止し、規模が大きくなればシミュレーション速度も変えられる。セーブスロット3つで、いろいろなやり方を試せる。基本プレイはオフラインで遊べる。英語、スペイン語、ブラジルポルトガル語に対応。無料で、任意のリワード広告と、探索の合間に入る広告がある。", "es": "Tideline Salvage es un simulador de rescate y restauración en un tranquilo puerto isleño. Construyes muelles, un taller de restauración y almacenes, y luego abres Operaciones para elegir una zona de búsqueda y la configuración de los barcos antes de enviar la flota. Seis tipos de barco y cinco zonas de búsqueda te dan opciones que sopesar frente a mareas, clima, profundidad, combustible y estado del casco. Lo que vuelve llega desgastado, y lo restauras. La colección tiene 60 objetos, y financias 20 proyectos del puerto mientras completas 60 contratos de expedición en cinco zonas, desde el puerto de casa, pasando por Coral Reach, las islas Stormwatch y Sunken Passage, hasta la costa del faro. Talleres, almacenes e instalaciones de museo convierten el puerto en un hogar para la historia marítima. Un tutorial de cuatro partes te pone en marcha. Planifica a tu ritmo, pausa cuando necesites pensar y ajusta la velocidad de la simulación a medida que creces. Tres espacios de guardado te dejan probar estrategias distintas. El juego principal funciona sin conexión. En inglés, español y portugués de Brasil. Gratis con anuncios recompensados opcionales y anuncios en las pausas entre expediciones.", "pt-BR": "Tideline Salvage é um simulador de resgate e restauração num porto tranquilo de ilha. Você constrói cais, uma oficina de restauração e armazéns, depois abre Operações para escolher um local de busca e a configuração dos barcos antes de mandar a frota. Seis tipos de barco e cinco locais de busca dão opções para pesar contra marés, clima, profundidade, combustível e estado do casco. O que volta chega desgastado, e você restaura. A coleção tem 60 objetos, e você financia 20 projetos do porto enquanto cumpre 60 contratos de expedição em cinco áreas, do porto de casa, passando por Coral Reach, as ilhas Stormwatch e Sunken Passage, até a costa do farol. Oficinas, armazéns e instalações de museu transformam o porto num lar para a história marítima. Um tutorial em quatro partes ajuda no começo. Planeje no seu ritmo, pause quando precisar pensar e ajuste a velocidade da simulação conforme a operação cresce. Três espaços de salvamento permitem testar estratégias diferentes. O jogo principal funciona offline. Em inglês, espanhol e português do Brasil. Grátis com anúncios recompensados opcionais e anúncios nas pausas entre as expedições."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

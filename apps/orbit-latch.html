@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbit Latch | Crystl Labs</title>
+    <meta name="description" content="Hold to latch onto an anchor, swing, release. One touch, 36 sectors, 12 lessons.">
+    <meta property="og:title" content="Orbit Latch | Crystl Labs">
+    <meta property="og:description" content="Hold to latch onto an anchor, swing, release. One touch, 36 sectors, 12 lessons.">
+    <meta property="og:image" content="orbit-latch.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/orbit-latch.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="orbit-latch.png" alt="Orbit Latch" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Orbit Latch</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Hold to latch onto an anchor, swing, release. One touch, 36 sectors, 12 lessons.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Orbit Latch is a one-touch space game about timing and momentum. Hold to catch the highlighted gravity anchor, swing around it, then release toward the next ring. A dotted tangent guide shows your flight path. Stay attached too long and the tether overheats. There are 36 authored sectors in twelve families: wide orbits, compact slingshots, high and low anchors, half-circle escapes, asteroid corridors, moving anchors, one-way gates and three-anchor finales. Endless Flight mixes them into varied routes. Twelve four-gate lessons award bronze, silver and gold medals. Center passes earn extra points, and gold needs four centers without a heat break. Star dust buys eight hull-color and trail styles that never change your speed or abilities. A playable tutorial and practice that costs nothing help you learn. Sound, vibration, reduced motion and menu text size are adjustable. Offline, no account, in English, Spanish or Brazilian Portuguese. Free with occasional ads between runs, and an optional ad can double a run&#x27;s star dust once.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/orbit-latch/01.jpg" alt="Orbit Latch screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/orbit-latch/02.jpg" alt="Orbit Latch screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/orbit-latch/03.jpg" alt="Orbit Latch screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/orbit-latch/04.jpg" alt="Orbit Latch screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Orbit Latch", "ko": "오빗 래치", "ja": "オービットラッチ", "es": "Orbit Latch", "pt-BR": "Orbit Latch"}, "tagline": {"en": "Hold to latch onto an anchor, swing, release. One touch, 36 sectors, 12 lessons.", "ko": "누르면 앵커에 걸리고, 돌고, 놓으면 날아갑니다. 원 터치, 36개 섹터, 12개 레슨.", "ja": "押してアンカーにつかまり、回って、放す。ワンタッチ、36セクター、12レッスン。", "es": "Mantén para engancharte a un ancla, gira y suelta. Un toque, 36 sectores, 12 lecciones.", "pt-BR": "Segure para se prender a uma âncora, gire e solte. Um toque, 36 setores, 12 lições."}, "desc": {"en": "Orbit Latch is a one-touch space game about timing and momentum. Hold to catch the highlighted gravity anchor, swing around it, then release toward the next ring. A dotted tangent guide shows your flight path. Stay attached too long and the tether overheats. There are 36 authored sectors in twelve families: wide orbits, compact slingshots, high and low anchors, half-circle escapes, asteroid corridors, moving anchors, one-way gates and three-anchor finales. Endless Flight mixes them into varied routes. Twelve four-gate lessons award bronze, silver and gold medals. Center passes earn extra points, and gold needs four centers without a heat break. Star dust buys eight hull-color and trail styles that never change your speed or abilities. A playable tutorial and practice that costs nothing help you learn. Sound, vibration, reduced motion and menu text size are adjustable. Offline, no account, in English, Spanish or Brazilian Portuguese. Free with occasional ads between runs, and an optional ad can double a run's star dust once.", "ko": "오빗 래치는 타이밍과 관성을 다루는 원 터치 우주 게임입니다. 누르고 있으면 강조된 중력 앵커에 걸려 그 주위를 돌고, 손을 떼면 다음 고리를 향해 날아갑니다. 점선으로 된 접선 가이드가 비행 경로를 보여 줍니다. 너무 오래 붙어 있으면 테더가 과열됩니다. 넓은 궤도, 짧은 슬링샷, 높고 낮은 앵커, 반원 탈출, 소행성 회랑, 움직이는 앵커, 일방통행 게이트, 앵커 세 개짜리 피날레까지 열두 계열로 나뉜 36개의 섹터가 직접 설계되어 있습니다. 엔드리스 플라이트는 이 섹터들을 섞어 매번 다른 경로를 만듭니다. 게이트 네 개짜리 레슨 열두 개에서는 동, 은, 금메달을 받습니다. 고리 중앙을 통과하면 추가 점수가 있고, 금메달을 받으려면 과열 끊김 없이 중앙 통과 네 번이 필요합니다. 별가루로 기체 색과 궤적 스타일 여덟 가지를 살 수 있으며, 속도나 능력은 바뀌지 않습니다. 직접 해 보는 튜토리얼과 비용 없는 연습 모드로 익힐 수 있습니다. 소리, 진동, 움직임 줄이기, 메뉴 글자 크기를 조절할 수 있습니다. 계정 없이 오프라인으로 즐기며 영어, 스페인어, 브라질 포르투갈어를 지원합니다. 무료이며 판 사이에 가끔 광고가 나오고, 선택형 광고로 한 판의 별가루를 한 번 두 배로 받을 수 있습니다.", "ja": "オービットラッチは、タイミングと勢いを操るワンタッチの宇宙ゲーム。押し続けるとハイライトされた重力アンカーにつかまって周りを回り、離すと次のリングへ飛んでいく。点線の接線ガイドが飛行コースを示す。つかまりすぎるとテザーがオーバーヒートする。広い軌道、コンパクトなスリングショット、高いアンカーと低いアンカー、半円の脱出、小惑星の回廊、動くアンカー、一方通行のゲート、3アンカーのフィナーレまで、12系統に分かれた36の手作りセクター。エンドレスフライトはそれらを混ぜて毎回違うルートを作る。4ゲートのレッスン12個では銅、銀、金メダルがもらえる。中心を通過すると追加点、金にはオーバーヒートなしで中心通過4回が必要。スターダストで機体の色と軌跡のスタイル8種を買えるが、速度や能力は変わらない。遊べるチュートリアルと、通貨を使わない練習で覚えられる。サウンド、振動、モーション軽減、メニューの文字サイズを調整可能。アカウント不要でオフライン、英語、スペイン語、ブラジルポルトガル語に対応。無料で、ランの合間にときどき広告が入り、任意の広告で1回分のスターダストを一度だけ2倍にできる。", "es": "Orbit Latch es un juego espacial de un toque basado en el ritmo y el impulso. Mantén pulsado para sujetarte al ancla de gravedad resaltada, gira a su alrededor y suelta hacia el siguiente aro. Una guía de tangente punteada muestra la trayectoria. Si te quedas demasiado tiempo, el cable se sobrecalienta. Hay 36 sectores diseñados en doce familias: órbitas amplias, impulsos compactos, anclas altas y bajas, salidas en semicírculo, corredores de asteroides, anclas móviles, puertas de un sentido y finales de tres anclas. El vuelo sin fin los combina en rutas variadas. Doce lecciones de cuatro puertas dan medallas de bronce, plata y oro. Pasar por el centro da puntos extra, y el oro exige cuatro centros sin roturas por calor. El polvo estelar compra ocho estilos de color de nave y estela que nunca cambian la velocidad ni las habilidades. Un tutorial jugable y una práctica sin coste te ayudan a aprender. Puedes ajustar sonido, vibración, movimiento reducido y tamaño del texto de los menús. Sin conexión, sin cuenta, en inglés, español o portugués de Brasil. Gratis con anuncios ocasionales entre partidas, y un anuncio opcional puede duplicar una vez el polvo estelar de una partida.", "pt-BR": "Orbit Latch é um jogo espacial de um toque sobre tempo e impulso. Segure para se prender à âncora de gravidade destacada, gire ao redor dela e solte em direção ao próximo anel. Uma guia de tangente pontilhada mostra a trajetória. Se ficar preso por muito tempo, o cabo superaquece. São 36 setores criados em doze famílias: órbitas amplas, impulsos compactos, âncoras altas e baixas, saídas em semicírculo, corredores de asteroides, âncoras móveis, portais de mão única e finais com três âncoras. O voo sem fim mistura tudo em rotas variadas. Doze lições de quatro portais dão medalhas de bronze, prata e ouro. Passar pelo centro rende pontos extras, e o ouro exige quatro centros sem rupturas por calor. A poeira estelar compra oito estilos de cor da nave e rastro que nunca mudam a velocidade nem as habilidades. Um tutorial jogável e um treino sem custo ajudam a aprender. Dá para ajustar som, vibração, movimento reduzido e tamanho do texto dos menus. Offline, sem conta, em inglês, espanhol ou português do Brasil. Grátis com anúncios ocasionais entre partidas, e um anúncio opcional pode dobrar uma vez a poeira estelar de uma partida."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

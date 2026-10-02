@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kittycat | Crystl Labs</title>
+    <meta name="description" content="Bring home a shy cat and earn their trust, one small day at a time.">
+    <meta property="og:title" content="Kittycat | Crystl Labs">
+    <meta property="og:description" content="Bring home a shy cat and earn their trust, one small day at a time.">
+    <meta property="og:image" content="kittycat.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/kittycat.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="kittycat.png" alt="Kittycat" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Kittycat</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Bring home a shy cat and earn their trust, one small day at a time.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Kittycat is a cozy cat game about care, stories and turning a quiet room into a home. Adopt curious Miso, cautious Juniper or mischievous Mochi, and give them any name. Each day you pick from six small moments: serve supper, play, brush a fluffy coat, sit together, take a nap or explore. You learn which foods and toys your cat loves, then share the next story chapter and choose how to help. There are 14 chapters, with a thunderstorm, a stolen sock, an afternoon that goes too quiet and new friends. Your choices are remembered and lead to one of three endings, and the days go on after the last chapter. Two touch minigames let you chase a toy or follow a pattern. Buttons you earn buy a cushion, a scratching post, a window perch and more, and every shared moment goes into the memory book. Three save slots. No neglect penalties: your cat rests safely while you are away. No account, no chat, no purchases. Free with ads.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/kittycat/01.jpg" alt="Kittycat screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/kittycat/02.jpg" alt="Kittycat screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/kittycat/03.jpg" alt="Kittycat screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/kittycat/04.jpg" alt="Kittycat screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/kittycat/05.jpg" alt="Kittycat screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Kittycat", "ko": "키티캣", "ja": "キティキャット", "es": "Kittycat", "pt-BR": "Kittycat"}, "tagline": {"en": "Bring home a shy cat and earn their trust, one small day at a time.", "ko": "수줍은 고양이를 데려와, 하루하루 조금씩 마음을 얻어 보세요.", "ja": "人見知りの猫を迎えて、小さな一日ずつ信頼を育てよう。", "es": "Lleva a casa a un gato tímido y gánate su confianza, un día pequeño a la vez.", "pt-BR": "Leve para casa um gato tímido e conquiste a confiança dele, um pequeno dia de cada vez."}, "desc": {"en": "Kittycat is a cozy cat game about care, stories and turning a quiet room into a home. Adopt curious Miso, cautious Juniper or mischievous Mochi, and give them any name. Each day you pick from six small moments: serve supper, play, brush a fluffy coat, sit together, take a nap or explore. You learn which foods and toys your cat loves, then share the next story chapter and choose how to help. There are 14 chapters, with a thunderstorm, a stolen sock, an afternoon that goes too quiet and new friends. Your choices are remembered and lead to one of three endings, and the days go on after the last chapter. Two touch minigames let you chase a toy or follow a pattern. Buttons you earn buy a cushion, a scratching post, a window perch and more, and every shared moment goes into the memory book. Three save slots. No neglect penalties: your cat rests safely while you are away. No account, no chat, no purchases. Free with ads.", "ko": "키티캣은 돌봄과 이야기, 그리고 조용한 방을 집으로 바꿔 가는 아늑한 고양이 게임입니다. 호기심 많은 미소, 조심성 많은 주니퍼, 장난꾸러기 모찌 중 한 마리를 입양하고 원하는 이름을 붙여 주세요. 매일 여섯 가지 작은 순간 중 하나를 고릅니다. 저녁 차려 주기, 놀아 주기, 털 빗어 주기, 함께 앉아 있기, 낮잠 자기, 탐험하기. 고양이가 좋아하는 음식과 장난감을 알아 가고, 다음 이야기 챕터를 함께하며 어떻게 도울지 선택합니다. 천둥 치는 밤, 사라진 양말, 너무 조용한 오후, 새 친구들까지 14개의 챕터가 있습니다. 선택은 기억되어 세 가지 엔딩 중 하나로 이어지고, 마지막 챕터가 끝나도 함께하는 날들은 계속됩니다. 장난감 쫓기와 패턴 따라 하기, 두 가지 터치 미니게임도 있습니다. 모은 단추로 쿠션, 스크래처, 창가 선반 등을 들이고, 함께한 순간은 모두 추억 앨범에 남습니다. 저장 슬롯은 세 개입니다. 방치 페널티는 없습니다. 자리를 비운 동안 고양이는 편히 쉽니다. 계정도, 채팅도, 결제도 없습니다. 광고가 있는 무료 게임입니다.", "ja": "キティキャットは、お世話と物語、そして静かな部屋を家に変えていく、心あたたまる猫ゲーム。好奇心旺盛なミソ、慎重なジュニパー、いたずら好きなモチから1匹を迎え、好きな名前をつけよう。毎日、6つの小さな時間からひとつを選ぶ。ごはん、遊び、ブラッシング、いっしょに座る、お昼寝、探検。猫の好きな食べ物やおもちゃを覚え、次の物語の章を共にして、どう助けるかを選ぶ。雷の夜、盗まれた靴下、静かすぎる午後、新しい友だちなど、全14章。選択は覚えられていて3つのエンディングのどれかにつながり、最終章のあとも日々は続く。おもちゃを追いかける、パターンをなぞる、2つのタッチミニゲームもある。集めたボタンでクッション、爪とぎ、窓辺の棚などをそろえ、共に過ごした瞬間は思い出の本に残る。セーブスロットは3つ。放置のペナルティはなく、留守の間も猫は安心して休んでいる。アカウント、チャット、課金なし。広告付きの無料ゲーム。", "es": "Kittycat es un juego de gatos acogedor sobre cuidados, historias y convertir una habitación tranquila en un hogar. Adopta a Miso, curioso; a Juniper, prudente; o a Mochi, travieso, y ponle el nombre que quieras. Cada día eliges entre seis pequeños momentos: servir la cena, jugar, cepillar su pelaje, sentaros juntos, echar una siesta o explorar. Descubres qué comidas y juguetes le encantan, y luego compartes el siguiente capítulo y eliges cómo ayudar. Hay 14 capítulos, con una tormenta, un calcetín robado, una tarde demasiado silenciosa y nuevas amistades. Tus decisiones se recuerdan y llevan a uno de tres finales, y los días siguen después del último capítulo. Dos minijuegos táctiles: perseguir un juguete o seguir un patrón. Los botones que ganas compran un cojín, un rascador, una repisa en la ventana y más, y cada momento compartido va al libro de recuerdos. Tres ranuras de guardado. Sin castigos por ausencia: tu gato descansa tranquilo mientras no estás. Sin cuenta, sin chat, sin compras. Gratis con anuncios.", "pt-BR": "Kittycat é um jogo de gato aconchegante sobre cuidado, histórias e transformar um quarto quieto em um lar. Adote Miso, o curioso; Juniper, o cauteloso; ou Mochi, o travesso, e dê o nome que quiser. Todo dia você escolhe entre seis pequenos momentos: servir o jantar, brincar, escovar o pelo, ficar juntinhos, tirar uma soneca ou explorar. Você descobre as comidas e os brinquedos favoritos do seu gato, depois compartilha o próximo capítulo da história e escolhe como ajudar. São 14 capítulos, com uma tempestade, uma meia roubada, uma tarde quieta demais e novas amizades. Suas escolhas são lembradas e levam a um de três finais, e os dias continuam depois do último capítulo. Dois minijogos de toque: perseguir um brinquedo ou seguir um padrão. Os botões que você ganha compram uma almofada, um arranhador, um poleiro na janela e mais, e cada momento vai para o livro de memórias. Três espaços de salvamento. Sem punição por ausência: seu gato descansa em segurança enquanto você está fora. Sem conta, sem chat, sem compras. Grátis com anúncios."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

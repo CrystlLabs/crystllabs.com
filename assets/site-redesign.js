@@ -141,11 +141,11 @@
       <a class="portal-plane portal-plane--one" href="https://crystlquant.com" target="_blank" rel="noopener noreferrer">
         <img src="${url('assets/crystlquant-logo.png')}" alt=""><span class="portal-copy"><span>CrystlQuant</span><small>World 01 · Forecasting</small></span>
       </a>
-      <a class="portal-plane portal-plane--two" href="${url('apps/bent-fc.html')}">
-        <img src="${url('apps/bent-fc.png')}" alt=""><span class="portal-copy"><span>Bent FC</span><small>World 02 · Football</small></span>
+      <a class="portal-plane portal-plane--two" href="https://underfolio.com/?src=crystllabs" target="_blank" rel="noopener noreferrer">
+        <img src="${url('assets/underfolio-icon.png')}" alt=""><span class="portal-copy"><span>Underfolio</span><small>World 02 · Market history</small></span>
       </a>
-      <a class="portal-plane portal-plane--three" href="${url('apps/cage-of-glory.html')}">
-        <img src="${url('apps/cage-of-glory.png')}" alt=""><span class="portal-copy"><span>Cage of Glory</span><small>World 03 · MMA</small></span>
+      <a class="portal-plane portal-plane--three" href="${url('apps/murder-phone.html')}">
+        <img src="${url('apps/murder-phone.png')}" alt=""><span class="portal-copy"><span>Murder Phone</span><small>World 03 · Detective</small></span>
       </a>
     </div>`;
     hero.insertAdjacentElement('afterend', portal);

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Six Hockey | Crystl Labs</title>
+    <meta name="description" content="Underwater hockey. Pass, dive, score, and come up for air before your swimmer runs out.">
+    <meta property="og:title" content="Deep Six Hockey | Crystl Labs">
+    <meta property="og:description" content="Underwater hockey. Pass, dive, score, and come up for air before your swimmer runs out.">
+    <meta property="og:image" content="deep-six-hockey.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/deep-six-hockey.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="deep-six-hockey.png" alt="Deep Six Hockey" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Deep Six Hockey</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Underwater hockey. Pass, dive, score, and come up for air before your swimmer runs out.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Deep Six Hockey is arcade underwater hockey. You control the puck, swim into passing lanes, find a teammate and flick toward goal, all while keeping an eye on your air. Surface to recover breath, but a swimmer at the surface cannot carry the puck, so the real skill is switching to a rested teammate at the right moment. Pick wide, pressing or defensive formations to change how your team moves. Matches end at five goals or after 150 seconds. There are 36 career stages and 36 challenges across six pool settings, plus offline daily challenges, practice, medals and personal records. Tokens earned in play unlock collection items. Settings cover assists, sound, music, vibration, reduced motion and a left-handed layout. Core play works offline and progress stays on your device. Free, with optional rewarded ads and occasional ads between finished sessions.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/deep-six-hockey/01.jpg" alt="Deep Six Hockey screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/deep-six-hockey/02.jpg" alt="Deep Six Hockey screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Deep Six Hockey", "ko": "딥 식스 하키", "ja": "ディープシックス・ホッケー", "es": "Deep Six Hockey", "pt-BR": "Deep Six Hockey"}, "tagline": {"en": "Underwater hockey. Pass, dive, score, and come up for air before your swimmer runs out.", "ko": "수중 하키입니다. 패스하고, 잠수하고, 골을 넣고, 숨이 차기 전에 수면으로 올라오세요.", "ja": "水中ホッケー。パスして潜ってゴールを決め、息が切れる前に水面へ。", "es": "Hockey subacuático. Pasa, bucea, marca y sube a respirar antes de quedarte sin aire.", "pt-BR": "Hóquei subaquático. Passe, mergulhe, marque e suba para respirar antes que o ar acabe."}, "desc": {"en": "Deep Six Hockey is arcade underwater hockey. You control the puck, swim into passing lanes, find a teammate and flick toward goal, all while keeping an eye on your air. Surface to recover breath, but a swimmer at the surface cannot carry the puck, so the real skill is switching to a rested teammate at the right moment. Pick wide, pressing or defensive formations to change how your team moves. Matches end at five goals or after 150 seconds. There are 36 career stages and 36 challenges across six pool settings, plus offline daily challenges, practice, medals and personal records. Tokens earned in play unlock collection items. Settings cover assists, sound, music, vibration, reduced motion and a left-handed layout. Core play works offline and progress stays on your device. Free, with optional rewarded ads and occasional ads between finished sessions.", "ko": "딥 식스 하키는 아케이드 수중 하키 게임입니다. 퍽을 몰고, 패스 길로 헤엄쳐 들어가 동료를 찾아 골문으로 퍽을 튕기면서도 남은 숨을 계속 신경 써야 합니다. 수면으로 올라가면 숨을 회복하지만 수면에 있는 선수는 퍽을 가질 수 없으니, 적절한 순간에 쉬고 있던 동료로 바꾸는 것이 핵심입니다. 와이드, 압박, 수비 포메이션을 골라 팀의 움직임을 바꿀 수 있습니다. 경기는 5골이 나오거나 150초가 지나면 끝납니다. 6가지 수영장 배경에서 커리어 36스테이지와 챌린지 36개가 준비되어 있고, 오프라인 일일 챌린지, 연습, 메달, 개인 기록도 있습니다. 플레이로 모은 토큰으로 컬렉션 아이템을 열 수 있습니다. 보조 기능, 효과음, 음악, 진동, 모션 줄이기, 왼손잡이 배치를 설정할 수 있습니다. 핵심 플레이는 오프라인으로 가능하고 진행 상황은 기기에 저장됩니다. 무료이며, 선택형 보상 광고와 세션을 마친 뒤 가끔 나오는 광고가 있습니다.", "ja": "『ディープシックス・ホッケー』はアーケード風の水中ホッケー。パックを操り、パスコースへ泳ぎ込み、味方を見つけてゴールへはじき出す。その間も残りの息から目は離せない。水面に上がれば息は回復するが、水面にいる選手はパックを持てない。だから休んでいた味方へ切り替えるタイミングが勝負を分ける。ワイド、プレス、守備のフォーメーションでチームの動きを変えられる。試合は5ゴールか150秒で終了。6種類のプールでキャリア36ステージとチャレンジ36個があり、オフラインのデイリーチャレンジ、練習、メダル、自己ベストも用意されている。プレイで貯めたトークンでコレクションアイテムを解放できる。アシスト、効果音、音楽、振動、モーション軽減、左手用レイアウトを設定可能。基本プレイはオフラインで遊べ、進行状況は端末に保存される。無料で、任意のリワード広告と、セッションの合間にときどき広告がある。", "es": "Deep Six Hockey es hockey subacuático de estilo arcade. Controlas el disco, nadas hacia las líneas de pase, buscas a un compañero y lo lanzas hacia la portería, sin perder de vista tu aire. Subir a la superficie te devuelve el aliento, pero un nadador en la superficie no puede llevar el disco, así que la clave está en cambiar a un compañero descansado en el momento justo. Elige formaciones abiertas, de presión o defensivas para cambiar cómo se mueve tu equipo. Los partidos terminan a los cinco goles o a los 150 segundos. Hay 36 etapas de carrera y 36 desafíos en seis piscinas, además de desafíos diarios sin conexión, práctica, medallas y récords personales. Las fichas que ganas jugando desbloquean objetos de colección. Los ajustes incluyen asistencias, sonido, música, vibración, movimiento reducido y controles para zurdos. El juego principal funciona sin conexión y el progreso queda en tu dispositivo. Gratis, con anuncios con recompensa opcionales y anuncios ocasionales entre sesiones.", "pt-BR": "Deep Six Hockey é hóquei subaquático em estilo arcade. Você controla o disco, nada para as linhas de passe, encontra um companheiro e lança em direção ao gol, sem perder de vista o seu ar. Subir à superfície recupera o fôlego, mas um nadador na superfície não pode levar o disco, então o segredo é trocar para um companheiro descansado na hora certa. Escolha formações abertas, de pressão ou defensivas para mudar como o time se move. As partidas terminam com cinco gols ou após 150 segundos. São 36 etapas de carreira e 36 desafios em seis piscinas, além de desafios diários offline, treino, medalhas e recordes pessoais. As fichas ganhas jogando liberam itens de coleção. As configurações incluem assistências, som, música, vibração, movimento reduzido e layout para canhotos. O jogo principal funciona offline e o progresso fica no seu aparelho. Grátis, com anúncios premiados opcionais e anúncios ocasionais entre sessões."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

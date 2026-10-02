@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murder Phone 2 | Crystl Labs</title>
+    <meta name="description" content="Someone is posting you dead people&#x27;s phones. Read them, text the contacts, find the liar.">
+    <meta property="og:title" content="Murder Phone 2 | Crystl Labs">
+    <meta property="og:description" content="Someone is posting you dead people&#x27;s phones. Read them, text the contacts, find the liar.">
+    <meta property="og:image" content="murder-phone-2.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/murder-phone-2.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="murder-phone-2.png" alt="Murder Phone 2" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Murder Phone 2</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Someone is posting you dead people&#x27;s phones. Read them, text the contacts, find the liar.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Somebody is posting you phones. Each one belonged to a person who is not coming back for it. The lock screen still shows the minute it stopped, and the messages are still unread. Murder Phone 2 is a text detective game. You read a stranger&#x27;s phone, text the people in it, and catch the one whose story does not hold. Every reply is a written choice, so careful reading is the whole skill. Show someone the photo that contradicts them. Forward one person&#x27;s message to another and watch the story change. Put the night back in order on a timeline board, and pin two statements against each other on a corkboard. Contacts have moods and remember how you spoke to them. When you know, name one person and the evidence that proves it. Eleven phones: one to learn on, eight that form a season, two that stand alone. Offline, no account. Free with ads. The cases are fiction.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/murder-phone-2/01.jpg" alt="Murder Phone 2 screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/murder-phone-2/02.jpg" alt="Murder Phone 2 screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/murder-phone-2/03.jpg" alt="Murder Phone 2 screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/murder-phone-2/04.jpg" alt="Murder Phone 2 screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/murder-phone-2/05.jpg" alt="Murder Phone 2 screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Murder Phone 2", "ko": "머더 폰 2", "ja": "マーダーフォン2", "es": "Murder Phone 2", "pt-BR": "Murder Phone 2"}, "tagline": {"en": "Someone is posting you dead people's phones. Read them, text the contacts, find the liar.", "ko": "누군가 죽은 사람의 휴대폰을 보내옵니다. 읽고, 문자하고, 거짓말한 사람을 찾으세요.", "ja": "誰かが、死者の携帯を送ってくる。読んで、メッセージを送って、嘘つきを見つけ出せ。", "es": "Alguien te envía teléfonos de gente muerta. Léelos, escribe a sus contactos, caza al mentiroso.", "pt-BR": "Alguém manda celulares de gente morta para você. Leia, escreva aos contatos, ache quem mente."}, "desc": {"en": "Somebody is posting you phones. Each one belonged to a person who is not coming back for it. The lock screen still shows the minute it stopped, and the messages are still unread. Murder Phone 2 is a text detective game. You read a stranger's phone, text the people in it, and catch the one whose story does not hold. Every reply is a written choice, so careful reading is the whole skill. Show someone the photo that contradicts them. Forward one person's message to another and watch the story change. Put the night back in order on a timeline board, and pin two statements against each other on a corkboard. Contacts have moods and remember how you spoke to them. When you know, name one person and the evidence that proves it. Eleven phones: one to learn on, eight that form a season, two that stand alone. Offline, no account. Free with ads. The cases are fiction.", "ko": "누군가 당신에게 휴대폰을 부치고 있습니다. 하나같이, 다시는 찾으러 오지 못할 사람의 것입니다. 잠금 화면은 멈춘 그 시각 그대로이고, 메시지는 읽지 않은 채 남아 있습니다. 머더 폰 2는 문자로 하는 추리 게임입니다. 낯선 사람의 휴대폰을 읽고, 그 안의 사람들에게 문자를 보내고, 말이 맞지 않는 한 사람을 찾아냅니다. 모든 답장은 선택지이니, 필요한 건 꼼꼼히 읽는 눈과 누구를 더 몰아붙일지 정하는 판단뿐입니다. 말과 다른 사진을 내밀어 보세요. 한 사람의 메시지를 다른 사람에게 전달하고 이야기가 어떻게 바뀌는지 지켜보세요. 타임라인 보드에서 그날 밤을 순서대로 맞추고, 코르크보드에 두 사람의 말을 나란히 붙여 맞세우세요. 연락처마다 기분이 있고, 당신의 말투를 기억합니다. 확신이 서면 한 사람과 그것을 입증하는 증거를 지목합니다. 휴대폰은 열한 대입니다. 조작을 익히는 한 대, 하나의 시즌을 이루는 여덟 대, 따로 떨어진 두 대. 오프라인, 계정 없음. 광고가 있는 무료 게임입니다. 모든 사건은 허구입니다.", "ja": "誰かが、あなたに携帯を送り続けている。どれも、もう取りに戻ることのない人のものだ。ロック画面は止まった時刻のまま、メッセージは未読のまま。マーダーフォン2は、メッセージで進める推理ゲーム。見知らぬ人の携帯を読み、そこにいる人たちにメッセージを送り、話の合わない一人を見つけ出す。返信はすべて選択肢なので、必要なのは注意深く読む目と、誰を問い詰めるかの判断だけ。発言と食い違う写真を突きつける。ある人のメッセージを別の人に転送して、話がどう変わるかを見る。タイムラインボードであの夜を並べ直し、コルクボードに二人の発言を並べて突き合わせる。連絡先にはそれぞれ機嫌があり、あなたの話し方を覚えている。確信が持てたら、一人の人物とそれを証明する証拠を挙げる。携帯は十一台。操作を覚える一台、一つのシーズンを成す八台、独立した二台。オフライン、アカウント不要。広告付きの無料ゲーム。事件はすべてフィクション。", "es": "Alguien te está enviando teléfonos por correo. Cada uno era de una persona que no va a volver a por él. La pantalla de bloqueo sigue en el minuto en que se paró todo, y los mensajes siguen sin leer. Murder Phone 2 es un juego de detectives por mensajes de texto. Lees el teléfono de un desconocido, escribes a la gente que hay en él y cazas a quien no le cuadra la historia. Cada respuesta es una opción escrita, así que lo que cuenta es leer con atención y decidir a quién apretar. Enséñale a alguien la foto que lo contradice. Reenvía el mensaje de una persona a otra y mira cómo cambia la historia. Vuelve a poner la noche en orden en una cronología y enfrenta dos declaraciones en un corcho. Cada contacto tiene un ánimo y recuerda cómo le hablaste. Cuando lo tengas claro, señala a una persona y la prueba que lo demuestra. Once teléfonos: uno para aprender, ocho que forman una temporada y dos independientes. Sin conexión, sin cuenta. Gratis con anuncios. Los casos son ficción.", "pt-BR": "Alguém está mandando celulares para você pelo correio. Cada um era de uma pessoa que não vai voltar para buscá-lo. A tela de bloqueio ainda mostra o minuto em que tudo parou, e as mensagens continuam sem ler. Murder Phone 2 é um jogo de detetive por mensagens de texto. Você lê o celular de um desconhecido, escreve para as pessoas que estão nele e pega aquela cuja história não fecha. Toda resposta é uma escolha escrita, então o que conta é ler com atenção e decidir quem pressionar. Mostre a alguém a foto que o contradiz. Encaminhe a mensagem de uma pessoa para outra e veja a história mudar. Ponha a noite de volta na ordem numa linha do tempo e coloque duas declarações uma contra a outra num mural. Cada contato tem um humor e lembra como você falou com ele. Quando tiver certeza, aponte uma pessoa e a prova que a incrimina. Onze celulares: um para aprender, oito que formam uma temporada e dois independentes. Offline, sem conta. Grátis com anúncios. Os casos são ficção."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reefkeeper | Crystl Labs</title>
+    <meta name="description" content="Build an aquarium habitat by habitat. Keep the water right and the visitors coming.">
+    <meta property="og:title" content="Reefkeeper | Crystl Labs">
+    <meta property="og:description" content="Build an aquarium habitat by habitat. Keep the water right and the visitors coming.">
+    <meta property="og:image" content="reefkeeper.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/reefkeeper.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="reefkeeper.png" alt="Reefkeeper" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Reefkeeper</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Build an aquarium habitat by habitat. Keep the water right and the visitors coming.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Reefkeeper is an aquarium management sim about aquatic conservation. You place habitats and the support facilities they need, then run the site one day at a time and watch what your choices do to the ecosystem. Habitats hold seven aquatic species groups, and each group has its own climate target. Inspect a habitat to see its residents and their needs, then balance water quality, oxygen, temperature, feeding and resident health. Develop exhibits, decorations and research facilities so visitors have something to discover, and use the management map to oversee coastal and offshore reserves. Progress runs through five areas, from the Discovery Wing to the Conservation Center, with 60 conservation contracts in all and a four-part tutorial at the start. Plan at your own pace, pause when you need to think, and change the simulation speed as the operation grows. Three save slots let you try different approaches. Core play works offline. English, Spanish and Brazilian Portuguese. Free with optional rewarded ads and ads at breaks between days.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/reefkeeper/01.jpg" alt="Reefkeeper screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/reefkeeper/02.jpg" alt="Reefkeeper screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/reefkeeper/03.jpg" alt="Reefkeeper screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Reefkeeper", "ko": "리프키퍼", "ja": "リーフキーパー", "es": "Reefkeeper", "pt-BR": "Reefkeeper"}, "tagline": {"en": "Build an aquarium habitat by habitat. Keep the water right and the visitors coming.", "ko": "수조 하나하나로 아쿠아리움을 꾸미세요. 수질은 맞추고, 관람객은 꾸준히.", "ja": "水槽ごとに水族館を作る。水質を整え、来館者を呼び続けよう。", "es": "Construye un acuario hábitat a hábitat. Agua en su punto y visitantes que no paran.", "pt-BR": "Monte um aquário habitat por habitat. Água no ponto e visitantes chegando."}, "desc": {"en": "Reefkeeper is an aquarium management sim about aquatic conservation. You place habitats and the support facilities they need, then run the site one day at a time and watch what your choices do to the ecosystem. Habitats hold seven aquatic species groups, and each group has its own climate target. Inspect a habitat to see its residents and their needs, then balance water quality, oxygen, temperature, feeding and resident health. Develop exhibits, decorations and research facilities so visitors have something to discover, and use the management map to oversee coastal and offshore reserves. Progress runs through five areas, from the Discovery Wing to the Conservation Center, with 60 conservation contracts in all and a four-part tutorial at the start. Plan at your own pace, pause when you need to think, and change the simulation speed as the operation grows. Three save slots let you try different approaches. Core play works offline. English, Spanish and Brazilian Portuguese. Free with optional rewarded ads and ads at breaks between days.", "ko": "리프키퍼는 수중 생태 보전을 주제로 한 아쿠아리움 경영 시뮬레이션입니다. 수조와 그에 필요한 지원 시설을 배치한 뒤, 하루 단위로 운영하며 내 선택이 생태계를 어떻게 바꾸는지 지켜봅니다. 수조에는 일곱 가지 수생 종 그룹이 살고, 그룹마다 맞춰야 할 환경 목표가 다릅니다. 수조를 살펴 거주 생물과 그 요구를 확인하고, 수질, 산소, 수온, 먹이, 건강을 균형 있게 관리하세요. 관람객이 볼거리를 찾을 수 있도록 전시, 장식, 연구 시설을 갖추고, 관리 지도에서 연안과 외해의 보호 구역도 살핍니다. 디스커버리 윙부터 보전 센터까지 다섯 구역에 걸쳐 보전 계약 60개가 있고, 처음에는 네 단계 튜토리얼이 안내합니다. 원하는 속도로 계획하고, 생각할 시간이 필요하면 일시 정지하고, 운영이 커지면 시뮬레이션 속도를 바꾸세요. 저장 슬롯 세 개로 여러 방식을 시험할 수 있습니다. 기본 플레이는 오프라인으로 가능합니다. 영어, 스페인어, 브라질 포르투갈어 지원. 무료이며 선택형 보상형 광고와 하루 사이의 광고가 있습니다.", "ja": "リーフキーパーは、水生生物の保全をテーマにした水族館経営シミュレーション。水槽と、それに必要な支援施設を配置し、1日ずつ運営しながら、自分の選択が生態系をどう変えるかを見ていく。水槽には7つの水生生物グループが暮らし、グループごとに整えるべき環境の目標がある。水槽を調べて住人とその要求を確かめ、水質、酸素、水温、給餌、健康のバランスを取ろう。来館者が発見を楽しめるよう展示、装飾、研究施設を整え、管理マップで沿岸と沖合の保護区も見渡す。ディスカバリーウイングから保全センターまで5つのエリアに、全60の保全契約。最初は4段階のチュートリアルが案内してくれる。自分のペースで計画し、考えたいときは一時停止し、運営が大きくなればシミュレーション速度も変えられる。セーブスロット3つで、いろいろなやり方を試せる。基本プレイはオフラインで遊べる。英語、スペイン語、ブラジルポルトガル語に対応。無料で、任意のリワード広告と、1日の区切りに入る広告がある。", "es": "Reefkeeper es un simulador de gestión de acuarios centrado en la conservación acuática. Colocas hábitats y las instalaciones que necesitan, y luego diriges el lugar día a día para ver qué hacen tus decisiones con el ecosistema. Los hábitats acogen siete grupos de especies acuáticas, y cada grupo tiene su propio objetivo de clima. Inspecciona un hábitat para ver a sus residentes y lo que necesitan, y equilibra calidad del agua, oxígeno, temperatura, alimentación y salud. Desarrolla exhibiciones, decoraciones e instalaciones de investigación para que los visitantes tengan algo que descubrir, y usa el mapa de gestión para supervisar reservas costeras y marinas. El avance recorre cinco zonas, del Ala de Descubrimiento al Centro de Conservación, con 60 contratos de conservación en total y un tutorial de cuatro partes al empezar. Planifica a tu ritmo, pausa cuando necesites pensar y ajusta la velocidad de la simulación a medida que creces. Tres espacios de guardado te dejan probar estrategias distintas. El juego principal funciona sin conexión. En inglés, español y portugués de Brasil. Gratis con anuncios recompensados opcionales y anuncios en las pausas entre días.", "pt-BR": "Reefkeeper é um simulador de gestão de aquário focado em conservação aquática. Você posiciona habitats e as instalações de apoio de que eles precisam, depois administra o lugar dia a dia e vê o que suas escolhas fazem com o ecossistema. Os habitats abrigam sete grupos de espécies aquáticas, e cada grupo tem sua própria meta de clima. Inspecione um habitat para ver os moradores e suas necessidades, e equilibre qualidade da água, oxigênio, temperatura, alimentação e saúde. Desenvolva exposições, decorações e instalações de pesquisa para os visitantes terem o que descobrir, e use o mapa de gestão para supervisionar reservas costeiras e marinhas. O progresso passa por cinco áreas, da Ala da Descoberta ao Centro de Conservação, com 60 contratos de conservação no total e um tutorial em quatro partes no começo. Planeje no seu ritmo, pause quando precisar pensar e ajuste a velocidade da simulação conforme a operação cresce. Três espaços de salvamento permitem testar estratégias diferentes. O jogo principal funciona offline. Em inglês, espanhol e português do Brasil. Grátis com anúncios recompensados opcionais e anúncios nas pausas entre os dias."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

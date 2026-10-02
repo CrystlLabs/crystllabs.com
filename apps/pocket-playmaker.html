@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket Playmaker | Crystl Labs</title>
+    <meta name="description" content="Draw a three-pass move through the defense, then curl the finish around the keeper.">
+    <meta property="og:title" content="Pocket Playmaker | Crystl Labs">
+    <meta property="og:description" content="Draw a three-pass move through the defense, then curl the finish around the keeper.">
+    <meta property="og:image" content="pocket-playmaker.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/pocket-playmaker.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="pocket-playmaker.png" alt="Pocket Playmaker" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Pocket Playmaker</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Draw a three-pass move through the defense, then curl the finish around the keeper.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Pocket Playmaker turns each soccer possession into a small puzzle. You read the moving defense, find a passing lane and bend your finish around the keeper. Start on the player with the bright ring, drag through up to three teammates and release to queue the passes, or make each pass separately. Then drag from the receiver into the goal to shoot, aiming left or right to curve the ball. The tactical clock slows while you draw a route, and defender footprints, a shot guide and a ball trail help you read the play. Each round is three possessions of 30 seconds, and you need at least one goal to clear it. There are 60 arrangements across four stadium looks and six defender movement styles, plus practice, bronze to gold medals, a daily challenge and an endless mode. Tokens unlock team color tints that do not change player power. Plays offline with no account. Free, with ads at breaks between sessions.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/pocket-playmaker/01.jpg" alt="Pocket Playmaker screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/pocket-playmaker/02.jpg" alt="Pocket Playmaker screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/pocket-playmaker/03.jpg" alt="Pocket Playmaker screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/pocket-playmaker/04.jpg" alt="Pocket Playmaker screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Pocket Playmaker", "ko": "포켓 플레이메이커", "ja": "ポケット・プレイメーカー", "es": "Pocket Playmaker", "pt-BR": "Pocket Playmaker"}, "tagline": {"en": "Draw a three-pass move through the defense, then curl the finish around the keeper.", "ko": "수비 사이로 세 번의 패스를 그리고, 골키퍼를 휘감는 슛으로 마무리하세요.", "ja": "守備の間に3本のパスを描き、キーパーを巻くシュートで仕上げる。", "es": "Dibuja una jugada de tres pases entre la defensa y termina con un tiro con efecto.", "pt-BR": "Desenhe uma jogada de três passes pela defesa e finalize com um chute de efeito."}, "desc": {"en": "Pocket Playmaker turns each soccer possession into a small puzzle. You read the moving defense, find a passing lane and bend your finish around the keeper. Start on the player with the bright ring, drag through up to three teammates and release to queue the passes, or make each pass separately. Then drag from the receiver into the goal to shoot, aiming left or right to curve the ball. The tactical clock slows while you draw a route, and defender footprints, a shot guide and a ball trail help you read the play. Each round is three possessions of 30 seconds, and you need at least one goal to clear it. There are 60 arrangements across four stadium looks and six defender movement styles, plus practice, bronze to gold medals, a daily challenge and an endless mode. Tokens unlock team color tints that do not change player power. Plays offline with no account. Free, with ads at breaks between sessions.", "ko": "포켓 플레이메이커는 축구의 공격 한 번 한 번을 작은 퍼즐로 만듭니다. 움직이는 수비를 읽고, 패스 길을 찾고, 골키퍼를 휘감는 슛으로 마무리합니다. 밝은 고리가 있는 선수에서 시작해 최대 세 명의 동료를 거쳐 드래그하고 손을 떼면 패스가 예약되며, 패스를 하나씩 따로 할 수도 있습니다. 그다음 받은 선수에서 골문으로 드래그해 슛을 쏘고, 왼쪽이나 오른쪽을 겨냥해 공에 회전을 겁니다. 경로를 그리는 동안 전술 시계가 느려지고, 수비수 발자국, 슛 가이드, 공 궤적이 플레이를 읽도록 도와줍니다. 한 라운드는 30초짜리 공격 세 번이며, 한 골 이상 넣어야 클리어됩니다. 4가지 경기장 모습과 6가지 수비 움직임 스타일에 걸쳐 60개의 배치가 있고, 연습, 동메달부터 금메달, 일일 챌린지, 무한 모드도 있습니다. 토큰으로 팀 색상을 열 수 있지만 선수 능력은 바뀌지 않습니다. 계정 없이 오프라인으로 플레이할 수 있습니다. 무료이며 세션 사이에 광고가 나옵니다.", "ja": "『ポケット・プレイメーカー』は、サッカーの1回1回の攻撃を小さなパズルにしたゲーム。動く守備を読み、パスコースを見つけ、キーパーを巻くシュートで仕上げる。明るいリングのついた選手から始め、最大3人の味方を通るようにドラッグして指を離すとパスが予約される。1本ずつ別々にパスを出すこともできる。次に受け手からゴールへドラッグしてシュート。左右に狙いをずらすとボールが曲がる。ルートを描いている間は戦術タイマーがゆっくりになり、ディフェンダーの足跡、シュートガイド、ボールの軌跡がプレイを読む手助けになる。1ラウンドは30秒の攻撃が3回で、1点以上決めればクリア。4種類のスタジアムと6種類の守備の動きにまたがる60の配置があり、練習、銅から金のメダル、デイリーチャレンジ、エンドレスモードもある。トークンでチームカラーを解放できるが、選手の能力は変わらない。アカウント不要でオフラインプレイ可能。無料で、セッションの合間に広告が入る。", "es": "Pocket Playmaker convierte cada posesión de fútbol en un pequeño puzle. Lees la defensa en movimiento, encuentras una línea de pase y terminas con un tiro con efecto que rodea al portero. Empieza en el jugador con el anillo brillante, arrastra pasando por hasta tres compañeros y suelta para encadenar los pases, o haz cada pase por separado. Luego arrastra desde el receptor hacia la portería para tirar, apuntando a izquierda o derecha para curvar el balón. El reloj táctico se ralentiza mientras dibujas una ruta, y las huellas de los defensores, una guía de tiro y la estela del balón te ayudan a leer la jugada. Cada ronda son tres posesiones de 30 segundos, y necesitas al menos un gol para superarla. Hay 60 disposiciones en cuatro estadios y seis estilos de movimiento defensivo, además de práctica, medallas de bronce a oro, un desafío diario y un modo infinito. Las fichas desbloquean colores de equipo que no cambian la fuerza de los jugadores. Funciona sin conexión y sin cuenta. Gratis, con anuncios en las pausas entre sesiones.", "pt-BR": "Pocket Playmaker transforma cada posse de bola num pequeno quebra-cabeça. Você lê a defesa em movimento, encontra uma linha de passe e finaliza com um chute de efeito em volta do goleiro. Comece no jogador com o anel brilhante, arraste passando por até três companheiros e solte para encadear os passes, ou faça cada passe separadamente. Depois arraste do recebedor até o gol para chutar, mirando à esquerda ou à direita para curvar a bola. O relógio tático desacelera enquanto você desenha a rota, e as pegadas dos defensores, um guia de chute e o rastro da bola ajudam a ler a jogada. Cada rodada tem três posses de 30 segundos, e você precisa de pelo menos um gol para passar. São 60 formações em quatro estádios e seis estilos de movimento defensivo, além de treino, medalhas de bronze a ouro, um desafio diário e um modo infinito. As fichas liberam cores de time que não mudam a força dos jogadores. Funciona offline e sem conta. Grátis, com anúncios nas pausas entre sessões."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadline Trials | Crystl Labs</title>
+    <meta name="description" content="Throttle, brake, lean. Keep a quad on four wheels over 30 tracks and race your own ghost.">
+    <meta property="og:title" content="Quadline Trials | Crystl Labs">
+    <meta property="og:description" content="Throttle, brake, lean. Keep a quad on four wheels over 30 tracks and race your own ghost.">
+    <meta property="og:image" content="quadline-trials.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/quadline-trials.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="quadline-trials.png" alt="Quadline Trials" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Quadline Trials</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Throttle, brake, lean. Keep a quad on four wheels over 30 tracks and race your own ghost.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Quadline Trials puts short 3D quad-bike courses on your phone with direct throttle, brake and lean controls. Hold throttle with one finger and lean with another. Raise the nose before a climb, lower it for a landing, or brake to get control back. Held buttons light up, checkpoint flags change color, and a progress strip keeps the finish in view. There are thirty terrain layouts across six landscape palettes, from the quarry run to the coastal ridge. Each attempt gets three minutes, a crash ends it, and cleaner, faster finishes score more. Earn campaign medals, ride any track in open practice, or come back for the dated daily challenge. Your fastest clean finish saves a local ghost to race next time. Tokens unlock quad color tints that change looks, not performance. Offline, no account, in English, Spanish or Brazilian Portuguese. Free with ads at attempt breaks. An optional video can restore your last checkpoint, but that run is marked assisted and earns no records.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/quadline-trials/01.jpg" alt="Quadline Trials screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/quadline-trials/02.jpg" alt="Quadline Trials screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/quadline-trials/03.jpg" alt="Quadline Trials screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/quadline-trials/04.jpg" alt="Quadline Trials screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Quadline Trials", "ko": "쿼드라인 트라이얼", "ja": "クワッドライン・トライアル", "es": "Quadline Trials", "pt-BR": "Quadline Trials"}, "tagline": {"en": "Throttle, brake, lean. Keep a quad on four wheels over 30 tracks and race your own ghost.", "ko": "가속, 브레이크, 기울이기. 30개 트랙에서 쿼드를 네 바퀴로 지키고 내 고스트와 겨루세요.", "ja": "アクセル、ブレーキ、体重移動。30コースで四輪を地につけ、自分のゴーストと競え。", "es": "Acelera, frena, inclínate. Mantén el quad sobre cuatro ruedas en 30 pistas y vence a tu fantasma.", "pt-BR": "Acelere, freie, incline. Mantenha o quadriciclo nas quatro rodas em 30 pistas e vença seu fantasma."}, "desc": {"en": "Quadline Trials puts short 3D quad-bike courses on your phone with direct throttle, brake and lean controls. Hold throttle with one finger and lean with another. Raise the nose before a climb, lower it for a landing, or brake to get control back. Held buttons light up, checkpoint flags change color, and a progress strip keeps the finish in view. There are thirty terrain layouts across six landscape palettes, from the quarry run to the coastal ridge. Each attempt gets three minutes, a crash ends it, and cleaner, faster finishes score more. Earn campaign medals, ride any track in open practice, or come back for the dated daily challenge. Your fastest clean finish saves a local ghost to race next time. Tokens unlock quad color tints that change looks, not performance. Offline, no account, in English, Spanish or Brazilian Portuguese. Free with ads at attempt breaks. An optional video can restore your last checkpoint, but that run is marked assisted and earns no records.", "ko": "쿼드라인 트라이얼은 짧은 3D 쿼드바이크 코스를 휴대폰으로 옮긴 게임으로, 가속, 브레이크, 기울이기를 직접 조작합니다. 한 손가락으로 가속을 누르고 다른 손가락으로 몸을 기울이세요. 오르막 전에는 앞을 들고, 착지할 때는 내리고, 균형을 잃으면 브레이크로 되찾습니다. 누른 버튼은 불이 들어오고, 체크포인트 깃발은 색이 바뀌며, 진행 막대가 결승선까지 남은 거리를 보여 줍니다. 채석장 코스부터 해안 능선까지 여섯 가지 풍경에 걸쳐 서른 개의 지형 레이아웃이 있습니다. 시도마다 3분이 주어지고, 넘어지면 끝나며, 깔끔하고 빠르게 들어올수록 점수가 높습니다. 캠페인 메달을 따고, 오픈 연습에서 아무 트랙이나 달리고, 날짜별 데일리 챌린지에도 도전하세요. 가장 빠른 무사고 기록은 로컬 고스트로 저장되어 다음 시도에서 함께 달립니다. 토큰으로 쿼드 색상을 해금할 수 있지만 성능이 아닌 외형만 바뀝니다. 오프라인, 계정 없음, 영어, 스페인어, 브라질 포르투갈어 지원. 무료이며 시도 사이에 광고가 나옵니다. 선택형 영상으로 마지막 체크포인트에서 다시 시작할 수 있지만, 그 주행은 보조로 표시되어 기록이 남지 않습니다.", "ja": "クワッドライン・トライアルは、短い3Dのクワッドバイクコースをスマホで走るゲーム。アクセル、ブレーキ、体重移動を直接操作する。1本の指でアクセルを押し、もう1本で体を傾ける。登りの前にはフロントを上げ、着地では下げ、乱れたらブレーキで立て直す。押しているボタンは光り、チェックポイントの旗は色が変わり、進行バーがゴールまでを示す。石切り場のコースから海沿いの尾根まで、6つの風景に30のコースレイアウト。1回の挑戦は3分で、転倒すれば終了。きれいに速くゴールするほど高得点。キャンペーンでメダルを集め、オープン練習で好きなコースを走り、日付ごとのデイリーチャレンジにも挑める。最速の無転倒タイムはローカルのゴーストとして保存され、次の挑戦で一緒に走る。トークンでクワッドのカラーを解放できるが、変わるのは見た目だけで性能は同じ。オフライン、アカウント不要、英語、スペイン語、ブラジルポルトガル語に対応。無料で、挑戦の合間に広告が入る。任意の動画で最後のチェックポイントから再開できるが、その走りはアシスト扱いになり記録は残らない。", "es": "Quadline Trials lleva pistas cortas de quad en 3D a tu móvil, con controles directos para acelerar, frenar e inclinarte. Mantén el acelerador con un dedo e inclínate con otro. Levanta el morro antes de una subida, bájalo para aterrizar o frena para recuperar el control. Los botones pulsados se iluminan, las banderas de control cambian de color y una barra de progreso señala la meta. Hay treinta trazados con seis ambientes, de la cantera a la cresta costera. Cada intento tiene tres minutos, una caída lo termina, y las llegadas más limpias y rápidas puntúan más. Consigue medallas en el circuito, recorre cualquier pista en la práctica libre o vuelve para el desafío diario con fecha. Tu mejor llegada sin caídas guarda un fantasma local para la próxima vez. Las fichas desbloquean tonos para el quad que cambian el aspecto, no el rendimiento. Sin conexión, sin cuenta, en inglés, español o portugués de Brasil. Gratis con anuncios entre intentos. Un vídeo opcional te devuelve al último punto de control, pero ese intento queda como asistido y no da récords.", "pt-BR": "Quadline Trials traz pistas curtas de quadriciclo em 3D para o seu celular, com controles diretos de aceleração, freio e inclinação. Segure o acelerador com um dedo e incline com outro. Levante a frente antes de uma subida, abaixe para pousar ou freie para retomar o controle. Os botões pressionados se iluminam, as bandeiras dos pontos de controle mudam de cor e uma barra de progresso mostra a chegada. São trinta traçados com seis ambientes, da pedreira à serra litorânea. Cada tentativa tem três minutos, uma queda encerra, e chegadas mais limpas e rápidas pontuam mais. Conquiste medalhas na campanha, pilote qualquer pista no treino livre ou volte para o desafio diário com data. Sua melhor chegada sem quedas salva um fantasma local para a próxima vez. As fichas desbloqueiam tonalidades para o quadriciclo que mudam a aparência, não o desempenho. Offline, sem conta, em inglês, espanhol ou português do Brasil. Grátis com anúncios entre tentativas. Um vídeo opcional devolve você ao último ponto de controle, mas essa tentativa fica marcada como assistida e não gera recordes."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

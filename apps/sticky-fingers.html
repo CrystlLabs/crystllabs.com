@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Fingers | Crystl Labs</title>
+    <meta name="description" content="A pickpocket game in a busy market. Lift wallets while nobody is looking.">
+    <meta property="og:title" content="Sticky Fingers | Crystl Labs">
+    <meta property="og:description" content="A pickpocket game in a busy market. Lift wallets while nobody is looking.">
+    <meta property="og:image" content="sticky-fingers.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/sticky-fingers.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="sticky-fingers.png" alt="Sticky Fingers" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Sticky Fingers</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">A pickpocket game in a busy market. Lift wallets while nobody is looking.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Sticky Fingers is a pickpocket game set in a busy market square. A crowd drifts between the stalls, every person has a wallet, and every person has eyes. Drag to walk through the plaza. Stand next to someone and hold on them for half a second to lift their wallet. If any yellow sight cone falls on you while you hold, you are spotted and the lift fails. Nobody gets hurt: three spots and the round is over. Each round lasts one minute. Every day has a mark, a grey-haired gent with a gold ring around his feet and $90 in his wallet. The crowd grows every round, up to 22 people. From round 6 a bodyguard shadows the mark, and from round 12 a rival thief works the same crowd. Earn three stars per round by surviving, lifting the mark and never getting spotted. The old man&#x27;s attic fills with 40 pieces of street-market furniture. One thumb. Free with optional rewarded ads. No purchases, no account.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/sticky-fingers/01.jpg" alt="Sticky Fingers screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/sticky-fingers/02.jpg" alt="Sticky Fingers screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/sticky-fingers/03.jpg" alt="Sticky Fingers screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/sticky-fingers/04.jpg" alt="Sticky Fingers screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/sticky-fingers/05.jpg" alt="Sticky Fingers screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Sticky Fingers", "ko": "스티키 핑거스", "ja": "スティッキー・フィンガーズ", "es": "Sticky Fingers", "pt-BR": "Sticky Fingers"}, "tagline": {"en": "A pickpocket game in a busy market. Lift wallets while nobody is looking.", "ko": "붐비는 시장의 소매치기 게임. 아무도 보지 않을 때 지갑을 슬쩍하세요.", "ja": "にぎわう市場のスリゲーム。誰も見ていない隙に財布をいただこう。", "es": "Un juego de carterista en un mercado lleno. Roba carteras mientras nadie mira.", "pt-BR": "Um jogo de batedor de carteira numa feira cheia. Pegue carteiras sem ninguém ver."}, "desc": {"en": "Sticky Fingers is a pickpocket game set in a busy market square. A crowd drifts between the stalls, every person has a wallet, and every person has eyes. Drag to walk through the plaza. Stand next to someone and hold on them for half a second to lift their wallet. If any yellow sight cone falls on you while you hold, you are spotted and the lift fails. Nobody gets hurt: three spots and the round is over. Each round lasts one minute. Every day has a mark, a grey-haired gent with a gold ring around his feet and $90 in his wallet. The crowd grows every round, up to 22 people. From round 6 a bodyguard shadows the mark, and from round 12 a rival thief works the same crowd. Earn three stars per round by surviving, lifting the mark and never getting spotted. The old man's attic fills with 40 pieces of street-market furniture. One thumb. Free with optional rewarded ads. No purchases, no account.", "ko": "스티키 핑거스는 붐비는 시장 광장이 배경인 소매치기 게임입니다. 사람들이 노점 사이를 오가고, 모두 지갑을 가지고 있고, 모두 눈이 있습니다. 드래그해서 광장을 걸어 다니세요. 누군가의 옆에 서서 0.5초 동안 누르고 있으면 지갑을 빼냅니다. 누르는 동안 노란 시야 원뿔이 하나라도 닿으면 들키고 실패합니다. 아무도 다치지 않습니다. 세 번 들키면 라운드가 끝납니다. 라운드는 1분입니다. 매일 표적이 한 명 있는데, 발밑에 금색 고리가 있는 백발 신사이고 지갑에는 90달러가 들어 있습니다. 군중은 라운드마다 늘어나 최대 22명까지 됩니다. 6라운드부터는 경호원이 표적을 따라다니고, 12라운드부터는 라이벌 도둑이 같은 군중을 노립니다. 살아남기, 표적 털기, 한 번도 들키지 않기로 라운드마다 별 세 개를 받습니다. 노인의 다락방은 길거리 시장 가구 40점으로 채워집니다. 엄지 하나면 됩니다. 선택형 보상형 광고가 있는 무료 게임입니다. 결제도 계정도 없습니다.", "ja": "スティッキー・フィンガーズは、にぎわう市場の広場を舞台にしたスリゲーム。人々が屋台の間を行き交い、誰もが財布を持ち、誰もが目を持っている。ドラッグで広場を歩く。誰かの隣に立って0.5秒押し続ければ財布をいただける。押している間に黄色い視界の円錐がひとつでもかかれば見つかって失敗。誰も傷つかない。3回見つかったらラウンド終了。1ラウンドは1分。毎日ひとり標的がいて、足元に金の輪がある白髪の紳士、財布には90ドル。群衆はラウンドごとに増え、最大22人。ラウンド6からはボディガードが標的に付き添い、ラウンド12からはライバルのスリが同じ人混みを狙う。生き残る、標的から盗む、一度も見つからない、でラウンドごとに星3つ。老人の屋根裏部屋は、露店の家具40点で埋まっていく。親指1本で遊べる。任意のリワード広告付きの無料ゲーム。課金なし、アカウント不要。", "es": "Sticky Fingers es un juego de carterista en una plaza de mercado llena de gente. La multitud pasea entre los puestos, cada persona lleva una cartera y cada persona tiene ojos. Arrastra para caminar por la plaza. Ponte al lado de alguien y mantén pulsado medio segundo para quitarle la cartera. Si algún cono de visión amarillo cae sobre ti mientras mantienes, te descubren y el robo falla. Nadie sale herido: tres veces descubierto y la ronda termina. Cada ronda dura un minuto. Cada día hay un objetivo, un caballero canoso con un anillo dorado a sus pies y $90 en la cartera. La multitud crece cada ronda, hasta 22 personas. Desde la ronda 6 un guardaespaldas sigue al objetivo, y desde la 12 un ladrón rival trabaja la misma multitud. Gana tres estrellas por ronda si sobrevives, robas al objetivo y nunca te descubren. El desván del anciano se llena con 40 muebles de mercadillo. Un solo pulgar. Gratis con anuncios con recompensa opcionales. Sin compras, sin cuenta.", "pt-BR": "Sticky Fingers é um jogo de batedor de carteira numa praça de feira movimentada. A multidão passeia entre as barracas, cada pessoa tem uma carteira e cada pessoa tem olhos. Arraste para andar pela praça. Fique ao lado de alguém e segure por meio segundo para pegar a carteira. Se algum cone de visão amarelo cair sobre você enquanto segura, você é visto e o furto falha. Ninguém se machuca: três flagras e a rodada acaba. Cada rodada dura um minuto. Todo dia há um alvo, um senhor grisalho com um anel dourado aos pés e $90 na carteira. A multidão cresce a cada rodada, até 22 pessoas. A partir da rodada 6 um guarda-costas segue o alvo, e a partir da 12 um ladrão rival trabalha na mesma multidão. Ganhe três estrelas por rodada sobrevivendo, pegando o alvo e nunca sendo visto. O sótão do velho se enche com 40 móveis de feira. Um polegar só. Grátis com anúncios com recompensa opcionais. Sem compras, sem conta."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

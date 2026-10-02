@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loopback Links | Crystl Labs</title>
+    <meta name="description" content="Mini golf in three-hole rounds. Bank off the rails and time the moving gates.">
+    <meta property="og:title" content="Loopback Links | Crystl Labs">
+    <meta property="og:description" content="Mini golf in three-hole rounds. Bank off the rails and time the moving gates.">
+    <meta property="og:image" content="loopback-links.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/loopback-links.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="loopback-links.png" alt="Loopback Links" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Loopback Links</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Mini golf in three-hole rounds. Bank off the rails and time the moving gates.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Loopback Links is a miniature golf game with 54 layouts, six hazard styles and short three-hole rounds. Drag back to aim and set power, then release to putt, with a direction guide and power meter to help find the line. Bank off the rails, avoid round bumpers, time the moving gates, cross a sliding bridge and allow for sand that slows the ball. Sink all three holes to clear a round, aiming for par three on each. There is no time limit while you think, and each hole allows twelve strokes. Fewer strokes earn more points on the scorecard. Try any layout in practice, unlock campaign rounds with bronze, silver and gold medals, or play the daily three-hole challenge. Tokens earned in play unlock ball colors. Offline, no account. Interstitial ads show at breaks, and optional videos can undo a practice stroke or double your tokens.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/loopback-links/01.jpg" alt="Loopback Links screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/loopback-links/02.jpg" alt="Loopback Links screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/loopback-links/03.jpg" alt="Loopback Links screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/loopback-links/04.jpg" alt="Loopback Links screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Loopback Links", "ko": "루프백 링크스", "ja": "ループバック・リンクス", "es": "Loopback Links", "pt-BR": "Loopback Links"}, "tagline": {"en": "Mini golf in three-hole rounds. Bank off the rails and time the moving gates.", "ko": "세 홀씩 도는 미니 골프. 레일에 튕기고 움직이는 게이트의 타이밍을 맞추세요.", "ja": "3ホールずつ回るミニゴルフ。レールに当てて、動くゲートのタイミングを計る。", "es": "Minigolf en rondas de tres hoyos. Rebota en las bandas y calcula las puertas móviles.", "pt-BR": "Minigolfe em rodadas de três buracos. Tabele nas bordas e acerte o tempo dos portões."}, "desc": {"en": "Loopback Links is a miniature golf game with 54 layouts, six hazard styles and short three-hole rounds. Drag back to aim and set power, then release to putt, with a direction guide and power meter to help find the line. Bank off the rails, avoid round bumpers, time the moving gates, cross a sliding bridge and allow for sand that slows the ball. Sink all three holes to clear a round, aiming for par three on each. There is no time limit while you think, and each hole allows twelve strokes. Fewer strokes earn more points on the scorecard. Try any layout in practice, unlock campaign rounds with bronze, silver and gold medals, or play the daily three-hole challenge. Tokens earned in play unlock ball colors. Offline, no account. Interstitial ads show at breaks, and optional videos can undo a practice stroke or double your tokens.", "ko": "루프백 링크스는 레이아웃 54개, 장애물 스타일 6종, 짧은 3홀 라운드로 된 미니 골프 게임입니다. 뒤로 끌어 방향과 힘을 정하고 손을 떼면 퍼팅합니다. 방향 가이드와 파워 게이지가 라인을 찾도록 도와줍니다. 레일에 튕기고, 둥근 범퍼를 피하고, 움직이는 게이트의 타이밍을 맞추고, 미끄러지는 다리를 건너고, 공을 느리게 하는 모래도 계산에 넣으세요. 세 홀을 모두 넣으면 라운드 클리어이고, 홀마다 파 3이 목표입니다. 생각하는 동안 시간 제한은 없고, 홀마다 12타까지 칠 수 있습니다. 타수가 적을수록 스코어카드 점수가 높습니다. 연습에서는 어떤 레이아웃이든 쳐 볼 수 있고, 캠페인 라운드는 동, 은, 금 메달로 해금하며, 일일 3홀 챌린지도 있습니다. 플레이로 모은 토큰으로 공 색상을 해금합니다. 오프라인, 계정 없음. 쉬는 시간에 전면 광고가 나오고, 선택형 동영상으로 연습 중 한 타를 되돌리거나 토큰을 두 배로 받을 수 있습니다.", "ja": "ループバック・リンクスは、54のレイアウト、6種類の障害物、短い3ホールのラウンドで遊ぶミニゴルフだ。後ろに引いて狙いと強さを決め、離してパットする。方向ガイドとパワーメーターがラインを探す助けになる。レールに当てて跳ね返し、丸いバンパーを避け、動くゲートのタイミングを計り、スライドする橋を渡り、ボールを遅くする砂も計算に入れる。3ホールすべて沈めればラウンドクリアで、各ホールの目標はパー3。考えているあいだに時間制限はなく、1ホール12打まで打てる。打数が少ないほどスコアカードの点が高い。練習ではどのレイアウトも試せて、キャンペーンのラウンドは銅、銀、金のメダルで解放し、デイリーの3ホールチャレンジもある。プレイで集めたトークンでボールの色を解放する。オフライン、アカウント不要。区切りでインタースティシャル広告が入り、任意の動画で練習中の一打を戻したり、トークンを倍にしたりできる。", "es": "Loopback Links es un juego de minigolf con 54 recorridos, seis estilos de obstáculos y rondas cortas de tres hoyos. Arrastra hacia atrás para apuntar y elegir la fuerza, y suelta para golpear, con una guía de dirección y un medidor de potencia que te ayudan a encontrar la línea. Rebota en las bandas, esquiva los topes redondos, calcula las puertas móviles, cruza un puente deslizante y ten en cuenta la arena que frena la bola. Embocar los tres hoyos supera la ronda, con par tres como objetivo en cada uno. No hay límite de tiempo mientras piensas, y cada hoyo permite doce golpes. Menos golpes dan más puntos en la tarjeta. Prueba cualquier recorrido en práctica, desbloquea rondas de campaña con medallas de bronce, plata y oro o juega el reto diario de tres hoyos. Las fichas que ganas desbloquean colores de bola. Sin conexión, sin cuenta. Hay anuncios intersticiales entre sesiones, y videos opcionales para deshacer un golpe en práctica o duplicar fichas.", "pt-BR": "Loopback Links é um jogo de minigolfe com 54 percursos, seis estilos de obstáculos e rodadas curtas de três buracos. Arraste para trás para mirar e definir a força, e solte para tacar, com um guia de direção e um medidor de força para achar a linha. Tabele nas bordas, desvie dos para-choques redondos, acerte o tempo dos portões móveis, atravesse uma ponte deslizante e conte com a areia que freia a bola. Acerte os três buracos para passar a rodada, mirando par três em cada um. Não há limite de tempo enquanto você pensa, e cada buraco permite doze tacadas. Menos tacadas rendem mais pontos no cartão. Teste qualquer percurso no treino, desbloqueie rodadas da campanha com medalhas de bronze, prata e ouro ou jogue o desafio diário de três buracos. As fichas ganhas desbloqueiam cores de bola. Offline, sem conta. Há anúncios intersticiais nas pausas, e vídeos opcionais podem desfazer uma tacada no treino ou dobrar as fichas."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

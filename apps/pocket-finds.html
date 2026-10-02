@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket Finds | Crystl Labs</title>
+    <meta name="description" content="Six illustrated scenes, small details to find, no timer. Zoom in and take your time.">
+    <meta property="og:title" content="Pocket Finds | Crystl Labs">
+    <meta property="og:description" content="Six illustrated scenes, small details to find, no timer. Zoom in and take your time.">
+    <meta property="og:image" content="pocket-finds.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/pocket-finds.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="pocket-finds.png" alt="Pocket Finds" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Pocket Finds</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Six illustrated scenes, small details to find, no timer. Zoom in and take your time.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">A sleepy cat in the greenhouse. A compass by the harbor. A little telescope under the stars. Pocket Finds is a hidden object game about slowing down and looking closely. You explore six original illustrated scenes, a morning greenhouse, a harbor, a cottage kitchen, a maker&#x27;s workshop, a quiet bookshop and a rooftop observatory, with more than 60 distinct objects between them. Each collection asks you to find 8 to 11 pictured objects. As your journey grows you return to familiar scenes with new collections and the objects moved around. Pinch, use the zoom buttons or scroll to inspect details, drag to explore, and choose Fit to see the whole scene. You get three free clues per collection, and an active clue can be shown again without spending another. There is a separate daily collection, and your finds, clues and camera position are saved when you leave. No timer. Core play works offline, with no account and no purchases. Free with ads at round breaks.</p>
+
+                <a id="apStoreLink" href="https://play.google.com/store/apps/details?id=com.crystllabs.pocketfinds" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">Get it on Google Play</span>
+                </a>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/pocket-finds/01.jpg" alt="Pocket Finds screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/pocket-finds/02.jpg" alt="Pocket Finds screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/pocket-finds/03.jpg" alt="Pocket Finds screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/pocket-finds/04.jpg" alt="Pocket Finds screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Pocket Finds", "ko": "포켓 파인즈", "ja": "ポケットファインズ", "es": "Pocket Finds", "pt-BR": "Pocket Finds"}, "tagline": {"en": "Six illustrated scenes, small details to find, no timer. Zoom in and take your time.", "ko": "일러스트 장면 여섯 곳, 찾아야 할 작은 디테일, 타이머 없음. 확대해서 천천히 찾으세요.", "ja": "イラストの6つの場面で小さなものを探す。タイマーなし。拡大して、ゆっくりと。", "es": "Seis escenas ilustradas, pequeños detalles que encontrar y sin reloj. Amplía y tómate tu tiempo.", "pt-BR": "Seis cenários ilustrados, pequenos detalhes para achar e sem relógio. Amplie e vá com calma."}, "desc": {"en": "A sleepy cat in the greenhouse. A compass by the harbor. A little telescope under the stars. Pocket Finds is a hidden object game about slowing down and looking closely. You explore six original illustrated scenes, a morning greenhouse, a harbor, a cottage kitchen, a maker's workshop, a quiet bookshop and a rooftop observatory, with more than 60 distinct objects between them. Each collection asks you to find 8 to 11 pictured objects. As your journey grows you return to familiar scenes with new collections and the objects moved around. Pinch, use the zoom buttons or scroll to inspect details, drag to explore, and choose Fit to see the whole scene. You get three free clues per collection, and an active clue can be shown again without spending another. There is a separate daily collection, and your finds, clues and camera position are saved when you leave. No timer. Core play works offline, with no account and no purchases. Free with ads at round breaks.", "ko": "온실에서 졸고 있는 고양이. 항구 옆 나침반. 별 아래 작은 망원경. 포켓 파인즈는 천천히, 자세히 들여다보는 숨은 물건 찾기 게임입니다. 아침의 온실, 항구, 오두막 부엌, 공방, 조용한 서점, 옥상 천문대까지 직접 그린 여섯 장면을 탐험하며, 장면마다 개성을 더하는 서로 다른 물건이 60개가 넘습니다. 컬렉션마다 그림으로 제시된 물건 8개에서 11개를 찾습니다. 여정이 이어질수록 익숙한 장면으로 돌아가 새 컬렉션과 바뀐 물건 배치를 만나게 됩니다. 손가락으로 벌리거나 확대 버튼, 스크롤로 세부를 살피고, 드래그로 둘러보고, '맞춤'을 누르면 장면 전체를 볼 수 있습니다. 컬렉션마다 무료 단서 세 개가 있고, 사용 중인 단서는 하나 더 쓰지 않고 다시 볼 수 있습니다. 별도의 데일리 컬렉션도 있으며, 찾은 물건, 단서, 카메라 위치는 나갈 때 저장됩니다. 타이머는 없습니다. 기본 플레이는 오프라인으로 가능하고, 계정도 결제도 없습니다. 무료이며 라운드 사이에 광고가 나옵니다.", "ja": "温室で眠る猫。港のそばの羅針盤。星空の下の小さな望遠鏡。ポケットファインズは、ゆっくりよく見ることを楽しむ探し物ゲーム。朝の温室、港、コテージのキッチン、工房、静かな本屋、屋上の天文台という6つのオリジナルイラストの場面を巡り、そこには60を超える個性的なアイテムがある。各コレクションでは、絵で示されたアイテムを8個から11個探す。旅が進むと、見慣れた場面に戻って新しいコレクションや配置の変わったアイテムに出会う。ピンチ、ズームボタン、スクロールで細部を確かめ、ドラッグで見回し、「全体表示」で場面全体を見渡せる。ヒントは各コレクションに無料で3つ。表示中のヒントは、もう1つ使わずに出し直せる。別枠のデイリーコレクションもあり、見つけたもの、ヒント、カメラの位置は中断しても保存される。タイマーなし。基本プレイはオフラインで遊べ、アカウントも課金もない。無料で、ラウンドの合間に広告が入る。", "es": "Un gato dormilón en el invernadero. Una brújula junto al puerto. Un pequeño telescopio bajo las estrellas. Pocket Finds es un juego de objetos ocultos para ir despacio y observar. Exploras seis escenas ilustradas originales, un invernadero por la mañana, un puerto, la cocina de una cabaña, un taller, una librería tranquila y un observatorio en la azotea, con más de 60 objetos diferentes entre todas. Cada colección te pide encontrar de 8 a 11 objetos de las imágenes. A medida que avanzas regresas a escenas conocidas con nuevas colecciones y los objetos en otros sitios. Pellizca, usa los botones de zoom o desplázate para ver los detalles, arrastra para explorar y elige Ajustar para ver toda la escena. Tienes tres pistas gratis por colección, y una pista activa se puede volver a mostrar sin gastar otra. Hay una colección diaria aparte, y tus hallazgos, pistas y posición de la cámara se guardan al salir. Sin límite de tiempo. El juego funciona sin conexión, sin cuenta y sin compras. Gratis con anuncios entre rondas.", "pt-BR": "Um gato sonolento na estufa. Uma bússola perto do porto. Um pequeno telescópio sob as estrelas. Pocket Finds é um jogo de objetos escondidos para ir devagar e observar. Você explora seis cenários ilustrados originais, uma estufa pela manhã, um porto, a cozinha de uma cabana, uma oficina, uma livraria tranquila e um observatório no terraço, com mais de 60 objetos diferentes entre eles. Cada coleção pede que você encontre de 8 a 11 objetos das imagens. Conforme avança, você volta a cenários conhecidos com novas coleções e os objetos em outros lugares. Use a pinça, os botões de zoom ou a rolagem para ver os detalhes, arraste para explorar e escolha Ajustar para ver a cena inteira. São três dicas grátis por coleção, e uma dica ativa pode ser mostrada de novo sem gastar outra. Há uma coleção diária separada, e seus achados, dicas e posição da câmera ficam salvos quando você sai. Sem limite de tempo. O jogo funciona offline, sem conta e sem compras. Grátis com anúncios entre as rodadas."}};
+        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

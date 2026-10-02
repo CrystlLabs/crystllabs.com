@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guild &amp; Grain | Crystl Labs</title>
+    <meta name="description" content="Run the village that feeds, equips and sends off the adventuring party.">
+    <meta property="og:title" content="Guild &amp; Grain | Crystl Labs">
+    <meta property="og:description" content="Run the village that feeds, equips and sends off the adventuring party.">
+    <meta property="og:image" content="guild-and-grain.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/guild-and-grain.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' },
+                    fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="guild-and-grain.png" alt="Guild &amp; Grain" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Guild &amp; Grain</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandPink border border-brandPink/40 bg-brandPink/10 rounded px-1.5 py-0.5">Store prep</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Run the village that feeds, equips and sends off the adventuring party.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Guild &amp; Grain is a fantasy village sim where the adventure starts at home. Before a party heads out it needs a warm meal, sharp tools and a village worth coming back to, and building that is your job. Farms, sawmills and mines feed crafting across 25 facility types, so you plan production before you commit to an expedition. Thirty recipes turn raw goods into useful equipment. You recruit 12 specialists, improve how well your adventurers are prepared, and balance village morale, supplies and trade against what each expedition needs. Sixty contracts and a continuing adventure loop keep the settlement growing. Pause whenever you need to think, change the simulation speed as things grow, and try different plans in three save slots. Core play and progression work offline. Optional rewarded ads give a bonus, and interstitial ads appear at breaks between shifts. Plays in English, Spanish and Brazilian Portuguese.</p>
+
+                <div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
+                    <svg class="w-4 h-4 text-brandGreen/80" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                    <span id="apStore">In development</span>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/guild-and-grain/01.jpg" alt="Guild &amp; Grain screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/guild-and-grain/02.jpg" alt="Guild &amp; Grain screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/guild-and-grain/03.jpg" alt="Guild &amp; Grain screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/guild-and-grain/04.jpg" alt="Guild &amp; Grain screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/guild-and-grain/05.jpg" alt="Guild &amp; Grain screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Guild & Grain", "ko": "길드 앤 그레인", "ja": "ギルド&グレイン", "es": "Guild & Grain", "pt-BR": "Guild & Grain"}, "tagline": {"en": "Run the village that feeds, equips and sends off the adventuring party.", "ko": "모험가 파티를 먹이고 무장시켜 떠나보내는 마을을 운영하세요.", "ja": "冒険者パーティーを食べさせ、装備させ、送り出す村を切り盛りする。", "es": "Dirige la aldea que alimenta, equipa y despide al grupo de aventureros.", "pt-BR": "Administre a vila que alimenta, equipa e despacha o grupo de aventureiros."}, "desc": {"en": "Guild & Grain is a fantasy village sim where the adventure starts at home. Before a party heads out it needs a warm meal, sharp tools and a village worth coming back to, and building that is your job. Farms, sawmills and mines feed crafting across 25 facility types, so you plan production before you commit to an expedition. Thirty recipes turn raw goods into useful equipment. You recruit 12 specialists, improve how well your adventurers are prepared, and balance village morale, supplies and trade against what each expedition needs. Sixty contracts and a continuing adventure loop keep the settlement growing. Pause whenever you need to think, change the simulation speed as things grow, and try different plans in three save slots. Core play and progression work offline. Optional rewarded ads give a bonus, and interstitial ads appear at breaks between shifts. Plays in English, Spanish and Brazilian Portuguese.", "ko": "길드 앤 그레인은 모험이 집에서 시작되는 판타지 마을 시뮬레이션입니다. 파티가 길을 떠나려면 따뜻한 식사와 잘 손질된 도구, 돌아올 만한 마을이 필요하고, 그걸 만드는 게 당신의 일입니다. 농장과 제재소, 광산이 시설 25종에 걸친 제작을 떠받치니, 원정에 나서기 전에 생산 계획부터 세워야 합니다. 레시피 30종으로 원자재를 쓸모 있는 장비로 만듭니다. 전문가 12명을 영입하고 모험가들의 준비 수준을 높이며, 마을의 사기와 물자, 교역을 원정에 필요한 것과 저울질하세요. 계약 60개와 계속 이어지는 모험 루프가 마을을 키워 갑니다. 생각이 필요하면 언제든 일시정지하고, 규모가 커지면 시뮬레이션 속도를 바꾸고, 저장 슬롯 세 개로 여러 방식을 시험해 보세요. 핵심 플레이와 진행은 오프라인으로 됩니다. 보상형 광고는 선택이며 보너스를 주고, 전면 광고는 교대 사이 쉬는 시간에 나옵니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다.", "ja": "ギルド&グレインは、冒険が家から始まるファンタジーの村シミュレーションだ。パーティーが旅立つには、温かい食事と研いだ道具と、帰ってきたくなる村がいる。それを作るのがあなたの仕事だ。農場、製材所、鉱山が25種類の施設にまたがる工作を支えるので、遠征に踏み切る前に生産を計画しておく。30のレシピで素材を役に立つ装備に変える。12人の専門家を迎え、冒険者の準備を整え、村の士気と物資と交易を、遠征に必要なものと天秤にかける。60の契約と続いていく冒険のサイクルが、集落を大きくしていく。考えたいときはいつでも一時停止でき、規模が大きくなればシミュレーション速度を変えられる。セーブスロットは三つあり、別のやり方も試せる。基本のプレイと進行はオフラインで動く。リワード広告は任意でボーナスがもらえ、インタースティシャル広告はシフトの合間に表示される。英語、スペイン語、ブラジルポルトガル語に対応。", "es": "Guild & Grain es un simulador de aldea fantástica donde la aventura empieza en casa. Antes de partir, un grupo necesita una comida caliente, herramientas afiladas y una aldea a la que valga la pena volver, y construir eso es tu trabajo. Granjas, aserraderos y minas abastecen la artesanía en 25 tipos de instalaciones, así que planificas la producción antes de comprometerte con una expedición. Treinta recetas convierten materias primas en equipo útil. Reclutas a 12 especialistas, mejoras la preparación de tus aventureros y equilibras la moral de la aldea, los suministros y el comercio con lo que pide cada expedición. Sesenta contratos y un ciclo de aventuras continuo hacen crecer el asentamiento. Pausa cuando necesites pensar, ajusta la velocidad de la simulación a medida que crece todo y prueba distintas estrategias en tres espacios de guardado. El juego y la progresión principal funcionan sin conexión. Los anuncios recompensados son opcionales y dan una bonificación, y los intersticiales aparecen en pausas entre turnos. En inglés, español y portugués de Brasil.", "pt-BR": "Guild & Grain é um simulador de vila de fantasia em que a aventura começa em casa. Antes de partir, um grupo precisa de uma refeição quente, ferramentas afiadas e uma vila para onde valha a pena voltar, e construir isso é o seu trabalho. Fazendas, serrarias e minas abastecem a fabricação em 25 tipos de instalações, então você planeja a produção antes de se comprometer com uma expedição. Trinta receitas transformam matéria-prima em equipamento útil. Você recruta 12 especialistas, melhora o preparo dos aventureiros e equilibra o ânimo da vila, os suprimentos e o comércio com o que cada expedição pede. Sessenta contratos e um ciclo de aventuras contínuo fazem o povoado crescer. Pause quando precisar pensar, ajuste a velocidade da simulação conforme tudo cresce e teste estratégias diferentes em três espaços de salvamento. A jogabilidade e a progressão principal funcionam sem internet. Anúncios recompensados são opcionais e dão um bônus, e os intersticiais aparecem nas pausas entre turnos. Em inglês, espanhol e português do Brasil."}};
+        const STR = {"en": {"store": "In development", "shots": "Screenshots //"}, "ko": {"store": "개발 중", "shots": "스크린샷 //"}, "ja": {"store": "開発中", "shots": "スクリーンショット //"}, "es": {"store": "En desarrollo", "shots": "Capturas //"}, "pt-BR": {"store": "Em desenvolvimento", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            document.getElementById('apStore').textContent = STR[lang].store;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>
