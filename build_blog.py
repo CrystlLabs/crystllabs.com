@@ -234,20 +234,10 @@ HEAD = '''<!DOCTYPE html>
     <meta property="og:url" content="{canonical}">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/assets/tailwind.css">
     ''' + ADSENSE + '''
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/fonts.css">
     <link rel="stylesheet" href="/assets/site-redesign.css">
-    <script>
-        tailwind.config = {{
-            theme: {{
-                extend: {{
-                    colors: {{ darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' }},
-                    fontFamily: {{ mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }}
-                }}
-            }}
-        }}
-    </script>
     <style>
         :root {{ color-scheme: dark; }}
         ::-webkit-scrollbar {{ width: 10px; }}

@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parent
 HEAD_MARKER = '<link rel="stylesheet" href="/assets/site-redesign.css">'
 SCRIPT_MARKER = '<script src="/assets/site-redesign.js"></script>'
 HEAD_ASSETS = f'''    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/fonts.css">
     {HEAD_MARKER}
 '''
 

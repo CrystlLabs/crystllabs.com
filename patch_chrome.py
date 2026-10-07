@@ -36,8 +36,8 @@ def patch(path):
     before, notes = text, []
 
     if 'adsbygoogle.js' not in text:
-        # Straight after the Tailwind tag, matching the placement index.html already uses.
-        text, n = re.subn(r'(\n[ \t]*<script src="https://cdn\.tailwindcss\.com"></script>\n)',
+        # Straight after the Tailwind stylesheet, matching the placement index.html already uses.
+        text, n = re.subn(r'(\n[ \t]*<link rel="stylesheet" href="/assets/tailwind\.css">\n)',
                           lambda m: m.group(1) + ADS, text, count=1)
         if n:
             notes.append('adsense')

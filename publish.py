@@ -209,18 +209,8 @@ def generate_standalone_page(post, category, slug, color, tag):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{post['title']} | Crystl Labs</title>
     <link rel="icon" type="image/png" href="../favicon.png">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {{
-            theme: {{
-                extend: {{
-                    colors: {{ darkBg: '#0a0a12', panelBg: '#13131f', brandPink: '#D946EF', brandBlue: '#3B82F6', brandGreen: '#39FF14' }},
-                    fontFamily: {{ mono: ['"JetBrains Mono"', 'monospace'], sans: ['Inter', 'sans-serif'] }}
-                }}
-            }}
-        }}
-    </script>
+    <link rel="stylesheet" href="/assets/tailwind.css">
+    <link rel="stylesheet" href="/assets/fonts.css">
     <style>
         ::-webkit-scrollbar {{ width: 10px; }}
         ::-webkit-scrollbar-track {{ background: #0a0a12; }}
