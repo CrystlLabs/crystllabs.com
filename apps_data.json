@@ -6,7 +6,7 @@
    "shippingName": "Card Counter: Halcyon Nights",
    "sourceDir": "D:/Crystl/cardcounter",
    "tier": "Flagship",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": null,
    "nameMismatchNote": "",
@@ -40,7 +40,8 @@
     "shots/card-counter/03.jpg",
     "shots/card-counter/04.jpg",
     "shots/card-counter/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/cardcounter"
   },
   {
    "slug": "water-polo-smash",
@@ -48,7 +49,7 @@
    "shippingName": "Water Polo Smash",
    "sourceDir": "D:/Crystl/water-polo-strike-android",
    "tier": "Flagship",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": true,
    "iconSourcePath": null,
    "nameMismatchNote": "",
@@ -82,7 +83,8 @@
     "shots/water-polo-smash/03.jpg",
     "shots/water-polo-smash/04.jpg",
     "shots/water-polo-smash/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/waterpolo"
   },
   {
    "slug": "marathon-kid",
@@ -90,7 +92,7 @@
    "shippingName": "Marathon Legend: Running Sim",
    "sourceDir": "D:/Crystl/MarathonSim-android",
    "tier": "Flagship",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": true,
    "iconSourcePath": null,
    "nameMismatchNote": "Shipped as \"Marathon Legend: Running Sim\"; the board name was Marathon Kid.",
@@ -124,7 +126,8 @@
     "shots/marathon-kid/03.jpg",
     "shots/marathon-kid/04.jpg",
     "shots/marathon-kid/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/marathonlegend"
   },
   {
    "slug": "stonewheel",
@@ -132,7 +135,7 @@
    "shippingName": "Stonewheel: 90s Skate Life",
    "sourceDir": "D:/Crystl/skaterbros",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/skaterbros/assets/icon-512.png",
    "nameMismatchNote": "",
@@ -166,7 +169,8 @@
     "shots/stonewheel/03.jpg",
     "shots/stonewheel/04.jpg",
     "shots/stonewheel/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/stonewheel"
   },
   {
    "slug": "zero-day-syndicate",
@@ -174,7 +178,7 @@
    "shippingName": "Zero-Day Syndicate",
    "sourceDir": "D:/Crystl/hacker-game",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.hacker",
    "releasedOn": "2026-08-08",
@@ -205,7 +209,8 @@
     "ja": "『ゼロデイ・シンジケート』は、侵入をビジネスとして扱う経営シミュレーション。アイソメトリックのオフィスでスタッフを雇って育て、専用のエクスプロイトとフレームワークを開発し、標的への侵入・強奪・ボットネット運用をこなす。金は洗浄し、追跡は管理し、現金では開かない扉は名声で開ける。組織はWeb 2.0、暗号資産、AIと量子という三つの時代を越えて成長し、プレステージシステムが得たものを次の周回へ持ち越す。",
     "es": "Zero-Day Syndicate es un simulador de gestión sobre el negocio de entrar donde no debes. Desde una oficina isométrica contratas y formas personal, desarrollas exploits y frameworks propios y ejecutas brechas, golpes y botnets contra objetivos reales. El dinero hay que blanquearlo, el calor hay que gestionarlo y la reputación abre puertas que el efectivo nunca abrirá. La operación crece a lo largo de tres eras tecnológicas (Web 2.0, cripto y luego IA y cuántica) y un sistema de prestigio arrastra lo aprendido a la siguiente partida.",
     "pt-BR": "Zero-Day Syndicate é um sim de gestão sobre o negócio de invadir. De um escritório isométrico você contrata e treina pessoal, desenvolve exploits e frameworks próprios e executa invasões, golpes e botnets contra alvos reais. O dinheiro precisa ser lavado, o calor precisa ser administrado e o prestígio abre portas que o dinheiro nunca abre. A operação cresce por três eras tecnológicas (Web 2.0, cripto e depois IA e quântica) e um sistema de prestígio carrega o que você aprendeu para a próxima run."
-   }
+   },
+   "itchUrl": "https://crystllabs.itch.io/zeroday"
   },
   {
    "slug": "bent-fc",
@@ -213,7 +218,7 @@
    "shippingName": "Bent FC: Soccer Club Chairman",
    "sourceDir": "D:/Crystl/footy-manager",
    "tier": "Flagship",
-   "platform": "Android",
+   "platform": "Android, PC",
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.corruptfm",
    "screenshots": [
@@ -244,7 +249,8 @@
     "es": "Bent FC es un simulador de gestión futbolística en pixel art donde tú no eres el entrenador, sino el presidente corrupto que está por encima de él. Sube la pirámide por méritos si quieres, pero la vía rápida pasa por árbitros comprados, programas de dopaje discretos, resultados pactados, entradas que acaban carreras y papeleo que nunca sobrevive del todo a una auditoría. Cada atajo compra una temporada y te cuesta más adelante. Presentación al estilo Kairosoft con una simulación que se toma la corrupción en serio.",
     "pt-BR": "Bent FC é um sim de gestão de futebol em pixel art no qual você não é o técnico, e sim o presidente corrupto acima dele. Suba a pirâmide no mérito se quiser, mas o caminho rápido passa por árbitros comprados, programas de doping discretos, resultados combinados, entradas que encerram carreiras e papelada que nunca sobrevive a uma auditoria. Cada atalho compra uma temporada e cobra depois. Apresentação estilo Kairosoft com uma simulação que leva a corrupção a sério."
    },
-   "releasedOn": "2026-08-21"
+   "releasedOn": "2026-08-21",
+   "itchUrl": "https://crystllabs.itch.io/bentfc"
   },
   {
    "slug": "bleacher-busters",
@@ -252,7 +258,7 @@
    "shippingName": "Bleacher Busters",
    "sourceDir": "D:/Crystl/bleacher-busters",
    "tier": "Flagship",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": true,
    "iconSourcePath": null,
    "nameMismatchNote": "",
@@ -286,7 +292,8 @@
     "shots/bleacher-busters/03.jpg",
     "shots/bleacher-busters/04.jpg",
     "shots/bleacher-busters/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/bleacherbusters"
   },
   {
    "slug": "cage-of-glory",
@@ -294,7 +301,7 @@
    "shippingName": "Cage of Glory: MMA Career Sim",
    "sourceDir": "D:/Crystl/mmakid",
    "tier": "Flagship",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": true,
    "iconSourcePath": null,
    "nameMismatchNote": "",
@@ -328,7 +335,8 @@
     "shots/cage-of-glory/03.jpg",
     "shots/cage-of-glory/04.jpg",
     "shots/cage-of-glory/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/cageofglory"
   },
   {
    "slug": "domestique",
@@ -336,7 +344,7 @@
    "shippingName": "Domestique",
    "sourceDir": "D:/Crystl/cycle-kid",
    "tier": "Flagship",
-   "platform": "Android",
+   "platform": "Android, PC",
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.domestique",
    "screenshots": [
@@ -367,7 +375,8 @@
     "es": "Domestique es un simulador de carrera profesional de ciclismo con buena memoria. Firma contratos, comprométete con un calendario y gasta el presupuesto de la temporada en las pruebas que de verdad moverán tu clasificación. En carrera das órdenes de equipo y quemas una reserva de energía compartida para marcar el ritmo del pelotón, perseguir una fuga o proteger a tu líder del viento, y cada una de esas decisiones te cuesta algo más tarde. Lesiones, exigencias de patrocinadores y armonía de equipo se acumulan. Espíritu de 16 bits refinado, inspirado en Kairosoft pero más profundo.",
     "pt-BR": "Domestique é um simulador de carreira no ciclismo profissional com memória longa. Assine contratos, comprometa-se com um calendário e gaste o orçamento da temporada nas provas que realmente mexem na sua classificação. Na corrida você dá ordens de equipe e queima uma reserva de energia compartilhada para ditar o ritmo do pelotão, perseguir uma fuga ou proteger seu líder do vento, e cada uma dessas decisões cobra depois. Lesões, exigências de patrocinadores e harmonia do time se acumulam. Espírito 16 bits refinado, inspirado em Kairosoft mas mais profundo."
    },
-   "releasedOn": "2026-09-07"
+   "releasedOn": "2026-09-07",
+   "itchUrl": "https://crystllabs.itch.io/domestique"
   },
   {
    "slug": "wall-street-1987",
@@ -375,7 +384,7 @@
    "shippingName": "Wall Street: 1987",
    "sourceDir": "D:/Crystl/wallstreetkid",
    "tier": "Flagship",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": true,
    "iconSourcePath": "D:/Crystl/wallstreetkid/playstore/app_icon_1783750103487.jpg",
    "nameMismatchNote": "board 'Wall Street 1987' vs repo app_name 'Wall Street: 1987' — punctuation only, same name",
@@ -409,7 +418,8 @@
     "shots/wall-street-1987/03.jpg",
     "shots/wall-street-1987/04.jpg",
     "shots/wall-street-1987/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/wallstreet1987"
   },
   {
    "slug": "bikini-bay",
@@ -417,7 +427,7 @@
    "shippingName": "Bikini Bay: Surf Camp Tycoon",
    "sourceDir": "D:/Crystl/surfersim",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.surfersim",
    "screenshots": [
@@ -448,7 +458,8 @@
     "es": "Bikini Bay es el Grand Prix Story del surf: un arco de diez años en el que conviertes una chabola en la arena en un programa que gana rankings mundiales. Busca y desarrolla surfistas, fabrica tablas cuya forma cambia de verdad cómo se surfea, lee la rompiente y manda a tu equipo a las mangas y a las series del tour contra cuatro campamentos rivales con personalidad propia. Pixel art grueso al estilo Kairosoft sobre bucles de progresión que siguen pagando.",
     "pt-BR": "Bikini Bay é o Grand Prix Story do surfe: um arco de dez anos em que você transforma um barraco na areia num programa que ganha rankings mundiais. Descubra e desenvolva surfistas, fabrique pranchas cujo shape realmente muda como elas andam, leia o pico e mande seu time para as baterias e para o circuito contra quatro camps rivais com personalidade própria. Pixel art grosso no estilo Kairosoft sobre ciclos de progressão que continuam rendendo."
    },
-   "releasedOn": "2026-08-16"
+   "releasedOn": "2026-08-16",
+   "itchUrl": "https://crystllabs.itch.io/bikinibay"
   },
   {
    "slug": "chess-drill-instructor",
@@ -490,7 +501,8 @@
     "shots/chess-drill-instructor/03.jpg",
     "shots/chess-drill-instructor/04.jpg",
     "shots/chess-drill-instructor/05.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "crystl-health",
@@ -527,7 +539,8 @@
     "ja": "『Crystl: サプリと断食』は、雰囲気ではなく数字が欲しい人のためのサプリメント・バイオマーカー記録アプリ。何をいつ摂ったかを記録し、血液検査の結果を一か所にまとめ、独自の点数ではなく公表されたLevine 2018のPhenoAge法で算出した生物学的年齢を確認できる。プロフィールは複数作成可能、データはすべて端末内に保存、インターフェースは英語・韓国語・日本語・スペイン語に対応。",
     "es": "Crystl: Suplementos y Ayuno es un registro de suplementos y biomarcadores para quien quiere el número, no la sensación. Anota qué tomas y cuándo, guarda tus analíticas en un solo sitio y consulta tu edad biológica calculada con el método publicado PhenoAge de Levine 2018, no con una puntuación inventada. Varios perfiles, todo almacenado localmente y la interfaz completa en inglés, coreano, japonés y español.",
     "pt-BR": "Crystl: Suplementos e Jejum é um registro de suplementos e biomarcadores para quem quer o número, não a sensação. Anote o que toma e quando, mantenha seus exames num só lugar e veja sua idade biológica calculada pelo método publicado PhenoAge de Levine 2018, e não por uma pontuação inventada. Vários perfis, tudo armazenado localmente e a interface inteira em inglês, coreano, japonês e espanhol."
-   }
+   },
+   "itchUrl": ""
   },
   {
    "slug": "dork",
@@ -535,7 +548,7 @@
    "shippingName": "DORK: Blind Text Adventure",
    "sourceDir": "D:/Crystl/dork",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/dork/assets/icon.png",
    "nameMismatchNote": "",
@@ -569,7 +582,8 @@
     "shots/dork/03.jpg",
     "shots/dork/04.jpg",
     "shots/dork/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/dork"
   },
   {
    "slug": "letterman",
@@ -577,7 +591,7 @@
    "shippingName": "Letterman",
    "sourceDir": "D:/Crystl/letterman",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.letterman",
    "screenshots": [
@@ -608,7 +622,8 @@
     "es": "Letterman es un simulador de vida áspero sobre un jugador de baloncesto de instituto con dos vidas que no quieren convivir. Los días pertenecen al barrio: gente, obligaciones y problemas que te encuentran. Las noches pertenecen a la cancha, donde la reputación es la única moneda que cuenta. Apriétale demasiado a un lado y el otro empieza a caerse, y el juego es honesto sobre qué cuesta cada decisión.",
     "pt-BR": "Letterman é um sim de vida áspero sobre um jogador de basquete do ensino médio com duas vidas que não querem coexistir. Os dias pertencem à quebrada: gente, obrigações e problemas que te encontram. As noites pertencem à quadra, onde reputação é a única moeda que vale. Force demais um lado e o outro começa a desabar, e o jogo é honesto sobre o que cada escolha custa."
    },
-   "releasedOn": "2026-09-07"
+   "releasedOn": "2026-09-07",
+   "itchUrl": "https://crystllabs.itch.io/letterman"
   },
   {
    "slug": "mise",
@@ -647,7 +662,8 @@
     "es": "Mise es un recetario que hace la parte tediosa. Apúntalo a un enlace web, un PDF, una foto o texto pegado y lo convierte en una receta estructurada en el propio dispositivo: sin cuenta, sin clave de API y sin servidor de recetas. El contenido de tus recetas se queda en tu dispositivo. Luego cocinas: cada paso muestra solo los ingredientes que ese paso necesita y arranca sus propios temporizadores, que siguen corriendo aunque cierres la aplicación. Escala raciones, arma la lista de la compra, registra el plato con una foto y guarda todo el libro en un archivo que es tuyo.",
     "pt-BR": "Mise é um livro de receitas que faz a parte chata. Aponte para um link, um PDF, uma foto ou um texto colado e ele vira uma receita estruturada no próprio aparelho: sem conta, sem chave de API e sem servidor de receitas. O conteúdo das suas receitas fica no seu aparelho. Depois é só cozinhar: cada passo mostra só os ingredientes daquele passo e dispara os próprios timers, que continuam correndo mesmo se o app for fechado. Ajuste as porções, monte a lista de compras, registre o prato com uma foto e mantenha o livro inteiro num arquivo que é seu."
    },
-   "releasedOn": "2026-08-20"
+   "releasedOn": "2026-08-20",
+   "itchUrl": ""
   },
   {
    "slug": "murder-phone",
@@ -655,7 +671,7 @@
    "shippingName": "Murder Phone",
    "sourceDir": "D:/Crystl/TextCrime",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": null,
    "nameMismatchNote": "",
@@ -689,7 +705,8 @@
     "shots/murder-phone/03.jpg",
     "shots/murder-phone/04.jpg",
     "shots/murder-phone/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/murderphone"
   },
   {
    "slug": "pubg-di",
@@ -722,7 +739,8 @@
     "es": "PUBG Drill Instructor recoge tus partidas recientes de PUBG en PC (bajas, daño, colocación, tiempo sobrevivido) en un panel de despliegues pasados. Elige una persona instructora (IRON, SHARP o NIGHTFALL) y pide un informe táctico con IA que destroza tu último combate y te dice qué corregir. La transmisión de datos está condicionada a tu consentimiento y un anuncio recompensado recarga informes cuando se acaban. Hecho para quien quiere la verdad sobre su juego, no otra pantalla de bajas.",
     "pt-BR": "PUBG Drill Instructor puxa suas partidas recentes de PUBG no PC (abates, dano, colocação, tempo sobrevivido) para um painel de operações passadas. Escolha uma persona de instrutor (IRON, SHARP ou NIGHTFALL) e peça um briefing tático com IA que desmonta seu último confronto e diz o que corrigir. A transmissão de dados depende do seu consentimento e um anúncio premiado recarrega briefings quando acabam. Feito para quem quer a verdade sobre o próprio jogo, não mais uma tela de abates."
    },
-   "status": "In playtest"
+   "status": "In playtest",
+   "itchUrl": ""
   },
   {
    "slug": "sauce-boss",
@@ -730,7 +748,7 @@
    "shippingName": "Sauce Boss",
    "sourceDir": "D:/Crystl/pepperspot",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.pepperspot",
    "screenshots": [
@@ -761,7 +779,8 @@
     "es": "Sauce Boss es un tycoon de granja de chiles y salsa picante con envoltorio de pixel art grueso. Planta y cruza variedades, seca y fermenta la cosecha, cuécela hasta convertirla en recetas con curvas de picante reales y luego pon precio y surte una tienda donde los clientes te juzgan de verdad. Sube de un puesto en la carretera a una marca, botella a botella. Simulación profunda de gestión de tienda, Kairosoft en espíritu, pensada para sesiones cortas.",
     "pt-BR": "Sauce Boss é um tycoon de fazenda de pimentas e molho picante numa casca de pixel art grosso. Plante e cruze variedades, seque e fermente a colheita, cozinhe até virar receitas com curvas de ardência reais e depois precifique e abasteça uma loja onde os clientes realmente julgam. Suba de uma barraca de beira de estrada a uma marca, um vidro por vez. Simulação profunda de gestão de loja, Kairosoft no espírito, feita para sessões curtas."
    },
-   "releasedOn": "2026-09-07"
+   "releasedOn": "2026-09-07",
+   "itchUrl": "https://crystllabs.itch.io/sauceboss"
   },
   {
    "slug": "young-homie",
@@ -769,7 +788,7 @@
    "shippingName": "Young Homie: Turn-Based RPG",
    "sourceDir": "D:/Crystl/younghomie",
    "tier": "Flagship",
-   "platform": "Android",
+   "platform": "Android, PC",
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.younghomie",
    "screenshots": [
@@ -800,7 +819,8 @@
     "es": "Young Homie es un RPG por turnos hecho para ser excelente en cuatro a seis horas en lugar de ser una versión corta de algo más grande. Los dos lados de cada intercambio funcionan con golpes cronometrados, así que defender es tan activo como atacar. Recluta un grupo de seis en cuatro clases, maneja una economía de dos monedas, sigue misiones ramificadas por tres manzanas conectadas y viaja rápido por un barrio que recuerda lo que hiciste en él. Arte Synty POLYGON, pensado para jugar en horizontal en portátil.",
     "pt-BR": "Young Homie é um RPG de turnos feito para ser excelente em quatro a seis horas, e não para ser a versão curta de algo maior. Os dois lados de cada troca funcionam com golpes cronometrados, então defender é tão ativo quanto atacar. Recrute um grupo de seis em quatro classes, administre uma economia de duas moedas, siga missões ramificadas por três quarteirões conectados e use viagem rápida num bairro que lembra o que você fez nele. Arte Synty POLYGON, feito para jogar na horizontal no portátil."
    },
-   "releasedOn": "2026-09-19"
+   "releasedOn": "2026-09-19",
+   "itchUrl": "https://crystllabs.itch.io/younghomie"
   },
   {
    "slug": "california-trail",
@@ -808,7 +828,7 @@
    "shippingName": "California Trail",
    "sourceDir": "D:/Crystl/californiatrail",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.californiatrail",
    "screenshots": [
@@ -839,7 +859,8 @@
     "es": "Llega el aviso del alquiler y la cifra es imposible. Una familia carga todo lo que tiene en una furgoneta oxidada y conduce mil trescientos kilómetros al sur, del condado de Humboldt al cuarto libre de un primo en San Diego. California Trail juega The Oregon Trail en serio, compás a compás, con la autopista como frontera y la 405 a las cuatro de la tarde como el río que hay que vadear. Parodia cariñosa con dientes de verdad: el cariño va dirigido a la familia y el mordisco al alquiler, la política del agua, la temporada de incendios y el trabajo por encargo. La familia nunca es el chiste.",
     "pt-BR": "Chega o aviso do aluguel e o número é impossível. Uma família carrega tudo o que tem numa minivan enferrujada e dirige mil e trezentos quilômetros para o sul, do condado de Humboldt até o quarto vago de um primo em San Diego. California Trail joga The Oregon Trail a sério, compasso por compasso, com a rodovia como fronteira e a 405 às quatro da tarde como o rio que precisa ser atravessado. Paródia carinhosa com dentes de verdade: o carinho é com a família e a mordida é no aluguel, na política da água, na temporada de incêndios e no trabalho por aplicativo. A família nunca é a piada."
    },
-   "releasedOn": "2026-09-07"
+   "releasedOn": "2026-09-07",
+   "itchUrl": "https://crystllabs.itch.io/californiatrail"
   },
   {
    "slug": "windward",
@@ -847,7 +868,7 @@
    "shippingName": "Windward",
    "sourceDir": "D:/Crystl/boattrader",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.boattrader",
    "screenshots": [
@@ -878,7 +899,8 @@
     "es": "Windward es un simulador de compañía comercial en la era de la vela construido sobre una idea: deberías acabar dirigiendo una empresa, no un barco. Empiezas navegando tú mismo cada trayecto, aprendiendo qué puertos pagan por qué y qué travesías merecen el riesgo. A medida que la flota crece dejas de llevar el timón y empiezas a escribir órdenes permanentes, hasta que los barcos comercian con beneficio mientras tú miras a otro lado. El combate es una sola decisión, no un segundo juego. Pixel art de 32x32 montado a mano, y tu compañía es una bandera, no una cara.",
     "pt-BR": "Windward é um simulador de companhia mercante na era da vela construído sobre uma ideia: você deve acabar comandando uma empresa, não um barco. Você começa navegando cada rota você mesmo, aprendendo quais portos pagam pelo quê e quais travessias valem o risco. Conforme a frota cresce, você para de pilotar e passa a escrever ordens permanentes, até que os navios negociem com lucro enquanto você olha para outro lado. O combate é uma decisão única, não um segundo jogo. Pixel art 32x32 montado à mão, e sua companhia é uma bandeira, não um rosto."
    },
-   "releasedOn": "2026-09-07"
+   "releasedOn": "2026-09-07",
+   "itchUrl": "https://crystllabs.itch.io/windward"
   },
   {
    "slug": "zero-cool",
@@ -917,7 +939,8 @@
     "es": "Zero Cool es un juego de imperio criminal de la calle al trono para PC, premium y de compra única sin compras dentro de la aplicación. Empiezas como script kiddie con un equipo en un dormitorio y cuatro verbos de hackeo, y terminas dirigiendo un barrio. Cinco capítulos, cada uno recluta a un miembro con una habilidad propia: el hacker, el ejecutor y los que vienen después. Debajo hay una ciudad viva que sigue moviéndose la mires o no: unos doscientos residentes simulados, un sistema legal que reacciona, facciones rivales, territorio que cambia de manos y un mercado que se pone precio solo. El proyecto empezó como simulador de hackeo puro y viró en julio de 2026 al imperio criminal de arriba.",
     "pt-BR": "Zero Cool é um jogo de império criminoso da rua ao topo para PC, premium e de compra única sem compras no app. Você começa como script kiddie com um PC no quarto e quatro verbos de hackeamento, e termina comandando um bairro. Cinco capítulos, cada um recrutando um membro com uma habilidade própria: o hacker, o executor e os que vêm depois. Por baixo há uma cidade viva que segue se movendo esteja você olhando ou não: cerca de duzentos moradores simulados, um sistema legal que reage, facções rivais, território que troca de mãos e um mercado que se precifica sozinho. O projeto começou como sim de hackeamento puro e virou em julho de 2026 no império criminoso acima."
    },
-   "section": "apps"
+   "section": "apps",
+   "itchUrl": ""
   },
   {
    "slug": "bent-fc-tournament",
@@ -925,9 +948,9 @@
    "shippingName": "Bent FC: Tournament Edition",
    "sourceDir": "D:/Crystl/bentfcte",
    "tier": "Volume",
-   "platform": "Android",
-   "status": "Store prep",
-   "storeUrl": "",
+   "platform": "Android, PC",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.bentfcte",
    "screenshots": [
     "shots/bent-fc-tournament/01.jpg",
     "shots/bent-fc-tournament/02.jpg",
@@ -955,7 +978,8 @@
     "ja": "ベント FC の続編であり、前作より大仕事です。あなたは小国サッカー協会の事務総長であると同時に代表監督でもあります。つまり汚職の両側を自分でやることになります。試合中はボールの軌道を自分で描きます。パス、シュート、走り込みを狙い、その結果を受け入れてください。試合の合間には協会を運営します。買い、賄賂を贈り、帰化させ、脅し、資金を洗い、予選を突破して出場資格のない大会へ国を送り込むのです。ミニゲームはその不正をそのまま形にしたもの。封筒、投票用紙、シュレッダー、シェイカー、書類。どれも否認可能な小さな行為であり、それぞれの壊れ方をします。",
     "es": "La secuela de Bent FC, y un trabajo más grande que el primero. Eres a la vez el secretario general de una pequeña federación de fútbol y el seleccionador, lo que significa que haces tú mismo las dos mitades de la corrupción. Durante los partidos dibujas el balón: apuntas un pase, un tiro o una carrera y vives con dónde acaba. Entre ellos diriges la federación, comprando, sobornando, nacionalizando, chantajeando y blanqueando a tu país a través de la clasificación hasta un torneo al que no debería llegar. Los minijuegos son la parte corrupta hecha literal: un sobre, una papeleta, una trituradora, una coctelera, un dosier, cada uno un pequeño acto negable con su propia forma de salir mal.",
     "pt-BR": "A sequência de Bent FC, e um trabalho maior que o primeiro. Você é ao mesmo tempo o secretário-geral de uma pequena federação de futebol e o técnico da seleção, o que significa que faz sozinho as duas metades da corrupção. Durante as partidas você desenha a bola: mira um passe, um chute ou uma corrida e aceita onde ela vai parar. Entre elas você toca a federação, comprando, subornando, naturalizando, chantageando e lavando seu país pelas eliminatórias até um torneio no qual ele não deveria estar. Os minijogos são a parte corrupta feita literal: um envelope, uma cédula, uma trituradora, uma coqueteleira, um dossiê, cada um um pequeno ato negável com seu próprio jeito de dar errado."
-   }
+   },
+   "itchUrl": "https://crystllabs.itch.io/bentfcte"
   },
   {
    "slug": "rugpull",
@@ -963,7 +987,7 @@
    "shippingName": "Rug Pull: Crypto Tycoon",
    "sourceDir": "D:/Crystl/rugpull",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.rugpull",
    "screenshots": [
@@ -994,7 +1018,8 @@
     "es": "Opera hasta salir de un sótano, lanza tu propia moneda y afronta la única pregunta que al juego le importa de verdad: ¿construyes lo que prometiste o te llevas el dinero y desapareces? Cualquiera de las dos respuestas continúa la partida. Ese es el asunto. No hay pantalla final donde te sales con la tuya, porque tu nombre te sigue al siguiente ciclo y la gente a la que quemaste se acuerda. El bucle es semanal: eliges proyectos, los resuelves, ves reiniciarse el ciclo y compruebas quién sigue dispuesto a hablar contigo. Hecho en Godot para Android, en vertical, con un prólogo, un lanzamiento de moneda y tanto la construcción como la estafa implementadas por completo.",
     "pt-BR": "Opere até sair de um porão, lance sua própria moeda e encare a única pergunta com que o jogo realmente se importa: você constrói o que prometeu ou pega o dinheiro e some? Qualquer uma das respostas mantém o jogo rodando. É esse o ponto. Não existe tela final em que você se safa, porque seu nome te acompanha no ciclo seguinte e as pessoas que você queimou lembram. O ciclo é semanal: escolha projetos, resolva-os, veja o ciclo reiniciar e descubra quem ainda topa falar com você. Feito em Godot para Android, em retrato, com um prólogo, um lançamento de moeda e tanto a construção quanto o golpe implementados por completo."
    },
-   "releasedOn": "2026-09-07"
+   "releasedOn": "2026-09-07",
+   "itchUrl": "https://crystllabs.itch.io/rugpull"
   },
   {
    "slug": "office-politics",
@@ -1002,7 +1027,7 @@
    "shippingName": "Office Politics",
    "sourceDir": "D:/Crystl/officepolitics",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "status": "Live",
    "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.officepolitics",
    "screenshots": [
@@ -1033,7 +1058,8 @@
     "es": "Un roguelite de oficina por turnos. Eres nuevo en una empresa, generas rencillas con tus compañeros y las resuelves de la única forma que el juego permite: peleando con ellos por el título de la oficina. Trece poderes, dos formas de perder y una elección al final de cada pelea entre humillar al perdedor o terminar limpio, que es la decisión que el resto de la partida recuerda. Godot, pixel art a una resolución lógica de 640x360. Estado actual honesto: la rebanada vertical está construida, probada y jugable, y todavía no es divertida. Un poder resuelve toda la pelea y la mecánica de Calor nunca muerde. Está diagnosticado, no adivinado, y es lo siguiente que se arregla.",
     "pt-BR": "Um roguelite de escritório por turnos. Você é novo numa empresa, arranja treta com os colegas e resolve do único jeito que o jogo permite: lutando com eles pelo título do escritório. Treze poderes, dois jeitos de perder e uma escolha ao fim de cada luta entre humilhar o perdedor ou encerrar limpo, que é a decisão de que o resto da run se lembra. Godot, pixel art numa resolução lógica de 640x360. Estado atual honesto: a fatia vertical está construída, testada e jogável, e ainda não é divertida. Um poder resolve a luta inteira e a mecânica de Calor nunca morde. Isso está diagnosticado, não chutado, e é a próxima coisa a ser corrigida."
    },
-   "releasedOn": "2026-09-07"
+   "releasedOn": "2026-09-07",
+   "itchUrl": "https://crystllabs.itch.io/officepolitics"
   },
   {
    "slug": "rich-man-poor-man",
@@ -1341,7 +1367,7 @@
    "shippingName": "Bare Knuckle: Fight Club",
    "sourceDir": "D:/Crystl/bareknuckle",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Bare Knuckle",
     "ko": "베어 너클",
@@ -1375,7 +1401,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/bareknuckle"
   },
   {
    "slug": "cabinet",
@@ -1383,7 +1410,7 @@
    "shippingName": "Cabinet: Arcade Repair Shop",
    "sourceDir": "D:/Crystl/cabinet",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Cabinet",
     "ko": "캐비닛",
@@ -1417,7 +1444,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/cabinet"
   },
   {
    "slug": "cell-block",
@@ -1425,7 +1453,7 @@
    "shippingName": "Cell Block: Prison Story",
    "sourceDir": "D:/Crystl/cellblock",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Cell Block",
     "ko": "셀 블록",
@@ -1459,7 +1487,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/cellblock"
   },
   {
    "slug": "corner-store",
@@ -1467,7 +1496,7 @@
    "shippingName": "Corner Store: Shop Manager",
    "sourceDir": "D:/Crystl/cornerstore",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Corner Store",
     "ko": "코너스토어",
@@ -1501,7 +1530,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/cornerstore"
   },
   {
    "slug": "counter",
@@ -1509,7 +1539,7 @@
    "shippingName": "Counter: Dungeon Shop Keeper",
    "sourceDir": "D:/Crystl/counter",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Counter",
     "ko": "카운터",
@@ -1543,7 +1573,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/counter"
   },
   {
    "slug": "door-policy",
@@ -1551,7 +1582,7 @@
    "shippingName": "Door Policy: Club Bouncer Sim",
    "sourceDir": "D:/Crystl/doorpolicy",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Door Policy",
     "ko": "도어 폴리시",
@@ -1585,7 +1616,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/doorpolicy"
   },
   {
    "slug": "flip-this-flat",
@@ -1593,7 +1625,7 @@
    "shippingName": "Flip This Flat: Home Design",
    "sourceDir": "D:/Crystl/flipflat",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Flip This Flat",
     "ko": "집 고쳐 팔기",
@@ -1627,7 +1659,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/flipflat"
   },
   {
    "slug": "front-page",
@@ -1635,7 +1668,7 @@
    "shippingName": "Front Page: Newspaper Sim",
    "sourceDir": "D:/Crystl/frontpage",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Front Page",
     "ko": "프론트 페이지",
@@ -1669,7 +1702,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/frontpage"
   },
   {
    "slug": "heel-turn",
@@ -1677,7 +1711,7 @@
    "shippingName": "Heel Turn: Wrestling Game",
    "sourceDir": "D:/Crystl/heelturn",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Heel Turn",
     "ko": "힐 턴",
@@ -1711,7 +1745,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/heelturn"
   },
   {
    "slug": "lemon-lot",
@@ -1719,7 +1754,7 @@
    "shippingName": "Lemon Lot: Used Car Tycoon",
    "sourceDir": "D:/Crystl/lemonlot",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Lemon Lot",
     "ko": "레몬 랏",
@@ -1753,7 +1788,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/lemonlot"
   },
   {
    "slug": "lost-property",
@@ -1761,7 +1797,7 @@
    "shippingName": "Lost Property: Sorting Office",
    "sourceDir": "D:/Crystl/lostproperty",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Lost Property",
     "ko": "분실물 보관소",
@@ -1795,7 +1831,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/lostproperty"
   },
   {
    "slug": "night-shift",
@@ -1803,7 +1840,7 @@
    "shippingName": "Night Shift: Hospital Sim",
    "sourceDir": "D:/Crystl/nightshiftgame",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Night Shift",
     "ko": "야간 근무",
@@ -1837,7 +1874,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/nightshift"
   },
   {
    "slug": "rap-sheet",
@@ -1845,7 +1883,7 @@
    "shippingName": "Rap Sheet: Crime Life Sim",
    "sourceDir": "D:/Crystl/rapsheet",
    "tier": "Flagship",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Rap Sheet",
     "ko": "전과 기록",
@@ -1879,7 +1917,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/rapsheet"
   },
   {
    "slug": "reading-room",
@@ -1887,7 +1926,7 @@
    "shippingName": "Reading Room: Tarot Shop Sim",
    "sourceDir": "D:/Crystl/readingroom",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Reading Room",
     "ko": "타로 가게",
@@ -1920,7 +1959,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/readingroom"
   },
   {
    "slug": "route",
@@ -1928,7 +1968,7 @@
    "shippingName": "Route: Vending Machine Round",
    "sourceDir": "D:/Crystl/route",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Route",
     "ko": "루트",
@@ -1962,7 +2002,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/route"
   },
   {
    "slug": "scoop",
@@ -1970,7 +2011,7 @@
    "shippingName": "Scoop: Ice Cream Rush",
    "sourceDir": "D:/Crystl/scoop",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Scoop",
     "ko": "스쿱",
@@ -2004,7 +2045,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/scoop"
   },
   {
    "slug": "slumlord",
@@ -2012,7 +2054,7 @@
    "shippingName": "Slumlord: Landlord Empire",
    "sourceDir": "D:/Crystl/slumlord",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Slumlord",
     "ko": "건물주",
@@ -2046,7 +2088,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/slumlord"
   },
   {
    "slug": "supply-run",
@@ -2054,7 +2097,7 @@
    "shippingName": "Supply Run: Loot the House",
    "sourceDir": "D:/Crystl/supplyrun",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Supply Run",
     "ko": "서플라이 런",
@@ -2088,7 +2131,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/supplyrun"
   },
   {
    "slug": "the-fence",
@@ -2096,7 +2140,7 @@
    "shippingName": "The Fence: Pawn Shop Tycoon",
    "sourceDir": "D:/Crystl/fence",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "The Fence",
     "ko": "더 펜스",
@@ -2130,7 +2174,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/thefence"
   },
   {
    "slug": "the-house",
@@ -2138,7 +2183,7 @@
    "shippingName": "The House: Casino Tycoon",
    "sourceDir": "D:/Crystl/thehouse",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "The House",
     "ko": "더 하우스",
@@ -2172,7 +2217,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/thehouse"
   },
   {
    "slug": "the-yard",
@@ -2180,7 +2226,7 @@
    "shippingName": "The Yard: Prison Fight RPG",
    "sourceDir": "D:/Crystl/theyard",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "The Yard",
     "ko": "더 야드",
@@ -2214,7 +2260,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/theyard"
   },
   {
    "slug": "trace",
@@ -2222,7 +2269,7 @@
    "shippingName": "Trace: Crime Scene Cleaner",
    "sourceDir": "D:/Crystl/trace",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Trace",
     "ko": "트레이스",
@@ -2255,7 +2302,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/trace"
   },
   {
    "slug": "wrong-shift",
@@ -2263,7 +2311,7 @@
    "shippingName": "Wrong Shift: Find the Anomaly",
    "sourceDir": "D:/Crystl/wrongshift",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "name": {
     "en": "Wrong Shift",
     "ko": "이상한 근무",
@@ -2297,7 +2345,8 @@
    ],
    "onSiteAlready": false,
    "iconSourcePath": null,
-   "nameMismatchNote": ""
+   "nameMismatchNote": "",
+   "itchUrl": "https://crystllabs.itch.io/wrongshift"
   },
   {
    "slug": "afterhours-cafe",
@@ -2305,7 +2354,7 @@
    "shippingName": "Afterhours Cafe",
    "sourceDir": "D:/Crystl/projectsimulation/games/afterhours-cafe",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectofficeofficial/releases/projectsimulation/afterhours-cafe/en-US/icon-512.png",
    "nameMismatchNote": "",
@@ -2330,15 +2379,16 @@
     "es": "Afterhours Cafe es un simulador de gestión sobre un café que trabaja cuando cae la noche. Colocas mostradores, mesas y estaciones de servicio en un local vacío y ves a los clientes entrar, esperar, pedir y marcharse. Treinta recetas equilibran ingredientes, frescura y precio, así que el menú es una serie de decisiones y no una simple lista. Contratas baristas, vigilas el cansancio del equipo y fijas el horario de apertura. Dieciocho clientes habituales vuelven noche tras noche, y sus historias salen a la luz con cada visita. Sesenta contratos marcan el objetivo de cada noche, y la investigación y las mejoras de equipo amplían lo que puede hacer el café. Pausa cuando necesites pensar, ajusta la velocidad de la simulación cuando haya más trabajo y prueba distintas estrategias en tres espacios de guardado. El juego y la progresión principal funcionan sin conexión. Los anuncios recompensados son opcionales y dan una bonificación, y los intersticiales aparecen en pausas entre turnos. En inglés, español y portugués de Brasil.",
     "pt-BR": "Afterhours Cafe é um simulador de gestão sobre uma cafeteria que funciona depois que escurece. Você posiciona balcões, mesas e estações de atendimento num salão vazio e vê os clientes entrarem, esperarem, pedirem e irem embora. Trinta receitas equilibram ingredientes, frescor e preço, então o cardápio é uma série de escolhas e não uma lista. Você contrata baristas, acompanha o cansaço da equipe e define o horário de abertura. Dezoito clientes frequentes voltam noite após noite, e suas histórias aparecem a cada visita. Sessenta contratos dão a meta de cada noite, e pesquisa e melhorias de equipamento ampliam o que o café consegue fazer. Pause quando precisar pensar, ajuste a velocidade da simulação quando o movimento aumentar e teste estratégias diferentes em três espaços de salvamento. A jogabilidade e a progressão principal funcionam sem internet. Anúncios recompensados são opcionais e dão um bônus, e os intersticiais aparecem nas pausas entre turnos. Em inglês, espanhol e português do Brasil."
    },
-   "status": "Store prep",
-   "storeUrl": "",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.afterhourscafe",
    "screenshots": [
     "shots/afterhours-cafe/01.jpg",
     "shots/afterhours-cafe/02.jpg",
     "shots/afterhours-cafe/03.jpg",
     "shots/afterhours-cafe/04.jpg",
     "shots/afterhours-cafe/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/afterhourscafe"
   },
   {
    "slug": "block-garden",
@@ -2346,7 +2396,7 @@
    "shippingName": "Block Garden: Block Puzzle",
    "sourceDir": "D:/Crystl/projectfifty/apps/blockgarden",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectofficeofficial/releases/projectfifty/blockgarden/en-US/icon.png",
    "nameMismatchNote": "",
@@ -2379,7 +2429,8 @@
     "shots/block-garden/02.jpg",
     "shots/block-garden/03.jpg",
     "shots/block-garden/04.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/blockgarden"
   },
   {
    "slug": "canopy-disc-golf",
@@ -2387,7 +2438,7 @@
    "shippingName": "Canopy Disc Golf",
    "sourceDir": "D:/Crystl/projectraresports/games/canopy-disc-golf",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectofficeofficial/releases/projectraresports/canopy-disc-golf/en-US/icon.png",
    "nameMismatchNote": "",
@@ -2412,12 +2463,13 @@
     "es": "Canopy Disc Golf es disc golf en el bosque. En cada lanzamiento lees el viento, eliges la fuerza y decides cómo se curva el disco, y luego lo ves pasar entre los árboles hacia la canasta. Hay 54 hoyos en seis entornos de bosque, 18 perfiles de disco que aprender y 36 retos de habilidad. Las trayectorias de ayuda opcionales te enseñan la línea, y las trayectorias guardadas te dejan revisar un lanzamiento que salió bien. El modo carrera, los retos diarios sin conexión, la práctica, las medallas y las marcas personales te dan motivos para repetir la ronda. Las fichas que ganas jugando desbloquean objetos de colección. Los ajustes incluyen ayudas, sonido, música, vibración, movimiento reducido y controles para zurdos. El juego principal funciona sin conexión y el progreso queda en tu dispositivo. Incluye anuncios con recompensa opcionales e intersticiales ocasionales entre sesiones terminadas. En inglés, español y portugués de Brasil.",
     "pt-BR": "Canopy Disc Golf é disc golf na floresta. Em cada lançamento você lê o vento, escolhe a força e decide como o disco faz a curva, depois vê o voo passar entre as árvores rumo à cesta. São 54 buracos em seis ambientes de floresta, 18 perfis de disco para aprender e 36 desafios de habilidade. As trajetórias de assistência opcionais ensinam a linha, e os rastros salvos deixam você rever um lance que deu certo. Modo carreira, desafios diários offline, treino, medalhas e recordes pessoais dão motivos para jogar a rodada de novo. As fichas ganhas jogando desbloqueiam itens de coleção. As configurações incluem assistências, som, música, vibração, movimento reduzido e controles para canhotos. O jogo principal funciona offline e o progresso fica no seu dispositivo. Inclui anúncios opcionais com recompensa e intersticiais ocasionais entre sessões concluídas. Em inglês, espanhol e português do Brasil."
    },
-   "status": "Store prep",
-   "storeUrl": "",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.canopydiscgolf",
    "screenshots": [
     "shots/canopy-disc-golf/01.jpg",
     "shots/canopy-disc-golf/02.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/canopydiscgolf"
   },
   {
    "slug": "clean-beans",
@@ -2425,7 +2477,7 @@
    "shippingName": "Clean Beans",
    "sourceDir": "D:/Crystl/cozycrime/cleanbeans",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/cozycrime/cleanbeans/store/icon_512_v2.png",
    "nameMismatchNote": "Store kit title is \"Clean Beans: Cozy Cafe Tycoon\" (store/LISTING.md); job playName is \"Clean Beans\".",
@@ -2450,15 +2502,16 @@
     "es": "Clean Beans es un tycoon de cafetería acogedora con un secreto. Adelante sirves café a los clientes de siempre. Atrás las lavadoras están funcionando, y no es ropa. Un inspector aparece cada cierto tiempo y, mientras está dentro, no puede haber nada sucio en tus manos ni en la pila. Arrastras el joystick para caminar y te detienes junto a las cosas para usarlas. Lleva tazas de la cafetera a las mesas para ganar dinero honesto. Lleva las cajas de la entrega a las lavadoras, espera el ciclo y guarda los fajos limpios en la caja fuerte antes de que llegue. Las mejoras añaden mesas, una quinta lavadora y manos más grandes. Los baristas contratados sirven solos, el café sigue ganando mientras no juegas hasta dos horas y 40 muebles aparecen en el local al comprarlos. Gratis, con anuncios con recompensa opcionales. Sin compras, sin cuenta.",
     "pt-BR": "Clean Beans é um tycoon de café aconchegante com um segredo. Na frente você serve café para os clientes de sempre. Nos fundos, as máquinas de lavar estão ligadas, e não é roupa. Um fiscal aparece de tempos em tempos e, enquanto ele está lá dentro, nada sujo pode estar nas suas mãos nem na pilha. Você arrasta o joystick para andar e para perto das coisas para usá-las. Leve xícaras da máquina de café até as mesas para ganhar dinheiro honesto. Leve as caixas da entrega até as máquinas, espere o ciclo e guarde os maços limpos no cofre antes de ele chegar. As melhorias dão mais mesas, uma quinta máquina de lavar e mãos maiores. Baristas contratados servem sozinhos, o café continua rendendo por até duas horas enquanto você está fora e 40 móveis aparecem na loja quando comprados. Grátis, com anúncios com recompensa opcionais. Sem compras, sem conta."
    },
-   "status": "Store prep",
-   "storeUrl": "",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.cleanbeans",
    "screenshots": [
     "shots/clean-beans/01.jpg",
     "shots/clean-beans/02.jpg",
     "shots/clean-beans/03.jpg",
     "shots/clean-beans/04.jpg",
     "shots/clean-beans/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/cleanbeans"
   },
   {
    "slug": "cube-zoo",
@@ -2466,7 +2519,7 @@
    "shippingName": "Cube Zoo: Breeding Island",
    "sourceDir": "https://github.com/CrystlLabs/cubezoo",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "C:/Users/ace/AppData/Local/Temp/claude/D--Crystl-crystllabs-com/be8dce0e-9fd1-434a-aa1d-381612818ff1/scratchpad/repos/cubezoo/store/icon_playstore_512.png",
    "nameMismatchNote": "",
@@ -2500,7 +2553,8 @@
     "shots/cube-zoo/03.jpg",
     "shots/cube-zoo/04.jpg",
     "shots/cube-zoo/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/cubezoo"
   },
   {
    "slug": "murder-jump",
@@ -2508,7 +2562,7 @@
    "shippingName": "Murder Jump: Detective Mystery",
    "sourceDir": "D:/Crystl/detectivejump",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/detectivejump/store-assets/icon-512.png",
    "nameMismatchNote": "",
@@ -2542,7 +2596,8 @@
     "shots/murder-jump/03.jpg",
     "shots/murder-jump/04.jpg",
     "shots/murder-jump/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/murderjump"
   },
   {
    "slug": "noodle-fury",
@@ -2550,7 +2605,7 @@
    "shippingName": "Noodle Fury: Kung Fu Brawler",
    "sourceDir": "D:/Crystl/fighter",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/fighter/store/icon_512.png",
    "nameMismatchNote": "",
@@ -2584,7 +2639,8 @@
     "shots/noodle-fury/03.jpg",
     "shots/noodle-fury/04.jpg",
     "shots/noodle-fury/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/onefingerfury"
   },
   {
    "slug": "glasshouse-seasons",
@@ -2625,7 +2681,8 @@
     "shots/glasshouse-seasons/03.jpg",
     "shots/glasshouse-seasons/04.jpg",
     "shots/glasshouse-seasons/05.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "guild-and-grain",
@@ -2666,7 +2723,8 @@
     "shots/guild-and-grain/03.jpg",
     "shots/guild-and-grain/04.jpg",
     "shots/guild-and-grain/05.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "junction-stories",
@@ -2707,7 +2765,8 @@
     "shots/junction-stories/03.jpg",
     "shots/junction-stories/04.jpg",
     "shots/junction-stories/05.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "kickflip-courier",
@@ -2747,7 +2806,8 @@
     "shots/kickflip-courier/02.jpg",
     "shots/kickflip-courier/03.jpg",
     "shots/kickflip-courier/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "kubb-coast",
@@ -2785,7 +2845,8 @@
    "screenshots": [
     "shots/kubb-coast/01.jpg",
     "shots/kubb-coast/02.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "loopback-links",
@@ -2825,7 +2886,8 @@
     "shots/loopback-links/02.jpg",
     "shots/loopback-links/03.jpg",
     "shots/loopback-links/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "mochi-stack",
@@ -2833,7 +2895,7 @@
    "shippingName": "Mochi Stack: Cute Animal Tower",
    "sourceDir": "D:/Crystl/projectcutie/mochistack",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectcutie/mochistack/store/icon_512.png",
    "nameMismatchNote": "",
@@ -2858,15 +2920,16 @@
     "es": "Mochi Stack es un juego de apilar con animales lindos y un solo toque. Una nubecita balancea a una mascota cubo colgada de una cuerda. Toca y la mascota cae sobre la torre con un suave boing. Si cae en cualquier parte de la mascota de abajo, se queda y suma un punto. Justo en el centro es un PERFECT: doble puntuación, una moneda y una lluvia de brillos, y encadenar perfectos hace brillar la torre. Si fallas o quedas demasiado al borde, la mascota se cae. Cuanto más subes, más rápido y amplio es el balanceo, más se mece la torre, y más adelante una ráfaga de viento puede empujar a tu mascota. El cielo cambia mientras subes, del prado soleado al atardecer y a una noche estrellada. Con monedas compras 12 mascotas cubo, del gato y el panda al zorro. Gratis con anuncios, nada que comprar, sin cuenta, sin conexión.",
     "pt-BR": "Mochi Stack é um jogo de empilhar bichinhos fofos com um toque só. Uma nuvenzinha balança um bichinho de cubo pendurado numa corda. Toque e ele cai na torre com um boing macio. Se cair em qualquer parte do bichinho de baixo, fica e vale um ponto. Bem no centro é PERFECT: pontos em dobro, uma moeda e uma chuva de brilhos, e perfects seguidos fazem a torre brilhar. Errou, ou ficou muito na beirada, e o bichinho cai. Quanto mais alto, mais rápido e largo o balanço, mais a torre balança, e mais adiante uma rajada de vento pode empurrar o bichinho para o lado. O céu muda conforme você sobe, do campo ensolarado ao pôr do sol e a uma noite estrelada. Com moedas você compra 12 bichinhos de cubo, do gato e do panda à raposa. Grátis com anúncios, nada para comprar, sem conta, funciona offline."
    },
-   "status": "Store prep",
-   "storeUrl": "",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.mochistack",
    "screenshots": [
     "shots/mochi-stack/01.jpg",
     "shots/mochi-stack/02.jpg",
     "shots/mochi-stack/03.jpg",
     "shots/mochi-stack/04.jpg",
     "shots/mochi-stack/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/cutiepack"
   },
   {
    "slug": "ms-popular",
@@ -2874,7 +2937,7 @@
    "shippingName": "Ms. Popular: Text Dating Sim",
    "sourceDir": "https://github.com/CrystlLabs/mspopular",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "C:/Users/ace/AppData/Local/Temp/claude/D--Crystl-crystllabs-com/be8dce0e-9fd1-434a-aa1d-381612818ff1/scratchpad/repos/mspopular/store/icon-512.png",
    "nameMismatchNote": "",
@@ -2908,7 +2971,8 @@
     "shots/ms-popular/03.jpg",
     "shots/ms-popular/04.jpg",
     "shots/ms-popular/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/mspopular"
   },
   {
    "slug": "northmark-ski-orienteering",
@@ -2946,7 +3010,8 @@
    "screenshots": [
     "shots/northmark-ski-orienteering/01.jpg",
     "shots/northmark-ski-orienteering/02.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "pack-it-perfect",
@@ -2954,7 +3019,7 @@
    "shippingName": "Pack It Perfect: Block Puzzle",
    "sourceDir": "D:/Crystl/projectfifty/apps/packitperfect",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectofficeofficial/releases/projectfifty/packitperfect/en-US/icon.png",
    "nameMismatchNote": "",
@@ -2987,7 +3052,8 @@
     "shots/pack-it-perfect/02.jpg",
     "shots/pack-it-perfect/03.jpg",
     "shots/pack-it-perfect/04.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/packitperfect"
   },
   {
    "slug": "penguin-slide",
@@ -2995,7 +3061,7 @@
    "shippingName": "Penguin Slide: Cute Ice Game",
    "sourceDir": "D:/Crystl/projectcutie/penguinslide",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectcutie/penguinslide/store/icon_512.png",
    "nameMismatchNote": "",
@@ -3020,15 +3086,16 @@
     "es": "Penguin Slide es un juego infinito de un toque sobre un pingüino redondito que se desliza panza abajo por un camino de hielo lleno de curvas. Solo va adonde tú le digas. Cada toque lo manda deslizarse hacia el otro lado con una lluvia de nieve. Gira en cada curva y sigue a toda velocidad. Gira demasiado pronto o tarde y se sale del borde y rueda por la nieve. Cada baldosa de hielo que pasas es un punto, y algunas tienen peces para recoger. Cuanto más aguantas, más rápido va: las rectas se acortan, las curvas llegan antes y luego aparece hielo fino, baldosas estrechas que solo aguantan si vas por el centro. Con los peces compras 10 mascotas cubo para deslizarte, entre ellas un oso polar, un loro y un koala. Gratis con anuncios, nada que comprar, sin cuenta, sin conexión. Los anuncios opcionales dan otra oportunidad, el doble de peces o una mascota gratis.",
     "pt-BR": "Penguin Slide é um jogo infinito de um toque sobre um pinguim redondinho que desliza de barriga por uma trilha de gelo cheia de curvas. Ele só vai para onde você mandar. Cada toque faz ele deslizar para o outro lado com um jato de neve. Vire em cada curva e ele segue a toda. Vire cedo ou tarde demais e ele sai pela borda e rola na neve. Cada placa de gelo que você passa vale um ponto, e algumas têm peixes para pegar. Quanto mais você aguenta, mais rápido ele vai: as retas ficam curtas, as curvas chegam antes e depois aparece gelo fino, placas estreitas que só aguentam se você passar pelo meio. Com os peixes você compra 10 bichinhos de cubo para deslizar junto, entre eles um urso-polar, um papagaio e um coala. Grátis com anúncios, nada para comprar, sem conta, funciona offline. Anúncios opcionais dão outra chance, peixes em dobro ou um bichinho grátis."
    },
-   "status": "Store prep",
-   "storeUrl": "",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.penguinslide",
    "screenshots": [
     "shots/penguin-slide/01.jpg",
     "shots/penguin-slide/02.jpg",
     "shots/penguin-slide/03.jpg",
     "shots/penguin-slide/04.jpg",
     "shots/penguin-slide/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/cutiepack"
   },
   {
    "slug": "pixel-pitch-high",
@@ -3036,7 +3103,7 @@
    "shippingName": "Pixel Pitch High: Soccer RPG",
    "sourceDir": "https://github.com/CrystlLabs/pitchperfecthigh",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "C:/Users/ace/AppData/Local/Temp/claude/D--Crystl-crystllabs-com/be8dce0e-9fd1-434a-aa1d-381612818ff1/scratchpad/repos/pitchperfecthigh/store/icon_512.png",
    "nameMismatchNote": "Local folder D:/Crystl/pixelpitchhigh no longer exists; source read from repo CrystlLabs/pitchperfecthigh.",
@@ -3070,7 +3137,8 @@
     "shots/pixel-pitch-high/03.jpg",
     "shots/pixel-pitch-high/04.jpg",
     "shots/pixel-pitch-high/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/pixelpitchhigh"
   },
   {
    "slug": "pocket-sort",
@@ -3078,7 +3146,7 @@
    "shippingName": "Pocket Sort: Sorting Puzzle",
    "sourceDir": "D:/Crystl/projectfifty/apps/pocketsort",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectofficeofficial/releases/projectfifty/pocketsort/en-US/icon.png",
    "nameMismatchNote": "",
@@ -3111,7 +3179,8 @@
     "shots/pocket-sort/02.jpg",
     "shots/pocket-sort/03.jpg",
     "shots/pocket-sort/04.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/pocketsort"
   },
   {
    "slug": "puff",
@@ -3119,7 +3188,7 @@
    "shippingName": "Puff: Cute Fish Swim Game",
    "sourceDir": "D:/Crystl/projectcutie/puff",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectcutie/puff/store/icon_512.png",
    "nameMismatchNote": "",
@@ -3144,15 +3213,16 @@
     "es": "Puff es un juego de nadar con un dedo sobre un pez payaso redondito en un arrecife sin fin. Mantén el dedo pulsado y se infla como un globo y sube. Suelta y deja salir el aire y se hunde. Ese es todo el control. Coral rosa crece del fondo y cuelga desde arriba con un hueco en medio, y cada hueco que cruzas es un punto. Si chocas con el coral, la arena o la superficie, se acabó. Burbujas brillantes flotan en los huecos. Cada una es una moneda, pero también hace a Puff más grande unos segundos, así que el siguiente hueco se siente más estrecho. Tómala o déjala. A medida que avanzas, el coral se cierra, la corriente se acelera, parte del coral se mece y medusas dormilonas flotan justo en los huecos. Con monedas compras 9 mascotas cubo para nadar, del cangrejo a la abeja. Gratis con anuncios, nada que comprar, sin cuenta, sin conexión.",
     "pt-BR": "Puff é um jogo de nadar com um dedo sobre um peixe-palhaço redondinho num recife sem fim. Segure o dedo e ele infla como um balão e sobe. Solte e ele solta o ar e afunda. Esse é todo o controle. Coral rosa cresce do fundo e pende de cima com um vão no meio, e cada vão que você atravessa vale um ponto. Bateu no coral, na areia ou na superfície, acabou. Bolhas brilhantes flutuam nos vãos. Cada uma é uma moeda, mas também deixa o Puff maior por alguns segundos, então o próximo vão parece mais apertado. Pegue ou deixe. Conforme você avança, o coral se fecha, a corrente acelera, parte do coral balança e águas-vivas sonolentas boiam bem nos vãos. Com moedas você compra 9 bichinhos de cubo para nadar junto, do caranguejo à abelha. Grátis com anúncios, nada para comprar, sem conta, funciona offline."
    },
-   "status": "Store prep",
-   "storeUrl": "",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.puff",
    "screenshots": [
     "shots/puff/01.jpg",
     "shots/puff/02.jpg",
     "shots/puff/03.jpg",
     "shots/puff/04.jpg",
     "shots/puff/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/cutiepack"
   },
   {
    "slug": "rapidline-slalom",
@@ -3190,7 +3260,8 @@
    "screenshots": [
     "shots/rapidline-slalom/01.jpg",
     "shots/rapidline-slalom/02.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "rich-man-poor-man-app",
@@ -3198,7 +3269,7 @@
    "shippingName": "Rich Man Poor Man: Daily Quiz",
    "sourceDir": "D:/Crystl/octoberpush/richmanpoorman",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/octoberpush/richmanpoorman/store/icon-512.png",
    "nameMismatchNote": "Separate Android app; a web version is already on the site as slug rich-man-poor-man.",
@@ -3231,7 +3302,8 @@
     "shots/rich-man-poor-man-app/02.jpg",
     "shots/rich-man-poor-man-app/03.jpg",
     "shots/rich-man-poor-man-app/04.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/richmanpoorman"
   },
   {
    "slug": "skykick-takraw",
@@ -3269,7 +3341,8 @@
    "screenshots": [
     "shots/skykick-takraw/01.jpg",
     "shots/skykick-takraw/02.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "solitaire-postcards",
@@ -3277,7 +3350,7 @@
    "shippingName": "Solitaire Postcards",
    "sourceDir": "D:/Crystl/projectfifty/apps/solitairepostcards",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectofficeofficial/releases/projectfifty/solitairepostcards/en-US/icon.png",
    "nameMismatchNote": "Release kit title is \"Solitaire Postcards: Klondike\"; job playName is \"Solitaire Postcards\".",
@@ -3302,14 +3375,15 @@
     "es": "Solitaire Postcards es el Klondike clásico de robar una carta, con un viaje por destinos ilustrados de fondo. Formas escaleras descendentes de colores alternos en el tablero, subes cartas a las fundaciones del mismo palo del as al rey, descubres cartas ocultas y robas del mazo de una en una. Puedes reciclar el mazo tantas veces como quieras. Juega tocando o arrastrando. Seis destinos ilustrados forman el viaje, y la partida diaria siempre tiene solución. Las partidas del viaje se barajan de forma justa, así que algunas no se pueden ganar. Puedes deshacer jugadas recientes libremente y usar tres pistas gratis por ronda. Cuando todas las cartas están descubiertas y listas, el resto se recoge solo. El tablero, el mazo y el progreso se guardan al salir. El juego funciona sin conexión, sin cuenta y sin compras. Los videos con recompensa opcionales dan pistas extra, y hay anuncios intersticiales ocasionales entre rondas terminadas.",
     "pt-BR": "Solitaire Postcards é a paciência Klondike clássica de virar uma carta, com uma viagem por destinos ilustrados ao fundo. Você monta sequências decrescentes de cores alternadas na mesa, sobe cartas para as fundações do mesmo naipe do ás ao rei, revela cartas escondidas e compra do monte uma de cada vez. Dá para reciclar o monte quantas vezes quiser. Jogue tocando ou arrastando. Seis destinos ilustrados formam a viagem, e o jogo diário sempre tem solução. As partidas da viagem são embaralhadas de forma justa, então algumas não têm como vencer. Você pode desfazer jogadas recentes à vontade e usar três dicas grátis por rodada. Quando todas as cartas estão viradas e prontas, o resto se recolhe sozinho. Mesa, monte e progresso ficam salvos ao sair. O jogo funciona offline, sem conta e sem compras. Vídeos recompensados opcionais dão dicas extras, e anúncios intersticiais ocasionais aparecem entre rodadas concluídas."
    },
-   "status": "Store prep",
-   "storeUrl": "",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.solitairepostcards",
    "screenshots": [
     "shots/solitaire-postcards/01.jpg",
     "shots/solitaire-postcards/02.jpg",
     "shots/solitaire-postcards/03.jpg",
     "shots/solitaire-postcards/04.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/solitairepostcards"
   },
   {
    "slug": "sugar-split",
@@ -3349,7 +3423,8 @@
     "shots/sugar-split/02.jpg",
     "shots/sugar-split/03.jpg",
     "shots/sugar-split/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "switchback-post",
@@ -3357,7 +3432,7 @@
    "shippingName": "Switchback Post",
    "sourceDir": "D:/Crystl/projectarcade/apps/01_switchback_post",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectofficeofficial/releases/projectarcade/01_switchback_post/en-US/icon.png",
    "nameMismatchNote": "",
@@ -3382,14 +3457,15 @@
     "es": "Switchback Post es un juego de repartos en esquí que se juega con un dedo. Llevas un paquete montaña abajo por una ladera llena de decisiones. Arrastra para girar, pasa por las puertas cuyos símbolos coinciden con tu ruta de reparto y termina en la cabaña marcada con el paquete intacto. Lee la siguiente puerta con tiempo, esquiva los árboles y usa las banderas de reparación para recuperar un sello dañado antes de la meta. Hay 36 retos de reparto, cada uno con tres vidas: superarlo da bronce, perder como mucho una vida da plata y no perder ninguna da oro. Superar seis tableros abre el modo Infinito, y la práctica te deja ensayar una ruta con resultados aparte. Los sellos que ganas desbloquean estilos de color. Juega sin conexión y sin cuenta, con el progreso y los récords en tu dispositivo. Hay anuncios entre partidas, y los anuncios con recompensa opcionales dan sellos extra. En inglés, español y portugués de Brasil.",
     "pt-BR": "Switchback Post é um jogo de entregas no esqui jogado com um dedo. Você leva um pacote montanha abaixo por uma encosta cheia de escolhas. Arraste para guiar, passe pelas portas cujos símbolos batem com a sua rota de entrega e termine na cabana marcada com o pacote intacto. Leia a próxima porta cedo, desvie das árvores e use as bandeiras de reparo para recuperar um lacre danificado antes da chegada. São 36 desafios de entrega, cada um com três vidas: passar dá bronze, perder no máximo uma vida dá prata e não perder nenhuma dá ouro. Passar por seis tabuleiros abre o modo Infinito, e o treino deixa você ensaiar uma rota com resultados à parte. Os selos ganhos desbloqueiam estilos de cor. Jogue offline e sem conta, com progresso e recordes no aparelho. Há anúncios entre partidas, e anúncios recompensados opcionais dão selos extras. Em inglês, espanhol e português do Brasil."
    },
-   "status": "Store prep",
-   "storeUrl": "",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.switchbackpost",
    "screenshots": [
     "shots/switchback-post/01.jpg",
     "shots/switchback-post/02.jpg",
     "shots/switchback-post/03.jpg",
     "shots/switchback-post/04.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/switchbackpost"
   },
   {
    "slug": "theme-studio",
@@ -3422,14 +3498,15 @@
     "es": "Theme Studio reúne colecciones de fondos de pantalla originales, paletas de color coordinadas y un widget de fecha sencillo en un solo lugar. Recorres seis paquetes de arte, previsualizas un fondo y encuentras colores que combinan con él. Cada diseño tiene versión clara y oscura. Cuando encuentres uno que te guste, guárdalo o aplícalo como fondo de Android, y añade el widget nativo de fecha a tu pantalla de inicio. Hay 36 diseños en las seis colecciones. Veinticuatro están disponibles desde el principio sin ver videos, y los otros 12 se desbloquean en tu dispositivo con videos con recompensa opcionales. Los favoritos se guardan, y la app vuelve a tu último diseño y a tu ajuste claro u oscuro. La navegación y las herramientas de fondo incluidas funcionan sin conexión, sin cuenta y sin compras. Hay anuncios intersticiales ocasionales entre tareas. Las opciones de fondo y widget dependen de tu dispositivo y tu launcher. En inglés, español y portugués de Brasil.",
     "pt-BR": "Theme Studio reúne coleções de papéis de parede originais, paletas de cores coordenadas e um widget de data simples num só lugar. Você navega por seis pacotes de arte, vê a prévia de um papel de parede e encontra cores que combinam com ele. Cada design tem versão clara e escura. Achou um de que gosta? Salve ou aplique como papel de parede do Android e adicione o widget nativo de data à tela inicial. São 36 designs nas seis coleções. Vinte e quatro ficam disponíveis desde o início sem vídeo, e os outros 12 são desbloqueados no seu aparelho com vídeos recompensados opcionais. Os favoritos ficam salvos, e o app volta ao último design e à configuração clara ou escura. A navegação e as ferramentas de papel de parede incluídas funcionam offline, sem conta e sem compras. Anúncios intersticiais ocasionais aparecem entre tarefas. As opções de papel de parede e widget dependem do aparelho e do launcher. Em inglês, espanhol e português do Brasil."
    },
-   "status": "Store prep",
-   "storeUrl": "",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.themestudio",
    "screenshots": [
     "shots/theme-studio/01.jpg",
     "shots/theme-studio/02.jpg",
     "shots/theme-studio/03.jpg",
     "shots/theme-studio/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "tiny-tonics",
@@ -3470,7 +3547,8 @@
     "shots/tiny-tonics/03.jpg",
     "shots/tiny-tonics/04.jpg",
     "shots/tiny-tonics/05.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "velvet-derby",
@@ -3508,7 +3586,8 @@
    "screenshots": [
     "shots/velvet-derby/01.jpg",
     "shots/velvet-derby/02.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "arc-and-arrow",
@@ -3516,7 +3595,7 @@
    "shippingName": "Arc & Arrow",
    "sourceDir": "D:/Crystl/projectsports/games/arc-arrow",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectofficeofficial/releases/projectsports/arc-arrow/icon-512.png",
    "nameMismatchNote": "",
@@ -3541,14 +3620,15 @@
     "es": "Arc & Arrow es tiro con arco al blanco centrado en la paciencia. Arrastra para ajustar la elevación y la tensión, lee el viento y calcula el disparo con la señal de respiración. Cada tanda es de seis flechas, y verás cómo se agrupan mejor a medida que afinas la puntería. Hay 48 retos con blancos fijos y móviles, además de un reto diario. Gana medallas, desbloquea colores de arco y practica en campos tranquilos cuando solo quieras disparar. Si la oscilación te estorba, activa la mira estable opcional para eliminarla. Los intentos asistidos dan fichas cosméticas, pero no cuentan para récords ni desbloquean medallas. Juegas sin conexión y sin cuenta, y el progreso y tus mejores marcas se guardan en el dispositivo. Incluye inglés, español y portugués de Brasil. Gratis, con anuncios al terminar las sesiones y videos con recompensa opcionales. Las recompensas son solo cosméticas.",
     "pt-BR": "Arc & Arrow é tiro ao alvo com arco sobre paciência. Arraste para ajustar a elevação e a força, leia o vento e acerte o disparo com o sinal de respiração. Cada série tem seis flechas, e você vê o agrupamento melhorar conforme sua mira evolui. São 48 desafios com alvos fixos e móveis, além de um desafio diário. Ganhe medalhas, desbloqueie cores de arco e treine em campos tranquilos quando só quiser atirar. Se a oscilação atrapalhar, ative a mira estável opcional para eliminá-la. Tentativas assistidas rendem fichas de personalização, mas não contam para recordes nem desbloqueiam medalhas. Você joga offline e sem conta, e o progresso e os recordes ficam no dispositivo. Inclui inglês, espanhol e português do Brasil. Grátis, com anúncios após as sessões e vídeos com recompensa opcionais. As recompensas são apenas visuais."
    },
-   "status": "Store prep",
-   "storeUrl": "",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.arcarrow",
    "screenshots": [
     "shots/arc-and-arrow/01.jpg",
     "shots/arc-and-arrow/02.jpg",
     "shots/arc-and-arrow/03.jpg",
     "shots/arc-and-arrow/04.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/arcarrow"
   },
   {
    "slug": "boltwork",
@@ -3556,7 +3636,7 @@
    "shippingName": "Boltwork",
    "sourceDir": "D:/Crystl/projectpuzzle/boltwork",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectofficeofficial/releases/projectpuzzle/boltwork/en-US/icon.png",
    "nameMismatchNote": "Release kit store title is 'Boltwork: Screw Puzzle' (ES 'Boltwork: Puzle de Tornillos', PT 'Boltwork: Puzzle de Parafusos'); job playName is 'Boltwork'.",
@@ -3581,15 +3661,16 @@
     "es": "Boltwork es un puzle tranquilo de tornillos. Las placas están apiladas sobre un tablero de acero, cada una sujeta con tornillos. Toca un tornillo para levantarlo y luego toca un hueco libre, o arrástralo directo hasta ahí. Cuando ya nada sostiene una placa, se cae. El problema es que un tornillo con otra placa encima no se puede levantar, y si te quedas sin huecos libres con placas en el tablero, te atascas. Así que planeas el orden antes de mover. Hay 120 niveles, de dos placas a catorce, todos comprobados con solución, y un tablero nuevo cada día. Vacía un tablero con el menor número de movimientos para ganar estrellas. Las placas de vidrio muestran los tornillos escondidos debajo, y las monedas de cada nivel compran placas de madera, caramelo y vidrio y cabezas de latón, negras, de cobre y de oro. Funciona sin conexión y sin cuenta. Gratis con anuncios entre niveles, nunca durante el juego. Sin compras.",
     "pt-BR": "Boltwork é um puzzle tranquilo de parafusos. As placas estão empilhadas sobre um painel de aço, cada uma presa por parafusos. Toque em um parafuso para levantá-lo e depois em um furo livre, ou arraste direto até lá. Quando nada mais segura uma placa, ela cai. O porém é que um parafuso com outra placa por cima não pode ser levantado, e se os furos livres acabarem com placas no painel, você trava. Então você planeja a ordem antes de mexer. São 120 níveis, de duas placas a catorze, todos conferidos com solução, e um painel novo todo dia. Esvazie um painel com o menor número de jogadas para ganhar estrelas. Placas de vidro mostram os parafusos escondidos embaixo, e as moedas de cada nível compram placas de madeira, doce e vidro e cabeças de latão, pretas, de cobre e de ouro. Funciona offline e sem conta. Grátis com anúncios entre os níveis, nunca durante o jogo. Sem compras."
    },
-   "status": "Store prep",
-   "storeUrl": "",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.boltwork",
    "screenshots": [
     "shots/boltwork/01.jpg",
     "shots/boltwork/02.jpg",
     "shots/boltwork/03.jpg",
     "shots/boltwork/04.jpg",
     "shots/boltwork/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/boltwork"
   },
   {
    "slug": "carat",
@@ -3597,7 +3678,7 @@
    "shippingName": "Carat",
    "sourceDir": "D:/Crystl/projectpuzzle/carat",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectofficeofficial/releases/projectpuzzle/carat/en-US/icon.png",
    "nameMismatchNote": "Release kit store title is 'Carat: Jewel Block Puzzle' (ES 'Carat: Puzle de Joyas', PT 'Carat: Quebra-Cabeça de Joias'); job playName is 'Carat'.",
@@ -3622,15 +3703,16 @@
     "es": "Carat es un puzle de bloques con joyas. En cada turno recibes tres piezas de gemas para arrastrar a un tablero de terciopelo de 8x8. Llena una fila o una columna y estalla en destellos. Antes de soltar, se iluminan las líneas que completaría la pieza, así que ves venir la limpieza. Limpia dos líneas a la vez, o limpia en varias jugadas seguidas, y la puntuación sube rápido. Cuando ninguna de tus tres piezas cabe, la partida termina. Los repartos son justos: si alguna forma cabe en el tablero, una de tus piezas cabe. Además de las partidas sin fin hay 120 niveles en los que liberas fragmentos de reliquia en piedra bruta dentro de un límite de jugadas, con hasta tres estrellas cada uno, y un reto diario con una meta nueva. Las monedas compran estilos de gema y marcos de terciopelo, nueve en total. Funciona sin conexión y sin cuenta. Gratis con anuncios entre partidas, nunca durante el juego. Sin compras.",
     "pt-BR": "Carat é um quebra-cabeça de blocos com joias. A cada rodada você recebe três peças de gemas para arrastar para um tabuleiro de veludo 8x8. Complete uma linha ou coluna e ela se desfaz em brilho. Antes de soltar, as linhas que a peça completaria acendem, então você vê a limpeza chegando. Limpe duas linhas de uma vez, ou limpe em várias jogadas seguidas, e a pontuação sobe rápido. Quando nenhuma das três peças cabe, a partida acaba. A distribuição é justa: se alguma forma cabe no tabuleiro, uma das suas peças cabe. Além das partidas sem fim, há 120 níveis em que você liberta fragmentos de relíquia presos em pedra bruta dentro de um limite de jogadas, com até três estrelas cada, e um desafio diário com uma meta nova. As moedas compram estilos de gema e molduras de veludo, nove no total. Funciona offline e sem conta. Grátis com anúncios entre as partidas, nunca durante o jogo. Sem compras."
    },
-   "status": "Store prep",
-   "storeUrl": "",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.carat",
    "screenshots": [
     "shots/carat/01.jpg",
     "shots/carat/02.jpg",
     "shots/carat/03.jpg",
     "shots/carat/04.jpg",
     "shots/carat/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/carat"
   },
   {
    "slug": "color-recall",
@@ -3638,7 +3720,7 @@
    "shippingName": "Color Recall: Guess the Color",
    "sourceDir": "D:/Crystl/octoberpush/colorrecall",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/octoberpush/colorrecall/store/icon-512.png",
    "nameMismatchNote": "",
@@ -3671,7 +3753,8 @@
     "shots/color-recall/02.jpg",
     "shots/color-recall/03.jpg",
     "shots/color-recall/04.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/colorrecall"
   },
   {
    "slug": "kpop-idol-trainee",
@@ -3679,7 +3762,7 @@
    "shippingName": "KPop Idol Trainee: Text Story",
    "sourceDir": "D:/Crystl/octoberpush/kpop",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/octoberpush/kpop/store/icon-512.png",
    "nameMismatchNote": "The game calls itself 'Debut' in the listing body and in-game (package com.crystllabs.debut). ES/PT store titles: 'KPop Idol: Juego de Mensajes' / 'KPop Idol: Jogo de Mensagens'.",
@@ -3713,7 +3796,8 @@
     "shots/kpop-idol-trainee/03.jpg",
     "shots/kpop-idol-trainee/04.jpg",
     "shots/kpop-idol-trainee/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/kpoptrainee"
   },
   {
    "slug": "diceman",
@@ -3748,7 +3832,8 @@
    },
    "status": "In development",
    "storeUrl": "",
-   "screenshots": []
+   "screenshots": [],
+   "itchUrl": ""
   },
   {
    "slug": "font-guesser-app",
@@ -3789,7 +3874,8 @@
     "shots/font-guesser-app/02.jpg",
     "shots/font-guesser-app/03.jpg",
     "shots/font-guesser-app/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "glowline",
@@ -3830,7 +3916,8 @@
     "shots/glowline/03.jpg",
     "shots/glowline/04.jpg",
     "shots/glowline/05.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "hide-and-gnome",
@@ -3871,7 +3958,8 @@
     "shots/hide-and-gnome/03.jpg",
     "shots/hide-and-gnome/04.jpg",
     "shots/hide-and-gnome/05.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "jurassic-pixel",
@@ -3879,7 +3967,7 @@
    "shippingName": "Jurassic Pixel: Dino Breeding",
    "sourceDir": "https://github.com/CrystlLabs/jurassicpixel",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "https://github.com/CrystlLabs/jurassicpixel/blob/main/store/icon_playstore_512.png",
    "nameMismatchNote": "Local folder deleted; source read from github.com/CrystlLabs/jurassicpixel (store/). Localized store titles: KO '쥬라기 픽셀: 공룡 키우기', ES 'Jurassic Pixel: Cría de dinos', PT 'Jurassic Pixel: Criar Dinos'.",
@@ -3913,7 +4001,8 @@
     "shots/jurassic-pixel/03.jpg",
     "shots/jurassic-pixel/04.jpg",
     "shots/jurassic-pixel/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/jurassicpixel"
   },
   {
    "slug": "kittycat",
@@ -3921,7 +4010,7 @@
    "shippingName": "Kittycat: A Little Cat Life",
    "sourceDir": "D:/Crystl/kittycat",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/kittycat/store/icon_512.png",
    "nameMismatchNote": "ES/PT store titles: 'Kittycat: Una pequeña vida' / 'Kittycat: Uma pequena vida'.",
@@ -3946,15 +4035,16 @@
     "es": "Kittycat es un juego de gatos acogedor sobre cuidados, historias y convertir una habitación tranquila en un hogar. Adopta a Miso, curioso; a Juniper, prudente; o a Mochi, travieso, y ponle el nombre que quieras. Cada día eliges entre seis pequeños momentos: servir la cena, jugar, cepillar su pelaje, sentaros juntos, echar una siesta o explorar. Descubres qué comidas y juguetes le encantan, y luego compartes el siguiente capítulo y eliges cómo ayudar. Hay 14 capítulos, con una tormenta, un calcetín robado, una tarde demasiado silenciosa y nuevas amistades. Tus decisiones se recuerdan y llevan a uno de tres finales, y los días siguen después del último capítulo. Dos minijuegos táctiles: perseguir un juguete o seguir un patrón. Los botones que ganas compran un cojín, un rascador, una repisa en la ventana y más, y cada momento compartido va al libro de recuerdos. Tres ranuras de guardado. Sin castigos por ausencia: tu gato descansa tranquilo mientras no estás. Sin cuenta, sin chat, sin compras. Gratis con anuncios.",
     "pt-BR": "Kittycat é um jogo de gato aconchegante sobre cuidado, histórias e transformar um quarto quieto em um lar. Adote Miso, o curioso; Juniper, o cauteloso; ou Mochi, o travesso, e dê o nome que quiser. Todo dia você escolhe entre seis pequenos momentos: servir o jantar, brincar, escovar o pelo, ficar juntinhos, tirar uma soneca ou explorar. Você descobre as comidas e os brinquedos favoritos do seu gato, depois compartilha o próximo capítulo da história e escolhe como ajudar. São 14 capítulos, com uma tempestade, uma meia roubada, uma tarde quieta demais e novas amizades. Suas escolhas são lembradas e levam a um de três finais, e os dias continuam depois do último capítulo. Dois minijogos de toque: perseguir um brinquedo ou seguir um padrão. Os botões que você ganha compram uma almofada, um arranhador, um poleiro na janela e mais, e cada momento vai para o livro de memórias. Três espaços de salvamento. Sem punição por ausência: seu gato descansa em segurança enquanto você está fora. Sem conta, sem chat, sem compras. Grátis com anúncios."
    },
-   "status": "Store prep",
-   "storeUrl": "",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.kittycat",
    "screenshots": [
     "shots/kittycat/01.jpg",
     "shots/kittycat/02.jpg",
     "shots/kittycat/03.jpg",
     "shots/kittycat/04.jpg",
     "shots/kittycat/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/kittycat"
   },
   {
    "slug": "last-lantern",
@@ -3962,7 +4052,7 @@
    "shippingName": "Last Lantern",
    "sourceDir": "D:/Crystl/projectarcade/apps/02_last_lantern",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectofficeofficial/releases/projectarcade/02_last_lantern/en-US/icon.png",
    "nameMismatchNote": "",
@@ -3987,14 +4077,15 @@
     "es": "Queda una luz, y tu trabajo es que no se apague. Last Lantern es un juego compacto de precisión y atención. Los ataques llegan por la izquierda y por la derecha, cada uno con un aviso, y tocas el lado correcto para bloquear. Hazlo al ritmo del anillo y el bloqueo será perfecto. Los bloqueos precisos encadenan golpes y acumulan concentración para un contraataque amplio. Los símbolos huecos son fintas que ponen a prueba tu paciencia, y cuando aparece la señal de respiración dejas de tocar para que la linterna se recupere. Tus vidas son llamas. Hay 12 retos, y cada uno se supera completando 12 objetivos: bronce por superarlo, plata si pierdes como mucho una vida, oro si no pierdes ninguna. La práctica te deja aprender las secuencias al 70, 85 o 100 por ciento de velocidad y guarda sus resultados aparte. Las ascuas que ganas desbloquean colores para la linterna, que solo cambian su aspecto. Juega sin conexión y sin cuenta, en inglés, español y portugués de Brasil. Gratis, con anuncios ocasionales entre partidas y anuncios con recompensa opcionales.",
     "pt-BR": "Só resta uma luz, e o seu trabalho é mantê-la acesa. Last Lantern é um jogo compacto de precisão e atenção. Os ataques vêm da esquerda e da direita, cada um com um aviso, e você toca no lado certo para aparar. Acerte no tempo do anel e a aparada é perfeita. Aparadas precisas formam uma sequência e acumulam foco para um contra-ataque amplo. Símbolos vazados são fintas que testam sua paciência, e quando o sinal de respiração aparece você para de tocar e deixa a lanterna se recuperar. Suas vidas são chamas. São 12 desafios, e cada um é vencido ao cumprir 12 objetivos: bronze por concluir, prata se perder no máximo uma vida, ouro se não perder nenhuma. O treino permite aprender os padrões a 70, 85 ou 100 por cento da velocidade e guarda os resultados à parte. As brasas que você ganha desbloqueiam cores para a lanterna, que só mudam a aparência. Jogue offline e sem conta, em inglês, espanhol e português do Brasil. Grátis, com anúncios ocasionais entre partidas e anúncios com recompensa opcionais."
    },
-   "status": "Store prep",
-   "storeUrl": "",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.lastlantern",
    "screenshots": [
     "shots/last-lantern/01.jpg",
     "shots/last-lantern/02.jpg",
     "shots/last-lantern/03.jpg",
     "shots/last-lantern/04.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/lastlantern"
   },
   {
    "slug": "mancala-grove",
@@ -4035,7 +4126,8 @@
     "shots/mancala-grove/03.jpg",
     "shots/mancala-grove/04.jpg",
     "shots/mancala-grove/05.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "monkey-swing",
@@ -4043,7 +4135,7 @@
    "shippingName": "Monkey Swing: Jungle Vine Game",
    "sourceDir": "D:/Crystl/projectcutie/monkeyswing",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectcutie/monkeyswing/store/icon_512.png",
    "nameMismatchNote": "Localized store titles: KO '몽키 스윙: 정글 원숭이 게임', ES 'Monkey Swing: Mono en la Selva', PT 'Monkey Swing: Macaco na Selva'.",
@@ -4068,15 +4160,16 @@
     "es": "Monkey Swing es un juego de balanceo con un solo dedo para niños y adultos. Un monito cúbico vuela por una selva sin fin. Mantén el dedo en la pantalla y una liana sale disparada hacia el gancho, la flor o la rama más cercana, marcada con un aro blanco. Se balancea como un péndulo de verdad. Suelta en la subida y sale volando con toda la velocidad que juntó. Si sueltas muy pronto, se cae; si esperas demasiado, vuelve hacia atrás; y si falla la siguiente liana, cae entre los arbustos. Tu puntuación es la distancia en metros, y los huecos se agrandan mientras avanzas. Los hongos rojos te rescatan de un mal salto con un rebote, y los racimos de plátanos dan monedas. Gástalas en nueve mascotas cúbicas: mono, koala, gato, zorro, conejo, panda, pollito, tigre y loro. Todas se balancean igual, así que elige tu favorita. Gratis con anuncios, nada que comprar, sin cuenta, juega sin conexión.",
     "pt-BR": "Monkey Swing é um jogo de balanço com um dedo só, para crianças e adultos. Um macaquinho cúbico está voando por uma selva sem fim. Segure o dedo na tela e um cipó dispara até o gancho, a flor ou o galho mais próximo, marcado por um anel branco. Ele balança como um pêndulo de verdade. Solte na subida e ele sai voando com toda a velocidade que juntou. Soltou cedo demais, ele cai; segurou demais, ele volta; errou o próximo cipó, ele cai no mato. Sua pontuação é a distância em metros, e os espaços ficam maiores quanto mais longe você vai. Cogumelos vermelhos salvam um pulo ruim com um quique, e cachos de bananas dão moedas. Gaste em nove mascotes cúbicos: macaco, coala, gato, raposa, coelho, panda, pintinho, tigre e papagaio. Todos balançam do mesmo jeito, então escolha o seu favorito. Grátis com anúncios, nada para comprar, sem conta, funciona offline."
    },
-   "status": "Store prep",
-   "storeUrl": "",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.monkeyswing",
    "screenshots": [
     "shots/monkey-swing/01.jpg",
     "shots/monkey-swing/02.jpg",
     "shots/monkey-swing/03.jpg",
     "shots/monkey-swing/04.jpg",
     "shots/monkey-swing/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/cutiepack"
   },
   {
    "slug": "murder-phone-2",
@@ -4117,7 +4210,8 @@
     "shots/murder-phone-2/03.jpg",
     "shots/murder-phone-2/04.jpg",
     "shots/murder-phone-2/05.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "orbit-latch",
@@ -4157,7 +4251,8 @@
     "shots/orbit-latch/02.jpg",
     "shots/orbit-latch/03.jpg",
     "shots/orbit-latch/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "pack-the-van",
@@ -4198,7 +4293,8 @@
     "shots/pack-the-van/03.jpg",
     "shots/pack-the-van/04.jpg",
     "shots/pack-the-van/05.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "office-life",
@@ -4206,7 +4302,7 @@
    "shippingName": "Office Life: Work Texting Game",
    "sourceDir": "D:/Crystl/octoberpush/office",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/octoberpush/office/store/icon-512.png",
    "nameMismatchNote": "The listing body and game call it 'Per My Last Email' (package com.crystllabs.permylastemail). ES/PT store titles: 'Oficina: Juego de Mensajes' / 'Escritório: Jogo de Mensagens'. The store listing rules forbid the phrase 'office politics' (title of another Crystl Labs game).",
@@ -4240,7 +4336,8 @@
     "shots/office-life/03.jpg",
     "shots/office-life/04.jpg",
     "shots/office-life/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/officelife"
   },
   {
    "slug": "pocket-finds",
@@ -4248,7 +4345,7 @@
    "shippingName": "Pocket Finds: Hidden Objects",
    "sourceDir": "D:/Crystl/projectfifty/apps/pocketfinds",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectofficeofficial/releases/projectfifty/pocketfinds/en-US/icon.png",
    "nameMismatchNote": "ES/PT store titles: 'Pocket Finds: Objetos ocultos' (es-419) / 'Pocket Finds: Objetos ocultos' (pt-BR).",
@@ -4281,7 +4378,8 @@
     "shots/pocket-finds/02.jpg",
     "shots/pocket-finds/03.jpg",
     "shots/pocket-finds/04.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/pocketfinds"
   },
   {
    "slug": "pocket-tide",
@@ -4321,7 +4419,8 @@
     "shots/pocket-tide/02.jpg",
     "shots/pocket-tide/03.jpg",
     "shots/pocket-tide/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "quadline-trials",
@@ -4361,7 +4460,8 @@
     "shots/quadline-trials/02.jpg",
     "shots/quadline-trials/03.jpg",
     "shots/quadline-trials/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "reefkeeper",
@@ -4400,7 +4500,8 @@
     "shots/reefkeeper/01.jpg",
     "shots/reefkeeper/02.jpg",
     "shots/reefkeeper/03.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "rooftop-rim",
@@ -4440,7 +4541,8 @@
     "shots/rooftop-rim/02.jpg",
     "shots/rooftop-rim/03.jpg",
     "shots/rooftop-rim/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "slalom-postcards",
@@ -4480,7 +4582,8 @@
     "shots/slalom-postcards/02.jpg",
     "shots/slalom-postcards/03.jpg",
     "shots/slalom-postcards/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "sticky-fingers",
@@ -4521,7 +4624,8 @@
     "shots/sticky-fingers/03.jpg",
     "shots/sticky-fingers/04.jpg",
     "shots/sticky-fingers/05.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "sunset-sideout",
@@ -4561,7 +4665,8 @@
     "shots/sunset-sideout/02.jpg",
     "shots/sunset-sideout/03.jpg",
     "shots/sunset-sideout/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "tack-and-tide",
@@ -4601,7 +4706,8 @@
     "shots/tack-and-tide/02.jpg",
     "shots/tack-and-tide/03.jpg",
     "shots/tack-and-tide/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "tideline-salvage",
@@ -4640,7 +4746,8 @@
     "shots/tideline-salvage/01.jpg",
     "shots/tideline-salvage/02.jpg",
     "shots/tideline-salvage/03.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "valet-pulse",
@@ -4680,7 +4787,8 @@
     "shots/valet-pulse/02.jpg",
     "shots/valet-pulse/03.jpg",
     "shots/valet-pulse/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "what-year-app",
@@ -4721,7 +4829,8 @@
     "shots/what-year-app/02.jpg",
     "shots/what-year-app/03.jpg",
     "shots/what-year-app/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "bento-balance",
@@ -4761,7 +4870,8 @@
     "shots/bento-balance/02.jpg",
     "shots/bento-balance/03.jpg",
     "shots/bento-balance/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "cable-tangle",
@@ -4769,7 +4879,7 @@
    "shippingName": "Cable Tangle: Untangle Puzzle",
    "sourceDir": "D:/Crystl/projectfifty/apps/cabletangle",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectofficeofficial/releases/projectfifty/cabletangle/en-US/icon.png",
    "nameMismatchNote": "",
@@ -4802,7 +4912,8 @@
     "shots/cable-tangle/02.jpg",
     "shots/cable-tangle/03.jpg",
     "shots/cable-tangle/04.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/cabletangle"
   },
   {
    "slug": "castledoku",
@@ -4843,7 +4954,8 @@
     "shots/castledoku/03.jpg",
     "shots/castledoku/04.jpg",
     "shots/castledoku/05.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "critter-drop",
@@ -4884,7 +4996,8 @@
     "shots/critter-drop/03.jpg",
     "shots/critter-drop/04.jpg",
     "shots/critter-drop/05.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "deep-six-hockey",
@@ -4922,7 +5035,8 @@
    "screenshots": [
     "shots/deep-six-hockey/01.jpg",
     "shots/deep-six-hockey/02.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "dune-sail",
@@ -4960,7 +5074,8 @@
    "screenshots": [
     "shots/dune-sail/01.jpg",
     "shots/dune-sail/02.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "fronton-fever",
@@ -4998,7 +5113,8 @@
    "screenshots": [
     "shots/fronton-fever/01.jpg",
     "shots/fronton-fever/02.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "granny-goes-rogue",
@@ -5039,7 +5155,8 @@
     "shots/granny-goes-rogue/03.jpg",
     "shots/granny-goes-rogue/04.jpg",
     "shots/granny-goes-rogue/05.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "inkline-panic",
@@ -5079,7 +5196,8 @@
     "shots/inkline-panic/02.jpg",
     "shots/inkline-panic/03.jpg",
     "shots/inkline-panic/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "keepy-kitty",
@@ -5087,7 +5205,7 @@
    "shippingName": "Keepy Kitty: Cat Balloon Game",
    "sourceDir": "D:/Crystl/projectcutie/keepykitty",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectcutie/keepykitty/store/icon_512.png",
    "nameMismatchNote": "",
@@ -5112,15 +5230,16 @@
     "es": "Keepy Kitty es un juego de globo de un solo toque con una gatita. Un globo rosa baja despacio sobre una pradera soleada y la gatita lo sigue trotando por su cuenta. Toca y ella salta y empuja el globo con la nariz. Cada toque es un punto, y si el globo toca el césped, explota. Importa dónde le da: si toca el lado izquierdo, se va hacia la derecha, y si le da justo en el centro, sube lo más alto. Si tocas demasiado pronto, salta al vacío y necesita un momento para volver a intentarlo, así que gana el buen momento, no tocar rápido. Cuanto más aguantas, más rápido cae el globo. Las ráfagas de viento lo empujan de lado, las abejas cruzan el cielo y luego llega un segundo globo. Lleva el globo hacia las fresas que flotan para ganar monedas y gástalas en nuevas mascotas, desde un pollito y un conejo hasta un panda y un pingüino. Gratis con anuncios opcionales, nada que comprar, sin cuenta y sin conexión una vez instalado.",
     "pt-BR": "Keepy Kitty é um jogo de balão de um toque só com uma gatinha. Um balão rosa desce devagar sobre um campo ensolarado, e a gatinha vai atrás dele sozinha. Toque e ela pula e cutuca o balão com o nariz. Cada toque vale um ponto, e se o balão encostar na grama, ele estoura. Onde ela acerta faz diferença: no lado esquerdo, ele vai para a direita, e bem no meio, ele sobe mais alto. Toque cedo demais e ela pula no vazio e precisa de um instante para tentar de novo, então o tempo certo vale mais que tocar rápido. Quanto mais você aguenta, mais rápido o balão cai. Rajadas de vento empurram o balão para o lado, abelhas cruzam o céu e depois chega um segundo balão. Leve o balão até os morangos flutuantes para ganhar moedas e gaste com novos bichinhos, de um pintinho e um coelho até um panda e um pinguim. Grátis com anúncios opcionais, nada para comprar, sem conta e offline depois de instalado."
    },
-   "status": "Store prep",
-   "storeUrl": "",
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.keepykitty",
    "screenshots": [
     "shots/keepy-kitty/01.jpg",
     "shots/keepy-kitty/02.jpg",
     "shots/keepy-kitty/03.jpg",
     "shots/keepy-kitty/04.jpg",
     "shots/keepy-kitty/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/cutiepack"
   },
   {
    "slug": "korean-word-a-day",
@@ -5161,7 +5280,8 @@
     "shots/korean-word-a-day/02.jpg",
     "shots/korean-word-a-day/03.jpg",
     "shots/korean-word-a-day/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "little-ward",
@@ -5200,7 +5320,8 @@
     "shots/little-ward/01.jpg",
     "shots/little-ward/02.jpg",
     "shots/little-ward/03.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "marble-mandate",
@@ -5240,7 +5361,8 @@
     "shots/marble-mandate/02.jpg",
     "shots/marble-mandate/03.jpg",
     "shots/marble-mandate/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "mr-wonderful",
@@ -5248,7 +5370,7 @@
    "shippingName": "Mr. Wonderful: Text Dating Sim",
    "sourceDir": "https://github.com/CrystlLabs/mrwonderful",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "https://github.com/CrystlLabs/mrwonderful/blob/main/store/icon-512.png",
    "nameMismatchNote": "",
@@ -5282,7 +5404,8 @@
     "shots/mr-wonderful/03.jpg",
     "shots/mr-wonderful/04.jpg",
     "shots/mr-wonderful/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/mrwonderful"
   },
   {
    "slug": "nonogram-neighborhood-puzzles",
@@ -5290,7 +5413,7 @@
    "shippingName": "Nonogram Neighborhood Puzzles",
    "sourceDir": "D:/Crystl/projectfifty/apps/nonogramneighborhood",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectofficeofficial/releases/projectfifty/nonogramneighborhood/en-US/icon.png",
    "nameMismatchNote": "",
@@ -5323,7 +5446,8 @@
     "shots/nonogram-neighborhood-puzzles/02.jpg",
     "shots/nonogram-neighborhood-puzzles/03.jpg",
     "shots/nonogram-neighborhood-puzzles/04.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/nonogramneighborhood"
   },
   {
    "slug": "orbit-yard",
@@ -5362,7 +5486,8 @@
     "shots/orbit-yard/01.jpg",
     "shots/orbit-yard/02.jpg",
     "shots/orbit-yard/03.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "parkade",
@@ -5403,7 +5528,8 @@
     "shots/parkade/03.jpg",
     "shots/parkade/04.jpg",
     "shots/parkade/05.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "picnic-pile",
@@ -5444,7 +5570,8 @@
     "shots/picnic-pile/03.jpg",
     "shots/picnic-pile/04.jpg",
     "shots/picnic-pile/05.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "pocket-playmaker",
@@ -5484,7 +5611,8 @@
     "shots/pocket-playmaker/02.jpg",
     "shots/pocket-playmaker/03.jpg",
     "shots/pocket-playmaker/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "polite-getaway",
@@ -5525,7 +5653,8 @@
     "shots/polite-getaway/03.jpg",
     "shots/polite-getaway/04.jpg",
     "shots/polite-getaway/05.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "rally-remix",
@@ -5565,7 +5694,8 @@
     "shots/rally-remix/02.jpg",
     "shots/rally-remix/03.jpg",
     "shots/rally-remix/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "reef-relay",
@@ -5605,7 +5735,8 @@
     "shots/reef-relay/02.jpg",
     "shots/reef-relay/03.jpg",
     "shots/reef-relay/04.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "second-life-works",
@@ -5644,7 +5775,8 @@
     "shots/second-life-works/01.jpg",
     "shots/second-life-works/02.jpg",
     "shots/second-life-works/03.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "goal-machine",
@@ -5652,7 +5784,7 @@
    "shippingName": "Goal Machine: Soccer Striker",
    "sourceDir": "https://github.com/CrystlLabs/soccerrush",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "https://github.com/CrystlLabs/soccerrush/blob/main/store/icon_512.png",
    "nameMismatchNote": "Package is com.crystllabs.soccerrush; renamed from Soccer Rush to Goal Machine on 2026-09-24. Local folder D:/Crystl/soccerrush is gone, source read from GitHub.",
@@ -5686,7 +5818,8 @@
     "shots/goal-machine/03.jpg",
     "shots/goal-machine/04.jpg",
     "shots/goal-machine/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/goalmachine"
   },
   {
    "slug": "stonecurl-tactics",
@@ -5724,7 +5857,8 @@
    "screenshots": [
     "shots/stonecurl-tactics/01.jpg",
     "shots/stonecurl-tactics/02.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "switchback-couriers",
@@ -5763,7 +5897,8 @@
     "shots/switchback-couriers/01.jpg",
     "shots/switchback-couriers/02.jpg",
     "shots/switchback-couriers/03.jpg"
-   ]
+   ],
+   "itchUrl": ""
   },
   {
    "slug": "roommate-drama",
@@ -5771,7 +5906,7 @@
    "shippingName": "Roommate Drama: Texting Game",
    "sourceDir": "D:/Crystl/octoberpush/roommate",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "Android, PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/octoberpush/roommate/store/icon-512.png",
    "nameMismatchNote": "Package is com.crystllabs.thelease and the listing body and in-app name call the game The Lease; store title is Roommate Drama.",
@@ -5805,7 +5940,8 @@
     "shots/roommate-drama/03.jpg",
     "shots/roommate-drama/04.jpg",
     "shots/roommate-drama/05.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/roommatedrama"
   },
   {
    "slug": "tile-trails",
@@ -5813,7 +5949,7 @@
    "shippingName": "Tile Trails",
    "sourceDir": "D:/Crystl/projectfifty/apps/tiletrails",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectofficeofficial/releases/projectfifty/tiletrails/en-US/icon.png",
    "nameMismatchNote": "",
@@ -5838,14 +5974,15 @@
     "es": "Tile Trails es mahjong solitario a lo largo de un sendero de jardines ilustrados. Encuentra dos fichas libres idénticas, retira la pareja y descubre las capas de abajo. Cada tablero inicial se genera con una solución válida, pero el orden en que lo abres decide si llegas a ella, así que cada jugada cuenta. Los tableros cambian de tamaño a medida que pasas de un jardín a otro, y hay un desafío diario junto al recorrido. Los dibujos de las fichas se distinguen bien y los tableros por capas se leen con claridad. Deshaz movimientos recientes libremente y usa tres pistas gratis por ronda. Si te quedas sin salida, un rescate gratis reordena las fichas restantes en una disposición abierta y resoluble. Si sales a mitad de partida, tu tablero se guarda. Los puzles principales funcionan sin conexión, sin cuenta y sin compras dentro de la app. Los videos con recompensa opcionales dan pistas o rescates extra, y aparecen anuncios ocasionales entre rondas terminadas. Disponible en inglés, español y portugués de Brasil.",
     "pt-BR": "Tile Trails é mahjong paciência ao longo de uma trilha de jardins ilustrados. Encontre duas peças livres idênticas, remova o par e revele as camadas de baixo. Cada tabuleiro inicial é gerado com uma solução válida, mas a ordem em que você abre as peças decide se você chega lá, então cada jogada conta. Os tabuleiros mudam de tamanho conforme você passa de um jardim a outro, e há um desafio diário junto com a jornada. Os desenhos das peças são fáceis de distinguir e os tabuleiros em camadas são claros de ler. Desfaça jogadas recentes à vontade e use três dicas grátis por rodada. Se você se encurralar, um resgate grátis reorganiza as peças restantes num layout aberto e solucionável. Saia no meio do jogo e o tabuleiro fica salvo. Os quebra-cabeças principais funcionam offline, sem conta e sem compras no app. Vídeos premiados opcionais dão dicas ou resgates extras, e anúncios ocasionais aparecem entre rodadas concluídas. Disponível em inglês, espanhol e português do Brasil."
    },
-   "status": "Store prep",
+   "status": "Live",
    "storeUrl": "",
    "screenshots": [
     "shots/tile-trails/01.jpg",
     "shots/tile-trails/02.jpg",
     "shots/tile-trails/03.jpg",
     "shots/tile-trails/04.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/tiletrails"
   },
   {
    "slug": "velogames",
@@ -5880,7 +6017,8 @@
    },
    "status": "In development",
    "storeUrl": "",
-   "screenshots": []
+   "screenshots": [],
+   "itchUrl": ""
   },
   {
    "slug": "word-search-routes",
@@ -5888,7 +6026,7 @@
    "shippingName": "Word Search Routes",
    "sourceDir": "D:/Crystl/projectfifty/apps/wordsearchroutes",
    "tier": "Volume",
-   "platform": "Android",
+   "platform": "PC",
    "onSiteAlready": false,
    "iconSourcePath": "D:/Crystl/projectofficeofficial/releases/projectfifty/wordsearchroutes/en-US/icon.png",
    "nameMismatchNote": "",
@@ -5913,14 +6051,1107 @@
     "es": "Word Search Routes convierte cada sopa de letras en una pequeña expedición. Cada ruta esconde ocho palabras, y las encuentras en líneas rectas en horizontal, vertical o diagonal, en cualquier sentido. Arrastra por las letras, toca la primera y la última letra o usa un teclado. Cada palabra que encuentras deja un rastro de color en el mapa. Hay 12 temas, desde jardines y la costa hasta la música, el cielo nocturno y la cocina, con 96 palabras escogidas en cada idioma. Cambiar el idioma en Ajustes cambia tanto la interfaz como las listas de palabras, en inglés, español o portugués de Brasil, y las palabras con tilde aparecen tal como se escriben. Sigue el recorrido de puzles o vuelve por la ruta diaria. Cada ruta empieza con tres pistas gratis, y las letras iniciales reveladas quedan marcadas mientras buscas. No hay cuenta atrás, y tus hallazgos y pistas se guardan si sales. El juego principal funciona sin conexión, sin cuenta y sin compras dentro de la app. Los videos con recompensa opcionales dan ayuda extra.",
     "pt-BR": "Word Search Routes transforma cada caça-palavras numa pequena expedição. Cada rota esconde oito palavras, e você as encontra em linhas retas na horizontal, vertical ou diagonal, em qualquer sentido. Arraste pelas letras, toque na primeira e na última letra ou use um teclado. Cada palavra encontrada deixa uma trilha colorida no mapa. São 12 temas, de jardins e litoral a música, céu noturno e cozinha, com 96 palavras escolhidas em cada idioma. Trocar o idioma nas Configurações muda a interface e as listas de palavras, em inglês, espanhol ou português do Brasil, e as palavras acentuadas aparecem exatamente como se escrevem. Siga a jornada de quebra-cabeças ou volte para a rota diária. Cada rota começa com três dicas grátis, e as letras iniciais reveladas ficam marcadas enquanto você procura. Não há contagem regressiva, e suas descobertas e dicas ficam salvas se você sair. O jogo principal funciona offline, sem conta e sem compras no app. Vídeos premiados opcionais dão ajuda extra."
    },
-   "status": "Store prep",
+   "status": "Live",
    "storeUrl": "",
    "screenshots": [
     "shots/word-search-routes/01.jpg",
     "shots/word-search-routes/02.jpg",
     "shots/word-search-routes/03.jpg",
     "shots/word-search-routes/04.jpg"
-   ]
+   ],
+   "itchUrl": "https://crystllabs.itch.io/wordsearchroutes"
+  },
+  {
+   "slug": "ashline-ronin",
+   "boardName": "Ashline Ronin",
+   "shippingName": "Ashline Ronin: Samurai Action",
+   "sourceDir": "D:/Crystl/projectanime/games/ashline-ronin",
+   "tier": "Volume",
+   "platform": "Android, PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectanime/store/ashline-ronin/icon.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Ashline Ronin",
+    "ko": "애시라인 로닌",
+    "ja": "アッシュライン・ローニン",
+    "es": "Ashline Ronin",
+    "pt-BR": "Ashline Ronin"
+   },
+   "tagline": {
+    "en": "Read the attack, time the parry, answer with a counter. Anime sword duels.",
+    "ko": "공격을 읽고, 패리 타이밍을 맞추고, 반격으로 끝내세요. 애니메이션 검술 결투.",
+    "ja": "攻撃を読み、パリィを合わせ、反撃で決める。アニメ風の剣の決闘。",
+    "es": "Lee el ataque, clava el bloqueo y responde con un contraataque. Duelos de espada anime.",
+    "pt-BR": "Leia o ataque, acerte o bloqueio e responda com um contra-ataque. Duelos de espada anime."
+   },
+   "desc": {
+    "en": "Draw your blade as Rei, a ronin who wins fights by reading them. Every enemy attack is telegraphed in red, so a clean parry is skill, not luck. Strike, parry and dash while you manage stamina and heat, break a guard, then turn the opening into a combo. Build your ronin between duels and take on bosses that punish button mashing.",
+    "ko": "전투를 읽어서 이기는 로닌, 레이가 되어 검을 뽑으세요. 적의 모든 공격은 붉은 표시로 미리 보이기 때문에, 깔끔한 패리는 운이 아니라 실력입니다. 스태미나와 열기를 관리하며 베고, 막고, 대시하세요. 가드를 무너뜨린 뒤 그 틈을 콤보로 이어가세요. 결투 사이에 로닌을 성장시키고, 버튼 연타를 용서하지 않는 보스에 도전하세요.",
+    "ja": "戦いを読んで勝つ浪人、レイとして刀を抜こう。敵の攻撃はすべて赤い予兆で示されるので、きれいなパリィは運ではなく腕前だ。スタミナと熱を管理しながら斬り、受け、ダッシュする。ガードを崩したら、その隙をコンボにつなげよう。決闘の合間に浪人を育て、連打を許さないボスに挑もう。",
+    "es": "Desenvaina como Rei, un ronin que gana las peleas leyéndolas. Cada ataque enemigo se anuncia en rojo, así que un bloqueo limpio es habilidad, no suerte. Golpea, bloquea y esquiva mientras controlas la resistencia y el calor, rompe la guardia y convierte la apertura en un combo. Mejora a tu ronin entre duelos y enfréntate a jefes que castigan el machacar botones.",
+    "pt-BR": "Saque a espada como Rei, um ronin que vence as lutas lendo cada uma. Todo ataque inimigo é sinalizado em vermelho, então um bloqueio limpo é habilidade, não sorte. Ataque, bloqueie e esquive enquanto controla a estamina e o calor, quebre a guarda e transforme a abertura em combo. Evolua seu ronin entre os duelos e enfrente chefes que punem quem só aperta botão."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.ashlineronin",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/ashline-ronin/01.jpg",
+    "shots/ashline-ronin/02.jpg",
+    "shots/ashline-ronin/03.jpg",
+    "shots/ashline-ronin/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/ashlineronin"
+  },
+  {
+   "slug": "brambleguard",
+   "boardName": "Brambleguard",
+   "shippingName": "Brambleguard: Roguelike Action",
+   "sourceDir": "D:/Crystl/projectcopycat/release/brambleguard",
+   "tier": "Volume",
+   "platform": "Android, PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectcopycat/release/brambleguard/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Brambleguard",
+    "ko": "브램블가드",
+    "ja": "ブランブルガード",
+    "es": "Brambleguard",
+    "pt-BR": "Brambleguard"
+   },
+   "tagline": {
+    "en": "Survive the waves, stack the upgrades, build a new knight every run.",
+    "ko": "몰려오는 적을 버티고, 업그레이드를 쌓고, 매번 새로운 기사를 만드세요.",
+    "ja": "押し寄せる敵を耐え抜き、強化を重ね、毎回新しい騎士を作ろう。",
+    "es": "Sobrevive a las oleadas, combina mejoras y crea un caballero nuevo en cada partida.",
+    "pt-BR": "Sobreviva às ondas, combine melhorias e monte um cavaleiro novo a cada partida."
+   },
+   "desc": {
+    "en": "A tiny guardian against a whole forest. Your attacks fire on their own, so your job is to move: dodge the waves, use the rocks and the marsh, and pick up experience crystals. Each level up offers a choice from nine upgrade paths, from blades and bows to frost and nature orbs, and the right pairs combine into something stronger. Short runs, three trails, no two builds alike.",
+    "ko": "숲 전체에 맞서는 작은 수호자. 공격은 자동으로 나가니, 당신은 움직이기만 하면 됩니다. 적의 물결을 피하고, 바위와 늪을 활용하고, 경험치 수정을 모으세요. 레벨이 오를 때마다 칼날과 활부터 서리와 자연의 구슬까지 아홉 갈래의 업그레이드 중 하나를 고르고, 잘 맞는 조합은 더 강한 기술로 합쳐집니다. 짧은 판, 세 개의 길, 매번 다른 빌드.",
+    "ja": "森全体に立ち向かう小さな守護者。攻撃は自動なので、あなたの仕事は動くこと。敵の波をかわし、岩や沼を使い、経験値のクリスタルを集めよう。レベルアップごとに、剣や弓から氷や自然のオーブまで9系統の強化から選び、相性の良い組み合わせはさらに強い技に変わる。短いラン、3つの小道、同じビルドは二度とない。",
+    "es": "Un guardián diminuto contra todo un bosque. Tus ataques salen solos, así que tu trabajo es moverte: esquiva las oleadas, usa las rocas y el pantano y recoge cristales de experiencia. Cada subida de nivel te deja elegir entre nueve ramas de mejora, de espadas y arcos a escarcha y orbes de naturaleza, y las parejas correctas se combinan en algo más fuerte. Partidas cortas, tres senderos y ninguna build igual.",
+    "pt-BR": "Um guardião minúsculo contra uma floresta inteira. Seus ataques saem sozinhos, então seu trabalho é se mover: desvie das ondas, use as pedras e o pântano e colete cristais de experiência. A cada nível você escolhe entre nove caminhos de melhoria, de lâminas e arcos a gelo e orbes da natureza, e os pares certos se combinam em algo mais forte. Partidas curtas, três trilhas e nenhuma build igual."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.brambleguard",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/brambleguard/01.jpg",
+    "shots/brambleguard/02.jpg",
+    "shots/brambleguard/03.jpg",
+    "shots/brambleguard/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/brambleguard"
+  },
+  {
+   "slug": "mic-drop",
+   "boardName": "Mic Drop",
+   "shippingName": "Mic Drop: Rap Battle Card Game",
+   "sourceDir": "D:/Crystl/projectsingeractor/games/mic-drop",
+   "tier": "Volume",
+   "platform": "Android, PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectsingeractor/games/mic-drop/store/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Mic Drop",
+    "ko": "마이크 드롭",
+    "ja": "マイクドロップ",
+    "es": "Mic Drop",
+    "pt-BR": "Mic Drop"
+   },
+   "tagline": {
+    "en": "Rap battle meets deckbuilding. Chain rhymes, drop bars, save the station.",
+    "ko": "랩 배틀과 덱빌딩의 만남. 라임을 잇고, 펀치라인을 날리고, 방송국을 지키세요.",
+    "ja": "ラップバトル×デッキ構築。韻をつなぎ、バースを落とし、ラジオ局を救え。",
+    "es": "Batalla de rap y construcción de mazos. Encadena rimas, suelta barras y salva la emisora.",
+    "pt-BR": "Batalha de rap com construção de baralho. Encadeie rimas, solte versos e salve a rádio."
+   },
+   "desc": {
+    "en": "Every card is a bar and every turn is a verse. Dez Vega washes dishes and writes rhymes on order tickets, and a media giant is about to buy the community radio station that raised the neighborhood. The only way to stop it is to win the Golden Mic. Fill four beat slots, chain cards from the same rhyme family to multiply Hype, tap on the beat for flow, and break your rival before the crowd turns.",
+    "ko": "모든 카드는 한 줄의 가사, 모든 턴은 한 벌스입니다. 덱스 베가는 접시를 닦으며 주문서 뒷면에 가사를 씁니다. 그런데 대형 미디어 회사가 동네를 키워 온 지역 라디오 방송국을 사들이려 합니다. 막을 방법은 골든 마이크를 따내는 것뿐. 비트 칸 네 개를 채우고, 같은 라임 계열 카드를 이어 하이프를 키우고, 박자에 맞춰 탭해 플로를 살리고, 관중이 등을 돌리기 전에 상대를 무너뜨리세요.",
+    "ja": "カードは1本のバース、ターンは1つのヴァース。デズ・ベガは皿を洗いながら注文伝票にリリックを書いている。そこへ大手メディアが、街を育ててきた地域ラジオ局を買収しようとしている。止める方法はただ一つ、ゴールデンマイクを勝ち取ること。4つのビート枠を埋め、同じ韻のカードをつないでハイプを増やし、リズムに合わせてタップし、観客が離れる前に相手を崩そう。",
+    "es": "Cada carta es una barra y cada turno es un verso. Dez Vega friega platos y escribe rimas en los tickets de pedidos, y un gigante de los medios está a punto de comprar la radio comunitaria que crió al barrio. La única forma de impedirlo es ganar el Micrófono de Oro. Llena cuatro huecos del beat, encadena cartas de la misma familia de rima para multiplicar el Hype, toca al ritmo para el flow y rompe a tu rival antes de que el público se dé la vuelta.",
+    "pt-BR": "Cada carta é um verso e cada turno é uma estrofe. Dez Vega lava pratos e escreve rimas nas comandas, e um gigante da mídia está prestes a comprar a rádio comunitária que criou o bairro. O único jeito de impedir é vencer o Microfone de Ouro. Preencha quatro espaços do beat, encadeie cartas da mesma família de rima para multiplicar o Hype, toque no ritmo para ganhar flow e derrube o rival antes que a plateia vire."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.micdrop",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/mic-drop/01.jpg",
+    "shots/mic-drop/02.jpg",
+    "shots/mic-drop/03.jpg",
+    "shots/mic-drop/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/micdrop"
+  },
+  {
+   "slug": "tumbler",
+   "boardName": "Tumbler",
+   "shippingName": "Tumbler: Lockpick Safe Cracker",
+   "sourceDir": "D:/Crystl/projectpop/games/tumbler",
+   "tier": "Volume",
+   "platform": "Android, PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectpop/games/tumbler/art/icon/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Tumbler",
+    "ko": "텀블러",
+    "ja": "タンブラー",
+    "es": "Tumbler",
+    "pt-BR": "Tumbler"
+   },
+   "tagline": {
+    "en": "Pick 100 locks, crack bank vaults and clear your father's name.",
+    "ko": "자물쇠 100개를 따고, 은행 금고를 열고, 아버지의 누명을 벗기세요.",
+    "ja": "100個の錠を開け、銀行の金庫を破り、父の汚名をそそげ。",
+    "es": "Abre 100 cerraduras, revienta cámaras acorazadas y limpia el nombre de tu padre.",
+    "pt-BR": "Abra 100 fechaduras, arrombe cofres de banco e limpe o nome do seu pai."
+   },
+   "desc": {
+    "en": "Ivy Marsh runs a 24-hour locksmith van. Her father, a famous safecracker who went straight, is doing twelve years for a bank job he swears he never pulled. By day Ivy takes honest calls, by night a retired thief needs her hands. Lock picking is the puzzle: set the tension, lift each pin to the shear line, and feel for the one that binds. Push too hard and the pick snaps.",
+    "ko": "아이비 마시는 24시간 열쇠 수리 밴을 운영합니다. 손을 씻은 전설의 금고털이였던 아버지는 자신은 절대 하지 않았다는 은행 털이로 12년형을 살고 있습니다. 낮에는 정직한 출장을, 밤에는 은퇴한 도둑의 부탁을 받습니다. 자물쇠 따기가 곧 퍼즐입니다. 텐션을 걸고, 핀을 하나씩 전단선까지 올리고, 걸리는 핀을 손끝으로 찾으세요. 너무 세게 밀면 픽이 부러집니다.",
+    "ja": "アイビー・マーシュは24時間営業の鍵屋のバンを走らせている。足を洗った伝説の金庫破りである父は、本人はやっていないと言い張る銀行強盗で懲役12年。昼は真っ当な依頼、夜は引退した泥棒の頼みを受ける。ピッキングそのものがパズルだ。テンションをかけ、ピンを一本ずつシアラインまで上げ、引っかかる一本を探る。強く押しすぎるとピックが折れる。",
+    "es": "Ivy Marsh lleva una furgoneta de cerrajería 24 horas. Su padre, un famoso ladrón de cajas fuertes que se reformó, cumple doce años por un golpe a un banco que jura no haber dado. De día Ivy atiende avisos honrados; de noche, un ladrón retirado necesita sus manos. Forzar cerraduras es el puzle: ajusta la tensión, sube cada pin hasta la línea de corte y busca el que se traba. Aprieta demasiado y la ganzúa se rompe.",
+    "pt-BR": "Ivy Marsh dirige uma van de chaveiro 24 horas. O pai dela, um famoso arrombador de cofres que largou o crime, cumpre doze anos por um assalto a banco que jura não ter feito. De dia Ivy atende chamados honestos; à noite, um ladrão aposentado precisa das mãos dela. Abrir fechaduras é o quebra-cabeça: ajuste a tensão, suba cada pino até a linha de corte e sinta qual está travando. Force demais e a gazua quebra."
+   },
+   "status": "Live",
+   "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.tumbler",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/tumbler/01.jpg",
+    "shots/tumbler/02.jpg",
+    "shots/tumbler/03.jpg",
+    "shots/tumbler/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/tumbler"
+  },
+  {
+   "slug": "cagebound",
+   "boardName": "Cagebound",
+   "shippingName": "Cagebound: MMA Card Fighter",
+   "sourceDir": "D:/Crystl/projectcombat/games/cagebound",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectcombat/games/cagebound/store/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Cagebound",
+    "ko": "케이지바운드",
+    "ja": "ケージバウンド",
+    "es": "Cagebound",
+    "pt-BR": "Cagebound"
+   },
+   "tagline": {
+    "en": "An MMA deckbuilder where every card is a technique. Read the fight, save the gym.",
+    "ko": "모든 카드가 기술인 MMA 덱빌더. 경기를 읽고, 체육관을 지키세요.",
+    "ja": "すべてのカードが技になるMMAデッキ構築。試合を読み、ジムを救え。",
+    "es": "Un deckbuilder de MMA donde cada carta es una técnica. Lee la pelea y salva el gimnasio.",
+    "pt-BR": "Um deckbuilder de MMA em que cada carta é uma técnica. Leia a luta e salve a academia."
+   },
+   "desc": {
+    "en": "Ironwood MMA is running out of time, so Coach Dell Marsh enters three fighters in the Apex Grand Prix to save the gym. Every card is a real technique, tied to standing range, the clinch or the ground. You see your opponent's next move before you commit, so the fight is about reading and position: target head, body or legs, take top control and chain setups into a finish. 160 cards, three styles, eight fights.",
+    "ko": "아이언우드 MMA에 남은 시간이 없습니다. 델 마시 코치는 체육관을 지키려고 세 명의 선수를 에이펙스 그랑프리에 내보냅니다. 모든 카드는 실제 기술이며, 스탠딩, 클린치, 그라운드 중 한 자세에 묶여 있습니다. 상대의 다음 수를 미리 보고 결정하기 때문에, 승부는 읽기와 포지션에 달려 있습니다. 머리, 몸통, 다리를 노리고, 톱 포지션을 잡고, 셋업을 이어 피니시로 끝내세요. 카드 160장, 세 가지 스타일, 여덟 경기.",
+    "ja": "アイアンウッドMMAには時間がない。デル・マーシュコーチはジムを救うため、3人の選手をエイペックス・グランプリに送り込む。カードはすべて実在の技で、スタンド、クリンチ、グラウンドのいずれかに結びついている。相手の次の手を見てから決めるので、勝負は読みとポジション取り。頭、ボディ、脚を狙い、トップを取り、仕掛けをつないでフィニッシュへ。カード160枚、3つのスタイル、8試合。",
+    "es": "A Ironwood MMA se queda sin tiempo, así que el entrenador Dell Marsh inscribe a tres luchadores en el Gran Premio Apex para salvar el gimnasio. Cada carta es una técnica real, ligada a la distancia de pie, el clinch o el suelo. Ves el siguiente movimiento del rival antes de decidir, así que la pelea va de leer y de posición: apunta a cabeza, cuerpo o piernas, toma el control arriba y encadena preparaciones hasta el final. 160 cartas, tres estilos, ocho peleas.",
+    "pt-BR": "A Ironwood MMA está sem tempo, então o técnico Dell Marsh inscreve três lutadores no Grand Prix Apex para salvar a academia. Cada carta é uma técnica real, ligada à luta em pé, ao clinch ou ao chão. Você vê o próximo golpe do rival antes de decidir, então a luta é leitura e posição: mire cabeça, corpo ou pernas, pegue a montada e encadeie preparações até a finalização. 160 cartas, três estilos, oito lutas."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/cagebound/01.jpg",
+    "shots/cagebound/02.jpg",
+    "shots/cagebound/03.jpg",
+    "shots/cagebound/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/cagebound"
+  },
+  {
+   "slug": "scrubbed",
+   "boardName": "Scrubbed",
+   "shippingName": "Scrubbed: Crime Scene Cleaner",
+   "sourceDir": "D:/Crystl/projecttruecrime/scrubbed",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projecttruecrime/scrubbed/store/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Scrubbed",
+    "ko": "스크럽드",
+    "ja": "スクラブド",
+    "es": "Scrubbed",
+    "pt-BR": "Scrubbed"
+   },
+   "tagline": {
+    "en": "Clean up crime scenes the police closed, and find what they missed.",
+    "ko": "경찰이 종결한 사건 현장을 청소하고, 그들이 놓친 것을 찾아내세요.",
+    "ja": "警察が幕を引いた事件現場を掃除し、見落とされたものを見つけ出せ。",
+    "es": "Limpia escenas del crimen que la policía cerró y encuentra lo que se le escapó.",
+    "pt-BR": "Limpe cenas de crime que a polícia encerrou e encontre o que ela deixou passar."
+   },
+   "desc": {
+    "en": "Mara Quinn was a homicide detective until she asked the wrong question. Now she and Lou run a two-person crime scene cleaning company, and every job is a closed case. Scrub stains layer by layer, vacuum the glass, bag the trash and set the furniture back up. Then sweep the UV lamp across the floor, because at scene after scene the same brass button keeps turning up.",
+    "ko": "마라 퀸은 잘못된 질문을 하기 전까지 강력계 형사였습니다. 이제 그녀는 루와 함께 둘뿐인 사건 현장 청소 업체를 운영하고, 모든 의뢰는 이미 종결된 사건입니다. 얼룩을 한 겹씩 문질러 지우고, 유리 조각을 빨아들이고, 쓰레기를 담고, 쓰러진 가구를 세우세요. 그리고 UV 램프로 바닥을 훑으세요. 현장마다 똑같은 황동 단추가 계속 나오니까요.",
+    "ja": "マーラ・クインは、まずい質問をするまでは殺人課の刑事だった。今は相棒のルーと二人で事件現場の清掃会社を営み、依頼はどれも解決済みの事件ばかり。シミを一層ずつこすり落とし、ガラスを吸い取り、ゴミを袋に入れ、倒れた家具を起こす。そしてUVライトで床を照らそう。どの現場にも、同じ真鍮のボタンが落ちているのだから。",
+    "es": "Mara Quinn era detective de homicidios hasta que hizo la pregunta equivocada. Ahora ella y Lou llevan una empresa de limpieza de escenas del crimen de dos personas, y cada trabajo es un caso cerrado. Frota las manchas capa a capa, aspira los cristales, embolsa la basura y levanta los muebles. Después pasa la lámpara UV por el suelo, porque en escena tras escena aparece el mismo botón de latón.",
+    "pt-BR": "Mara Quinn era detetive de homicídios até fazer a pergunta errada. Agora ela e Lou tocam uma empresa de limpeza de cenas de crime de duas pessoas, e todo serviço é um caso encerrado. Esfregue as manchas camada por camada, aspire os cacos, ensaque o lixo e levante os móveis. Depois passe a lâmpada UV pelo chão, porque cena após cena aparece o mesmo botão de latão."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/scrubbed/01.jpg",
+    "shots/scrubbed/02.jpg",
+    "shots/scrubbed/03.jpg",
+    "shots/scrubbed/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/scrubbed"
+  },
+  {
+   "slug": "prism-post",
+   "boardName": "Prism Post",
+   "shippingName": "Prism Post: Stained Glass Art",
+   "sourceDir": "D:/Crystl/projectoccupation/games/prism-post",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectoccupation/games/prism-post/icon.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Prism Post",
+    "ko": "프리즘 포스트",
+    "ja": "プリズムポスト",
+    "es": "Prism Post",
+    "pt-BR": "Prism Post"
+   },
+   "tagline": {
+    "en": "Restore stained-glass windows, deliver lost letters and color your own story.",
+    "ko": "스테인드글라스 창을 복원하고, 잃어버린 편지를 전하고, 나만의 이야기를 칠하세요.",
+    "ja": "ステンドグラスを修復し、迷子の手紙を届け、自分の物語を彩ろう。",
+    "es": "Restaura vidrieras, entrega cartas perdidas y colorea tu propia historia.",
+    "pt-BR": "Restaure vitrais, entregue cartas perdidas e pinte a sua própria história."
+   },
+   "desc": {
+    "en": "A bag of faded letters is waiting for you. Color 60 stained-glass windows across five island chapters, and each finished window brings back a memory and a letter to deliver. Mix pigments, zoom into the small regions, or switch to free coloring. Unlimited undo, no timer, and every restored window stays in your collection.",
+    "ko": "빛바랜 편지 한 자루가 당신을 기다립니다. 다섯 개의 섬 챕터에 걸쳐 60개의 스테인드글라스 창을 칠하세요. 창을 하나 완성할 때마다 추억 하나와 전할 편지 하나가 돌아옵니다. 물감을 섞고, 작은 칸을 확대하거나, 자유 칠하기로 바꿀 수도 있습니다. 무제한 되돌리기, 타이머 없음, 복원한 창은 모두 컬렉션에 남습니다.",
+    "ja": "色あせた手紙の袋があなたを待っている。5つの島の章で60枚のステンドグラスを塗ろう。1枚仕上げるたびに、思い出と届けるべき手紙がひとつ戻ってくる。絵の具を混ぜ、細かい部分を拡大し、自由塗りにも切り替えられる。取り消しは無制限、タイマーなし、修復した窓はすべてコレクションに残る。",
+    "es": "Una bolsa de cartas descoloridas te espera. Colorea 60 vidrieras en cinco capítulos de isla, y cada ventana terminada devuelve un recuerdo y una carta que entregar. Mezcla pigmentos, amplía las zonas pequeñas o pasa al coloreado libre. Deshacer ilimitado, sin cronómetro, y cada ventana restaurada se queda en tu colección.",
+    "pt-BR": "Uma sacola de cartas desbotadas espera por você. Pinte 60 vitrais em cinco capítulos de ilha, e cada janela pronta traz de volta uma lembrança e uma carta para entregar. Misture pigmentos, amplie as áreas pequenas ou mude para a pintura livre. Desfazer ilimitado, sem cronômetro, e cada vitral restaurado fica na sua coleção."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/prism-post/01.jpg",
+    "shots/prism-post/02.jpg",
+    "shots/prism-post/03.jpg",
+    "shots/prism-post/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/prismpost"
+  },
+  {
+   "slug": "blue-hour",
+   "boardName": "Blue Hour",
+   "shippingName": "Blue Hour: Scuba Diving Story",
+   "sourceDir": "D:/Crystl/projectnext/games/blue-hour",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectnext/store/blue-hour/icon-512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Blue Hour",
+    "ko": "블루 아워",
+    "ja": "ブルーアワー",
+    "es": "Blue Hour",
+    "pt-BR": "Blue Hour"
+   },
+   "tagline": {
+    "en": "A cozy reef adventure: photograph wildlife and finish a family journal.",
+    "ko": "아늑한 산호초 모험. 바다 생물을 찍고 가족의 일지를 완성하세요.",
+    "ja": "心やすらぐサンゴ礁の冒険。生き物を撮り、家族の日誌を完成させよう。",
+    "es": "Una aventura tranquila en el arrecife: fotografía la fauna y termina un diario familiar.",
+    "pt-BR": "Uma aventura tranquila no recife: fotografe a vida marinha e termine um diário de família."
+   },
+   "desc": {
+    "en": "Your mother left an unfinished reef journal. Take the boat out across six reefs and 24 research dives, swim freely, steady your camera and photograph 12 animals in three behaviors each. Watch your air and follow the marker back to the boat. Upgrade your lens, tank and fins, and decide over six chapters what her research becomes.",
+    "ko": "어머니가 미완성 산호초 일지를 남겼습니다. 배를 타고 여섯 곳의 산호초에서 24번의 연구 다이빙을 하며, 자유롭게 헤엄치고, 카메라를 고정해 12종의 동물을 각각 세 가지 행동으로 촬영하세요. 남은 공기를 확인하고 표시를 따라 배로 돌아오세요. 렌즈, 탱크, 핀을 업그레이드하며, 여섯 챕터에 걸쳐 어머니의 연구가 어떻게 남을지 정하세요.",
+    "ja": "母が書きかけのサンゴ礁日誌を残していった。船を出し、6つのサンゴ礁で24回の調査ダイブへ。自由に泳ぎ、カメラを構え、12種の生き物をそれぞれ3つの行動で撮影しよう。残りの空気に気をつけ、目印をたどって船に戻る。レンズ、タンク、フィンを強化し、6つの章を通して母の研究の行く末を決めよう。",
+    "es": "Tu madre dejó un diario del arrecife sin terminar. Sal en barco a seis arrecifes y 24 inmersiones de investigación, nada libremente, estabiliza la cámara y fotografía 12 animales en tres comportamientos cada uno. Vigila el aire y sigue la marca de vuelta al barco. Mejora la lente, el tanque y las aletas, y decide a lo largo de seis capítulos en qué se convierte su investigación.",
+    "pt-BR": "Sua mãe deixou um diário do recife inacabado. Saia de barco por seis recifes e 24 mergulhos de pesquisa, nade livremente, firme a câmera e fotografe 12 animais em três comportamentos cada. Fique de olho no ar e siga a marca de volta ao barco. Melhore a lente, o cilindro e as nadadeiras, e decida ao longo de seis capítulos o que a pesquisa dela vai virar."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/blue-hour/01.jpg",
+    "shots/blue-hour/02.jpg",
+    "shots/blue-hour/03.jpg",
+    "shots/blue-hour/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/bluehour"
+  },
+  {
+   "slug": "blush-hour",
+   "boardName": "Blush Hour",
+   "shippingName": "Blush Hour: 3D Makeup Studio",
+   "sourceDir": "D:/Crystl/projectpop/games/blush-hour",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectpop/games/blush-hour/art/icon/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Blush Hour",
+    "ko": "블러시 아워",
+    "ja": "ブラッシュアワー",
+    "es": "Blush Hour",
+    "pt-BR": "Blush Hour"
+   },
+   "tagline": {
+    "en": "Paint real makeup on 3D faces and save your aunt's salon in ten weeks.",
+    "ko": "3D 얼굴에 진짜 메이크업을 그리고, 10주 안에 이모의 미용실을 살리세요.",
+    "ja": "3Dの顔に本物のメイクを描き、10週間で叔母のサロンを救おう。",
+    "es": "Pinta maquillaje real en caras 3D y salva el salón de tu tía en diez semanas.",
+    "pt-BR": "Pinte maquiagem de verdade em rostos 3D e salve o salão da sua tia em dez semanas."
+   },
+   "desc": {
+    "en": "Rosa has ten weeks to save Tia Celia's little salon before the Golden Brush contest. Every client is a 3D head, and you paint straight onto the skin with the mouse: foundation, contour, blush, eyeshadow, liner, lashes, lipstick, glitter and gems. Switch to the eyes or lips for detail work, take the photo, and bring the street back to life one face at a time.",
+    "ko": "로사에게는 골든 브러시 대회 전까지 셀리아 이모의 작은 미용실을 살릴 10주가 있습니다. 모든 손님은 3D 얼굴이고, 마우스로 피부에 직접 그립니다. 파운데이션, 컨투어, 블러셔, 아이섀도, 아이라이너, 속눈썹, 립스틱, 글리터, 보석까지. 눈이나 입술 화면으로 바꿔 디테일을 다듬고, 사진을 찍고, 한 얼굴씩 거리에 활기를 되찾아 주세요.",
+    "ja": "ロサにはゴールデンブラシ・コンテストまでの10週間で、セリア叔母さんの小さなサロンを救う使命がある。お客さんはみんな3Dの顔で、マウスで肌に直接メイクする。ファンデーション、コントゥア、チーク、アイシャドウ、ライナー、まつげ、リップ、グリッター、ストーン。目や唇の画面で細部を仕上げ、写真を撮り、一人ずつ通りに活気を取り戻そう。",
+    "es": "Rosa tiene diez semanas para salvar el pequeño salón de la tía Celia antes del concurso Pincel de Oro. Cada clienta es una cabeza 3D y pintas directamente sobre la piel con el ratón: base, contorno, colorete, sombras, delineador, pestañas, pintalabios, purpurina y gemas. Cambia a la vista de ojos o labios para los detalles, haz la foto y devuelve la vida a la calle cara a cara.",
+    "pt-BR": "Rosa tem dez semanas para salvar o salãozinho da Tia Célia antes do concurso Pincel de Ouro. Cada cliente é uma cabeça 3D, e você pinta direto na pele com o mouse: base, contorno, blush, sombra, delineador, cílios, batom, glitter e pedrarias. Mude para a vista dos olhos ou da boca para os detalhes, tire a foto e devolva a vida à rua, um rosto de cada vez."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/blush-hour/01.jpg",
+    "shots/blush-hour/02.jpg",
+    "shots/blush-hour/03.jpg",
+    "shots/blush-hour/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/blushhour"
+  },
+  {
+   "slug": "twistworld",
+   "boardName": "Twistworld",
+   "shippingName": "Twistworld: Cube Puzzle",
+   "sourceDir": "D:/Crystl/projectpop/games/twistworld",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectpop/games/twistworld/art/icon/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Twistworld",
+    "ko": "트위스트월드",
+    "ja": "ツイストワールド",
+    "es": "Twistworld",
+    "pt-BR": "Twistworld"
+   },
+   "tagline": {
+    "en": "A tiny kingdom lives on a cube. Twist it back together, or speed-solve.",
+    "ko": "큐브 위에 사는 작은 왕국. 비틀어서 되돌리거나, 스피드 큐브로 도전하세요.",
+    "ja": "キューブの上の小さな王国。ひねって元に戻すか、スピードで解こう。",
+    "es": "Un reino diminuto vive en un cubo. Gíralo hasta recomponerlo o resuélvelo a toda velocidad.",
+    "pt-BR": "Um reino minúsculo vive num cubo. Gire até remontar ou resolva no modo velocidade."
+   },
+   "desc": {
+    "en": "Quadra is a tiny kingdom on the six faces of a cube, and a sulky storm spirit has twisted it out of shape. Roads end in rivers and rivers run up hills. Each face is a 3x3 map of tiles: drag a row to twist a layer, just like a classic cube, and the roads and rivers move between faces. Reconnect the paths so Pip the mail runner can finish the route.",
+    "ko": "콰드라는 큐브의 여섯 면 위에 있는 작은 왕국인데, 심술궂은 폭풍 정령이 모든 것을 비틀어 놓았습니다. 길은 강에서 끊기고, 강은 언덕을 거슬러 흐릅니다. 각 면은 3x3 타일 지도입니다. 클래식 큐브처럼 줄을 드래그해 층을 돌리면, 길과 강이 면과 면 사이를 오갑니다. 길을 다시 이어 우편배달부 핍이 배달을 마치게 도와주세요.",
+    "ja": "クアドラはキューブの6つの面にある小さな王国。ところが、すねた嵐の精霊がすべてをねじ曲げてしまった。道は川で途切れ、川は丘を上っていく。各面は3x3のタイルの地図。クラシックなキューブのように列をドラッグして層を回すと、道や川が面から面へ移動する。道をつなぎ直して、郵便配達のピップが配達を終えられるようにしよう。",
+    "es": "Quadra es un reino diminuto en las seis caras de un cubo, y un espíritu de tormenta enfurruñado lo ha retorcido. Los caminos acaban en ríos y los ríos suben colinas. Cada cara es un mapa de 3x3 casillas: arrastra una fila para girar una capa, como en un cubo clásico, y los caminos y ríos pasan de una cara a otra. Vuelve a unir las rutas para que Pip, el cartero, termine su reparto.",
+    "pt-BR": "Quadra é um reino minúsculo nas seis faces de um cubo, e um espírito da tempestade emburrado deixou tudo torto. Estradas terminam em rios e rios sobem morros. Cada face é um mapa de 3x3 peças: arraste uma fileira para girar uma camada, como num cubo clássico, e as estradas e rios passam de uma face para outra. Religue os caminhos para o carteiro Pip terminar a entrega."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/twistworld/01.jpg",
+    "shots/twistworld/02.jpg",
+    "shots/twistworld/03.jpg",
+    "shots/twistworld/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/twistworld"
+  },
+  {
+   "slug": "window-seat",
+   "boardName": "Window Seat",
+   "shippingName": "Window Seat: Travel Photos",
+   "sourceDir": "D:/Crystl/projectpop/games/window-seat",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectpop/games/window-seat/art/icon/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Window Seat",
+    "ko": "윈도 시트",
+    "ja": "ウィンドウシート",
+    "es": "Window Seat",
+    "pt-BR": "Window Seat"
+   },
+   "tagline": {
+    "en": "Ride scenic trains, ferries and buses, and photograph what flashes past your window.",
+    "ko": "경치 좋은 기차, 페리, 버스를 타고 창밖을 스치는 풍경을 찍으세요.",
+    "ja": "景色の良い列車やフェリー、バスに乗り、窓の外を流れる一瞬を撮ろう。",
+    "es": "Viaja en trenes, ferris y autobuses panorámicos y fotografía lo que pasa por tu ventana.",
+    "pt-BR": "Viaje de trem, balsa e ônibus panorâmicos e fotografe o que passa pela sua janela."
+   },
+   "desc": {
+    "en": "Mara finds a shoebox of postcards from her grandmother's year on the road in 1974, and each one says the same thing: find the view I saw. Ride trains, ferries and buses through six regions while the world rolls past. Drag to aim, zoom and shoot, but film is limited, so wait for the moment: the stag lifting its head, the lighthouse winking at dusk.",
+    "ko": "마라는 할머니가 1974년 한 해 동안 여행하며 보낸 엽서가 든 신발 상자를 발견합니다. 엽서마다 같은 말이 적혀 있습니다. 내가 본 풍경을 찾아봐. 세상이 창밖으로 흘러가는 동안 기차, 페리, 버스를 타고 여섯 지역을 여행하세요. 드래그로 겨누고, 확대하고, 셔터를 누르세요. 필름은 한정되어 있으니 순간을 기다리세요. 고개를 드는 수사슴, 해 질 녘 깜빡이는 등대.",
+    "ja": "マーラは、祖母が1974年に旅をした1年間の絵はがきが詰まった靴箱を見つける。どの絵はがきにも同じ言葉。「私が見た景色を探して」。世界が窓の外を流れていく中、列車、フェリー、バスで6つの地域を旅しよう。ドラッグで狙い、ズームしてシャッター。フィルムには限りがあるから、その瞬間を待とう。顔を上げる牡鹿、夕暮れにまたたく灯台。",
+    "es": "Mara encuentra una caja de zapatos con postales del año que su abuela pasó viajando en 1974, y todas dicen lo mismo: encuentra la vista que yo vi. Recorre seis regiones en tren, ferri y autobús mientras el mundo pasa por la ventana. Arrastra para apuntar, haz zoom y dispara, pero el carrete es limitado, así que espera el momento: el ciervo que levanta la cabeza, el faro que guiña al atardecer.",
+    "pt-BR": "Mara encontra uma caixa de sapatos com cartões-postais do ano em que a avó viajou em 1974, e todos dizem a mesma coisa: encontre a vista que eu vi. Percorra seis regiões de trem, balsa e ônibus enquanto o mundo passa pela janela. Arraste para mirar, dê zoom e fotografe, mas o filme é limitado, então espere o momento: o cervo erguendo a cabeça, o farol piscando ao entardecer."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/window-seat/01.jpg",
+    "shots/window-seat/02.jpg",
+    "shots/window-seat/03.jpg",
+    "shots/window-seat/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/windowseat"
+  },
+  {
+   "slug": "red-thread",
+   "boardName": "Red Thread",
+   "shippingName": "Red Thread: World Thief Chase",
+   "sourceDir": "D:/Crystl/projectpop/games/red-thread",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectpop/games/red-thread/art/icon/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Red Thread",
+    "ko": "레드 스레드",
+    "ja": "レッドスレッド",
+    "es": "Red Thread",
+    "pt-BR": "Red Thread"
+   },
+   "tagline": {
+    "en": "Chase a master thief across 40 cities. Read the clues, make the arrest.",
+    "ko": "40개 도시를 넘나드는 대도둑을 쫓으세요. 단서를 읽고, 체포하세요.",
+    "ja": "40都市をまたぐ大怪盗を追え。手がかりを読み、逮捕せよ。",
+    "es": "Persigue a un ladrón maestro por 40 ciudades. Lee las pistas y haz el arresto.",
+    "pt-BR": "Persiga um ladrão mestre por 40 cidades. Leia as pistas e faça a prisão."
+   },
+   "desc": {
+    "en": "On your first day at a tiny art-crime unit in Lisbon, a priceless crown vanishes. Behind it is a ring of sixteen specialist thieves, and every calling card is in the handwriting of your old mentor, who died three years ago. Or did she? Follow the clues city to city across the world, pin the evidence on the board and make the arrest before the trail goes cold.",
+    "ko": "리스본의 작은 미술품 범죄 수사팀에 출근한 첫날, 값을 매길 수 없는 왕관이 사라집니다. 그 뒤에는 16명의 전문 도둑 조직이 있고, 모든 예고장은 3년 전에 죽은 옛 스승의 필체로 적혀 있습니다. 정말 죽었을까요? 전 세계를 도시에서 도시로 단서를 따라가고, 증거를 보드에 꽂고, 흔적이 식기 전에 체포하세요.",
+    "ja": "リスボンの小さな美術犯罪班に初出勤した日、値のつけられない王冠が消えた。その裏には16人の専門泥棒の一味がいて、予告状はすべて3年前に亡くなった恩師の筆跡で書かれている。本当に亡くなったのか? 世界中を都市から都市へ手がかりを追い、証拠をボードに貼り、足取りが途絶える前に逮捕しよう。",
+    "es": "En tu primer día en una pequeña unidad de delitos artísticos de Lisboa desaparece una corona de valor incalculable. Detrás hay una banda de dieciséis ladrones especialistas, y cada tarjeta de visita lleva la letra de tu antigua mentora, que murió hace tres años. ¿O no? Sigue las pistas de ciudad en ciudad por todo el mundo, clava las pruebas en el tablero y haz el arresto antes de que se enfríe el rastro.",
+    "pt-BR": "No seu primeiro dia numa pequena unidade de crimes contra a arte em Lisboa, uma coroa de valor inestimável some. Por trás está uma quadrilha de dezesseis ladrões especialistas, e cada cartão de visita tem a letra da sua antiga mentora, que morreu há três anos. Será? Siga as pistas de cidade em cidade pelo mundo, prenda as provas no quadro e faça a prisão antes que a pista esfrie."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/red-thread/01.jpg",
+    "shots/red-thread/02.jpg",
+    "shots/red-thread/03.jpg",
+    "shots/red-thread/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/redthread"
+  },
+  {
+   "slug": "brake-point",
+   "boardName": "Brake Point",
+   "shippingName": "Brake Point: Driving Academy",
+   "sourceDir": "D:/Crystl/projectpop/games/brake-point",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectpop/games/brake-point/art/icon/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Brake Point",
+    "ko": "브레이크 포인트",
+    "ja": "ブレーキポイント",
+    "es": "Brake Point",
+    "pt-BR": "Brake Point"
+   },
+   "tagline": {
+    "en": "Master racing lines, perfect braking and spotting hazards before they happen.",
+    "ko": "레이싱 라인, 완벽한 제동, 위험을 미리 알아채는 법을 익히세요.",
+    "ja": "レーシングライン、完璧なブレーキ、危険の先読みを身につけよう。",
+    "es": "Domina las trazadas, la frenada perfecta y ver el peligro antes de que ocurra.",
+    "pt-BR": "Domine o traçado, a frenagem perfeita e enxergar o perigo antes de ele acontecer."
+   },
+   "desc": {
+    "en": "Jo Reyes was a teenage karting star until a crash she still won't talk about. Now her grandfather's driving school is down to three students and a franchise has opened across the street. Teach, and relearn, three skills: hit every apex on the racing line, stop inside the box without locking the wheels, and click each hazard the moment it starts as the car drives through town.",
+    "ko": "조 레예스는 아직도 말하지 않는 사고 전까지 십대 카트 스타였습니다. 지금 할아버지의 운전 학원에는 학생이 세 명뿐이고, 길 건너에는 프랜차이즈 학원이 문을 열었습니다. 세 가지 기술을 가르치고, 다시 배우세요. 레이싱 라인의 모든 에이펙스를 통과하고, 바퀴를 잠그지 않고 박스 안에 멈추고, 차가 시내를 달리는 동안 위험이 시작되는 순간 클릭하세요.",
+    "ja": "ジョー・レイエスは、今も語らない事故までは10代のカート界のスターだった。今、祖父の自動車学校の生徒は3人だけ、通りの向かいにはフランチャイズ校ができた。3つの技術を教え、学び直そう。レーシングラインのすべてのエイペックスを通り、タイヤをロックさせずに枠内で止まり、町を走る車の中で危険が始まった瞬間にクリックする。",
+    "es": "Jo Reyes era una estrella adolescente del karting hasta un accidente del que todavía no habla. Ahora la autoescuela de su abuelo tiene tres alumnos y una franquicia ha abierto enfrente. Enseña, y vuelve a aprender, tres habilidades: pasa por cada vértice de la trazada, frena dentro de la caja sin bloquear las ruedas y marca cada peligro en cuanto empieza mientras el coche recorre la ciudad.",
+    "pt-BR": "Jo Reyes era uma estrela adolescente do kart até um acidente sobre o qual ela ainda não fala. Agora a autoescola do avô tem três alunos e uma franquia abriu do outro lado da rua. Ensine, e reaprenda, três habilidades: passe por cada tangência do traçado, pare dentro da caixa sem travar as rodas e clique em cada perigo assim que ele começa enquanto o carro roda pela cidade."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/brake-point/01.jpg",
+    "shots/brake-point/02.jpg",
+    "shots/brake-point/03.jpg",
+    "shots/brake-point/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/brakepoint"
+  },
+  {
+   "slug": "night-signal",
+   "boardName": "Night Signal",
+   "shippingName": "Night Signal: Morse Code Story",
+   "sourceDir": "D:/Crystl/projectpop/games/night-signal",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectpop/games/night-signal/art/icon/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Night Signal",
+    "ko": "나이트 시그널",
+    "ja": "ナイトシグナル",
+    "es": "Night Signal",
+    "pt-BR": "Night Signal"
+   },
+   "tagline": {
+    "en": "Learn real Morse code as a 1962 radio operator guiding ships through storms.",
+    "ko": "1962년의 무선 통신사가 되어 폭풍 속 배를 이끌며 진짜 모스 부호를 배우세요.",
+    "ja": "1962年の無線通信士となり、嵐の中の船を導きながら本物のモールス信号を学ぼう。",
+    "es": "Aprende código Morse real como operadora de radio en 1962, guiando barcos en la tormenta.",
+    "pt-BR": "Aprenda código Morse de verdade como operadora de rádio em 1962, guiando navios na tempestade."
+   },
+   "desc": {
+    "en": "Autumn 1962. Sol keeps a lonely signal station running after her father vanishes with the supply boat. Then, on the distress frequency, she hears a signal sent with his unmistakable rhythm. Night Signal teaches International Morse Code the way operators learned it: by ear, two letters at a time. From the first night you copy real messages, and your share of every one grows.",
+    "ko": "1962년 가을. 아버지가 보급선과 함께 사라진 뒤, 솔은 외딴 신호소를 홀로 지킵니다. 그러던 어느 날, 조난 주파수에서 아버지 특유의 리듬으로 보낸 신호가 들려옵니다. 나이트 시그널은 국제 모스 부호를 통신사들이 배운 방식 그대로 가르칩니다. 귀로, 한 번에 두 글자씩. 첫날 밤부터 진짜 메시지를 받아 적고, 매일 밤 당신이 해독하는 몫이 늘어납니다.",
+    "ja": "1962年秋。父が補給船とともに消えたあと、ソルは寂しい信号所をひとりで守っている。ある夜、遭難周波数から父独特のリズムで打たれた信号が聞こえてくる。ナイトシグナルは国際モールス符号を、通信士たちが学んだやり方で教える。耳で、一度に2文字ずつ。最初の夜から本物のメッセージを書き取り、自分で解読する割合が毎晩増えていく。",
+    "es": "Otoño de 1962. Sol mantiene en marcha una estación de señales solitaria después de que su padre desaparezca con el barco de suministros. Entonces, en la frecuencia de socorro, oye una señal enviada con su ritmo inconfundible. Night Signal enseña código Morse internacional como lo aprendían los operadores: de oído, dos letras cada vez. Desde la primera noche copias mensajes reales, y cada noche descifras una parte mayor.",
+    "pt-BR": "Outono de 1962. Sol mantém sozinha uma estação de sinais isolada depois que o pai some com o barco de suprimentos. Até que, na frequência de socorro, ela ouve um sinal enviado com o ritmo inconfundível dele. Night Signal ensina o código Morse internacional do jeito que os operadores aprendiam: de ouvido, duas letras por vez. Desde a primeira noite você copia mensagens reais, e a sua parte cresce a cada noite."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/night-signal/01.jpg",
+    "shots/night-signal/02.jpg",
+    "shots/night-signal/03.jpg",
+    "shots/night-signal/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/nightsignal"
+  },
+  {
+   "slug": "boxcar-blitz",
+   "boardName": "Boxcar Blitz",
+   "shippingName": "Boxcar Blitz: Rail Yard Run",
+   "sourceDir": "D:/Crystl/projectpop/games/boxcar-blitz",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectpop/games/boxcar-blitz/art/icon/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Boxcar Blitz",
+    "ko": "박스카 블리츠",
+    "ja": "ボックスカー・ブリッツ",
+    "es": "Boxcar Blitz",
+    "pt-BR": "Boxcar Blitz"
+   },
+   "tagline": {
+    "en": "Surf the boxcars and outrun Big Brick in an endless rail yard dash.",
+    "ko": "화물칸 위를 달리며 끝없는 철도 기지에서 빅 브릭을 따돌리세요.",
+    "ja": "貨車の屋根を駆け抜け、終わりのない操車場でビッグ・ブリックを振り切れ。",
+    "es": "Surfea sobre los vagones y deja atrás a Big Brick en una carrera sin fin por la playa de vías.",
+    "pt-BR": "Surfe nos vagões e fuja do Big Brick numa corrida sem fim pelo pátio ferroviário."
+   },
+   "desc": {
+    "en": "Kiko and the Yard Crew deliver the parcels the trains forgot, and yard boss Big Brick and his bulldog want them off the tracks for good. Switch tracks, jump barriers, roll under bars, run up the ramps and surf the boxcar roofs while freight trains rumble past. Stumble once and Big Brick is right behind you.",
+    "ko": "키코와 야드 크루는 기차가 두고 간 소포를 배달합니다. 철도 기지 보스 빅 브릭과 그의 불도그는 그들을 선로에서 영영 쫓아내고 싶어 합니다. 선로를 바꾸고, 장애물을 뛰어넘고, 바 아래로 구르고, 경사로를 올라 화물 열차가 지나가는 동안 화물칸 지붕 위를 달리세요. 한 번만 비틀거려도 빅 브릭이 바로 뒤에 있습니다.",
+    "ja": "キコとヤード・クルーは、列車が置き忘れた荷物を届ける運び屋だ。操車場のボス、ビッグ・ブリックと彼のブルドッグは、彼らを線路から永久に追い出したい。線路を乗り換え、障害物を飛び越え、バーの下を転がり、スロープを駆け上がって、貨物列車が通り過ぎる中を貨車の屋根伝いに走ろう。一度つまずけば、ビッグ・ブリックがすぐ後ろにいる。",
+    "es": "Kiko y la Yard Crew entregan los paquetes que los trenes olvidaron, y el jefe del patio, Big Brick, y su bulldog quieren echarlos de las vías para siempre. Cambia de vía, salta barreras, rueda bajo las barras, sube por las rampas y surfea los techos de los vagones mientras pasan los trenes de mercancías. Tropieza una vez y Big Brick te pisa los talones.",
+    "pt-BR": "Kiko e a Yard Crew entregam as encomendas que os trens esqueceram, e o chefe do pátio, Big Brick, e seu buldogue querem tirá-los dos trilhos de vez. Troque de trilho, pule barreiras, role por baixo das barras, suba as rampas e surfe no teto dos vagões enquanto os trens de carga passam. Tropece uma vez e o Big Brick está logo atrás."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/boxcar-blitz/01.jpg",
+    "shots/boxcar-blitz/02.jpg",
+    "shots/boxcar-blitz/03.jpg",
+    "shots/boxcar-blitz/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/boxcarblitz"
+  },
+  {
+   "slug": "queen-bea",
+   "boardName": "Queen Bea",
+   "shippingName": "Queen Bea: Castle Match 3",
+   "sourceDir": "D:/Crystl/projectpop/games/queen-bea",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectpop/games/queen-bea/art/icon/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Queen Bea",
+    "ko": "퀸 비",
+    "ja": "クイーン・ビー",
+    "es": "Queen Bea",
+    "pt-BR": "Queen Bea"
+   },
+   "tagline": {
+    "en": "Match, blast and restore a royal castle room by room. Save Queen Bea!",
+    "ko": "맞추고, 터뜨리고, 왕실의 성을 방마다 복원하세요. 퀸 비를 구하세요!",
+    "ja": "そろえて、はじけて、王家の城を部屋ごとに修復しよう。クイーン・ビーを救え!",
+    "es": "Combina, explota y restaura un castillo real sala a sala. ¡Salva a la reina Bea!",
+    "pt-BR": "Combine, exploda e restaure um castelo real sala por sala. Salve a rainha Bea!"
+   },
+   "desc": {
+    "en": "A typo in her great-uncle's will made Bea queen of a tiny kingdom: a castle with a leaky roof, three coins in the treasury and one very angry goose. The duke next in line is sure she will fail the Royal Inspection. Swap potions, shields, coins and books to match three or more, earn stars, and spend them restoring the castle in the style you pick.",
+    "ko": "큰할아버지 유언장의 오타 하나로 비는 작은 왕국의 여왕이 됩니다. 비가 새는 성, 금고에 동전 세 닢, 그리고 아주 화난 거위 한 마리. 다음 계승자인 공작은 그녀가 왕실 감찰에서 떨어질 거라 확신합니다. 물약, 방패, 동전, 책을 바꿔 셋 이상 맞추고, 별을 모아, 원하는 스타일로 성을 복원하세요.",
+    "ja": "大おじの遺言書の誤字ひとつで、ビーは小さな王国の女王になった。雨漏りする城、宝物庫に硬貨3枚、そしてとても怒っているガチョウが1羽。次の継承者である公爵は、彼女が王室の査察に落ちると確信している。薬、盾、硬貨、本を入れ替えて3つ以上そろえ、星を集め、好きなスタイルで城を修復しよう。",
+    "es": "Una errata en el testamento de su tío abuelo convirtió a Bea en reina de un reino diminuto: un castillo con goteras, tres monedas en el tesoro y un ganso muy enfadado. El duque siguiente en la línea está seguro de que suspenderá la Inspección Real. Intercambia pociones, escudos, monedas y libros para combinar tres o más, gana estrellas y gástalas restaurando el castillo con el estilo que elijas.",
+    "pt-BR": "Um erro de digitação no testamento do tio-avô fez de Bea a rainha de um reino minúsculo: um castelo com goteiras, três moedas no tesouro e um ganso muito bravo. O duque, próximo na linha de sucessão, tem certeza de que ela vai reprovar na Inspeção Real. Troque poções, escudos, moedas e livros para combinar três ou mais, ganhe estrelas e gaste restaurando o castelo no estilo que escolher."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/queen-bea/01.jpg",
+    "shots/queen-bea/02.jpg",
+    "shots/queen-bea/03.jpg",
+    "shots/queen-bea/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/queenbea"
+  },
+  {
+   "slug": "bonbon-valley",
+   "boardName": "Bonbon Valley",
+   "shippingName": "Bonbon Valley: Candy Match",
+   "sourceDir": "D:/Crystl/projectpop/games/bonbon-valley",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectpop/games/bonbon-valley/art/icon/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Bonbon Valley",
+    "ko": "봉봉 밸리",
+    "ja": "ボンボンバレー",
+    "es": "Bonbon Valley",
+    "pt-BR": "Bonbon Valley"
+   },
+   "tagline": {
+    "en": "Swap and blast candies across 300 levels to win back a sugar-frosted valley.",
+    "ko": "300개 레벨에서 사탕을 바꾸고 터뜨려 달콤한 계곡을 되찾으세요.",
+    "ja": "300のレベルでキャンディを入れ替え、はじけさせ、甘い谷を取り戻そう。",
+    "es": "Intercambia y explota caramelos en 300 niveles para recuperar un valle de azúcar.",
+    "pt-BR": "Troque e exploda doces em 300 fases para recuperar um vale cheio de açúcar."
+   },
+   "desc": {
+    "en": "The Sour Baron has bottled up the valley's sweetness, and Lulu and her grandpa run the last candy shop left. Ride the candy cart from Lollipop Meadow to the Gloom Factory across 300 levels. Match four for a striped candy, an L or T for a wrapped one, five for a Rainbow Drop, and swap two specials together for screen-clearing combos.",
+    "ko": "사워 남작이 계곡의 달콤함을 병에 가둬 버렸고, 룰루와 할아버지가 마지막 남은 사탕 가게를 지킵니다. 사탕 수레를 타고 롤리팝 초원에서 우울 공장까지 300개 레벨을 달리세요. 넷을 맞추면 줄무늬 사탕, L이나 T 모양은 포장 사탕, 다섯은 레인보우 드롭. 특수 사탕 두 개를 바꾸면 화면을 쓸어버리는 콤보가 터집니다.",
+    "ja": "サワー男爵が谷の甘さを瓶に閉じ込めてしまい、ルルとおじいちゃんが最後のお菓子屋さんを守っている。キャンディカートに乗って、ロリポップ草原からグルーム工場まで300レベルを進もう。4つそろえればストライプ、LかT字ならラッピング、5つでレインボードロップ。スペシャル同士を入れ替えれば画面をなぎ払うコンボに。",
+    "es": "El Barón Agrio ha embotellado la dulzura del valle, y Lulu y su abuelo llevan la última tienda de caramelos que queda. Recorre con el carrito de dulces 300 niveles, de la Pradera Piruleta a la Fábrica Sombría. Combina cuatro para un caramelo rayado, una L o una T para uno envuelto, cinco para una Gota Arcoíris, e intercambia dos especiales para combos que limpian la pantalla.",
+    "pt-BR": "O Barão Azedo engarrafou a doçura do vale, e Lulu e o avô cuidam da última loja de doces que sobrou. Percorra com o carrinho de doces 300 fases, do Prado Pirulito até a Fábrica Sombria. Combine quatro para um doce listrado, um L ou T para um embrulhado, cinco para uma Gota Arco-Íris, e troque dois especiais para combos que limpam a tela."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/bonbon-valley/01.jpg",
+    "shots/bonbon-valley/02.jpg",
+    "shots/bonbon-valley/03.jpg",
+    "shots/bonbon-valley/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/bonbonvalley"
+  },
+  {
+   "slug": "high-note",
+   "boardName": "High Note",
+   "shippingName": "High Note: Pop Star Highway",
+   "sourceDir": "D:/Crystl/projectsingeractor/games/high-note",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectsingeractor/games/high-note/store/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "High Note",
+    "ko": "하이 노트",
+    "ja": "ハイノート",
+    "es": "High Note",
+    "pt-BR": "High Note"
+   },
+   "tagline": {
+    "en": "Hold to sing higher, let go to drop. Ride the melody down a neon coast road.",
+    "ko": "누르면 높이, 떼면 낮게. 네온 해안 도로를 따라 멜로디를 타세요.",
+    "ja": "押せば高く、離せば低く。ネオンの海岸道路でメロディに乗ろう。",
+    "es": "Mantén para cantar más alto, suelta para bajar. Recorre la melodía por una carretera costera de neón.",
+    "pt-BR": "Segure para cantar mais alto, solte para descer. Siga a melodia por uma estrada litorânea neon."
+   },
+   "desc": {
+    "en": "Your voice is a glowing comet and the melody is a road of note rings. Luna sings for tips at her family's diner until a radio contest rolls into town: eight towns, eight shows and a glamorous rival who may not be singing live at all. One button, 24 original songs, and the sung lead only plays while you are on the note, so you hear yourself sing.",
+    "ko": "당신의 목소리는 빛나는 혜성이고, 멜로디는 음표 고리로 이어진 길입니다. 루나는 가족이 운영하는 식당에서 팁을 받으며 노래하다가, 라디오 경연이 마을에 찾아옵니다. 여덟 마을, 여덟 무대, 그리고 라이브가 아닐지도 모르는 화려한 라이벌. 버튼 하나, 오리지널 곡 24곡. 음에 맞을 때만 보컬이 들리니, 당신이 직접 노래하는 소리를 듣게 됩니다.",
+    "ja": "あなたの声は輝く彗星、メロディは音符のリングでできた道。ルナは家族のダイナーでチップをもらって歌っていたが、ある日ラジオコンテストが町にやって来る。8つの町、8つのステージ、そして生歌ではないかもしれない華やかなライバル。ボタンひとつ、オリジナル曲24曲。音に乗っている間だけ歌声が流れるので、自分が歌っているのが聞こえる。",
+    "es": "Tu voz es un cometa brillante y la melodía es una carretera de anillos de notas. Luna canta por propinas en el diner de su familia hasta que un concurso de radio llega al pueblo: ocho pueblos, ocho actuaciones y una rival glamurosa que quizá ni siquiera canta en directo. Un botón, 24 canciones originales, y la voz solo suena mientras estás en la nota, así que te oyes cantar.",
+    "pt-BR": "Sua voz é um cometa brilhante e a melodia é uma estrada de anéis de notas. Luna canta por gorjetas na lanchonete da família até que um concurso de rádio chega à cidade: oito cidades, oito shows e uma rival glamorosa que talvez nem cante ao vivo. Um botão, 24 músicas originais, e a voz só toca enquanto você está na nota, então você se ouve cantar."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/high-note/01.jpg",
+    "shots/high-note/02.jpg",
+    "shots/high-note/03.jpg",
+    "shots/high-note/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/highnote"
+  },
+  {
+   "slug": "debut",
+   "boardName": "Debut",
+   "shippingName": "Debut: Idol Girl Group Story",
+   "sourceDir": "D:/Crystl/projectsingeractor/games/debut",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectsingeractor/games/debut/store/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Debut",
+    "ko": "데뷔",
+    "ja": "デビュー",
+    "es": "Debut",
+    "pt-BR": "Debut"
+   },
+   "tagline": {
+    "en": "52 weeks. Eight trainees. One shot at Rookie of the Year.",
+    "ko": "52주. 연습생 여덟 명. 신인상을 향한 단 한 번의 기회.",
+    "ja": "52週間。練習生8人。新人賞へのチャンスは一度きり。",
+    "es": "52 semanas. Ocho aprendices. Una oportunidad de ser Revelación del Año.",
+    "pt-BR": "52 semanas. Oito trainees. Uma chance de ser Revelação do Ano."
+   },
+   "desc": {
+    "en": "You are the new manager at a tiny agency one bad quarter from closing, and eight trainees all want to debut. Each week you set the schedule: vocal, dance, rap, variety, content or rest. Push too hard and they get hurt or walk out. Monthly showcases put your formation on stage, then come the debut, the comebacks, the weekly chart and the awards.",
+    "ko": "당신은 한 분기만 망해도 문을 닫을 작은 기획사의 신입 매니저이고, 연습생 여덟 명은 모두 데뷔를 꿈꿉니다. 매주 보컬, 댄스, 랩, 예능, 콘텐츠, 휴식 일정을 정하세요. 너무 몰아붙이면 다치거나 떠나 버립니다. 매달 평가 쇼케이스에서 포메이션을 무대에 올리고, 이어서 데뷔, 컴백, 주간 음악 차트, 그리고 시상식이 기다립니다.",
+    "ja": "あなたは、あと一期不振なら閉鎖という小さな事務所の新米マネージャー。8人の練習生はみんなデビューを夢見ている。毎週、ボーカル、ダンス、ラップ、バラエティ、コンテンツ、休養のスケジュールを組もう。無理をさせればケガをしたり、去ってしまったりする。毎月の評価ショーケースでフォーメーションを披露し、その先にはデビュー、カムバック、週間チャート、そして授賞式が待っている。",
+    "es": "Eres la nueva mánager de una agencia diminuta a un mal trimestre de cerrar, y las ocho aprendices quieren debutar. Cada semana fijas el horario: voz, baile, rap, variedades, contenido o descanso. Apriétalas demasiado y se lesionan o se van. Las presentaciones mensuales suben tu formación al escenario, y después llegan el debut, los comebacks, la lista semanal y los premios.",
+    "pt-BR": "Você é a nova gerente de uma agência minúscula a um trimestre ruim de fechar, e as oito trainees querem estrear. Toda semana você monta a agenda: vocal, dança, rap, variedades, conteúdo ou descanso. Force demais e elas se machucam ou vão embora. As apresentações mensais levam sua formação ao palco, e depois vêm a estreia, os comebacks, a parada semanal e os prêmios."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/debut/01.jpg",
+    "shots/debut/02.jpg",
+    "shots/debut/03.jpg",
+    "shots/debut/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/debutidol"
+  },
+  {
+   "slug": "last-encore",
+   "boardName": "Last Encore",
+   "shippingName": "Last Encore: Underworld Rhythm",
+   "sourceDir": "D:/Crystl/projectsingeractor/games/last-encore",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectsingeractor/games/last-encore/store/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Last Encore",
+    "ko": "라스트 앙코르",
+    "ja": "ラストアンコール",
+    "es": "Last Encore",
+    "pt-BR": "Last Encore"
+   },
+   "tagline": {
+    "en": "Every step on the beat. Fight down six floors of the Underworld to win back a stolen voice.",
+    "ko": "모든 걸음은 박자에 맞춰. 저승의 여섯 층을 뚫고 빼앗긴 목소리를 되찾으세요.",
+    "ja": "すべての一歩をビートに乗せて。冥界の6フロアを戦い抜き、奪われた声を取り戻せ。",
+    "es": "Cada paso al ritmo. Lucha por seis pisos del Inframundo para recuperar una voz robada.",
+    "pt-BR": "Cada passo no ritmo. Lute por seis andares do Submundo para recuperar uma voz roubada."
+   },
+   "desc": {
+    "en": "Orin and Eury were the best two-piece band on the river circuit until the Pale Promoter took Eury's voice for his collection. Orin follows her down with nothing but a lute. Move on the beat to walk and attack, read each enemy's rhythm above its head, and duel six bosses in music. And on the climb back out, don't look back.",
+    "ko": "오린과 유리는 강변 공연장 최고의 2인조 밴드였습니다. 창백한 프로모터가 유리의 목소리를 자기 수집품으로 빼앗아 가기 전까지는. 오린은 류트 하나만 들고 그녀를 따라 내려갑니다. 박자에 맞춰 걷고 공격하고, 적 머리 위의 리듬을 읽고, 여섯 보스와 음악으로 결투하세요. 그리고 다시 올라갈 때는, 뒤돌아보지 마세요.",
+    "ja": "オリンとユーリは川沿いのライブ界隈で一番の二人組バンドだった。青白いプロモーターがユーリの声をコレクションとして奪うまでは。オリンはリュートひとつで彼女を追って下りていく。ビートに合わせて歩き、攻撃し、敵の頭上のリズムを読み、6人のボスと音楽で決闘しよう。そして地上へ戻る道では、振り返ってはいけない。",
+    "es": "Orin y Eury eran el mejor dúo del circuito del río hasta que el Promotor Pálido se llevó la voz de Eury para su colección. Orin baja tras ella sin nada más que un laúd. Muévete al ritmo para caminar y atacar, lee el ritmo de cada enemigo sobre su cabeza y bate en duelo musical a seis jefes. Y en la subida de vuelta, no mires atrás.",
+    "pt-BR": "Orin e Eury eram a melhor dupla do circuito do rio até o Promotor Pálido levar a voz de Eury para a coleção dele. Orin desce atrás dela só com um alaúde. Mova-se no ritmo para andar e atacar, leia o ritmo de cada inimigo acima da cabeça e enfrente seis chefes em duelos musicais. E na subida de volta, não olhe para trás."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/last-encore/01.jpg",
+    "shots/last-encore/02.jpg",
+    "shots/last-encore/03.jpg",
+    "shots/last-encore/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/lastencore"
+  },
+  {
+   "slug": "tour-van",
+   "boardName": "Tour Van",
+   "shippingName": "Tour Van: Rock Band Road Trip",
+   "sourceDir": "D:/Crystl/projectsingeractor/games/tour-van",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectsingeractor/games/tour-van/store/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Tour Van",
+    "ko": "투어 밴",
+    "ja": "ツアーバン",
+    "es": "Tour Van",
+    "pt-BR": "Tour Van"
+   },
+   "tagline": {
+    "en": "One van, four bandmates, 30 days to reach the biggest festival on the coast.",
+    "ko": "밴 한 대, 멤버 넷, 해안 최대의 페스티벌까지 30일.",
+    "ja": "バン1台、メンバー4人、海岸最大のフェスまで30日。",
+    "es": "Una furgoneta, cuatro músicos y 30 días para llegar al mayor festival de la costa.",
+    "pt-BR": "Uma van, quatro integrantes e 30 dias para chegar ao maior festival da costa."
+   },
+   "desc": {
+    "en": "The Paper Lanterns have one album, 41 copies sold, and a late call from the biggest festival on the coast. It is two thousand miles away and they have 30 days and a van that smells. Each day in town pick one thing: gig, busk, rest, write or fix the van. Then drive on through a toy-like 3D country full of flat tires, storms, rival bands and label offers.",
+    "ko": "페이퍼 랜턴스에게는 앨범 한 장, 판매량 41장, 그리고 해안 최대 페스티벌의 뒤늦은 섭외 전화가 있습니다. 거리는 3천 킬로미터, 남은 건 30일과 냄새나는 밴 한 대. 마을에서는 하루에 한 가지를 고르세요. 공연, 버스킹, 휴식, 작곡, 밴 수리. 그리고 펑크 난 타이어, 폭풍, 라이벌 밴드, 레이블 제안이 가득한 장난감 같은 3D 시골길을 달리세요.",
+    "ja": "ペーパー・ランタンズにはアルバム1枚、売上41枚、そして海岸最大のフェスからの急な出演依頼がある。会場までは3000キロ以上、残りは30日と、においのするバン1台。町では1日にひとつを選ぼう。ライブ、路上演奏、休養、作曲、バンの修理。そしてパンク、嵐、ライバルバンド、レーベルのオファーが待つ、おもちゃのような3Dの田舎道を走ろう。",
+    "es": "Los Paper Lanterns tienen un disco, 41 copias vendidas y una llamada de última hora del mayor festival de la costa. Está a tres mil kilómetros y tienen 30 días y una furgoneta que huele. Cada día en un pueblo eliges una cosa: concierto, tocar en la calle, descansar, componer o arreglar la furgo. Después sigues por un país 3D de juguete lleno de pinchazos, tormentas, bandas rivales y ofertas de discográficas.",
+    "pt-BR": "Os Paper Lanterns têm um álbum, 41 cópias vendidas e uma ligação de última hora do maior festival da costa. Fica a três mil quilômetros e eles têm 30 dias e uma van com cheiro. A cada dia numa cidade você escolhe uma coisa: show, tocar na rua, descansar, compor ou consertar a van. Depois segue por um país 3D de brinquedo cheio de pneus furados, tempestades, bandas rivais e propostas de gravadora."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/tour-van/01.jpg",
+    "shots/tour-van/02.jpg",
+    "shots/tour-van/03.jpg",
+    "shots/tour-van/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/tourvan"
+  },
+  {
+   "slug": "method",
+   "boardName": "Method",
+   "shippingName": "Method: Actor Life Story",
+   "sourceDir": "D:/Crystl/projectsingeractor/games/method",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectsingeractor/games/method/store/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Method",
+    "ko": "메소드",
+    "ja": "メソッド",
+    "es": "Method",
+    "pt-BR": "Method"
+   },
+   "tagline": {
+    "en": "From background extra to award winner. Read the scene, hit the emotion, own the take.",
+    "ko": "보조 출연자에서 수상자까지. 장면을 읽고, 감정을 맞추고, 테이크를 장악하세요.",
+    "ja": "エキストラから受賞者へ。場面を読み、感情を決め、テイクをものにしよう。",
+    "es": "De extra a premiado. Lee la escena, clava la emoción y hazte con la toma.",
+    "pt-BR": "De figurante a premiado. Leia a cena, acerte a emoção e domine a tomada."
+   },
+   "desc": {
+    "en": "Sam Rivera arrives in Sunset City with $300 and one headshot. Plan your weeks around classes, cafe shifts, parties and rest, then audition and perform. In every scene the director calls for an emotional turn, like Guilty to Defiant, and you play it on the Emotion Wheel: pick the emotion, hit Action on the pause, and release in the green for the right intensity.",
+    "ko": "샘 리베라는 300달러와 프로필 사진 한 장을 들고 선셋 시티에 도착합니다. 수업, 카페 아르바이트, 파티, 휴식으로 한 주를 계획하고, 오디션을 보고 연기하세요. 장면마다 감독은 죄책감에서 반항처럼 감정의 전환을 요구하고, 당신은 감정 휠로 연기합니다. 감정을 고르고, 멈춤의 순간에 액션을 누르고, 초록 구간에서 손을 떼 알맞은 강도를 내세요.",
+    "ja": "サム・リベラは300ドルと宣材写真1枚を持ってサンセット・シティにやって来た。レッスン、カフェのバイト、パーティー、休養で週を組み立て、オーディションを受けて演じよう。どの場面でも監督は「罪悪感から反抗へ」のような感情の転換を求め、あなたはそれをエモーション・ホイールで演じる。感情を選び、間でアクションを押し、緑のゾーンで離して強さを合わせよう。",
+    "es": "Sam Rivera llega a Sunset City con 300 dólares y una foto de cara. Planifica tus semanas entre clases, turnos en la cafetería, fiestas y descanso, y después haz audiciones y actúa. En cada escena el director pide un giro emocional, como de Culpable a Desafiante, y lo interpretas en la Rueda de Emociones: elige la emoción, pulsa Acción en la pausa y suelta en el verde para la intensidad justa.",
+    "pt-BR": "Sam Rivera chega a Sunset City com 300 dólares e uma foto de rosto. Planeje suas semanas entre aulas, turnos no café, festas e descanso, depois faça testes e atue. Em cada cena o diretor pede uma virada emocional, como de Culpado para Desafiador, e você interpreta na Roda das Emoções: escolha a emoção, aperte Ação na pausa e solte no verde para a intensidade certa."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/method/01.jpg",
+    "shots/method/02.jpg",
+    "shots/method/03.jpg",
+    "shots/method/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/methodactor"
+  },
+  {
+   "slug": "samba-notes",
+   "boardName": "Samba Notes",
+   "shippingName": "Samba Notes: Carnaval Match 3",
+   "sourceDir": "D:/Crystl/projectsingeractor/games/samba-notes",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectsingeractor/games/samba-notes/store/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Samba Notes",
+    "ko": "삼바 노트",
+    "ja": "サンバノーツ",
+    "es": "Samba Notes",
+    "pt-BR": "Samba Notes"
+   },
+   "tagline": {
+    "en": "Match music notes, write the samba and bring a broke samba school back to Carnaval.",
+    "ko": "음표를 맞추고, 삼바를 쓰고, 망한 삼바 학교를 카니발 무대로 되돌리세요.",
+    "ja": "音符をそろえ、サンバを作り、つぶれかけのサンバチームをカーニバルへ連れ戻そう。",
+    "es": "Combina notas, escribe la samba y devuelve a Carnaval a una escuela de samba arruinada.",
+    "pt-BR": "Combine notas, escreva o samba e leve uma escola de samba falida de volta ao Carnaval."
+   },
+   "desc": {
+    "en": "A samba school lost everything: the drums, the costumes, the dancers. With 300 days to Carnaval, Bia and her grandmother set out to write a new samba one note at a time. Swap notes to match three or more, make power notes, blasts and the color-clearing pandeiro, and every win writes a bar of the song. 300 levels across 10 chapters, all the way to the Sambódromo.",
+    "ko": "한 삼바 학교가 모든 것을 잃었습니다. 북도, 의상도, 무용수도. 카니발까지 300일, 비아와 할머니는 음표 하나씩 새 삼바를 쓰기로 합니다. 음표를 바꿔 셋 이상 맞추고, 파워 음표와 폭발, 한 색을 싹 지우는 판데이루를 만드세요. 이길 때마다 노래 한 마디가 완성됩니다. 10개 챕터 300레벨, 삼보드로무까지.",
+    "ja": "あるサンバチームがすべてを失った。太鼓も、衣装も、ダンサーも。カーニバルまで300日、ビアと祖母は音符ひとつずつ新しいサンバを書き始める。音符を入れ替えて3つ以上そろえ、パワー音符、爆発、1色を消すパンデイロを作ろう。勝つたびに曲が1小節ずつ完成する。10章300レベル、サンボードロモまで。",
+    "es": "Una escuela de samba lo perdió todo: los tambores, los disfraces, los bailarines. A 300 días del Carnaval, Bia y su abuela se proponen escribir una samba nueva nota a nota. Intercambia notas para combinar tres o más, crea notas de poder, explosiones y el pandeiro que limpia un color, y cada victoria escribe un compás de la canción. 300 niveles en 10 capítulos, hasta el Sambódromo.",
+    "pt-BR": "Uma escola de samba perdeu tudo: os tambores, as fantasias, os passistas. A 300 dias do Carnaval, Bia e a avó decidem escrever um samba novo, nota por nota. Troque notas para combinar três ou mais, crie notas de poder, explosões e o pandeiro que limpa uma cor, e cada vitória escreve um compasso do samba. 300 fases em 10 capítulos, até o Sambódromo."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/samba-notes/01.jpg",
+    "shots/samba-notes/02.jpg",
+    "shots/samba-notes/03.jpg",
+    "shots/samba-notes/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/sambanotes"
+  },
+  {
+   "slug": "stunt-double",
+   "boardName": "Stunt Double",
+   "shippingName": "Stunt Double: Movie Crash Hero",
+   "sourceDir": "D:/Crystl/projectsingeractor/games/stunt-double",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectsingeractor/games/stunt-double/store/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Stunt Double",
+    "ko": "스턴트 더블",
+    "ja": "スタントダブル",
+    "es": "Stunt Double",
+    "pt-BR": "Stunt Double"
+   },
+   "tagline": {
+    "en": "Launch, flip, crash and land the director's money shot. The star takes the credit.",
+    "ko": "날고, 돌고, 부딪히고, 감독의 결정적 장면을 완성하세요. 공은 스타가 가져갑니다.",
+    "ja": "飛んで、回って、激突して、監督の決めショットを決めろ。手柄はスターのもの。",
+    "es": "Despega, gira, choca y clava la toma estrella del director. El mérito es del protagonista.",
+    "pt-BR": "Decole, gire, bata e acerte a cena principal do diretor. O crédito fica com o astro."
+   },
+   "desc": {
+    "en": "Jo \"Crash\" Okafor jumps when the action star jumps, and five films in, the poster still says his name. Read the director's shot list, pick a rig, set the power and ramp angle, and call action. Ragdoll physics and props that fly apart do the rest: bail at the right moment, tuck into flips, hit the mark and land in the airbag, or add a new injury to the Hall of Pain.",
+    "ko": "조 \"크래시\" 오카포는 액션 스타 대신 뛰어내립니다. 시리즈 다섯 편째인데도 포스터에는 여전히 스타의 이름뿐이죠. 감독의 촬영 목록을 읽고, 장비를 고르고, 파워와 경사로 각도를 맞추고, 액션을 외치세요. 래그돌 물리와 산산이 부서지는 소품이 나머지를 해결합니다. 알맞은 순간에 뛰어내리고, 몸을 말아 회전하고, 표시에 맞춰 에어백에 착지하거나, 고통의 전당에 새 부상을 추가하세요.",
+    "ja": "ジョー・\"クラッシュ\"・オカフォーは、アクションスターの代わりに飛ぶ。シリーズ5作目でも、ポスターに載るのはスターの名前だけ。監督のショットリストを読み、マシンを選び、パワーとランプの角度を決めて、アクション。ラグドール物理と飛び散る小道具が残りを引き受ける。ちょうどいい瞬間に飛び降り、体を丸めて回転し、マークに決めてエアバッグに着地するか、苦痛の殿堂に新しいケガを加えるか。",
+    "es": "Jo \"Crash\" Okafor salta cuando salta la estrella de acción, y cinco películas después el cartel sigue llevando su nombre. Lee la lista de tomas del director, elige un vehículo, ajusta la potencia y el ángulo de la rampa y grita acción. La física ragdoll y el atrezo que vuela por los aires hacen el resto: salta en el momento justo, encógete para girar, clava la marca y cae en el airbag, o suma otra lesión al Salón del Dolor.",
+    "pt-BR": "Jo \"Crash\" Okafor pula quando o astro de ação pula, e cinco filmes depois o cartaz ainda traz o nome dele. Leia a lista de tomadas do diretor, escolha um veículo, ajuste a potência e o ângulo da rampa e grite ação. A física ragdoll e os objetos voando fazem o resto: salte na hora certa, encolha para girar, acerte a marca e caia no airbag, ou some uma nova lesão ao Salão da Dor."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/stunt-double/01.jpg",
+    "shots/stunt-double/02.jpg",
+    "shots/stunt-double/03.jpg",
+    "shots/stunt-double/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/stuntdouble"
+  },
+  {
+   "slug": "red-carpet-rush",
+   "boardName": "Red Carpet Rush",
+   "shippingName": "Red Carpet Rush: Star Escape",
+   "sourceDir": "D:/Crystl/projectsingeractor/games/red-carpet-rush",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectsingeractor/games/red-carpet-rush/store/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Red Carpet Rush",
+    "ko": "레드카펫 러시",
+    "ja": "レッドカーペット・ラッシュ",
+    "es": "Red Carpet Rush",
+    "pt-BR": "Red Carpet Rush"
+   },
+   "tagline": {
+    "en": "Your limo is gone and the paparazzi are everywhere. Run to your premiere.",
+    "ko": "리무진은 사라졌고 파파라치는 어디에나 있습니다. 시사회까지 달리세요.",
+    "ja": "リムジンは消え、パパラッチはそこらじゅうに。プレミアまで走れ。",
+    "es": "Tu limusina ha desaparecido y hay paparazzi por todas partes. Corre a tu estreno.",
+    "pt-BR": "Sua limusine sumiu e tem paparazzi por todo lado. Corra para a sua estreia."
+   },
+   "desc": {
+    "en": "Nova is one premiere away from the big time. Then a gossip site leaks a fake scandal, her driver bails, and the doors close in twenty minutes. Fine. She'll run. Race through six districts in 3D, switch lanes, jump barriers and slide under banners while camera flashes chip away at your Privacy. Reach the red carpet and strike the pose on the beat for up to three stars.",
+    "ko": "노바는 시사회 한 번이면 스타가 됩니다. 그런데 가십 사이트가 가짜 스캔들을 터뜨리고, 운전기사는 도망가고, 문은 20분 뒤에 닫힙니다. 좋아요, 뛰면 되죠. 3D로 여섯 구역을 달리며 차선을 바꾸고, 장애물을 넘고, 현수막 아래로 미끄러지세요. 카메라 플래시는 프라이버시를 깎아 먹습니다. 레드카펫에 도착하면 박자에 맞춰 포즈를 잡고 별 세 개를 노리세요.",
+    "ja": "ノヴァはプレミア一回でスターになれるところまで来ている。ところがゴシップサイトが偽のスキャンダルを流し、運転手は逃げ出し、扉は20分後に閉まる。いいわ、走るから。3Dの6つの地区を駆け抜け、レーンを変え、障害物を飛び越え、横断幕の下をスライディング。カメラのフラッシュはプライバシーを削っていく。レッドカーペットに着いたら、ビートに合わせてポーズを決めて星3つを狙おう。",
+    "es": "Nova está a un estreno de la fama. Entonces una web de cotilleos filtra un escándalo falso, su chófer la abandona y las puertas cierran en veinte minutos. Vale. Irá corriendo. Atraviesa seis barrios en 3D, cambia de carril, salta barreras y deslízate bajo las pancartas mientras los flashes te roban Privacidad. Llega a la alfombra roja y haz la pose al ritmo para conseguir hasta tres estrellas.",
+    "pt-BR": "Nova está a uma estreia da fama. Aí um site de fofoca vaza um escândalo falso, o motorista some e as portas fecham em vinte minutos. Tudo bem. Ela vai correndo. Atravesse seis bairros em 3D, troque de faixa, pule barreiras e deslize sob as faixas enquanto os flashes roubam sua Privacidade. Chegue ao tapete vermelho e faça a pose no ritmo para ganhar até três estrelas."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/red-carpet-rush/01.jpg",
+    "shots/red-carpet-rush/02.jpg",
+    "shots/red-carpet-rush/03.jpg",
+    "shots/red-carpet-rush/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/redcarpetrush"
+  },
+  {
+   "slug": "neon-strip",
+   "boardName": "Neon Strip",
+   "shippingName": "Neon Strip: DJ Club Tycoon",
+   "sourceDir": "D:/Crystl/projectsingeractor/games/neon-strip",
+   "tier": "Volume",
+   "platform": "PC",
+   "onSiteAlready": false,
+   "iconSourcePath": "D:/Crystl/projectsingeractor/games/neon-strip/store/icon_512.png",
+   "nameMismatchNote": "",
+   "name": {
+    "en": "Neon Strip",
+    "ko": "네온 스트립",
+    "ja": "ネオンストリップ",
+    "es": "Neon Strip",
+    "pt-BR": "Neon Strip"
+   },
+   "tagline": {
+    "en": "Rebuild a dead neon strip club by club, then headline it yourself.",
+    "ko": "죽어 버린 네온 거리를 클럽 하나씩 되살리고, 직접 헤드라이너가 되세요.",
+    "ja": "寂れたネオン街をクラブごとに立て直し、自らヘッドライナーになろう。",
+    "es": "Reconstruye una calle de neón muerta local a local y después sé tú el cabeza de cartel.",
+    "pt-BR": "Reconstrua uma rua de neon morta, casa por casa, e depois seja a atração principal."
+   },
+   "desc": {
+    "en": "Your uncle left you a dusty club on a dead neon strip, and a megacorp wants to pave the whole street into a parking tower. Collect the tills, upgrade every venue and hire managers so the strip earns while you are away. Every Peak Hour, step behind the decks for a one-minute DJ set: hit the drops on the beat and work the crossfader for cash, hype and guest DJs.",
+    "ko": "삼촌이 죽어 버린 네온 거리의 먼지 쌓인 클럽을 남겨 주었고, 거대 기업은 거리 전체를 주차 타워로 밀어 버리려 합니다. 금고를 걷고, 모든 가게를 업그레이드하고, 매니저를 고용해 자리를 비워도 거리가 돈을 벌게 하세요. 매일 피크 타임에는 1분짜리 DJ 세트를 맡으세요. 박자에 맞춰 드롭을 터뜨리고 크로스페이더를 움직여 돈, 하이프, 게스트 DJ를 얻으세요.",
+    "ja": "おじが残してくれたのは、寂れたネオン街のほこりっぽいクラブ。巨大企業は通り全体を立体駐車場にしようとしている。売上を回収し、すべての店を強化し、マネージャーを雇って留守の間も通りが稼ぐようにしよう。ピークタイムには1分間のDJセットに立つ。ビートに合わせてドロップを決め、クロスフェーダーを操って、お金、ハイプ、ゲストDJを手に入れよう。",
+    "es": "Tu tío te dejó un club polvoriento en una calle de neón muerta, y una megacorporación quiere convertir toda la calle en un aparcamiento. Recoge las cajas, mejora cada local y contrata gerentes para que la calle gane dinero mientras no estás. En cada Hora Punta, ponte a los platos para una sesión de un minuto: clava los drops al ritmo y mueve el crossfader para ganar dinero, hype y DJs invitados.",
+    "pt-BR": "Seu tio deixou para você um clube empoeirado numa rua de neon morta, e uma megacorporação quer transformar a rua inteira num estacionamento. Recolha os caixas, melhore cada casa e contrate gerentes para a rua lucrar enquanto você está fora. Em cada Horário de Pico, assuma as pick-ups num set de um minuto: acerte os drops no ritmo e mexa o crossfader para ganhar dinheiro, hype e DJs convidados."
+   },
+   "status": "Live",
+   "storeUrl": "",
+   "releasedOn": null,
+   "screenshots": [
+    "shots/neon-strip/01.jpg",
+    "shots/neon-strip/02.jpg",
+    "shots/neon-strip/03.jpg",
+    "shots/neon-strip/04.jpg"
+   ],
+   "itchUrl": "https://crystllabs.itch.io/neonstrip"
   }
  ]
 }

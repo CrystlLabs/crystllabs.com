@@ -44,6 +44,37 @@ def globe_svg(cls='w-4 h-4'):
             'M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18z"/></svg>')
 
 
+def itch_svg(cls='w-4 h-4'):
+    return (f'<svg class="{cls}" fill="none" viewBox="0 0 24 24" stroke="currentColor" '
+            'stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" '
+            'd="M6 11h4M8 9v4M15 12h.01M18 10h.01M17.3 5H6.7a4 4 0 0 0-4 3.6l-.9 7.2a2.5 2.5 0 0 0 4.4 1.9'
+            'L7.5 16h9l1.3 1.7a2.5 2.5 0 0 0 4.4-1.9l-.9-7.2A4 4 0 0 0 17.3 5z"/></svg>')
+
+
+CHIP = ('inline-flex items-center gap-1.5 rounded-lg border px-2.5 py-1.5 font-mono '
+        'text-[10px] uppercase tracking-wide transition-colors')
+CHIP_GREEN = 'text-brandGreen border-brandGreen/40 bg-brandGreen/10 hover:bg-brandGreen/20'
+CHIP_PINK = 'text-brandPink border-brandPink/40 bg-brandPink/10 hover:bg-brandPink/20'
+CHIP_BLUE = 'text-brandBlue border-brandBlue/40 bg-brandBlue/10 hover:bg-brandBlue/20'
+
+
+def chip(href, label, svg, colour):
+    return (f'<a href="{esc(href)}" target="_blank" rel="noopener noreferrer" '
+            f'class="{CHIP} {colour}">{svg}{esc(label)}</a>')
+
+
+def link_chips(app, wrap_cls='mt-3 flex flex-wrap justify-center gap-1.5'):
+    """Play / itch.io buttons for a grid card. Only the links that exist."""
+    out = ''
+    if app.get('storeUrl'):
+        web = app.get('platform', '').lower().startswith('web')
+        out += chip(app['storeUrl'], 'Web' if web else 'Google Play',
+                    (globe_svg if web else play_svg)('w-3.5 h-3.5'), CHIP_GREEN)
+    if app.get('itchUrl'):
+        out += chip(app['itchUrl'], 'itch.io', itch_svg('w-3.5 h-3.5'), CHIP_PINK)
+    return f'<div class="{wrap_cls}">{out}</div>' if out else ''
+
+
 def load_apps():
     with open(DATA_FILE, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -56,6 +87,7 @@ def load_apps():
         # Anything else (or absent) keeps the old "In development" placeholder.
         a.setdefault('status', 'In development')
         a.setdefault('storeUrl', '')
+        a.setdefault('itchUrl', '')
         # paths are relative to apps/, same convention as icon
         a.setdefault('screenshots', [])
     # Newest release first, then down the stage ladder. Both sorts are stable, so
@@ -67,7 +99,7 @@ def load_apps():
 
 
 def is_live(app):
-    return app.get('status') == 'Live' and bool(app.get('storeUrl'))
+    return app.get('status') == 'Live' and bool(app.get('storeUrl') or app.get('itchUrl'))
 
 
 # Stage ladder, mapped from the Vikunja board's buckets. Order is deliberate:
@@ -116,29 +148,10 @@ def devlog_all():
     return _DEVLOG
 
 
-MIN_LOG_COMMITS = 25
-MIN_DESC_WORDS = 90
-
-
 def is_indexable(app):
-    """A page earns a place in the index by having something to read.
-
-    A shipped app always qualifies. An unshipped one qualifies two ways: a history
-    long enough that the page is a build history, or a description substantial
-    enough to stand on its own. A young project can be worth reading before it has
-    much history, and an old one can be worth reading with a thin description, so
-    either route is enough. What stays out is the page that has neither.
-
-    The test is the commit count, not the number of visible log lines: the visible
-    lines are a filtered highlight reel, so a long-running project with a terse
-    commit style would fail a line count while plainly deserving a page.
-    """
-    if is_live(app):
-        return True
-    log = devlog_all().get(app['slug']) or {}
-    if (log.get('stats') or {}).get('commits', 0) >= MIN_LOG_COMMITS:
-        return True
-    return len((app.get('desc', {}).get('en') or '').split()) >= MIN_DESC_WORDS
+    """Only released apps (on Google Play or itch.io, or a live web project) are
+    listed and indexed. Unreleased pages still build, with noindex."""
+    return is_live(app)
 
 
 def _pretty_day(d):
@@ -225,6 +238,7 @@ def render_page(app):
 
     live = is_live(app)
     store_url = esc(app.get('storeUrl', ''))
+    itch_url = esc(app.get('itchUrl', ''))
 
     robots = '' if is_indexable(app) else '\n    <meta name="robots" content="noindex, follow">'
 
@@ -238,10 +252,21 @@ def render_page(app):
     icon = globe_svg if web else play_svg
 
     if live:
-        store_block = f'''<a id="apStoreLink" href="{store_url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
-                    {icon()}
-                    <span id="apStore">{'Play in your browser' if web else 'Get it on Google Play'}</span>
-                </a>'''
+        buttons = ''
+        if store_url:
+            buttons += f'''
+                    <a id="apStoreLink" href="{store_url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                        {icon()}
+                        <span id="apStore">{'Play in your browser' if web else 'Get it on Google Play'}</span>
+                    </a>'''
+        if itch_url:
+            buttons += f'''
+                    <a id="apItchLink" href="{itch_url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandPink/10 border border-brandPink/40 px-4 py-3 text-brandPink font-mono text-xs uppercase tracking-wide hover:bg-brandPink/20 transition-colors">
+                        {itch_svg()}
+                        <span id="apItch">Get it on itch.io</span>
+                    </a>'''
+        store_block = f'''<div class="flex flex-col sm:flex-row flex-wrap gap-3">{buttons}
+                </div>'''
     else:
         store_block = f'''<div class="inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-gray-400 font-mono text-xs uppercase tracking-wide cursor-default select-none">
                     {icon('w-4 h-4 text-brandGreen/80')}
@@ -262,7 +287,10 @@ def render_page(app):
                          'es': 'En desarrollo', 'pt-BR': 'Em desenvolvimento'})
     shots_labels = {'en': 'Screenshots //', 'ko': '스크린샷 //', 'ja': 'スクリーンショット //',
                     'es': 'Capturas //', 'pt-BR': 'Capturas //'}
-    store_str = json.dumps({lang: {'store': store_labels[lang], 'shots': shots_labels[lang]}
+    itch_labels = {'en': 'Get it on itch.io', 'ko': 'itch.io에서 받기', 'ja': 'itch.io で入手',
+                   'es': 'Consíguelo en itch.io', 'pt-BR': 'Disponível no itch.io'}
+    store_str = json.dumps({lang: {'store': store_labels[lang], 'itch': itch_labels[lang],
+                                   'shots': shots_labels[lang]}
                             for lang in LANGS}, ensure_ascii=False)
 
     devlog_block = render_devlog(app)
@@ -406,7 +434,10 @@ def render_page(app):
             document.getElementById('apName').textContent = APP.name[lang];
             document.getElementById('apTagline').textContent = APP.tagline[lang];
             document.getElementById('apDesc').textContent = APP.desc[lang];
-            document.getElementById('apStore').textContent = STR[lang].store;
+            const store = document.getElementById('apStore');
+            if (store) store.textContent = STR[lang].store;
+            const itch = document.getElementById('apItch');
+            if (itch) itch.textContent = STR[lang].itch;
             const shotsHead = document.getElementById('apShotsHead');
             if (shotsHead) shotsHead.textContent = STR[lang].shots;
             document.documentElement.lang = lang;
@@ -440,7 +471,7 @@ def in_apps_section(app):
 
 
 def render_data_js(apps):
-    apps = [a for a in apps if in_apps_section(a)]
+    apps = [a for a in apps if in_apps_section(a) and is_live(a)]
     slim = [{
         'id': a['slug'],
         'slug': a['slug'],
@@ -453,6 +484,7 @@ def render_data_js(apps):
         'desc': a['desc'],
         'status': a.get('status', 'In development'),
         'storeUrl': a.get('storeUrl', ''),
+        'itchUrl': a.get('itchUrl', ''),
         # root-relative here, because index.html/projects.html sit at the site root
         'screenshots': [f"apps/{s}" for s in (a.get('screenshots') or [])],
     } for a in apps]
@@ -501,7 +533,6 @@ def _app_cards(apps, layout):
         href = f"apps/{a['slug']}.html"
         icon = f"apps/{a['slug']}.png"
         badge_carousel = f'\n                            {status_badge(a, "mt-3")}'
-        badge_grid = f'\n                            {status_badge(a, "mt-1.5")}'
         if layout == 'carousel':
             out.append(f'''
                         <a href="{href}" class="group snap-start shrink-0 w-64 md:w-72 text-left rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-5 md:p-6 shadow-lg shadow-black/20 transition-all block">
@@ -513,11 +544,14 @@ def _app_cards(apps, layout):
                         </a>''')
         else:
             out.append(f'''
-                        <a href="{href}" class="group text-center rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-4 md:p-5 shadow-lg shadow-black/20 transition-all flex flex-col items-center">
-                            <img src="{icon}" alt="" class="w-20 h-20 md:w-24 md:h-24 rounded-2xl border border-white/10 shadow-md shadow-black/30 mb-3">
-                            <h3 class="text-sm md:text-base font-bold text-white leading-tight">{name}</h3>
-                            <p class="mt-1.5 text-xs text-gray-400 leading-snug">{esc(a['tagline']['en'])}</p>{badge_grid}
-                        </a>''')
+                        <div class="group text-center rounded-2xl border border-white/10 bg-panelBg/60 hover:bg-panelBg hover:border-brandPink/40 p-4 md:p-5 shadow-lg shadow-black/20 transition-all flex flex-col items-center">
+                            <a href="{href}" class="flex flex-col items-center flex-grow">
+                                <img src="{icon}" alt="" class="w-20 h-20 md:w-24 md:h-24 rounded-2xl border border-white/10 shadow-md shadow-black/30 mb-3">
+                                <h3 class="text-sm md:text-base font-bold text-white leading-tight">{name}</h3>
+                                <p class="mt-1.5 text-xs text-gray-400 leading-snug">{esc(a['tagline']['en'])}</p>
+                            </a>
+                            {link_chips(a)}
+                        </div>''')
     return ''.join(out)
 
 
@@ -539,6 +573,7 @@ def _heat_cards(html_text):
         name = name.group(1)
         initial = name.replace('Project ', '')[:1]
         url = re.search(r'url\s*:\s*"([^"]*)"', src)
+        play = re.search(r'play\s*:\s*"([^"]*)"', src)
         badge = re.search(r'badge\s*:\s*"([^"]*)"', src)
         tag_html = f'\n                            <p class="mt-0.5 text-xs md:text-sm text-gray-400">{esc(tag.group(1))}</p>' if tag else ''
         status_key = re.search(r'statusKey\s*:\s*"([^"]*)"', src)
@@ -551,21 +586,19 @@ def _heat_cards(html_text):
         icon_html = (f'<img src="{esc(icon_path)}" alt="" class="w-20 h-20 shrink-0 rounded-2xl border border-white/10 object-cover">'
                      if icon_path else
                      f'<div class="w-14 h-14 md:w-16 md:h-16 shrink-0 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-xl md:text-2xl font-extrabold text-gradient">{esc(initial)}</div>')
-        inner = f'''
+        links = ''
+        if url:
+            links += chip(url.group(1), 'Website', globe_svg('w-3.5 h-3.5'), CHIP_BLUE)
+        if play:
+            links += chip(play.group(1), 'Google Play', play_svg('w-3.5 h-3.5'), CHIP_GREEN)
+        links_html = f'\n                                <div class="mt-3 flex flex-wrap gap-1.5">{links}</div>' if links else ''
+        out.append(f'''
+                        <div class="rounded-2xl border border-brandBlue/30 bg-gradient-to-br from-brandBlue/10 via-panelBg/60 to-brandPink/5 p-5 md:p-6 shadow-lg shadow-black/20 flex items-center gap-4">
                             {icon_html}
                             <div>
-                                <h3 class="text-base md:text-lg font-bold text-white leading-tight{' group-hover:text-brandPink transition-colors' if url else ''}">{esc(name)}</h3>{tag_html}
-                                <span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider {badge_cls} border rounded px-1.5 py-0.5">{label}</span>
-                            </div>'''
-        # A frontier entry with a page of its own becomes a link; the rest stay
-        # as plain cards rather than dead anchors.
-        if url:
-            out.append(f'''
-                        <a href="{esc(url.group(1))}" class="group rounded-2xl border border-brandBlue/30 bg-gradient-to-br from-brandBlue/10 via-panelBg/60 to-brandPink/5 p-5 md:p-6 shadow-lg shadow-black/20 hover:border-brandPink/40 transition-all flex items-center gap-4">{inner}
-                        </a>''')
-        else:
-            out.append(f'''
-                        <div class="group rounded-2xl border border-brandBlue/30 bg-gradient-to-br from-brandBlue/10 via-panelBg/60 to-brandPink/5 p-5 md:p-6 shadow-lg shadow-black/20 flex items-center gap-4">{inner}
+                                <h3 class="text-base md:text-lg font-bold text-white leading-tight">{esc(name)}</h3>{tag_html}
+                                <span class="mt-1.5 inline-block font-mono text-[10px] uppercase tracking-wider {badge_cls} border rounded px-1.5 py-0.5">{label}</span>{links_html}
+                            </div>
                         </div>''')
     return ''.join(out)
 
@@ -661,7 +694,7 @@ def seed_static_cards(apps):
                 inner = _site_cards(text)
             else:
                 layout, limit = spec
-                roster = [a for a in apps if in_apps_section(a)]
+                roster = [a for a in apps if in_apps_section(a) and is_live(a)]
                 if limit == 'live':
                     subset = [a for a in roster if is_live(a)]
                 elif limit:

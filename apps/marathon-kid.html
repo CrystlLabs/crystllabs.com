@@ -93,7 +93,7 @@
                     <div>
                         <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Marathon Legend</h1>
                         <div class="flex flex-wrap items-center gap-2 mt-2">
-                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">Android, PC</span>
                             <span class="font-mono text-[10px] uppercase tracking-wider text-brandPink/90 border border-brandPink/30 rounded px-1.5 py-0.5">Flagship</span>
                             <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
                         </div>
@@ -104,10 +104,16 @@
 
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Marathon Legend is an endurance-running sim where you build a runner from the ground up — pace, stamina, and grit. Manage training, push through the wall, and chase the finish line across a pixel-art city at golden hour. Cloud saves keep your progress with you.</p>
 
-                <a id="apStoreLink" href="https://play.google.com/store/apps/details?id=com.crystllabs.marathonkid" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
-                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
-                    <span id="apStore">Get it on Google Play</span>
-                </a>
+                <div class="flex flex-col sm:flex-row flex-wrap gap-3">
+                    <a id="apStoreLink" href="https://play.google.com/store/apps/details?id=com.crystllabs.marathonkid" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.7-.5 1.2v16.9c0 .5.2.9.5 1.2l9.3-9.6-9.3-9.7zm12.9 6.1L6.1 2.5l8.8 9.1 1.6-1.6zm3.7 2.2l-2.9-1.7-1.9 1.9 1.9 1.9 2.9-1.7c.6-.3.6-1.4 0-1.7zM6.1 21.5l10.4-5.9-1.6-1.6-8.8 9.1z"/></svg>
+                        <span id="apStore">Get it on Google Play</span>
+                    </a>
+                    <a id="apItchLink" href="https://crystllabs.itch.io/marathonlegend" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandPink/10 border border-brandPink/40 px-4 py-3 text-brandPink font-mono text-xs uppercase tracking-wide hover:bg-brandPink/20 transition-colors">
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 11h4M8 9v4M15 12h.01M18 10h.01M17.3 5H6.7a4 4 0 0 0-4 3.6l-.9 7.2a2.5 2.5 0 0 0 4.4 1.9L7.5 16h9l1.3 1.7a2.5 2.5 0 0 0 4.4-1.9l-.9-7.2A4 4 0 0 0 17.3 5z"/></svg>
+                        <span id="apItch">Get it on itch.io</span>
+                    </a>
+                </div>
 
                 <section class="mt-10">
                     <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
@@ -200,7 +206,7 @@
 
     <script>
         const APP = {"name": {"en": "Marathon Legend", "ko": "마라톤 레전드", "ja": "マラソン・レジェンド", "es": "Marathon Legend", "pt-BR": "Marathon Legend"}, "tagline": {"en": "Train a scrappy street kid into a marathon champion.", "ko": "거리의 소년을 마라톤 챔피언으로 키워내세요.", "ja": "街の少年をマラソン王者へと育て上げよう。", "es": "Convierte a un chaval de la calle en campeón de maratón.", "pt-BR": "Transforme um moleque de rua em campeão de maratona."}, "desc": {"en": "Marathon Legend is an endurance-running sim where you build a runner from the ground up — pace, stamina, and grit. Manage training, push through the wall, and chase the finish line across a pixel-art city at golden hour. Cloud saves keep your progress with you.", "ko": "마라톤 레전드는 지구력 러닝 시뮬레이션입니다. 페이스, 스태미나, 근성을 관리하며 러너를 성장시키고, 황혼의 픽셀 도시를 달려 결승선을 향해 나아가세요. 클라우드 저장으로 진행 상황이 안전하게 보관됩니다.", "ja": "マラソン・レジェンドは持久力ランニングシミュレーション。ペース、スタミナ、根性を管理してランナーを育て、夕暮れのピクセルシティを駆け抜けてゴールを目指そう。クラウドセーブで進行状況を安全に保存。", "es": "Marathon Legend es un simulador de carrera de fondo donde construyes a un corredor desde cero: ritmo, resistencia y carácter. Gestiona los entrenamientos, atraviesa el muro y persigue la meta por una ciudad en pixel art a la hora dorada. Las partidas guardadas en la nube llevan tu progreso contigo.", "pt-BR": "Marathon Legend é um simulador de corrida de resistência em que você constrói um corredor do zero: ritmo, fôlego e raça. Gerencie os treinos, atravesse a parede e persiga a linha de chegada por uma cidade em pixel art na hora dourada. Os saves na nuvem levam seu progresso com você."}};
-        const STR = {"en": {"store": "Get it on Google Play", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "shots": "Capturas //"}};
+        const STR = {"en": {"store": "Get it on Google Play", "itch": "Get it on itch.io", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "itch": "itch.io에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "itch": "itch.io で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "itch": "Consíguelo en itch.io", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "itch": "Disponível no itch.io", "shots": "Capturas //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
             return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
@@ -212,7 +218,10 @@
             document.getElementById('apName').textContent = APP.name[lang];
             document.getElementById('apTagline').textContent = APP.tagline[lang];
             document.getElementById('apDesc').textContent = APP.desc[lang];
-            document.getElementById('apStore').textContent = STR[lang].store;
+            const store = document.getElementById('apStore');
+            if (store) store.textContent = STR[lang].store;
+            const itch = document.getElementById('apItch');
+            if (itch) itch.textContent = STR[lang].itch;
             const shotsHead = document.getElementById('apShotsHead');
             if (shotsHead) shotsHead.textContent = STR[lang].shots;
             document.documentElement.lang = lang;

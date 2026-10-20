@@ -2,6 +2,25 @@
 
 All notable changes to the Crystl Labs website are documented here.
 
+## 2026-10-20
+
+### Added
+- **itch.io links.** Every app card, app page and popup has a Google Play button and an
+  itch.io button, each only where that page is live (checked 2026-10-20: 91 Play listings
+  and 103 public itch pages return 200). 89 apps link to Play, 106 to itch.io.
+- **26 new apps** with icon, tagline, description (EN/KO/JA/ES/PT-BR) and itch screenshots:
+  Ashline Ronin, Brambleguard, Mic Drop and Tumbler (Play + itch), plus 22 itch-only games
+  from projectpop, projectsingeractor, projectcombat, projectnext, projectoccupation and
+  projecttruecrime.
+
+### Changed
+- **The Apps grid lists released apps only** (113). Unreleased pages still build, with
+  noindex, and are out of the sitemap. 19 apps moved from Store prep to Live.
+- **Frontier: Crystl Quant first, Underfolio second**, each with a description, a Website
+  button and a Google Play button (projects page and homepage).
+- WeedSpot is not listed (itch adult flag on). The 17 itch Drafts going public on
+  2026-10-21 and 2026-10-22 are not linked yet.
+
 ## 2026-10-03
 
 ### Added

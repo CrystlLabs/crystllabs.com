@@ -104,10 +104,12 @@
 
                 <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Two YouTube videos, one view count shown, one hidden. Higher or lower. That is the whole game, and it is harder than it sounds, because your instinct about what the internet actually watched is usually wrong. The deck is 44 videos pulled from the YouTube Data API v3 rather than typed in from memory, which matters: every number on screen is the real count at the time the deck was built, not an approximation. Runs in the browser with no account and no install, keeps your best score locally, and the streak ends the moment you guess wrong.</p>
 
-                <a id="apStoreLink" href="https://statclash.crystllabs.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
-                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3a15 15 0 0 0 0 18M12 3a15 15 0 0 1 0 18M3 12h18M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18z"/></svg>
-                    <span id="apStore">Play in your browser</span>
-                </a>
+                <div class="flex flex-col sm:flex-row flex-wrap gap-3">
+                    <a id="apStoreLink" href="https://statclash.crystllabs.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandGreen/10 border border-brandGreen/40 px-4 py-3 text-brandGreen font-mono text-xs uppercase tracking-wide hover:bg-brandGreen/20 transition-colors">
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3a15 15 0 0 0 0 18M12 3a15 15 0 0 1 0 18M3 12h18M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18z"/></svg>
+                        <span id="apStore">Play in your browser</span>
+                    </a>
+                </div>
 
                 <section class="mt-10">
                     <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
@@ -173,7 +175,7 @@
 
     <script>
         const APP = {"name": {"en": "StatClash", "ko": "스탯클래시", "ja": "スタットクラッシュ", "es": "StatClash", "pt-BR": "StatClash"}, "tagline": {"en": "Higher or lower, on YouTube view counts. The billion-view club and the ghosts of the old internet.", "ko": "유튜브 조회수로 겨루는 하이 로우 게임. 10억 조회 클럽과 옛 인터넷의 유령들.", "ja": "YouTube の再生回数で挑むハイ＆ロー。10億回クラブと、古いインターネットの亡霊たち。", "es": "Más o menos, con visitas de YouTube. El club de los mil millones y los fantasmas de la vieja internet.", "pt-BR": "Maior ou menor, com views do YouTube. O clube do bilhão e os fantasmas da internet antiga."}, "desc": {"en": "Two YouTube videos, one view count shown, one hidden. Higher or lower. That is the whole game, and it is harder than it sounds, because your instinct about what the internet actually watched is usually wrong. The deck is 44 videos pulled from the YouTube Data API v3 rather than typed in from memory, which matters: every number on screen is the real count at the time the deck was built, not an approximation. Runs in the browser with no account and no install, keeps your best score locally, and the streak ends the moment you guess wrong.", "ko": "유튜브 영상 두 개, 한쪽은 조회수가 보이고 다른 쪽은 가려져 있습니다. 더 높을까요, 낮을까요. 게임은 이게 전부지만 생각보다 어렵습니다. 인터넷이 실제로 무엇을 봤는지에 대한 당신의 직감은 대체로 틀리거든요. 덱은 YouTube Data API v3에서 가져온 44개 영상으로, 기억에 의존해 입력한 값이 아닙니다. 이 점이 중요합니다. 화면의 모든 숫자는 덱을 만든 시점의 실제 조회수이지 어림값이 아닙니다. 계정도 설치도 없이 브라우저에서 돌아가고, 최고 점수는 기기에 저장되며, 한 번 틀리면 연속 기록은 거기서 끝납니다.", "ja": "YouTube の動画が2本、片方は再生回数が見えていて、もう片方は隠されています。上か、下か。ゲームはそれだけですが、思ったより難しい。インターネットが実際に何を観たのかについての直感は、たいてい外れるからです。デッキは YouTube Data API v3 から取得した44本。記憶を頼りに打ち込んだ数字ではありません。ここが肝心で、画面に出る数値はすべてデッキ生成時点の実測値であって概算ではありません。アカウントもインストールも不要でブラウザ内で動き、ベストスコアは端末に保存され、一度外せば連続記録はそこで終わります。", "es": "Dos vídeos de YouTube, un recuento de visitas visible y otro oculto. Más o menos. Ese es todo el juego, y es más difícil de lo que parece, porque tu intuición sobre lo que internet vio de verdad suele estar equivocada. El mazo son 44 vídeos sacados de la YouTube Data API v3 en lugar de escritos de memoria, y eso importa: cada número en pantalla es el recuento real en el momento en que se armó el mazo, no una aproximación. Corre en el navegador sin cuenta ni instalación, guarda tu mejor marca localmente, y la racha se acaba en cuanto fallas.", "pt-BR": "Dois vídeos do YouTube, uma contagem de views visível e outra escondida. Maior ou menor. É esse o jogo inteiro, e é mais difícil do que parece, porque sua intuição sobre o que a internet realmente assistiu costuma estar errada. O baralho são 44 vídeos puxados da YouTube Data API v3 em vez de digitados de memória, e isso importa: cada número na tela é a contagem real no momento em que o baralho foi montado, não uma aproximação. Roda no navegador sem conta e sem instalação, guarda seu recorde localmente, e a sequência acaba no instante em que você erra."}};
-        const STR = {"en": {"store": "Play in your browser", "shots": "Screenshots //"}, "ko": {"store": "브라우저에서 플레이", "shots": "스크린샷 //"}, "ja": {"store": "ブラウザでプレイ", "shots": "スクリーンショット //"}, "es": {"store": "Jugar en el navegador", "shots": "Capturas //"}, "pt-BR": {"store": "Jogar no navegador", "shots": "Capturas //"}};
+        const STR = {"en": {"store": "Play in your browser", "itch": "Get it on itch.io", "shots": "Screenshots //"}, "ko": {"store": "브라우저에서 플레이", "itch": "itch.io에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "ブラウザでプレイ", "itch": "itch.io で入手", "shots": "スクリーンショット //"}, "es": {"store": "Jugar en el navegador", "itch": "Consíguelo en itch.io", "shots": "Capturas //"}, "pt-BR": {"store": "Jogar no navegador", "itch": "Disponível no itch.io", "shots": "Capturas //"}};
         function currentLang() {
             const l = localStorage.getItem('crystl_lang') || 'ko';
             return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
@@ -185,7 +187,10 @@
             document.getElementById('apName').textContent = APP.name[lang];
             document.getElementById('apTagline').textContent = APP.tagline[lang];
             document.getElementById('apDesc').textContent = APP.desc[lang];
-            document.getElementById('apStore').textContent = STR[lang].store;
+            const store = document.getElementById('apStore');
+            if (store) store.textContent = STR[lang].store;
+            const itch = document.getElementById('apItch');
+            if (itch) itch.textContent = STR[lang].itch;
             const shotsHead = document.getElementById('apShotsHead');
             if (shotsHead) shotsHead.textContent = STR[lang].shots;
             document.documentElement.lang = lang;
