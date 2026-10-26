@@ -742,6 +742,10 @@ def write_sitemap(apps):
     (see render_page), so listing them here would just contradict it."""
     urls = [f'{SITE}/{p}' for p, _ in TOP_PAGES]
     prios = [pr for _, pr in TOP_PAGES]
+    # the blog index and every post (build_blog.py)
+    urls.append(f'{SITE}/blogs.html'); prios.append('0.7')
+    for slug in blog_slugs():
+        urls.append(f'{SITE}/blog/{slug}.html'); prios.append('0.6')
 
     for a in apps:
         if not is_indexable(a):
