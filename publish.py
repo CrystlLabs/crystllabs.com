@@ -146,7 +146,7 @@ def load_ap39_posts():
             'date': (data.get('date') or '')[:10],
             'summary': data.get('excerpt', ''),
             'tags': ['AP39'],
-            'external_url': f"https://ap39.crystllabs.com/alpha/{slug}",
+            'external_url': f"https://ap39.site/alpha/{slug}",
         })
     return posts
 
