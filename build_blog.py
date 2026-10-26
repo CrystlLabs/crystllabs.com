@@ -285,7 +285,7 @@ def render_post(p, prev_p, next_p):
         'headline': p['title'],
         'description': p['excerpt'],
         'datePublished': p['date'],
-        'author': {'@type': 'Person', 'name': AUTHOR, 'url': 'https://ap39.crystllabs.com/'},
+        'author': {'@type': 'Person', 'name': AUTHOR, 'url': 'https://ap39.site/'},
         'publisher': {'@type': 'Organization', 'name': 'Crystl Labs',
                       'logo': {'@type': 'ImageObject', 'url': f'{SITE}/crystl1.png'}},
         'mainEntityOfPage': canonical,
