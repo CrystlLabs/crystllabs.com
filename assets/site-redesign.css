@@ -256,6 +256,9 @@ main [class*="tracking-widest"] {
 .portal-plane::after { content: ""; position: absolute; inset: 0; background: linear-gradient(120deg,transparent 10%,rgba(255,255,255,.14),transparent 55%); transform: translateX(-100%); transition: transform .9s var(--ease-out); }
 .portal-plane:hover { z-index: 8; filter: saturate(1.15) brightness(1.06); box-shadow: 0 26px 58px rgba(0,0,0,.42); }
 .portal-plane:hover::after { transform: translateX(100%); }
+/* the site logos turn like the Crystl Labs mark (.crystl-brand) on hover: hero planes and Frontier cards (2026-10-27) */
+.portal-plane img, #heatCarousel img, #heatGrid img { transition: transform .7s var(--ease-out); }
+.portal-plane:hover img, #heatCarousel > *:hover img, #heatGrid > *:hover img { transform: rotate(12deg) scale(1.06); }
 .portal-plane:hover::before { transform: scale(1.04); opacity: 1; }
 .portal-plane img { position: relative; z-index: 2; display: block; flex: none; width: clamp(58px,5vw,76px); height: clamp(58px,5vw,76px); padding: 2px; object-fit: contain; border: 1px solid rgba(255,255,255,.12); border-radius: 22%; background: rgba(0,0,0,.16); box-shadow: 0 14px 34px rgba(0,0,0,.45); }
 .portal-copy { position: relative; z-index: 2; display: block; min-width: 0; margin-left: clamp(16px,2vw,24px); color: white; }
