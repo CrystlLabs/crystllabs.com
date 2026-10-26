@@ -25,7 +25,6 @@ SRC_DIR = os.path.join(ROOT, 'blog_src')
 OUT_DIR = os.path.join(ROOT, 'blog')
 
 SITE = 'https://crystllabs.com'
-AUTHOR = 'AP39'
 ADSENSE = ('<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
            '?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>')
 
@@ -289,7 +288,7 @@ def render_post(p, prev_p, next_p):
         'headline': p['title'],
         'description': p['excerpt'],
         'datePublished': p['date'],
-        'author': {'@type': 'Person', 'name': AUTHOR, 'url': 'https://ap39.site/'},
+        'author': {'@type': 'Organization', 'name': 'Crystl Labs', 'url': SITE + '/'},  # a site blog, no personal byline (2026-10-27)
         'publisher': {'@type': 'Organization', 'name': 'Crystl Labs',
                       'logo': {'@type': 'ImageObject', 'url': f'{SITE}/crystl1.png'}},
         'mainEntityOfPage': canonical,
@@ -324,8 +323,6 @@ def render_post(p, prev_p, next_p):
                     <h1 class="text-2xl md:text-4xl font-extrabold text-white leading-tight">{esc(p['title'])}</h1>
                     <p class="mt-4 text-gray-400 text-sm md:text-base leading-relaxed">{esc(p['excerpt'])}</p>
                     <div class="mt-5 flex flex-wrap items-center gap-3 font-mono text-[11px] uppercase tracking-wider text-gray-500">
-                        <span class="text-brandPink/90">By {AUTHOR}</span>
-                        <span class="text-white/20">/</span>
                         <time datetime="{esc(p['day'])}">{esc(p['pretty'])}</time>
                         <span class="text-white/20">/</span>
                         <span>{p['minutes']} min read</span>
@@ -337,11 +334,7 @@ def render_post(p, prev_p, next_p):
                 </div>
 
                 <footer class="mt-14 pt-8 border-t border-white/10">
-                    <p class="text-sm text-gray-500 leading-relaxed">Written by {AUTHOR}, who builds the apps at
-                        <a href="../index.html" class="text-brandBlue hover:text-brandPink underline underline-offset-2 transition-colors">Crystl Labs</a>.
-                        Numbers in these posts come from runs that were actually made, not from memory. Corrections go to
-                        <a href="mailto:dev@crystllabs.com" class="text-brandBlue hover:text-brandPink underline underline-offset-2 transition-colors">email</a>.</p>
-                    <nav class="mt-8 flex justify-between gap-4">{chip(next_p, 'Newer', 'text-left')}{chip(prev_p, 'Older', 'text-right ml-auto')}</nav>
+                    <nav class="flex justify-between gap-4">{chip(next_p, 'Newer', 'text-left')}{chip(prev_p, 'Older', 'text-right ml-auto')}</nav>
                 </footer>
             </article>
 ''' + TAIL
