@@ -356,6 +356,7 @@ def render_page(app):
             </a>
         </div>
         <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <a href="../blogs.html" class="text-gray-300 hover:text-white transition-colors">Blog</a>
             <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
                 <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
                 <span>CONNECTED</span>
@@ -530,8 +531,8 @@ def _app_cards(apps, layout):
     out = []
     for a in apps:
         name = esc(a['name']['en'])
-        href = f"apps/{a['slug']}.html"
-        icon = f"apps/{a['slug']}.png"
+        href = a.get('external') or f"apps/{a['slug']}.html"
+        icon = a.get('icon') if a.get('external') else f"apps/{a['slug']}.png"
         badge_carousel = f'\n                            {status_badge(a, "mt-3")}'
         if layout == 'carousel':
             out.append(f'''
@@ -670,6 +671,13 @@ def stamp_data_version(data_js):
         print(f'[VER]  {name} -> apps.data.js?v={ver}')
 
 
+# The Kimchi Premium takes Murder Phone's place in the home carousel (owner 2026-10-27); Murder Phone stays on
+# projects.html. index.html's renderApps() makes the same swap in the browser.
+KIMCHI_CARD = {'slug': 'the-kimchi-premium', 'external': 'https://thekimchipremium.com/', 'icon': 'assets/kimchi-icon.png',
+               'name': {'en': 'The Kimchi Premium'}, 'tagline': {'en': 'Korean stocks and markets, explained in English.'}, 'status': 'Live'}
+HOME_SWAP = {'murder-phone': KIMCHI_CARD}
+
+
 def seed_static_cards(apps):
     targets = [
         # index.html's carousel is "Latest Releases" — shipped apps only. projects.html
@@ -701,6 +709,8 @@ def seed_static_cards(apps):
                     subset = roster[:limit]
                 else:
                     subset = roster
+                if name == 'index.html':
+                    subset = [HOME_SWAP.get(a['slug'], a) for a in subset]
                 inner = _app_cards(subset, layout)
             if not inner:
                 continue
