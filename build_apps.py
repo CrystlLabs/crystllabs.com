@@ -582,7 +582,7 @@ def _heat_cards(html_text):
             label = 'Live'
         badge_cls = ('text-brandGreen border-brandGreen/40 bg-brandGreen/10'
                      if label.lower() == 'live' else 'text-brandBlue/90 border-brandBlue/30')
-        icon_path = icon.group(1) if icon else ('assets/crystlquant-logo.png' if name == 'Crystl Quant' else '')
+        icon_path = icon.group(1) if icon else ('assets/crystlquant-logo.png' if name == 'CrystlQuant' else '')
         icon_html = (f'<img src="{esc(icon_path)}" alt="" class="w-20 h-20 shrink-0 rounded-2xl border border-white/10 object-cover">'
                      if icon_path else
                      f'<div class="w-14 h-14 md:w-16 md:h-16 shrink-0 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-xl md:text-2xl font-extrabold text-gradient">{esc(initial)}</div>')
