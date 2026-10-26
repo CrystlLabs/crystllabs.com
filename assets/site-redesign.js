@@ -19,6 +19,7 @@
   const url = (value) => `${root}/${value}`;
   const links = [
     ['Projects', 'projects.html'],
+    ['Blog', 'blogs.html'],
     ['Studio', 'personnel.html']
   ];
   const isCurrent = (href) => path.endsWith(`/${href}`)
@@ -145,8 +146,8 @@
       <a class="portal-plane portal-plane--two" href="https://underfolio.com/?src=crystllabs" target="_blank" rel="noopener noreferrer">
         <img src="${url('assets/underfolio-icon.png')}" alt=""><span class="portal-copy"><span>Underfolio</span><small>World 02 · Market history</small></span>
       </a>
-      <a class="portal-plane portal-plane--three" href="${url('apps/murder-phone.html')}">
-        <img src="${url('apps/murder-phone.png')}" alt=""><span class="portal-copy"><span>Murder Phone</span><small>World 03 · Detective</small></span>
+      <a class="portal-plane portal-plane--three" href="https://thekimchipremium.com/" target="_blank" rel="noopener noreferrer">
+        <img src="${url('assets/kimchi-icon.png')}" alt=""><span class="portal-copy"><span>The Kimchi Premium</span><small>World 03 · Korean markets</small></span>
       </a>
     </div>`;
     hero.insertAdjacentElement('afterend', portal);
