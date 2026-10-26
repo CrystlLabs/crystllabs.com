@@ -2,6 +2,16 @@
 
 All notable changes to the Crystl Labs website are documented here.
 
+## 2026-10-26
+
+### Changed
+- **ap39 moved to ap39.site.** Every link to ap39.crystllabs.com (blog author links, the
+  personnel card, `build_blog.py`, `build_pages.py`, `publish.py`) now points at https://ap39.site.
+  The old address is served by the GitHub Pages repo AP39/ap39-redirect, which forwards each
+  path to ap39.site. Keep that repo while the `ap39` record on crystllabs.com exists.
+- `ads.txt` no longer lists `subdomain=ap39.crystllabs.com`: the old address is only a
+  forwarding page and serves no ads.
+
 ## 2026-10-20
 
 ### Added
