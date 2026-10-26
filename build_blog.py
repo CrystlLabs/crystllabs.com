@@ -8,7 +8,7 @@ Single source of truth: blog_src/<slug>.json  ({title, slug, date, excerpt, cont
 
 Emits:
   - blog/<slug>.html   one standalone, indexable article per post
-  - blogs.html         the index that links to them
+  - blogs.html         the blog index (restored 2026-10-27: home, projects and personnel link to it)
 
 Run:  python build_blog.py
 """
@@ -199,6 +199,7 @@ def sidebar(root, active):
 
     links = ''.join('\n                            ' + item(h, l) for h, l in (
         ('projects.html', 'projects.html'),
+        ('blogs.html', 'blogs.html'),
         ('personnel.html', 'personnel.html'),
         ('privacy.html', 'privacy.html'),
         ('terms.html', 'terms.html'),
@@ -313,7 +314,7 @@ def render_post(p, prev_p, next_p):
                 f'{esc(other["title"])}</span></a>')
 
     return head + f'''            <article class="max-w-3xl mx-auto">
-                <a href="../index.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- home</a>
+                <a href="../blogs.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all posts</a>
 
                 <header class="mb-8 pb-8 border-b border-white/10">
                     <div class="font-mono text-[11px] uppercase tracking-widest text-brandBlue/90 mb-3">Directive {esc(p['day'])}</div>
@@ -435,6 +436,9 @@ def main():
         with open(out, 'w', encoding='utf-8', newline='') as f:
             f.write(render_post(p, prev_p, next_p))
         print(f"[BLOG] post  -> blog/{p['slug']}.html  ({p['words']} words)")
+    with open(os.path.join(ROOT, 'blogs.html'), 'w', encoding='utf-8', newline='') as f:
+        f.write(render_index(posts))
+    print(f'[BLOG] index -> blogs.html  ({len(posts)} posts)')
 
     return posts
 
