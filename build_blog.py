@@ -177,10 +177,13 @@ NAV = '''
             <img src="{root}crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
             <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
         </a>
-        <span class="hidden md:inline-flex items-center gap-1.5 font-mono text-[11px] text-brandGreen/90 uppercase tracking-wide">
-            <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
-            <span>CONNECTED</span>
-        </span>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] uppercase tracking-wide">
+            <a href="{root}blogs.html" class="text-gray-300 hover:text-white transition-colors">Blog</a>
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+        </div>
     </nav>
 '''
 
