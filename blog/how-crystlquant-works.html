@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
+    <title>Three Numbers on Every Game: How CrystlQuant Works | Crystl Labs</title>
+    <meta name="description" content="Every game on CrystlQuant carries three numbers: the market&#x27;s price, our forecast, and a blind model that never sees the price. All three are published before the game and graded after it, misses included. Here is how to read them, using this Sunday&#x27;s NFL games.">
+    <link rel="canonical" href="https://crystllabs.com/blog/how-crystlquant-works.html">
+    <meta property="og:title" content="Three Numbers on Every Game: How CrystlQuant Works | Crystl Labs">
+    <meta property="og:description" content="Every game on CrystlQuant carries three numbers: the market&#x27;s price, our forecast, and a blind model that never sees the price. All three are published before the game and graded after it, misses included. Here is how to read them, using this Sunday&#x27;s NFL games.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://crystllabs.com/blog/how-crystlquant-works.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="stylesheet" href="/assets/tailwind.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/fonts.css">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <style>
+        :root { color-scheme: dark; }
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+    </style>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Three Numbers on Every Game: How CrystlQuant Works", "description": "Every game on CrystlQuant carries three numbers: the market's price, our forecast, and a blind model that never sees the price. All three are published before the game and graded after it, misses included. Here is how to read them, using this Sunday's NFL games.", "datePublished": "2026-10-29T00:00:00Z", "author": {"@type": "Organization", "name": "Crystl Labs", "url": "https://crystllabs.com/"}, "publisher": {"@type": "Organization", "name": "Crystl Labs", "logo": {"@type": "ImageObject", "url": "https://crystllabs.com/crystl1.png"}}, "mainEntityOfPage": "https://crystllabs.com/blog/how-crystlquant-works.html", "wordCount": 592}</script>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+            <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+            <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+        </a>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] uppercase tracking-wide">
+            <a href="../blogs.html" class="text-gray-300 hover:text-white transition-colors">Blog</a>
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>&#128193;</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                            <li><a href="../projects.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">projects.html</a></li>
+                            <li><a href="../blogs.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">blogs.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span></a></li>
+                            <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                            <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                            <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                            <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <article class="max-w-3xl mx-auto">
+                <a href="../blogs.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all posts</a>
+
+                <header class="mb-8 pb-8 border-b border-white/10">
+                    <div class="font-mono text-[11px] uppercase tracking-widest text-brandBlue/90 mb-3">Directive 2026-10-29</div>
+                    <h1 class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Three Numbers on Every Game: How CrystlQuant Works</h1>
+                    <p class="mt-4 text-gray-400 text-sm md:text-base leading-relaxed">Every game on CrystlQuant carries three numbers: the market&#x27;s price, our forecast, and a blind model that never sees the price. All three are published before the game and graded after it, misses included. Here is how to read them, using this Sunday&#x27;s NFL games.</p>
+                    <div class="mt-5 flex flex-wrap items-center gap-3 font-mono text-[11px] uppercase tracking-wider text-gray-500">
+                        <time datetime="2026-10-29">29 OCT 2026</time>
+                        <span class="text-white/20">/</span>
+                        <span>3 min read</span>
+                    </div>
+                </header>
+
+                <div class="text-[15px] md:text-base">
+<p class="my-5 leading-[1.75] text-gray-300">CrystlQuant is the sports forecasting site we build at Crystl Labs. It covers the NFL, NBA, NHL, MLB, college sports, the Premier League and the big European leagues, UFC, tennis, cricket and more. It is free. Every page is built around one idea: a forecast only counts if it is written down before the game and checked after it.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">Three numbers, not one</h3>
+<p class="my-5 leading-[1.75] text-gray-300">Most sites give you one number per game. CrystlQuant gives you three, side by side.</p>
+<ul class="my-5 pl-5 list-disc marker:text-brandPink/70 text-gray-300 leading-[1.7]"><li class="my-1.5"><strong class="text-white font-semibold">The market.</strong> What the price says, turned into a plain chance to win. Thousands of people with money on the line set it, and it is hard to beat. We show it so you can see where we agree and where we do not.</li><li class="my-1.5"><strong class="text-white font-semibold">CrystlQuant.</strong> Our main forecast. It starts from the market&#x27;s price and moves it toward what our model sees. Most weeks it backs the same team as the market; its job is to get the percentage right.</li><li class="my-1.5"><strong class="text-white font-semibold">The blind model.</strong> It never sees the price at all. It works only from the teams and players themselves. It disagrees with the market more often, so it wins bigger and misses more.</li></ul>
+<p class="my-5 leading-[1.75] text-gray-300">When all three agree, there is no story. When they split, that is the game worth reading about.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">Reading this Sunday</h3>
+<p class="my-5 leading-[1.75] text-gray-300">Three NFL games this week show what the numbers say (as published on Thursday 29 October):</p>
+<div class="my-6 overflow-x-auto rounded-xl border border-white/10 bg-panelBg/40"><table class="w-full text-sm border-collapse"><thead><tr><th class="text-left font-mono text-[11px] uppercase tracking-wider text-brandBlue/90 px-3 py-2 border-b border-white/15">Game</th><th class="text-left font-mono text-[11px] uppercase tracking-wider text-brandBlue/90 px-3 py-2 border-b border-white/15">Market</th><th class="text-left font-mono text-[11px] uppercase tracking-wider text-brandBlue/90 px-3 py-2 border-b border-white/15">CrystlQuant</th><th class="text-left font-mono text-[11px] uppercase tracking-wider text-brandBlue/90 px-3 py-2 border-b border-white/15">Blind model</th></tr></thead><tbody><tr class="border-b border-white/5 last:border-0"><td class="px-3 py-2 align-top text-gray-300">Ravens at Bills</td><td class="px-3 py-2 align-top text-gray-300">Bills 61%</td><td class="px-3 py-2 align-top text-gray-300">Bills 61%</td><td class="px-3 py-2 align-top text-gray-300">Bills 79%</td></tr><tr class="border-b border-white/5 last:border-0"><td class="px-3 py-2 align-top text-gray-300">Vikings at Lions</td><td class="px-3 py-2 align-top text-gray-300">Lions 63%</td><td class="px-3 py-2 align-top text-gray-300">Lions 62%</td><td class="px-3 py-2 align-top text-gray-300">Vikings 50.1%</td></tr><tr class="border-b border-white/5 last:border-0"><td class="px-3 py-2 align-top text-gray-300">Raiders at Jets</td><td class="px-3 py-2 align-top text-gray-300">Jets 53%</td><td class="px-3 py-2 align-top text-gray-300">Jets 53%</td><td class="px-3 py-2 align-top text-gray-300">Raiders 54%</td></tr></tbody></table></div>
+<p class="my-5 leading-[1.75] text-gray-300">In Buffalo all three take the Bills, but the blind model is 18 points more sure than the market. In Detroit the blind model goes the other way: the Vikings are 6 and 0 and still the underdog, and it takes them. In New York it takes the Raiders outright. Every game gets a side. When a forecast sits near 50, the site shows the decimal and names the team it points to.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">Published first, graded after</h3>
+<p class="my-5 leading-[1.75] text-gray-300">Every forecast goes up before the game starts and cannot be changed once it is there. After the game it is graded in public on the Record page, with the wins and the misses. You can check how each of the three numbers has done, sport by sport, this season and all time. As of 29 October, the blind model has picked the winner in 66 of 105 graded NFL games this season.</p>
+<p class="my-5 leading-[1.75] text-gray-300">Keeping the misses is the point. A site that only shows its wins is telling you a story. A record with the misses in it is telling you what to expect.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">The Lab</h3>
+<p class="my-5 leading-[1.75] text-gray-300">The Lab is the part of the site for questions that are not on the schedule. &quot;What if they fought&quot; prices any two active UFC fighters, booked or not. Eras pits team seasons from different decades against each other: the 2024-25 Thunder against the &#x27;96 Bulls comes out 50.04% to 49.96%, Bulls by a hair. None of it is graded, because none of it will be played. It is there to argue with.</p>
+<h3 class="text-lg md:text-xl mt-9 mb-3 font-bold text-white scroll-mt-20">Why we built it this way</h3>
+<p class="my-5 leading-[1.75] text-gray-300">Forecasts are easy to make and easy to forget. Writing them down first, next to the market&#x27;s own number, and grading them in public is what makes them worth reading. That is the whole site.</p>
+<p class="my-5 leading-[1.75] text-gray-300"><a href="https://crystlquant.com/record" class="text-brandBlue hover:text-brandPink underline underline-offset-2 transition-colors">See every graded call on CrystlQuant</a></p>
+                </div>
+
+                <footer class="mt-14 pt-8 border-t border-white/10">
+                    <nav class="flex justify-between gap-4"><span></span><a href="cyberpunk-production-logs.html" class="group max-w-[48%] text-right ml-auto rounded-xl border border-white/10 bg-panelBg/50 hover:border-brandPink/40 hover:bg-panelBg px-4 py-3 transition-all"><span class="block font-mono text-[10px] uppercase tracking-wider text-gray-500">Older</span><span class="block mt-1 text-sm text-gray-300 group-hover:text-white transition-colors">Piping Production Logs Into Cyberpunk 2077</span></a></nav>
+                </footer>
+            </article>
+        </main>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

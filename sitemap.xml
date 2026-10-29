@@ -29,6 +29,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://crystllabs.com/blog/how-crystlquant-works.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://crystllabs.com/blog/40-hours-12ms-spike.html</loc>
     <priority>0.6</priority>
   </url>
