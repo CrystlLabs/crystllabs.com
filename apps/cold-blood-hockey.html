@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cold Blood Hockey | Crystl Labs</title>
+    <meta name="description" content="Play full hockey games, lead your line and fight for your town&#x27;s rink.">
+    <meta property="og:title" content="Cold Blood Hockey | Crystl Labs">
+    <meta property="og:description" content="Play full hockey games, lead your line and fight for your town&#x27;s rink.">
+    <meta property="og:image" content="cold-blood-hockey.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/cold-blood-hockey.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="stylesheet" href="/assets/tailwind.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/fonts.css">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <a href="../blogs.html" class="text-gray-300 hover:text-white transition-colors">Blog</a>
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="cold-blood-hockey.png" alt="Cold Blood Hockey" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Cold Blood Hockey</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">PC</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Play full hockey games, lead your line and fight for your town&#x27;s rink.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Your frozen mill town has one rink and one shot at the cup. Become its captain while an ownership syndicate engineers a move to a richer city. Play three full periods with passing, shots, checking, substitutions, icing and offside, where penalties change manpower and tied games can reach overtime. Prepare a scoring line or a checking unit while protecting the town&#x27;s rink. Away from the match, work through 36 story encounters with 12 recurring characters, where choices shape trust, debt, community support and relationships, and earlier decisions come back later. Balance training, recovery, sponsors and club improvements across a 12-fixture season, with three career backgrounds and retirement legacies.</p>
+
+                <div class="flex flex-col sm:flex-row flex-wrap gap-3">
+                    <a id="apItchLink" href="https://crystllabs.itch.io/coldbloodhockey" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandPink/10 border border-brandPink/40 px-4 py-3 text-brandPink font-mono text-xs uppercase tracking-wide hover:bg-brandPink/20 transition-colors">
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 11h4M8 9v4M15 12h.01M18 10h.01M17.3 5H6.7a4 4 0 0 0-4 3.6l-.9 7.2a2.5 2.5 0 0 0 4.4 1.9L7.5 16h9l1.3 1.7a2.5 2.5 0 0 0 4.4-1.9l-.9-7.2A4 4 0 0 0 17.3 5z"/></svg>
+                        <span id="apItch">Get it on itch.io</span>
+                    </a>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/cold-blood-hockey/01.jpg" alt="Cold Blood Hockey screenshot 1" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/cold-blood-hockey/02.jpg" alt="Cold Blood Hockey screenshot 2" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/cold-blood-hockey/03.jpg" alt="Cold Blood Hockey screenshot 3" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/cold-blood-hockey/04.jpg" alt="Cold Blood Hockey screenshot 4" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/cold-blood-hockey/05.jpg" alt="Cold Blood Hockey screenshot 5" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Cold Blood Hockey", "ko": "콜드 블러드 하키", "ja": "コールド・ブラッド・ホッケー", "es": "Cold Blood Hockey", "pt-BR": "Cold Blood Hockey"}, "tagline": {"en": "Play full hockey games, lead your line and fight for your town's rink.", "ko": "하키 경기를 끝까지 뛰고, 라인을 이끌고, 마을의 링크를 지키기 위해 싸우세요.", "ja": "ホッケーの試合をフルで戦い、ラインを率い、町のリンクのために闘え。", "es": "Juega partidos completos de hockey, lidera tu línea y lucha por la pista de tu pueblo.", "pt-BR": "Jogue partidas completas de hóquei, lidere sua linha e lute pela pista da sua cidade."}, "desc": {"en": "Your frozen mill town has one rink and one shot at the cup. Become its captain while an ownership syndicate engineers a move to a richer city. Play three full periods with passing, shots, checking, substitutions, icing and offside, where penalties change manpower and tied games can reach overtime. Prepare a scoring line or a checking unit while protecting the town's rink. Away from the match, work through 36 story encounters with 12 recurring characters, where choices shape trust, debt, community support and relationships, and earlier decisions come back later. Balance training, recovery, sponsors and club improvements across a 12-fixture season, with three career backgrounds and retirement legacies.", "ko": "얼어붙은 공장 마을에는 링크 하나와 우승컵을 향한 단 한 번의 기회가 있습니다. 구단주 연합이 더 부유한 도시로의 이전을 꾸미는 동안 마을 팀의 주장이 되세요. 패스, 슛, 체킹, 교체, 아이싱, 오프사이드가 있는 세 피리어드를 모두 치르세요. 페널티는 인원수를 바꾸고, 동점이면 연장전까지 갑니다. 마을의 링크를 지키며 득점 라인이나 체킹 유닛을 준비하세요. 경기 밖에서는 12명의 고정 인물과 함께하는 36개의 이야기 사건을 겪게 됩니다. 선택은 신뢰, 빚, 지역 사회의 지지, 인간관계에 영향을 주고, 이전의 결정은 나중에 다시 돌아옵니다. 12경기 시즌 동안 훈련, 회복, 스폰서, 클럽 개선의 균형을 맞추세요. 세 가지 커리어 배경과 은퇴 후 남는 유산도 있습니다.", "ja": "凍てつく工場町にはリンクがひとつと、カップへのチャンスが一度だけ。オーナー連合がより裕福な都市への移転を画策する中、チームのキャプテンになろう。パス、シュート、チェック、交代、アイシング、オフサイドのある3ピリオドをフルでプレイ。ペナルティで人数が変わり、同点なら延長戦へ。町のリンクを守りながら、得点ラインかチェッキングユニットを準備しよう。 試合の外では、12人のおなじみの登場人物と36の物語イベントを進める。選択は信頼、借り、地域の支持、人間関係を左右し、過去の決断は後の会話で返ってくる。12戦のシーズンを通じて、トレーニング、回復、スポンサー、クラブの強化のバランスを取ろう。3つのキャリアの出自と、引退後に残るレガシーも用意されている。", "es": "Tu helado pueblo de fábricas tiene una sola pista y una sola oportunidad de ganar la copa. Conviértete en su capitán mientras un consorcio de dueños trama mudar al equipo a una ciudad más rica. Juega tres periodos completos con pases, tiros, choques, cambios, icing y fuera de juego, donde las penalizaciones cambian el número de jugadores y los empates pueden ir a tiempo extra. Prepara una línea goleadora o una unidad de contención mientras proteges la pista del pueblo. Lejos de la competencia, vive 36 encuentros de historia con 12 personajes recurrentes, donde tus decisiones afectan la confianza, las deudas, el apoyo de la comunidad y tus relaciones, y lo que elegiste antes vuelve más adelante. Equilibra entrenamiento, recuperación, patrocinadores y mejoras del club a lo largo de una temporada de 12 fechas, con tres orígenes de carrera y legados de retiro.", "pt-BR": "Sua cidade industrial congelada tem uma única pista e uma única chance na copa. Torne-se o capitão enquanto um consórcio de donos arma a mudança do time para uma cidade mais rica. Jogue três períodos completos com passes, chutes, trancos, substituições, icing e impedimento, em que as penalidades mudam o número de jogadores e empates podem ir para a prorrogação. Prepare uma linha de ataque ou uma unidade de marcação enquanto protege a pista da cidade. Longe da competição, viva 36 encontros de história com 12 personagens recorrentes, em que suas escolhas afetam confiança, dívidas, apoio da comunidade e seus relacionamentos, e decisões antigas voltam mais tarde. Equilibre treino, recuperação, patrocinadores e melhorias do clube ao longo de uma temporada de 12 rodadas, com três origens de carreira e legados de aposentadoria."}};
+        const STR = {"en": {"store": "Get it on Google Play", "itch": "Get it on itch.io", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "itch": "itch.io에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "itch": "itch.io で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "itch": "Consíguelo en itch.io", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "itch": "Disponível no itch.io", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            const store = document.getElementById('apStore');
+            if (store) store.textContent = STR[lang].store;
+            const itch = document.getElementById('apItch');
+            if (itch) itch.textContent = STR[lang].itch;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

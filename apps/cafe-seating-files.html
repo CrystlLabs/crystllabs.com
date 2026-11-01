@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Seating Files | Crystl Labs</title>
+    <meta name="description" content="Follow the clues. Seat the regulars.">
+    <meta property="og:title" content="Cafe Seating Files | Crystl Labs">
+    <meta property="og:description" content="Follow the clues. Seat the regulars.">
+    <meta property="og:image" content="cafe-seating-files.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/cafe-seating-files.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="stylesheet" href="/assets/tailwind.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/fonts.css">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <a href="../blogs.html" class="text-gray-300 hover:text-white transition-colors">Blog</a>
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="cafe-seating-files.png" alt="Cafe Seating Files" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Cafe Seating Files</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">PC</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Follow the clues. Seat the regulars.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Alba finds a casebook under the espresso machine. Reconstruct ordinary mornings at a neighborhood café and discover the four regulars whose quiet help kept its doors open. Each case is a classic logic-grid puzzle: match Ana, Bruno, Caio and Dia to four seats, four drinks and four arrival positions using numbered clues about arrival order, neighboring and opposite seats, exclusions and people identified by their drink. The scenery never hides a rule. After solving, the archive keeps the full deduction trail. There are 100 cases across five story chapters and three difficulty levels, plus a weekly case from a 52-case collection and 90 archive cases.</p>
+
+                <div class="flex flex-col sm:flex-row flex-wrap gap-3">
+                    <a id="apItchLink" href="https://crystllabs.itch.io/cafeseatingfiles" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandPink/10 border border-brandPink/40 px-4 py-3 text-brandPink font-mono text-xs uppercase tracking-wide hover:bg-brandPink/20 transition-colors">
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 11h4M8 9v4M15 12h.01M18 10h.01M17.3 5H6.7a4 4 0 0 0-4 3.6l-.9 7.2a2.5 2.5 0 0 0 4.4 1.9L7.5 16h9l1.3 1.7a2.5 2.5 0 0 0 4.4-1.9l-.9-7.2A4 4 0 0 0 17.3 5z"/></svg>
+                        <span id="apItch">Get it on itch.io</span>
+                    </a>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/cafe-seating-files/01.jpg" alt="Cafe Seating Files screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/cafe-seating-files/02.jpg" alt="Cafe Seating Files screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/cafe-seating-files/03.jpg" alt="Cafe Seating Files screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/cafe-seating-files/04.jpg" alt="Cafe Seating Files screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/cafe-seating-files/05.jpg" alt="Cafe Seating Files screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Cafe Seating Files", "ko": "카페 시팅 파일즈", "ja": "カフェ・シーティング・ファイル", "es": "Cafe Seating Files", "pt-BR": "Cafe Seating Files"}, "tagline": {"en": "Follow the clues. Seat the regulars.", "ko": "단서를 따라 단골들의 자리를 찾아 주세요.", "ja": "手がかりをたどり、常連客を席に案内しよう。", "es": "Sigue las pistas. Sienta a los clientes habituales.", "pt-BR": "Siga as pistas. Acomode os clientes fiéis."}, "desc": {"en": "Alba finds a casebook under the espresso machine. Reconstruct ordinary mornings at a neighborhood café and discover the four regulars whose quiet help kept its doors open. Each case is a classic logic-grid puzzle: match Ana, Bruno, Caio and Dia to four seats, four drinks and four arrival positions using numbered clues about arrival order, neighboring and opposite seats, exclusions and people identified by their drink. The scenery never hides a rule. After solving, the archive keeps the full deduction trail. There are 100 cases across five story chapters and three difficulty levels, plus a weekly case from a 52-case collection and 90 archive cases.", "ko": "알바는 에스프레소 머신 밑에서 사건 기록부를 발견합니다. 동네 카페의 평범한 아침들을 재구성하고, 조용한 도움으로 카페의 문을 지켜 온 네 명의 단골을 찾아내세요. 각 사건은 고전적인 논리 그리드 퍼즐입니다. 도착 순서, 이웃한 자리와 마주 보는 자리, 제외 조건, 음료로 지목되는 사람에 관한 번호 붙은 단서를 이용해 아나, 브루노, 카이우, 디아를 네 개의 자리, 네 가지 음료, 네 개의 도착 순서와 짝지으세요. 배경은 절대 규칙을 숨기지 않습니다. 풀고 나면 기록 보관소에 전체 추리 과정이 남습니다. 5개 스토리 챕터와 3단계 난이도에 걸친 사건 100개에, 52개 사건 모음에서 나오는 주간 사건과 기록 사건 90개가 더해집니다.", "ja": "アルバはエスプレッソマシンの下で事件簿を見つける。近所のカフェのなにげない朝を再現し、陰ながら店を支えてきた4人の常連客を突き止めよう。各事件は定番のロジックグリッドパズル。到着順、隣や向かいの席、除外条件、飲み物で示される人物についての番号付きの手がかりを使い、アナ、ブルーノ、カイオ、ディアを4つの席、4つの飲み物、4つの到着順に当てはめよう。背景がルールを隠すことはない。解いたあとは、推理の全過程がアーカイブに残る。5つのストーリー章と3つの難易度にわたる100件の事件に加え、52件のコレクションから出る週替わりの事件と90件のアーカイブ事件を収録。", "es": "Alba encuentra un libro de casos debajo de la máquina de espresso. Reconstruye mañanas comunes en un café de barrio y descubre a los cuatro clientes habituales cuya ayuda silenciosa mantuvo abiertas sus puertas. Cada caso es un rompecabezas clásico de cuadrícula lógica: relaciona a Ana, Bruno, Caio y Dia con cuatro asientos, cuatro bebidas y cuatro posiciones de llegada usando pistas numeradas sobre el orden de llegada, asientos vecinos y opuestos, exclusiones y personas identificadas por su bebida. El escenario nunca esconde una regla. Al resolverlo, el archivo guarda todo el camino de deducción. Hay 100 casos en cinco capítulos de historia y tres niveles de dificultad, además de un caso semanal de una colección de 52 y 90 casos de archivo.", "pt-BR": "Alba encontra um livro de casos embaixo da máquina de espresso. Reconstrua manhãs comuns num café de bairro e descubra os quatro clientes fiéis cuja ajuda discreta manteve as portas abertas. Cada caso é um quebra-cabeça clássico de grade lógica: relacione Ana, Bruno, Caio e Dia a quatro lugares, quatro bebidas e quatro posições de chegada usando pistas numeradas sobre a ordem de chegada, lugares vizinhos e opostos, exclusões e pessoas identificadas pela bebida. O cenário nunca esconde uma regra. Depois de resolver, o arquivo guarda toda a trilha de dedução. São 100 casos em cinco capítulos de história e três níveis de dificuldade, além de um caso semanal de uma coleção de 52 e 90 casos de arquivo."}};
+        const STR = {"en": {"store": "Get it on Google Play", "itch": "Get it on itch.io", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "itch": "itch.io에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "itch": "itch.io で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "itch": "Consíguelo en itch.io", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "itch": "Disponível no itch.io", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            const store = document.getElementById('apStore');
+            if (store) store.textContent = STR[lang].store;
+            const itch = document.getElementById('apItch');
+            if (itch) itch.textContent = STR[lang].itch;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

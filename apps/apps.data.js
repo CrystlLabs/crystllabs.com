@@ -2792,6 +2792,235 @@ window.CRYSTL_APPS = [
         ]
     },
     {
+        "id": "glasshouse-seasons",
+        "slug": "glasshouse-seasons",
+        "icon": "apps/glasshouse-seasons.png",
+        "page": "apps/glasshouse-seasons.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Glasshouse Seasons",
+            "ko": "글라스하우스 시즌스",
+            "ja": "グラスハウス・シーズンズ",
+            "es": "Glasshouse Seasons",
+            "pt-BR": "Glasshouse Seasons"
+        },
+        "tagline": {
+            "en": "Soil, water, light and heat decide the harvest. You decide where it sells.",
+            "ko": "흙과 물, 빛과 온도가 수확을 정합니다. 어디에 팔지는 당신이 정합니다.",
+            "ja": "土と水と光と温度が収穫を決める。どこで売るかを決めるのはあなた。",
+            "es": "El suelo, el agua, la luz y el calor deciden la cosecha. Tú decides dónde venderla.",
+            "pt-BR": "Solo, água, luz e calor decidem a colheita. Você decide onde vender."
+        },
+        "desc": {
+            "en": "Glasshouse Seasons is a greenhouse management sim. Soil, moisture, light and temperature shape every harvest, and the seasons keep changing underneath you. You grow 18 crop families and research 30 cultivars, each with traits that suit some conditions better than others. Day to day you manage the soil, the irrigation, the climate and crop rotation, and you watch freshness, because produce does not wait. When it is ready you choose where it goes: local stalls, restaurant orders or seasonal exhibitions. A growing notebook keeps track of what you learn, and 60 greenhouse contracts set the goals along the way. Pause whenever you need to think, change the simulation speed as things grow, and try different plans in three save slots. Core play and progression work offline. Optional rewarded ads give a bonus, and interstitial ads appear at breaks between shifts. Plays in English, Spanish and Brazilian Portuguese.",
+            "ko": "글라스하우스 시즌스는 온실 경영 시뮬레이션입니다. 흙과 습도, 빛과 온도가 모든 수확을 좌우하고, 그 아래에서 계절은 계속 바뀝니다. 작물 18과를 기르고 품종 30종을 연구하는데, 품종마다 특정 조건에 더 잘 맞는 특성이 있습니다. 매일 흙과 관수, 기후, 돌려짓기를 관리하고, 수확물은 기다려 주지 않으니 신선도도 살펴야 합니다. 수확이 끝나면 어디로 보낼지 고릅니다. 동네 가판대, 식당 주문, 계절 전시회 중에서요. 재배 노트에는 알게 된 것이 기록되고, 온실 계약 60개가 그때그때의 목표가 됩니다. 생각이 필요하면 언제든 일시정지하고, 규모가 커지면 시뮬레이션 속도를 바꾸고, 저장 슬롯 세 개로 여러 방식을 시험해 보세요. 핵심 플레이와 진행은 오프라인으로 됩니다. 보상형 광고는 선택이며 보너스를 주고, 전면 광고는 교대 사이 쉬는 시간에 나옵니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다.",
+            "ja": "グラスハウス・シーズンズは温室経営シミュレーションだ。土、湿度、光、温度がすべての収穫を左右し、その下で季節は移り変わり続ける。18の作物の科を育て、30の品種を研究する。品種ごとに、ある条件に向いた特性がある。日々、土と灌水と気候と輪作を管理し、収穫物は待ってくれないので鮮度にも目を配る。収穫したら行き先を選ぶ。地元の露店か、レストランの注文か、季節の品評会か。栽培ノートにわかったことが記録され、60の温室契約が道中の目標になる。考えたいときはいつでも一時停止でき、規模が大きくなればシミュレーション速度を変えられる。セーブスロットは三つあり、別のやり方も試せる。基本のプレイと進行はオフラインで動く。リワード広告は任意でボーナスがもらえ、インタースティシャル広告はシフトの合間に表示される。英語、スペイン語、ブラジルポルトガル語に対応。",
+            "es": "Glasshouse Seasons es un simulador de gestión de invernadero. El suelo, la humedad, la luz y la temperatura dan forma a cada cosecha, y las estaciones no dejan de cambiar. Cultivas 18 familias de plantas e investigas 30 variedades, cada una con rasgos que encajan mejor en unas condiciones que en otras. Día a día gestionas el suelo, el riego, el clima y la rotación de cultivos, y vigilas la frescura, porque la cosecha no espera. Cuando está lista, eliges adónde va: puestos locales, pedidos de restaurantes o exposiciones de temporada. Un cuaderno de cultivo guarda lo que aprendes, y 60 contratos de invernadero marcan los objetivos. Pausa cuando necesites pensar, ajusta la velocidad de la simulación a medida que crece todo y prueba distintas estrategias en tres espacios de guardado. El juego y la progresión principal funcionan sin conexión. Los anuncios recompensados son opcionales y dan una bonificación, y los intersticiales aparecen en pausas entre turnos. En inglés, español y portugués de Brasil.",
+            "pt-BR": "Glasshouse Seasons é um simulador de gestão de estufa. Solo, umidade, luz e temperatura moldam cada colheita, e as estações não param de mudar. Você cultiva 18 famílias de plantas e pesquisa 30 variedades, cada uma com características que combinam mais com certas condições. No dia a dia você cuida do solo, da irrigação, do clima e da rotação de culturas, e fica de olho no frescor, porque a produção não espera. Quando está pronta, você escolhe o destino: feiras locais, pedidos de restaurantes ou exposições sazonais. Um caderno de cultivo registra o que você aprende, e 60 contratos de estufa marcam as metas. Pause quando precisar pensar, ajuste a velocidade da simulação conforme tudo cresce e teste estratégias diferentes em três espaços de salvamento. A jogabilidade e a progressão principal funcionam sem internet. Anúncios recompensados são opcionais e dão um bônus, e os intersticiais aparecem nas pausas entre turnos. Em inglês, espanhol e português do Brasil."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/glasshouseseasons",
+        "screenshots": [
+            "apps/shots/glasshouse-seasons/01.jpg",
+            "apps/shots/glasshouse-seasons/02.jpg",
+            "apps/shots/glasshouse-seasons/03.jpg",
+            "apps/shots/glasshouse-seasons/04.jpg",
+            "apps/shots/glasshouse-seasons/05.jpg"
+        ]
+    },
+    {
+        "id": "guild-and-grain",
+        "slug": "guild-and-grain",
+        "icon": "apps/guild-and-grain.png",
+        "page": "apps/guild-and-grain.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Guild & Grain",
+            "ko": "길드 앤 그레인",
+            "ja": "ギルド&グレイン",
+            "es": "Guild & Grain",
+            "pt-BR": "Guild & Grain"
+        },
+        "tagline": {
+            "en": "Run the village that feeds, equips and sends off the adventuring party.",
+            "ko": "모험가 파티를 먹이고 무장시켜 떠나보내는 마을을 운영하세요.",
+            "ja": "冒険者パーティーを食べさせ、装備させ、送り出す村を切り盛りする。",
+            "es": "Dirige la aldea que alimenta, equipa y despide al grupo de aventureros.",
+            "pt-BR": "Administre a vila que alimenta, equipa e despacha o grupo de aventureiros."
+        },
+        "desc": {
+            "en": "Guild & Grain is a fantasy village sim where the adventure starts at home. Before a party heads out it needs a warm meal, sharp tools and a village worth coming back to, and building that is your job. Farms, sawmills and mines feed crafting across 25 facility types, so you plan production before you commit to an expedition. Thirty recipes turn raw goods into useful equipment. You recruit 12 specialists, improve how well your adventurers are prepared, and balance village morale, supplies and trade against what each expedition needs. Sixty contracts and a continuing adventure loop keep the settlement growing. Pause whenever you need to think, change the simulation speed as things grow, and try different plans in three save slots. Core play and progression work offline. Optional rewarded ads give a bonus, and interstitial ads appear at breaks between shifts. Plays in English, Spanish and Brazilian Portuguese.",
+            "ko": "길드 앤 그레인은 모험이 집에서 시작되는 판타지 마을 시뮬레이션입니다. 파티가 길을 떠나려면 따뜻한 식사와 잘 손질된 도구, 돌아올 만한 마을이 필요하고, 그걸 만드는 게 당신의 일입니다. 농장과 제재소, 광산이 시설 25종에 걸친 제작을 떠받치니, 원정에 나서기 전에 생산 계획부터 세워야 합니다. 레시피 30종으로 원자재를 쓸모 있는 장비로 만듭니다. 전문가 12명을 영입하고 모험가들의 준비 수준을 높이며, 마을의 사기와 물자, 교역을 원정에 필요한 것과 저울질하세요. 계약 60개와 계속 이어지는 모험 루프가 마을을 키워 갑니다. 생각이 필요하면 언제든 일시정지하고, 규모가 커지면 시뮬레이션 속도를 바꾸고, 저장 슬롯 세 개로 여러 방식을 시험해 보세요. 핵심 플레이와 진행은 오프라인으로 됩니다. 보상형 광고는 선택이며 보너스를 주고, 전면 광고는 교대 사이 쉬는 시간에 나옵니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다.",
+            "ja": "ギルド&グレインは、冒険が家から始まるファンタジーの村シミュレーションだ。パーティーが旅立つには、温かい食事と研いだ道具と、帰ってきたくなる村がいる。それを作るのがあなたの仕事だ。農場、製材所、鉱山が25種類の施設にまたがる工作を支えるので、遠征に踏み切る前に生産を計画しておく。30のレシピで素材を役に立つ装備に変える。12人の専門家を迎え、冒険者の準備を整え、村の士気と物資と交易を、遠征に必要なものと天秤にかける。60の契約と続いていく冒険のサイクルが、集落を大きくしていく。考えたいときはいつでも一時停止でき、規模が大きくなればシミュレーション速度を変えられる。セーブスロットは三つあり、別のやり方も試せる。基本のプレイと進行はオフラインで動く。リワード広告は任意でボーナスがもらえ、インタースティシャル広告はシフトの合間に表示される。英語、スペイン語、ブラジルポルトガル語に対応。",
+            "es": "Guild & Grain es un simulador de aldea fantástica donde la aventura empieza en casa. Antes de partir, un grupo necesita una comida caliente, herramientas afiladas y una aldea a la que valga la pena volver, y construir eso es tu trabajo. Granjas, aserraderos y minas abastecen la artesanía en 25 tipos de instalaciones, así que planificas la producción antes de comprometerte con una expedición. Treinta recetas convierten materias primas en equipo útil. Reclutas a 12 especialistas, mejoras la preparación de tus aventureros y equilibras la moral de la aldea, los suministros y el comercio con lo que pide cada expedición. Sesenta contratos y un ciclo de aventuras continuo hacen crecer el asentamiento. Pausa cuando necesites pensar, ajusta la velocidad de la simulación a medida que crece todo y prueba distintas estrategias en tres espacios de guardado. El juego y la progresión principal funcionan sin conexión. Los anuncios recompensados son opcionales y dan una bonificación, y los intersticiales aparecen en pausas entre turnos. En inglés, español y portugués de Brasil.",
+            "pt-BR": "Guild & Grain é um simulador de vila de fantasia em que a aventura começa em casa. Antes de partir, um grupo precisa de uma refeição quente, ferramentas afiadas e uma vila para onde valha a pena voltar, e construir isso é o seu trabalho. Fazendas, serrarias e minas abastecem a fabricação em 25 tipos de instalações, então você planeja a produção antes de se comprometer com uma expedição. Trinta receitas transformam matéria-prima em equipamento útil. Você recruta 12 especialistas, melhora o preparo dos aventureiros e equilibra o ânimo da vila, os suprimentos e o comércio com o que cada expedição pede. Sessenta contratos e um ciclo de aventuras contínuo fazem o povoado crescer. Pause quando precisar pensar, ajuste a velocidade da simulação conforme tudo cresce e teste estratégias diferentes em três espaços de salvamento. A jogabilidade e a progressão principal funcionam sem internet. Anúncios recompensados são opcionais e dão um bônus, e os intersticiais aparecem nas pausas entre turnos. Em inglês, espanhol e português do Brasil."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/guildandgrain",
+        "screenshots": [
+            "apps/shots/guild-and-grain/01.jpg",
+            "apps/shots/guild-and-grain/02.jpg",
+            "apps/shots/guild-and-grain/03.jpg",
+            "apps/shots/guild-and-grain/04.jpg",
+            "apps/shots/guild-and-grain/05.jpg"
+        ]
+    },
+    {
+        "id": "junction-stories",
+        "slug": "junction-stories",
+        "icon": "apps/junction-stories.png",
+        "page": "apps/junction-stories.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Junction Stories",
+            "ko": "정션 스토리즈",
+            "ja": "ジャンクション・ストーリーズ",
+            "es": "Junction Stories",
+            "pt-BR": "Junction Stories"
+        },
+        "tagline": {
+            "en": "Lay the track, time the trains, and hear what each town has to say once it is connected.",
+            "ko": "선로를 깔고 열차 시간을 맞추세요. 연결된 마을마다 들려줄 이야기가 있습니다.",
+            "ja": "線路を敷き、ダイヤを組む。つながった町には、それぞれ語る話がある。",
+            "es": "Tiende las vías, ajusta los horarios y escucha lo que cada pueblo cuenta al conectarse.",
+            "pt-BR": "Trace os trilhos, acerte os horários e ouça o que cada cidade conta ao ser conectada."
+        },
+        "desc": {
+            "en": "Junction Stories is a railway sim about the places at either end of the line. You lay track, turning curves and junctions until their openings meet the neighboring rails, connect stations, and use signals and passing junctions so trains can share the network. Twelve rolling-stock configurations cover passenger and freight work. You balance the two services against each other, set fares and departure intervals, and keep an eye on wear. As the line spreads across five regions, from Pinehill Branch to the Regional Network, 40 town stories open up. Sixty railway contracts set the goals along the way. Pause whenever you need to think, change the simulation speed as things grow, and try different plans in three save slots. Core play and progression work offline. Optional rewarded ads give a bonus, and interstitial ads appear at breaks between shifts. Plays in English, Spanish and Brazilian Portuguese.",
+            "ko": "정션 스토리즈는 노선 양 끝의 장소들에 관한 철도 시뮬레이션입니다. 곡선과 분기를 돌려 옆 선로와 끝이 맞도록 선로를 깔고, 역을 잇고, 신호와 교행 분기로 열차들이 노선을 함께 쓰게 하세요. 차량 편성 12종으로 여객과 화물을 모두 다룹니다. 두 운행을 서로 저울질하고, 운임과 배차 간격을 정하고, 마모도 살펴야 합니다. 노선이 파인힐 지선에서 광역 네트워크까지 다섯 지역으로 뻗어 가면서 마을 이야기 40편이 열립니다. 철도 계약 60개가 그때그때의 목표가 됩니다. 생각이 필요하면 언제든 일시정지하고, 규모가 커지면 시뮬레이션 속도를 바꾸고, 저장 슬롯 세 개로 여러 방식을 시험해 보세요. 핵심 플레이와 진행은 오프라인으로 됩니다. 보상형 광고는 선택이며 보너스를 주고, 전면 광고는 교대 사이 쉬는 시간에 나옵니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다.",
+            "ja": "ジャンクション・ストーリーズは、路線の両端にある場所についての鉄道シミュレーションだ。カーブや分岐を回して隣の線路と口を合わせながら線路を敷き、駅をつなぎ、信号と行き違い用の分岐で列車が路線を共有できるようにする。12種類の車両編成で旅客と貨物の両方をまかなう。二つの運行をはかりにかけ、運賃と発車間隔を決め、摩耗にも気を配る。路線がパインヒル支線から広域ネットワークまで五つの地域に広がるにつれ、40の町の物語が開いていく。60の鉄道契約が道中の目標になる。考えたいときはいつでも一時停止でき、規模が大きくなればシミュレーション速度を変えられる。セーブスロットは三つあり、別のやり方も試せる。基本のプレイと進行はオフラインで動く。リワード広告は任意でボーナスがもらえ、インタースティシャル広告はシフトの合間に表示される。英語、スペイン語、ブラジルポルトガル語に対応。",
+            "es": "Junction Stories es un simulador ferroviario sobre los lugares que hay a cada extremo de la línea. Tiendes vías girando curvas y desvíos hasta que encajen con los rieles vecinos, conectas estaciones y usas señales y cruces para que los trenes compartan la red. Doce configuraciones de material rodante cubren pasajeros y mercancías. Equilibras ambos servicios, fijas tarifas e intervalos de salida y vigilas el desgaste. A medida que la línea se extiende por cinco regiones, de Pinehill Branch a la Regional Network, se abren 40 historias de pueblos. Sesenta contratos ferroviarios marcan los objetivos. Pausa cuando necesites pensar, ajusta la velocidad de la simulación a medida que crece todo y prueba distintas estrategias en tres espacios de guardado. El juego y la progresión principal funcionan sin conexión. Los anuncios recompensados son opcionales y dan una bonificación, y los intersticiales aparecen en pausas entre turnos. En inglés, español y portugués de Brasil.",
+            "pt-BR": "Junction Stories é um simulador ferroviário sobre os lugares em cada ponta da linha. Você traça trilhos girando curvas e desvios até que se encaixem nos trilhos vizinhos, conecta estações e usa sinais e cruzamentos para que os trens dividam a rede. Doze configurações de trem cobrem passageiros e carga. Você equilibra os dois serviços, define tarifas e intervalos de saída e acompanha o desgaste. Conforme a linha se espalha por cinco regiões, de Pinehill Branch à Regional Network, 40 histórias de cidades se abrem. Sessenta contratos ferroviários marcam as metas. Pause quando precisar pensar, ajuste a velocidade da simulação conforme tudo cresce e teste estratégias diferentes em três espaços de salvamento. A jogabilidade e a progressão principal funcionam sem internet. Anúncios recompensados são opcionais e dão um bônus, e os intersticiais aparecem nas pausas entre turnos. Em inglês, espanhol e português do Brasil."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/junctionstories",
+        "screenshots": [
+            "apps/shots/junction-stories/01.jpg",
+            "apps/shots/junction-stories/02.jpg",
+            "apps/shots/junction-stories/03.jpg",
+            "apps/shots/junction-stories/04.jpg",
+            "apps/shots/junction-stories/05.jpg"
+        ]
+    },
+    {
+        "id": "kickflip-courier",
+        "slug": "kickflip-courier",
+        "icon": "apps/kickflip-courier.png",
+        "page": "apps/kickflip-courier.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Kickflip Courier",
+            "ko": "킥플립 쿠리어",
+            "ja": "キックフリップ・クーリエ",
+            "es": "Kickflip Courier",
+            "pt-BR": "Kickflip Courier"
+        },
+        "tagline": {
+            "en": "Grab the parcels, grind the rails, land the trick. Arrive with at least one box.",
+            "ko": "소포를 챙기고 레일을 그라인드하고 트릭을 착지하세요. 상자 하나는 남겨서 도착해야 합니다.",
+            "ja": "荷物を拾い、レールでグラインドし、トリックを決める。せめて一箱は届けること。",
+            "es": "Recoge paquetes, deslízate por barandillas y aterriza el truco. Llega con al menos uno.",
+            "pt-BR": "Pegue os pacotes, faça grind nos corrimões e acerte a manobra. Chegue com pelo menos um."
+        },
+        "desc": {
+            "en": "Kickflip Courier is a skateboard delivery game. You steer through a colorful skatepark, collect golden parcels, jump obstacles and link aerial tricks on the way to the finish. Ollie, then swipe in one of eight directions for a trick, and hold grind as you land on a rail to build your score. Keep your combo alive, follow the distance meter, and arrive with at least one parcel. Six route patterns develop into 36 short delivery routes, and there is a daily delivery challenge on top. Practice lets you try any route before it is unlocked, and campaign medals and personal records stay separate from practice. Board color finishes unlock as you go. Play offline with no account, with progress and personal bests kept on your device. Interstitial ads show at breaks between sessions, and optional rewarded videos only give cosmetic rewards. Plays in English, Spanish and Brazilian Portuguese.",
+            "ko": "킥플립 쿠리어는 스케이트보드 배달 게임입니다. 알록달록한 스케이트 파크를 달리며 황금 소포를 모으고, 장애물을 뛰어넘고, 공중 트릭을 이어 결승선까지 가세요. 알리로 뛰어오른 뒤 여덟 방향 중 하나로 스와이프하면 트릭이 나가고, 레일에 착지하면서 그라인드를 누르고 있으면 점수가 쌓입니다. 콤보를 이어 가고 거리 표시를 따라가서, 소포를 하나 이상 지닌 채 도착해야 합니다. 여섯 가지 경로 패턴이 짧은 배달 코스 36개로 펼쳐지고, 일일 배달 챌린지도 있습니다. 연습 모드에서는 해금 전의 코스도 달려 볼 수 있고, 캠페인 메달과 개인 기록은 연습과 따로 기록됩니다. 보드 색상 마감은 플레이하면서 해금됩니다. 계정 없이 오프라인으로 즐기고, 진행과 최고 기록은 기기에 저장됩니다. 세션 사이에 전면 광고가 나오고, 선택형 보상 동영상은 꾸미기 보상만 줍니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다.",
+            "ja": "キックフリップ・クーリエはスケートボードの配達ゲームだ。カラフルなスケートパークを進みながら金色の荷物を集め、障害物を跳び越え、空中トリックをつないでゴールを目指す。オーリーで跳んでから八方向のどれかにスワイプするとトリックが出て、レールに着地しながらグラインドを長押しするとスコアが伸びる。コンボを切らさず、距離メーターを追って、荷物を一つ以上持ったまま到着すること。六つのルートパターンが36本の短い配達ルートに展開し、さらにデイリー配達チャレンジもある。練習では解放前のルートも走れて、キャンペーンのメダルと自己ベストは練習とは別に記録される。ボードのカラー仕上げはプレイしながら解放される。アカウント不要でオフラインで遊べ、進行と自己ベストは端末に保存される。セッションの区切りにインタースティシャル広告が入り、任意のリワード動画は見た目の報酬だけ。英語、スペイン語、ブラジルポルトガル語に対応。",
+            "es": "Kickflip Courier es un juego de repartos en monopatín. Avanzas por un skatepark colorido, recoges paquetes dorados, saltas obstáculos y encadenas trucos aéreos camino a la meta. Haz un ollie y desliza en una de ocho direcciones para un truco, y mantén grind al caer sobre una barandilla para sumar puntos. Mantén el combo, sigue el medidor de distancia y llega con al menos un paquete. Seis patrones de ruta se convierten en 36 rutas de reparto cortas, más un reto diario de reparto. La práctica te deja probar cualquier ruta antes de desbloquearla, y las medallas de campaña y las marcas personales se guardan aparte. Los acabados de color de la tabla se desbloquean jugando. Juega sin conexión y sin cuenta, con el progreso y los récords en tu dispositivo. Hay anuncios intersticiales entre sesiones, y los videos con recompensa opcionales solo dan recompensas cosméticas. En inglés, español y portugués de Brasil.",
+            "pt-BR": "Kickflip Courier é um jogo de entregas de skate. Você atravessa um skatepark colorido, pega pacotes dourados, pula obstáculos e emenda manobras aéreas até a chegada. Dê um ollie e deslize em uma de oito direções para a manobra, e segure grind ao cair num corrimão para somar pontos. Mantenha o combo, siga o medidor de distância e chegue com pelo menos um pacote. Seis padrões de rota viram 36 rotas curtas de entrega, além de um desafio diário. O treino deixa você testar qualquer rota antes de desbloqueá-la, e medalhas de campanha e recordes pessoais ficam separados do treino. Acabamentos de cor do skate são desbloqueados jogando. Jogue offline e sem conta, com progresso e recordes salvos no aparelho. Há anúncios intersticiais entre sessões, e os vídeos recompensados opcionais só dão recompensas cosméticas. Em inglês, espanhol e português do Brasil."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/kickflipcourier",
+        "screenshots": [
+            "apps/shots/kickflip-courier/01.jpg",
+            "apps/shots/kickflip-courier/02.jpg",
+            "apps/shots/kickflip-courier/03.jpg",
+            "apps/shots/kickflip-courier/04.jpg"
+        ]
+    },
+    {
+        "id": "kubb-coast",
+        "slug": "kubb-coast",
+        "icon": "apps/kubb-coast.png",
+        "page": "apps/kubb-coast.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Kubb Coast",
+            "ko": "쿱 코스트",
+            "ja": "クッブ・コースト",
+            "es": "Kubb Coast",
+            "pt-BR": "Kubb Coast"
+        },
+        "tagline": {
+            "en": "Underarm throws, wooden kubbs, and a king you must not touch until the very end.",
+            "ko": "언더핸드로 던지고 나무 쿱을 쓰러뜨리세요. 왕은 마지막까지 건드리면 안 됩니다.",
+            "ja": "下手投げで木のクッブを倒す。キングには最後まで触れてはいけない。",
+            "es": "Lanzamientos por lo bajo, kubbs de madera y un rey que no se toca hasta el final.",
+            "pt-BR": "Arremessos por baixo, kubbs de madeira e um rei que não se toca até o fim."
+        },
+        "desc": {
+            "en": "Kubb Coast is the wooden lawn game kubb, played across eight island settings. You throw batons underarm to clear the field kubbs, then attack the baseline, and leave the king for last, because hitting him early loses the game on the spot. Fallen kubbs get thrown back into the far half, so every six-baton turn sets up the next one. There are 50 career stages and 50 challenges, five rival accuracy profiles to play against, and local two-player games on one shared screen. Arcade matches are capped at twelve turns. A career mode, offline daily challenges, practice, medals and personal records keep you coming back, and tokens earned in play unlock collection items. Settings include assists, sound, music, vibration, reduced motion and a left-handed action layout. Core play works offline and progress stays on your device. Optional rewarded ads and occasional interstitial ads between finished sessions. Plays in English, Spanish and Brazilian Portuguese.",
+            "ko": "쿱 코스트는 나무 막대를 던지는 잔디 게임 쿱을 여덟 곳의 섬에서 즐기는 게임입니다. 막대를 언더핸드로 던져 필드 쿱을 치우고, 그다음 베이스라인을 공격하고, 왕은 마지막에 남겨 두세요. 왕을 일찍 맞히면 그 자리에서 집니다. 쓰러진 쿱은 상대 진영으로 다시 던져지니, 막대 여섯 개로 하는 매 턴이 다음 턴을 만듭니다. 커리어 스테이지 50개와 챌린지 50개, 정확도가 다른 라이벌 다섯 명이 있고, 한 화면을 나눠 쓰는 2인 로컬 대전도 됩니다. 아케이드 경기는 최대 12턴입니다. 커리어 모드, 오프라인 일일 챌린지, 연습, 메달, 개인 기록이 다시 찾을 이유가 되고, 플레이로 얻은 토큰으로 수집 아이템을 해금합니다. 설정에는 보조 기능, 사운드, 음악, 진동, 모션 줄이기, 왼손잡이 배치가 있습니다. 핵심 플레이는 오프라인으로 되고 진행 상황은 기기에 저장됩니다. 선택형 보상 광고와, 세션이 끝난 뒤 가끔 나오는 전면 광고가 있습니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다.",
+            "ja": "クッブ・コーストは、木の棒を投げる芝生のゲーム、クッブを八つの島で遊ぶゲームだ。棒を下手で投げてフィールドのクッブを片づけ、次にベースラインを攻め、キングは最後に残す。早くキングに当てると、その場で負けになる。倒れたクッブは相手側の陣地へ投げ戻されるので、棒六本のターンが次のターンをつくる。キャリアステージ50、チャレンジ50、命中精度の異なるライバル五人がいて、一つの画面を分け合うローカル二人対戦もできる。アーケードの試合は最大12ターン。キャリアモード、オフラインのデイリーチャレンジ、練習、メダル、自己ベストが戻ってくる理由になり、プレイで集めたトークンでコレクションアイテムを解放する。設定にはアシスト、サウンド、音楽、振動、モーション軽減、左利き用の操作配置がある。基本プレイはオフラインで動き、進行は端末に保存される。任意のリワード広告と、セッション終了後のときどきのインタースティシャル広告あり。英語、スペイン語、ブラジルポルトガル語に対応。",
+            "es": "Kubb Coast es kubb, el juego de césped con piezas de madera, en ocho escenarios isleños. Lanzas los bastones por lo bajo para derribar los kubbs de campo, luego atacas la línea de fondo y dejas al rey para el final, porque darle antes de tiempo te hace perder al instante. Los kubbs caídos se lanzan de vuelta a la mitad contraria, así que cada turno de seis bastones prepara el siguiente. Hay 50 etapas de carrera y 50 retos, cinco rivales con distinta precisión y partidas locales para dos en una misma pantalla. Las partidas arcade tienen un máximo de doce turnos. El modo carrera, los retos diarios sin conexión, la práctica, las medallas y las marcas personales te hacen volver, y las fichas que ganas jugando desbloquean objetos de colección. Los ajustes incluyen ayudas, sonido, música, vibración, movimiento reducido y controles para zurdos. El juego principal funciona sin conexión y el progreso queda en tu dispositivo. Anuncios con recompensa opcionales e intersticiales ocasionales entre sesiones terminadas. En inglés, español y portugués de Brasil.",
+            "pt-BR": "Kubb Coast é o kubb, o jogo de gramado com peças de madeira, em oito cenários de ilha. Você arremessa os bastões por baixo para derrubar os kubbs de campo, depois ataca a linha de fundo e deixa o rei por último, porque acertá-lo cedo faz você perder na hora. Os kubbs derrubados voltam para a metade adversária, então cada turno de seis bastões prepara o seguinte. São 50 etapas de carreira e 50 desafios, cinco rivais com precisões diferentes e partidas locais para dois na mesma tela. As partidas arcade têm no máximo doze turnos. Modo carreira, desafios diários offline, treino, medalhas e recordes pessoais fazem você voltar, e as fichas ganhas jogando desbloqueiam itens de coleção. As configurações incluem assistências, som, música, vibração, movimento reduzido e controles para canhotos. O jogo principal funciona offline e o progresso fica no seu dispositivo. Anúncios opcionais com recompensa e intersticiais ocasionais entre sessões concluídas. Em inglês, espanhol e português do Brasil."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/kubbcoast",
+        "screenshots": [
+            "apps/shots/kubb-coast/01.jpg",
+            "apps/shots/kubb-coast/02.jpg"
+        ]
+    },
+    {
+        "id": "loopback-links",
+        "slug": "loopback-links",
+        "icon": "apps/loopback-links.png",
+        "page": "apps/loopback-links.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Loopback Links",
+            "ko": "루프백 링크스",
+            "ja": "ループバック・リンクス",
+            "es": "Loopback Links",
+            "pt-BR": "Loopback Links"
+        },
+        "tagline": {
+            "en": "Mini golf in three-hole rounds. Bank off the rails and time the moving gates.",
+            "ko": "세 홀씩 도는 미니 골프. 레일에 튕기고 움직이는 게이트의 타이밍을 맞추세요.",
+            "ja": "3ホールずつ回るミニゴルフ。レールに当てて、動くゲートのタイミングを計る。",
+            "es": "Minigolf en rondas de tres hoyos. Rebota en las bandas y calcula las puertas móviles.",
+            "pt-BR": "Minigolfe em rodadas de três buracos. Tabele nas bordas e acerte o tempo dos portões."
+        },
+        "desc": {
+            "en": "Loopback Links is a miniature golf game with 54 layouts, six hazard styles and short three-hole rounds. Drag back to aim and set power, then release to putt, with a direction guide and power meter to help find the line. Bank off the rails, avoid round bumpers, time the moving gates, cross a sliding bridge and allow for sand that slows the ball. Sink all three holes to clear a round, aiming for par three on each. There is no time limit while you think, and each hole allows twelve strokes. Fewer strokes earn more points on the scorecard. Try any layout in practice, unlock campaign rounds with bronze, silver and gold medals, or play the daily three-hole challenge. Tokens earned in play unlock ball colors. Offline, no account. Interstitial ads show at breaks, and optional videos can undo a practice stroke or double your tokens.",
+            "ko": "루프백 링크스는 레이아웃 54개, 장애물 스타일 6종, 짧은 3홀 라운드로 된 미니 골프 게임입니다. 뒤로 끌어 방향과 힘을 정하고 손을 떼면 퍼팅합니다. 방향 가이드와 파워 게이지가 라인을 찾도록 도와줍니다. 레일에 튕기고, 둥근 범퍼를 피하고, 움직이는 게이트의 타이밍을 맞추고, 미끄러지는 다리를 건너고, 공을 느리게 하는 모래도 계산에 넣으세요. 세 홀을 모두 넣으면 라운드 클리어이고, 홀마다 파 3이 목표입니다. 생각하는 동안 시간 제한은 없고, 홀마다 12타까지 칠 수 있습니다. 타수가 적을수록 스코어카드 점수가 높습니다. 연습에서는 어떤 레이아웃이든 쳐 볼 수 있고, 캠페인 라운드는 동, 은, 금 메달로 해금하며, 일일 3홀 챌린지도 있습니다. 플레이로 모은 토큰으로 공 색상을 해금합니다. 오프라인, 계정 없음. 쉬는 시간에 전면 광고가 나오고, 선택형 동영상으로 연습 중 한 타를 되돌리거나 토큰을 두 배로 받을 수 있습니다.",
+            "ja": "ループバック・リンクスは、54のレイアウト、6種類の障害物、短い3ホールのラウンドで遊ぶミニゴルフだ。後ろに引いて狙いと強さを決め、離してパットする。方向ガイドとパワーメーターがラインを探す助けになる。レールに当てて跳ね返し、丸いバンパーを避け、動くゲートのタイミングを計り、スライドする橋を渡り、ボールを遅くする砂も計算に入れる。3ホールすべて沈めればラウンドクリアで、各ホールの目標はパー3。考えているあいだに時間制限はなく、1ホール12打まで打てる。打数が少ないほどスコアカードの点が高い。練習ではどのレイアウトも試せて、キャンペーンのラウンドは銅、銀、金のメダルで解放し、デイリーの3ホールチャレンジもある。プレイで集めたトークンでボールの色を解放する。オフライン、アカウント不要。区切りでインタースティシャル広告が入り、任意の動画で練習中の一打を戻したり、トークンを倍にしたりできる。",
+            "es": "Loopback Links es un juego de minigolf con 54 recorridos, seis estilos de obstáculos y rondas cortas de tres hoyos. Arrastra hacia atrás para apuntar y elegir la fuerza, y suelta para golpear, con una guía de dirección y un medidor de potencia que te ayudan a encontrar la línea. Rebota en las bandas, esquiva los topes redondos, calcula las puertas móviles, cruza un puente deslizante y ten en cuenta la arena que frena la bola. Embocar los tres hoyos supera la ronda, con par tres como objetivo en cada uno. No hay límite de tiempo mientras piensas, y cada hoyo permite doce golpes. Menos golpes dan más puntos en la tarjeta. Prueba cualquier recorrido en práctica, desbloquea rondas de campaña con medallas de bronce, plata y oro o juega el reto diario de tres hoyos. Las fichas que ganas desbloquean colores de bola. Sin conexión, sin cuenta. Hay anuncios intersticiales entre sesiones, y videos opcionales para deshacer un golpe en práctica o duplicar fichas.",
+            "pt-BR": "Loopback Links é um jogo de minigolfe com 54 percursos, seis estilos de obstáculos e rodadas curtas de três buracos. Arraste para trás para mirar e definir a força, e solte para tacar, com um guia de direção e um medidor de força para achar a linha. Tabele nas bordas, desvie dos para-choques redondos, acerte o tempo dos portões móveis, atravesse uma ponte deslizante e conte com a areia que freia a bola. Acerte os três buracos para passar a rodada, mirando par três em cada um. Não há limite de tempo enquanto você pensa, e cada buraco permite doze tacadas. Menos tacadas rendem mais pontos no cartão. Teste qualquer percurso no treino, desbloqueie rodadas da campanha com medalhas de bronze, prata e ouro ou jogue o desafio diário de três buracos. As fichas ganhas desbloqueiam cores de bola. Offline, sem conta. Há anúncios intersticiais nas pausas, e vídeos opcionais podem desfazer uma tacada no treino ou dobrar as fichas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/loopbacklinks",
+        "screenshots": [
+            "apps/shots/loopback-links/01.jpg",
+            "apps/shots/loopback-links/02.jpg",
+            "apps/shots/loopback-links/03.jpg",
+            "apps/shots/loopback-links/04.jpg"
+        ]
+    },
+    {
         "id": "mochi-stack",
         "slug": "mochi-stack",
         "icon": "apps/mochi-stack.png",
@@ -2828,6 +3057,42 @@ window.CRYSTL_APPS = [
             "apps/shots/mochi-stack/03.jpg",
             "apps/shots/mochi-stack/04.jpg",
             "apps/shots/mochi-stack/05.jpg"
+        ]
+    },
+    {
+        "id": "northmark-ski-orienteering",
+        "slug": "northmark-ski-orienteering",
+        "icon": "apps/northmark-ski-orienteering.png",
+        "page": "apps/northmark-ski-orienteering.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Northmark Ski Orienteering",
+            "ko": "노스마크 스키 오리엔티어링",
+            "ja": "ノースマーク・スキーオリエンテーリング",
+            "es": "Northmark Ski Orienteering",
+            "pt-BR": "Northmark Ski Orienteering"
+        },
+        "tagline": {
+            "en": "Read the trail map, pick the junctions, and reach every numbered control in order.",
+            "ko": "코스 지도를 읽고 갈림길을 골라 번호가 붙은 컨트롤을 순서대로 찍으세요.",
+            "ja": "コース地図を読み、分岐を選び、番号付きのコントロールを順番に回る。",
+            "es": "Lee el mapa de pistas, elige los cruces y pasa por cada control numerado en orden.",
+            "pt-BR": "Leia o mapa das trilhas, escolha os cruzamentos e passe por cada controle numerado em ordem."
+        },
+        "desc": {
+            "en": "Northmark is ski orienteering, where the quickest route starts with a good decision. You read a trail map and visit numbered controls in order, choosing which connected junction to take next and comparing how much effort each trail costs. Sprinting is faster but drains your energy, so you decide when to push and when to rest. Zoom the map to plan, then follow your own route trace. There are 40 ski navigation courses across five region settings, and practice lets you explore without a time limit. A career mode, offline daily challenges, practice, medals and personal records keep you coming back, and tokens earned in play unlock collection items. Settings include assists, sound, music, vibration, reduced motion and a left-handed action layout. Core play works offline and progress stays on your device. Optional rewarded ads and occasional interstitial ads between finished sessions. Plays in English, Spanish and Brazilian Portuguese.",
+            "ko": "노스마크는 가장 빠른 길이 좋은 판단에서 시작되는 스키 오리엔티어링 게임입니다. 코스 지도를 읽고 번호가 붙은 컨트롤을 순서대로 찾아가며, 다음에 어느 갈림길로 갈지 고르고 각 코스에 드는 힘을 비교하세요. 질주하면 빠르지만 체력이 줄어드니, 언제 밀어붙이고 언제 쉴지 직접 정해야 합니다. 지도를 확대해 계획을 세우고, 내 경로 궤적을 따라가세요. 다섯 지역에 스키 내비게이션 코스 40개가 있고, 연습 모드에서는 시간 제한 없이 돌아볼 수 있습니다. 커리어 모드, 오프라인 일일 챌린지, 연습, 메달, 개인 기록이 다시 찾을 이유가 되고, 플레이로 얻은 토큰으로 수집 아이템을 해금합니다. 설정에는 보조 기능, 사운드, 음악, 진동, 모션 줄이기, 왼손잡이 배치가 있습니다. 핵심 플레이는 오프라인으로 되고 진행 상황은 기기에 저장됩니다. 선택형 보상 광고와, 세션이 끝난 뒤 가끔 나오는 전면 광고가 있습니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다.",
+            "ja": "ノースマークは、最速ルートが良い判断から始まるスキーオリエンテーリングだ。コース地図を読み、番号付きのコントロールを順に回る。次にどの分岐へ進むかを選び、それぞれのトレイルにかかる労力を比べる。スプリントは速いが体力を削るので、いつ攻めていつ休むかは自分で決める。地図を拡大して計画を立て、自分のルートの軌跡をたどる。五つの地域に40のスキーナビゲーションコースがあり、練習では時間制限なしで探索できる。キャリアモード、オフラインのデイリーチャレンジ、練習、メダル、自己ベストが戻ってくる理由になり、プレイで集めたトークンでコレクションアイテムを解放する。設定にはアシスト、サウンド、音楽、振動、モーション軽減、左利き用の操作配置がある。基本プレイはオフラインで動き、進行は端末に保存される。任意のリワード広告と、セッション終了後のときどきのインタースティシャル広告あり。英語、スペイン語、ブラジルポルトガル語に対応。",
+            "es": "Northmark es esquí de orientación, donde la ruta más rápida empieza con una buena decisión. Lees un mapa de pistas y pasas por controles numerados en orden, eligiendo qué cruce tomar y comparando el esfuerzo de cada pista. Esprintar es más rápido pero gasta energía, así que decides cuándo apretar y cuándo descansar. Amplía el mapa para planificar y sigue el trazado de tu propia ruta. Hay 40 recorridos de navegación en esquí en cinco regiones, y la práctica te deja explorar sin límite de tiempo. El modo carrera, los retos diarios sin conexión, la práctica, las medallas y las marcas personales te hacen volver, y las fichas que ganas jugando desbloquean objetos de colección. Los ajustes incluyen ayudas, sonido, música, vibración, movimiento reducido y controles para zurdos. El juego principal funciona sin conexión y el progreso queda en tu dispositivo. Anuncios con recompensa opcionales e intersticiales ocasionales entre sesiones terminadas. En inglés, español y portugués de Brasil.",
+            "pt-BR": "Northmark é orientação de esqui, em que a rota mais rápida começa com uma boa decisão. Você lê um mapa de trilhas e passa por controles numerados em ordem, escolhendo qual cruzamento seguir e comparando o esforço de cada trilha. O sprint é mais rápido mas gasta energia, então você decide quando acelerar e quando descansar. Amplie o mapa para planejar e siga o traçado da sua própria rota. São 40 percursos de navegação em esqui em cinco regiões, e o treino deixa você explorar sem limite de tempo. Modo carreira, desafios diários offline, treino, medalhas e recordes pessoais fazem você voltar, e as fichas ganhas jogando desbloqueiam itens de coleção. As configurações incluem assistências, som, música, vibração, movimento reduzido e controles para canhotos. O jogo principal funciona offline e o progresso fica no seu dispositivo. Anúncios opcionais com recompensa e intersticiais ocasionais entre sessões concluídas. Em inglês, espanhol e português do Brasil."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/northmark",
+        "screenshots": [
+            "apps/shots/northmark-ski-orienteering/01.jpg",
+            "apps/shots/northmark-ski-orienteering/02.jpg"
         ]
     },
     {
@@ -2909,6 +3174,78 @@ window.CRYSTL_APPS = [
         ]
     },
     {
+        "id": "rapidline-slalom",
+        "slug": "rapidline-slalom",
+        "icon": "apps/rapidline-slalom.png",
+        "page": "apps/rapidline-slalom.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Rapidline Slalom",
+            "ko": "래피드라인 슬라롬",
+            "ja": "ラピッドライン・スラローム",
+            "es": "Rapidline Slalom",
+            "pt-BR": "Rapidline Slalom"
+        },
+        "tagline": {
+            "en": "Find the gate, turn below it, power back upstream. Every pole touch costs time.",
+            "ko": "게이트를 찾고 아래에서 돌아 다시 상류로 저어 오르세요. 폴에 닿을 때마다 시간이 붙습니다.",
+            "ja": "ゲートを見つけ、下で回り込み、上流へ漕ぎ戻る。ポールに触れるたびにタイムが加算される。",
+            "es": "Encuentra la puerta, gira por debajo y rema río arriba. Cada toque de palo cuesta tiempo.",
+            "pt-BR": "Ache a porta, vire abaixo dela e reme de volta rio acima. Cada toque na baliza custa tempo."
+        },
+        "desc": {
+            "en": "Rapidline Slalom is whitewater kayak slalom, where every paddle stroke changes your line. You find the gate, turn below it and power back upstream for a clean crossing. Numbered gates and direction arrows help you read the course. Paddle taps, held strokes and drag steering give you a few different ways to find your flow. Touching a pole or missing a gate adds time penalties, so a clean run matters as much as a fast one. There are 24 river routes across four regions and eight kayak profiles to try. A career mode, offline daily challenges, practice, medals and personal records keep you coming back, and tokens earned in play unlock collection items. Settings include assists, sound, music, vibration, reduced motion and a left-handed action layout. Core play works offline and progress stays on your device. Optional rewarded ads and occasional interstitial ads between finished sessions. Plays in English, Spanish and Brazilian Portuguese.",
+            "ko": "래피드라인 슬라롬은 노를 한 번 저을 때마다 라인이 바뀌는 급류 카약 슬라롬입니다. 게이트를 찾아 그 아래에서 돌고, 다시 상류로 힘껏 저어 깔끔하게 통과하세요. 번호가 붙은 게이트와 방향 화살표가 코스를 읽게 도와줍니다. 탭으로 젓기, 길게 젓기, 드래그 조향으로 저마다의 리듬을 찾을 수 있습니다. 폴에 닿거나 게이트를 놓치면 시간 페널티가 붙으니, 깔끔한 주행이 빠른 주행만큼 중요합니다. 네 지역에 강 코스 24개, 카약 프로필 8종이 있습니다. 커리어 모드, 오프라인 일일 챌린지, 연습, 메달, 개인 기록이 다시 찾을 이유가 되고, 플레이로 얻은 토큰으로 수집 아이템을 해금합니다. 설정에는 보조 기능, 사운드, 음악, 진동, 모션 줄이기, 왼손잡이 배치가 있습니다. 핵심 플레이는 오프라인으로 되고 진행 상황은 기기에 저장됩니다. 선택형 보상 광고와, 세션이 끝난 뒤 가끔 나오는 전면 광고가 있습니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다.",
+            "ja": "ラピッドライン・スラロームは、一漕ぎごとにラインが変わる急流カヤックのスラロームだ。ゲートを見つけ、その下で回り込み、上流へ力強く漕ぎ戻ってきれいに通過する。番号付きのゲートと方向の矢印がコースを読む助けになる。タップで漕ぐ、長押しで漕ぐ、ドラッグで舵を取る、と自分のリズムを探す方法がいくつかある。ポールに触れたりゲートを逃したりするとタイムペナルティがつくので、きれいな滑走は速さと同じくらい大事だ。四つの地域に24の川のルート、八つのカヤックプロファイルがある。キャリアモード、オフラインのデイリーチャレンジ、練習、メダル、自己ベストが戻ってくる理由になり、プレイで集めたトークンでコレクションアイテムを解放する。設定にはアシスト、サウンド、音楽、振動、モーション軽減、左利き用の操作配置がある。基本プレイはオフラインで動き、進行は端末に保存される。任意のリワード広告と、セッション終了後のときどきのインタースティシャル広告あり。英語、スペイン語、ブラジルポルトガル語に対応。",
+            "es": "Rapidline Slalom es eslalon de kayak en aguas bravas, donde cada palada cambia tu línea. Encuentras la puerta, giras por debajo y remas con fuerza río arriba para pasarla limpio. Las puertas numeradas y las flechas de dirección te ayudan a leer el recorrido. Paladas con toques, paladas mantenidas y dirección arrastrando te dan varias formas de encontrar tu ritmo. Tocar un palo o saltarte una puerta suma penalizaciones de tiempo, así que una bajada limpia importa tanto como una rápida. Hay 24 rutas fluviales en cuatro regiones y ocho perfiles de kayak. El modo carrera, los retos diarios sin conexión, la práctica, las medallas y las marcas personales te hacen volver, y las fichas que ganas jugando desbloquean objetos de colección. Los ajustes incluyen ayudas, sonido, música, vibración, movimiento reducido y controles para zurdos. El juego principal funciona sin conexión y el progreso queda en tu dispositivo. Anuncios con recompensa opcionales e intersticiales ocasionales entre sesiones terminadas. En inglés, español y portugués de Brasil.",
+            "pt-BR": "Rapidline Slalom é slalom de caiaque em corredeiras, em que cada remada muda sua linha. Você acha a porta, vira abaixo dela e rema com força rio acima para passar limpo. Portas numeradas e setas de direção ajudam a ler o percurso. Remadas com toque, remadas seguradas e direção arrastando dão várias formas de achar seu ritmo. Tocar uma baliza ou perder uma porta soma penalidades de tempo, então uma descida limpa vale tanto quanto uma rápida. São 24 rotas de rio em quatro regiões e oito perfis de caiaque. Modo carreira, desafios diários offline, treino, medalhas e recordes pessoais fazem você voltar, e as fichas ganhas jogando desbloqueiam itens de coleção. As configurações incluem assistências, som, música, vibração, movimento reduzido e controles para canhotos. O jogo principal funciona offline e o progresso fica no seu dispositivo. Anúncios opcionais com recompensa e intersticiais ocasionais entre sessões concluídas. Em inglês, espanhol e português do Brasil."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/rapidlineslalom",
+        "screenshots": [
+            "apps/shots/rapidline-slalom/01.jpg",
+            "apps/shots/rapidline-slalom/02.jpg"
+        ]
+    },
+    {
+        "id": "skykick-takraw",
+        "slug": "skykick-takraw",
+        "icon": "apps/skykick-takraw.png",
+        "page": "apps/skykick-takraw.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Skykick Takraw",
+            "ko": "스카이킥 타크로",
+            "ja": "スカイキック・タクロー",
+            "es": "Skykick Takraw",
+            "pt-BR": "Skykick Takraw"
+        },
+        "tagline": {
+            "en": "Receive, set, spike. Rooftop sepak takraw in seven-point matches.",
+            "ko": "리시브, 세트, 스파이크. 7점 경기로 즐기는 옥상 세팍타크로.",
+            "ja": "レシーブ、トス、スパイク。7点マッチで遊ぶ屋上のセパタクロー。",
+            "es": "Recibe, coloca y remata. Sepak takraw en azoteas, a siete puntos.",
+            "pt-BR": "Receba, levante e ataque. Sepak takraw nos telhados, em partidas de sete pontos."
+        },
+        "desc": {
+            "en": "Skykick Takraw is sepak takraw on the rooftops, the net game played with the feet. You find the rhythm of receive, set and spike: time three touches, aim for the open side of the court, and turn a rally into a point. Aim, feints and stamina make every seven-point match a fresh decision. An arcade circuit of 16 matches runs through five court settings, and you choose among 12 athlete profiles. Thirty combination challenges let you drill the touches on their own. A career mode, offline daily challenges, practice, medals and personal records keep you coming back, and tokens earned in play unlock collection items. Settings include assists, sound, music, vibration, reduced motion and a left-handed action layout. Core play works offline and progress stays on your device. Optional rewarded ads and occasional interstitial ads between finished sessions. Plays in English, Spanish and Brazilian Portuguese.",
+            "ko": "스카이킥 타크로는 발로 하는 네트 경기, 세팍타크로를 옥상에서 즐기는 게임입니다. 리시브, 세트, 스파이크의 리듬을 찾으세요. 세 번의 터치 타이밍을 맞추고, 코트의 빈 곳을 노려 랠리를 점수로 바꾸는 겁니다. 조준, 페인트, 스태미나 때문에 7점 경기마다 새로운 판단이 필요합니다. 16경기짜리 아케이드 서킷이 다섯 곳의 코트를 돌고, 선수 프로필 12종 중에서 고를 수 있습니다. 콤비네이션 챌린지 30개로 터치를 따로 연습할 수 있습니다. 커리어 모드, 오프라인 일일 챌린지, 연습, 메달, 개인 기록이 다시 찾을 이유가 되고, 플레이로 얻은 토큰으로 수집 아이템을 해금합니다. 설정에는 보조 기능, 사운드, 음악, 진동, 모션 줄이기, 왼손잡이 배치가 있습니다. 핵심 플레이는 오프라인으로 되고 진행 상황은 기기에 저장됩니다. 선택형 보상 광고와, 세션이 끝난 뒤 가끔 나오는 전면 광고가 있습니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다.",
+            "ja": "スカイキック・タクローは、足で戦うネット競技セパタクローを屋上で遊ぶゲームだ。レシーブ、トス、スパイクのリズムをつかむ。三回のタッチのタイミングを合わせ、コートの空いた側を狙って、ラリーを得点に変える。狙い、フェイント、スタミナがあるので、7点マッチは毎回新しい判断になる。16試合のアーケードサーキットが五つのコートを巡り、12人の選手プロファイルから選べる。30のコンビネーションチャレンジでタッチだけを練習することもできる。キャリアモード、オフラインのデイリーチャレンジ、練習、メダル、自己ベストが戻ってくる理由になり、プレイで集めたトークンでコレクションアイテムを解放する。設定にはアシスト、サウンド、音楽、振動、モーション軽減、左利き用の操作配置がある。基本プレイはオフラインで動き、進行は端末に保存される。任意のリワード広告と、セッション終了後のときどきのインタースティシャル広告あり。英語、スペイン語、ブラジルポルトガル語に対応。",
+            "es": "Skykick Takraw es sepak takraw en las azoteas, el juego de red que se juega con los pies. Encuentras el ritmo de recibir, colocar y rematar: calculas tres toques, apuntas al lado libre de la cancha y conviertes un peloteo en punto. La puntería, los amagos y la resistencia hacen de cada partido a siete puntos una decisión nueva. Un circuito arcade de 16 partidos recorre cinco canchas, y eliges entre 12 perfiles de atleta. Treinta retos de combinación te dejan practicar los toques por separado. El modo carrera, los retos diarios sin conexión, la práctica, las medallas y las marcas personales te hacen volver, y las fichas que ganas jugando desbloquean objetos de colección. Los ajustes incluyen ayudas, sonido, música, vibración, movimiento reducido y controles para zurdos. El juego principal funciona sin conexión y el progreso queda en tu dispositivo. Anuncios con recompensa opcionales e intersticiales ocasionales entre sesiones terminadas. En inglés, español y portugués de Brasil.",
+            "pt-BR": "Skykick Takraw é sepak takraw nos telhados, o jogo de rede jogado com os pés. Você encontra o ritmo de receber, levantar e atacar: acerta o tempo dos três toques, mira o lado livre da quadra e transforma um rali em ponto. Mira, fintas e fôlego fazem de cada partida de sete pontos uma decisão nova. Um circuito arcade de 16 partidas passa por cinco quadras, e você escolhe entre 12 perfis de atleta. Trinta desafios de combinação deixam você treinar os toques separadamente. Modo carreira, desafios diários offline, treino, medalhas e recordes pessoais fazem você voltar, e as fichas ganhas jogando desbloqueiam itens de coleção. As configurações incluem assistências, som, música, vibração, movimento reduzido e controles para canhotos. O jogo principal funciona offline e o progresso fica no seu dispositivo. Anúncios opcionais com recompensa e intersticiais ocasionais entre sessões concluídas. Em inglês, espanhol e português do Brasil."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/skykicktakraw",
+        "screenshots": [
+            "apps/shots/skykick-takraw/01.jpg",
+            "apps/shots/skykick-takraw/02.jpg"
+        ]
+    },
+    {
         "id": "solitaire-postcards",
         "slug": "solitaire-postcards",
         "icon": "apps/solitaire-postcards.png",
@@ -2944,6 +3281,44 @@ window.CRYSTL_APPS = [
             "apps/shots/solitaire-postcards/02.jpg",
             "apps/shots/solitaire-postcards/03.jpg",
             "apps/shots/solitaire-postcards/04.jpg"
+        ]
+    },
+    {
+        "id": "sugar-split",
+        "slug": "sugar-split",
+        "icon": "apps/sugar-split.png",
+        "page": "apps/sugar-split.html",
+        "tier": "Volume",
+        "platform": "Android, PC",
+        "name": {
+            "en": "Sugar Split",
+            "ko": "슈가 스플릿",
+            "ja": "シュガースプリット",
+            "es": "Sugar Split",
+            "pt-BR": "Sugar Split"
+        },
+        "tagline": {
+            "en": "Two gumdrops, opposite gravities, one shared tap. Every flip moves both lanes.",
+            "ko": "젤리 두 개, 서로 반대인 중력, 하나뿐인 탭. 뒤집을 때마다 두 레인이 함께 바뀝니다.",
+            "ja": "グミが二つ、逆向きの重力、共有のタップ一つ。反転するたびに両方のレーンが動く。",
+            "es": "Dos gominolas, gravedades opuestas, un solo toque. Cada giro cambia los dos carriles.",
+            "pt-BR": "Duas balinhas de goma, gravidades opostas, um toque só. Cada virada muda as duas pistas."
+        },
+        "desc": {
+            "en": "Sugar Split is a one-tap arcade game about two gumdrops with opposite gravities. One tap flips both of them at once, so every flip changes both lanes. You watch both characters, read the paired openings and obstacles, and pick a moment that works for the pair, not just for one. Passing matching rings with both gumdrops earns a Harmony bonus, or you can ignore the rings and focus on getting both through the next obstacle. There are 48 challenges, each played on three lives: clear one for bronze, lose at most one life for silver, lose none for gold. Clearing six boards opens Endless mode. Practice runs slower and keeps its results separate. Sprinkles earned in play unlock gumdrop color styles. Play offline without an account, with progress and personal records saved on your device. Ads appear between runs, and optional rewarded ads give extra sprinkles. Plays in English, Spanish and Brazilian Portuguese.",
+            "ko": "슈가 스플릿은 중력이 서로 반대인 젤리 두 개를 다루는 원터치 아케이드 게임입니다. 한 번 탭하면 둘이 동시에 뒤집히니, 뒤집을 때마다 두 레인이 함께 바뀝니다. 두 캐릭터를 모두 보며 짝지어 나오는 빈틈과 장애물을 읽고, 한쪽이 아니라 둘 모두에게 맞는 순간을 고르세요. 두 젤리가 짝이 맞는 링을 지나가면 하모니 보너스를 받고, 링을 무시하고 둘 다 다음 장애물을 넘기는 데 집중해도 됩니다. 챌린지는 48개이고 목숨 세 개로 도전합니다. 클리어하면 동메달, 목숨을 하나 이하로 잃으면 은메달, 하나도 잃지 않으면 금메달입니다. 보드 여섯 개를 클리어하면 무한 모드가 열립니다. 연습은 더 느리게 진행되고 결과가 따로 기록됩니다. 플레이로 모은 스프링클로 젤리 색상 스타일을 해금합니다. 계정 없이 오프라인으로 즐기고, 진행과 개인 기록은 기기에 저장됩니다. 판 사이에 광고가 나오고, 선택형 보상 광고로 스프링클을 더 받을 수 있습니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다.",
+            "ja": "シュガースプリットは、重力が逆向きの二つのグミを操るワンタップのアーケードゲームだ。一回のタップで二つが同時に反転するので、反転するたびに両方のレーンが変わる。二匹とも見ながら、対になって現れるすき間と障害物を読み、片方ではなく両方にとって安全な瞬間を選ぶ。二つのグミでそろいのリングを抜けるとハーモニーボーナス。リングは無視して、二つとも次の障害物を越えることに集中してもいい。チャレンジは48で、ライフ三つで挑む。クリアで銅、失ったライフが一つまでなら銀、一つも失わなければ金。ボードを六つクリアするとエンドレスモードが開く。練習はゆっくり進み、結果は別に記録される。プレイで集めたスプリンクルでグミのカラースタイルを解放する。アカウント不要でオフラインで遊べ、進行と自己ベストは端末に保存される。プレイの合間に広告が入り、任意のリワード広告でスプリンクルを追加でもらえる。英語、スペイン語、ブラジルポルトガル語に対応。",
+            "es": "Sugar Split es un juego arcade de un toque sobre dos gominolas con gravedades opuestas. Un toque las invierte a las dos a la vez, así que cada giro cambia ambos carriles. Miras a los dos personajes, lees los huecos y obstáculos que llegan en pareja y eliges un momento que sirva para las dos, no solo para una. Pasar anillos a juego con ambas da un bonus de Armonía, o puedes ignorar los anillos y centrarte en que las dos superen el siguiente obstáculo. Hay 48 retos, cada uno con tres vidas: superarlo da bronce, perder como mucho una vida da plata y no perder ninguna da oro. Superar seis tableros abre el modo Infinito. La práctica va más lenta y guarda sus resultados aparte. Las chispas que ganas jugando desbloquean estilos de color. Juega sin conexión y sin cuenta, con el progreso y los récords en tu dispositivo. Hay anuncios entre partidas, y los anuncios con recompensa opcionales dan chispas extra. En inglés, español y portugués de Brasil.",
+            "pt-BR": "Sugar Split é um jogo arcade de um toque sobre duas balinhas de goma com gravidades opostas. Um toque inverte as duas ao mesmo tempo, então cada virada muda as duas pistas. Você acompanha as duas personagens, lê as aberturas e obstáculos que chegam em par e escolhe um momento que sirva para as duas, não só para uma. Passar pelos anéis combinando com as duas rende um bônus de Harmonia, ou você pode ignorar os anéis e se concentrar em passar as duas pelo próximo obstáculo. São 48 desafios, cada um com três vidas: passar dá bronze, perder no máximo uma vida dá prata e não perder nenhuma dá ouro. Passar por seis tabuleiros abre o modo Infinito. O treino é mais lento e guarda resultados à parte. Os confeitos ganhos jogando desbloqueiam estilos de cor. Jogue offline e sem conta, com progresso e recordes no aparelho. Há anúncios entre partidas, e anúncios recompensados opcionais dão confeitos extras. Em inglês, espanhol e português do Brasil."
+        },
+        "status": "Live",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.sugarsplit",
+        "itchUrl": "https://crystllabs.itch.io/sugarsplit",
+        "screenshots": [
+            "apps/shots/sugar-split/01.jpg",
+            "apps/shots/sugar-split/02.jpg",
+            "apps/shots/sugar-split/03.jpg",
+            "apps/shots/sugar-split/04.jpg"
         ]
     },
     {
@@ -3020,6 +3395,81 @@ window.CRYSTL_APPS = [
             "apps/shots/theme-studio/02.jpg",
             "apps/shots/theme-studio/03.jpg",
             "apps/shots/theme-studio/04.jpg"
+        ]
+    },
+    {
+        "id": "tiny-tonics",
+        "slug": "tiny-tonics",
+        "icon": "apps/tiny-tonics.png",
+        "page": "apps/tiny-tonics.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Tiny Tonics",
+            "ko": "타이니 토닉스",
+            "ja": "タイニートニック",
+            "es": "Tiny Tonics",
+            "pt-BR": "Tiny Tonics"
+        },
+        "tagline": {
+            "en": "Pour the layers until every flask is one color, cork it, and hand it over the counter.",
+            "ko": "플라스크마다 한 색만 남을 때까지 붓고, 코르크를 막아 카운터 너머로 건네세요.",
+            "ja": "どのフラスコも一色になるまで注ぎ分け、栓をしてカウンター越しに手渡す。",
+            "es": "Vierte las capas hasta que cada frasco sea de un color, tápalo y entrégalo en el mostrador.",
+            "pt-BR": "Despeje as camadas até cada frasco ter uma cor, arrolhe e entregue no balcão."
+        },
+        "desc": {
+            "en": "Tiny Tonics is a color sort puzzle in a pixel potion shop. Tap a flask to pick it up and tap another to pour. The top color only pours into an empty flask or onto the same color, as many layers as fit. A flask full of one color gets its cork, and when every flask is corked or empty, a customer walks in and takes the potions. There are 120 levels, from 3 colors up to 12, each one checked solvable by a solver, growing from five flasks to fourteen in two rows. From level 31, mystery layers stay hidden until they reach the top. You get three free undos per level and a restart any time, and there is no timer. A daily puzzle arrives every day. Fewer pours earn more stars, and coins from each level buy 24 decorations for the shop, from plants to pets to lanterns. Plays offline, no account. Ads show between levels, never during play.",
+            "ko": "타이니 토닉스는 픽셀 물약 가게에서 하는 색 분류 퍼즐입니다. 플라스크를 탭해 들고, 다른 플라스크를 탭해 부으세요. 맨 위 색은 빈 플라스크나 같은 색 위에만, 들어가는 만큼 부어집니다. 한 색으로 가득 찬 플라스크는 코르크로 막히고, 모든 플라스크가 막히거나 비면 손님이 들어와 물약을 가져갑니다. 레벨은 120개로 3색부터 12색까지 있고, 모두 솔버로 풀 수 있음을 확인했습니다. 플라스크는 다섯 개에서 두 줄 열네 개까지 늘어납니다. 31레벨부터는 맨 위에 오기 전까지 보이지 않는 미스터리 층이 나옵니다. 레벨마다 무료 되돌리기 세 번, 언제든 다시 시작할 수 있고, 타이머는 없습니다. 일일 퍼즐이 매일 나옵니다. 적게 부을수록 별을 더 받고, 레벨마다 받는 코인으로 화분부터 반려동물, 등불까지 가게 장식 24종을 삽니다. 오프라인, 계정 없음. 광고는 레벨 사이에만 나오고 플레이 중에는 나오지 않습니다.",
+            "ja": "タイニートニックは、ピクセルの薬屋で遊ぶ色分けパズルだ。フラスコをタップして持ち上げ、別のフラスコをタップして注ぐ。一番上の色は、空のフラスコか同じ色の上にだけ、入るだけ注がれる。一色で満たされたフラスコには栓がされ、すべてのフラスコが栓をされるか空になると、客が入ってきて薬を受け取る。レベルは120、3色から12色まで、どれもソルバーで解けることを確認済み。フラスコは五本から二列の十四本まで増える。31レベルからは、一番上に来るまで見えない謎の層が出てくる。レベルごとに無料の取り消しが三回、やり直しはいつでもでき、タイマーはない。デイリーパズルは毎日届く。少ない注ぎで星が増え、レベルごとのコインで植物からペット、ランタンまで、店の飾り24種を買える。オフライン、アカウント不要。広告はレベルの合間だけで、プレイ中には出ない。",
+            "es": "Tiny Tonics es un rompecabezas de ordenar colores en una tienda de pociones pixelada. Toca un frasco para tomarlo y toca otro para verter. El color de arriba solo se vierte en un frasco vacío o sobre el mismo color, tantas capas como quepan. Un frasco lleno de un solo color recibe su corcho, y cuando todos están tapados o vacíos, entra un cliente y se lleva las pociones. Hay 120 niveles, de 3 colores hasta 12, todos comprobados con un solucionador, y pasan de cinco frascos a catorce en dos filas. Desde el nivel 31, las capas misteriosas quedan ocultas hasta llegar arriba. Tienes tres deshacer gratis por nivel y reinicio cuando quieras, y no hay temporizador. Cada día llega un rompecabezas diario. Menos vertidos dan más estrellas, y las monedas de cada nivel compran 24 adornos para la tienda, de plantas a mascotas y faroles. Sin conexión, sin cuenta. Los anuncios salen entre niveles, nunca durante el juego.",
+            "pt-BR": "Tiny Tonics é um quebra-cabeça de separar cores numa loja de poções em pixel art. Toque num frasco para pegá-lo e toque em outro para despejar. A cor de cima só vai para um frasco vazio ou sobre a mesma cor, quantas camadas couberem. Um frasco cheio de uma cor só ganha sua rolha, e quando todos estão arrolhados ou vazios, um cliente entra e leva as poções. São 120 níveis, de 3 a 12 cores, todos verificados por um solucionador, indo de cinco frascos a catorze em duas fileiras. A partir do nível 31, camadas misteriosas ficam escondidas até chegarem ao topo. Você tem três desfazer grátis por nível e pode reiniciar quando quiser, sem cronômetro. Um quebra-cabeça diário chega todo dia. Menos despejos rendem mais estrelas, e as moedas de cada nível compram 24 enfeites para a loja, de plantas a bichinhos e lanternas. Offline, sem conta. Os anúncios aparecem entre níveis, nunca durante o jogo."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/tinytonics",
+        "screenshots": [
+            "apps/shots/tiny-tonics/01.jpg",
+            "apps/shots/tiny-tonics/02.jpg",
+            "apps/shots/tiny-tonics/03.jpg",
+            "apps/shots/tiny-tonics/04.jpg",
+            "apps/shots/tiny-tonics/05.jpg"
+        ]
+    },
+    {
+        "id": "velvet-derby",
+        "slug": "velvet-derby",
+        "icon": "apps/velvet-derby.png",
+        "page": "apps/velvet-derby.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Velvet Derby",
+            "ko": "벨벳 더비",
+            "ja": "ベルベット・ダービー",
+            "es": "Velvet Derby",
+            "pt-BR": "Velvet Derby"
+        },
+        "tagline": {
+            "en": "Read the pack, find a seam, and get your jammer through. Ninety-second roller derby jams.",
+            "ko": "팩을 읽고 틈을 찾아 재머를 통과시키세요. 90초짜리 롤러 더비 잼.",
+            "ja": "パックを読み、すき間を見つけ、ジャマーを抜けさせる。90秒のローラーダービー・ジャム。",
+            "es": "Lee el pack, busca un hueco y haz pasar a tu jammer. Jams de roller derby de 90 segundos.",
+            "pt-BR": "Leia o pack, ache uma brecha e faça seu jammer passar. Jams de roller derby de 90 segundos."
+        },
+        "desc": {
+            "en": "Velvet Derby is arcade roller derby. You read the pack, find a seam, take your jammer through the first pass, then circle back to score. Each jam lasts 90 seconds. You choose an inside or outside line, direct your blockers, and spend stamina on a push when the gap opens. Rival formations change where the gaps appear. Earn lead jammer and you can call off the jam to bank the score. There are six arena settings, 16 skater profiles and 24 career stages. A career mode, offline daily challenges, practice, medals and personal records keep you coming back, and tokens earned in play unlock collection items. Settings include assists, sound, music, vibration, reduced motion and a left-handed action layout. Core play works offline and progress stays on your device. Optional rewarded ads and occasional interstitial ads between finished sessions. Plays in English, Spanish and Brazilian Portuguese.",
+            "ko": "벨벳 더비는 아케이드 롤러 더비입니다. 팩을 읽고 틈을 찾아 재머를 첫 통과시킨 뒤, 다시 돌아와 점수를 내세요. 잼 하나는 90초입니다. 안쪽이나 바깥쪽 라인을 고르고, 블로커에게 지시하고, 틈이 열리면 스태미나를 써서 밀고 나가세요. 상대 대형에 따라 틈이 생기는 곳이 달라집니다. 리드 재머를 따내면 잼을 끝내 점수를 확정할 수 있습니다. 아레나 6곳, 스케이터 프로필 16종, 커리어 스테이지 24개가 있습니다. 커리어 모드, 오프라인 일일 챌린지, 연습, 메달, 개인 기록이 다시 찾을 이유가 되고, 플레이로 얻은 토큰으로 수집 아이템을 해금합니다. 설정에는 보조 기능, 사운드, 음악, 진동, 모션 줄이기, 왼손잡이 배치가 있습니다. 핵심 플레이는 오프라인으로 되고 진행 상황은 기기에 저장됩니다. 선택형 보상 광고와, 세션이 끝난 뒤 가끔 나오는 전면 광고가 있습니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다.",
+            "ja": "ベルベット・ダービーはアーケードのローラーダービーだ。パックを読み、すき間を見つけ、ジャマーに最初のパスを抜けさせ、周回して戻って得点する。ジャムは一回90秒。インかアウトのラインを選び、ブロッカーに指示を出し、すき間が開いたらスタミナを使って押し込む。相手のフォーメーションによって、すき間ができる場所は変わる。リードジャマーを取ればジャムを打ち切って得点を確定できる。アリーナは6つ、スケーターのプロファイルは16、キャリアステージは24。キャリアモード、オフラインのデイリーチャレンジ、練習、メダル、自己ベストが戻ってくる理由になり、プレイで集めたトークンでコレクションアイテムを解放する。設定にはアシスト、サウンド、音楽、振動、モーション軽減、左利き用の操作配置がある。基本プレイはオフラインで動き、進行は端末に保存される。任意のリワード広告と、セッション終了後のときどきのインタースティシャル広告あり。英語、スペイン語、ブラジルポルトガル語に対応。",
+            "es": "Velvet Derby es roller derby arcade. Lees el pack, buscas un hueco, haces que tu jammer supere el primer paso y luego das la vuelta para puntuar. Cada jam dura 90 segundos. Eliges una línea interior o exterior, diriges a tus bloqueadores y gastas resistencia en un empujón cuando se abre el hueco. Las formaciones rivales cambian dónde aparecen los huecos. Consigue ser lead jammer y podrás cortar el jam para asegurar los puntos. Hay seis arenas, 16 perfiles de patinador y 24 etapas de carrera. El modo carrera, los retos diarios sin conexión, la práctica, las medallas y las marcas personales te hacen volver, y las fichas que ganas jugando desbloquean objetos de colección. Los ajustes incluyen ayudas, sonido, música, vibración, movimiento reducido y controles para zurdos. El juego principal funciona sin conexión y el progreso queda en tu dispositivo. Anuncios con recompensa opcionales e intersticiales ocasionales entre sesiones terminadas. En inglés, español y portugués de Brasil.",
+            "pt-BR": "Velvet Derby é roller derby arcade. Você lê o pack, acha uma brecha, faz seu jammer passar pela primeira vez e depois dá a volta para pontuar. Cada jam dura 90 segundos. Você escolhe uma linha por dentro ou por fora, comanda seus bloqueadores e gasta fôlego num empurrão quando a brecha abre. As formações rivais mudam onde as brechas aparecem. Conquiste a lead jammer e você pode encerrar o jam para garantir os pontos. São seis arenas, 16 perfis de patinador e 24 etapas de carreira. Modo carreira, desafios diários offline, treino, medalhas e recordes pessoais fazem você voltar, e as fichas ganhas jogando desbloqueiam itens de coleção. As configurações incluem assistências, som, música, vibração, movimento reduzido e controles para canhotos. O jogo principal funciona offline e o progresso fica no seu dispositivo. Anúncios opcionais com recompensa e intersticiais ocasionais entre sessões concluídas. Em inglês, espanhol e português do Brasil."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/velvetderby",
+        "screenshots": [
+            "apps/shots/velvet-derby/01.jpg",
+            "apps/shots/velvet-derby/02.jpg"
         ]
     },
     {
@@ -3139,6 +3589,117 @@ window.CRYSTL_APPS = [
         ]
     },
     {
+        "id": "diceman",
+        "slug": "diceman",
+        "icon": "apps/diceman.png",
+        "page": "apps/diceman.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "DICEMAN",
+            "ko": "다이스맨",
+            "ja": "ダイスマン",
+            "es": "DICEMAN",
+            "pt-BR": "DICEMAN"
+        },
+        "tagline": {
+            "en": "Three dice, one decision. Outplay nine rivals and build a street-dice career.",
+            "ko": "주사위 세 개, 결정은 하나. 라이벌 아홉 명을 꺾고 거리의 주사위 커리어를 쌓으세요.",
+            "ja": "サイコロ3つ、決断はひとつ。9人のライバルを倒して、路上のダイス稼業をのし上がれ。",
+            "es": "Tres dados, una decisión. Vence a nueve rivales y arma una carrera callejera de dados.",
+            "pt-BR": "Três dados, uma decisão. Vença nove rivais e construa uma carreira de dados nas ruas."
+        },
+        "desc": {
+            "en": "DICEMAN is a tactical dice game with an offline career. You start with $50 in fictional cash and a leather jacket, and work your way from the corner to the top of three districts. A match is first to two rounds. Your rival locks a hand first. Then you roll three dice, tap to hold the ones you want, and spend limited Focus to reroll the rest. Triples beat straights, straights beat pairs, and pairs beat high totals. Your first roll each round is free, and Focus has to last the whole match. Nine rivals play in different styles. Train Focus, odds reads and composure between matches, earn three mastery marks per opponent, and beat district champions for their trophy chains. Collect 23 jackets, chains, watches, rings and dice sets; they are cosmetic and never change your rolls. Daily contracts, three-match Night Runs and free corner games fill out the career. No account and no purchases. All money is fictional, with no wagering or cash-out.",
+            "ko": "다이스맨은 오프라인 커리어가 있는 전략 주사위 게임입니다. 가상의 현금 50달러와 가죽 재킷 한 벌로 시작해, 길모퉁이에서 세 구역의 정상까지 올라갑니다. 매치는 두 라운드를 먼저 이기면 끝납니다. 라이벌이 먼저 패를 확정합니다. 그다음 주사위 세 개를 굴리고, 남길 주사위를 눌러 고정한 뒤, 한정된 포커스를 써서 나머지를 다시 굴립니다. 트리플은 스트레이트를, 스트레이트는 페어를, 페어는 높은 합계를 이깁니다. 라운드마다 첫 굴림은 무료이고, 포커스는 매치 내내 아껴 써야 합니다. 라이벌 아홉 명은 저마다 스타일이 다릅니다. 매치 사이에 포커스, 확률 읽기, 침착함을 훈련하고, 상대마다 숙련 마크 세 개를 모으고, 구역 챔피언을 꺾어 트로피 체인을 얻으세요. 재킷, 체인, 시계, 반지, 주사위 세트 23종을 모을 수 있으며, 모두 꾸미기용이라 굴림에는 영향이 없습니다. 일일 계약, 세 판 연속 나이트 런, 무료 길모퉁이 게임이 커리어를 채웁니다. 계정도 결제도 없습니다. 모든 돈은 가상이며, 실제 돈 베팅이나 환전은 없습니다.",
+            "ja": "ダイスマンは、オフラインのキャリアモードがある戦略サイコロゲーム。架空の現金50ドルと革ジャン1着から始めて、街角から3つの地区の頂点を目指す。試合は2ラウンド先取。ライバルが先に手を確定する。次にあなたがサイコロ3つを振り、残したい目をタップで固定し、限られたフォーカスを使って残りを振り直す。トリプルはストレートに、ストレートはペアに、ペアは合計の高さに勝つ。各ラウンドの最初の一投は無料で、フォーカスは試合全体でやりくりする。ライバル9人はそれぞれ戦い方が違う。試合の合間にフォーカス、確率の読み、平常心を鍛え、相手ごとに熟練マークを3つ集め、地区チャンピオンを倒してトロフィーチェーンを手に入れよう。ジャケット、チェーン、時計、指輪、ダイスセットの計23点を集められるが、見た目だけで出目は変わらない。デイリー契約、3連戦のナイトラン、無料の街角ゲームもある。アカウント不要、課金なし。お金はすべて架空で、現金の賭けや換金はない。",
+            "es": "DICEMAN es un juego táctico de dados con una carrera sin conexión. Empiezas con $50 de dinero ficticio y una chamarra de cuero, y te abres camino desde la esquina hasta lo más alto de tres distritos. Gana la partida quien gane dos rondas. Tu rival fija su jugada primero. Luego lanzas tres dados, tocas los que quieres conservar y gastas Foco limitado para volver a lanzar los demás. Los tríos vencen a las escaleras, las escaleras a los pares y los pares a la suma más alta. La primera tirada de cada ronda es gratis, y el Foco tiene que alcanzarte para toda la partida. Nueve rivales juegan con estilos distintos. Entrena Foco, lectura de probabilidades y temple entre partidas, consigue tres marcas de dominio por rival y derrota a los campeones de distrito para ganar sus cadenas de trofeo. Colecciona 23 chamarras, cadenas, relojes, anillos y juegos de dados; son cosméticos y nunca cambian tus tiradas. Contratos diarios, Rachas nocturnas de tres partidas y juegos gratis en la esquina completan la carrera. Sin cuenta y sin compras. Todo el dinero es ficticio, sin apuestas ni retiros.",
+            "pt-BR": "DICEMAN é um jogo tático de dados com carreira offline. Você começa com $50 em dinheiro fictício e uma jaqueta de couro, e sai da esquina rumo ao topo de três distritos. Vence a partida quem ganhar duas rodadas. Seu rival define a jogada primeiro. Depois você lança três dados, toca nos que quer manter e gasta Foco limitado para lançar os outros de novo. Trincas vencem sequências, sequências vencem pares, e pares vencem a maior soma. O primeiro lançamento de cada rodada é grátis, e o Foco precisa durar a partida inteira. Nove rivais jogam com estilos diferentes. Treine Foco, leitura de probabilidades e postura entre as partidas, conquiste três marcas de domínio por rival e derrote os campeões dos distritos para ganhar suas correntes de troféu. Colecione 23 jaquetas, correntes, relógios, anéis e conjuntos de dados; são visuais e nunca alteram seus lançamentos. Contratos diários, Desafios noturnos de três partidas e jogos grátis na esquina completam a carreira. Sem conta e sem compras. Todo o dinheiro é fictício, sem apostas nem saques."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/diceman",
+        "screenshots": []
+    },
+    {
+        "id": "glowline",
+        "slug": "glowline",
+        "icon": "apps/glowline.png",
+        "page": "apps/glowline.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Glowline",
+            "ko": "글로우라인",
+            "ja": "グローライン",
+            "es": "Glowline",
+            "pt-BR": "Glowline"
+        },
+        "tagline": {
+            "en": "Join matching neon dots, never cross a line, fill every square. One answer per board.",
+            "ko": "같은 색 네온 점을 잇고, 선은 겹치지 말고, 모든 칸을 채우세요. 답은 하나뿐.",
+            "ja": "同じ色のネオンの点をつなぎ、線は交差させず、全マスを埋める。答えはひとつ。",
+            "es": "Une puntos de neón iguales, no cruces líneas y llena cada casilla. Una solución por tablero.",
+            "pt-BR": "Ligue pontos de neon iguais, não cruze linhas e preencha cada casa. Uma resposta por tabuleiro."
+        },
+        "desc": {
+            "en": "Glowline is a calm connect-the-dots puzzle in neon. Draw a line between each pair of matching dots, never cross another line, and fill every square on the board. Every level has exactly one answer. Drag from a dot to its twin and the line glows along your finger, even round tight corners. Cut through a line to reroute it, back up to shorten it, and watch the fill bar climb until the whole board lights up. There are 300 levels, from 5x5 up to 12x12, and each board size starts gently before it gets harder. The big 12x12 boards hold up to 17 pairs of dots. Draw each line just once for three stars, and play a new daily puzzle every day. Coins unlock ice, fire and pastel themes. The first level shows you the moves with a hand. Plays offline, no account needed. Free with ads between levels, never during play, plus optional ones for a hint that draws a line. No purchases.",
+            "ko": "글로우라인은 네온으로 즐기는 차분한 점 잇기 퍼즐입니다. 같은 색 점끼리 선으로 잇되, 다른 선과 겹치지 않게, 그리고 판의 모든 칸을 채워야 합니다. 모든 레벨은 답이 정확히 하나입니다. 점에서 짝이 되는 점까지 끌면 손가락을 따라 선이 빛나고, 좁은 모퉁이도 그대로 따라옵니다. 선을 가로질러 경로를 바꾸고, 되돌려 짧게 줄이면서 채움 막대가 올라가 판 전체가 밝아지는 것을 지켜보세요. 5x5부터 12x12까지 300개 레벨이 있고, 판 크기마다 쉽게 시작해 점점 어려워집니다. 가장 큰 12x12 판에는 점이 최대 17쌍까지 나옵니다. 선마다 한 번에 그으면 별 세 개를 받고, 매일 새로운 데일리 퍼즐도 있습니다. 코인으로 얼음, 불, 파스텔 테마를 해금할 수 있습니다. 첫 레벨에서는 손 모양 안내가 방법을 보여 줍니다. 계정 없이 오프라인으로 즐길 수 있습니다. 무료이며 광고는 레벨 사이에만 나오고 플레이 중에는 나오지 않습니다. 선 하나를 그어 주는 힌트용 선택형 광고도 있습니다. 결제는 없습니다.",
+            "ja": "グローラインは、ネオンで遊ぶ落ち着いた点つなぎパズル。同じ色の点どうしを線でつなぎ、ほかの線とは交差させず、盤のすべてのマスを埋める。どのレベルも答えはちょうどひとつ。点からペアの点までドラッグすると、指に沿って線が光り、きついカーブにもついてくる。線を横切ってルートを変え、戻って短くしながら、充填バーが上がって盤全体が光るのを見届けよう。5x5から12x12まで全300レベル。盤のサイズごとにやさしく始まり、だんだん難しくなる。最大の12x12盤には最大17組の点が並ぶ。どの線も一筆で引けば星3つ。毎日新しいデイリーパズルもある。コインで氷、炎、パステルのテーマを解放できる。最初のレベルでは手のアイコンが操作を教えてくれる。アカウント不要でオフラインで遊べる。無料で、広告はレベルの合間だけ、プレイ中には出ない。線を1本引いてくれるヒント用の任意広告もある。課金なし。",
+            "es": "Glowline es un acertijo tranquilo de unir puntos en neón. Traza una línea entre cada par de puntos iguales, nunca cruces otra línea y llena todas las casillas del tablero. Cada nivel tiene exactamente una solución. Arrastra desde un punto hasta su pareja y la línea brilla bajo tu dedo, incluso en las curvas cerradas. Corta una línea para cambiar su camino, retrocede para acortarla y mira cómo sube la barra hasta que todo el tablero se ilumina. Hay 300 niveles, de 5x5 hasta 12x12, y cada tamaño empieza suave antes de ponerse difícil. Los tableros grandes de 12x12 tienen hasta 17 pares de puntos. Traza cada línea una sola vez para ganar tres estrellas y juega un acertijo diario nuevo cada día. Las monedas desbloquean temas de hielo, fuego y pastel. El primer nivel te muestra los movimientos con una mano. Funciona sin conexión y sin cuenta. Gratis con anuncios entre niveles, nunca durante el juego, y otros opcionales para una pista que traza una línea. Sin compras.",
+            "pt-BR": "Glowline é um desafio tranquilo de ligar pontos em neon. Trace uma linha entre cada par de pontos iguais, nunca cruze outra linha e preencha todas as casas do tabuleiro. Cada nível tem exatamente uma resposta. Arraste de um ponto até o seu par e a linha brilha sob o seu dedo, até nas curvas fechadas. Corte uma linha para mudar o caminho, volte para encurtá-la e veja a barra subir até o tabuleiro inteiro acender. São 300 níveis, de 5x5 até 12x12, e cada tamanho começa leve antes de ficar difícil. Os tabuleiros grandes de 12x12 têm até 17 pares de pontos. Trace cada linha uma vez só para ganhar três estrelas e jogue um desafio diário novo todo dia. As moedas desbloqueiam temas de gelo, fogo e pastel. O primeiro nível mostra os movimentos com uma mão. Funciona offline e sem conta. Grátis com anúncios entre os níveis, nunca durante o jogo, e outros opcionais para uma dica que traça uma linha. Sem compras."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/glowline",
+        "screenshots": [
+            "apps/shots/glowline/01.jpg",
+            "apps/shots/glowline/02.jpg",
+            "apps/shots/glowline/03.jpg",
+            "apps/shots/glowline/04.jpg",
+            "apps/shots/glowline/05.jpg"
+        ]
+    },
+    {
+        "id": "hide-and-gnome",
+        "slug": "hide-and-gnome",
+        "icon": "apps/hide-and-gnome.png",
+        "page": "apps/hide-and-gnome.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Hide & Gnome",
+            "ko": "하이드 앤 놈",
+            "ja": "ハイド&ノーム",
+            "es": "Hide & Gnome",
+            "pt-BR": "Hide & Gnome"
+        },
+        "tagline": {
+            "en": "Hidden object hunts in tiny 3D towns. Find your list, then spot the gnomes.",
+            "ko": "작은 3D 마을에서 숨은 물건 찾기. 목록을 다 찾고 나면 노움을 찾으세요.",
+            "ja": "小さな3Dの町で探し物。リストをそろえたら、隠れたノームも見つけよう。",
+            "es": "Objetos ocultos en pueblitos 3D. Encuentra tu lista y luego descubre a los gnomos.",
+            "pt-BR": "Objetos escondidos em cidadezinhas 3D. Ache a lista e depois encontre os gnomos."
+        },
+        "desc": {
+            "en": "Hide & Gnome is a hidden object game set in tiny 3D towns. Drag to look around, pinch to zoom, and tap each thing on your list: three cones, two buckets, a mailbox. Every find flies into the tray at the bottom. Somewhere in each level, one to three garden gnomes are hiding too, and each one you spot joins your garden. There are 120 levels across 12 places, from the park and the market to the harbour, the roadworks and a rooftop. Scenes grow from 60 props with 6 things to find up to 220 props with 12. There is no timer on screen, but finding everything fast earns three stars. Tap with care: three wrong taps in two seconds locks tapping for three seconds. Every item can be seen from some angle and has no look-alike decor in its level. Coins buy 24 garden pieces. A new daily level, hints and a radar. Plays offline, no account, free with ads between levels. No purchases.",
+            "ko": "하이드 앤 놈은 작은 3D 마을을 배경으로 한 숨은 물건 찾기 게임입니다. 드래그로 둘러보고, 손가락을 벌려 확대하고, 목록에 있는 물건을 하나씩 누르세요. 원뿔 세 개, 양동이 두 개, 우편함 하나 같은 식입니다. 찾은 물건은 아래 트레이로 날아갑니다. 레벨마다 정원 노움도 한 명에서 세 명까지 숨어 있고, 찾은 노움은 당신의 정원에 합류합니다. 공원과 시장부터 항구, 공사 현장, 옥상까지 12곳에 걸쳐 120개 레벨이 있습니다. 장면은 소품 60개에 찾을 물건 6개에서 시작해 소품 220개에 찾을 물건 12개까지 커집니다. 화면에 타이머는 없지만, 빨리 다 찾으면 별 세 개를 받습니다. 신중하게 누르세요. 2초 안에 세 번 잘못 누르면 3초 동안 누를 수 없습니다. 모든 물건은 어느 각도에서든 보이게 되어 있고, 같은 레벨에 헷갈리는 비슷한 장식은 없습니다. 코인으로 정원 소품 24개를 살 수 있습니다. 매일 새 레벨이 나오고, 막힐 때는 힌트와 레이더를 쓸 수 있습니다. 계정 없이 오프라인으로 즐길 수 있으며, 무료이고 광고는 레벨 사이에 나옵니다. 결제는 없습니다.",
+            "ja": "ハイド&ノームは、小さな3Dの町が舞台の探し物ゲーム。ドラッグで見回し、ピンチでズームし、リストにあるものを順にタップする。コーン3つ、バケツ2つ、郵便ポスト1つといった具合だ。見つけたものは下のトレイへ飛んでいく。どのレベルにも庭のノームが1人から3人隠れていて、見つけたノームはあなたの庭の仲間になる。公園や市場から港、工事現場、屋上まで、12か所に全120レベル。場面は小物60個の中から6つを探すところから、220個の中から12個を探すところまで広がる。画面にタイマーはないが、素早く全部見つければ星3つ。タップは慎重に。2秒以内に3回間違えると、3秒間タップできなくなる。どのアイテムもどこかの角度から必ず見え、同じレベルにまぎらわしい似た飾りは置かれていない。コインで庭のアイテム24種を買える。毎日新しいレベルがあり、困ったときはヒントとレーダーも使える。アカウント不要でオフラインで遊べる。無料で、広告はレベルの合間に出る。課金なし。",
+            "es": "Hide & Gnome es un juego de objetos ocultos en pequeños pueblos 3D. Arrastra para mirar alrededor, pellizca para acercar y toca cada cosa de tu lista: tres conos, dos baldes, un buzón. Cada hallazgo vuela a la bandeja de abajo. En cada nivel también se esconden de uno a tres gnomos de jardín, y cada uno que encuentras se suma a tu jardín. Hay 120 niveles en 12 lugares, del parque y el mercado al puerto, las obras y una azotea. Las escenas crecen de 60 objetos con 6 cosas por encontrar a 220 con 12. No hay reloj en pantalla, pero encontrarlo todo rápido da tres estrellas. Toca con cuidado: tres toques fallidos en dos segundos bloquean los toques por tres segundos. Cada objeto se ve desde algún ángulo y su nivel no tiene adornos que se le parezcan. Las monedas compran 24 piezas de jardín. Hay un nivel diario nuevo, además de pistas y un radar para cuando te atascas. Funciona sin conexión y sin cuenta, gratis con anuncios entre niveles. Sin compras.",
+            "pt-BR": "Hide & Gnome é um jogo de objetos escondidos em cidadezinhas 3D. Arraste para olhar em volta, faça pinça para aproximar e toque em cada coisa da sua lista: três cones, dois baldes, uma caixa de correio. Cada achado voa para a bandeja embaixo. Em todo nível também se escondem de um a três gnomos de jardim, e cada um que você acha vai para o seu jardim. São 120 níveis em 12 lugares, do parque e da feira ao porto, às obras e a um terraço. As cenas crescem de 60 objetos com 6 coisas para achar até 220 com 12. Não há relógio na tela, mas achar tudo rápido vale três estrelas. Toque com cuidado: três toques errados em dois segundos bloqueiam os toques por três segundos. Cada objeto é visível de algum ângulo e o nível dele não tem enfeites parecidos. As moedas compram 24 peças de jardim. Há um nível diário novo, além de dicas e um radar para quando travar. Funciona offline e sem conta, grátis com anúncios entre os níveis. Sem compras."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/hideandgnome",
+        "screenshots": [
+            "apps/shots/hide-and-gnome/01.jpg",
+            "apps/shots/hide-and-gnome/02.jpg",
+            "apps/shots/hide-and-gnome/03.jpg",
+            "apps/shots/hide-and-gnome/04.jpg",
+            "apps/shots/hide-and-gnome/05.jpg"
+        ]
+    },
+    {
         "id": "kittycat",
         "slug": "kittycat",
         "icon": "apps/kittycat.png",
@@ -3216,6 +3777,45 @@ window.CRYSTL_APPS = [
         ]
     },
     {
+        "id": "mancala-grove",
+        "slug": "mancala-grove",
+        "icon": "apps/mancala-grove.png",
+        "page": "apps/mancala-grove.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Mancala Grove",
+            "ko": "만칼라 그로브",
+            "ja": "マンカラ・グローブ",
+            "es": "Mancala Grove",
+            "pt-BR": "Mancala Grove"
+        },
+        "tagline": {
+            "en": "Kalah, Oware and Congkak on a wooden board. See where every stone lands first.",
+            "ko": "나무 판 위의 칼라, 오와레, 총칵. 돌이 어디에 떨어질지 먼저 보고 두세요.",
+            "ja": "木の盤で遊ぶカラハ、オワレ、チョンカ。石の落ちる先を見てから打てる。",
+            "es": "Kalah, Oware y Congkak en un tablero de madera. Mira dónde cae cada piedra antes de mover.",
+            "pt-BR": "Kalah, Oware e Congkak num tabuleiro de madeira. Veja onde cada pedra cai antes de jogar."
+        },
+        "desc": {
+            "en": "Mancala Grove puts one of the oldest board games in the world on a wooden board. Sow stones around the pits, capture your opponent's and fill your store. Three classic rule sets are included: Kalah, Oware (Abapa) and a six-pit version of Congkak. Hold a pit and rings light up every pit your stones will land in, so you can plan before you commit, then let go to sow. Climb a ladder of 40 matches against the computer, which gets stronger as you go, with two seed puzzles between matches. All 80 puzzles are checked by a solver. You can also play two players on one phone, or try the daily puzzle. Earn up to three stars per level by winning by a wide margin or solving at the first try. Coins buy 3 wooden boards and 5 stone sets, and 2x speed is there when you want a quicker game. Plays offline, no account needed. Free with ads between levels, never during play. No purchases.",
+            "ko": "만칼라 그로브는 세계에서 가장 오래된 보드게임 중 하나를 나무 판 위로 옮겼습니다. 구멍마다 돌을 뿌리고, 상대의 돌을 따내고, 내 창고를 채우세요. 칼라, 오와레(아바파), 여섯 구멍 버전의 총칵까지 세 가지 고전 규칙이 들어 있습니다. 구멍을 누르고 있으면 돌이 떨어질 모든 구멍에 고리가 켜져, 두기 전에 계획할 수 있습니다. 손을 떼면 돌을 뿌립니다. 갈수록 강해지는 컴퓨터와 40판의 사다리를 오르고, 매치 사이에는 씨앗 퍼즐 두 개가 기다립니다. 퍼즐 80개는 모두 풀이기로 검증했습니다. 휴대폰 한 대로 두 명이 대전하거나 데일리 퍼즐을 풀 수도 있습니다. 큰 점수 차로 이기거나 퍼즐을 한 번에 풀면 레벨마다 별을 최대 세 개까지 받습니다. 코인으로 나무 판 3종과 돌 세트 5종을 모을 수 있고, 빠르게 두고 싶을 땐 2배속도 있습니다. 계정 없이 오프라인으로 즐길 수 있습니다. 무료이며 광고는 레벨 사이에만 나오고 플레이 중에는 나오지 않습니다. 결제는 없습니다.",
+            "ja": "マンカラ・グローブは、世界最古級のボードゲームを、触りたくなる木の盤に載せた。穴に石をまき、相手の石を取り、自分の倉を満たす。カラハ、オワレ(アバパ)、6穴版のチョンカという3つの定番ルールを収録。穴を長押しすると、石が落ちるすべての穴にリングが灯るので、打つ前に計画できる。指を離せば種まき。進むほど強くなるコンピューターとの40戦を勝ち上がり、試合の合間には種のパズルが2問ずつ。80問のパズルはすべてソルバーで確認済み。1台のスマホで2人対戦もでき、デイリーパズルもある。大差で勝つか、パズルを一発で解けば、各レベル最大星3つ。コインで木の盤3種と石のセット5種を集められ、早く遊びたいときは2倍速も使える。アカウント不要でオフラインで遊べる。無料で、広告はレベルの合間だけ、プレイ中には出ない。課金なし。",
+            "es": "Mancala Grove lleva uno de los juegos de mesa más antiguos del mundo a un tablero de madera. Siembra piedras por los hoyos, captura las de tu rival y llena tu almacén. Incluye tres reglas clásicas: Kalah, Oware (Abapa) y una versión de seis hoyos de Congkak. Mantén pulsado un hoyo y se iluminan todos los hoyos donde caerán tus piedras, para que planees antes de decidir; suelta para sembrar. Sube una escalera de 40 partidas contra la computadora, que se vuelve más fuerte a medida que avanzas, con dos acertijos de semillas entre partidas. Los 80 acertijos están comprobados por un solucionador. También puedes jugar dos personas en un celular o probar el acertijo diario. Gana hasta tres estrellas por nivel venciendo por buen margen o resolviendo al primer intento. Las monedas compran 3 tableros de madera y 5 juegos de piedras, y hay velocidad 2x para partidas más rápidas. Funciona sin conexión y sin cuenta. Gratis con anuncios entre niveles, nunca durante el juego. Sin compras.",
+            "pt-BR": "Mancala Grove traz um dos jogos de tabuleiro mais antigos do mundo para um tabuleiro de madeira. Semeie pedras pelas casas, capture as do adversário e encha o seu depósito. São três regras clássicas: Kalah, Oware (Abapa) e uma versão de seis casas do Congkak. Segure uma casa e anéis acendem em todas as casas onde suas pedras vão cair, para você planejar antes de decidir; solte para semear. Suba uma escada de 40 partidas contra o computador, que fica mais forte conforme você avança, com dois desafios de sementes entre as partidas. Os 80 desafios são conferidos por um solucionador. Também dá para jogar em dois num celular ou encarar o desafio diário. Ganhe até três estrelas por nível vencendo com boa vantagem ou resolvendo na primeira tentativa. As moedas compram 3 tabuleiros de madeira e 5 conjuntos de pedras, e há velocidade 2x para partidas mais rápidas. Funciona offline e sem conta. Grátis com anúncios entre os níveis, nunca durante o jogo. Sem compras."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/mancalagrove",
+        "screenshots": [
+            "apps/shots/mancala-grove/01.jpg",
+            "apps/shots/mancala-grove/02.jpg",
+            "apps/shots/mancala-grove/03.jpg",
+            "apps/shots/mancala-grove/04.jpg",
+            "apps/shots/mancala-grove/05.jpg"
+        ]
+    },
+    {
         "id": "monkey-swing",
         "slug": "monkey-swing",
         "icon": "apps/monkey-swing.png",
@@ -3255,6 +3855,763 @@ window.CRYSTL_APPS = [
         ]
     },
     {
+        "id": "orbit-latch",
+        "slug": "orbit-latch",
+        "icon": "apps/orbit-latch.png",
+        "page": "apps/orbit-latch.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Orbit Latch",
+            "ko": "오빗 래치",
+            "ja": "オービットラッチ",
+            "es": "Orbit Latch",
+            "pt-BR": "Orbit Latch"
+        },
+        "tagline": {
+            "en": "Hold to latch onto an anchor, swing, release. One touch, 36 sectors, 12 lessons.",
+            "ko": "누르면 앵커에 걸리고, 돌고, 놓으면 날아갑니다. 원 터치, 36개 섹터, 12개 레슨.",
+            "ja": "押してアンカーにつかまり、回って、放す。ワンタッチ、36セクター、12レッスン。",
+            "es": "Mantén para engancharte a un ancla, gira y suelta. Un toque, 36 sectores, 12 lecciones.",
+            "pt-BR": "Segure para se prender a uma âncora, gire e solte. Um toque, 36 setores, 12 lições."
+        },
+        "desc": {
+            "en": "Orbit Latch is a one-touch space game about timing and momentum. Hold to catch the highlighted gravity anchor, swing around it, then release toward the next ring. A dotted tangent guide shows your flight path. Stay attached too long and the tether overheats. There are 36 authored sectors in twelve families: wide orbits, compact slingshots, high and low anchors, half-circle escapes, asteroid corridors, moving anchors, one-way gates and three-anchor finales. Endless Flight mixes them into varied routes. Twelve four-gate lessons award bronze, silver and gold medals. Center passes earn extra points, and gold needs four centers without a heat break. Star dust buys eight hull-color and trail styles that never change your speed or abilities. A playable tutorial and practice that costs nothing help you learn. Sound, vibration, reduced motion and menu text size are adjustable. Offline, no account, in English, Spanish or Brazilian Portuguese. Free with occasional ads between runs, and an optional ad can double a run's star dust once.",
+            "ko": "오빗 래치는 타이밍과 관성을 다루는 원 터치 우주 게임입니다. 누르고 있으면 강조된 중력 앵커에 걸려 그 주위를 돌고, 손을 떼면 다음 고리를 향해 날아갑니다. 점선으로 된 접선 가이드가 비행 경로를 보여 줍니다. 너무 오래 붙어 있으면 테더가 과열됩니다. 넓은 궤도, 짧은 슬링샷, 높고 낮은 앵커, 반원 탈출, 소행성 회랑, 움직이는 앵커, 일방통행 게이트, 앵커 세 개짜리 피날레까지 열두 계열로 나뉜 36개의 섹터가 직접 설계되어 있습니다. 엔드리스 플라이트는 이 섹터들을 섞어 매번 다른 경로를 만듭니다. 게이트 네 개짜리 레슨 열두 개에서는 동, 은, 금메달을 받습니다. 고리 중앙을 통과하면 추가 점수가 있고, 금메달을 받으려면 과열 끊김 없이 중앙 통과 네 번이 필요합니다. 별가루로 기체 색과 궤적 스타일 여덟 가지를 살 수 있으며, 속도나 능력은 바뀌지 않습니다. 직접 해 보는 튜토리얼과 비용 없는 연습 모드로 익힐 수 있습니다. 소리, 진동, 움직임 줄이기, 메뉴 글자 크기를 조절할 수 있습니다. 계정 없이 오프라인으로 즐기며 영어, 스페인어, 브라질 포르투갈어를 지원합니다. 무료이며 판 사이에 가끔 광고가 나오고, 선택형 광고로 한 판의 별가루를 한 번 두 배로 받을 수 있습니다.",
+            "ja": "オービットラッチは、タイミングと勢いを操るワンタッチの宇宙ゲーム。押し続けるとハイライトされた重力アンカーにつかまって周りを回り、離すと次のリングへ飛んでいく。点線の接線ガイドが飛行コースを示す。つかまりすぎるとテザーがオーバーヒートする。広い軌道、コンパクトなスリングショット、高いアンカーと低いアンカー、半円の脱出、小惑星の回廊、動くアンカー、一方通行のゲート、3アンカーのフィナーレまで、12系統に分かれた36の手作りセクター。エンドレスフライトはそれらを混ぜて毎回違うルートを作る。4ゲートのレッスン12個では銅、銀、金メダルがもらえる。中心を通過すると追加点、金にはオーバーヒートなしで中心通過4回が必要。スターダストで機体の色と軌跡のスタイル8種を買えるが、速度や能力は変わらない。遊べるチュートリアルと、通貨を使わない練習で覚えられる。サウンド、振動、モーション軽減、メニューの文字サイズを調整可能。アカウント不要でオフライン、英語、スペイン語、ブラジルポルトガル語に対応。無料で、ランの合間にときどき広告が入り、任意の広告で1回分のスターダストを一度だけ2倍にできる。",
+            "es": "Orbit Latch es un juego espacial de un toque basado en el ritmo y el impulso. Mantén pulsado para sujetarte al ancla de gravedad resaltada, gira a su alrededor y suelta hacia el siguiente aro. Una guía de tangente punteada muestra la trayectoria. Si te quedas demasiado tiempo, el cable se sobrecalienta. Hay 36 sectores diseñados en doce familias: órbitas amplias, impulsos compactos, anclas altas y bajas, salidas en semicírculo, corredores de asteroides, anclas móviles, puertas de un sentido y finales de tres anclas. El vuelo sin fin los combina en rutas variadas. Doce lecciones de cuatro puertas dan medallas de bronce, plata y oro. Pasar por el centro da puntos extra, y el oro exige cuatro centros sin roturas por calor. El polvo estelar compra ocho estilos de color de nave y estela que nunca cambian la velocidad ni las habilidades. Un tutorial jugable y una práctica sin coste te ayudan a aprender. Puedes ajustar sonido, vibración, movimiento reducido y tamaño del texto de los menús. Sin conexión, sin cuenta, en inglés, español o portugués de Brasil. Gratis con anuncios ocasionales entre partidas, y un anuncio opcional puede duplicar una vez el polvo estelar de una partida.",
+            "pt-BR": "Orbit Latch é um jogo espacial de um toque sobre tempo e impulso. Segure para se prender à âncora de gravidade destacada, gire ao redor dela e solte em direção ao próximo anel. Uma guia de tangente pontilhada mostra a trajetória. Se ficar preso por muito tempo, o cabo superaquece. São 36 setores criados em doze famílias: órbitas amplas, impulsos compactos, âncoras altas e baixas, saídas em semicírculo, corredores de asteroides, âncoras móveis, portais de mão única e finais com três âncoras. O voo sem fim mistura tudo em rotas variadas. Doze lições de quatro portais dão medalhas de bronze, prata e ouro. Passar pelo centro rende pontos extras, e o ouro exige quatro centros sem rupturas por calor. A poeira estelar compra oito estilos de cor da nave e rastro que nunca mudam a velocidade nem as habilidades. Um tutorial jogável e um treino sem custo ajudam a aprender. Dá para ajustar som, vibração, movimento reduzido e tamanho do texto dos menus. Offline, sem conta, em inglês, espanhol ou português do Brasil. Grátis com anúncios ocasionais entre partidas, e um anúncio opcional pode dobrar uma vez a poeira estelar de uma partida."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/orbitlatch",
+        "screenshots": [
+            "apps/shots/orbit-latch/01.jpg",
+            "apps/shots/orbit-latch/02.jpg",
+            "apps/shots/orbit-latch/03.jpg",
+            "apps/shots/orbit-latch/04.jpg"
+        ]
+    },
+    {
+        "id": "pack-the-van",
+        "slug": "pack-the-van",
+        "icon": "apps/pack-the-van.png",
+        "page": "apps/pack-the-van.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Pack the Van",
+            "ko": "팩 더 밴",
+            "ja": "パック・ザ・バン",
+            "es": "Pack the Van",
+            "pt-BR": "Pack the Van"
+        },
+        "tagline": {
+            "en": "The heist went fine. Now fit the loot in the van before the sirens arrive.",
+            "ko": "털이는 무사히 끝났습니다. 이제 사이렌이 오기 전에 전리품을 밴에 실으세요.",
+            "ja": "仕事はうまくいった。あとはサイレンが来る前に、戦利品をバンに積むだけ。",
+            "es": "El golpe salió bien. Ahora mete el botín en la furgoneta antes de que lleguen las sirenas.",
+            "pt-BR": "O golpe deu certo. Agora coloque o saque na van antes de as sirenes chegarem."
+        },
+        "desc": {
+            "en": "Pack the Van is a packing puzzle with a heist on the clock. The job went fine. Now everything on the rug has to fit in the back of the van before the sirens arrive, and some of it breaks if you stack the wrong thing on top. Tap a piece of loot to pick it, tap Rotate to turn it, and drag it into the van. A green ghost shows where it fits and a red one shows where it will not. Heavy things crush fragile things: a safe on a jewellery box is a very expensive mistake. Fill the van to the target value and shut the doors. There are 50 vans, from 8 pieces and 75 seconds up to 14 pieces and 45 seconds, and every van is built packed first and then emptied, so everything can always fit. Thirty kinds of loot, three stars per van, and a lock-up to fill with 40 trophies. Free with optional rewarded ads. No purchases, no account.",
+            "ko": "팩 더 밴은 시간에 쫓기는 털이 이야기를 담은 짐 싣기 퍼즐입니다. 작업은 무사히 끝났습니다. 이제 러그 위의 물건을 사이렌이 오기 전에 전부 밴 짐칸에 넣어야 하고, 잘못된 물건을 위에 쌓으면 깨지는 것도 있습니다. 전리품을 눌러 고르고, 회전 버튼으로 돌리고, 밴으로 끌어다 놓으세요. 초록색 그림자는 들어가는 자리, 빨간색은 안 들어가는 자리를 보여 줍니다. 무거운 물건은 깨지기 쉬운 물건을 짓누릅니다. 보석함 위에 금고를 올리는 건 아주 비싼 실수입니다. 목표 금액만큼 채우고 문을 닫으세요. 밴은 50대로, 물건 8개에 75초부터 물건 14개에 45초까지 있습니다. 모든 밴은 먼저 꽉 채운 상태로 만든 뒤 비워 냈기 때문에, 언제나 전부 실을 방법이 있습니다. 전리품 30종, 밴마다 별 세 개, 그리고 트로피 40개로 채울 은신처 창고가 있습니다. 선택형 보상형 광고가 있는 무료 게임입니다. 결제도 계정도 없습니다.",
+            "ja": "パック・ザ・バンは、時間に追われる強盗ものの荷積みパズル。仕事はうまくいった。あとはラグの上の品をサイレンが来る前に全部バンの荷台に収めるだけだが、上に載せるものを間違えると壊れる品もある。戦利品をタップして選び、回転ボタンで向きを変え、バンへドラッグする。緑の影は入る場所、赤の影は入らない場所。重いものは壊れものをつぶす。宝石箱の上に金庫を載せるのは、とても高くつくミスだ。目標額まで積んだらドアを閉める。バンは全50台、品物8個で75秒から、14個で45秒まで。どのバンも一度ぴったり積んだ状態から中身を出して作っているので、必ず全部積める。戦利品は30種、各バンに星3つ、トロフィー40個で埋める隠れ家の倉庫もある。任意のリワード広告付きの無料ゲーム。課金なし、アカウント不要。",
+            "es": "Pack the Van es un puzle de carga con un golpe contrarreloj. El trabajo salió bien. Ahora todo lo que hay en la alfombra tiene que caber en la parte de atrás de la furgoneta antes de que lleguen las sirenas, y algunas cosas se rompen si les pones encima lo que no debes. Toca una pieza del botín para elegirla, toca Girar para rotarla y arrástrala a la furgoneta. Una silueta verde muestra dónde cabe y una roja dónde no. Lo pesado aplasta lo frágil: una caja fuerte sobre un joyero es un error carísimo. Llena la furgoneta hasta el valor objetivo y cierra las puertas. Hay 50 furgonetas, de 8 piezas y 75 segundos hasta 14 piezas y 45 segundos, y cada una se construye primero llena y luego se vacía, así que siempre cabe todo. Treinta tipos de botín, tres estrellas por furgoneta y un almacén que llenar con 40 trofeos. Gratis con anuncios con recompensa opcionales. Sin compras, sin cuenta.",
+            "pt-BR": "Pack the Van é um quebra-cabeça de carga com um golpe contra o relógio. O trabalho deu certo. Agora tudo o que está no tapete precisa caber na traseira da van antes de as sirenes chegarem, e algumas coisas quebram se você empilhar a coisa errada por cima. Toque numa peça do saque para escolher, toque em Girar para virar e arraste para a van. Uma sombra verde mostra onde cabe e uma vermelha mostra onde não cabe. Coisas pesadas esmagam coisas frágeis: um cofre em cima de uma caixa de joias é um erro caríssimo. Encha a van até o valor da meta e feche as portas. São 50 vans, de 8 peças e 75 segundos até 14 peças e 45 segundos, e cada van é montada cheia primeiro e depois esvaziada, então sempre dá para colocar tudo. Trinta tipos de saque, três estrelas por van e um esconderijo para encher com 40 troféus. Grátis com anúncios com recompensa opcionais. Sem compras, sem conta."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/packthevan",
+        "screenshots": [
+            "apps/shots/pack-the-van/01.jpg",
+            "apps/shots/pack-the-van/02.jpg",
+            "apps/shots/pack-the-van/03.jpg",
+            "apps/shots/pack-the-van/04.jpg",
+            "apps/shots/pack-the-van/05.jpg"
+        ]
+    },
+    {
+        "id": "pocket-tide",
+        "slug": "pocket-tide",
+        "icon": "apps/pocket-tide.png",
+        "page": "apps/pocket-tide.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Pocket Tide",
+            "ko": "포켓 타이드",
+            "ja": "ポケットタイド",
+            "es": "Pocket Tide",
+            "pt-BR": "Pocket Tide"
+        },
+        "tagline": {
+            "en": "You do not steer the ship. You turn the tide, and the current carries it home.",
+            "ko": "배를 조종하지 않습니다. 물살을 뒤집으면, 해류가 배를 항구로 데려갑니다.",
+            "ja": "船は操らない。潮を変えれば、流れが船を港へ運ぶ。",
+            "es": "No diriges el barco. Cambias la marea, y la corriente lo lleva a puerto.",
+            "pt-BR": "Você não controla o leme. Muda a maré, e a corrente leva o barco ao porto."
+        },
+        "desc": {
+            "en": "You do not steer the ship in Pocket Tide. You turn the tide. One tap reverses every current on the chart, and your boat drifts along the arrows toward the next harbor. Read the arrows, watch the reefs, and hold the anchor to slow down when you need to, but the anchor reserve is limited. Enter the marked harbor slowly to make the delivery. Each delivery adds time, which gives you another crossing to plan. Your hull is your life bar. There are 36 challenges, and later charts add whirlpools and moving sandbars. Medals go bronze for a clear, silver for losing at most one life and gold for losing none. Practice lets you explore without earning anything or touching your records. Shells you collect unlock sail color styles that change only the look. Plays offline without an account, in English, Spanish and Brazilian Portuguese, with progress and personal records saved on your device. Free with occasional ads between runs and optional rewarded ads for extra shells.",
+            "ko": "포켓 타이드에서는 배를 조종하지 않습니다. 물살을 바꿉니다. 한 번 누르면 해도 위의 모든 해류가 반대로 바뀌고, 배는 화살표를 따라 다음 항구로 흘러갑니다. 화살표를 읽고, 암초를 살피고, 속도를 줄여야 할 때는 닻을 누르고 있으세요. 다만 닻은 쓸 수 있는 양이 정해져 있습니다. 표시된 항구에 천천히 들어가야 배달이 완료됩니다. 배달할 때마다 시간이 늘어나 다음 항해를 계획할 여유가 생깁니다. 선체가 곧 생명입니다. 도전은 36개이며, 뒤로 갈수록 소용돌이와 움직이는 모래톱이 더해집니다. 클리어하면 동메달, 목숨을 하나 이하로 잃으면 은메달, 하나도 잃지 않으면 금메달입니다. 연습 모드에서는 보상도 기록 변화도 없이 자유롭게 둘러볼 수 있습니다. 모은 조개껍데기로 돛 색상 스타일을 해금하며, 외형만 바뀝니다. 계정 없이 오프라인으로 플레이하며 영어, 스페인어, 브라질 포르투갈어를 지원하고, 진행 상황과 개인 기록은 기기에 저장됩니다. 무료이며 판 사이에 가끔 광고가 나오고, 조개껍데기를 더 주는 선택형 보상형 광고가 있습니다.",
+            "ja": "ポケットタイドでは、船は操らない。潮を変える。1回タップすると海図上のすべての潮流が逆向きになり、船は矢印に沿って次の港へ流れていく。矢印を読み、岩礁に気をつけ、減速したいときは錨を押し続ける。ただし錨の使える量には限りがある。印のついた港へゆっくり入れば配達完了。配達するたびに時間が増え、次の航路を考える余裕が生まれる。船体がライフだ。チャレンジは36個で、後半の海図には渦潮や動く砂州が加わる。クリアで銅、失ったライフが1つ以下なら銀、無傷なら金。練習では報酬も記録の変化もなく、自由に探索できる。集めた貝殻で帆のカラースタイルを解放でき、変わるのは見た目だけ。アカウント不要でオフラインで遊べ、英語、スペイン語、ブラジルポルトガル語に対応。進行と自己記録は端末に保存される。無料で、ランの合間にときどき広告が入り、貝殻が増える任意のリワード広告もある。",
+            "es": "En Pocket Tide no diriges el barco. Cambias la marea. Un toque invierte todas las corrientes de la carta, y tu barco deriva siguiendo las flechas hacia el siguiente puerto. Lee las flechas, vigila los arrecifes y mantén el ancla para frenar cuando lo necesites, aunque la reserva de ancla es limitada. Entra despacio en el puerto marcado para hacer la entrega. Cada entrega añade tiempo y te da otra travesía que planear. El casco es tu barra de vida. Hay 36 retos, y las cartas más avanzadas añaden remolinos y bancos de arena móviles. Las medallas son bronce por superarlo, plata si pierdes como mucho una vida y oro si no pierdes ninguna. La práctica te deja explorar sin ganar nada ni tocar tus récords. Las conchas que reúnes desbloquean colores de vela que solo cambian el aspecto. Juega sin conexión y sin cuenta, en inglés, español y portugués de Brasil, con el progreso y los récords guardados en tu dispositivo. Gratis con anuncios ocasionales entre partidas y anuncios con recompensa opcionales para conseguir más conchas.",
+            "pt-BR": "Em Pocket Tide você não controla o leme. Muda a maré. Um toque inverte todas as correntes da carta, e seu barco segue as setas em direção ao próximo porto. Leia as setas, observe os recifes e segure a âncora para desacelerar quando precisar, mas a reserva de âncora é limitada. Entre devagar no porto marcado para fazer a entrega. Cada entrega acrescenta tempo e dá outra travessia para planejar. O casco é sua barra de vida. São 36 desafios, e as cartas mais avançadas trazem redemoinhos e bancos de areia que se movem. As medalhas são bronze por concluir, prata se perder no máximo uma vida e ouro se não perder nenhuma. O treino deixa você explorar sem ganhar nada nem mexer nos seus recordes. As conchas que você junta desbloqueiam cores de vela que só mudam a aparência. Jogue offline e sem conta, em inglês, espanhol e português do Brasil, com o progresso e os recordes salvos no dispositivo. Grátis com anúncios ocasionais entre partidas e anúncios com recompensa opcionais para ganhar mais conchas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/pockettide",
+        "screenshots": [
+            "apps/shots/pocket-tide/01.jpg",
+            "apps/shots/pocket-tide/02.jpg",
+            "apps/shots/pocket-tide/03.jpg",
+            "apps/shots/pocket-tide/04.jpg"
+        ]
+    },
+    {
+        "id": "quadline-trials",
+        "slug": "quadline-trials",
+        "icon": "apps/quadline-trials.png",
+        "page": "apps/quadline-trials.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Quadline Trials",
+            "ko": "쿼드라인 트라이얼",
+            "ja": "クワッドライン・トライアル",
+            "es": "Quadline Trials",
+            "pt-BR": "Quadline Trials"
+        },
+        "tagline": {
+            "en": "Throttle, brake, lean. Keep a quad on four wheels over 30 tracks and race your own ghost.",
+            "ko": "가속, 브레이크, 기울이기. 30개 트랙에서 쿼드를 네 바퀴로 지키고 내 고스트와 겨루세요.",
+            "ja": "アクセル、ブレーキ、体重移動。30コースで四輪を地につけ、自分のゴーストと競え。",
+            "es": "Acelera, frena, inclínate. Mantén el quad sobre cuatro ruedas en 30 pistas y vence a tu fantasma.",
+            "pt-BR": "Acelere, freie, incline. Mantenha o quadriciclo nas quatro rodas em 30 pistas e vença seu fantasma."
+        },
+        "desc": {
+            "en": "Quadline Trials puts short 3D quad-bike courses on your phone with direct throttle, brake and lean controls. Hold throttle with one finger and lean with another. Raise the nose before a climb, lower it for a landing, or brake to get control back. Held buttons light up, checkpoint flags change color, and a progress strip keeps the finish in view. There are thirty terrain layouts across six landscape palettes, from the quarry run to the coastal ridge. Each attempt gets three minutes, a crash ends it, and cleaner, faster finishes score more. Earn campaign medals, ride any track in open practice, or come back for the dated daily challenge. Your fastest clean finish saves a local ghost to race next time. Tokens unlock quad color tints that change looks, not performance. Offline, no account, in English, Spanish or Brazilian Portuguese. Free with ads at attempt breaks. An optional video can restore your last checkpoint, but that run is marked assisted and earns no records.",
+            "ko": "쿼드라인 트라이얼은 짧은 3D 쿼드바이크 코스를 휴대폰으로 옮긴 게임으로, 가속, 브레이크, 기울이기를 직접 조작합니다. 한 손가락으로 가속을 누르고 다른 손가락으로 몸을 기울이세요. 오르막 전에는 앞을 들고, 착지할 때는 내리고, 균형을 잃으면 브레이크로 되찾습니다. 누른 버튼은 불이 들어오고, 체크포인트 깃발은 색이 바뀌며, 진행 막대가 결승선까지 남은 거리를 보여 줍니다. 채석장 코스부터 해안 능선까지 여섯 가지 풍경에 걸쳐 서른 개의 지형 레이아웃이 있습니다. 시도마다 3분이 주어지고, 넘어지면 끝나며, 깔끔하고 빠르게 들어올수록 점수가 높습니다. 캠페인 메달을 따고, 오픈 연습에서 아무 트랙이나 달리고, 날짜별 데일리 챌린지에도 도전하세요. 가장 빠른 무사고 기록은 로컬 고스트로 저장되어 다음 시도에서 함께 달립니다. 토큰으로 쿼드 색상을 해금할 수 있지만 성능이 아닌 외형만 바뀝니다. 오프라인, 계정 없음, 영어, 스페인어, 브라질 포르투갈어 지원. 무료이며 시도 사이에 광고가 나옵니다. 선택형 영상으로 마지막 체크포인트에서 다시 시작할 수 있지만, 그 주행은 보조로 표시되어 기록이 남지 않습니다.",
+            "ja": "クワッドライン・トライアルは、短い3Dのクワッドバイクコースをスマホで走るゲーム。アクセル、ブレーキ、体重移動を直接操作する。1本の指でアクセルを押し、もう1本で体を傾ける。登りの前にはフロントを上げ、着地では下げ、乱れたらブレーキで立て直す。押しているボタンは光り、チェックポイントの旗は色が変わり、進行バーがゴールまでを示す。石切り場のコースから海沿いの尾根まで、6つの風景に30のコースレイアウト。1回の挑戦は3分で、転倒すれば終了。きれいに速くゴールするほど高得点。キャンペーンでメダルを集め、オープン練習で好きなコースを走り、日付ごとのデイリーチャレンジにも挑める。最速の無転倒タイムはローカルのゴーストとして保存され、次の挑戦で一緒に走る。トークンでクワッドのカラーを解放できるが、変わるのは見た目だけで性能は同じ。オフライン、アカウント不要、英語、スペイン語、ブラジルポルトガル語に対応。無料で、挑戦の合間に広告が入る。任意の動画で最後のチェックポイントから再開できるが、その走りはアシスト扱いになり記録は残らない。",
+            "es": "Quadline Trials lleva pistas cortas de quad en 3D a tu móvil, con controles directos para acelerar, frenar e inclinarte. Mantén el acelerador con un dedo e inclínate con otro. Levanta el morro antes de una subida, bájalo para aterrizar o frena para recuperar el control. Los botones pulsados se iluminan, las banderas de control cambian de color y una barra de progreso señala la meta. Hay treinta trazados con seis ambientes, de la cantera a la cresta costera. Cada intento tiene tres minutos, una caída lo termina, y las llegadas más limpias y rápidas puntúan más. Consigue medallas en el circuito, recorre cualquier pista en la práctica libre o vuelve para el desafío diario con fecha. Tu mejor llegada sin caídas guarda un fantasma local para la próxima vez. Las fichas desbloquean tonos para el quad que cambian el aspecto, no el rendimiento. Sin conexión, sin cuenta, en inglés, español o portugués de Brasil. Gratis con anuncios entre intentos. Un vídeo opcional te devuelve al último punto de control, pero ese intento queda como asistido y no da récords.",
+            "pt-BR": "Quadline Trials traz pistas curtas de quadriciclo em 3D para o seu celular, com controles diretos de aceleração, freio e inclinação. Segure o acelerador com um dedo e incline com outro. Levante a frente antes de uma subida, abaixe para pousar ou freie para retomar o controle. Os botões pressionados se iluminam, as bandeiras dos pontos de controle mudam de cor e uma barra de progresso mostra a chegada. São trinta traçados com seis ambientes, da pedreira à serra litorânea. Cada tentativa tem três minutos, uma queda encerra, e chegadas mais limpas e rápidas pontuam mais. Conquiste medalhas na campanha, pilote qualquer pista no treino livre ou volte para o desafio diário com data. Sua melhor chegada sem quedas salva um fantasma local para a próxima vez. As fichas desbloqueiam tonalidades para o quadriciclo que mudam a aparência, não o desempenho. Offline, sem conta, em inglês, espanhol ou português do Brasil. Grátis com anúncios entre tentativas. Um vídeo opcional devolve você ao último ponto de controle, mas essa tentativa fica marcada como assistida e não gera recordes."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/quadlinetrials",
+        "screenshots": [
+            "apps/shots/quadline-trials/01.jpg",
+            "apps/shots/quadline-trials/02.jpg",
+            "apps/shots/quadline-trials/03.jpg",
+            "apps/shots/quadline-trials/04.jpg"
+        ]
+    },
+    {
+        "id": "reefkeeper",
+        "slug": "reefkeeper",
+        "icon": "apps/reefkeeper.png",
+        "page": "apps/reefkeeper.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Reefkeeper",
+            "ko": "리프키퍼",
+            "ja": "リーフキーパー",
+            "es": "Reefkeeper",
+            "pt-BR": "Reefkeeper"
+        },
+        "tagline": {
+            "en": "Build an aquarium habitat by habitat. Keep the water right and the visitors coming.",
+            "ko": "수조 하나하나로 아쿠아리움을 꾸미세요. 수질은 맞추고, 관람객은 꾸준히.",
+            "ja": "水槽ごとに水族館を作る。水質を整え、来館者を呼び続けよう。",
+            "es": "Construye un acuario hábitat a hábitat. Agua en su punto y visitantes que no paran.",
+            "pt-BR": "Monte um aquário habitat por habitat. Água no ponto e visitantes chegando."
+        },
+        "desc": {
+            "en": "Reefkeeper is an aquarium management sim about aquatic conservation. You place habitats and the support facilities they need, then run the site one day at a time and watch what your choices do to the ecosystem. Habitats hold seven aquatic species groups, and each group has its own climate target. Inspect a habitat to see its residents and their needs, then balance water quality, oxygen, temperature, feeding and resident health. Develop exhibits, decorations and research facilities so visitors have something to discover, and use the management map to oversee coastal and offshore reserves. Progress runs through five areas, from the Discovery Wing to the Conservation Center, with 60 conservation contracts in all and a four-part tutorial at the start. Plan at your own pace, pause when you need to think, and change the simulation speed as the operation grows. Three save slots let you try different approaches. Core play works offline. English, Spanish and Brazilian Portuguese. Free with optional rewarded ads and ads at breaks between days.",
+            "ko": "리프키퍼는 수중 생태 보전을 주제로 한 아쿠아리움 경영 시뮬레이션입니다. 수조와 그에 필요한 지원 시설을 배치한 뒤, 하루 단위로 운영하며 내 선택이 생태계를 어떻게 바꾸는지 지켜봅니다. 수조에는 일곱 가지 수생 종 그룹이 살고, 그룹마다 맞춰야 할 환경 목표가 다릅니다. 수조를 살펴 거주 생물과 그 요구를 확인하고, 수질, 산소, 수온, 먹이, 건강을 균형 있게 관리하세요. 관람객이 볼거리를 찾을 수 있도록 전시, 장식, 연구 시설을 갖추고, 관리 지도에서 연안과 외해의 보호 구역도 살핍니다. 디스커버리 윙부터 보전 센터까지 다섯 구역에 걸쳐 보전 계약 60개가 있고, 처음에는 네 단계 튜토리얼이 안내합니다. 원하는 속도로 계획하고, 생각할 시간이 필요하면 일시 정지하고, 운영이 커지면 시뮬레이션 속도를 바꾸세요. 저장 슬롯 세 개로 여러 방식을 시험할 수 있습니다. 기본 플레이는 오프라인으로 가능합니다. 영어, 스페인어, 브라질 포르투갈어 지원. 무료이며 선택형 보상형 광고와 하루 사이의 광고가 있습니다.",
+            "ja": "リーフキーパーは、水生生物の保全をテーマにした水族館経営シミュレーション。水槽と、それに必要な支援施設を配置し、1日ずつ運営しながら、自分の選択が生態系をどう変えるかを見ていく。水槽には7つの水生生物グループが暮らし、グループごとに整えるべき環境の目標がある。水槽を調べて住人とその要求を確かめ、水質、酸素、水温、給餌、健康のバランスを取ろう。来館者が発見を楽しめるよう展示、装飾、研究施設を整え、管理マップで沿岸と沖合の保護区も見渡す。ディスカバリーウイングから保全センターまで5つのエリアに、全60の保全契約。最初は4段階のチュートリアルが案内してくれる。自分のペースで計画し、考えたいときは一時停止し、運営が大きくなればシミュレーション速度も変えられる。セーブスロット3つで、いろいろなやり方を試せる。基本プレイはオフラインで遊べる。英語、スペイン語、ブラジルポルトガル語に対応。無料で、任意のリワード広告と、1日の区切りに入る広告がある。",
+            "es": "Reefkeeper es un simulador de gestión de acuarios centrado en la conservación acuática. Colocas hábitats y las instalaciones que necesitan, y luego diriges el lugar día a día para ver qué hacen tus decisiones con el ecosistema. Los hábitats acogen siete grupos de especies acuáticas, y cada grupo tiene su propio objetivo de clima. Inspecciona un hábitat para ver a sus residentes y lo que necesitan, y equilibra calidad del agua, oxígeno, temperatura, alimentación y salud. Desarrolla exhibiciones, decoraciones e instalaciones de investigación para que los visitantes tengan algo que descubrir, y usa el mapa de gestión para supervisar reservas costeras y marinas. El avance recorre cinco zonas, del Ala de Descubrimiento al Centro de Conservación, con 60 contratos de conservación en total y un tutorial de cuatro partes al empezar. Planifica a tu ritmo, pausa cuando necesites pensar y ajusta la velocidad de la simulación a medida que creces. Tres espacios de guardado te dejan probar estrategias distintas. El juego principal funciona sin conexión. En inglés, español y portugués de Brasil. Gratis con anuncios recompensados opcionales y anuncios en las pausas entre días.",
+            "pt-BR": "Reefkeeper é um simulador de gestão de aquário focado em conservação aquática. Você posiciona habitats e as instalações de apoio de que eles precisam, depois administra o lugar dia a dia e vê o que suas escolhas fazem com o ecossistema. Os habitats abrigam sete grupos de espécies aquáticas, e cada grupo tem sua própria meta de clima. Inspecione um habitat para ver os moradores e suas necessidades, e equilibre qualidade da água, oxigênio, temperatura, alimentação e saúde. Desenvolva exposições, decorações e instalações de pesquisa para os visitantes terem o que descobrir, e use o mapa de gestão para supervisionar reservas costeiras e marinhas. O progresso passa por cinco áreas, da Ala da Descoberta ao Centro de Conservação, com 60 contratos de conservação no total e um tutorial em quatro partes no começo. Planeje no seu ritmo, pause quando precisar pensar e ajuste a velocidade da simulação conforme a operação cresce. Três espaços de salvamento permitem testar estratégias diferentes. O jogo principal funciona offline. Em inglês, espanhol e português do Brasil. Grátis com anúncios recompensados opcionais e anúncios nas pausas entre os dias."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/reefkeeper",
+        "screenshots": [
+            "apps/shots/reefkeeper/01.jpg",
+            "apps/shots/reefkeeper/02.jpg",
+            "apps/shots/reefkeeper/03.jpg"
+        ]
+    },
+    {
+        "id": "rooftop-rim",
+        "slug": "rooftop-rim",
+        "icon": "apps/rooftop-rim.png",
+        "page": "apps/rooftop-rim.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Rooftop Rim",
+            "ko": "루프탑 림",
+            "ja": "ルーフトップ・リム",
+            "es": "Rooftop Rim",
+            "pt-BR": "Rooftop Rim"
+        },
+        "tagline": {
+            "en": "Five-ball racks, bank shots and moving hoops on 40 courts above the city.",
+            "ko": "공 다섯 개, 뱅크슛, 움직이는 골대. 도시 위 40개 코트에서 슛을 던지세요.",
+            "ja": "ボール5球、バンクショット、動くゴール。街の上の40コートでシュート。",
+            "es": "Rondas de cinco balones, tiros a tablero y canastas móviles en 40 canchas sobre la ciudad.",
+            "pt-BR": "Rodadas de cinco bolas, arremessos na tabela e cestas móveis em 40 quadras no alto da cidade."
+        },
+        "desc": {
+            "en": "Rooftop Rim is a basketball shooting game set on rooftops above a warm-lit city. Every attempt gives you a rack of five balls. Drag down to set power, aim sideways and release. The power meter and the dots at the start of your arc show where the shot is heading. Score a clean swish or bank it off the backboard, and keep a streak going for bonus points. There are 40 short court challenges, and they ask you to adapt to new shooting positions, longer distances and hoops that move. Bronze, silver and gold medals mark your best runs, and a shot-by-shot scorecard shows every result. Try any court in practice, work through the campaign, or play the daily rack. Tokens from play unlock ball colors. Practice and assisted scores stay separate from campaign medals and personal records. No account, and progress is saved on your device. English, Spanish and Brazilian Portuguese. Free with ads at session breaks, plus an optional video for a three-ball practice rack.",
+            "ko": "루프탑 림은 따뜻한 불빛의 도시 위 옥상에서 즐기는 농구 슛 게임입니다. 시도마다 공 다섯 개가 주어집니다. 아래로 끌어 힘을 정하고, 좌우로 조준한 뒤 놓으세요. 파워 게이지와 궤적 시작 부분의 점들이 공이 향할 곳을 보여 줍니다. 림에 닿지 않는 깔끔한 슛을 넣거나 백보드를 맞혀 넣고, 연속 성공으로 보너스 점수를 쌓으세요. 짧은 코트 도전 40개가 있으며, 새로운 슛 위치, 더 먼 거리, 움직이는 골대에 적응해야 합니다. 동, 은, 금메달이 최고 기록을 표시하고, 슛 하나하나의 결과가 점수표에 남습니다. 연습에서 아무 코트나 던져 보거나, 캠페인을 진행하거나, 데일리 랙에 도전하세요. 플레이로 얻은 토큰으로 공 색상을 해금합니다. 연습과 보조 점수는 캠페인 메달, 개인 기록과 따로 관리됩니다. 계정이 필요 없고, 진행 상황은 기기에 저장됩니다. 영어, 스페인어, 브라질 포르투갈어 지원. 무료이며 세션 사이에 광고가 나오고, 선택형 영상으로 연습용 공 세 개를 받을 수 있습니다.",
+            "ja": "ルーフトップ・リムは、温かな灯りの街を見下ろす屋上で遊ぶバスケットボールのシュートゲーム。1回の挑戦ごとにボールが5球。下にドラッグして強さを決め、左右に狙いをつけて離す。パワーメーターと軌道の始まりに並ぶ点が、ボールの行き先を教えてくれる。リングに触れないスウィッシュを決めるか、バックボードに当てて入れ、連続成功でボーナス点を重ねよう。短いコートチャレンジは40個。新しいシュート位置、より遠い距離、動くゴールへの対応が求められる。銅、銀、金メダルがベストを記録し、1本ごとの結果がスコアカードに残る。練習で好きなコートを試すも、キャンペーンを進めるも、デイリーラックに挑むも自由。プレイで得たトークンでボールの色を解放できる。練習とアシストのスコアは、キャンペーンのメダルや自己記録とは別に扱われる。アカウント不要、進行は端末に保存される。英語、スペイン語、ブラジルポルトガル語に対応。無料で、セッションの区切りに広告が入り、任意の動画で練習用の3球をもらえる。",
+            "es": "Rooftop Rim es un juego de tiros de baloncesto en azoteas sobre una ciudad de luces cálidas. Cada intento te da una ronda de cinco balones. Arrastra hacia abajo para ajustar la fuerza, apunta a los lados y suelta. El medidor de fuerza y los puntos al inicio de la trayectoria muestran adónde va el tiro. Encesta limpio o aprovecha el tablero, y encadena canastas para sumar puntos extra. Hay 40 desafíos cortos en canchas que te piden adaptarte a nuevas posiciones, distancias más largas y canastas que se mueven. Las medallas de bronce, plata y oro marcan tus mejores rondas, y el marcador muestra cada tiro. Prueba cualquier cancha en práctica, avanza por el circuito o juega la ronda diaria. Las fichas que ganas desbloquean colores de balón. La práctica y las rondas asistidas van aparte de las medallas y los récords. Sin cuenta, y el progreso se guarda en tu dispositivo. En inglés, español y portugués de Brasil. Gratis con anuncios entre sesiones, más un video opcional para una ronda de práctica de tres balones.",
+            "pt-BR": "Rooftop Rim é um jogo de arremessos de basquete em coberturas no alto de uma cidade iluminada. Cada tentativa dá a você uma rodada de cinco bolas. Arraste para baixo para ajustar a força, mire para os lados e solte. O medidor de força e os pontos no início da trajetória mostram para onde vai o arremesso. Faça uma cesta limpa ou use a tabela, e acerte em sequência para ganhar pontos extras. São 40 desafios rápidos em quadras que pedem adaptação a novas posições, distâncias maiores e cestas que se mexem. Medalhas de bronze, prata e ouro marcam suas melhores rodadas, e o placar mostra cada arremesso. Experimente qualquer quadra no treino, avance pela campanha ou jogue a rodada diária. As fichas que você ganha desbloqueiam cores de bola. Treino e rodadas assistidas ficam separados das medalhas e recordes. Sem conta, e o progresso fica salvo no dispositivo. Em inglês, espanhol e português do Brasil. Grátis com anúncios entre as sessões, mais um vídeo opcional para uma rodada de treino com três bolas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/rooftoprim",
+        "screenshots": [
+            "apps/shots/rooftop-rim/01.jpg",
+            "apps/shots/rooftop-rim/02.jpg",
+            "apps/shots/rooftop-rim/03.jpg",
+            "apps/shots/rooftop-rim/04.jpg"
+        ]
+    },
+    {
+        "id": "slalom-postcards",
+        "slug": "slalom-postcards",
+        "icon": "apps/slalom-postcards.png",
+        "page": "apps/slalom-postcards.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Slalom Postcards",
+            "ko": "슬랄롬 포스트카드",
+            "ja": "スラローム・ポストカード",
+            "es": "Slalom Postcards",
+            "pt-BR": "Slalom Postcards"
+        },
+        "tagline": {
+            "en": "Ski 24 snowy slopes, skim the gold edge of each gate, stamp your mountain postcards.",
+            "ko": "눈 덮인 24개 슬로프를 내려가며 게이트의 금빛 가장자리를 스치고, 산 엽서에 도장을 찍으세요.",
+            "ja": "雪の24コースを滑り、旗門の金の縁をかすめ、山の絵はがきにスタンプを集めよう。",
+            "es": "Esquía 24 pistas nevadas, roza el borde dorado de cada puerta y sella tus postales de montaña.",
+            "pt-BR": "Esquie em 24 pistas nevadas, passe rente à borda dourada das portas e carimbe seus cartões."
+        },
+        "desc": {
+            "en": "Slalom Postcards is a portrait skiing game about finding your rhythm in a tiny winter world. Drag sideways or hold the left and right buttons to steer. Pass between numbered gates to build flow, and skim the gold edge for a 40-point precision bonus. Clear the required number of gates and reach the checkered finish. Three collisions end the run. There are 24 slopes across four mountain routes, Crystal Pass, Blue Summit, Sunset Ridge and Pine Valley, with 18 to 24 gates each. Watch for trees, rocks, stumps and fallen logs. Ice slows your steering, and snow bumps cut your speed. Campaign medals add stamps to four illustrated postcards and unlock the next slope. You can also try all 24 courses in open practice, return for a dated daily challenge, or link descents in endless mode. Tokens unlock skier color tints that do not change performance. Offline, no account, in English, Spanish and Brazilian Portuguese. Free with ads at session breaks and an optional video that doubles a result's tokens.",
+            "ko": "슬랄롬 포스트카드는 작은 겨울 세계에서 리듬을 찾아가는 세로 화면 스키 게임입니다. 좌우로 드래그하거나 왼쪽, 오른쪽 버튼을 눌러 방향을 잡으세요. 번호가 붙은 게이트 사이를 지나며 흐름을 이어 가고, 금빛 가장자리를 스치면 정밀 보너스 40점을 받습니다. 필요한 수만큼 게이트를 통과하고 체크무늬 결승선에 도착하세요. 세 번 부딪히면 끝납니다. 크리스털 패스, 블루 서밋, 선셋 리지, 파인 밸리 네 개의 산악 루트에 슬로프 24개가 있고, 슬로프마다 게이트가 18개에서 24개입니다. 나무, 바위, 그루터기, 쓰러진 통나무를 조심하세요. 빙판에서는 방향 전환이 느려지고, 눈 둔덕은 속도를 줄입니다. 캠페인 메달은 일러스트 엽서 네 장에 도장을 찍고 다음 슬로프를 엽니다. 오픈 연습에서 24개 코스를 모두 달려 보거나, 날짜별 데일리 챌린지에 다시 도전하거나, 엔드리스 모드로 하강을 이어 갈 수도 있습니다. 토큰으로 스키어 색상을 해금하며 성능은 바뀌지 않습니다. 오프라인, 계정 없음, 영어, 스페인어, 브라질 포르투갈어 지원. 무료이며 세션 사이에 광고가 나오고, 결과의 토큰을 두 배로 받는 선택형 영상이 있습니다.",
+            "ja": "スラローム・ポストカードは、小さな冬の世界でリズムをつかむ縦画面のスキーゲーム。左右にドラッグするか、左右のボタンを押して操作する。番号つきの旗門の間を抜けて流れをつなぎ、金の縁をかすめれば精密ボーナス40点。必要な数の旗門を通過して、チェッカーフラッグのゴールへ。3回ぶつかると終了。クリスタルパス、ブルーサミット、サンセットリッジ、パインバレーの4つの山ルートに24コース、各コースの旗門は18から24。木、岩、切り株、倒木に注意。氷の上では曲がりが鈍くなり、雪のこぶでは速度が落ちる。キャンペーンのメダルは4枚のイラスト絵はがきにスタンプを押し、次のコースを開く。オープン練習で全24コースを試すことも、日付ごとのデイリーチャレンジに戻ることも、エンドレスモードで滑走をつなぐこともできる。トークンでスキーヤーのカラーを解放できるが、性能は変わらない。オフライン、アカウント不要、英語、スペイン語、ブラジルポルトガル語に対応。無料で、セッションの区切りに広告が入り、結果のトークンを2倍にする任意の動画もある。",
+            "es": "Slalom Postcards es un juego de esquí en vertical para encontrar tu ritmo en un pequeño mundo invernal. Arrastra a los lados o mantén los botones de izquierda y derecha para girar. Pasa entre las puertas numeradas para mantener la racha, y roza el borde dorado para ganar 40 puntos de precisión. Supera las puertas necesarias y llega a la meta de cuadros. Tres choques terminan el intento. Hay 24 pistas en cuatro rutas de montaña, Paso de Cristal, Cumbre Azul, Cresta del Ocaso y Valle de los Pinos, con entre 18 y 24 puertas cada una. Ojo con árboles, rocas, tocones y troncos caídos. El hielo hace que gires más despacio y los baches reducen la velocidad. Las medallas del circuito añaden sellos a cuatro postales ilustradas y desbloquean la siguiente pista. También puedes probar las 24 pistas en la práctica libre, volver para un desafío diario con fecha o encadenar bajadas en el modo sin fin. Las fichas desbloquean tonos del esquiador que no cambian su rendimiento. Sin conexión, sin cuenta, en inglés, español y portugués de Brasil. Gratis con anuncios entre sesiones y un vídeo opcional que duplica las fichas de un resultado.",
+            "pt-BR": "Slalom Postcards é um jogo de esqui na vertical para encontrar seu ritmo num pequeno mundo de inverno. Arraste para os lados ou segure os botões de esquerda e direita para virar. Passe entre as portas numeradas para manter a sequência, e passe rente à borda dourada para ganhar 40 pontos de precisão. Passe pelas portas necessárias e chegue à linha quadriculada. Três batidas encerram a descida. São 24 pistas em quatro rotas de montanha, Passo de Cristal, Pico Azul, Serra do Poente e Vale dos Pinheiros, com 18 a 24 portas cada. Cuidado com árvores, pedras, tocos e troncos caídos. O gelo deixa as curvas mais lentas, e as ondulações da neve reduzem a velocidade. As medalhas da campanha carimbam quatro cartões ilustrados e liberam a próxima pista. Você também pode experimentar as 24 pistas no treino livre, voltar para um desafio diário com data ou emendar descidas no modo infinito. As fichas desbloqueiam tonalidades do esquiador que não mudam o desempenho. Offline, sem conta, em inglês, espanhol e português do Brasil. Grátis com anúncios entre as sessões e um vídeo opcional que dobra as fichas de um resultado."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/slalompostcards",
+        "screenshots": [
+            "apps/shots/slalom-postcards/01.jpg",
+            "apps/shots/slalom-postcards/02.jpg",
+            "apps/shots/slalom-postcards/03.jpg",
+            "apps/shots/slalom-postcards/04.jpg"
+        ]
+    },
+    {
+        "id": "sticky-fingers",
+        "slug": "sticky-fingers",
+        "icon": "apps/sticky-fingers.png",
+        "page": "apps/sticky-fingers.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Sticky Fingers",
+            "ko": "스티키 핑거스",
+            "ja": "スティッキー・フィンガーズ",
+            "es": "Sticky Fingers",
+            "pt-BR": "Sticky Fingers"
+        },
+        "tagline": {
+            "en": "A pickpocket game in a busy market. Lift wallets while nobody is looking.",
+            "ko": "붐비는 시장의 소매치기 게임. 아무도 보지 않을 때 지갑을 슬쩍하세요.",
+            "ja": "にぎわう市場のスリゲーム。誰も見ていない隙に財布をいただこう。",
+            "es": "Un juego de carterista en un mercado lleno. Roba carteras mientras nadie mira.",
+            "pt-BR": "Um jogo de batedor de carteira numa feira cheia. Pegue carteiras sem ninguém ver."
+        },
+        "desc": {
+            "en": "Sticky Fingers is a pickpocket game set in a busy market square. A crowd drifts between the stalls, every person has a wallet, and every person has eyes. Drag to walk through the plaza. Stand next to someone and hold on them for half a second to lift their wallet. If any yellow sight cone falls on you while you hold, you are spotted and the lift fails. Nobody gets hurt: three spots and the round is over. Each round lasts one minute. Every day has a mark, a grey-haired gent with a gold ring around his feet and $90 in his wallet. The crowd grows every round, up to 22 people. From round 6 a bodyguard shadows the mark, and from round 12 a rival thief works the same crowd. Earn three stars per round by surviving, lifting the mark and never getting spotted. The old man's attic fills with 40 pieces of street-market furniture. One thumb. Free with optional rewarded ads. No purchases, no account.",
+            "ko": "스티키 핑거스는 붐비는 시장 광장이 배경인 소매치기 게임입니다. 사람들이 노점 사이를 오가고, 모두 지갑을 가지고 있고, 모두 눈이 있습니다. 드래그해서 광장을 걸어 다니세요. 누군가의 옆에 서서 0.5초 동안 누르고 있으면 지갑을 빼냅니다. 누르는 동안 노란 시야 원뿔이 하나라도 닿으면 들키고 실패합니다. 아무도 다치지 않습니다. 세 번 들키면 라운드가 끝납니다. 라운드는 1분입니다. 매일 표적이 한 명 있는데, 발밑에 금색 고리가 있는 백발 신사이고 지갑에는 90달러가 들어 있습니다. 군중은 라운드마다 늘어나 최대 22명까지 됩니다. 6라운드부터는 경호원이 표적을 따라다니고, 12라운드부터는 라이벌 도둑이 같은 군중을 노립니다. 살아남기, 표적 털기, 한 번도 들키지 않기로 라운드마다 별 세 개를 받습니다. 노인의 다락방은 길거리 시장 가구 40점으로 채워집니다. 엄지 하나면 됩니다. 선택형 보상형 광고가 있는 무료 게임입니다. 결제도 계정도 없습니다.",
+            "ja": "スティッキー・フィンガーズは、にぎわう市場の広場を舞台にしたスリゲーム。人々が屋台の間を行き交い、誰もが財布を持ち、誰もが目を持っている。ドラッグで広場を歩く。誰かの隣に立って0.5秒押し続ければ財布をいただける。押している間に黄色い視界の円錐がひとつでもかかれば見つかって失敗。誰も傷つかない。3回見つかったらラウンド終了。1ラウンドは1分。毎日ひとり標的がいて、足元に金の輪がある白髪の紳士、財布には90ドル。群衆はラウンドごとに増え、最大22人。ラウンド6からはボディガードが標的に付き添い、ラウンド12からはライバルのスリが同じ人混みを狙う。生き残る、標的から盗む、一度も見つからない、でラウンドごとに星3つ。老人の屋根裏部屋は、露店の家具40点で埋まっていく。親指1本で遊べる。任意のリワード広告付きの無料ゲーム。課金なし、アカウント不要。",
+            "es": "Sticky Fingers es un juego de carterista en una plaza de mercado llena de gente. La multitud pasea entre los puestos, cada persona lleva una cartera y cada persona tiene ojos. Arrastra para caminar por la plaza. Ponte al lado de alguien y mantén pulsado medio segundo para quitarle la cartera. Si algún cono de visión amarillo cae sobre ti mientras mantienes, te descubren y el robo falla. Nadie sale herido: tres veces descubierto y la ronda termina. Cada ronda dura un minuto. Cada día hay un objetivo, un caballero canoso con un anillo dorado a sus pies y $90 en la cartera. La multitud crece cada ronda, hasta 22 personas. Desde la ronda 6 un guardaespaldas sigue al objetivo, y desde la 12 un ladrón rival trabaja la misma multitud. Gana tres estrellas por ronda si sobrevives, robas al objetivo y nunca te descubren. El desván del anciano se llena con 40 muebles de mercadillo. Un solo pulgar. Gratis con anuncios con recompensa opcionales. Sin compras, sin cuenta.",
+            "pt-BR": "Sticky Fingers é um jogo de batedor de carteira numa praça de feira movimentada. A multidão passeia entre as barracas, cada pessoa tem uma carteira e cada pessoa tem olhos. Arraste para andar pela praça. Fique ao lado de alguém e segure por meio segundo para pegar a carteira. Se algum cone de visão amarelo cair sobre você enquanto segura, você é visto e o furto falha. Ninguém se machuca: três flagras e a rodada acaba. Cada rodada dura um minuto. Todo dia há um alvo, um senhor grisalho com um anel dourado aos pés e $90 na carteira. A multidão cresce a cada rodada, até 22 pessoas. A partir da rodada 6 um guarda-costas segue o alvo, e a partir da 12 um ladrão rival trabalha na mesma multidão. Ganhe três estrelas por rodada sobrevivendo, pegando o alvo e nunca sendo visto. O sótão do velho se enche com 40 móveis de feira. Um polegar só. Grátis com anúncios com recompensa opcionais. Sem compras, sem conta."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/stickyfingers",
+        "screenshots": [
+            "apps/shots/sticky-fingers/01.jpg",
+            "apps/shots/sticky-fingers/02.jpg",
+            "apps/shots/sticky-fingers/03.jpg",
+            "apps/shots/sticky-fingers/04.jpg",
+            "apps/shots/sticky-fingers/05.jpg"
+        ]
+    },
+    {
+        "id": "sunset-sideout",
+        "slug": "sunset-sideout",
+        "icon": "apps/sunset-sideout.png",
+        "page": "apps/sunset-sideout.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Sunset Sideout",
+            "ko": "선셋 사이드아웃",
+            "ja": "サンセット・サイドアウト",
+            "es": "Sunset Sideout",
+            "pt-BR": "Sunset Sideout"
+        },
+        "tagline": {
+            "en": "Time the receive, pick the set, swipe the spike. Beach volleyball against 12 pairs.",
+            "ko": "리시브 타이밍을 맞추고, 토스를 고르고, 스와이프로 스파이크. 12개 팀과 붙는 비치발리볼.",
+            "ja": "レシーブのタイミング、トスの選択、スワイプでスパイク。12ペアと戦うビーチバレー。",
+            "es": "Recibe a tiempo, elige el pase y desliza el remate. Vóley playa arcade contra 12 parejas.",
+            "pt-BR": "Receba no tempo, escolha o levantamento e deslize a cortada. Vôlei de praia contra 12 duplas."
+        },
+        "desc": {
+            "en": "Sunset Sideout turns beach volleyball into quick arcade matches you can read at a glance. Your players handle their own footwork. Tap Receive when the timing marker reaches its colored window, choose a high or low set, then swipe toward an opening on the other side. A hard spike travels fast, and a soft tip drops shorter. Your partner makes the middle touch automatically. The tour has twelve pairs across Coral Shore, Golden Pier, Twilight Bay and Palm Cove, with four defensive styles: balanced defenders, net guards, deep coverage and quicker feet. Defenders run to your landing point and return what they can reach. Hit the net or miss a receive and the point goes the other way. First to seven wins, with a four-minute limit per match. Medals move you up the tour, open practice lets you face any pair, and a dated daily opponent gives you another score to chase. Single player against the computer. Offline, no account. Free with ads.",
+            "ko": "선셋 사이드아웃은 비치발리볼을 한눈에 읽히는 빠른 아케이드 경기로 바꿨습니다. 선수의 발놀림은 알아서 움직입니다. 타이밍 표시가 색칠된 구간에 닿을 때 리시브를 누르고, 높은 토스와 낮은 토스 중 하나를 고른 뒤, 상대 코트의 빈 곳을 향해 스와이프하세요. 강한 스파이크는 빠르게 날아가고, 부드러운 팁은 짧게 떨어집니다. 가운데 터치는 파트너가 자동으로 해 줍니다. 투어에는 코랄 쇼어, 골든 피어, 트와일라잇 베이, 팜 코브에 걸쳐 열두 팀이 있고, 균형형 수비, 네트 수비, 후방 커버, 빠른 발이라는 네 가지 수비 스타일이 있습니다. 수비수는 공이 떨어질 곳으로 달려가 닿는 공을 받아 넘깁니다. 네트에 걸리거나 리시브를 놓치면 상대가 점수를 가져갑니다. 7점을 먼저 내면 이기고, 경기마다 4분 제한이 있습니다. 메달을 따서 투어를 오르고, 오픈 연습에서 아무 팀과 붙어 보고, 날짜별 데일리 상대로 또 다른 기록에 도전하세요. 컴퓨터와 겨루는 1인용 게임입니다. 오프라인, 계정 없음. 광고가 있는 무료 게임입니다.",
+            "ja": "サンセット・サイドアウトは、ビーチバレーを一目でわかる短いアーケード試合にした。選手の足さばきは自動。タイミングマーカーが色のついた枠に入ったらレシーブをタップし、高いトスか低いトスを選び、相手コートの空いた場所へスワイプする。強いスパイクは速く飛び、柔らかいフェイントは手前に落ちる。真ん中のタッチはパートナーが自動でこなす。ツアーには、コーラルショア、ゴールデンピア、トワイライトベイ、パームコーブの12ペア。守備スタイルはバランス型、ネット際、後方カバー、俊足の4種類。守備側は落下点へ走り、届くボールは返してくる。ネットにかけるかレシーブを逃せば相手の得点。7点先取で勝ち、1試合は4分まで。メダルでツアーを勝ち上がり、オープン練習でどのペアとも戦え、日付ごとのデイリー対戦相手で別のスコアも狙える。コンピューター相手の1人用。オフライン、アカウント不要。広告付きの無料ゲーム。",
+            "es": "Sunset Sideout convierte el vóley playa en partidos arcade rápidos que se entienden de un vistazo. Tus jugadores se mueven solos. Toca Recibir cuando el marcador llegue a la zona de color, elige pase alto o bajo y desliza hacia un hueco del otro lado. El remate fuerte viaja rápido y el toque suave cae más cerca. Tu compañero hace el toque intermedio automáticamente. El circuito tiene doce parejas en Costa de Coral, Muelle Dorado, Bahía del Ocaso y Cala de Palmeras, con cuatro estilos defensivos: defensa equilibrada, guardianes de la red, cobertura de fondo y pies rápidos. Los rivales corren al punto de caída y devuelven lo que alcanzan. Si golpeas la red o fallas la recepción, el punto es para el otro lado. Gana quien llegue primero a siete, con un límite de cuatro minutos por partido. Las medallas te hacen avanzar, la práctica libre te deja enfrentarte a cualquier pareja y un rival diario con fecha te da otra marca que superar. Para un jugador contra el ordenador. Sin conexión, sin cuenta. Gratis con anuncios.",
+            "pt-BR": "Sunset Sideout transforma o vôlei de praia em partidas arcade rápidas e fáceis de entender. Seus jogadores se movimentam sozinhos. Toque em Receber quando o marcador chegar à faixa colorida, escolha levantamento alto ou baixo e deslize até uma abertura do outro lado. A cortada forte viaja rápido, e a largada cai mais perto. Seu parceiro faz o toque do meio automaticamente. O circuito tem doze duplas na Costa de Coral, Píer Dourado, Baía do Crepúsculo e Enseada das Palmeiras, com quatro estilos de defesa: equilibrada, proteção da rede, cobertura do fundo e pés rápidos. Os rivais correm até o ponto de queda e devolvem o que alcançam. Acerte a rede ou erre a recepção e o ponto vai para o outro lado. Vence quem fizer sete primeiro, com limite de quatro minutos por partida. As medalhas fazem você avançar, o treino livre deixa enfrentar qualquer dupla e um rival diário com data oferece outra pontuação para bater. Para um jogador contra o computador. Offline, sem conta. Grátis com anúncios."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/sunsetsideout",
+        "screenshots": [
+            "apps/shots/sunset-sideout/01.jpg",
+            "apps/shots/sunset-sideout/02.jpg",
+            "apps/shots/sunset-sideout/03.jpg",
+            "apps/shots/sunset-sideout/04.jpg"
+        ]
+    },
+    {
+        "id": "tack-and-tide",
+        "slug": "tack-and-tide",
+        "icon": "apps/tack-and-tide.png",
+        "page": "apps/tack-and-tide.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Tack & Tide",
+            "ko": "택 앤 타이드",
+            "ja": "タック&タイド",
+            "es": "Tack & Tide",
+            "pt-BR": "Tack & Tide"
+        },
+        "tagline": {
+            "en": "Read the wind, trim the sail, tack to the buoy. 24 regattas against your own ghost.",
+            "ko": "바람을 읽고, 돛을 맞추고, 지그재그로 부표까지. 내 고스트와 겨루는 24개 레가타.",
+            "ja": "風を読み、帆を合わせ、タックでブイへ。自分のゴーストと競う24のレガッタ。",
+            "es": "Lee el viento, ajusta la vela y ciñe hasta la boya. 24 regatas contra tu propio fantasma.",
+            "pt-BR": "Leia o vento, ajuste a vela e bordeje até a boia. 24 regatas contra seu próprio fantasma."
+        },
+        "desc": {
+            "en": "Tack & Tide is a compact 3D sailing game about choosing a course, setting your sail and beating your own time. Hold Port or Starboard to turn, or drag across the water to steer. Ease or tighten the sail until its white marker sits in the green trim band. The wind arrow points to where the wind is coming from, and the sail-power display shows how well you are using it. If you head straight into the wind, turn diagonally and tack back toward your buoy. Each of the 24 regattas has six numbered buoy rings to pass in order, across Coral Marina, Blue Harbor, Emerald Coast and Twilight Inlets, with five wind patterns from a steady breeze to shifting coastal winds. A fixed course map shows your position and the next buoy, and each attempt has four minutes. Faster finishes earn medals and unlock the next regatta, and your fastest clean route becomes a ghost to race. Tokens buy boat color tints. Offline, no account. Free with ads.",
+            "ko": "택 앤 타이드는 항로를 고르고, 돛을 맞추고, 내 기록을 깨는 작은 3D 세일링 게임입니다. 좌현이나 우현 버튼을 눌러 방향을 틀거나, 물 위를 드래그해 조종하세요. 돛의 하얀 표시가 초록색 트림 구간에 들어올 때까지 돛을 풀거나 당깁니다. 바람 화살표는 바람이 불어오는 쪽을 가리키고, 돛 출력 표시는 바람을 얼마나 잘 쓰고 있는지 보여 줍니다. 바람을 정면으로 향하게 되면, 대각선으로 꺾어 지그재그로 부표를 향해 나아가세요. 레가타 24개마다 번호가 붙은 부표 고리 여섯 개를 순서대로 지나야 하며, 무대는 코랄 마리나, 블루 하버, 에메랄드 코스트, 트와일라잇 인렛입니다. 바람 패턴은 잔잔한 미풍부터 변덕스러운 해안풍까지 다섯 가지입니다. 고정된 코스 지도가 내 위치와 다음 부표를 보여 주고, 시도마다 4분이 주어집니다. 빨리 들어오면 메달을 받고 다음 레가타가 열리며, 가장 빠른 무사고 경로는 함께 달릴 고스트가 됩니다. 토큰으로 배 색상을 바꿀 수 있습니다. 오프라인, 계정 없음. 광고가 있는 무료 게임입니다.",
+            "ja": "タック&タイドは、コースを選び、帆を合わせ、自分のタイムを縮めていくコンパクトな3Dセーリングゲーム。左舷か右舷のボタンを押して曲がるか、水面をドラッグして舵を取る。帆の白いマーカーが緑のトリム帯に入るまで、帆を緩めたり引いたりする。風の矢印は風が吹いてくる方向を指し、帆のパワー表示は風をどれだけ生かせているかを示す。風に真正面から向かってしまったら、斜めに切り替えてタックしながらブイを目指そう。24のレガッタでは、それぞれ番号つきのブイリング6つを順番に通過する。舞台はコーラルマリーナ、ブルーハーバー、エメラルドコースト、トワイライトインレット。風のパターンは穏やかなそよ風から移り変わる海風まで5種類。固定のコースマップが現在地と次のブイを示し、1回の挑戦は4分。速くゴールすればメダルを獲得して次のレガッタが開き、最速の無事故ルートは一緒に走るゴーストになる。トークンで船のカラーを変えられる。オフライン、アカウント不要。広告付きの無料ゲーム。",
+            "es": "Tack & Tide es un juego de vela en 3D compacto sobre elegir una ruta, ajustar la vela y mejorar tu propia marca. Mantén Babor o Estribor para girar, o arrastra por el agua para dirigir el barco. Suelta o caza la vela hasta que su marcador blanco quede en la zona verde. La flecha señala de dónde viene el viento, y el indicador de potencia muestra cómo lo aprovechas. Si apuntas directo contra el viento, gira en diagonal y avanza en zigzag hacia la boya. Cada una de las 24 regatas tiene seis aros numerados que pasar en orden, en Marina de Coral, Puerto Azul, Costa Esmeralda y Calas del Ocaso, con cinco patrones de viento, de una brisa estable a giros costeros. Un mapa fijo muestra tu posición y la siguiente boya, y cada intento dura cuatro minutos. Las llegadas rápidas ganan medallas y desbloquean la siguiente regata, y tu ruta más rápida se convierte en un fantasma contra el que competir. Las fichas compran tonos para el barco. Sin conexión, sin cuenta. Gratis con anuncios.",
+            "pt-BR": "Tack & Tide é um jogo de vela em 3D compacto sobre escolher uma rota, ajustar a vela e melhorar seu próprio tempo. Segure Bombordo ou Boreste para virar, ou arraste sobre a água para guiar o barco. Solte ou cace a vela até o marcador branco ficar na faixa verde. A seta aponta de onde vem o vento, e o indicador de força mostra como você o aproveita. Se apontar direto contra o vento, vire na diagonal e faça zigue-zague até a boia. Cada uma das 24 regatas tem seis anéis numerados para passar em ordem, na Marina de Coral, Porto Azul, Costa Esmeralda e Enseadas do Crepúsculo, com cinco padrões de vento, de uma brisa constante a viradas costeiras. Um mapa fixo mostra sua posição e a próxima boia, e cada tentativa tem quatro minutos. Chegadas rápidas rendem medalhas e liberam a próxima regata, e sua rota mais rápida vira um fantasma para você desafiar. As fichas compram tonalidades para o barco. Offline, sem conta. Grátis com anúncios."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/tacktide",
+        "screenshots": [
+            "apps/shots/tack-and-tide/01.jpg",
+            "apps/shots/tack-and-tide/02.jpg",
+            "apps/shots/tack-and-tide/03.jpg",
+            "apps/shots/tack-and-tide/04.jpg"
+        ]
+    },
+    {
+        "id": "tideline-salvage",
+        "slug": "tideline-salvage",
+        "icon": "apps/tideline-salvage.png",
+        "page": "apps/tideline-salvage.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Tideline Salvage",
+            "ko": "타이드라인 샐비지",
+            "ja": "タイドライン・サルベージ",
+            "es": "Tideline Salvage",
+            "pt-BR": "Tideline Salvage"
+        },
+        "tagline": {
+            "en": "Read the tides, send the fleet out, restore what comes back. A harbor salvage sim.",
+            "ko": "물때를 읽고, 선단을 내보내고, 건져 온 것을 복원하세요. 항구 인양 시뮬레이션.",
+            "ja": "潮を読み、船団を出し、持ち帰ったものを修復する。港のサルベージ経営シム。",
+            "es": "Lee las mareas, envía la flota y restaura lo que vuelve. Un simulador de rescate en el puerto.",
+            "pt-BR": "Leia as marés, mande a frota e restaure o que voltar. Um simulador de resgate no porto."
+        },
+        "desc": {
+            "en": "Tideline Salvage is a salvage and restoration sim set on a sleepy island harbor. You build dock space, a restoration workshop and storage, then open Operations to pick a salvage site and a boat configuration before sending the fleet out. Six boat types and five salvage sites give you choices to weigh against tides, weather, depth, fuel and hull condition. What comes back is weathered, and you restore it. The collection holds 60 artifacts, and you fund 20 harbor projects while working through 60 expedition contracts across five areas, from Home Harbor through Coral Reach, Stormwatch Isles and Sunken Passage to the Lighthouse Coast. Workshops, storage and museum facilities turn the harbor into a home for maritime history. A four-part tutorial gets you started. Plan at your own pace, pause when you need to think, and change the simulation speed. Three save slots let you try different approaches. Core play works offline. English, Spanish and Brazilian Portuguese. Free with optional rewarded ads and ads at breaks between expeditions.",
+            "ko": "타이드라인 샐비지는 한적한 섬 항구를 배경으로 한 인양과 복원 시뮬레이션입니다. 부두 공간, 복원 작업장, 창고를 짓고, 운영 메뉴에서 인양 장소와 배 구성을 고른 뒤 선단을 내보냅니다. 배 여섯 종과 인양 장소 다섯 곳을 물때, 날씨, 수심, 연료, 선체 상태와 저울질해야 합니다. 건져 온 것은 낡아 있으니 복원합니다. 수집품은 60점이고, 홈 하버에서 코랄 리치, 스톰워치 제도, 선큰 패시지를 거쳐 라이트하우스 코스트까지 다섯 지역에서 탐사 계약 60개를 진행하며 항구 프로젝트 20개에 자금을 댑니다. 작업장, 창고, 박물관 시설이 항구를 해양사의 보금자리로 바꿔 놓습니다. 네 단계 튜토리얼이 시작을 도와줍니다. 원하는 속도로 계획하고, 생각할 시간이 필요하면 일시 정지하고, 규모가 커지면 시뮬레이션 속도를 바꾸세요. 저장 슬롯 세 개로 여러 방식을 시험할 수 있습니다. 기본 플레이는 오프라인으로 가능합니다. 영어, 스페인어, 브라질 포르투갈어 지원. 무료이며 선택형 보상형 광고와 탐사 사이의 광고가 있습니다.",
+            "ja": "タイドライン・サルベージは、のどかな島の港を舞台にしたサルベージと修復のシミュレーション。桟橋、修復工房、倉庫を建て、オペレーションでサルベージ地点と船の編成を選んでから船団を送り出す。6種類の船と5つのサルベージ地点を、潮、天候、水深、燃料、船体の状態と天秤にかける。持ち帰ったものは傷んでいるので、修復する。コレクションは全60点。ホームハーバーからコーラルリーチ、ストームウォッチ諸島、サンクンパッセージを経てライトハウスコーストまで、5つのエリアで60の探索契約をこなしながら、20の港プロジェクトに資金を出す。工房、倉庫、博物館の施設が、港を海の歴史の居場所に変えていく。4段階のチュートリアルが最初を案内する。自分のペースで計画し、考えたいときは一時停止し、規模が大きくなればシミュレーション速度も変えられる。セーブスロット3つで、いろいろなやり方を試せる。基本プレイはオフラインで遊べる。英語、スペイン語、ブラジルポルトガル語に対応。無料で、任意のリワード広告と、探索の合間に入る広告がある。",
+            "es": "Tideline Salvage es un simulador de rescate y restauración en un tranquilo puerto isleño. Construyes muelles, un taller de restauración y almacenes, y luego abres Operaciones para elegir una zona de búsqueda y la configuración de los barcos antes de enviar la flota. Seis tipos de barco y cinco zonas de búsqueda te dan opciones que sopesar frente a mareas, clima, profundidad, combustible y estado del casco. Lo que vuelve llega desgastado, y lo restauras. La colección tiene 60 objetos, y financias 20 proyectos del puerto mientras completas 60 contratos de expedición en cinco zonas, desde el puerto de casa, pasando por Coral Reach, las islas Stormwatch y Sunken Passage, hasta la costa del faro. Talleres, almacenes e instalaciones de museo convierten el puerto en un hogar para la historia marítima. Un tutorial de cuatro partes te pone en marcha. Planifica a tu ritmo, pausa cuando necesites pensar y ajusta la velocidad de la simulación a medida que creces. Tres espacios de guardado te dejan probar estrategias distintas. El juego principal funciona sin conexión. En inglés, español y portugués de Brasil. Gratis con anuncios recompensados opcionales y anuncios en las pausas entre expediciones.",
+            "pt-BR": "Tideline Salvage é um simulador de resgate e restauração num porto tranquilo de ilha. Você constrói cais, uma oficina de restauração e armazéns, depois abre Operações para escolher um local de busca e a configuração dos barcos antes de mandar a frota. Seis tipos de barco e cinco locais de busca dão opções para pesar contra marés, clima, profundidade, combustível e estado do casco. O que volta chega desgastado, e você restaura. A coleção tem 60 objetos, e você financia 20 projetos do porto enquanto cumpre 60 contratos de expedição em cinco áreas, do porto de casa, passando por Coral Reach, as ilhas Stormwatch e Sunken Passage, até a costa do farol. Oficinas, armazéns e instalações de museu transformam o porto num lar para a história marítima. Um tutorial em quatro partes ajuda no começo. Planeje no seu ritmo, pause quando precisar pensar e ajuste a velocidade da simulação conforme a operação cresce. Três espaços de salvamento permitem testar estratégias diferentes. O jogo principal funciona offline. Em inglês, espanhol e português do Brasil. Grátis com anúncios recompensados opcionais e anúncios nas pausas entre as expedições."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/tidelinesalvage",
+        "screenshots": [
+            "apps/shots/tideline-salvage/01.jpg",
+            "apps/shots/tideline-salvage/02.jpg",
+            "apps/shots/tideline-salvage/03.jpg"
+        ]
+    },
+    {
+        "id": "valet-pulse",
+        "slug": "valet-pulse",
+        "icon": "apps/valet-pulse.png",
+        "page": "apps/valet-pulse.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Valet Pulse",
+            "ko": "발레 펄스",
+            "ja": "バレーパルス",
+            "es": "Valet Pulse",
+            "pt-BR": "Valet Pulse"
+        },
+        "tagline": {
+            "en": "Four lanes, growing queues, one crossing. Release each car at the right moment.",
+            "ko": "차선 넷, 늘어나는 대기열, 교차로 하나. 차를 딱 맞는 순간에 내보내세요.",
+            "ja": "4車線、伸びる行列、ひとつの交差点。車を出すのは、ちょうどいい瞬間に。",
+            "es": "Cuatro carriles, colas que crecen y un cruce. Da paso a cada coche en el momento justo.",
+            "pt-BR": "Quatro faixas, filas crescendo e um cruzamento. Libere cada carro na hora certa."
+        },
+        "desc": {
+            "en": "Valet Pulse is a timing game about a busy crossing. Cars queue up in four lanes, and nothing moves until you tap a lane to release one car. Hold to preview its route first, then choose the moment it enters the intersection and leave it enough room to pass safely. Vans need extra space, so wait until one has cleared. Temporary closures change what is open, and every queue has to stay below six cars. Each safe arrival helps your shift, while an impatient launch costs one of your service hearts. A shift is cleared with at least 10 parked cars and one heart left. Medals go bronze for a clear, silver for losing at most one heart and gold for losing none. There are 12 challenges, a relaxed 120-second shift, practice, and an Endless mode that opens after six clears. Tickets you earn unlock vehicle color styles. Plays offline without an account, in English, Spanish and Brazilian Portuguese. Free with occasional ads between runs and optional rewarded ads.",
+            "ko": "발레 펄스는 붐비는 교차로를 다루는 타이밍 게임입니다. 네 개 차선에 차들이 줄을 서고, 차선을 눌러야만 차가 한 대씩 출발합니다. 먼저 꾹 눌러 경로를 미리 보고, 교차로에 들어갈 순간을 정하고, 안전하게 지나갈 공간을 남겨 두세요. 밴은 공간이 더 필요하니 다 지나갈 때까지 기다려야 합니다. 임시 통제로 열린 길이 바뀌고, 모든 대기열은 여섯 대 미만으로 유지해야 합니다. 안전하게 도착할 때마다 근무가 순조로워지고, 성급한 출발은 서비스 하트를 하나 잃게 합니다. 주차 10대 이상, 하트 하나 이상이 남아 있으면 근무 클리어입니다. 클리어하면 동메달, 하트를 하나 이하로 잃으면 은메달, 하나도 잃지 않으면 금메달입니다. 도전 12개, 여유로운 120초 근무, 연습 모드, 그리고 여섯 번 클리어하면 열리는 엔드리스 모드가 있습니다. 모은 티켓으로 차량 색상 스타일을 해금합니다. 계정 없이 오프라인으로 플레이하며 영어, 스페인어, 브라질 포르투갈어를 지원합니다. 무료이며 판 사이에 가끔 광고가 나오고, 선택형 보상형 광고가 있습니다.",
+            "ja": "バレーパルスは、混み合う交差点を扱うタイミングゲーム。4つの車線に車が並び、車線をタップしたときだけ車が1台出ていく。先に長押しでルートを確認し、交差点に入る瞬間を決め、安全に抜けられる間隔を空けよう。バンは場所を取るので、通り過ぎるまで待つこと。一時的な通行止めで通れる道が変わり、どの行列も6台未満に保たなければならない。無事に着くたびにシフトは順調になり、焦った発進はサービスハートを1つ失う。駐車10台以上、ハートが1つ以上残っていればシフトクリア。クリアで銅、失ったハートが1つ以下なら銀、無傷なら金。チャレンジ12個、のんびりした120秒シフト、練習、そして6回クリアで開くエンドレスモードがある。集めたチケットで車のカラースタイルを解放できる。アカウント不要でオフラインで遊べ、英語、スペイン語、ブラジルポルトガル語に対応。無料で、ランの合間にときどき広告が入り、任意のリワード広告もある。",
+            "es": "Valet Pulse es un juego de precisión sobre un cruce muy concurrido. Los coches hacen cola en cuatro carriles, y nada se mueve hasta que tocas un carril para dar salida a un coche. Mantén pulsado para ver antes su ruta, luego elige el momento en que entra en el cruce y déjale espacio para pasar con seguridad. Las furgonetas necesitan más sitio, así que espera a que pasen. Los cierres temporales cambian lo que está abierto, y cada cola debe quedarse por debajo de seis coches. Cada llegada segura ayuda a tu turno, y una salida precipitada te cuesta uno de tus corazones de servicio. Superas el turno con al menos 10 coches aparcados y un corazón. Las medallas son bronce por superarlo, plata si pierdes como mucho un corazón y oro si no pierdes ninguno. Hay 12 retos, un turno relajado de 120 segundos, práctica y un modo sin fin que se abre tras seis turnos superados. Los tickets que ganas desbloquean colores de vehículo. Juega sin conexión y sin cuenta, en inglés, español y portugués de Brasil. Gratis, con anuncios ocasionales entre partidas y anuncios con recompensa opcionales.",
+            "pt-BR": "Valet Pulse é um jogo de tempo sobre um cruzamento movimentado. Os carros fazem fila em quatro faixas, e nada anda até você tocar numa faixa para liberar um carro. Segure para ver a rota antes, depois escolha o momento em que ele entra no cruzamento e deixe espaço para ele passar com segurança. As vans precisam de mais espaço, então espere elas passarem. Fechamentos temporários mudam o que está aberto, e toda fila precisa ficar abaixo de seis carros. Cada chegada segura ajuda seu turno, e uma saída apressada custa um dos seus corações de serviço. O turno é vencido com pelo menos 10 carros estacionados e um coração sobrando. As medalhas são bronze por concluir, prata se perder no máximo um coração e ouro se não perder nenhum. São 12 desafios, um turno tranquilo de 120 segundos, treino e um modo sem fim que abre depois de seis turnos vencidos. Os tickets que você ganha desbloqueiam cores de veículo. Jogue offline e sem conta, em inglês, espanhol e português do Brasil. Grátis, com anúncios ocasionais entre partidas e anúncios com recompensa opcionais."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/valetpulse",
+        "screenshots": [
+            "apps/shots/valet-pulse/01.jpg",
+            "apps/shots/valet-pulse/02.jpg",
+            "apps/shots/valet-pulse/03.jpg",
+            "apps/shots/valet-pulse/04.jpg"
+        ]
+    },
+    {
+        "id": "bento-balance",
+        "slug": "bento-balance",
+        "icon": "apps/bento-balance.png",
+        "page": "apps/bento-balance.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Bento Balance",
+            "ko": "벤토 밸런스",
+            "ja": "ベントー・バランス",
+            "es": "Bento Balance",
+            "pt-BR": "Bento Balance"
+        },
+        "tagline": {
+            "en": "Stack rice, sushi and broccoli on a tilting tray. Serve the recipe before lunch tips.",
+            "ko": "기울어지는 쟁반에 밥, 초밥, 브로콜리를 쌓아 올리세요. 도시락이 쏟아지기 전에 내야 합니다.",
+            "ja": "傾くトレーにごはん、寿司、ブロッコリーを積む。弁当がひっくり返る前に出そう。",
+            "es": "Apila arroz, sushi y brócoli en una bandeja que se inclina. Sirve antes de que se vuelque.",
+            "pt-BR": "Empilhe arroz, sushi e brócolis numa bandeja que inclina. Sirva antes que ela tombe."
+        },
+        "desc": {
+            "en": "Bento Balance turns lunch into a balancing act. Each round shows a recipe card, and you drop the bites onto a tray that tilts with every piece. Drag to pick where the food will fall, then let go. Rice, sushi and broccoli all sit differently, and a neat stack can turn into a very wobbly lunch fast. Serve a finished recipe and the food left on the tray changes the balance for the next one, so you are always planning a step ahead. Work through 18 recipe cards, or use practice to try stacks without losing napkins. Sesame tokens you earn unlock new tray colors. Plays offline with no account, in English, Spanish and Brazilian Portuguese. Free, with occasional ads between runs and optional rewarded ads for extra tokens.",
+            "ko": "벤토 밸런스는 점심 도시락을 균형 게임으로 바꿉니다. 매 라운드마다 레시피 카드가 나오고, 음식을 하나 올릴 때마다 기울어지는 쟁반 위에 재료를 떨어뜨려야 합니다. 드래그로 떨어질 위치를 고르고 손을 떼면 됩니다. 밥, 초밥, 브로콜리는 놓이는 모양이 제각각이라 반듯하던 탑도 금방 휘청거립니다. 레시피를 완성해 내보내면 쟁반에 남은 음식이 다음 균형을 바꾸기 때문에 늘 한 수 앞을 내다봐야 합니다. 레시피 카드 18장에 도전하거나, 연습 모드에서 냅킨을 잃지 않고 쌓는 법을 익혀 보세요. 모은 참깨 토큰으로 쟁반 색상을 바꿀 수 있습니다. 계정 없이 오프라인으로 즐길 수 있으며 영어, 스페인어, 브라질 포르투갈어를 지원합니다. 무료이며, 판 사이에 가끔 광고가 나오고 추가 토큰을 주는 선택형 보상 광고가 있습니다.",
+            "ja": "『ベントー・バランス』は、お昼の弁当をバランスゲームにした作品。毎ラウンドにレシピカードが出て、ひとつ載せるたびに傾くトレーへ具材を落としていく。ドラッグで落とす位置を決めて指を離すだけ。ごはん、寿司、ブロッコリーは収まり方がそれぞれ違い、きれいに積んだ山もすぐにぐらつく。レシピを完成させて出すと、トレーに残った具材が次のバランスを変えるので、常に一手先を考える必要がある。レシピカードは全18枚。練習モードならナプキンを失わずに積み方を試せる。集めたゴマトークンでトレーの色を変えられる。アカウント不要でオフラインプレイ可能、英語・スペイン語・ブラジルポルトガル語に対応。無料で、プレイの合間にときどき広告が入り、追加トークンがもらえる任意のリワード広告もある。",
+            "es": "Bento Balance convierte el almuerzo en un ejercicio de equilibrio. Cada ronda muestra una tarjeta de receta y tú dejas caer cada porción sobre una bandeja que se inclina con cada pieza. Arrastra para elegir dónde caerá la comida y suelta. El arroz, el sushi y el brócoli se asientan de forma distinta, y una pila ordenada puede volverse un almuerzo muy inestable en un momento. Al servir una receta completa, lo que queda en la bandeja cambia el equilibrio de la siguiente, así que siempre piensas un paso por delante. Avanza por 18 tarjetas de recetas o usa el modo práctica para probar pilas sin perder servilletas. Las fichas de sésamo que ganas desbloquean colores para la bandeja. Funciona sin conexión y sin cuenta, en inglés, español y portugués de Brasil. Gratis, con anuncios ocasionales entre partidas y anuncios con recompensa opcionales para conseguir más fichas.",
+            "pt-BR": "Bento Balance transforma o almoço num exercício de equilíbrio. Cada rodada mostra um cartão de receita, e você solta cada porção numa bandeja que inclina a cada peça. Arraste para escolher onde a comida vai cair e solte. Arroz, sushi e brócolis se acomodam de jeitos diferentes, e uma pilha arrumada vira um almoço bem instável num instante. Ao servir uma receita completa, o que sobra na bandeja muda o equilíbrio da próxima, então você está sempre pensando um passo à frente. Avance por 18 cartões de receitas ou use o modo treino para testar pilhas sem perder guardanapos. As fichas de gergelim que você ganha liberam cores para a bandeja. Funciona offline e sem conta, em inglês, espanhol e português do Brasil. Grátis, com anúncios ocasionais entre partidas e anúncios premiados opcionais para ganhar mais fichas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/bentobalance",
+        "screenshots": [
+            "apps/shots/bento-balance/01.jpg",
+            "apps/shots/bento-balance/02.jpg",
+            "apps/shots/bento-balance/03.jpg",
+            "apps/shots/bento-balance/04.jpg"
+        ]
+    },
+    {
+        "id": "castledoku",
+        "slug": "castledoku",
+        "icon": "apps/castledoku.png",
+        "page": "apps/castledoku.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Castledoku",
+            "ko": "캐슬도쿠",
+            "ja": "キャッスルドク",
+            "es": "Castledoku",
+            "pt-BR": "Castledoku"
+        },
+        "tagline": {
+            "en": "One castle per row, column and kingdom, none touching. 200 puzzles on a pixel island.",
+            "ko": "행, 열, 왕국마다 성은 하나씩, 서로 닿으면 안 됩니다. 픽셀 섬 위의 퍼즐 200개.",
+            "ja": "行・列・王国ごとに城はひとつ、隣り合ってはいけない。ピクセルの島に200問。",
+            "es": "Un castillo por fila, columna y reino, y ninguno puede tocarse. 200 puzles en una isla pixelada.",
+            "pt-BR": "Um castelo por linha, coluna e reino, e nenhum pode encostar. 200 desafios numa ilha em pixel."
+        },
+        "desc": {
+            "en": "Castledoku is a calm logic puzzle set on a pixel island split into colored kingdoms. You place one castle in every row, every column and every kingdom, and no two castles may touch, not even at the corners. Tap a cell once to mark it with an X and again to build. Each castle crosses out its row, column, kingdom and neighbors for you, so the board narrows as you go. Build where the answer has no castle and it crumbles, so it pays to think first. There are 200 levels from 5x5 to 9x9, each with a single answer, plus a new daily puzzle. Solve without a mistake for three stars. Coins you earn go toward 24 houses, towers, abbeys and a gold castle for your own island. Plays offline with no account. Free, with an ad now and then between levels, never during play, and no purchases.",
+            "ko": "캐슬도쿠는 색색의 왕국으로 나뉜 픽셀 섬에서 즐기는 차분한 논리 퍼즐입니다. 모든 행, 모든 열, 모든 왕국에 성을 하나씩 놓되, 두 성이 모서리로도 닿아서는 안 됩니다. 칸을 한 번 탭하면 X 표시, 한 번 더 탭하면 성을 짓습니다. 성을 지으면 그 행과 열, 왕국, 이웃 칸이 자동으로 지워져 판이 점점 좁혀집니다. 정답에 없는 자리에 성을 지으면 무너지니 먼저 생각하는 편이 좋습니다. 5x5부터 9x9까지 정답이 하나뿐인 레벨 200개와 매일 새로 나오는 일일 퍼즐이 있습니다. 실수 없이 풀면 별 3개를 받습니다. 모은 코인으로 집, 탑, 수도원, 황금 성 등 24가지 건물을 지어 나만의 섬을 꾸밀 수 있습니다. 계정 없이 오프라인으로 플레이할 수 있습니다. 무료이며, 레벨 사이에 가끔 광고가 나오지만 플레이 중에는 나오지 않고 구매 요소도 없습니다.",
+            "ja": "『キャッスルドク』は、色分けされた王国に分かれたピクセルの島で遊ぶ、落ち着いたロジックパズル。すべての行、すべての列、すべての王国に城をひとつずつ置く。ただし城同士は角でも接してはいけない。マスを1回タップでX、もう1回で城を建てる。城を建てるとその行、列、王国、周囲のマスが自動で消され、盤面がだんだん絞られていく。答えにない場所に建てると城は崩れるので、先に考えるのが得策だ。5x5から9x9まで、答えがひとつだけのレベルが200問、さらに毎日新しいデイリーパズルもある。ミスなしで解けば星3つ。集めたコインで家や塔、修道院、黄金の城など24の建物を建てて自分の島を作れる。アカウント不要でオフラインプレイ可能。無料で、レベルの合間にときどき広告が入るがプレイ中には出ない。課金要素はない。",
+            "es": "Castledoku es un puzle de lógica tranquilo en una isla pixelada dividida en reinos de colores. Colocas un castillo en cada fila, en cada columna y en cada reino, y dos castillos nunca pueden tocarse, ni siquiera en las esquinas. Toca una casilla una vez para marcarla con una X y otra vez para construir. Cada castillo tacha por ti su fila, su columna, su reino y sus vecinas, así que el tablero se reduce mientras avanzas. Si construyes donde la solución no tiene castillo, se derrumba, así que conviene pensar antes. Hay 200 niveles de 5x5 a 9x9, cada uno con una sola solución, y un acertijo diario nuevo. Resuelve sin errores para conseguir tres estrellas. Las monedas que ganas sirven para 24 casas, torres, abadías y un castillo dorado en tu propia isla. Funciona sin conexión y sin cuenta. Gratis, con algún anuncio entre niveles, nunca durante el juego, y sin compras.",
+            "pt-BR": "Castledoku é um jogo de lógica tranquilo numa ilha em pixel art dividida em reinos coloridos. Você põe um castelo em cada linha, em cada coluna e em cada reino, e dois castelos nunca podem se tocar, nem nas diagonais. Toque uma casa uma vez para marcar um X e de novo para construir. Cada castelo risca para você a linha, a coluna, o reino e as casas vizinhas, então o tabuleiro vai se fechando. Se você construir onde a resposta não tem castelo, ele desmorona, então vale pensar antes. São 200 níveis de 5x5 a 9x9, cada um com uma única resposta, além de um desafio diário novo. Resolva sem erros para ganhar três estrelas. As moedas que você ganha vão para 24 casas, torres, abadias e um castelo dourado na sua própria ilha. Funciona offline e sem conta. Grátis, com um anúncio de vez em quando entre os níveis, nunca durante o jogo, e sem compras."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/castledoku",
+        "screenshots": [
+            "apps/shots/castledoku/01.jpg",
+            "apps/shots/castledoku/02.jpg",
+            "apps/shots/castledoku/03.jpg",
+            "apps/shots/castledoku/04.jpg",
+            "apps/shots/castledoku/05.jpg"
+        ]
+    },
+    {
+        "id": "critter-drop",
+        "slug": "critter-drop",
+        "icon": "apps/critter-drop.png",
+        "page": "apps/critter-drop.html",
+        "tier": "Volume",
+        "platform": "Android, PC",
+        "name": {
+            "en": "Critter Drop",
+            "ko": "크리터 드롭",
+            "ja": "クリッター・ドロップ",
+            "es": "Critter Drop",
+            "pt-BR": "Critter Drop"
+        },
+        "tagline": {
+            "en": "Drop round critters into a jar, merge matching pairs, and grow a chick into a whale.",
+            "ko": "동글동글한 동물을 병에 떨어뜨려 같은 것끼리 합치세요. 병아리가 고래가 될 때까지.",
+            "ja": "丸い動物をビンに落として、同じもの同士を合体。ヒヨコをクジラまで育てよう。",
+            "es": "Suelta animalitos en un frasco, fusiona parejas iguales y convierte un pollito en ballena.",
+            "pt-BR": "Solte bichinhos num pote, junte pares iguais e transforme um pintinho em baleia."
+        },
+        "desc": {
+            "en": "Critter Drop is a calm drop-and-merge puzzle. Round critters fall into a jar, and when two of the same kind touch, they squish into the next size up. There are twelve of them, from a tiny chick all the way to a whale. Drag to aim and let go to drop. A guide shows where each critter will land, and the next one waits by the rim. The pile rolls and settles, and one good drop can set off a chain of merges. If a critter stays above the rim, the run ends, so you have to keep space free. The daily challenge gives everyone the same drops, with the goal of making a panda in 60. Every run pays coins toward 8 jars, including teacups, a fishbowl and a hot tub, and 8 backgrounds. No energy and no waiting. Plays offline with no account. Free, with ads between runs, never during play.",
+            "ko": "크리터 드롭은 떨어뜨리고 합치는 차분한 퍼즐입니다. 동글동글한 동물들이 병 속으로 떨어지고, 같은 종류 둘이 닿으면 한 단계 큰 동물로 뭉쳐집니다. 아주 작은 병아리부터 고래까지 모두 12종입니다. 드래그로 조준하고 손을 떼면 떨어집니다. 가이드가 떨어질 자리를 보여 주고, 다음 동물은 병 입구에서 기다립니다. 쌓인 동물들이 굴러가며 자리를 잡고, 잘 떨어뜨린 한 번이 연쇄 합체를 일으키기도 합니다. 동물이 병 입구 위에 머무르면 판이 끝나니 공간을 잘 남겨 두어야 합니다. 일일 챌린지에서는 모두가 같은 순서로 동물을 받고 60번 안에 판다를 만드는 것이 목표입니다. 판마다 코인을 받아 찻잔, 어항, 온수 욕조 등 8가지 병과 8가지 배경을 열 수 있습니다. 에너지도 기다림도 없습니다. 계정 없이 오프라인으로 플레이할 수 있습니다. 무료이며 광고는 판 사이에만 나오고 플레이 중에는 나오지 않습니다.",
+            "ja": "『クリッター・ドロップ』は、落として合体させる落ち着いたパズル。丸い動物たちがビンに落ちてきて、同じ種類が2匹触れると1段階大きな動物にむぎゅっと合体する。小さなヒヨコからクジラまで全12種類。ドラッグで狙いを定め、指を離して落とす。ガイドが着地点を示し、次の動物はビンの縁で待っている。積み上がった山は転がって落ち着き、うまい一手が連鎖合体を起こすこともある。動物が縁の上に残るとゲームオーバーなので、スペースを空けておくのが大事。デイリーチャレンジでは全員が同じ順番で動物を受け取り、60回以内にパンダを作るのが目標。毎回コインがもらえ、ティーカップ、金魚鉢、ジャグジーなど8種類のビンと8種類の背景を解放できる。スタミナも待ち時間もない。アカウント不要でオフラインプレイ可能。無料で、広告はプレイの合間だけでプレイ中には出ない。",
+            "es": "Critter Drop es un puzle tranquilo de soltar y fusionar. Unos animalitos redondos caen en un frasco, y cuando dos iguales se tocan, se aplastan en uno del tamaño siguiente. Hay doce, desde un pollito diminuto hasta una ballena. Arrastra para apuntar y suelta para dejarlo caer. Una guía muestra dónde caerá cada animal, y el siguiente espera junto al borde. La pila rueda y se asienta, y una buena caída puede desatar una cadena de fusiones. Si un animal se queda por encima del borde, la partida termina, así que hay que dejar espacio. El desafío diario da a todos las mismas caídas, con el objetivo de hacer un panda en 60. Cada partida da monedas para 8 frascos, como tazas de té, una pecera y un jacuzzi, y 8 fondos. Sin energía y sin esperas. Funciona sin conexión y sin cuenta. Gratis, con anuncios entre partidas, nunca durante el juego.",
+            "pt-BR": "Critter Drop é um quebra-cabeça tranquilo de soltar e juntar. Bichinhos redondos caem num pote, e quando dois iguais se encostam, eles se espremem num bicho do tamanho seguinte. São doze, de um pintinho minúsculo até uma baleia. Arraste para mirar e solte para derrubar. Uma guia mostra onde cada bicho vai cair, e o próximo espera na borda. A pilha rola e se acomoda, e uma boa jogada pode disparar uma cadeia de fusões. Se um bicho ficar acima da borda, a partida acaba, então é preciso deixar espaço. O desafio diário dá a todos a mesma sequência, com a meta de fazer um panda em 60. Cada partida rende moedas para 8 potes, como xícaras, um aquário e uma banheira de hidromassagem, e 8 fundos. Sem energia e sem espera. Funciona offline e sem conta. Grátis, com anúncios entre partidas, nunca durante o jogo."
+        },
+        "status": "Live",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.critterdrop",
+        "itchUrl": "https://crystllabs.itch.io/critterdrop",
+        "screenshots": [
+            "apps/shots/critter-drop/01.jpg",
+            "apps/shots/critter-drop/02.jpg",
+            "apps/shots/critter-drop/03.jpg",
+            "apps/shots/critter-drop/04.jpg",
+            "apps/shots/critter-drop/05.jpg"
+        ]
+    },
+    {
+        "id": "deep-six-hockey",
+        "slug": "deep-six-hockey",
+        "icon": "apps/deep-six-hockey.png",
+        "page": "apps/deep-six-hockey.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Deep Six Hockey",
+            "ko": "딥 식스 하키",
+            "ja": "ディープシックス・ホッケー",
+            "es": "Deep Six Hockey",
+            "pt-BR": "Deep Six Hockey"
+        },
+        "tagline": {
+            "en": "Underwater hockey. Pass, dive, score, and come up for air before your swimmer runs out.",
+            "ko": "수중 하키입니다. 패스하고, 잠수하고, 골을 넣고, 숨이 차기 전에 수면으로 올라오세요.",
+            "ja": "水中ホッケー。パスして潜ってゴールを決め、息が切れる前に水面へ。",
+            "es": "Hockey subacuático. Pasa, bucea, marca y sube a respirar antes de quedarte sin aire.",
+            "pt-BR": "Hóquei subaquático. Passe, mergulhe, marque e suba para respirar antes que o ar acabe."
+        },
+        "desc": {
+            "en": "Deep Six Hockey is arcade underwater hockey. You control the puck, swim into passing lanes, find a teammate and flick toward goal, all while keeping an eye on your air. Surface to recover breath, but a swimmer at the surface cannot carry the puck, so the real skill is switching to a rested teammate at the right moment. Pick wide, pressing or defensive formations to change how your team moves. Matches end at five goals or after 150 seconds. There are 36 career stages and 36 challenges across six pool settings, plus offline daily challenges, practice, medals and personal records. Tokens earned in play unlock collection items. Settings cover assists, sound, music, vibration, reduced motion and a left-handed layout. Core play works offline and progress stays on your device. Free, with optional rewarded ads and occasional ads between finished sessions.",
+            "ko": "딥 식스 하키는 아케이드 수중 하키 게임입니다. 퍽을 몰고, 패스 길로 헤엄쳐 들어가 동료를 찾아 골문으로 퍽을 튕기면서도 남은 숨을 계속 신경 써야 합니다. 수면으로 올라가면 숨을 회복하지만 수면에 있는 선수는 퍽을 가질 수 없으니, 적절한 순간에 쉬고 있던 동료로 바꾸는 것이 핵심입니다. 와이드, 압박, 수비 포메이션을 골라 팀의 움직임을 바꿀 수 있습니다. 경기는 5골이 나오거나 150초가 지나면 끝납니다. 6가지 수영장 배경에서 커리어 36스테이지와 챌린지 36개가 준비되어 있고, 오프라인 일일 챌린지, 연습, 메달, 개인 기록도 있습니다. 플레이로 모은 토큰으로 컬렉션 아이템을 열 수 있습니다. 보조 기능, 효과음, 음악, 진동, 모션 줄이기, 왼손잡이 배치를 설정할 수 있습니다. 핵심 플레이는 오프라인으로 가능하고 진행 상황은 기기에 저장됩니다. 무료이며, 선택형 보상 광고와 세션을 마친 뒤 가끔 나오는 광고가 있습니다.",
+            "ja": "『ディープシックス・ホッケー』はアーケード風の水中ホッケー。パックを操り、パスコースへ泳ぎ込み、味方を見つけてゴールへはじき出す。その間も残りの息から目は離せない。水面に上がれば息は回復するが、水面にいる選手はパックを持てない。だから休んでいた味方へ切り替えるタイミングが勝負を分ける。ワイド、プレス、守備のフォーメーションでチームの動きを変えられる。試合は5ゴールか150秒で終了。6種類のプールでキャリア36ステージとチャレンジ36個があり、オフラインのデイリーチャレンジ、練習、メダル、自己ベストも用意されている。プレイで貯めたトークンでコレクションアイテムを解放できる。アシスト、効果音、音楽、振動、モーション軽減、左手用レイアウトを設定可能。基本プレイはオフラインで遊べ、進行状況は端末に保存される。無料で、任意のリワード広告と、セッションの合間にときどき広告がある。",
+            "es": "Deep Six Hockey es hockey subacuático de estilo arcade. Controlas el disco, nadas hacia las líneas de pase, buscas a un compañero y lo lanzas hacia la portería, sin perder de vista tu aire. Subir a la superficie te devuelve el aliento, pero un nadador en la superficie no puede llevar el disco, así que la clave está en cambiar a un compañero descansado en el momento justo. Elige formaciones abiertas, de presión o defensivas para cambiar cómo se mueve tu equipo. Los partidos terminan a los cinco goles o a los 150 segundos. Hay 36 etapas de carrera y 36 desafíos en seis piscinas, además de desafíos diarios sin conexión, práctica, medallas y récords personales. Las fichas que ganas jugando desbloquean objetos de colección. Los ajustes incluyen asistencias, sonido, música, vibración, movimiento reducido y controles para zurdos. El juego principal funciona sin conexión y el progreso queda en tu dispositivo. Gratis, con anuncios con recompensa opcionales y anuncios ocasionales entre sesiones.",
+            "pt-BR": "Deep Six Hockey é hóquei subaquático em estilo arcade. Você controla o disco, nada para as linhas de passe, encontra um companheiro e lança em direção ao gol, sem perder de vista o seu ar. Subir à superfície recupera o fôlego, mas um nadador na superfície não pode levar o disco, então o segredo é trocar para um companheiro descansado na hora certa. Escolha formações abertas, de pressão ou defensivas para mudar como o time se move. As partidas terminam com cinco gols ou após 150 segundos. São 36 etapas de carreira e 36 desafios em seis piscinas, além de desafios diários offline, treino, medalhas e recordes pessoais. As fichas ganhas jogando liberam itens de coleção. As configurações incluem assistências, som, música, vibração, movimento reduzido e layout para canhotos. O jogo principal funciona offline e o progresso fica no seu aparelho. Grátis, com anúncios premiados opcionais e anúncios ocasionais entre sessões."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/deepsixhockey",
+        "screenshots": [
+            "apps/shots/deep-six-hockey/01.jpg",
+            "apps/shots/deep-six-hockey/02.jpg"
+        ]
+    },
+    {
+        "id": "dune-sail",
+        "slug": "dune-sail",
+        "icon": "apps/dune-sail.png",
+        "page": "apps/dune-sail.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Dune Sail",
+            "ko": "듄 세일",
+            "ja": "デューン・セイル",
+            "es": "Dune Sail",
+            "pt-BR": "Dune Sail"
+        },
+        "tagline": {
+            "en": "No engine, just wind. Trim the sail and tack a land yacht through desert checkpoints.",
+            "ko": "엔진 없이 바람만으로. 돛을 조절하며 랜드 요트로 사막의 체크포인트를 통과하세요.",
+            "ja": "エンジンなし、頼れるのは風だけ。帆を調整してランドヨットで砂漠を駆け抜けろ。",
+            "es": "Sin motor, solo viento. Ajusta la vela y cruza los puntos de control del desierto.",
+            "pt-BR": "Sem motor, só vento. Ajuste a vela e cruze os pontos de controle do deserto."
+        },
+        "desc": {
+            "en": "Dune Sail is a racing game about three-wheeled land yachts. There is no engine, only wind, wheels and the timing of your turns. You steer through checkpoints, trim your sail and tack across the breeze to keep moving. Race 18 routes across three desert settings with nine yacht profiles, and take on 30 wind challenges. Assisted trim teaches you the wind window, while manual trim puts a sail slider in your hands. Save a local ghost of your best route and race against it. Endurance stretches a route into three laps and 18 checkpoints. Career progression, offline daily challenges, practice, medals and personal records track how you are doing, and tokens earned in play unlock collection items. Settings include assists, sound, music, vibration, reduced motion and a left-handed layout. Core play works offline and progress stays on your device. Free, with optional rewarded ads and occasional ads between sessions.",
+            "ko": "듄 세일은 세 바퀴 랜드 요트로 달리는 레이싱 게임입니다. 엔진은 없고 바람과 바퀴, 그리고 회전 타이밍만 있습니다. 체크포인트를 지나며 돛을 조절하고, 바람을 가로질러 태킹하며 속도를 유지해야 합니다. 3가지 사막 배경에서 18개 코스를 9종의 요트로 달리고, 바람 챌린지 30개에 도전할 수 있습니다. 보조 트림은 바람의 범위를 알려 주고, 수동 트림은 돛 슬라이더를 직접 조작하게 해 줍니다. 최고 기록 코스를 로컬 고스트로 저장해 겨룰 수도 있습니다. 내구 모드는 코스를 3바퀴, 체크포인트 18개로 늘립니다. 커리어 진행, 오프라인 일일 챌린지, 연습, 메달, 개인 기록이 있고, 플레이로 모은 토큰으로 컬렉션 아이템을 열 수 있습니다. 보조 기능, 효과음, 음악, 진동, 모션 줄이기, 왼손잡이 배치를 설정할 수 있습니다. 핵심 플레이는 오프라인으로 가능하고 진행 상황은 기기에 저장됩니다. 무료이며, 선택형 보상 광고와 세션 사이에 가끔 나오는 광고가 있습니다.",
+            "ja": "『デューン・セイル』は三輪のランドヨットで走るレースゲーム。エンジンはなく、あるのは風と車輪、そしてターンのタイミングだけ。チェックポイントを抜けながら帆を調整し、風を横切るようにタックして速度を保つ。3種類の砂漠で18コースを9種類のヨットで走り、30の風チャレンジにも挑める。アシストトリムは風の範囲を教えてくれ、マニュアルトリムでは帆のスライダーを自分で操作する。ベストの走りをローカルのゴーストとして保存し、それと競うこともできる。エンデュランスではコースが3周、チェックポイント18個に延びる。キャリア、オフラインのデイリーチャレンジ、練習、メダル、自己ベストがあり、プレイで貯めたトークンでコレクションアイテムを解放できる。アシスト、効果音、音楽、振動、モーション軽減、左手用レイアウトを設定可能。基本プレイはオフラインで遊べ、進行状況は端末に保存される。無料で、任意のリワード広告とセッションの合間にときどき広告がある。",
+            "es": "Dune Sail es un juego de carreras de carros a vela de tres ruedas. No hay motor, solo viento, ruedas y el momento justo de cada giro. Pasas por los puntos de control, ajustas la vela y viras contra la brisa para no perder velocidad. Corre 18 rutas en tres desiertos con nueve tipos de carro y afronta 30 desafíos de viento. El ajuste asistido te enseña la ventana de viento, y el ajuste manual te da un control deslizante para la vela. Guarda un fantasma local de tu mejor ruta y compite contra él. El modo resistencia alarga una ruta a tres vueltas y 18 puntos de control. La carrera, los desafíos diarios sin conexión, la práctica, las medallas y los récords personales siguen tu progreso, y las fichas que ganas desbloquean objetos de colección. Los ajustes incluyen asistencias, sonido, música, vibración, movimiento reducido y controles para zurdos. El juego principal funciona sin conexión y el progreso queda en tu dispositivo. Gratis, con anuncios con recompensa opcionales y anuncios ocasionales entre sesiones.",
+            "pt-BR": "Dune Sail é um jogo de corrida com carros à vela de três rodas. Não há motor, só vento, rodas e o tempo certo de cada curva. Você passa pelos pontos de controle, ajusta a vela e bordeja contra a brisa para manter a velocidade. Corra 18 rotas em três desertos com nove tipos de carro e encare 30 desafios de vento. O ajuste assistido ensina a janela de vento, e o ajuste manual coloca um controle deslizante da vela nas suas mãos. Salve um fantasma local da sua melhor rota e corra contra ele. O modo resistência estica a rota para três voltas e 18 pontos de controle. A carreira, os desafios diários offline, o treino, as medalhas e os recordes pessoais acompanham seu progresso, e as fichas ganhas liberam itens de coleção. As configurações incluem assistências, som, música, vibração, movimento reduzido e layout para canhotos. O jogo principal funciona offline e o progresso fica no seu aparelho. Grátis, com anúncios premiados opcionais e anúncios ocasionais entre sessões."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/dunesail",
+        "screenshots": [
+            "apps/shots/dune-sail/01.jpg",
+            "apps/shots/dune-sail/02.jpg"
+        ]
+    },
+    {
+        "id": "fronton-fever",
+        "slug": "fronton-fever",
+        "icon": "apps/fronton-fever.png",
+        "page": "apps/fronton-fever.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Fronton Fever",
+            "ko": "프론톤 피버",
+            "ja": "フロントン・フィーバー",
+            "es": "Fronton Fever",
+            "pt-BR": "Fronton Fever"
+        },
+        "tagline": {
+            "en": "Catch it in the cesta, sling it at the front wall, and read the rebound. Arcade jai alai.",
+            "ko": "세스타로 받고, 앞벽으로 던지고, 튕겨 나오는 공을 읽으세요. 아케이드 하이알라이.",
+            "ja": "セスタで受けて前壁へ投げ、跳ね返りを読め。アーケード版ハイアライ。",
+            "es": "Atrapa con la cesta, lanza al frontis y lee el rebote. Cesta punta de estilo arcade.",
+            "pt-BR": "Receba com a cesta, lance na parede frontal e leia o rebote. Jai alai estilo arcade."
+        },
+        "desc": {
+            "en": "Fronton Fever is fast arcade jai alai. You catch the ball in your cesta, aim at the front wall and sling the next shot past your rival. Pick a drive, a lob, a side-wall shot or a backhand, then move to meet the return before its second bounce on the floor. Matches are seven-point duels, and optional catching assistance helps while you learn the rhythm of the walls. Play 40 career stages and 40 rebound challenges across six fronton settings, plus offline daily challenges, practice, medals and personal records. Tokens earned through play unlock collection items. Settings include assists, sound, music, vibration, reduced motion and a left-handed action layout. Core play works offline and progress stays on your device. Available in English, Spanish and Brazilian Portuguese. Free, with optional rewarded ads and occasional ads between finished sessions.",
+            "ko": "프론톤 피버는 빠른 아케이드 하이알라이 게임입니다. 세스타로 공을 받아 앞벽을 겨냥하고, 다음 샷을 상대 너머로 던집니다. 드라이브, 로브, 옆벽 샷, 백핸드 중 하나를 고른 뒤, 공이 바닥에 두 번 튀기 전에 움직여 받아내야 합니다. 경기는 7점 선취 대결이고, 벽의 리듬을 익히는 동안 선택형 캐치 보조가 도와줍니다. 6가지 프론톤 배경에서 커리어 40스테이지와 리바운드 챌린지 40개가 있고, 오프라인 일일 챌린지, 연습, 메달, 개인 기록도 있습니다. 플레이로 모은 토큰으로 컬렉션 아이템을 열 수 있습니다. 보조 기능, 효과음, 음악, 진동, 모션 줄이기, 왼손잡이 배치를 설정할 수 있습니다. 핵심 플레이는 오프라인으로 가능하고 진행 상황은 기기에 저장됩니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다. 무료이며, 선택형 보상 광고와 세션을 마친 뒤 가끔 나오는 광고가 있습니다.",
+            "ja": "『フロントン・フィーバー』はスピード感のあるアーケード版ハイアライ。セスタでボールを受け、前壁を狙って次のショットを相手の向こうへ投げ込む。ドライブ、ロブ、サイドウォールショット、バックハンドから選び、ボールが床で2回弾む前に動いて返球に合わせる。試合は7点先取の一騎打ちで、壁のリズムに慣れるまでは任意のキャッチアシストが助けてくれる。6種類のフロントンでキャリア40ステージとリバウンドチャレンジ40個があり、オフラインのデイリーチャレンジ、練習、メダル、自己ベストもある。プレイで貯めたトークンでコレクションアイテムを解放できる。アシスト、効果音、音楽、振動、モーション軽減、左手用レイアウトを設定可能。基本プレイはオフラインで遊べ、進行状況は端末に保存される。英語・スペイン語・ブラジルポルトガル語に対応。無料で、任意のリワード広告とセッションの合間にときどき広告がある。",
+            "es": "Fronton Fever es cesta punta rápida de estilo arcade. Atrapas la pelota con la cesta, apuntas al frontis y lanzas el siguiente tiro lejos de tu rival. Elige un tiro directo, un globo, un tiro a la pared lateral o un revés, y muévete para recibir la devolución antes de su segundo bote en el suelo. Los partidos son duelos a siete puntos, y una ayuda opcional para atrapar te acompaña mientras aprendes el ritmo de las paredes. Juega 40 etapas de carrera y 40 desafíos de rebote en seis frontones, además de desafíos diarios sin conexión, práctica, medallas y récords personales. Las fichas que ganas jugando desbloquean objetos de colección. Los ajustes incluyen asistencias, sonido, música, vibración, movimiento reducido y controles para zurdos. El juego principal funciona sin conexión y el progreso queda en tu dispositivo. Disponible en inglés, español y portugués de Brasil. Gratis, con anuncios con recompensa opcionales y anuncios ocasionales entre sesiones.",
+            "pt-BR": "Fronton Fever é jai alai rápido em estilo arcade. Você pega a bola com a cesta, mira na parede frontal e lança o próximo tiro longe do rival. Escolha um tiro direto, um lob, um tiro na parede lateral ou um backhand, e se mova para receber a devolução antes do segundo quique no chão. As partidas são duelos de sete pontos, e uma ajuda opcional para pegar a bola acompanha você enquanto aprende o ritmo das paredes. Jogue 40 etapas de carreira e 40 desafios de rebote em seis frontões, além de desafios diários offline, treino, medalhas e recordes pessoais. As fichas ganhas jogando liberam itens de coleção. As configurações incluem assistências, som, música, vibração, movimento reduzido e layout para canhotos. O jogo principal funciona offline e o progresso fica no seu aparelho. Disponível em inglês, espanhol e português do Brasil. Grátis, com anúncios premiados opcionais e anúncios ocasionais entre sessões."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/frontonfever",
+        "screenshots": [
+            "apps/shots/fronton-fever/01.jpg",
+            "apps/shots/fronton-fever/02.jpg"
+        ]
+    },
+    {
+        "id": "granny-goes-rogue",
+        "slug": "granny-goes-rogue",
+        "icon": "apps/granny-goes-rogue.png",
+        "page": "apps/granny-goes-rogue.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Granny Goes Rogue",
+            "ko": "그래니 고즈 로그",
+            "ja": "グラニー・ゴーズ・ローグ",
+            "es": "Granny Goes Rogue",
+            "pt-BR": "Granny Goes Rogue"
+        },
+        "tagline": {
+            "en": "A retired gran sneaks past the guards, grabs the loot and gets home in time for tea.",
+            "ko": "은퇴한 할머니가 경비원 눈을 피해 보물을 챙기고 차 마실 시간에 맞춰 귀가합니다.",
+            "ja": "引退したおばあちゃんが警備員の目を盗み、お宝を手にお茶の時間までに帰宅する。",
+            "es": "Una abuela jubilada esquiva a los guardias, toma el botín y vuelve a casa a la hora del té.",
+            "pt-BR": "Uma vovó aposentada passa pelos guardas, pega o tesouro e volta a tempo do chá."
+        },
+        "desc": {
+            "en": "Granny Goes Rogue is a cozy stealth puzzle. A retired gran has one last job: sneak through the museum, grab the loot and get out before a guard spots her. Nobody gets hurt. If she is seen, a guard walks her home and she tries again. Swipe to shuffle one tile at a time, because Granny does not run. Guards walk their rounds with their sight cones on show, cameras sweep the halls, and every room is a small timing puzzle. Drop biscuits to call a guard away for a few seconds, or roll a ball of yarn and nearby guards stop to watch it. There are 60 hand-checked levels across an ice-cream parlour, a souvenir shop, a condo lobby and three museum halls, and a bot has solved every one. Take all the loot unseen and on time for three stars, and spend your takings on 40 pieces of furniture for her living room. Free with optional ads. No purchases, no account.",
+            "ko": "그래니 고즈 로그는 아늑한 잠입 퍼즐 게임입니다. 은퇴한 할머니에게 마지막 한 탕이 남았습니다. 박물관에 몰래 들어가 보물을 챙기고 경비원에게 들키기 전에 빠져나와야 합니다. 아무도 다치지 않습니다. 들키면 경비원이 할머니를 집까지 데려다주고, 할머니는 다시 도전합니다. 할머니는 뛰지 않으니 스와이프로 한 칸씩 걸어갑니다. 경비원은 시야 범위를 드러낸 채 순찰하고, 카메라는 복도를 훑으며, 방 하나하나가 작은 타이밍 퍼즐입니다. 비스킷을 떨어뜨려 경비원을 잠시 불러내거나, 털실 뭉치를 굴려 근처 경비원이 넋을 놓고 보게 만들 수 있습니다. 아이스크림 가게, 기념품점, 아파트 로비, 박물관 전시실 세 곳에 걸쳐 직접 확인한 레벨 60개가 있고, 모두 봇이 클리어해 본 레벨입니다. 들키지 않고 시간 안에 보물을 전부 챙기면 별 3개를 받고, 번 돈으로 할머니 거실에 가구 40점을 들일 수 있습니다. 무료이며 광고는 선택형입니다. 구매 요소도 계정도 없습니다.",
+            "ja": "『グラニー・ゴーズ・ローグ』はほっこり系のステルスパズル。引退したおばあちゃんに最後の仕事が残っている。博物館に忍び込み、お宝をつかんで、警備員に見つかる前に脱出するのだ。誰も傷つかない。見つかったら警備員がおばあちゃんを家まで送り届け、またやり直すだけ。おばあちゃんは走らないので、スワイプで1マスずつ進む。警備員は視界を見せながら巡回し、カメラは廊下を見張り、どの部屋も小さなタイミングパズルになっている。ビスケットを落とせば警備員を数秒引きつけられ、毛糸玉を転がせば近くの警備員が見とれて足を止める。アイスクリーム店、土産物店、マンションのロビー、博物館の3つの展示室に、手作業で確認した60のレベルがあり、すべてボットがクリアを確認済み。見つからず時間内にお宝を全部持ち帰れば星3つ。稼いだお金でおばあちゃんの居間に40点の家具をそろえられる。無料で広告は任意。課金なし、アカウント不要。",
+            "es": "Granny Goes Rogue es un puzle de sigilo acogedor. Una abuela jubilada tiene un último trabajo: colarse en el museo, tomar el botín y salir antes de que un guardia la vea. Nadie sale herido. Si la ven, un guardia la acompaña a casa y vuelve a intentarlo. Desliza para avanzar casilla a casilla, porque la abuela no corre. Los guardias hacen sus rondas con su campo de visión a la vista, las cámaras barren los pasillos y cada sala es un pequeño puzle de tiempos. Deja caer galletas para llamar a un guardia unos segundos, o haz rodar un ovillo de lana para que los guardias cercanos se paren a mirarlo. Hay 60 niveles revisados a mano en una heladería, una tienda de recuerdos, el vestíbulo de un edificio y tres salas de museo, y un bot ha resuelto cada uno. Llévate todo el botín sin que te vean y a tiempo para lograr tres estrellas, y gasta lo ganado en 40 muebles para su salón. Gratis con anuncios opcionales. Sin compras y sin cuenta.",
+            "pt-BR": "Granny Goes Rogue é um quebra-cabeça de furtividade aconchegante. Uma vovó aposentada tem um último trabalho: entrar escondida no museu, pegar o tesouro e sair antes que um guarda a veja. Ninguém se machuca. Se ela for vista, um guarda a leva para casa e ela tenta de novo. Deslize para andar uma casa de cada vez, porque a vovó não corre. Os guardas fazem a ronda com o campo de visão à mostra, as câmeras varrem os corredores e cada sala é um pequeno quebra-cabeça de tempo. Solte biscoitos para chamar um guarda por alguns segundos, ou role um novelo de lã para que os guardas por perto parem para olhar. São 60 níveis conferidos à mão numa sorveteria, numa loja de lembranças, no saguão de um prédio e em três salas de museu, e um robô já resolveu cada um. Leve todo o tesouro sem ser vista e no tempo para ganhar três estrelas, e gaste o que juntou em 40 móveis para a sala dela. Grátis com anúncios opcionais. Sem compras e sem conta."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/grannygoesrogue",
+        "screenshots": [
+            "apps/shots/granny-goes-rogue/01.jpg",
+            "apps/shots/granny-goes-rogue/02.jpg",
+            "apps/shots/granny-goes-rogue/03.jpg",
+            "apps/shots/granny-goes-rogue/04.jpg",
+            "apps/shots/granny-goes-rogue/05.jpg"
+        ]
+    },
+    {
+        "id": "inkline-panic",
+        "slug": "inkline-panic",
+        "icon": "apps/inkline-panic.png",
+        "page": "apps/inkline-panic.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Inkline Panic",
+            "ko": "잉크라인 패닉",
+            "ja": "インクライン・パニック",
+            "es": "Inkline Panic",
+            "pt-BR": "Inkline Panic"
+        },
+        "tagline": {
+            "en": "Your next step does not exist yet. Draw it, then watch the ink fade under your runner.",
+            "ko": "다음 발판은 아직 없습니다. 직접 그리고, 달리는 동안 잉크가 사라지는 걸 지켜보세요.",
+            "ja": "次の足場はまだない。描いて、走るそばからインクが消えていくのを見守れ。",
+            "es": "Tu próximo paso aún no existe. Dibújalo y mira cómo la tinta se borra bajo tu corredor.",
+            "pt-BR": "Seu próximo passo ainda não existe. Desenhe e veja a tinta sumir sob o seu corredor."
+        },
+        "desc": {
+            "en": "Inkline Panic is a runner where the ground ahead does not exist until you draw it. A little ink creature keeps moving across notebook pages full of gaps, and you sketch bridges and ramps with your finger before it gets there. Every stroke uses ink and fades after a few seconds, so a bridge drawn too early is gone by the time it is needed, and dashed lines warn you that one is about to disappear. Ink comes back while you are not drawing, which makes holding back part of the skill. Erasers cut through your lines, so you watch the route and make each stroke count. Collect stamps along the way and reach refill points to top up your supply. Doodle stars earned in play unlock ink color styles. Plays offline with no account, in English, Spanish and Brazilian Portuguese. Free, with occasional ads between runs and optional rewarded ads for extra stars.",
+            "ko": "잉크라인 패닉은 앞길이 직접 그리기 전까지 존재하지 않는 러너 게임입니다. 작은 잉크 생물이 구멍투성이 공책 위를 쉬지 않고 달리고, 여러분은 그 전에 손가락으로 다리와 경사로를 그려 줘야 합니다. 선을 그을 때마다 잉크가 들고 몇 초 뒤면 사라지기 때문에 너무 일찍 그린 다리는 정작 필요할 때 없어지고, 점선은 곧 사라질 다리를 알려 줍니다. 그리지 않는 동안 잉크가 다시 차오르니 참는 것도 실력입니다. 지우개는 그린 선을 끊어 버리므로 길을 잘 보고 한 획 한 획을 아껴야 합니다. 가는 길에 도장을 모으고 리필 지점에 닿으면 잉크를 보충할 수 있습니다. 플레이로 모은 낙서 별로 잉크 색상 스타일을 열 수 있습니다. 계정 없이 오프라인으로 즐길 수 있고 영어, 스페인어, 브라질 포르투갈어를 지원합니다. 무료이며, 판 사이에 가끔 광고가 나오고 추가 별을 주는 선택형 보상 광고가 있습니다.",
+            "ja": "『インクライン・パニック』は、描くまで足場が存在しないランナーゲーム。小さなインクの生き物が穴だらけのノートの上を走り続け、その先に指で橋や坂を描いてやる。線を引くたびにインクを使い、数秒で消えてしまうので、早く描きすぎた橋は必要なときにはもうない。点線は橋がもうすぐ消える合図だ。描いていない間はインクが戻ってくるので、我慢することも腕のうち。消しゴムは描いた線を断ち切るから、ルートをよく見て一筆一筆を大事にしよう。途中でスタンプを集め、補充ポイントでインクを回復できる。プレイで貯めたらくがきスターでインクの色スタイルを解放できる。アカウント不要でオフラインプレイ可能、英語・スペイン語・ブラジルポルトガル語に対応。無料で、プレイの合間にときどき広告が入り、追加スターがもらえる任意のリワード広告もある。",
+            "es": "Inkline Panic es un juego de correr en el que el suelo no existe hasta que lo dibujas. Una criaturita de tinta avanza sin parar por páginas de cuaderno llenas de huecos, y tú trazas puentes y rampas con el dedo antes de que llegue. Cada trazo gasta tinta y se borra a los pocos segundos, así que un puente dibujado demasiado pronto ya no estará cuando haga falta, y las líneas discontinuas avisan de que uno está por desaparecer. La tinta vuelve mientras no dibujas, así que saber esperar es parte del juego. Las gomas de borrar cortan tus líneas, por eso conviene mirar la ruta y aprovechar cada trazo. Recoge sellos por el camino y llega a los puntos de recarga para reponer tinta. Las estrellas de garabato que ganas desbloquean estilos de color para la tinta. Funciona sin conexión y sin cuenta, en inglés, español y portugués de Brasil. Gratis, con anuncios ocasionales entre partidas y anuncios con recompensa opcionales para más estrellas.",
+            "pt-BR": "Inkline Panic é um jogo de corrida em que o chão à frente só existe depois que você desenha. Uma criaturinha de tinta segue em frente por páginas de caderno cheias de buracos, e você traça pontes e rampas com o dedo antes que ela chegue. Cada traço gasta tinta e some depois de alguns segundos, então uma ponte desenhada cedo demais já terá sumido quando for necessária, e as linhas tracejadas avisam que uma está prestes a desaparecer. A tinta volta enquanto você não desenha, então saber esperar faz parte do jogo. Borrachas cortam suas linhas, por isso vale observar o caminho e aproveitar cada traço. Colete carimbos pelo caminho e alcance os pontos de recarga para repor a tinta. As estrelas de rabisco que você ganha liberam estilos de cor para a tinta. Funciona offline e sem conta, em inglês, espanhol e português do Brasil. Grátis, com anúncios ocasionais entre partidas e anúncios premiados opcionais para mais estrelas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/inklinepanic",
+        "screenshots": [
+            "apps/shots/inkline-panic/01.jpg",
+            "apps/shots/inkline-panic/02.jpg",
+            "apps/shots/inkline-panic/03.jpg",
+            "apps/shots/inkline-panic/04.jpg"
+        ]
+    },
+    {
         "id": "keepy-kitty",
         "slug": "keepy-kitty",
         "icon": "apps/keepy-kitty.png",
@@ -3291,6 +4648,459 @@ window.CRYSTL_APPS = [
             "apps/shots/keepy-kitty/03.jpg",
             "apps/shots/keepy-kitty/04.jpg",
             "apps/shots/keepy-kitty/05.jpg"
+        ]
+    },
+    {
+        "id": "little-ward",
+        "slug": "little-ward",
+        "icon": "apps/little-ward.png",
+        "page": "apps/little-ward.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Little Ward",
+            "ko": "리틀 워드",
+            "ja": "リトル・ワード",
+            "es": "Little Ward",
+            "pt-BR": "Little Ward"
+        },
+        "tagline": {
+            "en": "Lay out a small clinic, shorten the queues, and keep the staff from burning out.",
+            "ko": "작은 진료소를 설계하고, 대기 줄을 줄이고, 직원들이 지치지 않게 하세요.",
+            "ja": "小さな診療所をレイアウトし、待ち行列を短くし、スタッフが燃え尽きないようにする。",
+            "es": "Diseña una pequeña clínica, acorta las colas y evita que el personal se agote.",
+            "pt-BR": "Monte uma pequena clínica, encurte as filas e não deixe a equipe se esgotar."
+        },
+        "desc": {
+            "en": "Little Ward is a clinic management sim. You lay out a welcoming neighborhood clinic, guide patients through their visits and support the staff who keep it running. Arrange reception, consultation rooms, labs, imaging and observation areas, then handle supplies, cleaning, training and staff fatigue. Patients arrive with 24 fictional case types, each with its own required stages, and you improve the flow by choosing where rooms go and which queues get priority. A room in the right place or a shorter queue makes a visible difference. The clinic grows through 60 management contracts. You can pause when you need to think and change the simulation speed as things get busier, and three save slots let you try different approaches. Core play and progression work offline, in English, Spanish or Brazilian Portuguese. Free, with optional rewarded ads for a bonus and ads at breaks between shifts. Little Ward is fiction and not a source of medical advice.",
+            "ko": "리틀 워드는 진료소 경영 시뮬레이션입니다. 동네의 아늑한 진료소를 설계하고, 환자의 진료 과정을 안내하며, 진료소를 돌아가게 하는 직원들을 챙깁니다. 접수처, 진료실, 검사실, 영상 촬영실, 관찰실을 배치하고 물품, 청소, 교육, 직원 피로도를 관리합니다. 환자는 24가지 가상의 사례 유형으로 찾아오며 유형마다 거쳐야 할 단계가 정해져 있습니다. 방의 위치와 대기열 우선순위를 정해 흐름을 개선하면 됩니다. 제자리에 놓인 방 하나, 짧아진 줄 하나가 눈에 띄는 차이를 만듭니다. 진료소는 60개의 경영 계약을 거치며 성장합니다. 생각할 시간이 필요하면 일시정지하고, 바빠지면 시뮬레이션 속도를 바꿀 수 있으며, 저장 슬롯 3개로 여러 방식을 시험해 볼 수 있습니다. 핵심 플레이와 진행은 오프라인으로 가능하고 영어, 스페인어, 브라질 포르투갈어를 지원합니다. 무료이며, 보너스를 주는 선택형 보상 광고와 근무 교대 사이의 광고가 있습니다. 리틀 워드는 허구의 게임이며 의학적 조언을 제공하지 않습니다.",
+            "ja": "『リトル・ワード』は診療所経営シミュレーション。地域の居心地のいい診療所をレイアウトし、患者を受診の流れに沿って案内し、現場を回すスタッフを支える。受付、診察室、検査室、画像診断室、経過観察エリアを配置し、物品、清掃、研修、スタッフの疲労を管理する。患者は24種類の架空の症例タイプでやってきて、それぞれに通るべき段階がある。部屋の位置と待ち行列の優先度を決めて流れを改善していく。正しい場所に置いた部屋ひとつ、短くなった列ひとつがはっきりと違いを生む。診療所は60の経営契約を通じて成長する。考えたいときは一時停止でき、忙しくなればシミュレーション速度を変えられ、3つのセーブスロットで別のやり方も試せる。基本プレイと進行はオフラインで可能、英語・スペイン語・ブラジルポルトガル語に対応。無料で、ボーナスがもらえる任意のリワード広告と、シフトの合間の広告がある。本作はフィクションであり、医療上の助言を提供するものではない。",
+            "es": "Little Ward es un simulador de gestión de una clínica. Diseñas una clínica de barrio acogedora, guías a los pacientes en sus visitas y apoyas al personal que la mantiene en marcha. Coloca recepción, consultas, laboratorios, imagen y áreas de observación, y gestiona suministros, limpieza, formación y el cansancio del equipo. Los pacientes llegan con 24 tipos de casos ficticios, cada uno con sus etapas obligatorias, y mejoras el flujo eligiendo dónde va cada sala y qué colas tienen prioridad. Una sala bien ubicada o una cola más corta se nota. La clínica crece a lo largo de 60 contratos de gestión. Puedes pausar cuando necesites pensar y cambiar la velocidad de la simulación cuando todo se complica, y tres ranuras de guardado te dejan probar enfoques distintos. El juego y el progreso funcionan sin conexión, en inglés, español o portugués de Brasil. Gratis, con anuncios con recompensa opcionales para un bonus y anuncios en las pausas entre turnos. Little Ward es ficción y no ofrece consejo médico.",
+            "pt-BR": "Little Ward é um simulador de gestão de clínica. Você monta uma clínica de bairro acolhedora, guia os pacientes pelos atendimentos e apoia a equipe que mantém tudo funcionando. Organize recepção, consultórios, laboratórios, exames de imagem e áreas de observação, e cuide de suprimentos, limpeza, treinamento e cansaço da equipe. Os pacientes chegam com 24 tipos de casos fictícios, cada um com suas etapas obrigatórias, e você melhora o fluxo escolhendo onde ficam as salas e quais filas têm prioridade. Uma sala no lugar certo ou uma fila menor faz diferença visível. A clínica cresce ao longo de 60 contratos de gestão. Dá para pausar quando precisar pensar e mudar a velocidade da simulação quando tudo apertar, e três espaços de salvamento deixam você testar abordagens diferentes. O jogo e o progresso funcionam offline, em inglês, espanhol ou português do Brasil. Grátis, com anúncios premiados opcionais para um bônus e anúncios nas pausas entre turnos. Little Ward é ficção e não oferece orientação médica."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/littleward",
+        "screenshots": [
+            "apps/shots/little-ward/01.jpg",
+            "apps/shots/little-ward/02.jpg",
+            "apps/shots/little-ward/03.jpg"
+        ]
+    },
+    {
+        "id": "marble-mandate",
+        "slug": "marble-mandate",
+        "icon": "apps/marble-mandate.png",
+        "page": "apps/marble-mandate.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Marble Mandate",
+            "ko": "마블 맨데이트",
+            "ja": "マーブル・マンデート",
+            "es": "Marble Mandate",
+            "pt-BR": "Marble Mandate"
+        },
+        "tagline": {
+            "en": "The marbles keep coming. Flip the track switches and send each one to the matching bin.",
+            "ko": "구슬은 계속 굴러옵니다. 선로 전환기를 바꿔 구슬마다 맞는 통으로 보내세요.",
+            "ja": "ビー玉は次々にやってくる。ポイントを切り替えて、それぞれ正しい箱へ送れ。",
+            "es": "Las canicas no paran de llegar. Cambia los desvíos y manda cada una a su contenedor.",
+            "pt-BR": "As bolinhas não param de chegar. Mude os desvios e mande cada uma para o cesto certo."
+        },
+        "desc": {
+            "en": "Marble Mandate is a sorting game played on track switches. Marked marbles roll down the track one after another, and you tap switch buttons to send each one into the bin with the matching symbol. The catch is timing. A switch locks while a marble is crossing it, so you tap to queue the next direction and it flips the moment the fork is clear. Heavy marbles roll slower than the rest, merges need space, and the next arrivals are already rolling into view while you are still sorting the last one, so you plan one switch ahead. A practice mode with slower arrivals lets you learn the layouts at an easier pace. Bolts earned in play unlock marble color styles. Plays offline with no account, in English, Spanish and Brazilian Portuguese. Free, with occasional ads between runs and optional rewarded ads for extra bolts.",
+            "ko": "마블 맨데이트는 선로 전환기로 하는 분류 게임입니다. 표시가 있는 구슬들이 차례로 굴러 내려오고, 전환 버튼을 탭해 구슬마다 같은 기호가 붙은 통으로 보내야 합니다. 관건은 타이밍입니다. 구슬이 지나가는 동안에는 전환기가 잠기기 때문에 다음 방향을 미리 예약해 두면 갈림길이 비는 순간 바뀝니다. 무거운 구슬은 더 느리게 구르고, 합류 지점에는 여유가 필요하며, 앞 구슬을 정리하는 사이 다음 구슬이 벌써 화면에 들어오니 늘 한 수 앞을 계획해야 합니다. 연습 모드에서는 구슬이 느리게 들어와 배치를 편하게 익힐 수 있습니다. 플레이로 모은 볼트로 구슬 색상 스타일을 열 수 있습니다. 계정 없이 오프라인으로 즐길 수 있고 영어, 스페인어, 브라질 포르투갈어를 지원합니다. 무료이며, 판 사이에 가끔 광고가 나오고 추가 볼트를 주는 선택형 보상 광고가 있습니다.",
+            "ja": "『マーブル・マンデート』は線路のポイントで遊ぶ仕分けゲーム。印の付いたビー玉が次々と転がってきて、ポイントのボタンをタップし、それぞれ同じ記号の箱へ送り込む。カギはタイミング。ビー玉が通過している間はポイントがロックされるので、次の向きを予約しておくと分岐が空いた瞬間に切り替わる。重いビー玉はゆっくり転がり、合流地点には余裕が必要で、前の玉をさばいているうちに次の玉がもう画面に入ってくる。だから常に一手先を読む。練習モードではビー玉がゆっくり来るので、配置を落ち着いて覚えられる。プレイで貯めたボルトでビー玉の色スタイルを解放できる。アカウント不要でオフラインプレイ可能、英語・スペイン語・ブラジルポルトガル語に対応。無料で、プレイの合間にときどき広告が入り、追加ボルトがもらえる任意のリワード広告もある。",
+            "es": "Marble Mandate es un juego de clasificar con desvíos de vía. Unas canicas marcadas bajan rodando una tras otra, y tú tocas los botones de los desvíos para mandar cada una al contenedor con el mismo símbolo. El truco está en el momento. Un desvío se bloquea mientras una canica lo cruza, así que tocas para dejar en cola la siguiente dirección y cambia en cuanto la bifurcación queda libre. Las canicas pesadas ruedan más lento, las uniones necesitan espacio y las siguientes ya aparecen mientras sigues ordenando la anterior, así que planeas con un desvío de ventaja. Un modo práctica con llegadas más lentas te deja aprender los recorridos con calma. Los tornillos que ganas desbloquean estilos de color para las canicas. Funciona sin conexión y sin cuenta, en inglés, español y portugués de Brasil. Gratis, con anuncios ocasionales entre partidas y anuncios con recompensa opcionales para más tornillos.",
+            "pt-BR": "Marble Mandate é um jogo de separar com desvios de trilho. Bolinhas marcadas descem uma atrás da outra, e você toca nos botões dos desvios para mandar cada uma ao cesto com o mesmo símbolo. O segredo é o tempo. Um desvio trava enquanto uma bolinha passa, então você toca para deixar a próxima direção na fila e ela muda assim que a bifurcação fica livre. As bolinhas pesadas rolam mais devagar, as junções precisam de espaço e as próximas já aparecem enquanto você ainda organiza a anterior, então você planeja com um desvio de antecedência. Um modo treino com chegadas mais lentas deixa você aprender os trajetos com calma. Os parafusos que você ganha liberam estilos de cor para as bolinhas. Funciona offline e sem conta, em inglês, espanhol e português do Brasil. Grátis, com anúncios ocasionais entre partidas e anúncios premiados opcionais para mais parafusos."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/marblemandate",
+        "screenshots": [
+            "apps/shots/marble-mandate/01.jpg",
+            "apps/shots/marble-mandate/02.jpg",
+            "apps/shots/marble-mandate/03.jpg",
+            "apps/shots/marble-mandate/04.jpg"
+        ]
+    },
+    {
+        "id": "orbit-yard",
+        "slug": "orbit-yard",
+        "icon": "apps/orbit-yard.png",
+        "page": "apps/orbit-yard.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Orbit Yard",
+            "ko": "오빗 야드",
+            "ja": "オービット・ヤード",
+            "es": "Orbit Yard",
+            "pt-BR": "Orbit Yard"
+        },
+        "tagline": {
+            "en": "Build an orbital service yard and keep power, oxygen and heat in line as ships arrive.",
+            "ko": "궤도 정비 기지를 짓고, 우주선이 도착하는 동안 전력, 산소, 열을 맞춰 두세요.",
+            "ja": "軌道上の整備ヤードを建設し、船が来るたびに電力・酸素・熱のバランスを保て。",
+            "es": "Construye un astillero orbital y mantén energía, oxígeno y calor a raya mientras llegan naves.",
+            "pt-BR": "Construa um estaleiro orbital e mantenha energia, oxigênio e calor sob controle."
+        },
+        "desc": {
+            "en": "Orbit Yard is a space station management sim. You build an orbital service yard where every module belongs to a working system, and every arriving ship tests your planning. Arrange 24 module types, from reactors and habitats to fabrication bays, and keep power, oxygen, heat and equipment condition in balance. Twelve ship profiles show up with different operational demands, so a layout that handles one may struggle with the next. Recruit crew, fabricate components and push station research forward as you work through 60 contracts. You can pause when you need to think, change the simulation speed as the operation grows, and use three save slots to try different builds. Core play and progression work offline. Available in English, Spanish and Brazilian Portuguese, switchable in Settings. Free, with optional rewarded ads for a bonus and ads at breaks between shifts.",
+            "ko": "오빗 야드는 우주 정거장 경영 시뮬레이션입니다. 모든 모듈이 하나의 시스템으로 맞물려 돌아가는 궤도 정비 기지를 짓고, 우주선이 도착할 때마다 그 계획이 시험대에 오릅니다. 원자로와 거주 구역부터 제작실까지 24가지 모듈을 배치하고 전력, 산소, 열, 장비 상태의 균형을 맞추세요. 우주선 12종은 저마다 요구 사항이 달라서, 한 척을 잘 받아내던 배치가 다음 배에서는 버거울 수 있습니다. 승무원을 모집하고, 부품을 제작하고, 정거장 연구를 진행하며 60개의 계약을 완수합니다. 생각할 시간이 필요하면 일시정지하고, 규모가 커지면 시뮬레이션 속도를 바꿀 수 있으며, 저장 슬롯 3개로 여러 설계를 시험해 볼 수 있습니다. 핵심 플레이와 진행은 오프라인으로 가능합니다. 영어, 스페인어, 브라질 포르투갈어를 지원하며 설정에서 바꿀 수 있습니다. 무료이며, 보너스를 주는 선택형 보상 광고와 교대 사이의 광고가 있습니다.",
+            "ja": "『オービット・ヤード』は宇宙ステーション経営シミュレーション。すべてのモジュールがひとつのシステムとして噛み合う軌道整備ヤードを作り、船が到着するたびにその計画が試される。原子炉や居住区から製造ベイまで24種類のモジュールを配置し、電力、酸素、熱、設備の状態のバランスを取る。12種類の船はそれぞれ求めるものが違うため、ある船をうまくさばけた配置が次の船では手に余ることもある。クルーを雇い、部品を製造し、ステーションの研究を進めながら60の契約をこなしていく。考えたいときは一時停止でき、規模が大きくなればシミュレーション速度を変えられ、3つのセーブスロットで別の設計も試せる。基本プレイと進行はオフラインで可能。英語・スペイン語・ブラジルポルトガル語に対応し、設定で切り替えられる。無料で、ボーナスがもらえる任意のリワード広告と、シフトの合間の広告がある。",
+            "es": "Orbit Yard es un simulador de gestión de una estación espacial. Construyes un astillero orbital donde cada módulo forma parte de un sistema que funciona, y cada nave que llega pone a prueba tu planificación. Coloca 24 tipos de módulos, desde reactores y hábitats hasta bahías de fabricación, y mantén en equilibrio la energía, el oxígeno, el calor y el estado del equipo. Doce perfiles de nave llegan con exigencias distintas, así que una distribución que funciona con una puede quedarse corta con la siguiente. Contrata tripulación, fabrica componentes y avanza en la investigación de la estación mientras completas 60 contratos. Puedes pausar cuando necesites pensar, cambiar la velocidad de la simulación a medida que creces y usar tres ranuras de guardado para probar distintos diseños. El juego y el progreso funcionan sin conexión. Disponible en inglés, español y portugués de Brasil, con cambio de idioma en Ajustes. Gratis, con anuncios con recompensa opcionales para un bonus y anuncios en las pausas entre turnos.",
+            "pt-BR": "Orbit Yard é um simulador de gestão de estação espacial. Você constrói um estaleiro orbital em que cada módulo faz parte de um sistema funcionando, e cada nave que chega testa o seu planejamento. Organize 24 tipos de módulos, de reatores e habitats a baias de fabricação, e mantenha em equilíbrio energia, oxigênio, calor e estado dos equipamentos. Doze perfis de nave chegam com exigências diferentes, então um layout que dá conta de uma pode sofrer com a próxima. Recrute tripulação, fabrique componentes e avance a pesquisa da estação enquanto cumpre 60 contratos. Dá para pausar quando precisar pensar, mudar a velocidade da simulação conforme a operação cresce e usar três espaços de salvamento para testar projetos diferentes. O jogo e o progresso funcionam offline. Disponível em inglês, espanhol e português do Brasil, com troca de idioma nas Configurações. Grátis, com anúncios premiados opcionais para um bônus e anúncios nas pausas entre turnos."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/orbityard",
+        "screenshots": [
+            "apps/shots/orbit-yard/01.jpg",
+            "apps/shots/orbit-yard/02.jpg",
+            "apps/shots/orbit-yard/03.jpg"
+        ]
+    },
+    {
+        "id": "parkade",
+        "slug": "parkade",
+        "icon": "apps/parkade.png",
+        "page": "apps/parkade.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Parkade",
+            "ko": "파케이드",
+            "ja": "パーケード",
+            "es": "Parkade",
+            "pt-BR": "Parkade"
+        },
+        "tagline": {
+            "en": "Every car is boxed in. Tap them out in the right order, and do not bump anyone.",
+            "ko": "모든 차가 꽉 막혀 있습니다. 올바른 순서로 탭해서 빼내고, 부딪히지 마세요.",
+            "ja": "どの車もぎっしり詰まっている。正しい順番でタップして出そう。ぶつけないように。",
+            "es": "Todos los autos están encerrados. Sácalos en el orden correcto y sin chocar con nadie.",
+            "pt-BR": "Todos os carros estão presos. Tire cada um na ordem certa, sem bater em ninguém."
+        },
+        "desc": {
+            "en": "Parkade is a parking jam puzzle seen from straight above. Every car in the lot is boxed in, and each has an arrow on its roof. Tap a car and it drives the way its arrow points, either out onto the street or into whatever is in its way. Find the car that can leave first, then the next, until the lot is empty. A car that meets another bumps, honks and rolls back to its spot. That counts as a crash, and three crashes end the lot, so clear it with none for three stars. There are 120 lots, from 8 cars up to 40, and every one is checked to be clearable without a crash. Two-way cars show up from lot 21, where you swipe to pick a direction, and exit gates from lot 41. There is also a daily lot, day, dusk, snow and night lots, and paint sets for the cars. Plays offline with no account. Free, with an ad between some lots and no purchases.",
+            "ko": "파케이드는 바로 위에서 내려다보는 주차장 탈출 퍼즐입니다. 주차장의 모든 차가 꽉 막혀 있고, 차마다 지붕에 화살표가 있습니다. 차를 탭하면 화살표 방향으로 달려 나가 도로로 빠지거나, 앞을 막는 무언가에 부딪힙니다. 먼저 나갈 수 있는 차를 찾고, 그다음 차를 찾아 주차장을 비우세요. 다른 차와 만난 차는 쿵 부딪히고 경적을 울리며 제자리로 돌아갑니다. 이건 충돌로 처리되고 세 번 충돌하면 그 주차장은 끝나니, 한 번도 부딪히지 않고 비우면 별 3개입니다. 차 8대부터 40대까지 주차장 120개가 있고, 모두 충돌 없이 비울 수 있는지 검증되어 있습니다. 21번 주차장부터는 스와이프로 방향을 고르는 양방향 차가, 41번부터는 출구 게이트가 등장합니다. 일일 주차장, 낮, 해질녘, 눈, 밤 배경의 주차장, 차량 도색 세트도 있습니다. 계정 없이 오프라인으로 플레이할 수 있습니다. 무료이며, 일부 주차장 사이에 광고가 나오고 구매 요소는 없습니다.",
+            "ja": "『パーケード』は真上から見下ろす駐車場脱出パズル。駐車場の車はどれもぎっしり詰まっていて、屋根にはそれぞれ矢印がついている。車をタップすると矢印の方向へ走り出し、道路へ抜けるか、行く手をふさぐものにぶつかる。最初に出られる車を見つけ、次の車、その次と進めて駐車場を空にしよう。ほかの車に当たった車はぶつかってクラクションを鳴らし、元の場所へ戻る。これは衝突扱いで、3回衝突するとその駐車場は失敗。1回もぶつけずに空にすれば星3つ。車8台から40台まで駐車場は全120面、どれも衝突なしでクリアできることを確認済み。21面からはスワイプで向きを選ぶ双方向の車が、41面からは出口ゲートが登場する。デイリー駐車場、昼・夕暮れ・雪・夜の駐車場、車の塗装セットもある。アカウント不要でオフラインプレイ可能。無料で、一部の面の合間に広告が入る。課金要素はない。",
+            "es": "Parkade es un puzle de atasco de aparcamiento visto desde arriba. Todos los autos del estacionamiento están encerrados y cada uno lleva una flecha en el techo. Toca un auto y avanza hacia donde apunta su flecha, ya sea a la calle o contra lo que tenga delante. Encuentra el auto que puede salir primero, luego el siguiente, hasta vaciar el lote. Un auto que se topa con otro choca, toca la bocina y vuelve a su sitio. Eso cuenta como choque, y tres choques terminan el lote, así que vacíalo sin ninguno para lograr tres estrellas. Hay 120 lotes, de 8 a 40 autos, y cada uno está comprobado para poder vaciarse sin choques. Desde el lote 21 aparecen autos de doble sentido, donde deslizas para elegir dirección, y desde el 41 puertas de salida. También hay un lote diario, lotes de día, atardecer, nieve y noche, y pinturas para los autos. Funciona sin conexión y sin cuenta. Gratis, con un anuncio entre algunos lotes y sin compras.",
+            "pt-BR": "Parkade é um quebra-cabeça de estacionamento visto de cima. Todos os carros do estacionamento estão presos, e cada um tem uma seta no teto. Toque num carro e ele anda para onde a seta aponta, seja para a rua ou contra o que estiver no caminho. Encontre o carro que pode sair primeiro, depois o próximo, até esvaziar o estacionamento. Um carro que encontra outro bate, buzina e volta para a vaga. Isso conta como batida, e três batidas encerram o estacionamento, então esvazie sem nenhuma para ganhar três estrelas. São 120 estacionamentos, de 8 a 40 carros, e cada um é verificado para poder ser esvaziado sem batidas. A partir do 21 aparecem carros de mão dupla, em que você desliza para escolher a direção, e a partir do 41, portões de saída. Também há um estacionamento diário, cenários de dia, entardecer, neve e noite, e pinturas para os carros. Funciona offline e sem conta. Grátis, com um anúncio entre alguns estacionamentos e sem compras."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/parkade",
+        "screenshots": [
+            "apps/shots/parkade/01.jpg",
+            "apps/shots/parkade/02.jpg",
+            "apps/shots/parkade/03.jpg",
+            "apps/shots/parkade/04.jpg",
+            "apps/shots/parkade/05.jpg"
+        ]
+    },
+    {
+        "id": "picnic-pile",
+        "slug": "picnic-pile",
+        "icon": "apps/picnic-pile.png",
+        "page": "apps/picnic-pile.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Picnic Pile",
+            "ko": "피크닉 파일",
+            "ja": "ピクニック・パイル",
+            "es": "Picnic Pile",
+            "pt-BR": "Picnic Pile"
+        },
+        "tagline": {
+            "en": "Pick food off a 3D picnic pile, match three alike in the tray, and clear the blanket.",
+            "ko": "3D 피크닉 더미에서 음식을 골라 트레이에 같은 것 셋을 맞추고 돗자리를 비우세요.",
+            "ja": "3Dのピクニックの山から食べ物を取り、トレーで3つそろえてシートを片づけよう。",
+            "es": "Toma comida de una pila de picnic en 3D, junta tres iguales en la bandeja y limpia la manta.",
+            "pt-BR": "Pegue comida de uma pilha de piquenique 3D, junte três iguais na bandeja e limpe a toalha."
+        },
+        "desc": {
+            "en": "Picnic Pile is a triple match puzzle on a picnic blanket buried in 3D food. Tap an item on top of the pile to send it to the tray, and match three alike to clear them. The tray holds seven, so you plan your picks. Every tap takes the item right where you touched, and pulling one out from under others makes the food it was holding up tumble into new places. Fill the tray without a match or run out of time and the level is lost. Piles start at 30 items and grow to 90 in 26 kinds, drawn from 40 foods like burgers, tacos, watermelons and donuts. Clear inside half the timer for three stars, and pop the two kinds on each level's order card first for bonus coins. There is a daily pile, and coins buy 4 blankets and 20 pieces for your picnic spot. Plays offline with no account. Free, with ads between levels, never during play, and no purchases.",
+            "ko": "피크닉 파일은 3D 음식이 수북이 쌓인 돗자리 위에서 즐기는 트리플 매치 퍼즐입니다. 더미 맨 위의 음식을 탭해 트레이로 보내고, 같은 것 셋을 맞추면 사라집니다. 트레이는 7칸이라 무엇을 집을지 계획해야 합니다. 탭한 바로 그 자리의 음식을 집으며, 다른 음식 밑에 깔린 것을 빼내면 그 위에 얹혀 있던 음식이 굴러 새 자리로 떨어집니다. 맞추지 못한 채 트레이가 차거나 시간이 다 되면 실패입니다. 더미는 30개로 시작해 26종류 90개까지 커지며, 햄버거, 타코, 수박, 도넛 등 40가지 음식이 나옵니다. 제한 시간의 절반 안에 비우면 별 3개이고, 레벨마다 주문 카드에 적힌 두 종류를 먼저 터뜨리면 보너스 코인을 받습니다. 일일 더미가 있고, 코인으로 돗자리 4종과 소품 20개를 사서 피크닉 장소를 꾸밀 수 있습니다. 계정 없이 오프라인으로 플레이할 수 있습니다. 무료이며, 광고는 레벨 사이에만 나오고 플레이 중에는 나오지 않으며 구매 요소는 없습니다.",
+            "ja": "『ピクニック・パイル』は、3Dの食べ物が山積みになったピクニックシートで遊ぶトリプルマッチパズル。山のいちばん上にある食べ物をタップしてトレーへ送り、同じものを3つそろえると消える。トレーは7枠なので、何を取るか計画が必要だ。タップした場所の食べ物をそのまま取るので、ほかの食べ物の下にあるものを抜くと、その上に載っていた食べ物が転がって新しい場所へ落ちる。そろわないままトレーが埋まるか、時間切れになると失敗。山は30個から始まり、26種類90個まで大きくなる。登場するのはハンバーガー、タコス、スイカ、ドーナツなど40種類の食べ物。制限時間の半分以内にクリアすれば星3つ、各レベルの注文カードにある2種類を先に消すとボーナスコインがもらえる。デイリーの山もあり、コインでシート4種類と20個の小物を買ってピクニックの場所を飾れる。アカウント不要でオフラインプレイ可能。無料で、広告はレベルの合間だけでプレイ中には出ない。課金要素はない。",
+            "es": "Picnic Pile es un puzle de juntar tres sobre una manta de picnic cubierta de comida en 3D. Toca un objeto de la parte de arriba de la pila para mandarlo a la bandeja, y junta tres iguales para eliminarlos. La bandeja tiene siete huecos, así que planeas lo que tomas. Cada toque se lleva el objeto justo donde tocaste, y sacar uno de debajo de otros hace que la comida que sostenía ruede a nuevos sitios. Si llenas la bandeja sin combinar o se acaba el tiempo, pierdes el nivel. Las pilas empiezan con 30 objetos y llegan a 90 de 26 tipos, entre 40 comidas como hamburguesas, tacos, sandías y donas. Termina en menos de la mitad del tiempo para tres estrellas, y elimina primero los dos tipos de la tarjeta de pedido de cada nivel para ganar monedas extra. Hay una pila diaria, y las monedas compran 4 mantas y 20 piezas para tu rincón de picnic. Funciona sin conexión y sin cuenta. Gratis, con anuncios entre niveles, nunca durante el juego, y sin compras.",
+            "pt-BR": "Picnic Pile é um quebra-cabeça de juntar três numa toalha de piquenique coberta de comida em 3D. Toque num item do topo da pilha para mandá-lo à bandeja, e junte três iguais para eliminá-los. A bandeja tem sete espaços, então você planeja o que pegar. Cada toque pega o item exatamente onde você tocou, e tirar um de baixo de outros faz a comida que ele segurava rolar para novos lugares. Encha a bandeja sem formar trio ou deixe o tempo acabar e você perde o nível. As pilhas começam com 30 itens e chegam a 90 de 26 tipos, entre 40 comidas como hambúrgueres, tacos, melancias e donuts. Termine em menos da metade do tempo para três estrelas, e elimine primeiro os dois tipos do cartão de pedido de cada nível para ganhar moedas extras. Há uma pilha diária, e as moedas compram 4 toalhas e 20 peças para o seu cantinho de piquenique. Funciona offline e sem conta. Grátis, com anúncios entre os níveis, nunca durante o jogo, e sem compras."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/picnicpile",
+        "screenshots": [
+            "apps/shots/picnic-pile/01.jpg",
+            "apps/shots/picnic-pile/02.jpg",
+            "apps/shots/picnic-pile/03.jpg",
+            "apps/shots/picnic-pile/04.jpg",
+            "apps/shots/picnic-pile/05.jpg"
+        ]
+    },
+    {
+        "id": "pocket-playmaker",
+        "slug": "pocket-playmaker",
+        "icon": "apps/pocket-playmaker.png",
+        "page": "apps/pocket-playmaker.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Pocket Playmaker",
+            "ko": "포켓 플레이메이커",
+            "ja": "ポケット・プレイメーカー",
+            "es": "Pocket Playmaker",
+            "pt-BR": "Pocket Playmaker"
+        },
+        "tagline": {
+            "en": "Draw a three-pass move through the defense, then curl the finish around the keeper.",
+            "ko": "수비 사이로 세 번의 패스를 그리고, 골키퍼를 휘감는 슛으로 마무리하세요.",
+            "ja": "守備の間に3本のパスを描き、キーパーを巻くシュートで仕上げる。",
+            "es": "Dibuja una jugada de tres pases entre la defensa y termina con un tiro con efecto.",
+            "pt-BR": "Desenhe uma jogada de três passes pela defesa e finalize com um chute de efeito."
+        },
+        "desc": {
+            "en": "Pocket Playmaker turns each soccer possession into a small puzzle. You read the moving defense, find a passing lane and bend your finish around the keeper. Start on the player with the bright ring, drag through up to three teammates and release to queue the passes, or make each pass separately. Then drag from the receiver into the goal to shoot, aiming left or right to curve the ball. The tactical clock slows while you draw a route, and defender footprints, a shot guide and a ball trail help you read the play. Each round is three possessions of 30 seconds, and you need at least one goal to clear it. There are 60 arrangements across four stadium looks and six defender movement styles, plus practice, bronze to gold medals, a daily challenge and an endless mode. Tokens unlock team color tints that do not change player power. Plays offline with no account. Free, with ads at breaks between sessions.",
+            "ko": "포켓 플레이메이커는 축구의 공격 한 번 한 번을 작은 퍼즐로 만듭니다. 움직이는 수비를 읽고, 패스 길을 찾고, 골키퍼를 휘감는 슛으로 마무리합니다. 밝은 고리가 있는 선수에서 시작해 최대 세 명의 동료를 거쳐 드래그하고 손을 떼면 패스가 예약되며, 패스를 하나씩 따로 할 수도 있습니다. 그다음 받은 선수에서 골문으로 드래그해 슛을 쏘고, 왼쪽이나 오른쪽을 겨냥해 공에 회전을 겁니다. 경로를 그리는 동안 전술 시계가 느려지고, 수비수 발자국, 슛 가이드, 공 궤적이 플레이를 읽도록 도와줍니다. 한 라운드는 30초짜리 공격 세 번이며, 한 골 이상 넣어야 클리어됩니다. 4가지 경기장 모습과 6가지 수비 움직임 스타일에 걸쳐 60개의 배치가 있고, 연습, 동메달부터 금메달, 일일 챌린지, 무한 모드도 있습니다. 토큰으로 팀 색상을 열 수 있지만 선수 능력은 바뀌지 않습니다. 계정 없이 오프라인으로 플레이할 수 있습니다. 무료이며 세션 사이에 광고가 나옵니다.",
+            "ja": "『ポケット・プレイメーカー』は、サッカーの1回1回の攻撃を小さなパズルにしたゲーム。動く守備を読み、パスコースを見つけ、キーパーを巻くシュートで仕上げる。明るいリングのついた選手から始め、最大3人の味方を通るようにドラッグして指を離すとパスが予約される。1本ずつ別々にパスを出すこともできる。次に受け手からゴールへドラッグしてシュート。左右に狙いをずらすとボールが曲がる。ルートを描いている間は戦術タイマーがゆっくりになり、ディフェンダーの足跡、シュートガイド、ボールの軌跡がプレイを読む手助けになる。1ラウンドは30秒の攻撃が3回で、1点以上決めればクリア。4種類のスタジアムと6種類の守備の動きにまたがる60の配置があり、練習、銅から金のメダル、デイリーチャレンジ、エンドレスモードもある。トークンでチームカラーを解放できるが、選手の能力は変わらない。アカウント不要でオフラインプレイ可能。無料で、セッションの合間に広告が入る。",
+            "es": "Pocket Playmaker convierte cada posesión de fútbol en un pequeño puzle. Lees la defensa en movimiento, encuentras una línea de pase y terminas con un tiro con efecto que rodea al portero. Empieza en el jugador con el anillo brillante, arrastra pasando por hasta tres compañeros y suelta para encadenar los pases, o haz cada pase por separado. Luego arrastra desde el receptor hacia la portería para tirar, apuntando a izquierda o derecha para curvar el balón. El reloj táctico se ralentiza mientras dibujas una ruta, y las huellas de los defensores, una guía de tiro y la estela del balón te ayudan a leer la jugada. Cada ronda son tres posesiones de 30 segundos, y necesitas al menos un gol para superarla. Hay 60 disposiciones en cuatro estadios y seis estilos de movimiento defensivo, además de práctica, medallas de bronce a oro, un desafío diario y un modo infinito. Las fichas desbloquean colores de equipo que no cambian la fuerza de los jugadores. Funciona sin conexión y sin cuenta. Gratis, con anuncios en las pausas entre sesiones.",
+            "pt-BR": "Pocket Playmaker transforma cada posse de bola num pequeno quebra-cabeça. Você lê a defesa em movimento, encontra uma linha de passe e finaliza com um chute de efeito em volta do goleiro. Comece no jogador com o anel brilhante, arraste passando por até três companheiros e solte para encadear os passes, ou faça cada passe separadamente. Depois arraste do recebedor até o gol para chutar, mirando à esquerda ou à direita para curvar a bola. O relógio tático desacelera enquanto você desenha a rota, e as pegadas dos defensores, um guia de chute e o rastro da bola ajudam a ler a jogada. Cada rodada tem três posses de 30 segundos, e você precisa de pelo menos um gol para passar. São 60 formações em quatro estádios e seis estilos de movimento defensivo, além de treino, medalhas de bronze a ouro, um desafio diário e um modo infinito. As fichas liberam cores de time que não mudam a força dos jogadores. Funciona offline e sem conta. Grátis, com anúncios nas pausas entre sessões."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/pocketplaymaker",
+        "screenshots": [
+            "apps/shots/pocket-playmaker/01.jpg",
+            "apps/shots/pocket-playmaker/02.jpg",
+            "apps/shots/pocket-playmaker/03.jpg",
+            "apps/shots/pocket-playmaker/04.jpg"
+        ]
+    },
+    {
+        "id": "polite-getaway",
+        "slug": "polite-getaway",
+        "icon": "apps/polite-getaway.png",
+        "page": "apps/polite-getaway.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Polite Getaway",
+            "ko": "폴라이트 겟어웨이",
+            "ja": "ポライト・ゲッタウェイ",
+            "es": "Polite Getaway",
+            "pt-BR": "Polite Getaway"
+        },
+        "tagline": {
+            "en": "You drive the getaway car. Stop at every red and let everyone else go first.",
+            "ko": "도주 차량은 당신이 몹니다. 빨간불마다 서고 다른 차에 먼저 양보하세요.",
+            "ja": "逃走車のハンドルを握るのはあなた。赤信号では必ず止まり、ほかの車に道を譲ろう。",
+            "es": "Conduces el coche de la huida. Para en cada semáforo en rojo y cede el paso a todos.",
+            "pt-BR": "Você dirige o carro da fuga. Pare em todo sinal vermelho e deixe todo mundo passar."
+        },
+        "desc": {
+            "en": "Polite Getaway is a driving game about the most careful getaway in history. The crew is in the back seat, the loot is in the boot, and the police are everywhere. The trick is to not look like a getaway car at all. Hold anywhere to drive and let go to brake. The route to the safehouse is set, so all you choose is when to go and when to wait. Run a red, speed past a patrol car or bump another car and suspicion climbs. Fill the meter and a chase starts, which loses you the round. Sitting still on a green looks odd too, and suspicion falls while you drive legally. There are 30 routes through a low-poly city, with traffic lights, cross traffic and police parked along the way, and a crew with opinions about every stop. Keep suspicion low for three stars, and fill a garage with 40 things, including five new getaway cars. Free with optional ads. No purchases, no account.",
+            "ko": "폴라이트 겟어웨이는 역사상 가장 조심스러운 도주를 다룬 운전 게임입니다. 뒷좌석엔 일당이, 트렁크엔 훔친 물건이 있고, 경찰은 어디에나 있습니다. 요령은 도주 차량처럼 보이지 않는 것입니다. 화면 아무 곳이나 누르고 있으면 달리고, 떼면 멈춥니다. 은신처까지 경로는 정해져 있으니 언제 가고 언제 기다릴지만 정하면 됩니다. 신호를 무시하거나, 순찰차 옆을 과속으로 지나가거나, 다른 차를 들이받으면 의심 수치가 오릅니다. 게이지가 가득 차면 추격전이 시작되고 그 판은 패배입니다. 초록불에 가만히 서 있어도 수상해 보이며, 법규를 지키며 달리면 의심이 줄어듭니다. 로우폴리 도시를 지나는 30개 경로에는 신호등, 교차 차량, 길가에 세워진 경찰차가 있고, 뒷좌석 일당은 정차할 때마다 한마디씩 합니다. 의심을 낮게 유지하면 별 3개를 받고, 새 도주 차량 5대를 포함한 40가지 물건으로 차고를 채울 수 있습니다. 무료이며 광고는 선택형입니다. 구매 요소도 계정도 없습니다.",
+            "ja": "『ポライト・ゲッタウェイ』は、史上もっとも慎重な逃走劇を描くドライブゲーム。後部座席には仲間、トランクには盗品、そして警察はどこにでもいる。コツは逃走車に見えないこと。画面のどこかを押している間は進み、離すとブレーキ。隠れ家までのルートは決まっているので、決めるのはいつ進んでいつ待つかだけだ。信号無視、パトカーの横でのスピード違反、ほかの車への接触で疑いが高まる。メーターが満タンになるとカーチェイスが始まり、そのラウンドは負け。青信号で止まったままでも怪しまれ、交通ルールを守って走れば疑いは下がっていく。ローポリの街を抜ける30のルートには信号、横切る車、道沿いに停まったパトカーがあり、後ろの仲間は停車のたびに口を出してくる。疑いを低く抑えれば星3つ。新しい逃走車5台を含む40のアイテムでガレージを埋められる。無料で広告は任意。課金なし、アカウント不要。",
+            "es": "Polite Getaway es un juego de conducción sobre la huida más prudente de la historia. La banda va en el asiento de atrás, el botín en el maletero y la policía está por todas partes. El truco es no parecer un coche de huida. Mantén pulsado en cualquier parte para avanzar y suelta para frenar. La ruta al piso franco está fijada, así que solo eliges cuándo arrancar y cuándo esperar. Si te saltas un rojo, pasas rápido junto a una patrulla o chocas con otro coche, la sospecha sube. Si el medidor se llena, empieza una persecución y pierdes la ronda. Quedarte parado en verde también resulta raro, y la sospecha baja mientras conduces dentro de la ley. Hay 30 rutas por una ciudad low-poly, con semáforos, tráfico cruzado y policías aparcados por el camino, y una banda que opina en cada parada. Mantén la sospecha baja para lograr tres estrellas y llena un garaje con 40 cosas, entre ellas cinco coches de huida nuevos. Gratis con anuncios opcionales. Sin compras y sin cuenta.",
+            "pt-BR": "Polite Getaway é um jogo de direção sobre a fuga mais cuidadosa da história. A turma está no banco de trás, o roubo está no porta-malas e a polícia está em todo lugar. O segredo é não parecer um carro de fuga. Segure em qualquer lugar para andar e solte para frear. A rota até o esconderijo já está definida, então você só escolhe quando ir e quando esperar. Furar um sinal vermelho, correr perto de uma viatura ou bater em outro carro faz a suspeita subir. Se o medidor encher, começa uma perseguição e você perde a rodada. Ficar parado no verde também parece estranho, e a suspeita cai enquanto você dirige dentro da lei. São 30 rotas por uma cidade low-poly, com semáforos, tráfego cruzado e policiais estacionados pelo caminho, e uma turma que dá palpite em cada parada. Mantenha a suspeita baixa para ganhar três estrelas e encha uma garagem com 40 itens, incluindo cinco carros de fuga novos. Grátis com anúncios opcionais. Sem compras e sem conta."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/politegetaway",
+        "screenshots": [
+            "apps/shots/polite-getaway/01.jpg",
+            "apps/shots/polite-getaway/02.jpg",
+            "apps/shots/polite-getaway/03.jpg",
+            "apps/shots/polite-getaway/04.jpg",
+            "apps/shots/polite-getaway/05.jpg"
+        ]
+    },
+    {
+        "id": "rally-remix",
+        "slug": "rally-remix",
+        "icon": "apps/rally-remix.png",
+        "page": "apps/rally-remix.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Rally Remix",
+            "ko": "랠리 리믹스",
+            "ja": "ラリー・リミックス",
+            "es": "Rally Remix",
+            "pt-BR": "Rally Remix"
+        },
+        "tagline": {
+            "en": "Portrait tennis with automatic footwork. You handle the spin, drop shots and lobs.",
+            "ko": "발놀림은 자동, 회전과 드롭샷, 로브는 당신 몫인 세로 화면 테니스.",
+            "ja": "フットワークは自動、スピンもドロップもロブも自分次第の縦画面テニス。",
+            "es": "Tenis en vertical con desplazamiento automático. Tú pones el efecto, las dejadas y los globos.",
+            "pt-BR": "Tênis na vertical com movimentação automática. Você cuida do efeito, das curtinhas e dos lobs."
+        },
+        "desc": {
+            "en": "Rally Remix is a portrait tennis game where footwork is automatic and shot placement is up to you. Swipe up to serve and return when the timing ring turns green. Swipe sideways for direction, vary the length for depth, or draw a curve to add spin, and choose Drive, Drop shot or Lob before your next swipe. Twelve named rivals play four styles: baseline builders, net rushers, angle hunters and deep defenders. Grass keeps the bounce low, clay sends it higher and hard courts play at their own pace. Rivals have to reach the ball to return it, so placement and shot choice matter. Matches are quick tie-breaks to seven with a two-point lead, and at 11-11 the next point decides it. Earn medals to unlock later rivals, practice against anyone, or take on a daily challenge. Tokens buy racket colors with no gameplay advantage. Plays offline with no account, no purchases and no online multiplayer. Free, with ads between matches.",
+            "ko": "랠리 리믹스는 발놀림은 자동이고 샷 배치는 직접 하는 세로 화면 테니스 게임입니다. 위로 스와이프해 서브하고, 타이밍 고리가 초록색이 될 때 리턴합니다. 옆으로 스와이프해 방향을 정하고, 길이로 깊이를 조절하고, 곡선을 그려 회전을 겁니다. 다음 스와이프 전에 드라이브, 드롭샷, 로브 중 하나를 고르세요. 이름이 있는 상대 12명은 베이스라이너, 네트 대시형, 앵글 사냥꾼, 수비형의 네 가지 스타일로 경기합니다. 잔디는 바운드가 낮고, 클레이는 높게 튀며, 하드 코트는 또 다른 속도로 움직입니다. 상대도 공에 닿아야 받아낼 수 있으니 코스와 샷 선택이 중요합니다. 경기는 2점 차로 7점을 먼저 내는 짧은 타이브레이크이고, 11대 11이 되면 다음 한 점으로 승부가 납니다. 메달을 따서 다음 상대를 열고, 누구와든 연습하거나 일일 챌린지에 도전하세요. 토큰으로 라켓 색상을 살 수 있지만 경기력에는 영향이 없습니다. 계정, 구매, 온라인 멀티플레이 없이 오프라인으로 즐길 수 있습니다. 무료이며 경기 사이에 광고가 나옵니다.",
+            "ja": "『ラリー・リミックス』は、フットワークは自動でショットの配球は自分で決める縦画面テニス。上にスワイプしてサーブ、タイミングリングが緑になったらリターン。横スワイプで方向、長さで深さを決め、カーブを描けばスピンがかかる。次のスワイプの前にドライブ、ドロップショット、ロブから選ぶ。名前のあるライバル12人は、ベースライン型、ネットダッシュ型、アングル狙い、守備型の4つのスタイルで戦う。芝はバウンドが低く、クレーは高く弾み、ハードコートはまた違うペース。相手もボールに追いつかなければ返せないので、コースとショット選びが大事だ。試合は2点差をつけて7点先取の短いタイブレークで、11対11になると次の1点で決着。メダルを取って次のライバルを解放し、誰とでも練習でき、デイリーチャレンジもある。トークンでラケットの色を買えるが、性能は変わらない。アカウント不要、課金なし、オンライン対戦なしでオフラインで遊べる。無料で、試合の合間に広告が入る。",
+            "es": "Rally Remix es un juego de tenis en vertical donde el desplazamiento es automático y la colocación de cada golpe depende de ti. Desliza hacia arriba para sacar y devuelve cuando el anillo de tiempo se ponga verde. Desliza de lado para la dirección, varía la longitud para la profundidad o dibuja una curva para dar efecto, y elige Drive, Dejada o Globo antes del siguiente gesto. Doce rivales con nombre juegan cuatro estilos: constructores desde el fondo, voleadores, cazadores de ángulos y defensores profundos. La hierba mantiene el bote bajo, la tierra batida lo eleva y la pista dura tiene su propio ritmo. Los rivales tienen que llegar a la bola para devolverla, así que la colocación y la elección del golpe importan. Los partidos son tie-breaks rápidos a siete con dos puntos de ventaja, y con 11-11 decide el siguiente punto. Gana medallas para desbloquear rivales, practica contra cualquiera o afronta un desafío diario. Las fichas compran colores de raqueta sin ventaja de juego. Sin conexión, sin cuenta, sin compras y sin multijugador en línea. Gratis, con anuncios entre partidos.",
+            "pt-BR": "Rally Remix é um jogo de tênis na vertical em que a movimentação é automática e a colocação de cada golpe fica com você. Deslize para cima para sacar e devolva quando o anel de tempo ficar verde. Deslize para os lados para a direção, varie o comprimento para a profundidade ou desenhe uma curva para dar efeito, e escolha Drive, Curtinha ou Lob antes do próximo gesto. Doze rivais com nome jogam em quatro estilos: construtores do fundo, voleadores, caçadores de ângulos e defensores recuados. A grama mantém o quique baixo, o saibro joga a bola mais alto e a quadra dura tem seu próprio ritmo. Os rivais precisam alcançar a bola para devolver, então colocação e escolha do golpe importam. As partidas são tie-breaks rápidos até sete com dois pontos de vantagem, e no 11-11 o próximo ponto decide. Ganhe medalhas para liberar rivais, treine contra qualquer um ou encare um desafio diário. As fichas compram cores de raquete sem vantagem no jogo. Offline, sem conta, sem compras e sem multijogador online. Grátis, com anúncios entre partidas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/rallyremix",
+        "screenshots": [
+            "apps/shots/rally-remix/01.jpg",
+            "apps/shots/rally-remix/02.jpg",
+            "apps/shots/rally-remix/03.jpg",
+            "apps/shots/rally-remix/04.jpg"
+        ]
+    },
+    {
+        "id": "reef-relay",
+        "slug": "reef-relay",
+        "icon": "apps/reef-relay.png",
+        "page": "apps/reef-relay.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Reef Relay",
+            "ko": "리프 릴레이",
+            "ja": "リーフ・リレー",
+            "es": "Reef Relay",
+            "pt-BR": "Reef Relay"
+        },
+        "tagline": {
+            "en": "Draw one current and a whole school of fish follows it home. 24 reefs, four-second lines.",
+            "ko": "물살 하나를 그리면 물고기 떼 전체가 따라 집으로 갑니다. 산호초 24곳, 4초짜리 선.",
+            "ja": "水流を一本描けば、魚の群れがまるごとついて帰っていく。24のサンゴ礁、4秒の線。",
+            "es": "Dibuja una corriente y todo un banco de peces la sigue a casa. 24 arrecifes, líneas de 4 s.",
+            "pt-BR": "Desenhe uma corrente e um cardume inteiro segue até em casa. 24 recifes, linhas de 4 s."
+        },
+        "desc": {
+            "en": "Reef Relay is a puzzle about steering a whole school of fish with one line. Draw a current, lift your finger to release it, and the fish follow it toward the arch that matches their badge. A current lasts four seconds, and drawing again replaces it. Round and slim fish turn at different speeds, so you leave room for the whole group. There are 24 reef boards with high and low exits, coral slaloms, overlapping schools, narrow currents and moving jellyfish. Badges use circle, triangle and square shapes, so color is never the only guide. Rescue twelve fish to clear a board for bronze, silver or gold, and save a whole school for bonus points and five extra seconds. Clear six boards to unlock Endless Current. Twelve school challenges pay pearls toward eight reef color themes, and a playable tutorial gets you started. Plays offline with no account. Free with ads, and ads never rescue fish, change medals or unlock boards.",
+            "ko": "리프 릴레이는 선 하나로 물고기 떼 전체를 이끄는 퍼즐입니다. 물살을 그리고 손가락을 떼면, 물고기들이 그 물살을 따라 자기 배지와 맞는 아치로 향합니다. 물살은 4초 동안 유지되고, 다시 그리면 새 물살로 바뀝니다. 둥근 물고기와 날씬한 물고기는 도는 속도가 달라서 무리 전체가 지나갈 여유를 둬야 합니다. 높고 낮은 출구, 산호 사이 슬라롬, 겹치는 물고기 떼, 좁은 물살, 움직이는 해파리가 있는 산호초 보드 24개가 준비되어 있습니다. 배지는 원, 삼각형, 사각형 모양이라 색깔만으로 구분할 필요가 없습니다. 물고기 12마리를 구하면 보드를 클리어하고 동, 은, 금메달을 받으며, 한 무리를 통째로 구하면 보너스 점수와 5초가 추가됩니다. 보드 6개를 클리어하면 엔드리스 커런트가 열립니다. 물고기 떼 챌린지 12개로 진주를 모아 산호초 색상 테마 8개를 열 수 있고, 직접 해 보는 튜토리얼로 시작할 수 있습니다. 계정 없이 오프라인으로 즐길 수 있습니다. 무료이며 광고가 있지만, 광고로 물고기를 구하거나 메달을 바꾸거나 보드를 여는 일은 없습니다.",
+            "ja": "『リーフ・リレー』は、一本の線で魚の群れ全体を導くパズル。水流を描いて指を離すと、魚たちはその流れに乗って自分のバッジと同じアーチへ向かう。水流は4秒間続き、描き直すと新しい流れに置き換わる。丸い魚と細い魚は曲がる速さが違うので、群れ全体が通れる余裕を残しておこう。高い出口と低い出口、サンゴの間のスラローム、重なり合う群れ、狭い水流、動くクラゲが登場するサンゴ礁ボードは全24面。バッジは丸、三角、四角の形で区別でき、色だけに頼る必要はない。魚を12匹救えばボードクリアで銅・銀・金メダル、群れをまるごと救えばボーナス点と5秒の追加。6面クリアでエンドレス・カレントが解放される。12の群れチャレンジで真珠を集め、8種類のサンゴ礁カラーテーマを解放できる。遊びながら覚えるチュートリアル付き。アカウント不要でオフラインプレイ可能。無料で広告ありだが、広告で魚が救われたりメダルが変わったりボードが解放されたりすることはない。",
+            "es": "Reef Relay es un puzle sobre guiar a todo un banco de peces con una sola línea. Dibuja una corriente, levanta el dedo para soltarla y los peces la siguen hacia el arco que coincide con su insignia. Una corriente dura cuatro segundos y dibujar otra la reemplaza. Los peces redondos y los delgados giran a velocidades distintas, así que dejas espacio para todo el grupo. Hay 24 arrecifes con salidas altas y bajas, eslálones entre corales, bancos que se cruzan, corrientes estrechas y medusas en movimiento. Las insignias usan círculo, triángulo y cuadrado, así que el color nunca es la única pista. Rescata doce peces para superar un arrecife con bronce, plata u oro, y salva un banco entero para ganar puntos extra y cinco segundos más. Supera seis arrecifes para desbloquear Corriente Infinita. Doce desafíos de banco dan perlas para ocho temas de color, y un tutorial jugable te ayuda a empezar. Funciona sin conexión y sin cuenta. Gratis con anuncios, y los anuncios nunca rescatan peces, cambian medallas ni desbloquean arrecifes.",
+            "pt-BR": "Reef Relay é um quebra-cabeça sobre guiar um cardume inteiro com uma única linha. Desenhe uma corrente, levante o dedo para soltá-la e os peixes a seguem até o arco que combina com o emblema deles. Uma corrente dura quatro segundos, e desenhar de novo a substitui. Peixes redondos e finos viram em velocidades diferentes, então você deixa espaço para o grupo todo. São 24 recifes com saídas altas e baixas, slaloms entre corais, cardumes que se cruzam, correntes estreitas e águas-vivas em movimento. Os emblemas usam círculo, triângulo e quadrado, então a cor nunca é a única pista. Resgate doze peixes para concluir um recife com bronze, prata ou ouro, e salve um cardume inteiro para ganhar pontos extras e cinco segundos a mais. Conclua seis recifes para liberar Corrente Infinita. Doze desafios de cardume rendem pérolas para oito temas de cor, e um tutorial jogável ajuda no começo. Funciona offline e sem conta. Grátis com anúncios, e os anúncios nunca resgatam peixes, mudam medalhas ou liberam recifes."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/reefrelay",
+        "screenshots": [
+            "apps/shots/reef-relay/01.jpg",
+            "apps/shots/reef-relay/02.jpg",
+            "apps/shots/reef-relay/03.jpg",
+            "apps/shots/reef-relay/04.jpg"
+        ]
+    },
+    {
+        "id": "second-life-works",
+        "slug": "second-life-works",
+        "icon": "apps/second-life-works.png",
+        "page": "apps/second-life-works.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Second Life Works",
+            "ko": "세컨드 라이프 웍스",
+            "ja": "セカンドライフ・ワークス",
+            "es": "Second Life Works",
+            "pt-BR": "Second Life Works"
+        },
+        "tagline": {
+            "en": "Turn a pile of scrap into useful products with conveyors, sorters and a lot of planning.",
+            "ko": "컨베이어와 분류기, 그리고 꼼꼼한 계획으로 고철 더미를 쓸모 있는 제품으로 바꾸세요.",
+            "ja": "コンベアと仕分け機、そして綿密な計画で、スクラップの山を役立つ製品に変える。",
+            "es": "Convierte un montón de chatarra en productos útiles con cintas, clasificadoras y planificación.",
+            "pt-BR": "Transforme uma pilha de sucata em produtos úteis com esteiras, separadores e planejamento."
+        },
+        "desc": {
+            "en": "Second Life Works is a recycling factory sim. You start with a pile of scrap and build a workshop that turns it into finished products through a production line you design. There are 28 machine and facility types, and you route materials through conveyors, splitters, sorters and processors to make 40 items, from small fittings to larger household goods. The line does not run itself. Contamination creeps in, power runs short, machines wear down and buffers back up, and keeping all of that under control is the job. Save your layout, try challenge variants and work through 60 factory contracts. You can pause when you need to think, change the simulation speed as the operation grows, and keep three save slots for different approaches. Core play and progression work offline. Available in English, Spanish and Brazilian Portuguese. Free, with optional rewarded ads for a bonus and ads at breaks between shifts.",
+            "ko": "세컨드 라이프 웍스는 재활용 공장 시뮬레이션입니다. 고철 더미에서 시작해, 직접 설계한 생산 라인으로 완제품을 만들어 내는 작업장을 짓습니다. 기계와 시설은 28종이며, 컨베이어, 분배기, 분류기, 가공기로 재료를 보내 작은 부품부터 큰 생활용품까지 40가지 물건을 만듭니다. 라인은 저절로 돌아가지 않습니다. 오염이 섞여 들고, 전력이 모자라고, 기계가 닳고, 버퍼가 막히는데, 이 모든 걸 관리하는 것이 여러분의 일입니다. 배치를 저장하고, 챌린지 변형에 도전하며, 60개의 공장 계약을 완수하세요. 생각할 시간이 필요하면 일시정지하고, 규모가 커지면 시뮬레이션 속도를 바꿀 수 있으며, 저장 슬롯 3개로 여러 방식을 시험할 수 있습니다. 핵심 플레이와 진행은 오프라인으로 가능합니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다. 무료이며, 보너스를 주는 선택형 보상 광고와 교대 사이의 광고가 있습니다.",
+            "ja": "『セカンドライフ・ワークス』はリサイクル工場シミュレーション。スクラップの山から始め、自分で設計した生産ラインで完成品を生み出す工房を作る。機械と設備は28種類。コンベア、分配器、仕分け機、加工機に素材を通し、小さな部品から大きな日用品まで40種類のアイテムを作る。ラインは勝手には回らない。異物が混ざり、電力が足りなくなり、機械はすり減り、バッファは詰まる。それをすべて管理するのがあなたの仕事だ。レイアウトを保存し、チャレンジのバリエーションに挑み、60の工場契約をこなしていく。考えたいときは一時停止でき、規模が大きくなればシミュレーション速度を変えられ、3つのセーブスロットで別のやり方も試せる。基本プレイと進行はオフラインで可能。英語・スペイン語・ブラジルポルトガル語に対応。無料で、ボーナスがもらえる任意のリワード広告と、シフトの合間の広告がある。",
+            "es": "Second Life Works es un simulador de fábrica de reciclaje. Empiezas con un montón de chatarra y construyes un taller que la convierte en productos terminados mediante una línea de producción que diseñas tú. Hay 28 tipos de máquinas e instalaciones, y llevas los materiales por cintas transportadoras, divisores, clasificadoras y procesadoras para fabricar 40 artículos, desde pequeñas piezas hasta objetos grandes para el hogar. La línea no funciona sola. Se cuela contaminación, falta energía, las máquinas se desgastan y los búferes se atascan, y mantener todo eso bajo control es tu trabajo. Guarda tu distribución, prueba variantes de desafío y completa 60 contratos de fábrica. Puedes pausar cuando necesites pensar, cambiar la velocidad de la simulación a medida que creces y tener tres ranuras de guardado para probar enfoques distintos. El juego y el progreso funcionan sin conexión. Disponible en inglés, español y portugués de Brasil. Gratis, con anuncios con recompensa opcionales para un bonus y anuncios en las pausas entre turnos.",
+            "pt-BR": "Second Life Works é um simulador de fábrica de reciclagem. Você começa com uma pilha de sucata e monta uma oficina que a transforma em produtos acabados numa linha de produção que você mesmo projeta. São 28 tipos de máquinas e instalações, e você leva os materiais por esteiras, divisores, separadores e processadores para fazer 40 itens, de pequenas peças a utilidades domésticas maiores. A linha não anda sozinha. Entra contaminação, falta energia, as máquinas se desgastam e os buffers travam, e manter tudo isso sob controle é o seu trabalho. Salve o layout, experimente variantes de desafio e cumpra 60 contratos de fábrica. Dá para pausar quando precisar pensar, mudar a velocidade da simulação conforme a operação cresce e manter três espaços de salvamento para abordagens diferentes. O jogo e o progresso funcionam offline. Disponível em inglês, espanhol e português do Brasil. Grátis, com anúncios premiados opcionais para um bônus e anúncios nas pausas entre turnos."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/secondlifeworks",
+        "screenshots": [
+            "apps/shots/second-life-works/01.jpg",
+            "apps/shots/second-life-works/02.jpg",
+            "apps/shots/second-life-works/03.jpg"
+        ]
+    },
+    {
+        "id": "stonecurl-tactics",
+        "slug": "stonecurl-tactics",
+        "icon": "apps/stonecurl-tactics.png",
+        "page": "apps/stonecurl-tactics.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Stonecurl Tactics",
+            "ko": "스톤컬 택틱스",
+            "ja": "ストーンカール・タクティクス",
+            "es": "Stonecurl Tactics",
+            "pt-BR": "Stonecurl Tactics"
+        },
+        "tagline": {
+            "en": "Pick the line, set the weight, sweep it to the button. Curling, played as a puzzle.",
+            "ko": "라인을 정하고, 세기를 맞추고, 버튼까지 스위핑하세요. 퍼즐처럼 즐기는 컬링.",
+            "ja": "ラインを選び、ウェイトを決め、ボタンまでスイープ。パズルとして遊ぶカーリング。",
+            "es": "Elige la línea, ajusta el peso y barre hasta el botón. Curling jugado como un puzle.",
+            "pt-BR": "Escolha a linha, ajuste a força e varra até o botão. Curling jogado como quebra-cabeça."
+        },
+        "desc": {
+            "en": "Stonecurl Tactics is curling built around decisions. For each stone you choose a line, set the delivery weight and sweep the shot toward the button. Collisions can move a guard or clear a scoring stone, so a single stone can change the whole end. Play quick two-end games, 60 tactical challenges, or a full eight-end arcade match with eight stones per team. Ice settings and four rival shot styles change what the right call is, and last-stone advantage switches after a scoring end. Tournament guard-protection rules are not enforced, so the game is about the shots, not the rulebook. Career progression, offline daily challenges, practice, medals and personal records give you reasons to come back, and tokens earned in play unlock collection items. Core play works offline and progress stays on your device. Available in English, Spanish and Brazilian Portuguese. Free, with optional rewarded ads and occasional ads between sessions.",
+            "ko": "스톤컬 택틱스는 판단에 초점을 맞춘 컬링 게임입니다. 스톤마다 라인을 고르고, 투구 세기를 정하고, 버튼을 향해 스위핑합니다. 충돌로 가드를 밀어내거나 득점 중인 스톤을 걷어낼 수 있어서 스톤 하나가 엔드 전체를 바꾸기도 합니다. 짧은 2엔드 경기, 전술 챌린지 60개, 팀당 8개의 스톤으로 치르는 8엔드 아케이드 경기를 즐길 수 있습니다. 빙판 설정과 4가지 상대 샷 스타일에 따라 정답이 달라지고, 득점한 엔드 뒤에는 마지막 스톤 우선권이 넘어갑니다. 대회용 가드 보호 규칙은 적용되지 않습니다. 커리어 진행, 오프라인 일일 챌린지, 연습, 메달, 개인 기록이 있고, 플레이로 모은 토큰으로 컬렉션 아이템을 열 수 있습니다. 핵심 플레이는 오프라인으로 가능하고 진행 상황은 기기에 저장됩니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다. 무료이며, 선택형 보상 광고와 세션 사이에 가끔 나오는 광고가 있습니다.",
+            "ja": "『ストーンカール・タクティクス』は判断を軸にしたカーリングゲーム。ストーンごとにラインを選び、投げるウェイトを決め、ボタンへ向けてスイープする。衝突でガードを動かしたり得点中のストーンをはじき出したりできるので、たった一投でエンド全体がひっくり返ることもある。短い2エンド戦、60の戦術チャレンジ、1チーム8投で戦う8エンドのアーケードマッチを遊べる。氷の設定と4種類の相手のショットスタイルで最善手が変わり、得点したエンドの後はラストストーンの権利が移る。大会用のガード保護ルールは採用していない。キャリア、オフラインのデイリーチャレンジ、練習、メダル、自己ベストがあり、プレイで貯めたトークンでコレクションアイテムを解放できる。基本プレイはオフラインで遊べ、進行状況は端末に保存される。英語・スペイン語・ブラジルポルトガル語に対応。無料で、任意のリワード広告とセッションの合間にときどき広告がある。",
+            "es": "Stonecurl Tactics es curling centrado en las decisiones. Para cada piedra eliges una línea, ajustas el peso del lanzamiento y barres el tiro hacia el botón. Los choques pueden mover una guardia o sacar una piedra que puntúa, así que una sola piedra puede cambiar todo el end. Juega partidas rápidas a dos ends, 60 desafíos tácticos o un partido arcade completo a ocho ends con ocho piedras por equipo. Los ajustes del hielo y cuatro estilos de tiro rivales cambian cuál es la jugada correcta, y la ventaja de la última piedra cambia tras un end con puntos. No se aplican las reglas de protección de guardias de torneo. La carrera, los desafíos diarios sin conexión, la práctica, las medallas y los récords personales te dan motivos para volver, y las fichas que ganas desbloquean objetos de colección. El juego principal funciona sin conexión y el progreso queda en tu dispositivo. Disponible en inglés, español y portugués de Brasil. Gratis, con anuncios con recompensa opcionales y anuncios ocasionales entre sesiones.",
+            "pt-BR": "Stonecurl Tactics é curling focado em decisões. Para cada pedra você escolhe a linha, ajusta a força do lançamento e varre a jogada até o botão. As colisões podem tirar uma guarda do lugar ou limpar uma pedra que está pontuando, então uma única pedra pode mudar o end inteiro. Jogue partidas rápidas de dois ends, 60 desafios táticos ou uma partida arcade completa de oito ends com oito pedras por equipe. As condições do gelo e quatro estilos de jogada dos rivais mudam qual é a decisão certa, e a vantagem da última pedra troca de lado após um end com pontos. As regras de proteção de guarda de torneio não são aplicadas. A carreira, os desafios diários offline, o treino, as medalhas e os recordes pessoais dão motivos para voltar, e as fichas ganhas liberam itens de coleção. O jogo principal funciona offline e o progresso fica no seu aparelho. Disponível em inglês, espanhol e português do Brasil. Grátis, com anúncios premiados opcionais e anúncios ocasionais entre sessões."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/stonecurltactics",
+        "screenshots": [
+            "apps/shots/stonecurl-tactics/01.jpg",
+            "apps/shots/stonecurl-tactics/02.jpg"
+        ]
+    },
+    {
+        "id": "switchback-couriers",
+        "slug": "switchback-couriers",
+        "icon": "apps/switchback-couriers.png",
+        "page": "apps/switchback-couriers.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Switchback Couriers",
+            "ko": "스위치백 쿠리어스",
+            "ja": "スイッチバック・クーリエズ",
+            "es": "Switchback Couriers",
+            "pt-BR": "Switchback Couriers"
+        },
+        "tagline": {
+            "en": "A small depot, a city full of parcels, and a fleet that has to make every trip count.",
+            "ko": "작은 창고, 소포로 가득한 도시, 그리고 한 번의 운행도 헛되이 할 수 없는 차량들.",
+            "ja": "小さな倉庫、荷物であふれる街、そして一便も無駄にできない配送車たち。",
+            "es": "Un depósito pequeño, una ciudad llena de paquetes y una flota que no puede perder viajes.",
+            "pt-BR": "Um depósito pequeno, uma cidade cheia de pacotes e uma frota que não pode perder viagem."
+        },
+        "desc": {
+            "en": "Switchback Couriers is a delivery logistics sim. You start with a small depot and a city full of parcels, and turn daily deliveries into a working network by connecting roads, choosing vehicles and making every trip count. Build a connected road network across four delivery districts and pick from ten vehicle configurations for different cargo demands. Consolidate loads so vehicles do not run half empty, and keep an eye on fuel, vehicle condition and training. Traffic and weather change, so the routes that worked yesterday may need adjusting today. The depot grows through 60 delivery contracts. You can pause to plan, change the simulation speed as the fleet grows, and use three save slots to try different setups. Core play and progression work offline. Available in English, Spanish and Brazilian Portuguese. Free, with optional rewarded ads for a bonus and ads at breaks between shifts.",
+            "ko": "스위치백 쿠리어스는 배송 물류 시뮬레이션입니다. 작은 창고와 소포로 가득한 도시에서 시작해, 도로를 잇고 차량을 고르고 한 번의 운행도 허투루 하지 않으며 매일의 배송을 제대로 돌아가는 네트워크로 만들어 갑니다. 4개 배송 구역에 걸쳐 도로망을 연결하고, 화물 종류에 맞춰 10가지 차량 구성 중에서 고르세요. 차량이 반쯤 빈 채로 달리지 않게 짐을 모아 싣고, 연료, 차량 상태, 교육을 챙겨야 합니다. 교통과 날씨가 바뀌니 어제 통하던 경로도 오늘은 손봐야 할 수 있습니다. 창고는 60개의 배송 계약을 거치며 커집니다. 계획할 때는 일시정지하고, 차량이 늘어나면 시뮬레이션 속도를 바꿀 수 있으며, 저장 슬롯 3개로 여러 구성을 시험할 수 있습니다. 핵심 플레이와 진행은 오프라인으로 가능합니다. 영어, 스페인어, 브라질 포르투갈어를 지원합니다. 무료이며, 보너스를 주는 선택형 보상 광고와 교대 사이의 광고가 있습니다.",
+            "ja": "『スイッチバック・クーリエズ』は配送ロジスティクスのシミュレーション。小さな倉庫と荷物であふれる街から始め、道路をつなぎ、車両を選び、一便も無駄にしないようにして、毎日の配送をきちんと回るネットワークに育てていく。4つの配送地区にまたがる道路網を築き、荷物に合わせて10種類の車両構成から選ぶ。車が半分空のまま走らないよう荷物をまとめ、燃料、車両の状態、研修にも目を配る。交通や天候は変わるので、昨日うまくいったルートも今日は手直しが必要かもしれない。倉庫は60の配送契約を通じて大きくなる。計画したいときは一時停止でき、車両が増えればシミュレーション速度を変えられ、3つのセーブスロットで別の構成も試せる。基本プレイと進行はオフラインで可能。英語・スペイン語・ブラジルポルトガル語に対応。無料で、ボーナスがもらえる任意のリワード広告と、シフトの合間の広告がある。",
+            "es": "Switchback Couriers es un simulador de logística de reparto. Empiezas con un depósito pequeño y una ciudad llena de paquetes, y conviertes los repartos diarios en una red que funciona conectando calles, eligiendo vehículos y aprovechando cada viaje. Construye una red de carreteras conectada en cuatro distritos de reparto y elige entre diez configuraciones de vehículo para distintas cargas. Agrupa los envíos para que los vehículos no salgan medio vacíos y vigila el combustible, el estado de los vehículos y la formación. El tráfico y el clima cambian, así que las rutas que funcionaban ayer pueden necesitar ajustes hoy. El depósito crece a lo largo de 60 contratos de reparto. Puedes pausar para planificar, cambiar la velocidad de la simulación a medida que crece la flota y usar tres ranuras de guardado para probar configuraciones distintas. El juego y el progreso funcionan sin conexión. Disponible en inglés, español y portugués de Brasil. Gratis, con anuncios con recompensa opcionales para un bonus y anuncios en las pausas entre turnos.",
+            "pt-BR": "Switchback Couriers é um simulador de logística de entregas. Você começa com um depósito pequeno e uma cidade cheia de pacotes, e transforma as entregas diárias numa rede que funciona conectando ruas, escolhendo veículos e aproveitando cada viagem. Construa uma malha viária conectada em quatro distritos de entrega e escolha entre dez configurações de veículo para cargas diferentes. Junte as cargas para os veículos não saírem meio vazios e fique de olho no combustível, no estado dos veículos e no treinamento. O trânsito e o clima mudam, então as rotas que funcionaram ontem podem precisar de ajuste hoje. O depósito cresce ao longo de 60 contratos de entrega. Dá para pausar para planejar, mudar a velocidade da simulação conforme a frota cresce e usar três espaços de salvamento para testar configurações diferentes. O jogo e o progresso funcionam offline. Disponível em inglês, espanhol e português do Brasil. Grátis, com anúncios premiados opcionais para um bônus e anúncios nas pausas entre turnos."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/switchbackcouriers",
+        "screenshots": [
+            "apps/shots/switchback-couriers/01.jpg",
+            "apps/shots/switchback-couriers/02.jpg",
+            "apps/shots/switchback-couriers/03.jpg"
         ]
     },
     {
@@ -3527,7 +5337,7 @@ window.CRYSTL_APPS = [
         "icon": "apps/cagebound.png",
         "page": "apps/cagebound.html",
         "tier": "Volume",
-        "platform": "PC",
+        "platform": "Android, PC",
         "name": {
             "en": "Cagebound",
             "ko": "케이지바운드",
@@ -3550,7 +5360,7 @@ window.CRYSTL_APPS = [
             "pt-BR": "A Ironwood MMA está sem tempo, então o técnico Dell Marsh inscreve três lutadores no Grand Prix Apex para salvar a academia. Cada carta é uma técnica real, ligada à luta em pé, ao clinch ou ao chão. Você vê o próximo golpe do rival antes de decidir, então a luta é leitura e posição: mire cabeça, corpo ou pernas, pegue a montada e encadeie preparações até a finalização. 160 cartas, três estilos, oito lutas."
         },
         "status": "Live",
-        "storeUrl": "",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.cagebound",
         "itchUrl": "https://crystllabs.itch.io/cagebound",
         "screenshots": [
             "apps/shots/cagebound/01.jpg",
@@ -3565,7 +5375,7 @@ window.CRYSTL_APPS = [
         "icon": "apps/scrubbed.png",
         "page": "apps/scrubbed.html",
         "tier": "Volume",
-        "platform": "PC",
+        "platform": "Android, PC",
         "name": {
             "en": "Scrubbed",
             "ko": "스크럽드",
@@ -3588,7 +5398,7 @@ window.CRYSTL_APPS = [
             "pt-BR": "Mara Quinn era detetive de homicídios até fazer a pergunta errada. Agora ela e Lou tocam uma empresa de limpeza de cenas de crime de duas pessoas, e todo serviço é um caso encerrado. Esfregue as manchas camada por camada, aspire os cacos, ensaque o lixo e levante os móveis. Depois passe a lâmpada UV pelo chão, porque cena após cena aparece o mesmo botão de latão."
         },
         "status": "Live",
-        "storeUrl": "",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.scrubbed",
         "itchUrl": "https://crystllabs.itch.io/scrubbed",
         "screenshots": [
             "apps/shots/scrubbed/01.jpg",
@@ -3603,7 +5413,7 @@ window.CRYSTL_APPS = [
         "icon": "apps/prism-post.png",
         "page": "apps/prism-post.html",
         "tier": "Volume",
-        "platform": "PC",
+        "platform": "Android, PC",
         "name": {
             "en": "Prism Post",
             "ko": "프리즘 포스트",
@@ -3626,7 +5436,7 @@ window.CRYSTL_APPS = [
             "pt-BR": "Uma sacola de cartas desbotadas espera por você. Pinte 60 vitrais em cinco capítulos de ilha, e cada janela pronta traz de volta uma lembrança e uma carta para entregar. Misture pigmentos, amplie as áreas pequenas ou mude para a pintura livre. Desfazer ilimitado, sem cronômetro, e cada vitral restaurado fica na sua coleção."
         },
         "status": "Live",
-        "storeUrl": "",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.prismpost",
         "itchUrl": "https://crystllabs.itch.io/prismpost",
         "screenshots": [
             "apps/shots/prism-post/01.jpg",
@@ -3641,7 +5451,7 @@ window.CRYSTL_APPS = [
         "icon": "apps/blue-hour.png",
         "page": "apps/blue-hour.html",
         "tier": "Volume",
-        "platform": "PC",
+        "platform": "Android, PC",
         "name": {
             "en": "Blue Hour",
             "ko": "블루 아워",
@@ -3664,7 +5474,7 @@ window.CRYSTL_APPS = [
             "pt-BR": "Sua mãe deixou um diário do recife inacabado. Saia de barco por seis recifes e 24 mergulhos de pesquisa, nade livremente, firme a câmera e fotografe 12 animais em três comportamentos cada. Fique de olho no ar e siga a marca de volta ao barco. Melhore a lente, o cilindro e as nadadeiras, e decida ao longo de seis capítulos o que a pesquisa dela vai virar."
         },
         "status": "Live",
-        "storeUrl": "",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.bluehour",
         "itchUrl": "https://crystllabs.itch.io/bluehour",
         "screenshots": [
             "apps/shots/blue-hour/01.jpg",
@@ -4355,6 +6165,6912 @@ window.CRYSTL_APPS = [
             "apps/shots/neon-strip/02.jpg",
             "apps/shots/neon-strip/03.jpg",
             "apps/shots/neon-strip/04.jpg"
+        ]
+    },
+    {
+        "id": "bate-rebate",
+        "slug": "bate-rebate",
+        "icon": "apps/bate-rebate.png",
+        "page": "apps/bate-rebate.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Bate-Rebate",
+            "ko": "바치헤바치",
+            "ja": "バチヘバチ",
+            "es": "Bate-Rebate",
+            "pt-BR": "Bate-Rebate"
+        },
+        "tagline": {
+            "en": "Build the table you want to master.",
+            "ko": "마스터하고 싶은 테이블을 직접 만드세요.",
+            "ja": "極めたい台を、自分で組み上げよう。",
+            "es": "Construye la mesa que quieres dominar.",
+            "pt-BR": "Monte a mesa que você quer dominar."
+        },
+        "desc": {
+            "en": "Rosa is reopening the old arcade, one machine at a time. Launch the ball, work two independent flippers and nudge the table to save a ball, but watch the tilt meter. Between balls, pick one of three part offers, preview it, rotate it and rebuild the pinball table. Up to three circuits add scoring rules at once, and three balls make a run. There are 12 restoration contracts across four chassis, 24 mechanisms and 16 circuits, plus skill-shot, combo, survival and timed challenges, a practice workshop, a daily machine and recorded ghosts of your best runs.",
+            "ko": "로사는 오래된 오락실을 기계 하나씩 다시 열고 있습니다. 공을 쏘아 올리고, 따로 움직이는 두 플리퍼를 다루고, 테이블을 밀어 공을 살리세요. 단, 틸트 게이지를 조심해야 합니다. 공과 공 사이에는 세 가지 부품 제안 중 하나를 골라 미리 보고, 회전시켜 핀볼 테이블을 다시 짜세요. 최대 세 개의 회로가 동시에 점수 규칙을 더하고, 공 세 개가 한 판입니다. 네 가지 섀시에 걸친 12개의 복원 계약, 메커니즘 24종과 회로 16종, 스킬샷, 콤보, 생존, 시간 제한 챌린지, 연습 작업장, 데일리 머신, 최고 기록을 담은 고스트까지 들어 있습니다.",
+            "ja": "ローザは古いゲームセンターを、一台ずつ復活させようとしている。ボールを打ち出し、左右別々に動くフリッパーを操り、台を揺らしてボールを救おう。ただしティルトメーターには要注意。ボールの合間には3つのパーツ候補から1つを選び、プレビューして回転させ、ピンボール台を組み直す。最大3つのサーキットが同時に得点ルールを加え、ボール3つで1ランになる。4種類のシャーシにまたがる12の修復契約、24の仕掛けと16のサーキット、スキルショット、コンボ、サバイバル、タイムアタックのチャレンジ、練習工房、デイリーマシン、ベストランのゴースト記録を収録。",
+            "es": "Rosa está reabriendo el viejo salón de juegos, una máquina a la vez. Lanza la bola, maneja dos flippers independientes y sacude la mesa para salvar una bola, pero vigila el medidor de tilt. Entre bola y bola, elige una de tres ofertas de piezas, revísala, gírala y reconstruye la mesa de pinball. Hasta tres circuitos suman reglas de puntuación a la vez, y tres bolas forman una partida. Hay 12 contratos de restauración en cuatro chasis, 24 mecanismos y 16 circuitos, además de desafíos de tiro de habilidad, combo, supervivencia y contrarreloj, un taller de práctica, una máquina diaria y fantasmas grabados de tus mejores partidas.",
+            "pt-BR": "Rosa está reabrindo o velho fliperama, uma máquina de cada vez. Lance a bola, controle dois flippers independentes e balance a mesa para salvar uma bola, mas fique de olho no medidor de tilt. Entre uma bola e outra, escolha uma de três ofertas de peças, veja a prévia, gire e reconstrua a mesa de pinball. Até três circuitos somam regras de pontuação ao mesmo tempo, e três bolas formam uma partida. São 12 contratos de restauração em quatro chassis, 24 mecanismos e 16 circuitos, além de desafios de tacada de habilidade, combo, sobrevivência e contra o tempo, uma oficina de treino, uma máquina diária e fantasmas gravados das suas melhores partidas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/baterebate",
+        "screenshots": [
+            "apps/shots/bate-rebate/01.jpg",
+            "apps/shots/bate-rebate/02.jpg",
+            "apps/shots/bate-rebate/03.jpg",
+            "apps/shots/bate-rebate/04.jpg",
+            "apps/shots/bate-rebate/05.jpg"
+        ]
+    },
+    {
+        "id": "feira-dos-ventos",
+        "slug": "feira-dos-ventos",
+        "icon": "apps/feira-dos-ventos.png",
+        "page": "apps/feira-dos-ventos.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Feira dos Ventos",
+            "ko": "페이라 두스 벤투스",
+            "ja": "フェイラ・ドス・ヴェントス",
+            "es": "Feira dos Ventos",
+            "pt-BR": "Feira dos Ventos"
+        },
+        "tagline": {
+            "en": "Every deal changes the next one.",
+            "ko": "모든 거래가 다음 거래를 바꿉니다.",
+            "ja": "ひとつの取引が、次の取引を変える。",
+            "es": "Cada trato cambia el siguiente.",
+            "pt-BR": "Cada negócio muda o próximo."
+        },
+        "desc": {
+            "en": "Iara runs a travelling market boat on the river. Start with 220 coins and set out on a seven-day trading voyage where every purchase moves the price. Compare buying and selling prices across ports, accept up to two contracts with fixed pay and deadlines, and pack the hold, where fruit and fish spoil after two nights. Rival merchants Dora, Luan and Nina buy up stock and change tomorrow's market. There are six ports, 18 goods, three hulls to unlock, six story chapters with the river cooperative, voyage charters and a daily challenge with seeded run codes.",
+            "ko": "이아라는 강 위를 오가는 시장 배를 운영합니다. 220코인으로 시작해, 물건을 살 때마다 가격이 움직이는 7일간의 교역 항해에 나서세요. 항구마다 사는 값과 파는 값을 비교하고, 보수는 정해져 있지만 기한이 있는 계약을 최대 두 개까지 맡고, 짐칸을 채우세요. 과일과 생선은 이틀 밤이 지나면 상합니다. 경쟁 상인 도라, 루안, 니나는 물건을 사들여 내일의 시장을 바꿉니다. 항구 6곳, 상품 18종, 해금할 선체 3종, 강 협동조합과 함께하는 스토리 6챕터, 항해 의뢰, 시드 코드가 붙은 데일리 챌린지가 담겨 있습니다.",
+            "ja": "イアラは川を行き来する市場船を営んでいる。220コインを元手に、買うたびに値段が動く7日間の交易航海へ出よう。港ごとの買値と売値を比べ、報酬は固定だが期限つきの契約を最大2つ引き受け、船倉に荷を積む。果物と魚は2晩で傷んでしまう。ライバル商人のドーラ、ルアン、ニーナは品物を買い占め、翌日の市場を変えていく。6つの港、18種類の品物、解放できる3つの船体、川の協同組合と歩む6章のストーリー、航海チャーター、シードコード付きのデイリーチャレンジを収録。",
+            "es": "Iara maneja un barco mercado ambulante en el río. Empieza con 220 monedas y emprende un viaje comercial de siete días donde cada compra mueve el precio. Compara los precios de compra y venta entre puertos, acepta hasta dos contratos con pago fijo y fecha límite, y carga la bodega, donde la fruta y el pescado se echan a perder después de dos noches. Los comerciantes rivales Dora, Luan y Nina acaparan mercancía y cambian el mercado de mañana. Hay seis puertos, 18 productos, tres cascos para desbloquear, seis capítulos de historia con la cooperativa del río, fletes de viaje y un desafío diario con códigos de partida.",
+            "pt-BR": "Iara comanda um barco-feira itinerante no rio. Comece com 220 moedas e faça uma viagem de comércio de sete dias em que cada compra mexe no preço. Compare os preços de compra e venda entre os portos, aceite até dois contratos com pagamento fixo e prazo, e arrume o porão, onde frutas e peixes estragam depois de duas noites. Os mercadores rivais Dora, Luan e Nina compram o estoque e mudam o mercado do dia seguinte. São seis portos, 18 mercadorias, três cascos para desbloquear, seis capítulos de história com a cooperativa do rio, fretamentos de viagem e um desafio diário com códigos de partida."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/feiradosventos",
+        "screenshots": [
+            "apps/shots/feira-dos-ventos/01.jpg",
+            "apps/shots/feira-dos-ventos/02.jpg",
+            "apps/shots/feira-dos-ventos/03.jpg",
+            "apps/shots/feira-dos-ventos/04.jpg",
+            "apps/shots/feira-dos-ventos/05.jpg"
+        ]
+    },
+    {
+        "id": "liga-da-sucata",
+        "slug": "liga-da-sucata",
+        "icon": "apps/liga-da-sucata.png",
+        "page": "apps/liga-da-sucata.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Liga da Sucata",
+            "ko": "리가 다 수카타",
+            "ja": "リーガ・ダ・スカータ",
+            "es": "Liga da Sucata",
+            "pt-BR": "Liga da Sucata"
+        },
+        "tagline": {
+            "en": "Build the machine. Outsmart the league.",
+            "ko": "기계를 만들고, 리그를 꾀로 이기세요.",
+            "ja": "マシンを組み、リーグを出し抜け。",
+            "es": "Arma la máquina. Supera en astucia a la liga.",
+            "pt-BR": "Monte a máquina. Seja mais esperto que a liga."
+        },
+        "desc": {
+            "en": "Jo and Bia need to keep their workshop alive. Build a fighting robot from salvaged parts within the same 34-scrap budget every rival respects, read the rival's three announced commands and queue your own before each eight-second physical clash. Mass, reach, heat and arena hazards decide the result, and at 100 heat your tools lock until they cool. There are 12 story contracts, eight-fixture leagues and seeded draft cups with a daily cup, built from 6 chassis, 12 tools, 8 cores and 6 arena hazards, against 12 rivals with readable habits. Replays show exactly why you won or lost.",
+            "ko": "조와 비아는 작업장을 지켜야 합니다. 모든 상대가 지키는 똑같은 34 고철 예산 안에서 폐부품으로 전투 로봇을 만들고, 상대가 미리 밝힌 세 가지 명령을 읽은 뒤 내 명령을 입력하세요. 그다음 8초간의 물리 충돌이 벌어집니다. 무게, 리치, 열, 경기장 위험 요소가 결과를 정하고, 열이 100에 이르면 도구가 식을 때까지 잠깁니다. 스토리 계약 12개, 8경기 리그, 데일리 컵이 포함된 시드 드래프트 컵이 있고, 섀시 6종, 도구 12종, 코어 8종, 경기장 위험 요소 6종으로 습관을 읽을 수 있는 라이벌 12명과 맞섭니다. 리플레이로 왜 이기고 졌는지 정확히 확인하세요.",
+            "ja": "ジョーとビアは工房を守らなければならない。どのライバルも守る同じ34スクラップの予算内で、廃品パーツから戦闘ロボットを組み立てる。相手が予告した3つのコマンドを読み、自分のコマンドを並べたら、8秒間の物理衝突が始まる。重さ、リーチ、熱、アリーナのハザードが勝敗を決め、熱が100に達するとツールは冷えるまでロックされる。12のストーリー契約、8戦のリーグ、デイリーカップ付きのシード制ドラフトカップを収録。6種のシャーシ、12種のツール、8種のコア、6種のハザード、クセを読める12人のライバル。リプレイで勝因も敗因もはっきりわかる。",
+            "es": "Jo y Bia necesitan mantener vivo su taller. Construye un robot de combate con piezas recuperadas dentro del mismo presupuesto de 34 de chatarra que respeta cada rival, lee los tres comandos que anuncia el rival y programa los tuyos antes de cada choque físico de ocho segundos. La masa, el alcance, el calor y los peligros de la arena deciden el resultado, y con 100 de calor tus herramientas se bloquean hasta enfriarse. Hay 12 contratos de historia, ligas de ocho fechas y copas de draft con semilla, con una copa diaria, usando 6 chasis, 12 herramientas, 8 núcleos y 6 peligros de arena contra 12 rivales con hábitos legibles. Las repeticiones muestran por qué ganaste o perdiste.",
+            "pt-BR": "Jo e Bia precisam manter a oficina viva. Monte um robô de combate com peças de sucata dentro do mesmo orçamento de 34 de sucata que todo rival respeita, leia os três comandos anunciados pelo rival e programe os seus antes de cada choque físico de oito segundos. Massa, alcance, calor e perigos da arena decidem o resultado, e com 100 de calor suas ferramentas travam até esfriar. São 12 contratos de história, ligas de oito rodadas e copas de draft com semente, com uma copa diária, usando 6 chassis, 12 ferramentas, 8 núcleos e 6 perigos de arena contra 12 rivais com hábitos fáceis de ler. Os replays mostram por que você ganhou ou perdeu."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/ligadasucata",
+        "screenshots": [
+            "apps/shots/liga-da-sucata/01.jpg",
+            "apps/shots/liga-da-sucata/02.jpg",
+            "apps/shots/liga-da-sucata/03.jpg",
+            "apps/shots/liga-da-sucata/04.jpg",
+            "apps/shots/liga-da-sucata/05.jpg"
+        ]
+    },
+    {
+        "id": "loop-raiders",
+        "slug": "loop-raiders",
+        "icon": "apps/loop-raiders.png",
+        "page": "apps/loop-raiders.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Loop Raiders",
+            "ko": "루프 레이더스",
+            "ja": "ループ・レイダーズ",
+            "es": "Loop Raiders",
+            "pt-BR": "Loop Raiders"
+        },
+        "tagline": {
+            "en": "Take the long way. Reconnect the city.",
+            "ko": "먼 길을 돌아, 도시를 다시 이으세요.",
+            "ja": "遠回りして、街をつなぎ直せ。",
+            "es": "Toma el camino largo. Reconecta la ciudad.",
+            "pt-BR": "Vá pelo caminho mais longo. Reconecte a cidade."
+        },
+        "desc": {
+            "en": "Naya's courier crew discovers that whole districts are being cut off from the transit network. Follow the missing switches and hidden records across six story chapters, playing Surakarta, a traditional Indonesian strategy game. Each side has twelve pieces on a six-by-six grid ringed by eight loops. Step to a neighboring point, or capture by traveling along a clear line and around at least one loop. Reconnect the night market, canal, foundry, rooftops, harbor and central junction across 36 station duels, then take on 72 tactical studies and a daily raid, against the computer on three levels or a second player.",
+            "ko": "나야의 배달 크루는 도시 구역 전체가 교통망에서 끊기고 있다는 사실을 알게 됩니다. 인도네시아 전통 전략 게임 수라카르타를 두며, 사라진 전철기와 숨겨진 기록을 따라 스토리 6챕터를 진행하세요. 양쪽은 각각 말 12개를 가지고, 여덟 개의 고리로 둘러싸인 6x6 판에서 시작합니다. 이웃한 점으로 한 칸 이동하거나, 막힘없는 줄을 따라 고리를 하나 이상 돌아 상대 말을 잡으세요. 36번의 역 대결로 야시장, 운하, 주물 공장, 옥상, 항구, 중앙 환승역을 다시 잇고, 전술 연습 72개와 데일리 레이드에 도전하세요. 3단계 난이도의 컴퓨터나 다른 플레이어와 대결할 수 있습니다.",
+            "ja": "ナヤの配達クルーは、街の地区がまるごと交通網から切り離されつつあることに気づく。インドネシアの伝統的な戦略ゲーム、スラカルタを指しながら、消えた分岐器と隠された記録を追う6章のストーリー。両者は8つのループに囲まれた6×6の盤上に12個ずつ駒を持つ。隣の点へ1歩進むか、空いた列をたどってループを1つ以上回り、敵の駒を取る。36の駅対決で夜市、運河、鋳造所、屋上、港、中央ジャンクションをつなぎ直し、72の戦術問題とデイリーレイドに挑もう。3段階のコンピューター相手でも、2人対戦でも遊べる。",
+            "es": "La cuadrilla de mensajeros de Naya descubre que barrios enteros están quedando aislados de la red de transporte. Sigue los cambios de vía desaparecidos y los registros ocultos a lo largo de seis capítulos de historia, jugando Surakarta, un juego de estrategia tradicional de Indonesia. Cada bando tiene doce piezas en una cuadrícula de seis por seis rodeada por ocho bucles. Avanza a un punto vecino, o captura recorriendo una línea libre y dando la vuelta a al menos un bucle. Reconecta el mercado nocturno, el canal, la fundición, las azoteas, el puerto y el cruce central en 36 duelos de estación, y luego enfrenta 72 estudios tácticos y una incursión diaria, contra la computadora en tres niveles o contra otro jugador.",
+            "pt-BR": "A equipe de entregadores de Naya descobre que bairros inteiros estão sendo isolados da rede de transporte. Siga os desvios desaparecidos e os registros escondidos ao longo de seis capítulos de história, jogando Surakarta, um jogo de estratégia tradicional da Indonésia. Cada lado tem doze peças em uma grade de seis por seis cercada por oito laços. Avance para um ponto vizinho, ou capture percorrendo uma linha livre e contornando pelo menos um laço. Reconecte o mercado noturno, o canal, a fundição, os telhados, o porto e o entroncamento central em 36 duelos de estação, e depois encare 72 estudos táticos e uma incursão diária, contra o computador em três níveis ou contra outro jogador."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/loopraiders",
+        "screenshots": [
+            "apps/shots/loop-raiders/01.jpg",
+            "apps/shots/loop-raiders/02.jpg",
+            "apps/shots/loop-raiders/03.jpg",
+            "apps/shots/loop-raiders/04.jpg",
+            "apps/shots/loop-raiders/05.jpg"
+        ]
+    },
+    {
+        "id": "tiger-trap",
+        "slug": "tiger-trap",
+        "icon": "apps/tiger-trap.png",
+        "page": "apps/tiger-trap.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Tiger Trap",
+            "ko": "타이거 트랩",
+            "ja": "タイガー・トラップ",
+            "es": "Tiger Trap",
+            "pt-BR": "Tiger Trap"
+        },
+        "tagline": {
+            "en": "One valley. Two ways to see it.",
+            "ko": "하나의 계곡, 두 개의 시선.",
+            "ja": "ひとつの谷、ふたつの見方。",
+            "es": "Un valle. Dos maneras de verlo.",
+            "pt-BR": "Um vale. Duas formas de ver."
+        },
+        "desc": {
+            "en": "Lila is guiding her herd across the mountains while a tiger protects the paths around its cubs. Play both accounts of the same crossing in Bagh-Chal, the Nepali game of tigers and goats, and discover what each side is trying to protect. Four tigers start in the corners and the herd places twenty goats one by one. The tigers win by capturing five goats, and the herd wins when no tiger can move. Two campaigns, herd and tigers, each have 24 encounters across four valleys and four illustrated journal pages, alongside 60 tactical studies and a daily trap.",
+            "ko": "릴라는 양 떼를 이끌고 산을 넘고, 호랑이는 새끼들 곁의 길을 지킵니다. 호랑이와 염소의 네팔 게임 바그찰로 같은 여정의 두 이야기를 모두 플레이하며, 각자가 무엇을 지키려 하는지 알아가세요. 호랑이 네 마리는 모서리에서 시작하고, 무리는 염소 20마리를 한 마리씩 놓습니다. 호랑이는 염소 다섯 마리를 잡으면 이기고, 무리는 어떤 호랑이도 움직일 수 없게 만들면 이깁니다. 무리와 호랑이 두 캠페인에는 각각 네 계곡에 걸친 24번의 만남과 일러스트 일지 4페이지가 있고, 전술 연습 60개와 데일리 트랩도 준비되어 있습니다.",
+            "ja": "リラは群れを連れて山を越え、トラは子どもたちのそばの道を守っている。トラとヤギのネパールのゲーム、バグチャールで同じ横断の物語を両側から遊び、それぞれが何を守ろうとしているのかを知ろう。4頭のトラは四隅から始まり、群れは20頭のヤギを1頭ずつ置いていく。トラはヤギを5頭取れば勝ち、群れはトラが1頭も動けなくなれば勝ち。群れとトラの2つのキャンペーンには、それぞれ4つの谷をめぐる24の対局と4ページの絵日記があり、60の戦術問題とデイリートラップも収録。",
+            "es": "Lila guía a su rebaño por las montañas mientras un tigre protege los senderos alrededor de sus cachorros. Juega ambos relatos de la misma travesía en Bagh-Chal, el juego nepalí de tigres y cabras, y descubre qué intenta proteger cada bando. Cuatro tigres empiezan en las esquinas y el rebaño coloca veinte cabras una por una. Los tigres ganan al capturar cinco cabras, y el rebaño gana cuando ningún tigre puede moverse. Dos campañas, rebaño y tigres, cada una con 24 encuentros en cuatro valles y cuatro páginas ilustradas de diario, junto a 60 estudios tácticos y una trampa diaria.",
+            "pt-BR": "Lila guia seu rebanho pelas montanhas enquanto um tigre protege as trilhas ao redor dos filhotes. Jogue os dois relatos da mesma travessia em Bagh-Chal, o jogo nepalês de tigres e cabras, e descubra o que cada lado está tentando proteger. Quatro tigres começam nos cantos e o rebanho coloca vinte cabras uma a uma. Os tigres vencem ao capturar cinco cabras, e o rebanho vence quando nenhum tigre consegue se mover. Duas campanhas, rebanho e tigres, cada uma com 24 encontros em quatro vales e quatro páginas ilustradas de diário, além de 60 estudos táticos e uma armadilha diária."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/tigertrap",
+        "screenshots": [
+            "apps/shots/tiger-trap/01.jpg",
+            "apps/shots/tiger-trap/02.jpg",
+            "apps/shots/tiger-trap/03.jpg",
+            "apps/shots/tiger-trap/04.jpg",
+            "apps/shots/tiger-trap/05.jpg"
+        ]
+    },
+    {
+        "id": "yut-party",
+        "slug": "yut-party",
+        "icon": "apps/yut-party.png",
+        "page": "apps/yut-party.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Yut Party",
+            "ko": "윷 파티",
+            "ja": "ユット・パーティー",
+            "es": "Yut Party",
+            "pt-BR": "Yut Party"
+        },
+        "tagline": {
+            "en": "Four friends. One bright festival.",
+            "ko": "네 친구, 하나의 환한 축제.",
+            "ja": "4人の仲間と、まばゆいお祭り。",
+            "es": "Cuatro amigos. Un festival luminoso.",
+            "pt-BR": "Quatro amigos. Um festival iluminado."
+        },
+        "desc": {
+            "en": "Rabbit, Panda, Owl and Bear have lost the lanterns for tonight's festival. Help them find their way home together in a friendly, forward-only take on yutnori, the Korean stick-throwing race game. Toss four sticks, move a piece or a whole stack, stack up on teammates, send opponents back to the start and take diagonal shortcuts from the corners and the center. The festival tour has four story chapters and 24 team events that light each neighborhood's lanterns, plus 32 route puzzles and a daily route, for one to four players against computer teams or each other.",
+            "ko": "토끼, 판다, 부엉이, 곰이 오늘 밤 축제의 등불을 잃어버렸습니다. 앞으로만 나아가는 정다운 윷놀이로 네 친구가 함께 집에 돌아갈 수 있도록 도와주세요. 윷가락 네 개를 던져 말 하나나 업은 말 전체를 옮기고, 같은 편 말을 업고, 상대 말을 잡아 출발점으로 돌려보내고, 모서리와 한가운데에서 지름길로 가로지르세요. 축제 투어에는 동네마다 등불을 밝히는 스토리 4챕터와 팀 이벤트 24개가 있고, 길 퍼즐 32개와 데일리 루트도 있습니다. 1~4명이 컴퓨터 팀이나 서로를 상대로 즐길 수 있습니다.",
+            "ja": "ウサギ、パンダ、フクロウ、クマが今夜のお祭りの提灯をなくしてしまった。前にしか進まないやさしいユンノリ、韓国の棒投げすごろくで、みんな一緒に家へ帰れるよう手伝おう。4本の棒を投げ、駒1つか重ねた駒をまとめて進め、味方の駒に重なり、相手の駒を振り出しに戻し、角や中央から斜めの近道を通る。お祭りツアーには、各地区の提灯をともす4章のストーリーと24のチームイベント、32のルートパズルとデイリールートを収録。1〜4人で、コンピューターのチームとも仲間同士でも遊べる。",
+            "es": "Conejo, Panda, Búho y Oso perdieron los faroles del festival de esta noche. Ayúdalos a volver juntos a casa en una versión amistosa y siempre hacia adelante del yutnori, el juego coreano de carreras con palitos. Lanza cuatro palitos, mueve una pieza o una pila entera, apílate sobre tus compañeros, manda a los rivales de vuelta al inicio y toma atajos diagonales desde las esquinas y el centro. La gira del festival tiene cuatro capítulos de historia y 24 eventos por equipos que encienden los faroles de cada barrio, más 32 acertijos de ruta y una ruta diaria, para uno a cuatro jugadores contra equipos de la computadora o entre ellos.",
+            "pt-BR": "Coelho, Panda, Coruja e Urso perderam as lanternas do festival desta noite. Ajude os quatro a voltar juntos para casa em uma versão amigável, sempre para a frente, do yutnori, o jogo coreano de corrida com varetas. Jogue quatro varetas, mova uma peça ou uma pilha inteira, empilhe sobre aliados, mande os rivais de volta ao início e pegue atalhos diagonais pelos cantos e pelo centro. A turnê do festival tem quatro capítulos de história e 24 eventos em equipe que acendem as lanternas de cada bairro, além de 32 quebra-cabeças de rota e uma rota diária, para um a quatro jogadores contra equipes do computador ou entre si."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/yutparty",
+        "screenshots": [
+            "apps/shots/yut-party/01.jpg",
+            "apps/shots/yut-party/02.jpg",
+            "apps/shots/yut-party/03.jpg",
+            "apps/shots/yut-party/04.jpg",
+            "apps/shots/yut-party/05.jpg"
+        ]
+    },
+    {
+        "id": "seed-and-stone",
+        "slug": "seed-and-stone",
+        "icon": "apps/seed-and-stone.png",
+        "page": "apps/seed-and-stone.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Seed & Stone",
+            "ko": "시드 앤 스톤",
+            "ja": "シード＆ストーン",
+            "es": "Seed & Stone",
+            "pt-BR": "Seed & Stone"
+        },
+        "tagline": {
+            "en": "Small seeds. A garden reborn.",
+            "ko": "작은 씨앗, 다시 피어나는 정원.",
+            "ja": "小さな種から、よみがえる庭。",
+            "es": "Semillas pequeñas. Un jardín que renace.",
+            "pt-BR": "Sementes pequenas. Um jardim renascido."
+        },
+        "desc": {
+            "en": "Join Asha as she returns to a community garden whose water channels have run dry, meet its keepers and restore five gardens one game of Kalah at a time. Pick up the stones from one of your six cups and sow them counterclockwise into your store, end in your store to play again, and capture from the cup opposite when your last stone lands in an empty cup on your side. A 40-match story across five gardens comes with Asha's illustrated seed journal, along with 60 sowing challenges and a daily sowing puzzle, against relaxed, balanced or expert keepers or a second player.",
+            "ko": "물길이 말라 버린 공동체 정원으로 돌아온 아샤와 함께 정원지기들을 만나고, 칼라 한 판 한 판으로 다섯 정원을 되살리세요. 내 컵 여섯 개 중 하나에서 돌을 모두 집어 반시계 방향으로 하나씩 뿌려 창고에 넣고, 마지막 돌이 창고에 들어가면 한 번 더 두며, 내 쪽 빈 컵에서 끝나면 맞은편 컵의 돌까지 가져옵니다. 다섯 정원에 걸친 40경기 스토리와 아샤의 일러스트 씨앗 일지, 씨뿌리기 챌린지 60개, 데일리 퍼즐이 있습니다. 느긋한, 균형 잡힌, 숙련된 정원지기나 다른 플레이어와 대결하세요.",
+            "ja": "水路が干上がったコミュニティガーデンに戻ってきたアシャと一緒に、庭の守り手たちに会い、カラハを1局ずつ指して5つの庭をよみがえらせよう。自分の6つのカップの1つから石をすべて取り、反時計回りに1つずつ蒔いてストアへ。最後の石がストアに入ればもう1手、自陣の空のカップで終われば向かいのカップの石ごと取れる。5つの庭をめぐる40局のストーリーとアシャの絵入り種日誌、60の種まきチャレンジ、デイリーパズルを収録。のんびり、バランス、上級の守り手や、もう1人のプレイヤーと対戦できる。",
+            "es": "Acompaña a Asha en su regreso a un huerto comunitario cuyos canales de agua se secaron, conoce a sus cuidadores y restaura cinco jardines, una partida de Kalah a la vez. Toma todas las piedras de uno de tus seis hoyos y siémbralas en sentido antihorario hasta tu almacén, termina en tu almacén para volver a jugar y captura el hoyo de enfrente cuando tu última piedra cae en un hoyo vacío de tu lado. Una historia de 40 partidas en cinco jardines viene con el diario ilustrado de semillas de Asha, junto a 60 desafíos de siembra y un acertijo diario, contra cuidadores relajados, equilibrados o expertos, o contra otro jugador.",
+            "pt-BR": "Acompanhe Asha na volta a uma horta comunitária cujos canais de água secaram, conheça seus guardiões e restaure cinco jardins, uma partida de Kalah de cada vez. Pegue todas as pedras de uma das suas seis covas e semeie no sentido anti-horário até o seu depósito, termine no depósito para jogar de novo e capture a cova da frente quando a última pedra cair em uma cova vazia do seu lado. Uma história de 40 partidas em cinco jardins vem com o diário ilustrado de sementes de Asha, além de 60 desafios de semeadura e um quebra-cabeça diário, contra guardiões tranquilos, equilibrados ou experientes, ou contra outro jogador."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/seedstone",
+        "screenshots": [
+            "apps/shots/seed-and-stone/01.jpg",
+            "apps/shots/seed-and-stone/02.jpg",
+            "apps/shots/seed-and-stone/03.jpg",
+            "apps/shots/seed-and-stone/04.jpg",
+            "apps/shots/seed-and-stone/05.jpg"
+        ]
+    },
+    {
+        "id": "royal-race",
+        "slug": "royal-race",
+        "icon": "apps/royal-race.png",
+        "page": "apps/royal-race.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Royal Race",
+            "ko": "로열 레이스",
+            "ja": "ロイヤル・レース",
+            "es": "Royal Race",
+            "pt-BR": "Royal Race"
+        },
+        "tagline": {
+            "en": "Seven runners. One invitation for everyone.",
+            "ko": "일곱 주자, 모두를 위한 하나의 초대장.",
+            "ja": "7人のランナーと、みんなへの招待状。",
+            "es": "Siete corredores. Una invitación para todos.",
+            "pt-BR": "Sete corredores. Um convite para todos."
+        },
+        "desc": {
+            "en": "Carry Nara's invitation through five river districts in the Royal Game of Ur, one of the oldest board games known. Throw four tetrahedral dice, race your seven runners along a shared road, land on rosettes for another throw and send your rival back to the start. Bring all seven runners home with an exact roll to win. A 35-race story comes with Nara's illustrated city journal, along with 50 risk studies that show the odds of the next roll and a daily challenge, against the computer on three levels or a second player.",
+            "ko": "알려진 가장 오래된 보드게임 중 하나인 우르의 왕실 게임으로, 나라의 초대장을 들고 다섯 강변 구역을 지나세요. 사면체 주사위 네 개를 던져 일곱 주자를 함께 쓰는 길 위로 달리게 하고, 로제트에 멈춰 한 번 더 던지고, 상대 주자를 출발점으로 돌려보내세요. 정확한 눈으로 일곱 주자를 모두 들여보내면 승리합니다. 35경주 스토리와 나라의 일러스트 도시 일지, 다음 굴림의 확률을 보여 주는 위험 연습 50개, 데일리 챌린지가 있습니다. 3단계 컴퓨터나 다른 플레이어와 대결하세요.",
+            "ja": "知られている中で最古級のボードゲーム、ウルのロイヤルゲームで、ナラの招待状を5つの川沿いの地区へ届けよう。4つの四面体ダイスを振り、7人のランナーを共有の道で走らせ、ロゼットに止まってもう一度振り、相手を振り出しに戻す。ぴったりの目で7人全員をゴールさせれば勝ち。35レースのストーリーとナラの絵入り街日誌、次の出目の確率がわかる50のリスク問題、デイリーチャレンジを収録。3段階のコンピューターやもう1人のプレイヤーと対戦できる。",
+            "es": "Lleva la invitación de Nara por cinco distritos ribereños en el Juego Real de Ur, uno de los juegos de mesa más antiguos que se conocen. Lanza cuatro dados tetraédricos, haz correr a tus siete corredores por un camino compartido, cae en rosetas para volver a tirar y manda a tu rival de vuelta al inicio. Lleva a los siete a casa con una tirada exacta para ganar. Una historia de 35 carreras viene con el diario ilustrado de la ciudad de Nara, junto a 50 estudios de riesgo que muestran las probabilidades de la siguiente tirada y un desafío diario, contra la computadora en tres niveles o contra otro jugador.",
+            "pt-BR": "Leve o convite de Nara por cinco distritos à beira do rio no Jogo Real de Ur, um dos jogos de tabuleiro mais antigos que se conhecem. Jogue quatro dados tetraédricos, faça seus sete corredores avançarem por uma estrada compartilhada, pare nas rosetas para jogar de novo e mande o rival de volta ao início. Leve os sete para casa com um resultado exato para vencer. Uma história de 35 corridas vem com o diário ilustrado da cidade de Nara, além de 50 estudos de risco que mostram as chances da próxima jogada e um desafio diário, contra o computador em três níveis ou contra outro jogador."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/royalrace",
+        "screenshots": [
+            "apps/shots/royal-race/01.jpg",
+            "apps/shots/royal-race/02.jpg",
+            "apps/shots/royal-race/03.jpg",
+            "apps/shots/royal-race/04.jpg",
+            "apps/shots/royal-race/05.jpg"
+        ]
+    },
+    {
+        "id": "flickwood-arena",
+        "slug": "flickwood-arena",
+        "icon": "apps/flickwood-arena.png",
+        "page": "apps/flickwood-arena.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Flickwood Arena",
+            "ko": "플릭우드 아레나",
+            "ja": "フリックウッド・アリーナ",
+            "es": "Flickwood Arena",
+            "pt-BR": "Flickwood Arena"
+        },
+        "tagline": {
+            "en": "One good shot. A workshop worth saving.",
+            "ko": "좋은 한 방, 지킬 가치가 있는 작업장.",
+            "ja": "会心の一打で、守るべき工房を。",
+            "es": "Un buen tiro. Un taller que vale la pena salvar.",
+            "pt-BR": "Uma boa tacada. Uma oficina que vale a pena salvar."
+        },
+        "desc": {
+            "en": "Join Jo in a friendly five-venue crokinole league and restore Élise's woodworking shop. Flick your discs across the round board, knock your rival's discs out and sink the perfect twenty in the center hole. Each player has eight discs per round, and if an opposing disc is on the board your shot must touch one. A 30-match workshop league comes with repairs to restore, along with 60 precision drills that award bronze, silver or gold medals, a personal-best ghost and a daily challenge, against the computer on three levels or a second player.",
+            "ko": "조와 함께 다섯 경기장을 도는 정다운 크로키놀 리그에 참가해 엘리즈의 목공방을 되살리세요. 둥근 판 위로 디스크를 튕기고, 상대 디스크를 쳐내고, 가운데 구멍에 넣어 완벽한 20점을 노리세요. 플레이어마다 라운드당 디스크 여덟 개를 가지며, 판 위에 상대 디스크가 있으면 내 샷은 반드시 그중 하나를 맞혀야 합니다. 수리할 거리가 가득한 30경기 공방 리그, 동, 은, 금 메달을 주는 정밀 연습 60개, 개인 최고 기록 고스트, 데일리 챌린지가 있습니다. 3단계 컴퓨터나 다른 플레이어와 대결하세요.",
+            "ja": "ジョーと一緒に5会場をめぐる和やかなクロキノールリーグに出場し、エリーズの木工所を立て直そう。丸い盤の上でディスクをはじき、相手のディスクを弾き出し、中央の穴に沈めて満点の20点を狙う。1ラウンドの持ちディスクは各8枚。盤上に相手のディスクがあれば、ショットはどれかに当てなければならない。修理をこなしていく30試合の工房リーグ、銅、銀、金のメダルがもらえる60の精密ドリル、自己ベストのゴースト、デイリーチャレンジを収録。3段階のコンピューターやもう1人のプレイヤーと対戦できる。",
+            "es": "Únete a Jo en una liga amistosa de crokinole en cinco sedes y restaura el taller de carpintería de Élise. Impulsa tus discos con el dedo por el tablero redondo, saca los discos de tu rival y mete el veinte perfecto en el agujero central. Cada jugador tiene ocho discos por ronda, y si hay un disco rival en el tablero, tu tiro debe tocar uno. Una liga de taller de 30 partidas trae reparaciones por completar, junto a 60 ejercicios de precisión que otorgan medallas de bronce, plata u oro, un fantasma de tu mejor marca y un desafío diario, contra la computadora en tres niveles o contra otro jugador.",
+            "pt-BR": "Junte-se a Jo em uma liga amistosa de crokinole em cinco locais e restaure a marcenaria de Élise. Peteleque seus discos pelo tabuleiro redondo, tire os discos do rival e acerte o vinte perfeito no buraco central. Cada jogador tem oito discos por rodada, e se houver um disco adversário no tabuleiro, sua tacada precisa tocar em um. Uma liga de oficina com 30 partidas traz reparos para fazer, além de 60 treinos de precisão que dão medalhas de bronze, prata ou ouro, um fantasma do seu recorde pessoal e um desafio diário, contra o computador em três níveis ou contra outro jogador."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/flickwoodarena",
+        "screenshots": [
+            "apps/shots/flickwood-arena/01.jpg",
+            "apps/shots/flickwood-arena/02.jpg",
+            "apps/shots/flickwood-arena/03.jpg",
+            "apps/shots/flickwood-arena/04.jpg",
+            "apps/shots/flickwood-arena/05.jpg"
+        ]
+    },
+    {
+        "id": "chain-tactics",
+        "slug": "chain-tactics",
+        "icon": "apps/chain-tactics.png",
+        "page": "apps/chain-tactics.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Chain Tactics",
+            "ko": "체인 택틱스",
+            "ja": "チェイン・タクティクス",
+            "es": "Chain Tactics",
+            "pt-BR": "Chain Tactics"
+        },
+        "tagline": {
+            "en": "Every move carries a letter home.",
+            "ko": "한 수 한 수가 편지를 집으로 나릅니다.",
+            "ja": "一手ごとに、手紙を家へ届ける。",
+            "es": "Cada movimiento lleva una carta a casa.",
+            "pt-BR": "Cada jogada leva uma carta para casa."
+        },
+        "desc": {
+            "en": "Travel with Lova through five coastal chapters, delivering one letter at a time. Fanorona is the Malagasy capture game: each side starts with 22 pieces on a 9×5 board and slides along the lines, capturing the row ahead by approach or the row behind by withdrawal, then chaining more captures with the same piece. If a capture is available, you must take it. A 35-delivery courier route comes with a painted postcard album, along with 80 capture puzzles and a daily challenge, against the computer on three levels or a second player.",
+            "ko": "로바와 함께 다섯 해안 챕터를 여행하며 편지를 한 통씩 전하세요. 파노로나는 마다가스카르의 잡기 게임입니다. 양쪽은 9×5 판에서 말 22개로 시작해 선을 따라 움직이며, 다가가서 앞쪽 줄을 잡거나 물러나서 뒤쪽 줄을 잡고, 같은 말로 잡기를 이어 갑니다. 잡을 수 있다면 반드시 잡아야 합니다. 그림엽서 앨범이 딸린 35번의 배달 루트, 잡기 퍼즐 80개, 데일리 챌린지가 있습니다. 3단계 컴퓨터나 다른 플레이어와 대결하세요.",
+            "ja": "ロヴァと一緒に5つの海辺の章を旅し、手紙を1通ずつ届けよう。ファノロナはマダガスカルの駒取りゲーム。両者は9×5の盤に22個ずつ駒を並べ、線に沿って動かす。近づいて前方の列を取る「接近」、離れて後方の列を取る「後退」で捕獲し、同じ駒で連続して取っていける。取れるときは必ず取らなければならない。絵はがきアルバム付きの35配達ルート、80の捕獲パズル、デイリーチャレンジを収録。3段階のコンピューターやもう1人のプレイヤーと対戦できる。",
+            "es": "Viaja con Lova por cinco capítulos costeros, entregando una carta a la vez. El Fanorona es el juego de captura malgache: cada bando empieza con 22 piezas en un tablero de 9×5 y se desliza por las líneas, capturando la fila de adelante por aproximación o la de atrás por retirada, y luego encadena más capturas con la misma pieza. Si hay una captura disponible, debes hacerla. Una ruta de mensajería de 35 entregas viene con un álbum de postales pintadas, junto a 80 acertijos de captura y un desafío diario, contra la computadora en tres niveles o contra otro jugador.",
+            "pt-BR": "Viaje com Lova por cinco capítulos no litoral, entregando uma carta de cada vez. O Fanorona é o jogo de captura malgaxe: cada lado começa com 22 peças em um tabuleiro 9×5 e desliza pelas linhas, capturando a fileira da frente por aproximação ou a de trás por afastamento, e depois encadeia mais capturas com a mesma peça. Se houver uma captura disponível, você é obrigado a fazê-la. Uma rota de 35 entregas vem com um álbum de cartões-postais pintados, além de 80 quebra-cabeças de captura e um desafio diário, contra o computador em três níveis ou contra outro jogador."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/chaintactics",
+        "screenshots": [
+            "apps/shots/chain-tactics/01.jpg",
+            "apps/shots/chain-tactics/02.jpg",
+            "apps/shots/chain-tactics/03.jpg",
+            "apps/shots/chain-tactics/04.jpg",
+            "apps/shots/chain-tactics/05.jpg"
+        ]
+    },
+    {
+        "id": "mill-masters",
+        "slug": "mill-masters",
+        "icon": "apps/mill-masters.png",
+        "page": "apps/mill-masters.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Mill Masters",
+            "ko": "밀 마스터즈",
+            "ja": "ミル・マスターズ",
+            "es": "Mill Masters",
+            "pt-BR": "Mill Masters"
+        },
+        "tagline": {
+            "en": "Build a mill. Make room for a town.",
+            "ko": "밀을 만들고, 마을이 들어설 자리를 만드세요.",
+            "ja": "ミルを作り、町の居場所をつくろう。",
+            "es": "Forma un molino. Haz lugar para un pueblo.",
+            "pt-BR": "Forme um moinho. Abra espaço para uma cidade."
+        },
+        "desc": {
+            "en": "Earn six mentors' trust as Mara rebuilds the common square. Play Nine Men's Morris with flying: place your nine stones, slide them along the lines, close mills of three to take your rival's stones, and fly anywhere once you are down to three. Win by leaving your opponent with two stones or no legal move. There are 36 guild encounters with a guild notebook that fills as the square is restored, a 90-study mill academy and a daily challenge, against the computer on three levels or a second player.",
+            "ko": "광장을 다시 세우는 마라가 되어 여섯 스승의 신뢰를 얻으세요. 날기 규칙이 있는 나인 멘스 모리스를 둡니다. 돌 아홉 개를 놓고, 선을 따라 옮기고, 세 개를 한 줄로 이어 밀을 만들면 상대 돌을 하나 가져오며, 돌이 세 개만 남으면 어디로든 날아갈 수 있습니다. 상대를 돌 두 개만 남기거나 둘 수 있는 수가 없게 만들면 승리합니다. 광장이 복원될수록 채워지는 길드 수첩과 함께하는 길드 대국 36번, 연습 문제 90개의 밀 아카데미, 데일리 챌린지가 있습니다. 3단계 컴퓨터나 다른 플레이어와 대결하세요.",
+            "ja": "広場を再建するマラとして、6人の師匠の信頼を勝ち取ろう。遊ぶのは「飛び」ありのナイン・メンズ・モリス。9個の石を置き、線に沿って動かし、3つ並べてミルを作れば相手の石を1つ取れる。石が残り3つになれば、どこへでも飛べる。相手の石を2つにするか、動ける手をなくせば勝ち。広場の復興とともに埋まっていくギルド手帳付きの36のギルド対局、90問のミルアカデミー、デイリーチャレンジを収録。3段階のコンピューターやもう1人のプレイヤーと対戦できる。",
+            "es": "Gánate la confianza de seis mentores mientras Mara reconstruye la plaza común. Juega al Molino de nueve con vuelo: coloca tus nueve piedras, deslízalas por las líneas, forma molinos de tres para quitarle piedras a tu rival y vuela a cualquier punto cuando te queden tres. Gana dejando a tu oponente con dos piedras o sin movimientos legales. Hay 36 encuentros del gremio con un cuaderno que se llena a medida que se restaura la plaza, una academia de molinos con 90 estudios y un desafío diario, contra la computadora en tres niveles o contra otro jugador.",
+            "pt-BR": "Conquiste a confiança de seis mentores enquanto Mara reconstrói a praça comum. Jogue Trilha com voo: coloque suas nove pedras, deslize pelas linhas, forme moinhos de três para tirar pedras do rival e voe para qualquer ponto quando restarem três. Vença deixando o adversário com duas pedras ou sem jogada válida. São 36 encontros da guilda com um caderno que se completa conforme a praça é restaurada, uma academia de moinhos com 90 estudos e um desafio diário, contra o computador em três níveis ou contra outro jogador."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/millmasters",
+        "screenshots": [
+            "apps/shots/mill-masters/01.jpg",
+            "apps/shots/mill-masters/02.jpg",
+            "apps/shots/mill-masters/03.jpg",
+            "apps/shots/mill-masters/04.jpg",
+            "apps/shots/mill-masters/05.jpg"
+        ]
+    },
+    {
+        "id": "kings-escape",
+        "slug": "kings-escape",
+        "icon": "apps/kings-escape.png",
+        "page": "apps/kings-escape.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "King's Escape",
+            "ko": "킹스 이스케이프",
+            "ja": "キングス・エスケープ",
+            "es": "King's Escape",
+            "pt-BR": "King's Escape"
+        },
+        "tagline": {
+            "en": "Carry the crown. Hear the other side.",
+            "ko": "왕관을 지키고, 상대편의 이야기도 들으세요.",
+            "ja": "王冠を運び、もう一方の声を聞け。",
+            "es": "Lleva la corona. Escucha al otro bando.",
+            "pt-BR": "Leve a coroa. Ouça o outro lado."
+        },
+        "desc": {
+            "en": "Guide Regent Elin toward winter shelter, or stand with Tor's roadkeepers. Two chronicles, one for each side of the board, reveal why the northern crossings were closed. In this hnefatafl game on a 3D board you can turn and zoom, twenty-four besiegers face twelve defenders and the crown on an 11×11 board. Sandwich enemy pieces to capture them. The defenders win when the crown reaches a corner, and the besiegers win by surrounding it. Two 15-encounter chronicles each come with a camp journal, along with 40 siege studies and a daily siege, against the computer on three levels or a second player.",
+            "ko": "섭정 엘린을 겨울 피난처로 이끌거나, 토르의 길지기들 편에 서세요. 판의 양쪽에 하나씩 있는 두 연대기가 북쪽 길목이 왜 닫혔는지 밝혀 줍니다. 돌리고 확대할 수 있는 3D 판에서 펼쳐지는 흐네프타플로, 11×11 판에서 포위군 24개가 수비군 12개와 왕관을 상대합니다. 적 말을 양쪽에서 끼워 잡으세요. 왕관이 모서리에 닿으면 수비군이, 왕관을 에워싸면 포위군이 이깁니다. 진영 일지가 딸린 15번의 대국으로 된 연대기 두 편, 포위전 연습 40개, 데일리 포위전이 있습니다. 3단계 컴퓨터나 다른 플레이어와 대결하세요.",
+            "ja": "摂政エリンを冬の避難所へ導くか、トールの街道守りの側に立つか。盤の両陣営それぞれの2つの年代記が、北の渡り道が閉ざされた理由を明かしていく。回転やズームができる3D盤のフネフタフルで、11×11の盤上、24の包囲軍が12の守備軍と王冠に挑む。敵の駒を両側から挟めば捕獲。王冠が隅に着けば守備軍の、王冠を囲めば包囲軍の勝ち。陣営日誌付きの15局の年代記が2編、40の包囲戦問題、デイリー包囲戦を収録。3段階のコンピューターやもう1人のプレイヤーと対戦できる。",
+            "es": "Guía a la regente Elin hacia un refugio de invierno o ponte del lado de los guardianes del camino de Tor. Dos crónicas, una para cada lado del tablero, revelan por qué se cerraron los pasos del norte. En este juego de hnefatafl sobre un tablero 3D que puedes girar y acercar, veinticuatro sitiadores enfrentan a doce defensores y a la corona en un tablero de 11×11. Encierra piezas enemigas entre dos de las tuyas para capturarlas. Los defensores ganan cuando la corona llega a una esquina, y los sitiadores al rodearla. Dos crónicas de 15 encuentros, cada una con su diario de campamento, junto a 40 estudios de asedio y un asedio diario, contra la computadora en tres niveles o contra otro jugador.",
+            "pt-BR": "Guie a regente Elin até um abrigo de inverno ou fique ao lado dos guardiões da estrada de Tor. Duas crônicas, uma para cada lado do tabuleiro, revelam por que as passagens do norte foram fechadas. Neste jogo de hnefatafl em um tabuleiro 3D que você pode girar e aproximar, vinte e quatro sitiantes enfrentam doze defensores e a coroa em um tabuleiro 11×11. Prenda peças inimigas entre duas suas para capturá-las. Os defensores vencem quando a coroa chega a um canto, e os sitiantes ao cercá-la. Duas crônicas de 15 encontros, cada uma com um diário de acampamento, além de 40 estudos de cerco e um cerco diário, contra o computador em três níveis ou contra outro jogador."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/kingsescape",
+        "screenshots": [
+            "apps/shots/kings-escape/01.jpg",
+            "apps/shots/kings-escape/02.jpg",
+            "apps/shots/kings-escape/03.jpg",
+            "apps/shots/kings-escape/04.jpg",
+            "apps/shots/kings-escape/05.jpg"
+        ]
+    },
+    {
+        "id": "pocket-carrom",
+        "slug": "pocket-carrom",
+        "icon": "apps/pocket-carrom.png",
+        "page": "apps/pocket-carrom.html",
+        "tier": "Volume",
+        "platform": "Android, PC",
+        "name": {
+            "en": "Pocket Carrom",
+            "ko": "포켓 캐롬",
+            "ja": "ポケット・キャロム",
+            "es": "Pocket Carrom",
+            "pt-BR": "Pocket Carrom"
+        },
+        "tagline": {
+            "en": "Own the next shot. Bring Mira's neighborhood club back to life, one evening match at a time.",
+            "ko": "다음 샷의 주인이 되세요. 저녁 경기 하나하나로 미라의 동네 클럽을 되살리세요.",
+            "ja": "次の一打は自分のもの。夜の試合を重ねて、ミラの近所のクラブに活気を取り戻そう。",
+            "es": "Domina el siguiente tiro. Devuélvele la vida al club de barrio de Mira, una partida nocturna a la vez.",
+            "pt-BR": "Domine a próxima tacada. Traga de volta à vida o clube de bairro de Mira, uma partida noturna de cada vez."
+        },
+        "desc": {
+            "en": "The old carrom club on Lantern Lane has gone quiet. Bring Mira's neighborhood club back to life one evening match at a time. Slide the striker along your baseline, pull back and release, pocket all nine discs of your color and cover the red queen in the same shot or the next, or she returns to the center. Pocketing the striker is a foul. A 36-match story runs across six chapters, from the silent club to opening night, along with 60 one-shot challenges and a daily challenge, against the computer on three difficulty levels or a second player.",
+            "ko": "랜턴 레인의 오래된 캐롬 클럽이 조용해졌습니다. 저녁 경기 하나하나로 미라의 동네 클럽을 되살리세요. 스트라이커를 기준선을 따라 옮기고, 당겼다 놓아 내 색 디스크 아홉 개를 모두 포켓에 넣으세요. 빨간 퀸은 같은 샷이나 다음 샷에서 내 디스크로 덮어야 하며, 그렇지 않으면 가운데로 돌아갑니다. 스트라이커를 포켓에 넣으면 파울입니다. 조용한 클럽에서 개장의 밤까지 이어지는 6챕터 36경기 스토리, 한 번의 샷으로 푸는 챌린지 60개, 데일리 챌린지가 있습니다. 3단계 난이도의 컴퓨터나 다른 플레이어와 대결하세요.",
+            "ja": "ランタン・レーンの古いキャロムクラブは、すっかり静まり返っている。夜の試合を重ねて、ミラの近所のクラブに活気を取り戻そう。ストライカーをベースラインに沿って動かし、引いて放ち、自分の色のディスク9枚をすべてポケットへ。赤いクイーンは同じショットか次のショットで自分のディスクを落としてカバーしないと、中央に戻ってしまう。ストライカーを落とすとファウル。静かなクラブからオープニングナイトまで、6章36試合のストーリー、60の一打チャレンジ、デイリーチャレンジを収録。3段階のコンピューターやもう1人のプレイヤーと対戦できる。",
+            "es": "El viejo club de carrom de Lantern Lane se quedó en silencio. Devuélvele la vida al club de barrio de Mira, una partida nocturna a la vez. Desliza el striker por tu línea base, tira hacia atrás y suelta, emboca los nueve discos de tu color y cubre a la reina roja en el mismo tiro o en el siguiente, o volverá al centro. Embocar el striker es falta. Una historia de 36 partidas recorre seis capítulos, del club en silencio a la noche de reapertura, junto a 60 desafíos de un solo tiro y un desafío diario, contra la computadora en tres niveles de dificultad o contra otro jugador.",
+            "pt-BR": "O velho clube de carrom da Lantern Lane ficou em silêncio. Traga de volta à vida o clube de bairro de Mira, uma partida noturna de cada vez. Deslize o striker pela sua linha de base, puxe e solte, encaçape os nove discos da sua cor e cubra a rainha vermelha na mesma tacada ou na seguinte, ou ela volta para o centro. Encaçapar o striker é falta. Uma história de 36 partidas percorre seis capítulos, do clube silencioso à noite de reabertura, além de 60 desafios de uma tacada e um desafio diário, contra o computador em três níveis de dificuldade ou contra outro jogador."
+        },
+        "status": "Live",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.pocketcarrom",
+        "itchUrl": "https://crystllabs.itch.io/pocketcarrom",
+        "screenshots": [
+            "apps/shots/pocket-carrom/01.jpg",
+            "apps/shots/pocket-carrom/02.jpg",
+            "apps/shots/pocket-carrom/03.jpg",
+            "apps/shots/pocket-carrom/04.jpg",
+            "apps/shots/pocket-carrom/05.jpg"
+        ]
+    },
+    {
+        "id": "cinder-oath",
+        "slug": "cinder-oath",
+        "icon": "apps/cinder-oath.png",
+        "page": "apps/cinder-oath.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Cinder Oath",
+            "ko": "신더 오스",
+            "ja": "シンダー・オース",
+            "es": "Cinder Oath",
+            "pt-BR": "Cinder Oath"
+        },
+        "tagline": {
+            "en": "Build a deck of dangerous promises and outwit the things that collect them.",
+            "ko": "위험한 약속으로 덱을 짜고, 그 약속을 거두는 존재들을 꾀로 이기세요.",
+            "ja": "危険な誓いでデッキを組み、それを集める者たちを出し抜け。",
+            "es": "Arma un mazo de promesas peligrosas y engaña a quienes las cobran.",
+            "pt-BR": "Monte um baralho de promessas perigosas e engane quem vem cobrá-las."
+        },
+        "desc": {
+            "en": "Your sentence ends at dawn, and until then every promise is a weapon. A condemned archivist must face seven keepers before sunrise, and each one binds you to a vow such as restraint, endurance or courage. Spend resolve to strike, guard, burn or heal, read each keeper's next intent, and honor the vow or take a scar for breaking it. After each keeper, draft a card and a relic and choose a camp. There are 90 cards, 30 relics, 3 disciplines, 7 keepers and 4 endings, with a story campaign, a daily challenge and an endless run of keepers.",
+            "ko": "형기는 새벽에 끝나고, 그때까지 모든 약속은 무기가 됩니다. 사형을 선고받은 기록 보관인은 해가 뜨기 전에 일곱 명의 수호자와 맞서야 하고, 수호자마다 절제, 인내, 용기 같은 서약으로 당신을 묶습니다. 결의를 써서 공격하고, 막고, 태우고, 치유하며, 수호자의 다음 의도를 읽으세요. 서약을 지키거나, 어기고 상처를 얻으세요. 수호자를 하나 넘길 때마다 카드와 유물을 고르고 야영지를 정합니다. 카드 90장, 유물 30개, 수련 3종, 수호자 7명, 엔딩 4개와 함께 스토리 캠페인, 데일리 챌린지, 끝없는 도전이 있습니다.",
+            "ja": "刑期は夜明けに終わる。それまでは、あらゆる誓いが武器になる。死を宣告された記録官は、日の出までに7人の番人と対峙しなければならない。番人はそれぞれ、自制、忍耐、勇気といった誓いであなたを縛る。決意を使って攻撃、防御、燃焼、回復を行い、番人の次の行動を読もう。誓いを守るか、破って傷を負うか。番人を倒すたびにカードと遺物を選び、野営を決める。カード90枚、遺物30個、3つの流派、7人の番人、4つのエンディング。ストーリーキャンペーン、デイリーチャレンジ、エンドレスランを収録。",
+            "es": "Tu condena termina al amanecer, y hasta entonces cada promesa es un arma. Un archivista condenado debe enfrentar a siete guardianes antes de que salga el sol, y cada uno te ata a un voto como la contención, la resistencia o el valor. Gasta determinación para atacar, defender, quemar o curar, lee la próxima intención de cada guardián y cumple el voto o acepta una cicatriz por romperlo. Después de cada guardián, elige una carta y una reliquia y escoge un campamento. Hay 90 cartas, 30 reliquias, 3 disciplinas, 7 guardianes y 4 finales, con una campaña de historia, un desafío diario y una partida sin fin.",
+            "pt-BR": "Sua sentença termina ao amanhecer, e até lá toda promessa é uma arma. Um arquivista condenado precisa enfrentar sete guardiões antes do nascer do sol, e cada um prende você a um voto, como contenção, resistência ou coragem. Gaste determinação para atacar, defender, queimar ou curar, leia a próxima intenção de cada guardião e cumpra o voto ou aceite uma cicatriz por quebrá-lo. Depois de cada guardião, escolha uma carta e uma relíquia e decida o acampamento. São 90 cartas, 30 relíquias, 3 disciplinas, 7 guardiões e 4 finais, com campanha de história, desafio diário e uma jornada sem fim."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/cinderoath",
+        "screenshots": [
+            "apps/shots/cinder-oath/01.jpg",
+            "apps/shots/cinder-oath/02.jpg",
+            "apps/shots/cinder-oath/03.jpg",
+            "apps/shots/cinder-oath/04.jpg",
+            "apps/shots/cinder-oath/05.jpg"
+        ]
+    },
+    {
+        "id": "hollow-signal",
+        "slug": "hollow-signal",
+        "icon": "apps/hollow-signal.png",
+        "page": "apps/hollow-signal.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Hollow Signal",
+            "ko": "할로우 시그널",
+            "ja": "ホロウ・シグナル",
+            "es": "Hollow Signal",
+            "pt-BR": "Hollow Signal"
+        },
+        "tagline": {
+            "en": "Follow the signal through the fog. Escape before it learns your voice.",
+            "ko": "안개 속 신호를 따라가세요. 그것이 당신의 목소리를 배우기 전에 탈출하세요.",
+            "ja": "霧の中の信号を追え。声を覚えられる前に逃げ出せ。",
+            "es": "Sigue la señal entre la niebla. Escapa antes de que aprenda tu voz.",
+            "pt-BR": "Siga o sinal pela névoa. Fuja antes que ele aprenda a sua voz."
+        },
+        "desc": {
+            "en": "A night caretaker searches a flooded cemetery for a missing survey team. Their handheld receiver repeats your voice a few seconds before you speak, and every recovered tape brings the source closer. Move quietly between the graves, since fast steps draw the Listener, and use your lantern knowing it also reveals you to the Keeper. Two tapes open the iron gate. There are 4 cemetery sectors, 18 recorded voices, 3 watcher behaviors and 3 endings, one of them only for those who recover every tape, plus a story campaign, a daily challenge and an endless run.",
+            "ko": "야간 관리인이 물에 잠긴 묘지에서 실종된 조사팀을 찾습니다. 그들의 휴대용 수신기는 당신이 말하기 몇 초 전에 당신의 목소리를 되풀이하고, 테이프를 하나 찾을 때마다 신호의 근원이 가까워집니다. 빠른 걸음은 리스너를 불러들이니 무덤 사이를 조용히 움직이고, 랜턴이 키퍼에게 당신을 드러낸다는 것도 잊지 마세요. 테이프 두 개면 철문이 열립니다. 묘지 구역 4곳, 녹음된 목소리 18개, 감시자 행동 3종, 엔딩 3개가 있으며 그중 하나는 테이프를 모두 찾은 사람만 볼 수 있습니다. 스토리 캠페인, 데일리 챌린지, 끝없는 도전도 있습니다.",
+            "ja": "夜間管理人が、水没した墓地で行方不明の調査隊を探す。彼らの携帯受信機は、あなたが話す数秒前にあなたの声を繰り返し、テープを回収するたびに発信源が近づいてくる。速い足音はリスナーを呼ぶので墓の間を静かに進み、ランタンはキーパーにも居場所を知らせることを忘れずに。テープ2本で鉄の門が開く。4つの墓地区画、18の録音された声、3種類の監視者の行動、3つのエンディング。そのうち1つはすべてのテープを回収した者だけが見られる。ストーリーキャンペーン、デイリーチャレンジ、エンドレスランを収録。",
+            "es": "Un cuidador nocturno busca a un equipo de investigación desaparecido en un cementerio inundado. Su receptor portátil repite tu voz unos segundos antes de que hables, y cada cinta recuperada acerca la fuente. Muévete en silencio entre las tumbas, porque los pasos rápidos atraen al Oyente, y usa tu farol sabiendo que también te revela ante el Guardián. Dos cintas abren la reja de hierro. Hay 4 sectores del cementerio, 18 voces grabadas, 3 comportamientos de vigilantes y 3 finales, uno de ellos solo para quien recupere todas las cintas, además de una campaña de historia, un desafío diario y una partida sin fin.",
+            "pt-BR": "Um zelador noturno procura uma equipe de pesquisa desaparecida em um cemitério alagado. O receptor portátil dela repete a sua voz alguns segundos antes de você falar, e cada fita recuperada aproxima a fonte. Ande em silêncio entre os túmulos, porque passos rápidos atraem o Ouvinte, e use a lanterna sabendo que ela também revela você ao Guardião. Duas fitas abrem o portão de ferro. São 4 setores do cemitério, 18 vozes gravadas, 3 comportamentos de vigias e 3 finais, um deles só para quem recuperar todas as fitas, além de campanha de história, desafio diário e uma jornada sem fim."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/hollowsignal",
+        "screenshots": [
+            "apps/shots/hollow-signal/01.jpg",
+            "apps/shots/hollow-signal/02.jpg",
+            "apps/shots/hollow-signal/03.jpg",
+            "apps/shots/hollow-signal/04.jpg",
+            "apps/shots/hollow-signal/05.jpg"
+        ]
+    },
+    {
+        "id": "iron-ninth",
+        "slug": "iron-ninth",
+        "icon": "apps/iron-ninth.png",
+        "page": "apps/iron-ninth.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Iron Ninth",
+            "ko": "아이언 나인스",
+            "ja": "アイアン・ナインス",
+            "es": "Iron Ninth",
+            "pt-BR": "Iron Ninth"
+        },
+        "tagline": {
+            "en": "Time your swing. Break the cage circuit. Reclaim your name.",
+            "ko": "스윙 타이밍을 맞추고, 케이지 서킷을 깨고, 이름을 되찾으세요.",
+            "ja": "スイングを合わせ、ケージ・サーキットを制し、名を取り戻せ。",
+            "es": "Calcula tu swing. Rompe el circuito de jaulas. Recupera tu nombre.",
+            "pt-BR": "Acerte o tempo do swing. Vença o circuito das gaiolas. Recupere seu nome."
+        },
+        "desc": {
+            "en": "Disgraced veteran Ren Sato returns to the underground batting cages after a match-fixing scandal. The pitcher names the pitch, you aim at the ring the ball curves toward and swing as it arrives, and perfect timing hits harder. Every pitcher has a tell, every win changes the people in your corner, and the last choice is a contract or the truth. Draft a batting perk after each inning. There are 24 story series across 6 cages and 8 rivals, 3 story acts and 2 endings, 30 batting perks, 3 stances and 5 pitch families, with a daily challenge and an endless ladder.",
+            "ko": "승부 조작 스캔들로 몰락한 베테랑 렌 사토가 지하 배팅 케이지로 돌아옵니다. 투수가 구종을 외치면, 공이 휘어 들어갈 링을 겨누고 공이 닿는 순간 스윙하세요. 완벽한 타이밍일수록 더 강하게 맞습니다. 투수마다 버릇이 있고, 승리할 때마다 곁에 있는 사람들이 달라지며, 마지막 선택은 계약이냐 진실이냐입니다. 이닝이 끝날 때마다 타격 특성을 하나 고르세요. 케이지 6곳과 라이벌 8명에 걸친 스토리 시리즈 24개, 3막 구성과 엔딩 2개, 타격 특성 30개, 스탠스 3종, 구종 계열 5종에 데일리 챌린지와 끝없는 사다리가 더해집니다.",
+            "ja": "八百長スキャンダルで名声を失ったベテラン、レン・サトウが地下のバッティングケージに戻ってくる。投手が球種を告げたら、ボールが曲がっていくリングを狙い、届いた瞬間にスイング。タイミングが完璧なほど強く打てる。どの投手にもクセがあり、勝つたびにそばにいる人々が変わり、最後の選択は契約か真実か。イニングごとに打撃パークを1つ選ぼう。6つのケージと8人のライバルにまたがる24のストーリーシリーズ、3幕と2つのエンディング、30の打撃パーク、3つのスタンス、5つの球種系統。デイリーチャレンジとエンドレスラダーも収録。",
+            "es": "El veterano caído en desgracia Ren Sato vuelve a las jaulas de bateo clandestinas tras un escándalo de partidos arreglados. El lanzador anuncia el lanzamiento, tú apuntas al anillo hacia el que se curva la bola y haces el swing cuando llega, y un tiempo perfecto pega más fuerte. Cada lanzador tiene una señal, cada victoria cambia a la gente de tu esquina y la última decisión es un contrato o la verdad. Elige una ventaja de bateo después de cada entrada. Hay 24 series de historia en 6 jaulas y contra 8 rivales, 3 actos y 2 finales, 30 ventajas de bateo, 3 posturas y 5 familias de lanzamientos, con un desafío diario y una escalera sin fin.",
+            "pt-BR": "O veterano desonrado Ren Sato volta às gaiolas de rebatida clandestinas depois de um escândalo de manipulação de resultados. O arremessador anuncia o arremesso, você mira no anel para onde a bola faz a curva e rebate quando ela chega, e o tempo perfeito bate mais forte. Todo arremessador tem um sinal, cada vitória muda as pessoas do seu lado e a última escolha é um contrato ou a verdade. Escolha uma vantagem de rebatida depois de cada entrada. São 24 séries de história em 6 gaiolas e contra 8 rivais, 3 atos e 2 finais, 30 vantagens de rebatida, 3 posturas e 5 famílias de arremessos, com desafio diário e uma escada sem fim."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/ironninth",
+        "screenshots": [
+            "apps/shots/iron-ninth/01.jpg",
+            "apps/shots/iron-ninth/02.jpg",
+            "apps/shots/iron-ninth/03.jpg",
+            "apps/shots/iron-ninth/04.jpg",
+            "apps/shots/iron-ninth/05.jpg"
+        ]
+    },
+    {
+        "id": "ward-zero",
+        "slug": "ward-zero",
+        "icon": "apps/ward-zero.png",
+        "page": "apps/ward-zero.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Ward Zero",
+            "ko": "워드 제로",
+            "ja": "ウォード・ゼロ",
+            "es": "Ward Zero",
+            "pt-BR": "Ward Zero"
+        },
+        "tagline": {
+            "en": "Manage the last quarantine ward, protect your staff and expose the cover-up.",
+            "ko": "마지막 격리 병동을 운영하고, 직원들을 지키고, 은폐를 폭로하세요.",
+            "ja": "最後の隔離病棟を切り盛りし、スタッフを守り、隠蔽を暴け。",
+            "es": "Dirige la última sala de cuarentena, protege a tu personal y destapa el encubrimiento.",
+            "pt-BR": "Gerencie a última ala de quarentena, proteja sua equipe e exponha o acobertamento."
+        },
+        "desc": {
+            "en": "The official report says everything is under control, but your ward tells another story. As shift lead of the last quarantine ward, give each wave of new cases the staff and fictional supplies it needs, isolate the marked ones and keep your team from burning out. Between shifts, choose a shift lead and spend research on improvements. At the end of every shift, report the truth or alter the figures. There are 14 story shifts, 24 fictional case patterns, 8 shift leads and 20 ward improvements, with burnout, trust and evidence carrying over and three endings, plus a daily challenge and an endless run.",
+            "ko": "공식 보고서는 모든 것이 통제되고 있다고 말하지만, 당신의 병동은 다른 이야기를 합니다. 마지막 격리 병동의 교대 책임자로서, 새로 들어오는 환자 무리마다 필요한 인력과 가상의 물자를 배정하고, 표시된 환자를 격리하고, 팀이 지쳐 쓰러지지 않게 지키세요. 교대 사이에는 교대 책임자를 고르고 연구 포인트로 병동을 개선합니다. 교대가 끝날 때마다 진실을 보고할지, 수치를 조작할지 결정하세요. 스토리 교대 14개, 가상 환자 패턴 24종, 교대 책임자 8명, 병동 개선 20개가 있고, 번아웃, 신뢰, 증거가 계속 이어지며 엔딩은 3개입니다. 데일리 챌린지와 끝없는 도전도 있습니다.",
+            "ja": "公式報告ではすべて制御下にあるという。だが、あなたの病棟は別の現実を物語っている。最後の隔離病棟のシフトリーダーとして、押し寄せる新たな症例ごとに必要なスタッフと架空の物資を割り当て、印のついた症例を隔離し、チームが燃え尽きないよう守ろう。シフトの合間にはリーダーを選び、研究ポイントで病棟を改善する。毎シフトの終わりには、真実を報告するか数字を改ざんするかを決める。14のストーリーシフト、24の架空の症例パターン、8人のシフトリーダー、20の病棟改善。燃え尽き、信頼、証拠は次へ持ち越され、エンディングは3つ。デイリーチャレンジとエンドレスランも収録。",
+            "es": "El informe oficial dice que todo está bajo control, pero tu sala cuenta otra historia. Como jefe de turno de la última sala de cuarentena, dale a cada oleada de casos nuevos el personal y los insumos ficticios que necesita, aísla a los marcados y evita que tu equipo se agote. Entre turnos, elige un jefe de turno e invierte investigación en mejoras. Al final de cada turno, informa la verdad o altera las cifras. Hay 14 turnos de historia, 24 patrones de casos ficticios, 8 jefes de turno y 20 mejoras de sala, con agotamiento, confianza y pruebas que se arrastran de turno en turno y tres finales, además de un desafío diario y una partida sin fin.",
+            "pt-BR": "O relatório oficial diz que está tudo sob controle, mas a sua ala conta outra história. Como líder de plantão da última ala de quarentena, dê a cada leva de novos casos a equipe e os suprimentos fictícios de que precisa, isole os marcados e evite que sua equipe chegue ao esgotamento. Entre os plantões, escolha um líder e invista pesquisa em melhorias. No fim de cada plantão, relate a verdade ou altere os números. São 14 plantões de história, 24 padrões de casos fictícios, 8 líderes de plantão e 20 melhorias da ala, com esgotamento, confiança e provas que passam de um plantão para outro e três finais, além de desafio diário e uma jornada sem fim."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/wardzero",
+        "screenshots": [
+            "apps/shots/ward-zero/01.jpg",
+            "apps/shots/ward-zero/02.jpg",
+            "apps/shots/ward-zero/03.jpg",
+            "apps/shots/ward-zero/04.jpg",
+            "apps/shots/ward-zero/05.jpg"
+        ]
+    },
+    {
+        "id": "dead-air-dispatch",
+        "slug": "dead-air-dispatch",
+        "icon": "apps/dead-air-dispatch.png",
+        "page": "apps/dead-air-dispatch.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Dead Air Dispatch",
+            "ko": "데드 에어 디스패치",
+            "ja": "デッドエア・ディスパッチ",
+            "es": "Dead Air Dispatch",
+            "pt-BR": "Dead Air Dispatch"
+        },
+        "tagline": {
+            "en": "Tune the signal, solve the call and decide who makes it through the night.",
+            "ko": "신호를 맞추고, 호출을 풀고, 누가 이 밤을 넘길지 결정하세요.",
+            "ja": "信号を合わせ、通報を解き明かし、誰が夜を越えられるかを決めよう。",
+            "es": "Sintoniza la señal, resuelve la llamada y decide quién sobrevive a la noche.",
+            "pt-BR": "Sintonize o sinal, resolva o chamado e decida quem sobrevive à noite."
+        },
+        "desc": {
+            "en": "The city has gone dark, but a station demolished twenty years ago is still transmitting. Work the midnight radio desk: find the carrier and turn the phase to lock a signal, decode each caller's three-digit code from the archive slip, and send your last responders to the North Tower, the Harbor or the Old Station. You have fewer teams than calls, and saving one caller may expose another. There are 7 story shifts, 30 signal puzzles and 12 callers, with 4 endings shaped by trust and by what you put on the record, plus a daily challenge and an endless ladder.",
+            "ko": "도시는 어둠에 잠겼지만, 20년 전에 철거된 방송국이 아직도 송신하고 있습니다. 한밤의 무전 데스크를 맡아 반송파를 찾고 위상을 돌려 신호를 고정하고, 기록 쪽지로 호출자의 세 자리 코드를 풀어내고, 남은 대원들을 노스 타워, 항구, 옛 역 중 한 곳으로 보내세요. 팀은 호출보다 적고, 한 사람을 구하면 다른 사람이 위험해질 수 있습니다. 스토리 교대 7개, 신호 퍼즐 30개, 호출자 12명이 있고, 신뢰와 공식 기록에 남긴 내용에 따라 엔딩 4개가 갈립니다. 데일리 챌린지와 끝없는 사다리도 있습니다.",
+            "ja": "街は闇に沈んだ。だが、20年前に取り壊された放送局がまだ電波を送っている。真夜中の無線デスクにつき、搬送波を探して位相を回し信号をロックし、記録票から通報者の3桁のコードを解読し、残された隊員をノースタワー、港、旧駅のいずれかへ送り出そう。チームは通報より少なく、一人を救えば別の誰かが危険にさらされるかもしれない。7つのストーリーシフト、30の信号パズル、12人の通報者。信頼と公式記録に残した内容で4つのエンディングに分かれる。デイリーチャレンジとエンドレスラダーも収録。",
+            "es": "La ciudad se quedó a oscuras, pero una estación demolida hace veinte años sigue transmitiendo. Atiende el escritorio de radio de medianoche: encuentra la portadora y gira la fase para fijar la señal, descifra el código de tres dígitos de cada persona que llama con la ficha del archivo y envía a tus últimos equipos de respuesta a la Torre Norte, el Puerto o la Estación Vieja. Tienes menos equipos que llamadas, y salvar a una persona puede exponer a otra. Hay 7 turnos de historia, 30 acertijos de señal y 12 personas que llaman, con 4 finales definidos por la confianza y por lo que dejes en el registro oficial, además de un desafío diario y una escalera sin fin.",
+            "pt-BR": "A cidade ficou no escuro, mas uma estação demolida há vinte anos continua transmitindo. Assuma a mesa de rádio da meia-noite: encontre a portadora e gire a fase para travar o sinal, decifre o código de três dígitos de cada pessoa que liga com a ficha do arquivo e envie suas últimas equipes para a Torre Norte, o Porto ou a Estação Velha. Você tem menos equipes do que chamados, e salvar uma pessoa pode expor outra. São 7 plantões de história, 30 quebra-cabeças de sinal e 12 pessoas que ligam, com 4 finais definidos pela confiança e pelo que você coloca no registro oficial, além de desafio diário e uma escada sem fim."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/deadairdispatch",
+        "screenshots": [
+            "apps/shots/dead-air-dispatch/01.jpg",
+            "apps/shots/dead-air-dispatch/02.jpg",
+            "apps/shots/dead-air-dispatch/03.jpg",
+            "apps/shots/dead-air-dispatch/04.jpg",
+            "apps/shots/dead-air-dispatch/05.jpg"
+        ]
+    },
+    {
+        "id": "neon-debt",
+        "slug": "neon-debt",
+        "icon": "apps/neon-debt.png",
+        "page": "apps/neon-debt.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Neon Debt",
+            "ko": "네온 데트",
+            "ja": "ネオン・デット",
+            "es": "Neon Debt",
+            "pt-BR": "Neon Debt"
+        },
+        "tagline": {
+            "en": "Run the rooftops, dodge the drones and deliver a city-changing secret.",
+            "ko": "옥상을 달리고, 드론을 피하고, 도시를 바꿀 비밀을 배달하세요.",
+            "ja": "屋上を駆け、ドローンをかわし、街を変える秘密を届けろ。",
+            "es": "Corre por las azoteas, esquiva los drones y entrega un secreto que cambiará la ciudad.",
+            "pt-BR": "Corra pelos telhados, desvie dos drones e entregue um segredo que vai mudar a cidade."
+        },
+        "desc": {
+            "en": "One package can erase the debt that owns you. Race through a neon city as a courier who runs on their own while you jump, dash and brake, chaining double jumps across rooftops and dashing through drones to break them. Before each route, choose who gets the delivery and one movement module. There are 40 deliveries across five districts from Low Wire to The Crown, 20 movement modules, three factions with their own heat and pay, three endings and ghost runs of your best times, with workshop upgrades, a story campaign, a daily challenge and an endless run.",
+            "ko": "소포 하나가 당신을 옭아맨 빚을 지워 줄 수 있습니다. 알아서 달리는 배달부를 이끌고 네온 도시를 질주하세요. 당신은 점프, 대시, 브레이크만 맡습니다. 옥상 사이를 2단 점프로 건너고, 대시로 드론을 뚫고 부수세요. 루트마다 출발 전에 배달을 누구에게 넘길지와 이동 모듈 하나를 고릅니다. 로 와이어부터 더 크라운까지 다섯 구역에 걸친 배달 40개, 이동 모듈 20종, 저마다 다른 위험도와 보수를 가진 세력 3개, 엔딩 3개, 최고 기록 고스트에 작업장 업그레이드, 스토리 캠페인, 데일리 챌린지, 끝없는 질주까지 담겨 있습니다.",
+            "ja": "ひとつの荷物が、あなたを縛る借金を帳消しにできる。自動で走る配達人とともにネオンの街を駆け抜けよう。あなたが操るのはジャンプ、ダッシュ、ブレーキだけ。二段ジャンプで屋上から屋上へ渡り、ダッシュでドローンを突き破る。ルートごとに、荷物を誰に届けるかと移動モジュールを1つ選ぶ。ロウ・ワイヤーからザ・クラウンまで5地区40件の配達、20の移動モジュール、それぞれ手配度と報酬が異なる3つの勢力、3つのエンディング、ベストタイムのゴースト。工房アップグレード、ストーリーキャンペーン、デイリーチャレンジ、エンドレスランも収録。",
+            "es": "Un paquete puede borrar la deuda que te tiene atrapado. Corre por una ciudad de neón como un mensajero que avanza solo mientras tú saltas, haces dash y frenas, encadenando dobles saltos entre azoteas y atravesando drones para romperlos. Antes de cada ruta, elige a quién va la entrega y un módulo de movimiento. Hay 40 entregas en cinco distritos, de Low Wire a The Crown, 20 módulos de movimiento, tres facciones con su propio nivel de búsqueda y paga, tres finales y fantasmas de tus mejores tiempos, con mejoras de taller, una campaña de historia, un desafío diario y una carrera sin fin.",
+            "pt-BR": "Um pacote pode apagar a dívida que é dona de você. Corra por uma cidade neon como um entregador que avança sozinho enquanto você pula, dá dash e freia, encadeando pulos duplos entre telhados e atravessando drones para destruí-los. Antes de cada rota, escolha quem recebe a entrega e um módulo de movimento. São 40 entregas em cinco distritos, de Low Wire a The Crown, 20 módulos de movimento, três facções com nível de procura e pagamento próprios, três finais e fantasmas dos seus melhores tempos, com melhorias de oficina, campanha de história, desafio diário e uma corrida sem fim."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/neondebt",
+        "screenshots": [
+            "apps/shots/neon-debt/01.jpg",
+            "apps/shots/neon-debt/02.jpg",
+            "apps/shots/neon-debt/03.jpg",
+            "apps/shots/neon-debt/04.jpg",
+            "apps/shots/neon-debt/05.jpg"
+        ]
+    },
+    {
+        "id": "ashfall-express",
+        "slug": "ashfall-express",
+        "icon": "apps/ashfall-express.png",
+        "page": "apps/ashfall-express.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Ashfall Express",
+            "ko": "애시폴 익스프레스",
+            "ja": "アッシュフォール・エクスプレス",
+            "es": "Ashfall Express",
+            "pt-BR": "Ashfall Express"
+        },
+        "tagline": {
+            "en": "Route the last freight train through a broken world. Every seat matters.",
+            "ko": "무너진 세계를 가로질러 마지막 화물 열차를 이끄세요. 좌석 하나하나가 소중합니다.",
+            "ja": "壊れた世界に、最後の貨物列車を走らせろ。どの座席にも意味がある。",
+            "es": "Guía el último tren de carga por un mundo roto. Cada asiento importa.",
+            "pt-BR": "Conduza o último trem de carga por um mundo destruído. Cada assento importa."
+        },
+        "desc": {
+            "en": "The line is failing and the stations are filling with survivors. Keep the last freight train moving while balancing coal, hull condition, food, cargo and the people your orders told you to leave behind. At each station, choose one of three branches, buy coal and repairs, rest the crew, fit carriages and handle an event. People, evidence and crew trust shape where the line ends. There are five campaign regions, 20 station events, 12 carriage modules for four slots and three crew members with their own stories, with three endings, a daily journey and an endless mode.",
+            "ko": "노선은 무너져 가고, 역마다 생존자들이 몰려듭니다. 석탄, 차체 상태, 식량, 화물, 그리고 명령상 두고 떠나야 했던 사람들 사이에서 균형을 잡으며 마지막 화물 열차를 계속 달리게 하세요. 역마다 세 갈래 길 중 하나를 고르고, 석탄과 수리를 사고, 승무원을 쉬게 하고, 객차를 달고, 사건을 처리합니다. 사람, 증거, 승무원의 신뢰가 노선의 끝을 정합니다. 캠페인 지역 5곳, 역 이벤트 20개, 슬롯 네 개에 넣을 객차 모듈 12종, 각자의 이야기를 가진 승무원 3명, 엔딩 3개에 데일리 여정과 끝없는 모드가 있습니다.",
+            "ja": "路線は崩れつつあり、駅は生存者であふれている。石炭、車体の状態、食料、貨物、そして命令では置き去りにするはずだった人々。そのバランスを取りながら、最後の貨物列車を走らせ続けよう。駅ごとに3つの分岐から1つを選び、石炭と修理を買い、乗務員を休ませ、車両を連結し、イベントに対応する。人々、証拠、乗務員の信頼が路線の行き着く先を決める。5つのキャンペーン地域、20の駅イベント、4つのスロットに入れる12の車両モジュール、それぞれの物語を持つ3人の乗務員、3つのエンディング。デイリージャーニーとエンドレスモードも収録。",
+            "es": "La línea se está viniendo abajo y las estaciones se llenan de sobrevivientes. Mantén en marcha el último tren de carga equilibrando carbón, estado del casco, comida, carga y a las personas que tus órdenes decían dejar atrás. En cada estación, elige uno de tres ramales, compra carbón y reparaciones, deja descansar a la tripulación, acopla vagones y resuelve un evento. Las personas, las pruebas y la confianza de la tripulación definen dónde termina la línea. Hay cinco regiones de campaña, 20 eventos de estación, 12 módulos de vagón para cuatro espacios y tres tripulantes con sus propias historias, con tres finales, un viaje diario y un modo sin fin.",
+            "pt-BR": "A linha está ruindo e as estações estão se enchendo de sobreviventes. Mantenha o último trem de carga andando enquanto equilibra carvão, estado do casco, comida, carga e as pessoas que suas ordens mandavam deixar para trás. Em cada estação, escolha um de três ramais, compre carvão e reparos, deixe a tripulação descansar, engate vagões e resolva um evento. Pessoas, provas e a confiança da tripulação definem onde a linha termina. São cinco regiões de campanha, 20 eventos de estação, 12 módulos de vagão para quatro espaços e três tripulantes com histórias próprias, com três finais, uma jornada diária e um modo sem fim."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/ashfallexpress",
+        "screenshots": [
+            "apps/shots/ashfall-express/01.jpg",
+            "apps/shots/ashfall-express/02.jpg",
+            "apps/shots/ashfall-express/03.jpg",
+            "apps/shots/ashfall-express/04.jpg",
+            "apps/shots/ashfall-express/05.jpg"
+        ]
+    },
+    {
+        "id": "dustwake-rally",
+        "slug": "dustwake-rally",
+        "icon": "apps/dustwake-rally.png",
+        "page": "apps/dustwake-rally.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Dustwake Rally",
+            "ko": "더스트웨이크 랠리",
+            "ja": "ダストウェイク・ラリー",
+            "es": "Dustwake Rally",
+            "pt-BR": "Dustwake Rally"
+        },
+        "tagline": {
+            "en": "Drift through a scorched frontier. Risk the shortcut. Bring your car home.",
+            "ko": "불탄 변경을 드리프트로 가로지르고, 지름길에 도전하고, 차를 무사히 데려오세요.",
+            "ja": "焼けついた辺境をドリフトで駆け、近道に賭け、愛車を連れて帰れ。",
+            "es": "Derrapa por una frontera calcinada. Arriésgate con el atajo. Lleva tu auto a casa.",
+            "pt-BR": "Derrape por uma fronteira escaldante. Arrisque o atalho. Traga seu carro para casa."
+        },
+        "desc": {
+            "en": "Your cargo can ruin the people who own the roads. Drive a battered rally car across a harsh mining frontier, read the pace notes and decide when speed is worth the damage. The car accelerates on its own while you steer and brake, and damage to the car or the cargo can end the stage. There are 24 stages across four biomes, six cars, tuning parts, tire wear that carries between stages, shortcuts on half the courses and ghost cars of your best runs. Three rivals along the road have fates you decide, with three endings, a daily challenge and an endless rally.",
+            "ko": "당신의 화물은 도로를 쥔 자들을 무너뜨릴 수 있습니다. 낡은 랠리카를 몰고 거친 광산 변경을 가로지르며, 페이스 노트를 읽고 속도가 피해를 감수할 가치가 있는지 판단하세요. 차는 알아서 가속하고 당신은 조향과 브레이크를 맡으며, 차나 화물이 손상되면 스테이지가 끝날 수 있습니다. 네 가지 지형에 걸친 스테이지 24개, 차량 6대, 튜닝 부품, 스테이지 사이에 이어지는 타이어 마모, 코스 절반에 있는 지름길, 최고 기록 고스트 카가 있습니다. 길 위의 라이벌 세 명의 운명은 당신이 정하며, 엔딩 3개, 데일리 챌린지, 끝없는 랠리가 준비되어 있습니다.",
+            "ja": "あなたの積み荷は、道路を牛耳る者たちを破滅させかねない。ボロボロのラリーカーで過酷な鉱山の辺境を走り、ペースノートを読み、スピードがダメージに見合うかを見極めよう。車は自動で加速し、あなたはハンドルとブレーキを担当。車や積み荷が壊れればステージは終わる。4つのバイオームにまたがる24ステージ、6台の車、チューニングパーツ、ステージをまたいで続くタイヤ摩耗、半分のコースにある近道、ベストランのゴーストカー。道中の3人のライバルの運命はあなた次第で、エンディングは3つ。デイリーチャレンジとエンドレスラリーも収録。",
+            "es": "Tu carga puede arruinar a los dueños de los caminos. Conduce un auto de rally maltrecho por una dura frontera minera, lee las notas de ritmo y decide cuándo la velocidad vale el daño. El auto acelera solo mientras tú giras y frenas, y el daño al auto o a la carga puede terminar la etapa. Hay 24 etapas en cuatro biomas, seis autos, piezas de ajuste, desgaste de neumáticos que se arrastra entre etapas, atajos en la mitad de los recorridos y autos fantasma de tus mejores carreras. Tres rivales en el camino tienen un destino que tú decides, con tres finales, un desafío diario y un rally sin fin.",
+            "pt-BR": "Sua carga pode arruinar os donos das estradas. Dirija um carro de rali surrado por uma fronteira mineira hostil, leia as notas de navegação e decida quando a velocidade vale o estrago. O carro acelera sozinho enquanto você esterça e freia, e danos ao carro ou à carga podem encerrar o estágio. São 24 estágios em quatro biomas, seis carros, peças de ajuste, desgaste de pneus que passa de um estágio para outro, atalhos em metade dos percursos e carros fantasma das suas melhores corridas. Três rivais pelo caminho têm o destino decidido por você, com três finais, desafio diário e um rali sem fim."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/dustwakerally",
+        "screenshots": [
+            "apps/shots/dustwake-rally/01.jpg",
+            "apps/shots/dustwake-rally/02.jpg",
+            "apps/shots/dustwake-rally/03.jpg",
+            "apps/shots/dustwake-rally/04.jpg",
+            "apps/shots/dustwake-rally/05.jpg"
+        ]
+    },
+    {
+        "id": "deadbolt-district",
+        "slug": "deadbolt-district",
+        "icon": "apps/deadbolt-district.png",
+        "page": "apps/deadbolt-district.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Deadbolt District",
+            "ko": "데드볼트 디스트릭트",
+            "ja": "デッドボルト・ディストリクト",
+            "es": "Deadbolt District",
+            "pt-BR": "Deadbolt District"
+        },
+        "tagline": {
+            "en": "Steal the evidence. Read the patrols. Choose who gets out.",
+            "ko": "증거를 훔치고, 순찰을 읽고, 누구를 빼낼지 정하세요.",
+            "ja": "証拠を盗め。巡回を読め。誰を逃がすか決めろ。",
+            "es": "Roba las pruebas. Lee las patrullas. Elige quién sale.",
+            "pt-BR": "Roube as provas. Leia as patrulhas. Escolha quem sai."
+        },
+        "desc": {
+            "en": "The city sold your neighborhood, so steal its secrets back. Deadbolt District is a turn-based stealth game on a 7x7 grid. Choose a specialist and one gadget, read where every patrol steps next and plan a route to the locked evidence and back out to the exit, deciding whether to risk rescuing a resident. Get spotted and you lose resolve. There are 24 contracts across four districts, five specialists and 18 gadgets, with heat and injuries carrying between jobs and a rescue record that leads to one of three endings, plus a daily challenge and an endless contract ladder.",
+            "ko": "도시가 당신의 동네를 팔아넘겼습니다. 그러니 그 비밀을 되찾아 오세요. 데드볼트 디스트릭트는 7x7 격자에서 펼쳐지는 턴제 잠입 게임입니다. 전문가 한 명과 장비 하나를 고르고, 순찰대가 다음에 어디로 움직일지 읽고, 잠긴 증거까지 갔다가 출구로 빠져나오는 길을 계획하세요. 주민을 구하는 위험을 감수할지도 정해야 합니다. 들키면 결의가 줄어듭니다. 네 구역에 걸친 계약 24개, 전문가 5명, 장비 18종이 있고, 수배도와 부상은 작업 사이에 이어지며 구조 기록에 따라 엔딩 3개 중 하나로 이어집니다. 데일리 챌린지와 끝없는 계약 사다리도 있습니다.",
+            "ja": "街はあなたの地区を売り渡した。ならば、その秘密を盗み返せ。デッドボルト・ディストリクトは7×7のグリッドで展開するターン制ステルスゲーム。スペシャリストとガジェットを1つずつ選び、巡回の次の一歩を読み、鍵のかかった証拠までたどり着いて出口へ戻るルートを計画しよう。住民の救出に危険を冒すかどうかも決める。見つかると決意が減っていく。4地区24の契約、5人のスペシャリストと18のガジェット。手配度と負傷は仕事をまたいで持ち越され、救出の記録が3つのエンディングのどれかへ導く。デイリーチャレンジとエンドレスの契約ラダーも収録。",
+            "es": "La ciudad vendió tu barrio, así que roba sus secretos de vuelta. Deadbolt District es un juego de sigilo por turnos en una cuadrícula de 7x7. Elige un especialista y un dispositivo, lee hacia dónde da el siguiente paso cada patrulla y planea una ruta hasta las pruebas bajo llave y de regreso a la salida, decidiendo si arriesgarte a rescatar a un vecino. Si te ven, pierdes determinación. Hay 24 contratos en cuatro distritos, cinco especialistas y 18 dispositivos, con nivel de búsqueda y heridas que se arrastran entre trabajos y un historial de rescates que lleva a uno de tres finales, además de un desafío diario y una escalera de contratos sin fin.",
+            "pt-BR": "A cidade vendeu o seu bairro, então roube os segredos dela de volta. Deadbolt District é um jogo de furtividade por turnos em uma grade 7x7. Escolha um especialista e um equipamento, leia para onde cada patrulha vai no próximo passo e planeje uma rota até as provas trancadas e de volta à saída, decidindo se vale arriscar o resgate de um morador. Se for visto, você perde determinação. São 24 contratos em quatro distritos, cinco especialistas e 18 equipamentos, com nível de procura e ferimentos que passam de um trabalho para outro e um histórico de resgates que leva a um de três finais, além de desafio diário e uma escada de contratos sem fim."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/deadboltdistrict",
+        "screenshots": [
+            "apps/shots/deadbolt-district/01.jpg",
+            "apps/shots/deadbolt-district/02.jpg",
+            "apps/shots/deadbolt-district/03.jpg",
+            "apps/shots/deadbolt-district/04.jpg",
+            "apps/shots/deadbolt-district/05.jpg"
+        ]
+    },
+    {
+        "id": "blacktide-salvage",
+        "slug": "blacktide-salvage",
+        "icon": "apps/blacktide-salvage.png",
+        "page": "apps/blacktide-salvage.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Blacktide Salvage",
+            "ko": "블랙타이드 샐비지",
+            "ja": "ブラックタイド・サルベージ",
+            "es": "Blacktide Salvage",
+            "pt-BR": "Blacktide Salvage"
+        },
+        "tagline": {
+            "en": "Dive into forgotten wrecks. Take the salvage. Make it back alive.",
+            "ko": "잊힌 난파선으로 잠수하고, 인양품을 챙기고, 살아서 돌아오세요.",
+            "ja": "忘れられた沈没船へ潜れ。引き揚げ品を手に、生きて戻れ。",
+            "es": "Sumérgete en naufragios olvidados. Recupera la carga. Vuelve con vida.",
+            "pt-BR": "Mergulhe em naufrágios esquecidos. Recupere a carga. Volte com vida."
+        },
+        "desc": {
+            "en": "Your salvage union buys an obsolete submarine to search the wreck that took your captain. Fit three modules at the dock, steer through the wreck, ping the sonar to find salvage and hold the cutter on a marker to bring it aboard, then reach the surface buoy before your air runs out, knowing a full hold rises slowly. Each dive turns up another piece of an industrial cover-up. There are 16 wrecks across 4 depth zones, 24 equipment modules in six families and 12 captain's logs leading to a final choice about the archive, plus a story campaign, a daily challenge and an endless mode.",
+            "ko": "당신의 인양 조합은 선장을 앗아 간 난파선을 수색하려고 낡은 잠수함을 사들입니다. 부두에서 모듈 세 개를 장착하고, 난파선 사이를 조종하고, 소나를 울려 인양품을 찾고, 표시 위에 절단기를 대고 있어 끌어올리세요. 짐칸이 가득 차면 느리게 떠오르니, 공기가 떨어지기 전에 수면 부표로 돌아와야 합니다. 잠수할 때마다 산업계 은폐의 조각이 하나씩 드러납니다. 4개 수심 구역에 걸친 난파선 16척, 여섯 계열의 장비 모듈 24종, 기록 보관소에 관한 마지막 선택으로 이어지는 선장 일지 12개와 함께 스토리 캠페인, 데일리 챌린지, 끝없는 모드가 있습니다.",
+            "ja": "あなたのサルベージ組合は、船長を奪った沈没船を探すため、時代遅れの潜水艦を買い取る。ドックで3つのモジュールを装着し、沈没船の中を操縦し、ソナーを打って引き揚げ品を探し、マーカーにカッターを当て続けて回収しよう。満載の船倉はゆっくりとしか浮上しない。空気が尽きる前に海面のブイまで戻れ。潜るたびに、産業界の隠蔽工作の断片がひとつずつ明らかになる。4つの深度帯に16の沈没船、6系統24の装備モジュール、アーカイブをめぐる最後の選択へつながる12の船長日誌。ストーリーキャンペーン、デイリーチャレンジ、エンドレスモードも収録。",
+            "es": "Tu sindicato de rescate compra un submarino obsoleto para buscar el naufragio que se llevó a tu capitán. Instala tres módulos en el muelle, maniobra por el naufragio, usa el sonar para encontrar carga y mantén el cortador sobre un marcador para subirla a bordo, y luego llega a la boya de superficie antes de quedarte sin aire, sabiendo que una bodega llena sube despacio. Cada inmersión revela otra pieza de un encubrimiento industrial. Hay 16 naufragios en 4 zonas de profundidad, 24 módulos de equipo en seis familias y 12 registros del capitán que llevan a una decisión final sobre el archivo, además de una campaña de historia, un desafío diario y un modo sin fin.",
+            "pt-BR": "Seu sindicato de resgate compra um submarino obsoleto para procurar o naufrágio que levou seu capitão. Instale três módulos no cais, manobre pelo naufrágio, use o sonar para achar carga e mantenha o cortador sobre um marcador para trazê-la a bordo, e depois chegue à boia de superfície antes que o ar acabe, sabendo que um porão cheio sobe devagar. Cada mergulho revela outra peça de um acobertamento industrial. São 16 naufrágios em 4 zonas de profundidade, 24 módulos de equipamento em seis famílias e 12 diários do capitão que levam a uma escolha final sobre o arquivo, além de campanha de história, desafio diário e um modo sem fim."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/blacktidesalvage",
+        "screenshots": [
+            "apps/shots/blacktide-salvage/01.jpg",
+            "apps/shots/blacktide-salvage/02.jpg",
+            "apps/shots/blacktide-salvage/03.jpg",
+            "apps/shots/blacktide-salvage/04.jpg",
+            "apps/shots/blacktide-salvage/05.jpg"
+        ]
+    },
+    {
+        "id": "cafe-secrets",
+        "slug": "cafe-secrets",
+        "icon": "apps/cafe-secrets.png",
+        "page": "apps/cafe-secrets.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Café Secrets",
+            "ko": "카페 시크릿",
+            "ja": "カフェ・シークレッツ",
+            "es": "Café Secrets",
+            "pt-BR": "Café Secrets"
+        },
+        "tagline": {
+            "en": "Merge pastries and drinks, serve the neighborhood, uncover three mysteries.",
+            "ko": "빵과 음료를 합치고, 동네 손님을 맞이하고, 세 가지 미스터리를 풀어 보세요.",
+            "ja": "スイーツとドリンクを合成し、街の人をもてなし、3つの謎を解き明かそう。",
+            "es": "Combina pasteles y bebidas, atiende al barrio y descubre tres misterios.",
+            "pt-BR": "Combine doces e bebidas, atenda o bairro e desvende três mistérios."
+        },
+        "desc": {
+            "en": "Café Secrets is a merge puzzle game with pastries, café orders and a neighborhood mystery. Combine matching items to discover recipes, serve your customers and renovate a welcoming café. There are 16 recipes across pastry and drink chains, with generators that are always available and no energy limits or waiting timers, plus quick, regular and signature order lanes and a small daily goal. Upgrade the bakehouse and coffee corner, or restore windows, plants, tables and lights. Every three orders earn a story clue, across 18 written chapters and three mysteries.",
+            "ko": "카페 시크릿은 빵, 카페 주문, 동네 미스터리가 어우러진 머지 퍼즐 게임입니다. 같은 아이템을 합쳐 레시피를 발견하고, 손님에게 내놓고, 아늑한 카페를 새로 꾸미세요. 빵과 음료 계열에 걸친 레시피 16종이 있고, 생성기는 언제든 쓸 수 있으며 에너지 제한이나 대기 시간이 없습니다. 빠른 주문, 일반 주문, 시그니처 주문 라인과 작은 일일 목표도 있습니다. 베이크하우스와 커피 코너를 업그레이드하거나 창문, 화분, 테이블, 조명을 복원하세요. 주문 세 건마다 스토리 단서를 얻고, 세 가지 미스터리에 걸친 18개의 이야기 챕터가 펼쳐집니다.",
+            "ja": "カフェ・シークレッツは、スイーツとカフェの注文、そして街の謎が詰まったマージパズルゲーム。同じアイテムを合わせてレシピを見つけ、お客さんに出し、居心地のいいカフェに改装しよう。スイーツとドリンクの系統にまたがる16のレシピ。ジェネレーターはいつでも使え、エネルギー制限も待ち時間もない。クイック、レギュラー、シグネチャーの注文レーンと、ちょっとしたデイリー目標もある。ベイクハウスとコーヒーコーナーを強化したり、窓、植物、テーブル、照明を修復したり。注文3件ごとにストーリーの手がかりが手に入り、3つの謎にまたがる18章の物語が進む。",
+            "es": "Café Secrets es un juego de rompecabezas de combinar con pasteles, pedidos de café y un misterio de barrio. Junta objetos iguales para descubrir recetas, atiende a tus clientes y renueva un café acogedor. Hay 16 recetas en cadenas de repostería y bebidas, con generadores siempre disponibles y sin límites de energía ni tiempos de espera, además de filas de pedidos rápidos, normales y de autor, y una pequeña meta diaria. Mejora el obrador y el rincón del café, o restaura ventanas, plantas, mesas y luces. Cada tres pedidos ganas una pista de la historia, a lo largo de 18 capítulos escritos y tres misterios.",
+            "pt-BR": "Café Secrets é um jogo de quebra-cabeça de combinar com doces, pedidos de café e um mistério de bairro. Junte itens iguais para descobrir receitas, atenda seus clientes e reforme um café aconchegante. São 16 receitas em cadeias de confeitaria e bebidas, com geradores sempre disponíveis e sem limite de energia nem tempo de espera, além de filas de pedidos rápidos, comuns e especiais e uma pequena meta diária. Melhore a padaria e o cantinho do café, ou restaure janelas, plantas, mesas e luzes. A cada três pedidos você ganha uma pista da história, ao longo de 18 capítulos escritos e três mistérios."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/cafesecrets",
+        "screenshots": [
+            "apps/shots/cafe-secrets/01.jpg",
+            "apps/shots/cafe-secrets/02.jpg",
+            "apps/shots/cafe-secrets/03.jpg",
+            "apps/shots/cafe-secrets/04.jpg",
+            "apps/shots/cafe-secrets/05.jpg"
+        ]
+    },
+    {
+        "id": "last-hearth",
+        "slug": "last-hearth",
+        "icon": "apps/last-hearth.png",
+        "page": "apps/last-hearth.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Last Hearth",
+            "ko": "라스트 허스",
+            "ja": "ラスト・ハース",
+            "es": "Last Hearth",
+            "pt-BR": "Last Hearth"
+        },
+        "tagline": {
+            "en": "Keep a small village alive through twenty winter nights.",
+            "ko": "작은 마을이 스무 번의 겨울밤을 버티도록 지켜 주세요.",
+            "ja": "小さな村を、20の冬の夜から守り抜け。",
+            "es": "Mantén con vida a un pequeño pueblo durante veinte noches de invierno.",
+            "pt-BR": "Mantenha uma pequena vila viva por vinte noites de inverno."
+        },
+        "desc": {
+            "en": "Last Hearth is a winter survival strategy game about a small village and its fire. Each turn is one day: assign workers to timber, food, coal, research and a scouting team, improve buildings and balance heat, food and morale before you face the night. Send expeditions for timber, stores, coal or survivors, read a five-night weather outlook and build shelters, a kitchen, a workshop, a greenhouse, an infirmary and a hope beacon. Manage rations, sick workers, rescued travelers and village events across a twenty-night campaign or an endless winter, with three starting climates.",
+            "ko": "라스트 허스는 작은 마을과 그 불씨를 지키는 겨울 생존 전략 게임입니다. 한 턴은 하루입니다. 일꾼을 목재, 식량, 석탄, 연구, 정찰대에 배치하고, 건물을 개선하고, 밤이 오기 전에 온기, 식량, 사기의 균형을 맞추세요. 목재, 비축품, 석탄, 생존자를 찾아 원정대를 보내고, 5일 밤 날씨 예보를 확인하고, 대피소, 주방, 작업장, 온실, 진료소, 희망의 봉화를 지으세요. 배급, 아픈 일꾼, 구조한 여행자, 마을 사건을 관리하며 20일 밤 캠페인이나 끝없는 겨울에 도전하세요. 시작 기후는 세 가지입니다.",
+            "ja": "ラスト・ハースは、小さな村とその火を守る冬のサバイバル戦略ゲーム。1ターンは1日。働き手を木材、食料、石炭、研究、偵察隊に割り振り、建物を改良し、夜を迎える前に暖かさ、食料、士気のバランスを取ろう。木材、備蓄、石炭、生存者を求めて遠征隊を送り、5夜分の天気予報を確認し、避難所、台所、作業場、温室、診療所、希望の灯台を建てる。配給、病気の働き手、救助した旅人、村の出来事に対処しながら、20夜のキャンペーンか終わらない冬に挑もう。開始時の気候は3種類。",
+            "es": "Last Hearth es un juego de estrategia de supervivencia invernal sobre un pequeño pueblo y su fuego. Cada turno es un día: asigna trabajadores a madera, comida, carbón, investigación y un equipo de exploración, mejora los edificios y equilibra calor, comida y moral antes de enfrentar la noche. Envía expediciones en busca de madera, provisiones, carbón o sobrevivientes, consulta un pronóstico del clima de cinco noches y construye refugios, cocina, taller, invernadero, enfermería y un faro de esperanza. Administra raciones, trabajadores enfermos, viajeros rescatados y eventos del pueblo en una campaña de veinte noches o un invierno sin fin, con tres climas iniciales.",
+            "pt-BR": "Last Hearth é um jogo de estratégia de sobrevivência no inverno sobre uma pequena vila e sua fogueira. Cada turno é um dia: distribua trabalhadores entre madeira, comida, carvão, pesquisa e uma equipe de exploração, melhore as construções e equilibre calor, comida e moral antes de encarar a noite. Envie expedições atrás de madeira, mantimentos, carvão ou sobreviventes, consulte a previsão do tempo para cinco noites e construa abrigos, cozinha, oficina, estufa, enfermaria e um farol da esperança. Administre rações, trabalhadores doentes, viajantes resgatados e eventos da vila em uma campanha de vinte noites ou em um inverno sem fim, com três climas iniciais."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/lasthearth",
+        "screenshots": [
+            "apps/shots/last-hearth/01.jpg",
+            "apps/shots/last-hearth/02.jpg",
+            "apps/shots/last-hearth/03.jpg",
+            "apps/shots/last-hearth/04.jpg"
+        ]
+    },
+    {
+        "id": "clover-county",
+        "slug": "clover-county",
+        "icon": "apps/clover-county.png",
+        "page": "apps/clover-county.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Clover County",
+            "ko": "클로버 카운티",
+            "ja": "クローバー・カウンティ",
+            "es": "Clover County",
+            "pt-BR": "Clover County"
+        },
+        "tagline": {
+            "en": "Grow fields, run workshops and fill market orders in a sunny county.",
+            "ko": "햇살 가득한 마을에서 밭을 가꾸고, 작업장을 돌리고, 시장 주문을 채우세요.",
+            "ja": "日差しあふれる郡で畑を育て、工房を回し、市場の注文に応えよう。",
+            "es": "Cultiva campos, maneja talleres y cumple pedidos del mercado en un condado soleado.",
+            "pt-BR": "Cultive campos, toque oficinas e atenda pedidos do mercado em um condado ensolarado."
+        },
+        "desc": {
+            "en": "Clover County is a farming and town-building game with production chains and market orders you can plan around. Grow wheat, carrots, apples, berries and pumpkins, then turn them into flour, bread, juice, jam and pumpkin pie in workshop queues. Plan building footprints, paths and flower gardens for faster production, and move or clear buildings as your village grows. Deliver order tickets or swap an order for a simpler one at no cost. The county runs through four seasons and twelve milestones, and nothing spoils while you are away.",
+            "ko": "클로버 카운티는 계획을 세울 수 있는 생산 체인과 시장 주문이 있는 농장 마을 만들기 게임입니다. 밀, 당근, 사과, 베리, 호박을 기르고, 작업장 대기열에서 밀가루, 빵, 주스, 잼, 호박 파이로 만드세요. 생산 속도를 높이도록 건물 배치와 길, 꽃밭을 계획하고, 마을이 자라면 건물을 옮기거나 치우세요. 주문 티켓을 배달하거나, 비용 없이 더 쉬운 주문으로 바꿀 수 있습니다. 사계절과 12개의 마을 이정표가 있고, 자리를 비운 동안에는 아무것도 상하지 않습니다.",
+            "ja": "クローバー・カウンティは、計画を立てられる生産チェーンと市場の注文が楽しめる農場づくり＆町づくりゲーム。小麦、ニンジン、リンゴ、ベリー、カボチャを育て、工房の生産ラインで小麦粉、パン、ジュース、ジャム、パンプキンパイに変えよう。生産を早めるために建物の配置、小道、花壇を計画し、村の成長に合わせて建物を移したり撤去したりできる。注文チケットを届けるか、無料でもっと簡単な注文に替えられる。四季と12の郡のマイルストーンがあり、留守の間に何かが傷むことはない。",
+            "es": "Clover County es un juego de granja y construcción de pueblos con cadenas de producción y pedidos del mercado que puedes planificar. Cultiva trigo, zanahorias, manzanas, bayas y calabazas, y conviértelos en harina, pan, jugo, mermelada y pastel de calabaza en las colas de los talleres. Planifica la ubicación de los edificios, los caminos y los jardines de flores para producir más rápido, y mueve o retira edificios a medida que crece tu pueblo. Entrega boletas de pedidos o cambia un pedido por uno más simple sin costo. El condado recorre cuatro estaciones y 12 metas, y nada se echa a perder mientras no estás.",
+            "pt-BR": "Clover County é um jogo de fazenda e construção de cidade com cadeias de produção e pedidos do mercado que você pode planejar. Plante trigo, cenouras, maçãs, frutas vermelhas e abóboras, e transforme tudo em farinha, pão, suco, geleia e torta de abóbora nas filas das oficinas. Planeje o espaço das construções, os caminhos e os canteiros de flores para produzir mais rápido, e mova ou remova construções conforme a vila cresce. Entregue os tíquetes de pedido ou troque um pedido por outro mais simples sem custo. O condado passa por quatro estações e 12 marcos, e nada estraga enquanto você está fora."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/clovercounty",
+        "screenshots": [
+            "apps/shots/clover-county/01.jpg",
+            "apps/shots/clover-county/02.jpg",
+            "apps/shots/clover-county/03.jpg",
+            "apps/shots/clover-county/04.jpg"
+        ]
+    },
+    {
+        "id": "bannerbound",
+        "slug": "bannerbound",
+        "icon": "apps/bannerbound.png",
+        "page": "apps/bannerbound.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Bannerbound",
+            "ko": "배너바운드",
+            "ja": "バナーバウンド",
+            "es": "Bannerbound",
+            "pt-BR": "Bannerbound"
+        },
+        "tagline": {
+            "en": "Build a six-card deck, deploy troops and hold the bridges.",
+            "ko": "카드 여섯 장으로 덱을 짜고, 병력을 배치하고, 다리를 지키세요.",
+            "ja": "6枚のデッキを組み、部隊を送り出し、橋を守り抜け。",
+            "es": "Arma un mazo de seis cartas, despliega tropas y defiende los puentes.",
+            "pt-BR": "Monte um baralho de seis cartas, posicione tropas e segure as pontes."
+        },
+        "desc": {
+            "en": "Bannerbound is a tactical card battle game about decks, timing and bridge control. Build a six-card deck from eight cards, every one available from the start, then deploy squires, archers, lancers, healers, shieldguards and scout trios and cast Fireball and Rally against a computer opponent. Play from a four-card hand with a preview of the next card and regenerating energy. Win by breaking the rival castle or leading when the three-minute timer ends. Six rotating captains bring their own decks and tactics across a campaign, practice and a race to 100 bridge-control points.",
+            "ko": "배너바운드는 덱 구성, 타이밍, 다리 장악이 중요한 전술 카드 배틀 게임입니다. 처음부터 모두 쓸 수 있는 카드 여덟 장 중 여섯 장으로 덱을 짜고, 종자, 궁수, 창기병, 치유사, 방패병, 정찰 3인조를 배치하고, 화염구와 집결 주문을 써서 컴퓨터 상대와 싸우세요. 다음 카드 미리보기와 재생되는 에너지를 활용해 손패 네 장으로 플레이합니다. 상대의 성을 무너뜨리거나 3분 타이머가 끝날 때 앞서 있으면 승리합니다. 저마다 다른 덱과 전술을 가진 여섯 명의 대장이 번갈아 등장하며, 캠페인, 연습, 다리 장악 100점 경주가 있습니다.",
+            "ja": "バナーバウンドは、デッキ、タイミング、橋の支配がカギを握る戦術カードバトルゲーム。最初から全部使える8枚のカードから6枚のデッキを組み、従騎士、弓兵、槍騎兵、治療師、盾兵、斥候トリオを送り出し、ファイアボールと鼓舞の呪文でコンピューターと戦おう。次のカードのプレビューと回復するエネルギーを使い、4枚の手札で戦う。敵の城を壊すか、3分のタイマーが切れたときにリードしていれば勝ち。それぞれ独自のデッキと戦術を持つ6人の隊長が入れ替わりで登場し、キャンペーン、練習、橋支配100ポイントレースを楽しめる。",
+            "es": "Bannerbound es un juego táctico de batallas de cartas sobre mazos, ritmo y control de puentes. Arma un mazo de seis cartas a partir de ocho, todas disponibles desde el principio, y luego despliega escuderos, arqueros, lanceros, sanadores, guardias de escudo y tríos de exploradores, y lanza Bola de fuego y Arenga contra un oponente de la computadora. Juega con una mano de cuatro cartas, una vista previa de la siguiente y energía que se regenera. Gana derribando el castillo rival o yendo adelante cuando termine el temporizador de tres minutos. Seis capitanes rotativos traen sus propios mazos y tácticas en una campaña, práctica y una carrera a 100 puntos de control de puentes.",
+            "pt-BR": "Bannerbound é um jogo tático de batalhas de cartas sobre baralhos, tempo e controle de pontes. Monte um baralho de seis cartas a partir de oito, todas disponíveis desde o início, e posicione escudeiros, arqueiros, lanceiros, curandeiros, guardas de escudo e trios de batedores, e lance Bola de Fogo e Reunir contra um oponente do computador. Jogue com uma mão de quatro cartas, a prévia da próxima e energia que se regenera. Vença derrubando o castelo rival ou estando na frente quando o cronômetro de três minutos acabar. Seis capitães em rodízio trazem baralhos e táticas próprios em uma campanha, treino e uma corrida até 100 pontos de controle de pontes."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/bannerbound",
+        "screenshots": [
+            "apps/shots/bannerbound/01.jpg",
+            "apps/shots/bannerbound/02.jpg",
+            "apps/shots/bannerbound/03.jpg",
+            "apps/shots/bannerbound/04.jpg",
+            "apps/shots/bannerbound/05.jpg"
+        ]
+    },
+    {
+        "id": "solitaire-trails",
+        "slug": "solitaire-trails",
+        "icon": "apps/solitaire-trails.png",
+        "page": "apps/solitaire-trails.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Solitaire Trails",
+            "ko": "솔리테어 트레일즈",
+            "ja": "ソリティア・トレイルズ",
+            "es": "Solitaire Trails",
+            "pt-BR": "Solitaire Trails"
+        },
+        "tagline": {
+            "en": "TriPeaks solitaire on a countryside trail. One higher, one lower.",
+            "ko": "시골길 위의 트라이피크 솔리테어. 하나 높게, 하나 낮게.",
+            "ja": "田舎道をめぐるトライピークス・ソリティア。1つ上か、1つ下か。",
+            "es": "Solitario TriPeaks en un sendero de campo. Uno más alto, uno más bajo.",
+            "pt-BR": "Paciência TriPeaks em uma trilha pelo campo. Um acima, um abaixo."
+        },
+        "desc": {
+            "en": "Solitaire Trails is a TriPeaks solitaire game with a countryside campaign. Play a card one higher or lower than your trail pile, clear the peaks and stretch your deck with well-planned streaks. Three landscapes bring three card formations: three classic peaks, four branching ridges or seven card paths. Every deal has a winning path, with no timer, free retries, three undos every hand and wild cards earned through campaign wins. Earn stars for long streaks and fewer helpers, follow a daily trail, keep a journal of every route and build a small homestead between hands.",
+            "ko": "솔리테어 트레일즈는 시골 캠페인이 있는 트라이피크 솔리테어 게임입니다. 트레일 더미보다 하나 높거나 낮은 카드를 내고, 봉우리를 치우고, 잘 계획한 연속 플레이로 덱을 아껴 쓰세요. 세 가지 풍경에는 세 가지 카드 배치가 있습니다. 클래식 봉우리 세 개, 갈라지는 능선 네 개, 카드 길 일곱 개입니다. 모든 판에는 이기는 길이 있고, 타이머가 없으며, 재도전은 무료이고, 판마다 되돌리기 세 번과 캠페인 승리로 얻는 와일드 카드가 있습니다. 긴 연속 플레이와 적은 도움으로 별을 얻고, 데일리 트레일을 따라가고, 모든 루트를 일지에 남기고, 판과 판 사이에 작은 농가를 지으세요.",
+            "ja": "ソリティア・トレイルズは、田舎をめぐるキャンペーン付きのトライピークス・ソリティア。場札より1つ上か1つ下のカードを出して山を崩し、うまく連続させて山札を長持ちさせよう。3つの風景には3つのカード配置がある。定番の3つの山、枝分かれする4つの尾根、7本のカードの道。どの配りにも勝ち筋があり、タイマーなし、やり直しは無料、毎回3回のアンドゥ、キャンペーンの勝利で手に入るワイルドカード。長い連続と少ない補助で星を獲得し、デイリートレイルに挑み、すべてのルートを日誌に残し、合間に小さな農家を建てよう。",
+            "es": "Solitaire Trails es un solitario TriPeaks con una campaña por el campo. Juega una carta un número más alta o más baja que tu pila de sendero, despeja los picos y estira tu mazo con rachas bien planeadas. Tres paisajes traen tres formaciones de cartas: tres picos clásicos, cuatro crestas ramificadas o siete caminos de cartas. Cada reparto tiene una forma de ganar, sin temporizador, con reintentos gratis, tres deshacer por mano y comodines que se ganan con victorias de campaña. Gana estrellas por rachas largas y menos ayudas, sigue un sendero diario, lleva un diario de cada ruta y construye una pequeña granja entre manos.",
+            "pt-BR": "Solitaire Trails é uma paciência TriPeaks com uma campanha pelo interior. Jogue uma carta um número acima ou abaixo da sua pilha da trilha, limpe os picos e faça o baralho render com sequências bem planejadas. Três paisagens trazem três formações de cartas: três picos clássicos, quatro cumes ramificados ou sete caminhos de cartas. Toda distribuição tem um caminho para a vitória, sem cronômetro, com novas tentativas grátis, três desfazer por mão e curingas ganhos com vitórias na campanha. Ganhe estrelas por sequências longas e menos ajudas, siga uma trilha diária, mantenha um diário de cada rota e construa um pequeno sítio entre as mãos."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/solitairetrails",
+        "screenshots": [
+            "apps/shots/solitaire-trails/01.jpg",
+            "apps/shots/solitaire-trails/02.jpg",
+            "apps/shots/solitaire-trails/03.jpg",
+            "apps/shots/solitaire-trails/04.jpg",
+            "apps/shots/solitaire-trails/05.jpg"
+        ]
+    },
+    {
+        "id": "dobras-do-mundo",
+        "slug": "dobras-do-mundo",
+        "icon": "apps/dobras-do-mundo.png",
+        "page": "apps/dobras-do-mundo.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Dobras do Mundo",
+            "ko": "도브라스 두 문두",
+            "ja": "ドブラス・ド・ムンド",
+            "es": "Dobras do Mundo",
+            "pt-BR": "Dobras do Mundo"
+        },
+        "tagline": {
+            "en": "The map is your most powerful tool.",
+            "ko": "지도가 당신의 가장 강력한 도구입니다.",
+            "ja": "地図こそが、いちばん強力な道具。",
+            "es": "El mapa es tu herramienta más poderosa.",
+            "pt-BR": "O mapa é a sua ferramenta mais poderosa."
+        },
+        "desc": {
+            "en": "The path is also on the other side of the sheet. Help Lia and the paper fox Nilo recover her grandmother's atlas by folding terrain, joining paths and carrying memories to the lighthouse. Drag a crease to pick the flap that turns over, preview the result and confirm the fold. Folding reflects positions, flips faces and reverses stacks, and up to three folds can be stacked. There are 48 story pages across four communities that introduce paper, foil, cloth and vellum, each with its own folding rules, plus five-page expeditions, a daily atlas and a map workshop where you build, test and share your own pages.",
+            "ko": "길은 종이의 뒷면에도 있습니다. 리아와 종이 여우 닐루가 할머니의 지도책을 되찾을 수 있도록, 지형을 접고, 길을 잇고, 기억을 등대까지 옮기세요. 접는 선을 끌어 뒤집을 면을 고르고, 결과를 미리 본 뒤 접기를 확정합니다. 접으면 위치가 반사되고, 면이 뒤집히고, 겹친 순서가 바뀌며, 최대 세 번까지 겹쳐 접을 수 있습니다. 종이, 포일, 천, 양피지를 차례로 소개하는 네 공동체에 걸친 스토리 48페이지가 있고, 재질마다 접는 규칙이 다릅니다. 5페이지 탐험, 데일리 지도책, 직접 페이지를 만들고 시험하고 공유하는 지도 작업장도 있습니다.",
+            "ja": "道は紙の裏側にもある。リアと紙のキツネ、ニルーが祖母の地図帳を取り戻せるよう、地形を折り、道をつなぎ、思い出を灯台まで運ぼう。折り目をドラッグしてめくる面を選び、結果をプレビューしてから折りを確定する。折ると位置が反転し、面が裏返り、重なりの順序が逆になる。折りは最大3回まで重ねられる。紙、ホイル、布、ベラムを順に紹介する4つの共同体にまたがる48ページのストーリー。素材ごとに折りのルールが異なる。5ページの探検、デイリーアトラス、自分のページを作って試し、共有できる地図工房も収録。",
+            "es": "El camino también está del otro lado de la hoja. Ayuda a Lia y al zorro de papel Nilo a recuperar el atlas de su abuela doblando el terreno, uniendo caminos y llevando recuerdos hasta el faro. Arrastra un pliegue para elegir la solapa que se da vuelta, revisa el resultado y confirma el doblez. Doblar refleja posiciones, voltea caras e invierte pilas, y se pueden apilar hasta tres dobleces. Hay 48 páginas de historia en cuatro comunidades que presentan papel, lámina metálica, tela y vitela, cada uno con sus propias reglas de doblado, además de expediciones de cinco páginas, un atlas diario y un taller de mapas donde creas, pruebas y compartes tus propias páginas.",
+            "pt-BR": "O caminho também está do outro lado da folha. Ajude Lia e a raposa de papel Nilo a recuperar o atlas da avó dobrando o terreno, ligando caminhos e levando memórias até o farol. Arraste uma dobra para escolher a aba que vira, veja a prévia do resultado e confirme a dobra. Dobrar espelha posições, vira faces e inverte pilhas, e até três dobras podem ser empilhadas. São 48 páginas de história em quatro comunidades que apresentam papel, folha metálica, tecido e velino, cada um com suas próprias regras de dobra, além de expedições de cinco páginas, um atlas diário e uma oficina de mapas onde você cria, testa e compartilha suas próprias páginas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/dobrasdomundo",
+        "screenshots": [
+            "apps/shots/dobras-do-mundo/01.jpg",
+            "apps/shots/dobras-do-mundo/02.jpg",
+            "apps/shots/dobras-do-mundo/03.jpg",
+            "apps/shots/dobras-do-mundo/04.jpg",
+            "apps/shots/dobras-do-mundo/05.jpg"
+        ]
+    },
+    {
+        "id": "little-empires",
+        "slug": "little-empires",
+        "icon": "apps/little-empires.png",
+        "page": "apps/little-empires.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Little Empires",
+            "ko": "리틀 엠파이어스",
+            "ja": "リトル・エンパイア",
+            "es": "Little Empires",
+            "pt-BR": "Little Empires"
+        },
+        "tagline": {
+            "en": "Roll two dice, pick one, and build a little town between rolls.",
+            "ko": "주사위 두 개를 굴려 하나를 고르고, 굴림 사이에 작은 마을을 지으세요.",
+            "ja": "サイコロを2つ振って1つを選び、合間に小さな町をつくろう。",
+            "es": "Lanza dos dados, elige uno y construye un pueblito entre tiradas.",
+            "pt-BR": "Role dois dados, escolha um e construa uma cidadezinha entre as jogadas."
+        },
+        "desc": {
+            "en": "Little Empires is a dice board game with city-building decisions between rolls. Roll two dice, choose one and decide which way to travel, taking the outer road or a shortcut at crossroads to reach the resources you need. Build six kinds of businesses and upgrade them through three levels, collect a town dividend every 24 die steps in either direction, and earn extra from matching business sets. Trade resources and make choices in town events. Raise three landmarks to open the next district, where six district charters change the rules, and try a daily seeded 30-roll challenge that keeps your main town safe.",
+            "ko": "리틀 엠파이어스는 굴림 사이사이에 도시 건설 결정을 내리는 주사위 보드게임입니다. 주사위 두 개를 굴려 하나를 고르고 이동 방향을 정하세요. 갈림길에서는 바깥 길이나 지름길을 골라 필요한 자원으로 향합니다. 여섯 종류의 사업체를 짓고 세 단계까지 업그레이드하며, 어느 방향이든 주사위 24칸마다 마을 배당금을 받고, 같은 사업체 세트를 모으면 추가 수익을 얻습니다. 자원을 교환하고 마을 이벤트에서 선택을 내리세요. 랜드마크 세 개를 세우면 다음 구역이 열리고, 여섯 개의 구역 헌장이 규칙을 바꿉니다. 본 마을에는 영향을 주지 않는 30회 굴림 데일리 챌린지도 있습니다.",
+            "ja": "リトル・エンパイアは、サイコロを振る合間に町づくりの判断をするダイスボードゲーム。サイコロを2つ振って1つを選び、進む方向を決めよう。分かれ道では外回りか近道かを選んで、必要な資源を目指す。6種類の店を建てて3段階まで強化し、どちらの方向でも24マス進むごとに町の配当を受け取り、同じ種類の店をそろえればボーナスも。資源を交換し、町のイベントで選択をしよう。3つのランドマークを建てると次の地区が開き、6つの地区憲章がルールを変える。メインの町に影響しない、シード付き30投のデイリーチャレンジも収録。",
+            "es": "Little Empires es un juego de mesa de dados con decisiones de construcción de ciudades entre tiradas. Lanza dos dados, elige uno y decide hacia dónde avanzar, tomando el camino exterior o un atajo en los cruces para llegar a los recursos que necesitas. Construye seis tipos de negocios y mejóralos en tres niveles, cobra un dividendo del pueblo cada 24 pasos de dado en cualquier dirección y gana más con conjuntos de negocios iguales. Intercambia recursos y toma decisiones en los eventos del pueblo. Levanta tres monumentos para abrir el siguiente distrito, donde seis cartas de distrito cambian las reglas, y prueba un desafío diario de 30 tiradas que mantiene a salvo tu pueblo principal.",
+            "pt-BR": "Little Empires é um jogo de tabuleiro de dados com decisões de construção de cidade entre as jogadas. Role dois dados, escolha um e decida para onde ir, pegando a estrada de fora ou um atalho nos cruzamentos para chegar aos recursos de que precisa. Construa seis tipos de negócios e melhore cada um em três níveis, receba um dividendo da cidade a cada 24 casas andadas em qualquer direção e ganhe mais com conjuntos de negócios iguais. Troque recursos e faça escolhas nos eventos da cidade. Erga três marcos para abrir o próximo distrito, onde seis cartas de distrito mudam as regras, e encare um desafio diário de 30 jogadas que deixa sua cidade principal a salvo."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/littleempires",
+        "screenshots": [
+            "apps/shots/little-empires/01.jpg",
+            "apps/shots/little-empires/02.jpg",
+            "apps/shots/little-empires/03.jpg",
+            "apps/shots/little-empires/04.jpg",
+            "apps/shots/little-empires/05.jpg"
+        ]
+    },
+    {
+        "id": "spin-street-laundry",
+        "slug": "spin-street-laundry",
+        "icon": "apps/spin-street-laundry.png",
+        "page": "apps/spin-street-laundry.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Spin Street Laundry",
+            "ko": "스핀 스트리트 런드리",
+            "ja": "スピン・ストリート・ランドリー",
+            "es": "Spin Street Laundry",
+            "pt-BR": "Spin Street Laundry"
+        },
+        "tagline": {
+            "en": "Run a neon laundromat, beat the bottleneck and save the block. Idle story.",
+            "ko": "네온 빨래방을 운영하고, 병목을 해결하고, 동네를 지키세요. 방치형 스토리 게임.",
+            "ja": "ネオンのコインランドリーを経営し、ボトルネックを解消して街区を救おう。放置系ストーリー。",
+            "es": "Dirige una lavandería de neón, vence el cuello de botella y salva la cuadra. Historia idle.",
+            "pt-BR": "Comande uma lavanderia neon, vença o gargalo e salve o quarteirão. História idle."
+        },
+        "desc": {
+            "en": "Nana Bea has run the Suds & Spin on Spin Street for 40 years, and now a developer wants the lot by September. You have one summer to turn the tired laundromat into the heart of the block. Baskets move through Sort, Wash, Dry and Fold, so watch where the pile grows and balance every station through six tiers. Five chapters and 40 story orders from the regulars each hide a pocket find, leading to a block party and the vote that decides the shop's future. Afterwards, open branches on Bubble Avenue and Rinse Row.",
+            "ko": "베아 할머니는 스핀 스트리트에서 서즈 앤 스핀을 40년 동안 운영해 왔지만, 이제 한 개발업자가 9월까지 그 부지를 원합니다. 여러분에게 주어진 건 한 번의 여름, 지친 빨래방을 동네의 중심으로 바꿔야 합니다. 빨래 바구니는 분류, 세탁, 건조, 개기 순서로 움직이니, 어디에 빨래가 쌓이는지 지켜보고 모든 스테이션을 6단계까지 균형 있게 키우세요. 단골들이 맡긴 5개 챕터, 40개의 스토리 주문에는 저마다 주머니 속 발견이 숨어 있고, 이야기는 동네 파티와 가게의 미래를 정할 투표로 이어집니다. 그 후에는 버블 애비뉴와 린스 로에 지점을 여세요.",
+            "ja": "ベアおばあちゃんはスピン・ストリートで「サッズ&スピン」を40年間営んできた。だが開発業者が9月までに土地を手に入れようとしている。与えられたのはひと夏。くたびれたコインランドリーを街区の中心に変えよう。洗濯かごは仕分け、洗濯、乾燥、たたみの順に流れる。どこに山ができるかを見極め、各工程を6段階までバランスよく強化しよう。常連客による5章・40件のストーリー注文には、それぞれポケットの中の発見が隠れている。物語はブロックパーティーと、店の未来を決める投票へ。その後はバブル・アベニューとリンス・ロウに支店を出そう。",
+            "es": "La abuela Bea ha llevado el Suds & Spin de Spin Street durante 40 años, y ahora un desarrollador inmobiliario quiere el terreno para septiembre. Tienes un verano para convertir la cansada lavandería en el corazón de la cuadra. Las canastas pasan por Clasificar, Lavar, Secar y Doblar, así que fíjate dónde crece la pila y equilibra cada estación a lo largo de seis niveles. Cinco capítulos y 40 pedidos de los clientes habituales esconden cada uno un hallazgo en los bolsillos, hasta una fiesta de cuadra y la votación que decide el futuro del local. Después, abre sucursales en Bubble Avenue y Rinse Row.",
+            "pt-BR": "Vó Bea cuida da Suds & Spin, na Spin Street, há 40 anos, e agora uma incorporadora quer o terreno até setembro. Você tem um verão para transformar a lavanderia cansada no coração do quarteirão. Os cestos passam por Separar, Lavar, Secar e Dobrar, então observe onde a pilha cresce e equilibre cada estação ao longo de seis níveis. Cinco capítulos e 40 pedidos dos clientes fiéis escondem, cada um, um achado no bolso, até uma festa de quarteirão e a votação que decide o futuro da loja. Depois, abra filiais na Bubble Avenue e na Rinse Row."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/spinstreetlaundry",
+        "screenshots": [
+            "apps/shots/spin-street-laundry/01.jpg",
+            "apps/shots/spin-street-laundry/02.jpg",
+            "apps/shots/spin-street-laundry/03.jpg"
+        ]
+    },
+    {
+        "id": "second-chance-depot",
+        "slug": "second-chance-depot",
+        "icon": "apps/second-chance-depot.png",
+        "page": "apps/second-chance-depot.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Second Chance Depot",
+            "ko": "세컨드 찬스 디포",
+            "ja": "セカンドチャンス・デポ",
+            "es": "Second Chance Depot",
+            "pt-BR": "Second Chance Depot"
+        },
+        "tagline": {
+            "en": "Open crates of junk, restore hidden treasures and solve a decades-old mystery.",
+            "ko": "고물 상자를 열고, 숨은 보물을 복원하고, 수십 년 된 미스터리를 풀어 보세요.",
+            "ja": "ガラクタの箱を開け、隠れたお宝を修復し、数十年越しの謎を解こう。",
+            "es": "Abre cajas de chatarra, restaura tesoros ocultos y resuelve un misterio de hace décadas.",
+            "pt-BR": "Abra caixas de sucata, restaure tesouros escondidos e resolva um mistério de décadas."
+        },
+        "desc": {
+            "en": "At the edge of the town dump, the Second Chance Depot repair shop has not opened in years. Every morning Mo, the dump driver, drops off a crate of discarded things, and the inspection lamp shows each item's condition, rarity and value. Strip it for parts, restore it for the sales shelf or keep it for the collector wall, across 30 items and three benches: electronics, woodwork and mechanical. Some items are stamped R.H., and over 6 chapters their notes reveal Rosa Hale, an inventor who vanished in 1979. Afterwards, open depots in new towns.",
+            "ko": "마을 쓰레기장 끝자락의 수리점 세컨드 찬스 디포는 몇 년째 문을 닫은 상태입니다. 매일 아침 쓰레기 수거차 기사 모가 버려진 물건이 담긴 상자를 내려놓고, 검사 램프는 각 물건의 상태와 희귀도, 가치를 보여 줍니다. 전자, 목공, 기계 세 개의 작업대에서 30가지 물건을 다루며, 부품으로 분해할지, 복원해 판매대에 올릴지, 수집 벽에 걸어 둘지 정하세요. 일부 물건에는 R.H.라는 도장이 찍혀 있고, 6개 챕터에 걸쳐 함께 남겨진 쪽지들이 1979년에 사라진 발명가 로사 헤일의 이야기를 밝혀 줍니다. 그 후에는 새로운 마을에 디포를 여세요.",
+            "ja": "町のゴミ捨て場の端にある修理店セカンドチャンス・デポは、何年も閉まったまま。毎朝、収集車の運転手モーが捨てられた品の箱を置いていき、検品ランプが各品の状態、希少度、価値を映し出す。電子、木工、機械の3つの作業台で30品を扱い、部品取りにするか、修復して販売棚に並べるか、コレクション壁に飾るかを決めよう。一部の品にはR.H.の刻印があり、6つの章を通して、添えられたメモが1979年に姿を消した発明家ロサ・ヘイルの物語を明かしていく。その後は新しい町にデポを開こう。",
+            "es": "En el borde del basurero del pueblo, el taller Second Chance Depot lleva años cerrado. Cada mañana Mo, el conductor del camión de basura, deja una caja de cosas desechadas, y la lámpara de inspección muestra el estado, la rareza y el valor de cada objeto. Desármalo para piezas, restáuralo para el estante de ventas o guárdalo en el muro del coleccionista, entre 30 objetos y tres bancos de trabajo: electrónica, carpintería y mecánica. Algunos objetos llevan el sello R.H., y a lo largo de 6 capítulos sus notas revelan a Rosa Hale, una inventora que desapareció en 1979. Después, abre depósitos en nuevos pueblos.",
+            "pt-BR": "Na beira do lixão da cidade, a oficina Second Chance Depot está fechada há anos. Toda manhã Mo, o motorista do caminhão de lixo, deixa uma caixa de coisas descartadas, e a lâmpada de inspeção mostra o estado, a raridade e o valor de cada item. Desmonte para peças, restaure para a prateleira de vendas ou guarde no mural do colecionador, entre 30 itens e três bancadas: eletrônica, marcenaria e mecânica. Alguns itens têm o carimbo R.H., e ao longo de 6 capítulos os bilhetes revelam Rosa Hale, uma inventora que desapareceu em 1979. Depois, abra depósitos em novas cidades."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/secondchancedepot",
+        "screenshots": [
+            "apps/shots/second-chance-depot/01.jpg",
+            "apps/shots/second-chance-depot/02.jpg",
+            "apps/shots/second-chance-depot/03.jpg"
+        ]
+    },
+    {
+        "id": "patchwork-arcade",
+        "slug": "patchwork-arcade",
+        "icon": "apps/patchwork-arcade.png",
+        "page": "apps/patchwork-arcade.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Patchwork Arcade",
+            "ko": "패치워크 아케이드",
+            "ja": "パッチワーク・アーケード",
+            "es": "Patchwork Arcade",
+            "pt-BR": "Patchwork Arcade"
+        },
+        "tagline": {
+            "en": "Restore fifteen broken arcade cabinets and solve the mystery of the high score.",
+            "ko": "고장 난 아케이드 기기 15대를 고치고 최고 점수의 미스터리를 풀어 보세요.",
+            "ja": "壊れたアーケード筐体15台を修理し、ハイスコアの謎を解こう。",
+            "es": "Restaura quince máquinas arcade rotas y resuelve el misterio de la puntuación más alta.",
+            "pt-BR": "Restaure quinze fliperamas quebrados e resolva o mistério do recorde."
+        },
+        "desc": {
+            "en": "Your uncle Benny's arcade, Patchwork, closed in 1994 with the lights still on. You inherit the keys, a room of dusty cabinets and a high-score table where every top score belongs to the same initials: ???. Your techs repair 15 original cabinet games, from space shooters to pinball pirates, while you search storage units and yard sales for the rest. Arrange three aisles so the crowds keep moving, because two hot cabinets side by side jam the aisle. Over 6 chapters, old tapes, a hidden notebook and a golden cabinet lead to the 1994 Patchwork Cup.",
+            "ko": "벤니 삼촌의 오락실 패치워크는 1994년, 불이 켜진 채로 문을 닫았습니다. 여러분은 열쇠와 먼지 쌓인 기기들, 그리고 모든 최고 점수가 같은 이니셜 ???로 채워진 점수판을 물려받습니다. 기술자들이 우주 슈팅부터 핀볼 해적까지 15개의 오리지널 아케이드 게임을 고치는 동안, 여러분은 창고와 중고 장터를 뒤져 나머지 기기를 찾으세요. 인기 기기 두 대를 나란히 두면 통로가 막히니, 손님이 계속 흐르도록 세 개의 통로를 배치하세요. 6개 챕터에 걸쳐 오래된 테이프, 숨겨진 노트, 황금 기기가 1994년 패치워크 컵으로 이어집니다.",
+            "ja": "ベニーおじさんのゲームセンター「パッチワーク」は、1994年に明かりがついたまま閉店した。受け継ぐのは鍵と、ほこりをかぶった筐体の部屋、そしてトップスコアがすべて同じイニシャル「???」で埋まったハイスコア表。技術者たちが宇宙シューティングからピンボール海賊まで15本のオリジナル筐体ゲームを修理する間に、倉庫やガレージセールで残りの筐体を探そう。人気筐体を2台並べると通路が詰まるので、客が流れるよう3本の通路を配置しよう。6つの章を通して、古いテープ、隠されたノート、黄金の筐体が1994年のパッチワーク・カップへと導く。",
+            "es": "El arcade de tu tío Benny, Patchwork, cerró en 1994 con las luces encendidas. Heredas las llaves, una sala de máquinas polvorientas y una tabla de récords donde todas las mejores puntuaciones son de las mismas iniciales: ???. Tus técnicos reparan 15 juegos de máquina originales, desde naves espaciales hasta piratas de pinball, mientras tú buscas el resto en bodegas y ventas de garaje. Organiza tres pasillos para que el público circule, porque dos máquinas populares juntas atascan el pasillo. A lo largo de 6 capítulos, cintas viejas, una libreta oculta y una máquina dorada llevan a la Copa Patchwork de 1994.",
+            "pt-BR": "O fliperama do seu tio Benny, o Patchwork, fechou em 1994 com as luzes acesas. Você herda as chaves, uma sala de máquinas empoeiradas e uma tabela de recordes em que todas as maiores pontuações têm as mesmas iniciais: ???. Seus técnicos consertam 15 jogos de fliperama originais, de naves espaciais a piratas do pinball, enquanto você procura o resto em depósitos e bazares de garagem. Organize três corredores para o público circular, porque duas máquinas populares lado a lado travam o corredor. Ao longo de 6 capítulos, fitas antigas, um caderno escondido e uma máquina dourada levam à Copa Patchwork de 1994."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/patchworkarcade",
+        "screenshots": [
+            "apps/shots/patchwork-arcade/01.jpg",
+            "apps/shots/patchwork-arcade/02.jpg",
+            "apps/shots/patchwork-arcade/03.jpg"
+        ]
+    },
+    {
+        "id": "parcel-pier",
+        "slug": "parcel-pier",
+        "icon": "apps/parcel-pier.png",
+        "page": "apps/parcel-pier.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Parcel Pier",
+            "ko": "파슬 피어",
+            "ja": "パーセル・ピア",
+            "es": "Parcel Pier",
+            "pt-BR": "Parcel Pier"
+        },
+        "tagline": {
+            "en": "Sort parcels, load the boats and run the deliveries of five tiny islands.",
+            "ko": "소포를 분류하고, 배에 싣고, 작은 섬 다섯 곳의 배송을 책임지세요.",
+            "ja": "荷物を仕分け、船に積み、5つの小さな島への配達を回そう。",
+            "es": "Clasifica paquetes, carga los barcos y gestiona las entregas de cinco islas pequeñas.",
+            "pt-BR": "Separe encomendas, carregue os barcos e cuide das entregas de cinco ilhas pequenas."
+        },
+        "desc": {
+            "en": "Captain Pell has run Parcel Pier for the Lumen Isles for 30 years. On his last day he hands you the keys, a leaking rowboat and a parcel addressed to a lighthouse that is not on any map. Sorters split parcels by island, the crane loads boats at free docks, and fog and storms stretch every route. Find the slow part of the pier and fix it, and build a fleet from rowboats to cargo ships. Over 6 chapters of contracts from the islanders, strange parcels with no sender lead to a sixth island missing from every chart.",
+            "ko": "펠 선장은 30년 동안 루멘 제도의 파슬 피어를 운영해 왔습니다. 마지막 날, 그는 여러분에게 열쇠와 물이 새는 노 젓는 배, 그리고 어느 지도에도 없는 등대 앞으로 온 소포를 건넵니다. 분류 담당이 소포를 섬별로 나누고 크레인이 빈 부두에서 배에 짐을 싣지만, 안개와 폭풍은 모든 항로를 늘어지게 합니다. 부두에서 느린 곳을 찾아 해결하고, 노 젓는 배부터 화물선까지 선단을 꾸리세요. 섬 주민들의 의뢰가 담긴 6개 챕터에 걸쳐, 보낸 사람 없는 수상한 소포들이 어느 해도에도 없는 여섯 번째 섬으로 이끕니다.",
+            "ja": "ペル船長は30年間、ルーメン諸島のパーセル・ピアを切り盛りしてきた。最後の日、彼はあなたに鍵と、水漏れする手こぎボート、そしてどの地図にも載っていない灯台宛ての荷物を手渡す。仕分け係が荷物を島ごとに分け、クレーンが空いた埠頭で船に積み込むが、霧や嵐がすべての航路を長引かせる。桟橋の遅い工程を見つけて改善し、手こぎボートから貨物船まで船団を育てよう。島民からの依頼が届く6つの章を通して、差出人のない不思議な荷物が、どの海図にもない6番目の島へと導く。",
+            "es": "El capitán Pell ha dirigido Parcel Pier para las Islas Lumen durante 30 años. En su último día te entrega las llaves, un bote de remos con fugas y un paquete dirigido a un faro que no aparece en ningún mapa. Los clasificadores separan los paquetes por isla, la grúa carga los barcos en los muelles libres, y la niebla y las tormentas alargan cada ruta. Encuentra la parte lenta del muelle y arréglala, y arma una flota que va de botes de remos a buques de carga. En 6 capítulos de encargos de los isleños, paquetes extraños sin remitente llevan a una sexta isla que no figura en ninguna carta náutica.",
+            "pt-BR": "O capitão Pell comanda o Parcel Pier das Ilhas Lumen há 30 anos. No último dia, ele entrega a você as chaves, um barco a remo furado e uma encomenda endereçada a um farol que não está em nenhum mapa. Os separadores dividem as encomendas por ilha, o guindaste carrega os barcos nas docas livres, e a neblina e as tempestades esticam cada rota. Encontre a parte lenta do píer e resolva, e monte uma frota que vai de barcos a remo a navios de carga. Em 6 capítulos de contratos dos ilhéus, encomendas estranhas sem remetente levam a uma sexta ilha que não está em nenhuma carta náutica."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/parcelpier",
+        "screenshots": [
+            "apps/shots/parcel-pier/01.jpg",
+            "apps/shots/parcel-pier/02.jpg",
+            "apps/shots/parcel-pier/03.jpg"
+        ]
+    },
+    {
+        "id": "mile-marker-motel",
+        "slug": "mile-marker-motel",
+        "icon": "apps/mile-marker-motel.png",
+        "page": "apps/mile-marker-motel.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Mile Marker Motel",
+            "ko": "마일 마커 모텔",
+            "ja": "マイルマーカー・モーテル",
+            "es": "Mile Marker Motel",
+            "pt-BR": "Mile Marker Motel"
+        },
+        "tagline": {
+            "en": "Run a roadside motel on Route 12. Never put the band next to the honeymooners.",
+            "ko": "12번 국도변 모텔을 운영하세요. 밴드를 신혼부부 옆방에 두는 건 금물.",
+            "ja": "ルート12沿いのモーテルを経営しよう。バンドを新婚さんの隣にしてはいけない。",
+            "es": "Dirige un motel de carretera en la Ruta 12. Nunca pongas a la banda junto a los recién casados.",
+            "pt-BR": "Comande um motel de beira de estrada na Rota 12. Nunca coloque a banda ao lado dos recém-casados."
+        },
+        "desc": {
+            "en": "At mile marker 214 on Old Route 12 stands a motel with a dead neon sign and 12 rooms nobody has cleaned since spring. You bought it at auction, sight unseen, and found a guestbook that starts in 1962. Truckers, couples, families, touring bands, retirees and bikers pull in at dusk, each wanting something different, so choose their rooms with care. Renovate rooms into themed suites and add parking, a pool and more. Every one of the 6 chapters lights another letter of the sign as you learn why the same initials have checked into room 7 on the same night for 60 years.",
+            "ko": "옛 12번 국도의 214 마일 표지 옆에는 네온사인이 꺼진 채, 봄 이후로 아무도 청소하지 않은 방 12개짜리 모텔이 서 있습니다. 여러분은 이곳을 보지도 않고 경매로 샀고, 1962년부터 시작되는 숙박부를 발견합니다. 해 질 무렵 트럭 운전사, 커플, 가족, 투어 밴드, 은퇴자, 바이커가 찾아오고 저마다 원하는 게 다르니, 방을 신중하게 배정하세요. 방을 테마 스위트로 꾸미고 주차장과 수영장 등을 더하세요. 6개 챕터마다 간판의 글자가 하나씩 켜지고, 60년 동안 같은 이니셜이 같은 밤에 7호실에 묵은 이유가 밝혀집니다.",
+            "ja": "旧ルート12の214マイル地点に、ネオンの消えた、春から誰も掃除していない12室のモーテルがある。あなたは下見もせずに競売で買い取り、1962年から始まる宿帳を見つけた。夕暮れにはトラック運転手、カップル、家族連れ、ツアー中のバンド、退職者、バイク乗りがやって来る。求めるものはそれぞれ違うので、部屋は慎重に割り当てよう。部屋をテーマ付きのスイートに改装し、駐車場やプールなどを増設しよう。6つの章ごとに看板の文字がひとつずつ灯り、60年間、同じイニシャルが同じ夜に7号室に泊まってきた理由が明らかになる。",
+            "es": "En el marcador de milla 214 de la vieja Ruta 12 hay un motel con el letrero de neón apagado y 12 habitaciones que nadie limpia desde la primavera. Lo compraste en subasta sin verlo y encontraste un libro de huéspedes que empieza en 1962. Al atardecer llegan camioneros, parejas, familias, bandas de gira, jubilados y motociclistas, y cada uno quiere algo distinto, así que elige sus habitaciones con cuidado. Renueva las habitaciones como suites temáticas y agrega estacionamiento, piscina y más. Cada uno de los 6 capítulos enciende otra letra del letrero mientras descubres por qué las mismas iniciales se registran en la habitación 7 la misma noche desde hace 60 años.",
+            "pt-BR": "No marco da milha 214 da velha Rota 12 há um motel com o letreiro de neon apagado e 12 quartos que ninguém limpa desde a primavera. Você o comprou num leilão sem nem ver e encontrou um livro de hóspedes que começa em 1962. Ao anoitecer chegam caminhoneiros, casais, famílias, bandas em turnê, aposentados e motociclistas, e cada um quer algo diferente, então escolha os quartos com cuidado. Reforme os quartos em suítes temáticas e adicione estacionamento, piscina e mais. Cada um dos 6 capítulos acende mais uma letra do letreiro enquanto você descobre por que as mesmas iniciais se hospedam no quarto 7 na mesma noite há 60 anos."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/milemarkermotel",
+        "screenshots": [
+            "apps/shots/mile-marker-motel/01.jpg",
+            "apps/shots/mile-marker-motel/02.jpg",
+            "apps/shots/mile-marker-motel/03.jpg"
+        ]
+    },
+    {
+        "id": "little-observatory",
+        "slug": "little-observatory",
+        "icon": "apps/little-observatory.png",
+        "page": "apps/little-observatory.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Little Observatory",
+            "ko": "리틀 옵저버토리",
+            "ja": "リトル・オブザバトリー",
+            "es": "Little Observatory",
+            "pt-BR": "Little Observatory"
+        },
+        "tagline": {
+            "en": "Book the telescopes, light the dome, chase a star that returns every 113 years.",
+            "ko": "망원경을 예약하고, 돔을 밝히고, 113년마다 돌아오는 별을 쫓으세요.",
+            "ja": "望遠鏡を予約し、ドームに明かりをともし、113年ごとに戻る星を追いかけよう。",
+            "es": "Reserva los telescopios, ilumina la cúpula y persigue una estrella que vuelve cada 113 años.",
+            "pt-BR": "Reserve os telescópios, ilumine a cúpula e persiga uma estrela que volta a cada 113 anos."
+        },
+        "desc": {
+            "en": "The Little Observatory on Beacon Hill has been dark since 1912, when Professor Ada Lindqvist walked out one night chasing a wandering star and never came back. The town gives you the keys and one season to fill the dome again. Each night from 8 PM, book every room for every hour, matching families, night owls, students and romantics while reading the cloud forecast. Collect 30 atlas cards, host 10 themed nights and follow 6 chapters to Ada's painted ceiling and the midnight hour. Be on the hill when the wanderer returns.",
+            "ko": "비컨 힐의 리틀 옵저버토리는 1912년, 에이다 린드크비스트 교수가 어느 밤 떠돌이 별을 쫓아 나가 돌아오지 않은 뒤로 줄곧 어두웠습니다. 마을은 여러분에게 열쇠와 함께, 돔을 다시 사람들로 채울 한 시즌을 맡깁니다. 매일 밤 8시부터 각 방을 시간대별로 예약하며, 구름 예보를 읽고 가족, 올빼미족, 학생, 연인들에게 맞춰 주세요. 아틀라스 카드 30장을 모으고, 10가지 테마의 밤을 열고, 6개 챕터를 따라 에이다의 천장화와 자정의 시간에 다가가세요. 떠돌이 별이 돌아올 때 언덕 위에 있어야 합니다.",
+            "ja": "ビーコン・ヒルのリトル・オブザバトリーは1912年から暗いまま。ある夜、エイダ・リンドクヴィスト教授がさまよう星を追って出ていき、二度と戻らなかったのだ。町はあなたに鍵と、ドームを再び人で満たすためのひと季節を託す。毎晩夜8時から各部屋を1時間ごとに予約し、雲の予報を読みながら家族連れ、夜型の人、学生、恋人たちに合わせよう。アトラスカード30枚を集め、10のテーマナイトを開き、6つの章をたどってエイダの天井画と真夜中の時間へ。さまよう星が戻るとき、丘の上にいよう。",
+            "es": "El Little Observatory de Beacon Hill está a oscuras desde 1912, cuando la profesora Ada Lindqvist salió una noche tras una estrella errante y nunca volvió. El pueblo te da las llaves y una temporada para volver a llenar la cúpula. Cada noche, desde las 8 de la noche, reserva cada sala por hora y combina familias, noctámbulos, estudiantes y románticos mientras lees el pronóstico de nubes. Reúne 30 cartas del atlas, organiza 10 noches temáticas y sigue 6 capítulos hasta el techo pintado de Ada y la hora de medianoche. Estate en la colina cuando vuelva la estrella errante.",
+            "pt-BR": "O Little Observatory, em Beacon Hill, está às escuras desde 1912, quando a professora Ada Lindqvist saiu numa noite atrás de uma estrela errante e nunca voltou. A cidade entrega a você as chaves e uma temporada para lotar a cúpula de novo. Toda noite, a partir das 8 da noite, reserve cada sala hora a hora e agrade famílias, notívagos, estudantes e românticos enquanto lê a previsão de nuvens. Reúna 30 cartas do atlas, promova 10 noites temáticas e siga 6 capítulos até o teto pintado de Ada e a hora da meia-noite. Esteja na colina quando a estrela errante voltar."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/littleobservatory",
+        "screenshots": [
+            "apps/shots/little-observatory/01.jpg",
+            "apps/shots/little-observatory/02.jpg",
+            "apps/shots/little-observatory/03.jpg"
+        ]
+    },
+    {
+        "id": "harbor-lunch",
+        "slug": "harbor-lunch",
+        "icon": "apps/harbor-lunch.png",
+        "page": "apps/harbor-lunch.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Harbor Lunch",
+            "ko": "하버 런치",
+            "ja": "ハーバー・ランチ",
+            "es": "Harbor Lunch",
+            "pt-BR": "Harbor Lunch"
+        },
+        "tagline": {
+            "en": "Plan the lunch at dawn, run the grill at noon and feed the whole harbor.",
+            "ko": "새벽에 점심을 계획하고, 정오에 그릴을 돌리고, 항구 전체를 먹이세요.",
+            "ja": "夜明けにランチを計画し、正午にグリルを回して、港じゅうの胃袋を満たそう。",
+            "es": "Planea el almuerzo al amanecer, maneja la parrilla al mediodía y alimenta a todo el puerto.",
+            "pt-BR": "Planeje o almoço ao amanhecer, comande a chapa ao meio-dia e alimente o porto inteiro."
+        },
+        "desc": {
+            "en": "Grandpa Teo has fed the dockworkers of Pier 9 for 50 years. Now his back is out, a glossy food hall is opening next door, and he hands you his apron. You have one fishing season to prove the old stall belongs. Each service starts with the crowd board and today's catch: pick the menu, buy just enough supplies, then move orders through Prep, Grill and Counter and send help to the slow station. Learn 10 dishes, win over the regulars across 6 chapters and grow the harbor petition all the way to the festival cook-off.",
+            "ko": "테오 할아버지는 50년 동안 9번 부두의 항만 노동자들을 먹여 왔습니다. 그런데 허리를 다친 데다 바로 옆에 번쩍이는 푸드홀까지 문을 열자, 할아버지는 여러분에게 앞치마를 건넵니다. 고기잡이 한 철 안에 이 낡은 노점이 있어야 할 이유를 증명하세요. 매 영업은 손님 현황판과 오늘의 어획으로 시작합니다. 메뉴를 고르고 재료를 알맞게 사들인 뒤, 주문을 준비, 그릴, 카운터 순으로 처리하며 느린 곳에 도움을 보내세요. 요리 10가지를 익히고, 6개 챕터에 걸쳐 단골들의 마음을 얻어, 항구 청원을 축제 요리 대회까지 키워 가세요.",
+            "ja": "テオじいちゃんは50年間、9番埠頭の港湾労働者たちに食事を出してきた。だが腰を痛め、隣にはきらびやかなフードホールが開店しようとしている。彼はあなたにエプロンを託す。漁のひと季節のうちに、この古い屋台が必要だと証明しよう。営業は客層ボードと今日の水揚げの確認から。メニューを選び、仕入れはほどほどに、注文を仕込み、グリル、カウンターへと流し、遅い工程には応援を送ろう。10品の料理を覚え、6つの章で常連客の心をつかみ、港の署名活動を祭りの料理対決まで広げよう。",
+            "es": "El abuelo Teo ha alimentado a los estibadores del Muelle 9 durante 50 años. Ahora tiene la espalda lastimada, un lujoso patio de comidas está por abrir al lado y te entrega su delantal. Tienes una temporada de pesca para demostrar que el viejo puesto merece quedarse. Cada servicio empieza con el tablero de clientes y la pesca del día: elige el menú, compra solo lo necesario y mueve los pedidos por Preparación, Parrilla y Mostrador, enviando ayuda a la estación lenta. Aprende 10 platos, gánate a los clientes habituales en 6 capítulos y haz crecer la petición del puerto hasta el concurso de cocina del festival.",
+            "pt-BR": "Vô Teo alimenta os estivadores do Píer 9 há 50 anos. Agora ele está com a coluna travada, uma praça de alimentação chique vai abrir ao lado e ele entrega o avental para você. Você tem uma temporada de pesca para provar que a velha barraca merece ficar. Cada serviço começa com o quadro de clientes e a pesca do dia: escolha o cardápio, compre só o necessário e leve os pedidos por Preparo, Chapa e Balcão, mandando ajuda para a estação lenta. Aprenda 10 pratos, conquiste os clientes fiéis em 6 capítulos e faça o abaixo-assinado do porto crescer até o concurso de culinária do festival."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/harborlunch",
+        "screenshots": [
+            "apps/shots/harbor-lunch/01.jpg",
+            "apps/shots/harbor-lunch/02.jpg",
+            "apps/shots/harbor-lunch/03.jpg"
+        ]
+    },
+    {
+        "id": "greenhouse-lane",
+        "slug": "greenhouse-lane",
+        "icon": "apps/greenhouse-lane.png",
+        "page": "apps/greenhouse-lane.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Greenhouse Lane",
+            "ko": "그린하우스 레인",
+            "ja": "グリーンハウス・レーン",
+            "es": "Greenhouse Lane",
+            "pt-BR": "Greenhouse Lane"
+        },
+        "tagline": {
+            "en": "Bring a 1789 glasshouse back to bloom. Grow, cross-pollinate, sell every stem.",
+            "ko": "1789년의 온실에 다시 꽃을 피우세요. 키우고, 교배하고, 모든 꽃을 팔아 보세요.",
+            "ja": "1789年の温室に再び花を。育てて、交配して、一輪残らず売ろう。",
+            "es": "Haz florecer de nuevo un invernadero de 1789. Cultiva, cruza variedades y vende cada tallo.",
+            "pt-BR": "Faça uma estufa de 1789 florescer de novo. Cultive, cruze variedades e venda cada haste."
+        },
+        "desc": {
+            "en": "At the end of Greenhouse Lane stands a glasshouse built in 1789 by the botanist Agnes Wren. Half its panes are cracked and the town council wants it gone by autumn. Grow 20 flowers painted from real 18th-century botanical plates across the Sun, Shade and Tropical wings, keep the pots watered and sell blooms to walk-in customers and order cards. Cross two varieties to find hybrids that sell for double, and fill Agnes's journal with 20 varieties and 20 hybrids. Over 6 chapters, bloom the Wren Lily, lost for 200 years.",
+            "ko": "그린하우스 레인 끝에는 1789년 식물학자 애그니스 렌이 지은 온실이 있습니다. 유리창의 절반이 깨졌고, 시의회는 가을까지 온실을 없애려 합니다. 실제 18세기 식물 도판을 바탕으로 그린 20종의 꽃을 햇빛, 그늘, 열대 세 개의 동에서 키우고, 화분에 물이 마르지 않게 하며, 찾아온 손님과 주문 카드에 꽃을 파세요. 두 품종을 교배해 두 배 값에 팔리는 잡종을 찾아, 애그니스의 일지를 품종 20종과 잡종 20종으로 채우세요. 6개 챕터에 걸쳐 200년 동안 사라졌던 렌 백합을 피워 내세요.",
+            "ja": "グリーンハウス・レーンの突き当たりに、植物学者アグネス・レンが1789年に建てた温室がある。ガラスの半分は割れ、町議会は秋までに取り壊すつもりだ。実在の18世紀の植物図版をもとに描かれた20種の花を、日なた、日陰、熱帯の3つの棟で育て、鉢の水を切らさず、来店客や注文カードに花を売ろう。2つの品種を交配して倍の値で売れる交配種を見つけ、アグネスの日誌を20品種と20交配種で埋めよう。6つの章を通して、200年間失われていたレン・リリーを咲かせよう。",
+            "es": "Al final de Greenhouse Lane se alza un invernadero construido en 1789 por la botánica Agnes Wren. La mitad de sus vidrios están rotos y el concejo del pueblo quiere quitarlo antes del otoño. Cultiva 20 flores pintadas a partir de láminas botánicas reales del siglo XVIII en las alas de Sol, Sombra y Tropical, mantén las macetas regadas y vende las flores a clientes y pedidos. Cruza dos variedades para descubrir híbridos que se venden al doble, y completa el diario de Agnes con 20 variedades y 20 híbridos. A lo largo de 6 capítulos, haz florecer el Lirio Wren, perdido durante 200 años.",
+            "pt-BR": "No fim da Greenhouse Lane fica uma estufa construída em 1789 pela botânica Agnes Wren. Metade dos vidros está rachada e a câmara municipal quer se livrar dela até o outono. Cultive 20 flores pintadas a partir de pranchas botânicas reais do século XVIII nas alas Sol, Sombra e Tropical, mantenha os vasos regados e venda as flores para clientes e pedidos. Cruze duas variedades para descobrir híbridos que valem o dobro, e complete o diário de Agnes com 20 variedades e 20 híbridos. Ao longo de 6 capítulos, faça florescer o Lírio Wren, perdido há 200 anos."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/greenhouselane",
+        "screenshots": [
+            "apps/shots/greenhouse-lane/01.jpg",
+            "apps/shots/greenhouse-lane/02.jpg",
+            "apps/shots/greenhouse-lane/03.jpg"
+        ]
+    },
+    {
+        "id": "dawn-bakery",
+        "slug": "dawn-bakery",
+        "icon": "apps/dawn-bakery.png",
+        "page": "apps/dawn-bakery.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Dawn Bakery",
+            "ko": "던 베이커리",
+            "ja": "ドーン・ベーカリー",
+            "es": "Dawn Bakery",
+            "pt-BR": "Dawn Bakery"
+        },
+        "tagline": {
+            "en": "Plan the morning menu, fire the ovens and bake for a whole seaside town.",
+            "ko": "아침 메뉴를 짜고, 오븐을 데우고, 바닷가 마을 전체를 위해 빵을 구우세요.",
+            "ja": "朝のメニューを決め、オーブンに火を入れ、海辺の町じゅうのためにパンを焼こう。",
+            "es": "Planea el menú de la mañana, enciende los hornos y hornea para todo un pueblo costero.",
+            "pt-BR": "Planeje o cardápio da manhã, acenda os fornos e asse para uma cidade litorânea inteira."
+        },
+        "desc": {
+            "en": "Aunt Odile left you her bakery in Saltmere, a cold oven and a recipe book with half its pages torn out. Every morning the Dawn Forecast shows who is coming: fishermen, school kids, tourists and the café crowd, each loving different breads, pastries, sweets, pies and cakes. Pick a menu that matches the crowd, then move dough through Mixer, Oven and Counter and fix the slow station. Over 6 chapters of big orders, from a harbour wedding to a rival baker with a secret, restore the book and unlock 12 bakes. Then open bakeries in new towns.",
+            "ko": "오딜 이모는 솔트미어의 빵집과 차갑게 식은 오븐, 그리고 절반이 찢겨 나간 레시피 책을 남겼습니다. 매일 아침 '새벽 예보'가 누가 올지 알려 줍니다. 어부, 학생, 관광객, 카페 손님은 빵, 페이스트리, 디저트, 파이, 케이크 중 좋아하는 것이 저마다 다릅니다. 손님에 맞는 메뉴를 고른 뒤 반죽을 믹서, 오븐, 카운터로 보내고 느린 곳을 해결하세요. 항구 결혼식부터 비밀을 품은 라이벌 제빵사까지, 6개 챕터의 큰 주문을 처리하며 책을 복원하고 12가지 빵을 해금하세요. 그다음엔 새로운 마을에 빵집을 여세요.",
+            "ja": "オディールおばさんが遺したのは、ソルトミアのパン屋と冷えたオーブン、そして半分のページが破られたレシピ帳。毎朝「夜明けの予報」が来店客を教えてくれる。漁師、学生、観光客、カフェ好きは、パン、ペストリー、スイーツ、パイ、ケーキと好みがそれぞれ違う。客層に合ったメニューを選び、生地をミキサー、オーブン、カウンターへと流し、遅い工程を改善しよう。港の結婚式から秘密を抱えたライバル職人まで、6つの章の大口注文をこなしてレシピ帳を復元し、12種類のパンを解放しよう。その後は新しい町にパン屋を開こう。",
+            "es": "La tía Odile te dejó su panadería en Saltmere, un horno frío y un recetario con la mitad de las páginas arrancadas. Cada mañana el Pronóstico del Amanecer muestra quién viene: pescadores, escolares, turistas y el público del café, y cada grupo prefiere panes, hojaldres, dulces, tartas o pasteles distintos. Elige un menú que encaje con la clientela, mueve la masa por Batidora, Horno y Mostrador y arregla la estación lenta. En 6 capítulos de pedidos grandes, desde una boda en el puerto hasta un panadero rival con un secreto, restaura el libro y desbloquea 12 recetas. Luego abre panaderías en nuevos pueblos.",
+            "pt-BR": "A tia Odile deixou para você a padaria dela em Saltmere, um forno frio e um livro de receitas com metade das páginas arrancadas. Toda manhã a Previsão da Aurora mostra quem vem: pescadores, estudantes, turistas e o pessoal do café, e cada grupo prefere pães, folhados, doces, tortas ou bolos diferentes. Escolha um cardápio que combine com o público, leve a massa por Batedeira, Forno e Balcão e resolva a estação lenta. Em 6 capítulos de grandes encomendas, de um casamento no porto a um padeiro rival com um segredo, restaure o livro e libere 12 receitas. Depois, abra padarias em novas cidades."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/dawnbakery",
+        "screenshots": [
+            "apps/shots/dawn-bakery/01.jpg",
+            "apps/shots/dawn-bakery/02.jpg",
+            "apps/shots/dawn-bakery/03.jpg"
+        ]
+    },
+    {
+        "id": "campfire-county",
+        "slug": "campfire-county",
+        "icon": "apps/campfire-county.png",
+        "page": "apps/campfire-county.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Campfire County",
+            "ko": "캠프파이어 카운티",
+            "ja": "キャンプファイヤー・カウンティ",
+            "es": "Campfire County",
+            "pt-BR": "Campfire County"
+        },
+        "tagline": {
+            "en": "Build a campground for owls, frogs, pigs and chickens. They all have opinions.",
+            "ko": "올빼미, 개구리, 돼지, 닭을 위한 캠핑장을 지으세요. 다들 할 말이 많습니다.",
+            "ja": "フクロウ、カエル、ブタ、ニワトリのためのキャンプ場を作ろう。みんな一言ある。",
+            "es": "Construye un campamento para búhos, ranas, cerdos y gallinas. Todos tienen opiniones.",
+            "pt-BR": "Construa um camping para corujas, sapos, porcos e galinhas. Todos têm opinião."
+        },
+        "desc": {
+            "en": "Old Ranger Hollis left you Campfire County: a scrubby clearing, one leaky tent and a journal with half its pages missing. The woodland animals still turn up every weekend expecting the best campground in the county. Place tents, wagons and igloos, add fire pits, docks and a windmill, and mind the neighbours: owls hate the barbecue, frogs want the dock and chickens bother everyone. Eight kinds of camper have their own likes, and the weather changes every weekend. Open 6 zones from Meadow to Lantern Night and hear the legend of the Lantern Bear.",
+            "ko": "늙은 레인저 홀리스는 여러분에게 캠프파이어 카운티를 남겼습니다. 덤불 우거진 빈터, 물 새는 텐트 하나, 그리고 절반이 사라진 일지가 전부입니다. 그래도 숲속 동물들은 매주 주말 이 고장 최고의 캠핑장을 기대하며 찾아옵니다. 텐트, 마차, 이글루를 놓고 모닥불, 선착장, 풍차를 더하되 이웃 관계를 살피세요. 올빼미는 바비큐를 싫어하고, 개구리는 선착장을 원하며, 닭은 모두를 귀찮게 합니다. 여덟 종류의 캠퍼는 저마다 취향이 있고, 날씨는 주말마다 바뀝니다. 초원부터 랜턴 나이트까지 6개 구역을 열고 랜턴 곰의 전설을 들어 보세요.",
+            "ja": "老レンジャーのホリスが遺したキャンプファイヤー・カウンティは、やぶだらけの空き地と雨漏りするテントがひとつ、そして半分のページが欠けた日誌だけ。それでも森の動物たちは毎週末、郡いちばんのキャンプ場を期待してやって来る。テント、幌馬車、イグルーを置き、たき火台、桟橋、風車を加えよう。ただし隣同士に注意。フクロウはバーベキューが嫌い、カエルは桟橋が好き、ニワトリはみんなの迷惑。8種類のキャンパーにはそれぞれ好みがあり、天気は週末ごとに変わる。メドウからランタンナイトまで6つのエリアを開き、ランタン・ベアの伝説に耳を傾けよう。",
+            "es": "El viejo guardabosques Hollis te dejó Campfire County: un claro lleno de matorrales, una tienda con goteras y un diario al que le falta la mitad de las páginas. Los animales del bosque siguen llegando cada fin de semana esperando el mejor campamento del condado. Coloca tiendas, carretas e iglús, agrega fogatas, muelles y un molino de viento, y cuida a los vecinos: los búhos odian la parrillada, las ranas quieren el muelle y las gallinas molestan a todos. Ocho tipos de campistas tienen sus propios gustos, y el clima cambia cada fin de semana. Abre 6 zonas, de la Pradera a la Noche de Faroles, y conoce la leyenda del Oso de los Faroles.",
+            "pt-BR": "O velho guarda-florestal Hollis deixou para você o Campfire County: uma clareira cheia de mato, uma barraca com goteira e um diário com metade das páginas faltando. Os animais da floresta continuam aparecendo todo fim de semana, esperando o melhor camping do condado. Monte barracas, carroças e iglus, adicione fogueiras, píeres e um moinho de vento, e cuide da vizinhança: corujas odeiam o churrasco, sapos querem o píer e galinhas incomodam todo mundo. Oito tipos de campistas têm seus próprios gostos, e o clima muda a cada fim de semana. Abra 6 zonas, da Campina à Noite das Lanternas, e conheça a lenda do Urso das Lanternas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/campfirecounty",
+        "screenshots": [
+            "apps/shots/campfire-county/01.jpg",
+            "apps/shots/campfire-county/02.jpg",
+            "apps/shots/campfire-county/03.jpg"
+        ]
+    },
+    {
+        "id": "one-path-park",
+        "slug": "one-path-park",
+        "icon": "apps/one-path-park.png",
+        "page": "apps/one-path-park.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "One Path Park",
+            "ko": "원 패스 파크",
+            "ja": "ワンパス・パーク",
+            "es": "One Path Park",
+            "pt-BR": "One Path Park"
+        },
+        "tagline": {
+            "en": "Draw one path. Light up the park.",
+            "ko": "한 줄의 길을 그려 공원을 밝히세요.",
+            "ja": "一本の道を描いて、公園に明かりを。",
+            "es": "Traza un camino. Ilumina el parque.",
+            "pt-BR": "Desenhe um caminho. Ilumine o parque."
+        },
+        "desc": {
+            "en": "An old park has stories waiting along every path. Help ranger Kit reconnect its landmarks and prepare a welcoming evening walk for the whole neighborhood. Each park is a route-drawing puzzle: start at K, finish at the arrow, visit every numbered landmark and never step on the same tile twice. Trees, rocks and water are off limits, bridges are crossed straight and one-way gates open in only one direction, while later parks ask for the landmarks in numerical order. There are 180 parks across six seasonal chapters with five tile rules, plus a daily park and 90 ranger routes.",
+            "ko": "오래된 공원의 길마다 이야기가 기다리고 있습니다. 레인저 킷을 도와 공원의 명소들을 다시 잇고, 온 동네가 함께할 정겨운 저녁 산책을 준비하세요. 각 공원은 길 그리기 퍼즐입니다. K에서 출발해 화살표에서 끝나야 하며, 번호가 붙은 명소를 모두 들르되 같은 칸을 두 번 밟으면 안 됩니다. 나무, 바위, 물은 지나갈 수 없고, 다리는 곧게 건너야 하며, 일방통행 문은 한 방향으로만 열립니다. 후반 공원에서는 명소를 번호 순서대로 들러야 합니다. 다섯 가지 칸 규칙과 계절별 6개 챕터에 걸친 180개의 공원, 그리고 매일의 공원과 90개의 레인저 코스가 준비되어 있습니다.",
+            "ja": "古い公園の小道には、どれも物語が待っている。レンジャーのキットを手伝って名所をつなぎ直し、近所のみんなを迎える夕方の散歩道を用意しよう。各公園はルートを描くパズル。Kから出発して矢印でゴールし、番号のついた名所をすべて訪れ、同じマスを二度踏んではいけない。木や岩、水は通れず、橋はまっすぐ渡り、一方通行の門は片方向にしか開かない。後半の公園では名所を番号順に回る必要がある。5つのマスのルールと季節ごとの6章にわたる180の公園に加え、毎日の公園と90のレンジャールートを収録。",
+            "es": "Un viejo parque guarda historias a lo largo de cada sendero. Ayuda a Kit, guardaparques del lugar, a reconectar sus puntos de interés y a preparar un acogedor paseo al atardecer para todo el vecindario. Cada parque es un rompecabezas de trazar rutas: empieza en K, termina en la flecha, visita cada punto numerado y nunca pises la misma casilla dos veces. Los árboles, las rocas y el agua bloquean el paso, los puentes se cruzan en línea recta y las puertas de un solo sentido abren en una sola dirección, mientras que los parques posteriores piden los puntos en orden numérico. Hay 180 parques en seis capítulos de temporada con cinco reglas de casillas, además de un parque diario y 90 rutas de guardaparques.",
+            "pt-BR": "Um velho parque guarda histórias em cada trilha. Ajude Kit, guarda do parque, a reconectar seus marcos e preparar um passeio acolhedor ao entardecer para toda a vizinhança. Cada parque é um quebra-cabeça de traçar rotas: comece no K, termine na seta, visite cada marco numerado e nunca pise duas vezes na mesma casa. Árvores, pedras e água bloqueiam o caminho, pontes são atravessadas em linha reta e portões de mão única só abrem em um sentido, e os parques mais avançados pedem os marcos em ordem numérica. São 180 parques em seis capítulos sazonais com cinco regras de casas, além de um parque diário e 90 rotas de guarda."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/onepathpark",
+        "screenshots": [
+            "apps/shots/one-path-park/01.jpg",
+            "apps/shots/one-path-park/02.jpg",
+            "apps/shots/one-path-park/03.jpg"
+        ]
+    },
+    {
+        "id": "balance-bureau",
+        "slug": "balance-bureau",
+        "icon": "apps/balance-bureau.png",
+        "page": "apps/balance-bureau.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Balance Bureau",
+            "ko": "밸런스 뷰로",
+            "ja": "バランス・ビューロー",
+            "es": "Balance Bureau",
+            "pt-BR": "Balance Bureau"
+        },
+        "tagline": {
+            "en": "Weigh the mystery. Crack the case.",
+            "ko": "미스터리의 무게를 재고, 사건을 해결하세요.",
+            "ja": "謎の重さを量り、事件を解決せよ。",
+            "es": "Pesa el misterio. Resuelve el caso.",
+            "pt-BR": "Pese o mistério. Resolva o caso."
+        },
+        "desc": {
+            "en": "The Bureau of Curious Measures has a desk full of mislabeled parcels. Help Inspector Pip discover what each object weighs and restore order to the town market. Put objects on the pans of a balance scale, weigh them, record what you learn and name your finding once the evidence leaves only one answer. Some cases ask for exact weights using calibrated reference units, others for the order from lightest to heaviest. A lucky guess is not enough while another answer still fits, and there is no timer. Solve 100 cases across five chapters, plus a daily investigation and 90 optional cases.",
+            "ko": "기묘한 측정국의 책상에는 라벨이 잘못 붙은 소포가 가득합니다. 핍 조사관을 도와 각 물건의 무게를 밝혀내고 마을 시장의 질서를 되찾으세요. 양팔 저울 접시에 물건을 올려 무게를 재고, 알아낸 것을 기록한 뒤, 증거가 답을 하나만 남겼을 때 결론을 내리세요. 어떤 사건은 보정된 기준 단위로 정확한 무게를 요구하고, 어떤 사건은 가벼운 것부터 무거운 것까지의 순서를 묻습니다. 다른 답이 여전히 들어맞는다면 운 좋은 추측만으로는 부족하며, 시간 제한은 없습니다. 5개 챕터의 사건 100개에 더해, 매일의 조사와 선택 사건 90개가 있습니다.",
+            "ja": "奇妙計量局の机には、ラベルの間違った荷物が山積み。ピップ調査官を手伝って各品の重さを突き止め、町の市場に秩序を取り戻そう。天秤の皿に品物を載せて量り、わかったことを記録し、証拠が答えをひとつに絞ったら結論を出そう。較正された基準単位で正確な重さを求める事件もあれば、軽い順に並べる事件もある。ほかの答えがまだ成り立つうちは、当てずっぽうでは足りない。制限時間はなし。5章にわたる100件の事件に加え、毎日の調査と90件の追加事件を収録。",
+            "es": "La Oficina de Medidas Curiosas tiene un escritorio lleno de paquetes mal etiquetados. Ayuda al inspector Pip a descubrir cuánto pesa cada objeto y a devolver el orden al mercado del pueblo. Pon objetos en los platillos de una balanza, pésalos, anota lo que aprendes y da tu conclusión cuando la evidencia deje una sola respuesta. Algunos casos piden pesos exactos con unidades de referencia calibradas; otros, el orden del más liviano al más pesado. Una suposición afortunada no basta mientras otra respuesta siga encajando, y no hay cronómetro. Resuelve 100 casos en cinco capítulos, además de una investigación diaria y 90 casos opcionales.",
+            "pt-BR": "O Departamento de Medidas Curiosas tem uma mesa cheia de pacotes com etiquetas erradas. Ajude o inspetor Pip a descobrir quanto pesa cada objeto e a devolver a ordem ao mercado da cidade. Coloque objetos nos pratos de uma balança, pese, anote o que descobriu e dê seu veredito quando as provas deixarem uma única resposta. Alguns casos pedem pesos exatos com unidades de referência calibradas; outros, a ordem do mais leve ao mais pesado. Um chute de sorte não basta enquanto outra resposta ainda servir, e não há cronômetro. Resolva 100 casos em cinco capítulos, além de uma investigação diária e 90 casos opcionais."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/balancebureau",
+        "screenshots": [
+            "apps/shots/balance-bureau/01.jpg",
+            "apps/shots/balance-bureau/02.jpg"
+        ]
+    },
+    {
+        "id": "mosaic-census",
+        "slug": "mosaic-census",
+        "icon": "apps/mosaic-census.png",
+        "page": "apps/mosaic-census.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Mosaic Census",
+            "ko": "모자이크 센서스",
+            "ja": "モザイク・センサス",
+            "es": "Mosaic Census",
+            "pt-BR": "Mosaic Census"
+        },
+        "tagline": {
+            "en": "Divide the board. Restore the light.",
+            "ko": "판을 나누고, 빛을 되살리세요.",
+            "ja": "盤面を分けて、光を取り戻そう。",
+            "es": "Divide el tablero. Devuelve la luz.",
+            "pt-BR": "Divida o tabuleiro. Devolva a luz."
+        },
+        "desc": {
+            "en": "An abandoned conservatory has lost its light. Join apprentice glazier Ema and recover the artist's habitat letters, one carefully placed boundary at a time. Each window is a region-division logic puzzle: every region needs exactly one lettered anchor and its stated number of cells, connected through cell edges, since corners do not count. Learn counts, connectivity, straight lines, filled rectangles, L shapes and clues that ask two regions to touch or stay apart. The glass picture is your reward, never a hidden clue, and there is no timer. Play 120 windows across five rooms, plus a daily window and 90 gallery studies.",
+            "ko": "버려진 온실이 빛을 잃었습니다. 견습 유리공 에마와 함께, 경계선을 하나하나 신중하게 그어 가며 화가가 남긴 서식지 편지들을 되찾으세요. 각 창은 영역 나누기 논리 퍼즐입니다. 모든 영역에는 글자가 적힌 기준점이 정확히 하나 있어야 하고, 표시된 칸 수를 채워야 하며, 칸의 변으로 이어져야 합니다. 꼭짓점은 연결로 치지 않습니다. 칸 수, 연결성, 직선, 꽉 찬 직사각형, L자 모양, 그리고 두 영역이 맞닿거나 떨어져 있어야 하는 단서를 익히세요. 유리 그림은 보상일 뿐 숨은 단서가 아니며, 시간 제한은 없습니다. 다섯 개의 방에 걸친 120개의 창과 매일의 창, 갤러리 습작 90개가 있습니다.",
+            "ja": "見捨てられた温室が光を失った。見習いガラス職人のエマと一緒に、境界線をひとつずつ丁寧に引きながら、画家が残した生息地の手紙を取り戻そう。各窓は領域分割の論理パズル。どの領域にも文字のついたアンカーがちょうど1つ必要で、指定されたマス数を満たし、マスの辺でつながっていなければならない。角だけの接触はつながりに数えない。マス数、連結、直線、埋まった長方形、L字形、そして2つの領域が接するか離れるかを指定する手がかりを覚えよう。ガラスの絵はご褒美であって、隠れた手がかりではない。制限時間もなし。5つの部屋にわたる120の窓に加え、毎日の窓と90のギャラリー習作を収録。",
+            "es": "Un invernadero abandonado ha perdido su luz. Acompaña a Ema, aprendiz de vidriera, y recupera las cartas de hábitat del artista, un límite bien colocado a la vez. Cada ventana es un rompecabezas lógico de dividir regiones: cada región necesita exactamente un ancla con letra y su número indicado de celdas, unidas por los lados, porque las esquinas no cuentan. Aprende conteos, conectividad, líneas rectas, rectángulos llenos, formas de L y pistas que piden que dos regiones se toquen o se mantengan separadas. La imagen de vidrio es tu recompensa, nunca una pista oculta, y no hay cronómetro. Juega 120 ventanas en cinco salas, además de una ventana diaria y 90 estudios de galería.",
+            "pt-BR": "Uma estufa abandonada perdeu sua luz. Acompanhe Ema, aprendiz de vidraceira, e recupere as cartas de habitat do artista, uma fronteira bem colocada de cada vez. Cada janela é um quebra-cabeça lógico de dividir regiões: cada região precisa de exatamente uma âncora com letra e do número indicado de células, ligadas pelos lados, já que cantos não contam. Aprenda contagens, conectividade, linhas retas, retângulos cheios, formas em L e pistas que pedem que duas regiões se toquem ou fiquem separadas. A imagem do vitral é sua recompensa, nunca uma pista escondida, e não há cronômetro. São 120 janelas em cinco salas, além de uma janela diária e 90 estudos de galeria."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/mosaiccensus",
+        "screenshots": [
+            "apps/shots/mosaic-census/01.jpg",
+            "apps/shots/mosaic-census/02.jpg",
+            "apps/shots/mosaic-census/03.jpg"
+        ]
+    },
+    {
+        "id": "pocket-timetables",
+        "slug": "pocket-timetables",
+        "icon": "apps/pocket-timetables.png",
+        "page": "apps/pocket-timetables.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Pocket Timetables",
+            "ko": "포켓 타임테이블",
+            "ja": "ポケット・タイムテーブル",
+            "es": "Pocket Timetables",
+            "pt-BR": "Pocket Timetables"
+        },
+        "tagline": {
+            "en": "Every train on time.",
+            "ko": "모든 열차를 정시에.",
+            "ja": "すべての列車を定刻に。",
+            "es": "Cada tren a tiempo.",
+            "pt-BR": "Todo trem no horário."
+        },
+        "desc": {
+            "en": "A valley railway is waiting to reopen. Help dispatcher Jo arrange departures for local, mail and express trains, recover a stationmaster's diary and prepare the centenary service. Routes and speeds are fixed; you choose when each train leaves, and a stretch of single track can carry only one train at a time, in either direction. Drag departures to the minute, then preview the timetable on a miniature valley map and inspect any conflict. Any valid timetable succeeds, and punctuality medals are optional. Play 70 scenarios across five chapters, plus a daily brief and 90 dispatcher briefs.",
+            "ko": "골짜기 철도가 재개통을 기다리고 있습니다. 배차원 조를 도와 완행, 우편, 급행 열차의 출발 시간을 정하고, 어느 역장의 일기를 되찾고, 100주년 기념 운행을 준비하세요. 노선과 속도는 정해져 있고, 여러분은 각 열차가 언제 떠날지만 정합니다. 단선 구간에는 방향과 관계없이 한 번에 한 열차만 지날 수 있습니다. 출발 시각을 분 단위로 끌어 맞춘 뒤, 미니어처 골짜기 지도에서 시간표를 미리 돌려 보고 충돌을 살펴보세요. 유효한 시간표라면 무엇이든 성공이며, 정시 메달은 선택입니다. 5개 챕터의 시나리오 70개와 매일의 과제, 배차 과제 90개가 있습니다.",
+            "ja": "谷の鉄道が再開を待っている。指令員のジョーを手伝い、普通、郵便、急行列車の発車時刻を組み、ある駅長の日記を取り戻し、100周年記念の運行を準備しよう。路線と速度は決まっていて、決めるのは各列車の発車時刻だけ。単線区間は方向を問わず一度に1本しか通れない。発車時刻を分単位でドラッグして合わせ、ミニチュアの谷の地図でダイヤを試運転し、衝突を確認しよう。有効なダイヤならどれでも成功で、定時運行メダルは任意。5章にわたる70のシナリオに加え、毎日の指令と90の追加指令を収録。",
+            "es": "Un ferrocarril de valle espera reabrir. Ayuda a Jo, en el puesto de despacho, a organizar las salidas de trenes locales, de correo y expresos, recuperar el diario de un jefe de estación y preparar el servicio del centenario. Las rutas y velocidades son fijas; tú eliges cuándo sale cada tren, y un tramo de vía única solo admite un tren a la vez, en cualquier sentido. Arrastra las salidas al minuto, luego previsualiza el horario en un mapa en miniatura del valle e inspecciona cualquier conflicto. Cualquier horario válido funciona, y las medallas de puntualidad son opcionales. Juega 70 escenarios en cinco capítulos, además de una misión diaria y 90 misiones de despacho.",
+            "pt-BR": "Uma ferrovia do vale espera para reabrir. Ajude Jo, no posto de despacho, a organizar as partidas dos trens locais, do correio e expressos, recuperar o diário de um chefe de estação e preparar o serviço do centenário. Rotas e velocidades são fixas; você escolhe quando cada trem parte, e um trecho de linha singela só comporta um trem por vez, em qualquer sentido. Arraste as partidas até o minuto, depois veja a grade rodar num mapa em miniatura do vale e inspecione qualquer conflito. Qualquer grade válida funciona, e as medalhas de pontualidade são opcionais. São 70 cenários em cinco capítulos, além de uma missão diária e 90 missões de despacho."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/pockettimetables",
+        "screenshots": [
+            "apps/shots/pocket-timetables/01.jpg",
+            "apps/shots/pocket-timetables/02.jpg"
+        ]
+    },
+    {
+        "id": "shadow-sum",
+        "slug": "shadow-sum",
+        "icon": "apps/shadow-sum.png",
+        "page": "apps/shadow-sum.html",
+        "tier": "Volume",
+        "platform": "Android, PC",
+        "name": {
+            "en": "Shadow Sum",
+            "ko": "섀도 섬",
+            "ja": "シャドウ・サム",
+            "es": "Shadow Sum",
+            "pt-BR": "Shadow Sum"
+        },
+        "tagline": {
+            "en": "Reveal hidden values.",
+            "ko": "숨겨진 값을 밝혀내세요.",
+            "ja": "隠された数を明かそう。",
+            "es": "Revela los valores ocultos.",
+            "pt-BR": "Revele os valores ocultos."
+        },
+        "desc": {
+            "en": "The labels have faded, but the totals remain. Step into a quiet archive and reconstruct the values of mysterious symbols by comparing rows, columns, regions and diagonals. Each symbol hides one whole number, and the same symbol always means the same value on a page, so a single discovery can unlock several clues at once. Every row and column must add up to its printed total, and a mark shows when one disagrees. Worked examples teach substitution and how subtracting two clues can cancel symbols. The campaign holds 200 verified grids across five chapters, with three daily pages and 90 extra archive pages.",
+            "ko": "라벨은 바랬지만 합계는 남아 있습니다. 조용한 기록 보관소에 들어가 행, 열, 영역, 대각선을 비교하며 수수께끼 기호들의 값을 되살리세요. 각 기호에는 정수 하나가 숨어 있고, 한 페이지에서 같은 기호는 언제나 같은 값이므로, 하나를 알아내면 여러 단서가 한꺼번에 풀리기도 합니다. 모든 행과 열은 인쇄된 합계와 맞아야 하며, 맞지 않으면 표시가 나타납니다. 예제를 통해 대입법과 두 단서를 빼서 기호를 지우는 방법을 배우세요. 캠페인에는 5개 챕터에 걸친 검증된 그리드 200개가 있고, 매일 세 페이지와 추가 보관소 페이지 90개가 더해집니다.",
+            "ja": "ラベルは色あせても、合計は残っている。静かな資料室に足を踏み入れ、行、列、領域、対角線を見比べて、謎の記号の値を復元しよう。各記号には整数が1つ隠れていて、同じページでは同じ記号は常に同じ値。だから1つの発見で複数の手がかりが一気に解けることもある。すべての行と列は印刷された合計と一致しなければならず、合わないときは印が出る。例題で代入や、2つの手がかりを引き算して記号を消す方法を学ぼう。キャンペーンは5章にわたる検証済みの200グリッド。さらに毎日3ページと、90の追加資料ページを収録。",
+            "es": "Las etiquetas se borraron, pero los totales siguen ahí. Entra en un archivo silencioso y reconstruye los valores de símbolos misteriosos comparando filas, columnas, regiones y diagonales. Cada símbolo esconde un número entero, y en una página el mismo símbolo siempre vale lo mismo, así que un solo descubrimiento puede resolver varias pistas a la vez. Cada fila y columna debe sumar su total impreso, y una marca indica cuando no coincide. Los ejemplos resueltos enseñan la sustitución y cómo restar dos pistas puede cancelar símbolos. La campaña tiene 200 cuadrículas verificadas en cinco capítulos, con tres páginas diarias y 90 páginas extra del archivo.",
+            "pt-BR": "As etiquetas desbotaram, mas os totais continuam lá. Entre num arquivo silencioso e reconstrua os valores de símbolos misteriosos comparando linhas, colunas, regiões e diagonais. Cada símbolo esconde um número inteiro, e na mesma página o mesmo símbolo sempre vale o mesmo, então uma única descoberta pode destravar várias pistas de uma vez. Cada linha e coluna precisa somar o total impresso, e uma marca aparece quando não bate. Exemplos resolvidos ensinam substituição e como subtrair duas pistas pode cancelar símbolos. A campanha tem 200 grades verificadas em cinco capítulos, com três páginas diárias e 90 páginas extras do arquivo."
+        },
+        "status": "Live",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.shadowsum",
+        "itchUrl": "https://crystllabs.itch.io/shadowsum",
+        "screenshots": [
+            "apps/shots/shadow-sum/01.jpg",
+            "apps/shots/shadow-sum/02.jpg",
+            "apps/shots/shadow-sum/03.jpg"
+        ]
+    },
+    {
+        "id": "domino-district",
+        "slug": "domino-district",
+        "icon": "apps/domino-district.png",
+        "page": "apps/domino-district.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Domino District",
+            "ko": "도미노 디스트릭트",
+            "ja": "ドミノ・ディストリクト",
+            "es": "Domino District",
+            "pt-BR": "Domino District"
+        },
+        "tagline": {
+            "en": "Place a domino. Build a neighbourhood.",
+            "ko": "도미노를 놓고, 동네를 지으세요.",
+            "ja": "ドミノを置いて、街をつくろう。",
+            "es": "Coloca un dominó. Construye un vecindario.",
+            "pt-BR": "Coloque um dominó. Construa um bairro."
+        },
+        "desc": {
+            "en": "Sol has a map full of empty lots and a neighborhood full of ideas. Place dominoes to meet each block's requests and watch a welcoming little city take shape. In each solo puzzle you use every piece once, cover every square and make each row and column add up to its total, with totals updating as you place. Later rules add double lots, equal seams between pieces and balanced districts with their own total. Undo is always free and there is no timer. Solve 160 boards as five chapters add a building and a story to your city map, plus a daily neighborhood and 90 optional ones.",
+            "ko": "솔의 지도에는 빈 땅이 가득하고, 동네에는 아이디어가 넘칩니다. 도미노를 놓아 각 블록의 요청을 들어주고, 정겨운 작은 도시가 모습을 갖춰 가는 것을 지켜보세요. 1인용 퍼즐마다 모든 조각을 한 번씩 사용해 모든 칸을 덮고, 각 행과 열의 합을 목표 합계에 맞춰야 합니다. 합계는 놓을 때마다 바로 갱신됩니다. 후반 규칙에는 더블 부지, 조각 사이의 같은 숫자 이음매, 자체 합계를 가진 균형 구역이 더해집니다. 되돌리기는 언제나 무료이고 시간 제한은 없습니다. 5개 챕터가 도시 지도에 건물과 이야기를 더하는 160개의 보드에, 매일의 동네와 선택 동네 90개가 있습니다.",
+            "ja": "ソルの地図には空き地がいっぱい、近所にはアイデアがいっぱい。ドミノを置いて各ブロックの要望に応え、温かな小さな街ができあがっていくのを見守ろう。ひとり用パズルでは、すべての牌を1回ずつ使ってすべてのマスを埋め、各行と各列の合計を指定の数に合わせる。合計は置くたびに更新される。後半のルールでは、ダブルの区画、牌どうしの継ぎ目をそろえる条件、独自の合計を持つバランス地区が加わる。取り消しはいつでも無料、制限時間もなし。5つの章で街の地図に建物と物語が増えていく160の盤面に加え、毎日の街区と90の追加街区を収録。",
+            "es": "Sol tiene un mapa lleno de terrenos vacíos y un vecindario lleno de ideas. Coloca dominós para cumplir las peticiones de cada cuadra y mira cómo toma forma una pequeña ciudad acogedora. En cada rompecabezas para un jugador usas cada ficha una vez, cubres cada casilla y haces que cada fila y columna sume su total, que se actualiza mientras colocas. Las reglas posteriores agregan lotes dobles, uniones iguales entre fichas y distritos equilibrados con su propio total. Deshacer siempre es gratis y no hay cronómetro. Resuelve 160 tableros mientras cinco capítulos suman un edificio y una historia al mapa de tu ciudad, además de un vecindario diario y 90 opcionales.",
+            "pt-BR": "Sol tem um mapa cheio de terrenos vazios e um bairro cheio de ideias. Coloque dominós para atender aos pedidos de cada quadra e veja uma cidadezinha acolhedora tomar forma. Em cada quebra-cabeça solo, você usa cada peça uma vez, cobre todas as casas e faz cada linha e coluna somar seu total, que se atualiza enquanto você joga. Regras posteriores trazem lotes duplos, junções iguais entre peças e distritos equilibrados com total próprio. Desfazer é sempre grátis e não há cronômetro. Resolva 160 tabuleiros enquanto cinco capítulos acrescentam um prédio e uma história ao mapa da sua cidade, além de um bairro diário e 90 opcionais."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/dominodistrict",
+        "screenshots": [
+            "apps/shots/domino-district/01.jpg",
+            "apps/shots/domino-district/02.jpg",
+            "apps/shots/domino-district/03.jpg"
+        ]
+    },
+    {
+        "id": "cafe-seating-files",
+        "slug": "cafe-seating-files",
+        "icon": "apps/cafe-seating-files.png",
+        "page": "apps/cafe-seating-files.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Cafe Seating Files",
+            "ko": "카페 시팅 파일즈",
+            "ja": "カフェ・シーティング・ファイル",
+            "es": "Cafe Seating Files",
+            "pt-BR": "Cafe Seating Files"
+        },
+        "tagline": {
+            "en": "Follow the clues. Seat the regulars.",
+            "ko": "단서를 따라 단골들의 자리를 찾아 주세요.",
+            "ja": "手がかりをたどり、常連客を席に案内しよう。",
+            "es": "Sigue las pistas. Sienta a los clientes habituales.",
+            "pt-BR": "Siga as pistas. Acomode os clientes fiéis."
+        },
+        "desc": {
+            "en": "Alba finds a casebook under the espresso machine. Reconstruct ordinary mornings at a neighborhood café and discover the four regulars whose quiet help kept its doors open. Each case is a classic logic-grid puzzle: match Ana, Bruno, Caio and Dia to four seats, four drinks and four arrival positions using numbered clues about arrival order, neighboring and opposite seats, exclusions and people identified by their drink. The scenery never hides a rule. After solving, the archive keeps the full deduction trail. There are 100 cases across five story chapters and three difficulty levels, plus a weekly case from a 52-case collection and 90 archive cases.",
+            "ko": "알바는 에스프레소 머신 밑에서 사건 기록부를 발견합니다. 동네 카페의 평범한 아침들을 재구성하고, 조용한 도움으로 카페의 문을 지켜 온 네 명의 단골을 찾아내세요. 각 사건은 고전적인 논리 그리드 퍼즐입니다. 도착 순서, 이웃한 자리와 마주 보는 자리, 제외 조건, 음료로 지목되는 사람에 관한 번호 붙은 단서를 이용해 아나, 브루노, 카이우, 디아를 네 개의 자리, 네 가지 음료, 네 개의 도착 순서와 짝지으세요. 배경은 절대 규칙을 숨기지 않습니다. 풀고 나면 기록 보관소에 전체 추리 과정이 남습니다. 5개 스토리 챕터와 3단계 난이도에 걸친 사건 100개에, 52개 사건 모음에서 나오는 주간 사건과 기록 사건 90개가 더해집니다.",
+            "ja": "アルバはエスプレッソマシンの下で事件簿を見つける。近所のカフェのなにげない朝を再現し、陰ながら店を支えてきた4人の常連客を突き止めよう。各事件は定番のロジックグリッドパズル。到着順、隣や向かいの席、除外条件、飲み物で示される人物についての番号付きの手がかりを使い、アナ、ブルーノ、カイオ、ディアを4つの席、4つの飲み物、4つの到着順に当てはめよう。背景がルールを隠すことはない。解いたあとは、推理の全過程がアーカイブに残る。5つのストーリー章と3つの難易度にわたる100件の事件に加え、52件のコレクションから出る週替わりの事件と90件のアーカイブ事件を収録。",
+            "es": "Alba encuentra un libro de casos debajo de la máquina de espresso. Reconstruye mañanas comunes en un café de barrio y descubre a los cuatro clientes habituales cuya ayuda silenciosa mantuvo abiertas sus puertas. Cada caso es un rompecabezas clásico de cuadrícula lógica: relaciona a Ana, Bruno, Caio y Dia con cuatro asientos, cuatro bebidas y cuatro posiciones de llegada usando pistas numeradas sobre el orden de llegada, asientos vecinos y opuestos, exclusiones y personas identificadas por su bebida. El escenario nunca esconde una regla. Al resolverlo, el archivo guarda todo el camino de deducción. Hay 100 casos en cinco capítulos de historia y tres niveles de dificultad, además de un caso semanal de una colección de 52 y 90 casos de archivo.",
+            "pt-BR": "Alba encontra um livro de casos embaixo da máquina de espresso. Reconstrua manhãs comuns num café de bairro e descubra os quatro clientes fiéis cuja ajuda discreta manteve as portas abertas. Cada caso é um quebra-cabeça clássico de grade lógica: relacione Ana, Bruno, Caio e Dia a quatro lugares, quatro bebidas e quatro posições de chegada usando pistas numeradas sobre a ordem de chegada, lugares vizinhos e opostos, exclusões e pessoas identificadas pela bebida. O cenário nunca esconde uma regra. Depois de resolver, o arquivo guarda toda a trilha de dedução. São 100 casos em cinco capítulos de história e três níveis de dificuldade, além de um caso semanal de uma coleção de 52 e 90 casos de arquivo."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/cafeseatingfiles",
+        "screenshots": [
+            "apps/shots/cafe-seating-files/01.jpg",
+            "apps/shots/cafe-seating-files/02.jpg",
+            "apps/shots/cafe-seating-files/03.jpg",
+            "apps/shots/cafe-seating-files/04.jpg",
+            "apps/shots/cafe-seating-files/05.jpg"
+        ]
+    },
+    {
+        "id": "circuit-census",
+        "slug": "circuit-census",
+        "icon": "apps/circuit-census.png",
+        "page": "apps/circuit-census.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Circuit Census",
+            "ko": "서킷 센서스",
+            "ja": "サーキット・センサス",
+            "es": "Circuit Census",
+            "pt-BR": "Circuit Census"
+        },
+        "tagline": {
+            "en": "Wake the city, one connection at a time.",
+            "ko": "연결 하나하나로 도시를 깨우세요.",
+            "ja": "ひとつずつつないで、街を目覚めさせよう。",
+            "es": "Despierta la ciudad, una conexión a la vez.",
+            "pt-BR": "Desperte a cidade, uma conexão de cada vez."
+        },
+        "desc": {
+            "en": "The city of Lumen has gone quiet. Join technician Nia and a very literal maintenance robot to restore its districts and recover the messages of the engineer who designed the network. Each repair is a logic puzzle about signal paths built from six component types with simple, visible rules, so no electronics knowledge is needed. Every device must receive exactly the live inputs it asks for, and every source has a cable limit. Work with sources, relays, counted devices, switches, one-way diodes and two-input junctions, and test the circuit whenever you like. Play 100 repairs across five chapters, plus a daily layout and 90 extra briefs.",
+            "ko": "루멘시가 조용해졌습니다. 기술자 니아, 그리고 말을 곧이곧대로 알아듣는 정비 로봇과 함께 도시의 구역들을 복구하고, 이 네트워크를 설계한 엔지니어의 메시지를 되찾으세요. 각 수리는 신호 경로에 관한 논리 퍼즐로, 단순하고 눈에 보이는 규칙을 따르는 여섯 종류의 부품으로 이루어져 있어 전자공학 지식이 필요 없습니다. 모든 장치는 요구하는 만큼의 신호 입력을 정확히 받아야 하고, 모든 전원에는 케이블 한도가 있습니다. 전원, 중계기, 카운트 장치, 스위치, 단방향 다이오드, 2입력 접합부를 다루며, 언제든 회로를 테스트해 보세요. 5개 챕터의 수리 100개에, 매일의 배치와 추가 과제 90개가 있습니다.",
+            "ja": "ルーメンの街が静まり返った。技術者のニアと、言葉をそのまま受け取る保守ロボットとともに地区を復旧し、ネットワークを設計した技師のメッセージを取り戻そう。各修理は信号経路の論理パズル。シンプルで目に見えるルールに従う6種類の部品で構成されているので、電子工学の知識は不要だ。すべての装置は求める数だけの入力をちょうど受け取る必要があり、すべての電源にはケーブルの上限がある。電源、中継器、カウント装置、スイッチ、一方向ダイオード、2入力ジャンクションを使いこなし、回路はいつでもテストできる。5章にわたる100の修理に加え、毎日のレイアウトと90の追加課題を収録。",
+            "es": "La ciudad de Lumen se quedó en silencio. Acompaña a la técnica Nia y a un robot de mantenimiento muy literal para restaurar sus distritos y recuperar los mensajes del ingeniero que diseñó la red. Cada reparación es un rompecabezas lógico de rutas de señal con seis tipos de componentes de reglas simples y visibles, así que no hace falta saber de electrónica. Cada dispositivo debe recibir exactamente las entradas activas que pide, y cada fuente tiene un límite de cables. Trabaja con fuentes, relés, dispositivos con contador, interruptores, diodos de un solo sentido y uniones de dos entradas, y prueba el circuito cuando quieras. Juega 100 reparaciones en cinco capítulos, además de un diseño diario y 90 encargos extra.",
+            "pt-BR": "A cidade de Lumen ficou em silêncio. Junte-se à técnica Nia e a um robô de manutenção muito literal para restaurar seus distritos e recuperar as mensagens do engenheiro que projetou a rede. Cada reparo é um quebra-cabeça lógico sobre caminhos de sinal, com seis tipos de componentes de regras simples e visíveis, então não é preciso saber eletrônica. Cada dispositivo precisa receber exatamente as entradas ativas que pede, e cada fonte tem um limite de cabos. Trabalhe com fontes, relés, dispositivos contadores, interruptores, diodos de mão única e junções de duas entradas, e teste o circuito quando quiser. São 100 reparos em cinco capítulos, além de um layout diário e 90 tarefas extras."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/circuitcensus",
+        "screenshots": [
+            "apps/shots/circuit-census/01.jpg",
+            "apps/shots/circuit-census/02.jpg",
+            "apps/shots/circuit-census/03.jpg",
+            "apps/shots/circuit-census/04.jpg",
+            "apps/shots/circuit-census/05.jpg"
+        ]
+    },
+    {
+        "id": "lantern-links",
+        "slug": "lantern-links",
+        "icon": "apps/lantern-links.png",
+        "page": "apps/lantern-links.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Lantern Links",
+            "ko": "랜턴 링크스",
+            "ja": "ランタン・リンクス",
+            "es": "Lantern Links",
+            "pt-BR": "Lantern Links"
+        },
+        "tagline": {
+            "en": "Build the bridges. Bring back the tide.",
+            "ko": "다리를 놓고, 조수를 되찾으세요.",
+            "ja": "橋を架けて、潮を呼び戻そう。",
+            "es": "Construye los puentes. Trae de vuelta la marea.",
+            "pt-BR": "Construa as pontes. Traga a maré de volta."
+        },
+        "desc": {
+            "en": "One island holds a melody, and together the islands can bring back the Lantern Tide. Help keeper Iri reconnect a midnight archipelago by building exactly the bridges each island asks for. Each chart is a bridge-building logic puzzle: every island shows how many bridges it needs, bridges run straight and never cross, and every island must end up in one connected network. A lit island has its exact number, a warning marks too many bridges and notes mode marks routes you have ruled out. There is no clock. After a gentle teaching sequence, play 200 charts in three sizes across six story chapters as the lost song returns, plus a daily chart and 90 twilight charts.",
+            "ko": "섬 하나에 선율 하나가 깃들어 있고, 섬들이 함께하면 랜턴 타이드를 되찾을 수 있습니다. 지킴이 이리를 도와 섬마다 요구하는 수만큼 정확히 다리를 놓아 한밤의 군도를 다시 이으세요. 각 해도는 다리 놓기 논리 퍼즐입니다. 섬마다 필요한 다리 수가 표시되어 있고, 다리는 곧게 뻗으며 서로 교차하지 않고, 모든 섬은 하나의 네트워크로 이어져야 합니다. 개수가 맞은 섬에는 불이 켜지고, 다리가 너무 많으면 경고가 뜨며, 메모 모드로 배제한 경로를 표시할 수 있습니다. 시간 제한은 없습니다. 친절한 튜토리얼 뒤에, 잃어버린 노래가 돌아오는 6개 스토리 챕터에서 세 가지 크기의 해도 200개를 풀고, 매일의 해도와 황혼 해도 90개도 즐기세요.",
+            "ja": "島ひとつにひとつの旋律。島々がそろえば、ランタン・タイドを呼び戻せる。番人のイリを手伝い、各島が求める数だけ橋を架けて、真夜中の群島をつなぎ直そう。各海図は橋架けの論理パズル。島には必要な橋の数が示され、橋はまっすぐ伸びて交差せず、すべての島がひとつのネットワークにつながらなければならない。数がそろった島は明かりがつき、橋が多すぎると警告が出る。メモモードでは除外したルートに印をつけられる。制限時間はなし。やさしい導入のあと、失われた歌がよみがえる6つのストーリー章で3つのサイズの海図200枚に挑もう。毎日の海図と90枚のトワイライト海図も収録。",
+            "es": "Una isla guarda una melodía, y juntas, las islas pueden traer de vuelta la Marea de los Faroles. Ayuda a Iri, que cuida las islas, a reconectar un archipiélago de medianoche construyendo exactamente los puentes que pide cada isla. Cada carta náutica es un rompecabezas lógico de puentes: cada isla muestra cuántos puentes necesita, los puentes van en línea recta y nunca se cruzan, y todas las islas deben quedar en una sola red conectada. Una isla iluminada tiene su número exacto, una advertencia marca el exceso de puentes y el modo de notas marca las rutas descartadas. No hay reloj. Tras una introducción suave, juega 200 cartas en tres tamaños a lo largo de seis capítulos mientras vuelve la canción perdida, además de una carta diaria y 90 cartas del crepúsculo.",
+            "pt-BR": "Uma ilha guarda uma melodia, e juntas, as ilhas podem trazer de volta a Maré das Lanternas. Ajude Iri, que cuida das ilhas, a reconectar um arquipélago da meia-noite construindo exatamente as pontes que cada ilha pede. Cada carta náutica é um quebra-cabeça lógico de pontes: cada ilha mostra quantas pontes precisa, as pontes seguem em linha reta e nunca se cruzam, e todas as ilhas precisam formar uma única rede conectada. Uma ilha acesa tem o número exato, um aviso marca pontes demais e o modo de notas marca rotas descartadas. Não há relógio. Depois de uma introdução suave, jogue 200 cartas em três tamanhos ao longo de seis capítulos enquanto a canção perdida volta, além de uma carta diária e 90 cartas do crepúsculo."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/lanternlinks",
+        "screenshots": [
+            "apps/shots/lantern-links/01.jpg",
+            "apps/shots/lantern-links/02.jpg",
+            "apps/shots/lantern-links/03.jpg",
+            "apps/shots/lantern-links/04.jpg",
+            "apps/shots/lantern-links/05.jpg"
+        ]
+    },
+    {
+        "id": "number-ferry",
+        "slug": "number-ferry",
+        "icon": "apps/number-ferry.png",
+        "page": "apps/number-ferry.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Number Ferry",
+            "ko": "넘버 페리",
+            "ja": "ナンバー・フェリー",
+            "es": "Number Ferry",
+            "pt-BR": "Number Ferry"
+        },
+        "tagline": {
+            "en": "Every boat needs an exact total.",
+            "ko": "모든 배에는 정확한 합계가 필요합니다.",
+            "ja": "どの船も、合計ぴったりで。",
+            "es": "Cada barco necesita un total exacto.",
+            "pt-BR": "Todo barco precisa de um total exato."
+        },
+        "desc": {
+            "en": "An old ferry, a bundle of letters and a river waiting to be reconnected. Join Mara on a journey through five riverside towns, where every passenger carries a number and every crossing needs an exact total. Choose who boards, match the sign without going over the seats and think one trip ahead, because a group that fits now can leave an impossible remainder on the bank. Balanced boats split the load across two equal decks, and route boats follow a list of stops. Play 150 crossings with three boat types across five chapters, with a letter from Gran at the end of each, plus a daily crossing and 90 twilight crossings.",
+            "ko": "낡은 나룻배, 편지 한 묶음, 그리고 다시 이어지기를 기다리는 강. 마라와 함께 강가 마을 다섯 곳을 여행하세요. 승객마다 숫자를 지니고 있고, 강을 건널 때마다 정확한 합계가 필요합니다. 누구를 태울지 고르고, 좌석 수를 넘지 않으면서 표지판의 숫자에 맞추세요. 한 번 더 앞을 내다봐야 합니다. 지금 딱 맞는 무리가 강둑에 해결할 수 없는 나머지를 남길 수도 있으니까요. 균형 배는 짐을 똑같은 두 갑판에 나눠 싣고, 노선 배는 정류장 목록을 따라갑니다. 세 가지 배로 다섯 챕터에 걸친 150번의 항해를 하며 챕터 끝마다 할머니의 편지를 받고, 매일의 항해와 황혼 항해 90번도 즐기세요.",
+            "ja": "古い渡し船、手紙の束、そして再びつながるのを待つ川。マラと一緒に川沿いの5つの町をめぐろう。乗客はそれぞれ数字を持ち、渡るたびに合計をぴったり合わせる必要がある。誰を乗せるかを選び、座席数を超えずに標識の数に合わせよう。一手先を読むことも大切。今ちょうど収まる組み合わせが、岸に解けない残りを生むこともある。バランス船は荷を2つの同じ甲板に分け、ルート船は停留所のリストに沿って進む。3種類の船で5章にわたる150回の渡航に挑み、各章の終わりにはおばあちゃんの手紙が待っている。毎日の渡航と90回のトワイライト渡航も収録。",
+            "es": "Un viejo ferry, un paquete de cartas y un río que espera volver a unirse. Acompaña a Mara en un viaje por cinco pueblos ribereños, donde cada pasajero lleva un número y cada cruce necesita un total exacto. Elige quién sube, iguala el letrero sin pasarte de los asientos y piensa un viaje por adelantado, porque un grupo que cabe ahora puede dejar un resto imposible en la orilla. Los barcos equilibrados reparten la carga en dos cubiertas iguales, y los barcos de ruta siguen una lista de paradas. Juega 150 cruces con tres tipos de barco en cinco capítulos, con una carta de la abuela al final de cada uno, además de un cruce diario y 90 cruces del crepúsculo.",
+            "pt-BR": "Uma velha balsa, um maço de cartas e um rio esperando para ser reconectado. Acompanhe Mara numa viagem por cinco cidades ribeirinhas, onde cada passageiro carrega um número e cada travessia precisa de um total exato. Escolha quem embarca, acerte o valor da placa sem passar do número de assentos e pense uma viagem à frente, porque um grupo que cabe agora pode deixar um resto impossível na margem. Barcos equilibrados dividem a carga em dois conveses iguais, e barcos de rota seguem uma lista de paradas. Jogue 150 travessias com três tipos de barco em cinco capítulos, com uma carta da vovó no fim de cada um, além de uma travessia diária e 90 travessias do crepúsculo."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/numberferry",
+        "screenshots": [
+            "apps/shots/number-ferry/01.jpg",
+            "apps/shots/number-ferry/02.jpg",
+            "apps/shots/number-ferry/03.jpg",
+            "apps/shots/number-ferry/04.jpg",
+            "apps/shots/number-ferry/05.jpg"
+        ]
+    },
+    {
+        "id": "tiffin-trail",
+        "slug": "tiffin-trail",
+        "icon": "apps/tiffin-trail.png",
+        "page": "apps/tiffin-trail.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Tiffin Trail",
+            "ko": "티핀 트레일",
+            "ja": "ティフィン・トレイル",
+            "es": "Tiffin Trail",
+            "pt-BR": "Tiffin Trail"
+        },
+        "tagline": {
+            "en": "A little lunch. A thoughtful route.",
+            "ko": "작은 도시락, 세심한 경로.",
+            "ja": "小さなお弁当、心をこめたルート。",
+            "es": "Un almuerzo pequeño. Una ruta bien pensada.",
+            "pt-BR": "Um almoço pequeno. Uma rota bem pensada."
+        },
+        "desc": {
+            "en": "Every lunch has someone waiting for it. Join a small delivery cooperative that carries home-cooked tiffins from family kitchens to neighbours across a miniature town. Plan the courier's trip from depot 0: pick up every lunch, deliver it on time and get back to the depot, minding the carrying space, delivery windows and any delivery that must happen first. Then send the courier and watch the plan play out. There are 60 routes in four districts, where road closures, tight windows and full bags make later routes real puzzles, plus a daily route and a relaxed mode with no delivery windows.",
+            "ko": "모든 도시락에는 그것을 기다리는 사람이 있습니다. 가정집 부엌에서 만든 티핀 도시락을 미니어처 마을 곳곳의 이웃에게 나르는 작은 배달 협동조합에 함께하세요. 0번 거점에서 출발하는 배달원의 경로를 짜세요. 모든 도시락을 픽업해 제시간에 배달하고 거점으로 돌아와야 하며, 적재 공간, 배달 시간대, 먼저 처리해야 하는 배달을 신경 써야 합니다. 그런 다음 배달원을 보내 계획이 펼쳐지는 모습을 지켜보세요. 4개 구역에 60개의 경로가 있고, 도로 통제와 빠듯한 시간대, 꽉 찬 가방이 후반 경로를 진짜 퍼즐로 만듭니다. 매일의 경로와 배달 시간대가 없는 느긋한 모드도 있습니다.",
+            "ja": "どのお弁当にも、待っている人がいる。家庭の台所で作られたティフィン弁当を、ミニチュアの町じゅうのご近所に届ける小さな配達協同組合に加わろう。拠点0から出発する配達員のルートを計画し、すべてのお弁当を受け取って時間どおりに届け、拠点に戻ろう。積載スペース、配達時間帯、先に済ませるべき配達に注意。そして配達員を送り出し、計画どおりに進む様子を見守ろう。4つの地区に60のルートがあり、通行止め、厳しい時間帯、満杯のバッグが後半のルートを本格的なパズルにする。毎日のルートと、配達時間帯のないのんびりモードも収録。",
+            "es": "Cada almuerzo tiene a alguien esperándolo. Únete a una pequeña cooperativa de reparto que lleva tiffins caseros desde las cocinas familiares a los vecinos de un pueblo en miniatura. Planea el recorrido del repartidor desde el depósito 0: recoge cada almuerzo, entrégalo a tiempo y vuelve al depósito, cuidando el espacio de carga, las ventanas de entrega y las entregas que deben ir primero. Luego envía al repartidor y mira cómo se cumple el plan. Hay 60 rutas en cuatro distritos, donde los cierres de calles, las ventanas ajustadas y las bolsas llenas convierten las rutas posteriores en verdaderos rompecabezas, además de una ruta diaria y un modo relajado sin ventanas de entrega.",
+            "pt-BR": "Todo almoço tem alguém esperando por ele. Junte-se a uma pequena cooperativa de entregas que leva tiffins caseiros das cozinhas das famílias até os vizinhos de uma cidade em miniatura. Planeje o trajeto do entregador a partir do depósito 0: pegue cada almoço, entregue no horário e volte ao depósito, de olho no espaço de carga, nas janelas de entrega e nas entregas que precisam vir antes. Depois, mande o entregador e veja o plano acontecer. São 60 rotas em quatro distritos, onde ruas fechadas, janelas apertadas e bolsas cheias transformam as rotas finais em quebra-cabeças de verdade, além de uma rota diária e um modo tranquilo sem janelas de entrega."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/tiffintrail",
+        "screenshots": [
+            "apps/shots/tiffin-trail/01.jpg",
+            "apps/shots/tiffin-trail/02.jpg",
+            "apps/shots/tiffin-trail/03.jpg",
+            "apps/shots/tiffin-trail/04.jpg",
+            "apps/shots/tiffin-trail/05.jpg"
+        ]
+    },
+    {
+        "id": "shabd-steps",
+        "slug": "shabd-steps",
+        "icon": "apps/shabd-steps.png",
+        "page": "apps/shabd-steps.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Shabd Steps",
+            "ko": "샤브드 스텝스",
+            "ja": "シャブド・ステップス",
+            "es": "Shabd Steps",
+            "pt-BR": "Shabd Steps"
+        },
+        "tagline": {
+            "en": "A little word. A new journal page.",
+            "ko": "작은 단어 하나, 새로운 일지 한 페이지.",
+            "ja": "小さな言葉ひとつ、日誌に新しい1ページ。",
+            "es": "Una pequeña palabra. Una nueva página del diario.",
+            "pt-BR": "Uma pequena palavra. Uma nova página do diário."
+        },
+        "desc": {
+            "en": "A picture, a clue and a word waiting to be found. Shabd Steps fills a traveller's journal with short word puzzles about everyday objects and places, and Shabd means \"word\" in Hindi. Read the clue or look at the picture, then click the letter tiles to build the word. In a word ladder, change one tile at each rung to make the next word. Each language has its own 300 puzzles: 210 anagrams, 60 picture puzzles with original illustrations and 30 word ladders. Every word you solve goes into your journal to review later, and a daily ladder waits every day.",
+            "ko": "그림 하나, 단서 하나, 그리고 찾아 주기를 기다리는 단어 하나. 샤브드 스텝스는 일상의 물건과 장소에 관한 짧은 단어 퍼즐로 여행자의 일지를 채워 갑니다. '샤브드'는 힌디어로 '단어'라는 뜻입니다. 단서를 읽거나 그림을 보고 글자 타일을 눌러 단어를 완성하세요. 단어 사다리에서는 한 칸마다 타일 하나를 바꿔 다음 단어를 만듭니다. 언어마다 고유한 퍼즐 300개가 있습니다. 애너그램 210개, 오리지널 일러스트로 된 그림 퍼즐 60개, 단어 사다리 30개입니다. 푼 단어는 모두 일지에 담겨 나중에 복습할 수 있고, 매일 새로운 단어 사다리가 기다립니다.",
+            "ja": "1枚の絵、1つの手がかり、そして見つけられるのを待つ1つの言葉。シャブド・ステップスは、身近なものや場所をテーマにした短い言葉パズルで旅人の日誌を埋めていく。「シャブド」はヒンディー語で「言葉」という意味。手がかりを読むか絵を見て、文字タイルをクリックして単語を作ろう。ワードラダーでは、1段ごとにタイルを1枚変えて次の単語を作る。各言語に専用の300問を収録。アナグラム210問、オリジナルイラストの絵パズル60問、ワードラダー30問。解いた言葉はすべて日誌に記録されてあとで復習でき、毎日のラダーも待っている。",
+            "es": "Una imagen, una pista y una palabra esperando ser descubierta. Shabd Steps llena el diario de un viajero con pequeños rompecabezas de palabras sobre objetos y lugares cotidianos, y Shabd significa \"palabra\" en hindi. Lee la pista o mira la imagen y haz clic en las fichas de letras para formar la palabra. En una escalera de palabras, cambia una ficha en cada peldaño para crear la siguiente. Cada idioma tiene sus propios 300 rompecabezas: 210 anagramas, 60 acertijos de imágenes con ilustraciones originales y 30 escaleras de palabras. Cada palabra resuelta va a tu diario para repasarla después, y cada día te espera una escalera diaria.",
+            "pt-BR": "Uma imagem, uma pista e uma palavra esperando para ser encontrada. Shabd Steps preenche o diário de um viajante com pequenos quebra-cabeças de palavras sobre objetos e lugares do dia a dia, e Shabd quer dizer \"palavra\" em hindi. Leia a pista ou olhe a imagem e clique nas peças de letras para formar a palavra. Numa escada de palavras, troque uma peça a cada degrau para formar a próxima. Cada idioma tem seus próprios 300 quebra-cabeças: 210 anagramas, 60 desafios de imagem com ilustrações originais e 30 escadas de palavras. Cada palavra resolvida vai para o seu diário para revisar depois, e uma escada diária espera por você todo dia."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/shabdsteps",
+        "screenshots": [
+            "apps/shots/shabd-steps/01.jpg",
+            "apps/shots/shabd-steps/02.jpg",
+            "apps/shots/shabd-steps/03.jpg",
+            "apps/shots/shabd-steps/04.jpg",
+            "apps/shots/shabd-steps/05.jpg"
+        ]
+    },
+    {
+        "id": "monsoon-junction",
+        "slug": "monsoon-junction",
+        "icon": "apps/monsoon-junction.png",
+        "page": "apps/monsoon-junction.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Monsoon Junction",
+            "ko": "몬순 정션",
+            "ja": "モンスーン・ジャンクション",
+            "es": "Monsoon Junction",
+            "pt-BR": "Monsoon Junction"
+        },
+        "tagline": {
+            "en": "Every train has a way through.",
+            "ko": "모든 열차에는 지나갈 길이 있습니다.",
+            "ja": "どの列車にも、通り道がある。",
+            "es": "Cada tren tiene un camino.",
+            "pt-BR": "Todo trem tem um caminho."
+        },
+        "desc": {
+            "en": "Rain is coming, and the valley is counting on its little hill station. Take the dispatcher's desk and guide passenger and supply trains through a miniature railway. Read the timetable, choose an arriving train, set its route to A or B and release it on a clear signal, never sending two trains into the same block. A moving train keeps its route reserved until it has passed. Watch the deadlines, bridge maintenance and the rain, because three missed trains end the shift. Play 45 timetables across five chapters, a daily timetable and an endless mode, and restore the station, including a bypass siding that changes how you route.",
+            "ko": "비가 다가오고, 골짜기는 작은 산간 역만 믿고 있습니다. 배차 데스크에 앉아 미니어처 철도에서 여객 열차와 보급 열차를 안내하세요. 시간표를 읽고, 도착하는 열차를 골라 A 또는 B로 경로를 정한 뒤, 진행 신호에 맞춰 출발시키세요. 두 열차를 같은 구간에 보내서는 절대 안 됩니다. 달리는 열차는 지나갈 때까지 경로를 점유합니다. 마감 시간, 다리 보수, 그리고 비에 주의하세요. 열차를 세 번 놓치면 근무가 끝납니다. 5개 챕터에 걸친 45개의 시간표, 매일의 시간표와 끝없는 모드를 즐기고, 경로를 짜는 방식을 바꾸는 우회 측선을 포함해 역을 복원하세요.",
+            "ja": "雨が近づき、谷は小さな山あいの駅を頼りにしている。指令台に座り、ミニチュア鉄道で旅客列車と補給列車を導こう。時刻表を読み、到着する列車を選んで行き先AかBへ進路を設定し、進行信号で発車させる。2本の列車を同じ閉塞区間に送り込んではいけない。走行中の列車は通過するまで進路を確保し続ける。締め切り、橋の保守、そして雨に注意。列車を3本逃すと勤務終了だ。5章にわたる45の時刻表、毎日の時刻表、エンドレスモードに挑み、進路の組み方を変える待避線も含めて駅を復元しよう。",
+            "es": "Se acerca la lluvia y el valle cuenta con su pequeña estación de montaña. Ocupa el escritorio de despacho y guía trenes de pasajeros y de suministros por un ferrocarril en miniatura. Lee el horario, elige un tren que llega, fija su ruta hacia A o B y suéltalo con la señal en verde, sin mandar nunca dos trenes al mismo tramo. Un tren en marcha mantiene su ruta reservada hasta que pasa. Vigila los plazos, el mantenimiento del puente y la lluvia, porque tres trenes perdidos terminan el turno. Juega 45 horarios en cinco capítulos, un horario diario y un modo sin fin, y restaura la estación, incluida una vía de desvío que cambia cómo trazas las rutas.",
+            "pt-BR": "A chuva está chegando, e o vale conta com sua pequena estação na serra. Assuma a mesa de despacho e guie trens de passageiros e de suprimentos por uma ferrovia em miniatura. Leia a tabela de horários, escolha um trem que está chegando, defina a rota para A ou B e libere-o com o sinal aberto, sem nunca mandar dois trens para o mesmo trecho. Um trem em movimento mantém a rota reservada até passar. Fique de olho nos prazos, na manutenção da ponte e na chuva, porque três trens perdidos encerram o turno. Jogue 45 tabelas em cinco capítulos, uma tabela diária e um modo sem fim, e restaure a estação, incluindo um desvio que muda o jeito de traçar as rotas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/monsoonjunction",
+        "screenshots": [
+            "apps/shots/monsoon-junction/01.jpg",
+            "apps/shots/monsoon-junction/02.jpg",
+            "apps/shots/monsoon-junction/03.jpg",
+            "apps/shots/monsoon-junction/04.jpg",
+            "apps/shots/monsoon-junction/05.jpg"
+        ]
+    },
+    {
+        "id": "patang-sky",
+        "slug": "patang-sky",
+        "icon": "apps/patang-sky.png",
+        "page": "apps/patang-sky.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Patang Sky",
+            "ko": "파탕 스카이",
+            "ja": "パタン・スカイ",
+            "es": "Patang Sky",
+            "pt-BR": "Patang Sky"
+        },
+        "tagline": {
+            "en": "The wind has a story of its own.",
+            "ko": "바람에는 바람만의 이야기가 있습니다.",
+            "ja": "風には、風だけの物語がある。",
+            "es": "El viento tiene su propia historia.",
+            "pt-BR": "O vento tem sua própria história."
+        },
+        "desc": {
+            "en": "The rooftops are warm, the evening breeze is rising and your kite is ready. Follow a kite maker's notebook through a painted sky above an old city. Steer through wind rings, give the birds room and ride warm currents upward, and when the string tension rises, ease the string so the line holds. Find a safe landing to finish each route. There are 40 routes across five chapters, each with its own winds, and 12 paper kite designs to collect, from marigold to evening letter. Free flight and quiet skies offer calmer ways to fly, and a new daily flight waits every day.",
+            "ko": "옥상은 따뜻하고, 저녁 바람이 일고, 연은 준비되었습니다. 연 장인의 노트를 따라 오래된 도시 위 그림 같은 하늘을 날아 보세요. 바람 고리를 통과하고, 새들에게 길을 비켜 주고, 따뜻한 기류를 타고 오르세요. 연줄 장력이 높아지면 줄을 풀어 끊어지지 않게 하세요. 안전한 착지점을 찾으면 경로가 끝납니다. 저마다 다른 바람이 부는 5개 챕터에 40개의 경로가 있고, 메리골드부터 저녁 편지까지 12가지 종이 연 디자인을 모을 수 있습니다. 자유 비행과 고요한 하늘 모드로 더 느긋하게 날 수 있고, 매일 새로운 비행이 기다립니다.",
+            "ja": "屋上は暖かく、夕方の風が吹き始め、凧の準備はできた。凧職人のノートをたどり、古い街の上に広がる絵のような空を飛ぼう。風の輪をくぐり、鳥たちに道を譲り、暖かい上昇気流に乗って高く昇ろう。糸の張りが強まったら糸をゆるめて、切れないように。安全な着地点を見つけたらルート完了。それぞれ異なる風が吹く5つの章に40のルートがあり、マリーゴールドから夕べの手紙まで12種類の紙凧デザインを集められる。フリーフライトと静かな空モードでのんびり飛ぶこともでき、毎日新しいフライトも待っている。",
+            "es": "Las azoteas están tibias, la brisa de la tarde se levanta y tu cometa está lista. Sigue el cuaderno de un fabricante de cometas por un cielo pintado sobre una ciudad antigua. Atraviesa anillos de viento, deja espacio a los pájaros y sube con las corrientes cálidas, y cuando aumente la tensión del hilo, aflójalo para que aguante. Encuentra un aterrizaje seguro para terminar cada ruta. Hay 40 rutas en cinco capítulos, cada uno con sus propios vientos, y 12 diseños de cometas de papel para coleccionar, de caléndula a carta de la tarde. El vuelo libre y los cielos tranquilos ofrecen formas más calmadas de volar, y cada día te espera un nuevo vuelo diario.",
+            "pt-BR": "Os terraços estão mornos, a brisa do fim de tarde está subindo e sua pipa está pronta. Siga o caderno de um fabricante de pipas por um céu pintado sobre uma cidade antiga. Passe pelos anéis de vento, dê espaço aos pássaros e suba com as correntes quentes, e quando a tensão da linha aumentar, solte a linha para ela aguentar. Encontre um pouso seguro para terminar cada rota. São 40 rotas em cinco capítulos, cada um com seus próprios ventos, e 12 modelos de pipa de papel para colecionar, de calêndula a carta do entardecer. O voo livre e os céus tranquilos trazem jeitos mais calmos de voar, e um novo voo diário espera por você todo dia."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/patangsky",
+        "screenshots": [
+            "apps/shots/patang-sky/01.jpg",
+            "apps/shots/patang-sky/02.jpg",
+            "apps/shots/patang-sky/03.jpg",
+            "apps/shots/patang-sky/04.jpg",
+            "apps/shots/patang-sky/05.jpg"
+        ]
+    },
+    {
+        "id": "carrom-courtyard",
+        "slug": "carrom-courtyard",
+        "icon": "apps/carrom-courtyard.png",
+        "page": "apps/carrom-courtyard.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Carrom Courtyard",
+            "ko": "캐롬 코트야드",
+            "ja": "キャロム・コートヤード",
+            "es": "Carrom Courtyard",
+            "pt-BR": "Carrom Courtyard"
+        },
+        "tagline": {
+            "en": "A table. A thoughtful shot.",
+            "ko": "테이블 하나, 신중한 한 수.",
+            "ja": "ひとつの盤、考え抜いた一打。",
+            "es": "Una mesa. Un tiro bien pensado.",
+            "pt-BR": "Uma mesa. Uma tacada bem pensada."
+        },
+        "desc": {
+            "en": "Pull up a seat at Carrom Courtyard, the classic Indian tabletop game with real physics. Place your striker on the bottom rail, pull it back and flick your pieces into the pockets on a warm wooden board, banking shots off the cushions to reach pieces you cannot hit straight. Learn the queen-and-cover rule through 50 shot puzzles in five chapters, each solved for real on the physics board before it shipped. Then play full matches against the computer on easy, medium or hard, or take turns with a friend. Win coins to restore the neighbourhood club and collect six striker finishes.",
+            "ko": "실제 물리 엔진으로 즐기는 인도의 고전 보드게임, 캐롬 코트야드에 앉아 보세요. 아래쪽 레일에 스트라이커를 놓고, 뒤로 당겼다 튕겨 따뜻한 나무판 위의 말들을 포켓에 넣으세요. 곧바로 맞힐 수 없는 말은 쿠션을 이용한 뱅크 샷으로 노리세요. 5개 챕터의 샷 퍼즐 50개로 퀸과 커버 규칙을 익히세요. 모든 퍼즐은 출시 전에 물리 보드에서 실제로 풀어 검증되었습니다. 그다음 쉬움, 보통, 어려움 난이도의 컴퓨터나, 번갈아 두는 친구와 정식 경기를 펼치세요. 코인을 모아 동네 클럽을 되살리고 스트라이커 마감 여섯 가지를 모으세요.",
+            "ja": "本物の物理演算で遊ぶインドの定番卓上ゲーム、キャロム・コートヤードの席に着こう。下のレールにストライカーを置き、引いて放し、温かみのある木の盤の上で駒をポケットへはじき入れよう。まっすぐ狙えない駒はクッションを使ったバンクショットで。5章・50問のショットパズルでクイーンとカバーのルールを覚えよう。どのパズルもリリース前に物理盤で実際に解かれている。そのあとは、やさしい、ふつう、むずかしいの3段階のコンピューター相手に、または友だちと交代で本格的な対戦を。コインを集めて近所のクラブをよみがえらせ、6種類のストライカー仕上げを集めよう。",
+            "es": "Siéntate en Carrom Courtyard, el clásico juego de mesa indio con física real. Coloca el striker en el riel inferior, tira hacia atrás y lanza tus fichas a las troneras sobre un cálido tablero de madera, rebotando en las bandas para alcanzar fichas que no puedes golpear de frente. Aprende la regla de la reina y su cobertura con 50 rompecabezas de tiro en cinco capítulos, cada uno resuelto de verdad en el tablero de física antes del lanzamiento. Luego juega partidas completas contra la computadora en fácil, medio o difícil, o por turnos con un amigo. Gana monedas para restaurar el club del barrio y colecciona seis acabados de striker.",
+            "pt-BR": "Puxe uma cadeira no Carrom Courtyard, o clássico jogo de mesa indiano com física real. Posicione o striker no trilho inferior, puxe para trás e lance suas peças nas caçapas de um tabuleiro de madeira acolhedor, usando as tabelas para alcançar peças que você não acerta em linha reta. Aprenda a regra da rainha e da cobertura com 50 quebra-cabeças de tacada em cinco capítulos, cada um resolvido de verdade no tabuleiro de física antes do lançamento. Depois, jogue partidas completas contra o computador no fácil, médio ou difícil, ou revezando com um amigo. Ganhe moedas para reformar o clube do bairro e colecione seis acabamentos de striker."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/carromcourtyard",
+        "screenshots": [
+            "apps/shots/carrom-courtyard/01.jpg",
+            "apps/shots/carrom-courtyard/02.jpg",
+            "apps/shots/carrom-courtyard/03.jpg",
+            "apps/shots/carrom-courtyard/04.jpg",
+            "apps/shots/carrom-courtyard/05.jpg"
+        ]
+    },
+    {
+        "id": "paani-patch",
+        "slug": "paani-patch",
+        "icon": "apps/paani-patch.png",
+        "page": "apps/paani-patch.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Paani Patch",
+            "ko": "파니 패치",
+            "ja": "パーニー・パッチ",
+            "es": "Paani Patch",
+            "pt-BR": "Paani Patch"
+        },
+        "tagline": {
+            "en": "Every drop, a new beginning.",
+            "ko": "물 한 방울마다 새로운 시작.",
+            "ja": "ひとしずくごとに、新しいはじまり。",
+            "es": "Cada gota, un nuevo comienzo.",
+            "pt-BR": "Cada gota, um novo começo."
+        },
+        "desc": {
+            "en": "A small community garden is waiting for water and a clever idea. Connect its rain tank to the planting beds and watch each patch come back to life. Turn the pipes, open the red valves and lead every drop from the blue tank to the seedlings, working around rocks and using branching pipes to feed several plants. Preview the flow for free before releasing the water, because leaks waste it. There are 100 garden puzzles across five chapters, from a single pipe to branching networks, plus a daily conservation puzzle and a calm mode with unlimited water. Earn seeds to grow the garden with new beds, a flower path and a rain garden.",
+            "ko": "작은 공동체 텃밭이 물과 기발한 아이디어를 기다리고 있습니다. 빗물 탱크를 화단에 연결해 텃밭이 하나씩 되살아나는 모습을 지켜보세요. 파이프를 돌리고, 빨간 밸브를 열어, 파란 탱크의 물 한 방울까지 모종에게 보내세요. 바위를 피해 돌아가고, 갈래 파이프로 여러 식물에 물을 줄 수 있습니다. 물이 새면 낭비되니, 물을 흘려보내기 전에 흐름을 무료로 미리 확인하세요. 파이프 하나에서 갈래 네트워크까지, 5개 챕터에 100개의 텃밭 퍼즐이 있고, 매일의 물 절약 퍼즐과 물이 무제한인 느긋한 모드도 있습니다. 씨앗을 모아 새 화단, 꽃길, 빗물 정원으로 텃밭을 가꾸세요.",
+            "ja": "小さなコミュニティガーデンが、水とひらめきを待っている。雨水タンクを花壇につなぎ、区画がひとつずつよみがえる様子を見守ろう。パイプを回し、赤いバルブを開けて、青いタンクの水を一滴残らず苗へ届けよう。岩を避け、分岐パイプで複数の植物に水を送ることもできる。水漏れは水の無駄になるので、流す前に無料のプレビューで流れを確かめよう。1本のパイプから分岐ネットワークまで、5章に100の庭パズルを収録。毎日の節水パズルと、水が無制限ののんびりモードもある。種を集めて、新しい花壇や花の小道、雨庭で庭を育てよう。",
+            "es": "Un pequeño huerto comunitario espera agua y una idea ingeniosa. Conecta su tanque de lluvia a los canteros y mira cómo cada parcela vuelve a la vida. Gira las tuberías, abre las válvulas rojas y lleva cada gota del tanque azul a los brotes, rodeando las rocas y usando tuberías con ramales para regar varias plantas. Previsualiza el flujo gratis antes de soltar el agua, porque las fugas la desperdician. Hay 100 rompecabezas de jardín en cinco capítulos, de una sola tubería a redes ramificadas, además de un rompecabezas diario de conservación y un modo tranquilo con agua ilimitada. Gana semillas para hacer crecer el huerto con nuevos canteros, un sendero de flores y un jardín de lluvia.",
+            "pt-BR": "Uma pequena horta comunitária espera por água e por uma ideia esperta. Ligue o tanque de chuva aos canteiros e veja cada pedaço voltar à vida. Gire os canos, abra as válvulas vermelhas e leve cada gota do tanque azul até as mudas, contornando pedras e usando canos com ramificações para regar várias plantas. Veja a prévia do fluxo de graça antes de liberar a água, porque vazamentos a desperdiçam. São 100 quebra-cabeças de jardim em cinco capítulos, de um único cano a redes ramificadas, além de um quebra-cabeça diário de conservação e um modo tranquilo com água ilimitada. Ganhe sementes para fazer a horta crescer com novos canteiros, um caminho de flores e um jardim de chuva."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/paanipatch",
+        "screenshots": [
+            "apps/shots/paani-patch/01.jpg",
+            "apps/shots/paani-patch/02.jpg",
+            "apps/shots/paani-patch/03.jpg",
+            "apps/shots/paani-patch/04.jpg",
+            "apps/shots/paani-patch/05.jpg"
+        ]
+    },
+    {
+        "id": "bazaar-stack",
+        "slug": "bazaar-stack",
+        "icon": "apps/bazaar-stack.png",
+        "page": "apps/bazaar-stack.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Bazaar Stack",
+            "ko": "바자르 스택",
+            "ja": "バザール・スタック",
+            "es": "Bazaar Stack",
+            "pt-BR": "Bazaar Stack"
+        },
+        "tagline": {
+            "en": "A little place for everything.",
+            "ko": "모든 것에 제자리를.",
+            "ja": "すべてのものに、小さな居場所を。",
+            "es": "Un lugarcito para cada cosa.",
+            "pt-BR": "Um cantinho para cada coisa."
+        },
+        "desc": {
+            "en": "Fresh deliveries have filled every corner of your market shop. Bring order to the shelves, fill each customer's basket and grow your little shop into the best stall in the bazaar. Click a shelf, then another, to move its rightmost item to an empty spot or onto a matching item. Gather three of a kind to deliver an order, use empty shelves to make room and plan each move. There are 100 puzzles across five shops, with 24 original illustrated goods from mangoes and okra to pickle jars and lentils, plus a daily basket and a calm mode with no move limit.",
+            "ko": "새로 들어온 물건이 시장 가게 구석구석을 가득 채웠습니다. 선반을 정리하고, 손님마다 장바구니를 채워 주며, 작은 가게를 바자르 최고의 노점으로 키우세요. 선반 하나를 누르고 다른 선반을 누르면, 맨 오른쪽 물건이 빈자리나 같은 물건 위로 옮겨집니다. 같은 물건 세 개를 모아 주문을 배달하고, 빈 선반으로 공간을 만들며, 한 수 한 수 계획하세요. 다섯 가게에 100개의 퍼즐이 있고, 망고와 오크라부터 피클 병과 렌틸콩까지 24가지 오리지널 일러스트 상품이 등장합니다. 매일의 장바구니와 이동 제한 없는 느긋한 모드도 있습니다.",
+            "ja": "届いたばかりの品物で、市場の店はどこもいっぱい。棚を片づけ、お客さんのかごを満たし、小さな店をバザール一の屋台に育てよう。棚をクリックしてから別の棚をクリックすると、いちばん右の品物が空きスペースか同じ品物の上に移動する。同じ品を3つそろえて注文を届け、空いた棚で場所を作り、一手ずつ計画しよう。5つの店に100のパズルがあり、マンゴーやオクラからピクルスの瓶やレンズ豆まで、24種類のオリジナルイラストの商品が登場。毎日のかごと、手数制限のないのんびりモードも収録。",
+            "es": "Las entregas nuevas llenaron cada rincón de tu tienda del mercado. Pon orden en los estantes, llena la canasta de cada cliente y convierte tu pequeña tienda en el mejor puesto del bazar. Haz clic en un estante y luego en otro para mover su artículo de más a la derecha a un espacio vacío o sobre uno igual. Junta tres iguales para entregar un pedido, usa los estantes vacíos para hacer espacio y planea cada movimiento. Hay 100 rompecabezas en cinco tiendas, con 24 productos ilustrados originales, de mangos y okra a frascos de encurtidos y lentejas, además de una canasta diaria y un modo tranquilo sin límite de movimientos.",
+            "pt-BR": "As entregas novas encheram cada canto da sua loja no mercado. Organize as prateleiras, encha a cesta de cada cliente e transforme sua lojinha na melhor barraca do bazar. Clique numa prateleira e depois em outra para mover o item mais à direita para um espaço vazio ou para cima de um item igual. Junte três iguais para entregar um pedido, use prateleiras vazias para abrir espaço e planeje cada jogada. São 100 quebra-cabeças em cinco lojas, com 24 produtos ilustrados originais, de mangas e quiabo a potes de picles e lentilhas, além de uma cesta diária e um modo tranquilo sem limite de jogadas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/bazaarstack",
+        "screenshots": [
+            "apps/shots/bazaar-stack/01.jpg",
+            "apps/shots/bazaar-stack/02.jpg",
+            "apps/shots/bazaar-stack/03.jpg",
+            "apps/shots/bazaar-stack/04.jpg",
+            "apps/shots/bazaar-stack/05.jpg"
+        ]
+    },
+    {
+        "id": "chai-chapter",
+        "slug": "chai-chapter",
+        "icon": "apps/chai-chapter.png",
+        "page": "apps/chai-chapter.html",
+        "tier": "Volume",
+        "platform": "Android, PC",
+        "name": {
+            "en": "Chai Chapter",
+            "ko": "차이 챕터",
+            "ja": "チャイ・チャプター",
+            "es": "Chai Chapter",
+            "pt-BR": "Chai Chapter"
+        },
+        "tagline": {
+            "en": "Every cup has a little story.",
+            "ko": "모든 잔에는 작은 이야기가 있습니다.",
+            "ja": "どの一杯にも、小さな物語がある。",
+            "es": "Cada taza tiene una pequeña historia.",
+            "pt-BR": "Cada xícara tem uma pequena história."
+        },
+        "desc": {
+            "en": "A tiny counter, a steaming kettle and a new chapter. Reopen your family's chai stall and make it a place where the neighbourhood feels at home again. Read each customer's order, pick the right tea and spices, brew it and serve it before the cup cools. Ingredients run low and refilling takes time, so plan ahead and keep the queue happy. Play 60 shifts, learn 12 recipes and get to know eight regulars, each with a little story. Choose a relaxed shift with no timer or the busy counter, and spend coins on upgrades from a quicker kettle to a shaded awning.",
+            "ko": "작은 카운터, 김이 오르는 주전자, 그리고 새로운 챕터. 가족의 차이 노점을 다시 열어 동네 사람들이 다시 편안함을 느끼는 곳으로 만드세요. 손님의 주문을 읽고, 알맞은 차와 향신료를 골라 우린 뒤, 잔이 식기 전에 내어 주세요. 재료는 떨어지고 채우는 데는 시간이 걸리니, 미리 계획해 줄 선 손님들을 기분 좋게 하세요. 60번의 근무를 하며 12가지 레시피를 익히고, 저마다 작은 이야기를 지닌 단골 여덟 명을 알아 가세요. 시간 제한 없는 느긋한 근무나 바쁜 카운터 모드를 고르고, 코인으로 더 빠른 주전자부터 그늘막까지 노점을 업그레이드하세요.",
+            "ja": "小さなカウンター、湯気の立つやかん、そして新しい章。家族のチャイ屋台を再開し、近所の人たちが再びくつろげる場所にしよう。お客さんの注文を読み、合う茶葉とスパイスを選んで煮出し、冷めないうちに出そう。材料は減っていき、補充には時間がかかるので、先を見越して行列を笑顔に保とう。60回のシフトで12のレシピを覚え、それぞれ小さな物語を持つ8人の常連と親しくなろう。制限時間のないのんびりシフトか、忙しいカウンターを選び、コインで速いやかんから日よけまで屋台を強化しよう。",
+            "es": "Un mostrador pequeño, una tetera humeante y un nuevo capítulo. Reabre el puesto de chai de tu familia y haz que el barrio vuelva a sentirse en casa. Lee el pedido de cada cliente, elige el té y las especias correctas, prepáralo y sírvelo antes de que se enfríe la taza. Los ingredientes se acaban y reponerlos lleva tiempo, así que planea y mantén contenta la fila. Juega 60 turnos, aprende 12 recetas y conoce a ocho clientes habituales, cada uno con una pequeña historia. Elige un turno relajado sin cronómetro o el mostrador ajetreado, y gasta monedas en mejoras, desde una tetera más rápida hasta un toldo con sombra.",
+            "pt-BR": "Um balcão pequeno, uma chaleira fumegante e um novo capítulo. Reabra a barraca de chai da sua família e faça o bairro se sentir em casa de novo. Leia o pedido de cada cliente, escolha o chá e as especiarias certos, prepare e sirva antes que a xícara esfrie. Os ingredientes acabam e repor leva tempo, então planeje e mantenha a fila feliz. Jogue 60 turnos, aprenda 12 receitas e conheça oito clientes fiéis, cada um com uma pequena história. Escolha um turno tranquilo sem cronômetro ou o balcão movimentado, e gaste moedas em melhorias, de uma chaleira mais rápida a um toldo com sombra."
+        },
+        "status": "Live",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.india.chaichapter",
+        "itchUrl": "https://crystllabs.itch.io/chaichapter",
+        "screenshots": [
+            "apps/shots/chai-chapter/01.jpg",
+            "apps/shots/chai-chapter/02.jpg",
+            "apps/shots/chai-chapter/03.jpg",
+            "apps/shots/chai-chapter/04.jpg",
+            "apps/shots/chai-chapter/05.jpg"
+        ]
+    },
+    {
+        "id": "rangoli-trails",
+        "slug": "rangoli-trails",
+        "icon": "apps/rangoli-trails.png",
+        "page": "apps/rangoli-trails.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Rangoli Trails",
+            "ko": "랑골리 트레일즈",
+            "ja": "ランゴリ・トレイルズ",
+            "es": "Rangoli Trails",
+            "pt-BR": "Rangoli Trails"
+        },
+        "tagline": {
+            "en": "A whole courtyard, one line at a time.",
+            "ko": "선 하나하나로 마당 전체를.",
+            "ja": "一本ずつ描いて、中庭いっぱいに。",
+            "es": "Todo un patio, una línea a la vez.",
+            "pt-BR": "Um pátio inteiro, uma linha de cada vez."
+        },
+        "desc": {
+            "en": "A travelling artist has left a sketchbook full of rangoli, the bright floor patterns drawn at doorsteps across India. Follow it from courtyard to courtyard and complete every design. Connect the dots, follow each pattern's rule, a mirror, a half-turn or a quarter-turn, and watch a few lines become a whole rangoli. In One Stroke puzzles, trace every faint edge exactly once without lifting the line. There are 120 puzzles in four rule families, 30 each, plus a daily pattern. In the Studio, draw your own rangoli with no timer, and collect eight palettes from marigold and lotus to moonlight and rainbow.",
+            "ko": "떠돌이 화가가 랑골리로 가득한 스케치북을 남겼습니다. 랑골리는 인도 곳곳의 문 앞에 그리는 화려한 바닥 무늬입니다. 스케치북을 따라 이 마당에서 저 마당으로 옮겨 가며 모든 도안을 완성하세요. 점을 잇고, 거울 대칭, 반 바퀴 회전, 4분의 1 회전 같은 무늬의 규칙을 따라, 몇 개의 선이 하나의 랑골리가 되는 모습을 지켜보세요. 한붓그리기 퍼즐에서는 선을 떼지 않고 희미한 모든 변을 정확히 한 번씩 따라 그립니다. 네 가지 규칙군에 각 30개씩 120개의 퍼즐과 매일의 무늬가 있습니다. 스튜디오에서는 시간 제한 없이 나만의 랑골리를 그리고, 메리골드와 연꽃부터 달빛과 무지개까지 여덟 가지 팔레트를 모으세요.",
+            "ja": "旅の画家が、ランゴリでいっぱいのスケッチブックを残していった。ランゴリとは、インド各地の戸口に描かれる色鮮やかな床の文様。スケッチブックを手に中庭から中庭へと巡り、すべての図案を完成させよう。点をつなぎ、鏡映、半回転、4分の1回転といった文様のルールに従えば、数本の線がひとつのランゴリになる。一筆書きパズルでは、線を離さずに薄い辺をすべてちょうど1回ずつなぞろう。4つのルール系統に各30問、合計120問のパズルと毎日の文様を収録。スタジオでは制限時間なしで自分だけのランゴリを描き、マリーゴールドや蓮から月光や虹まで8つのパレットを集めよう。",
+            "es": "Un artista viajero dejó un cuaderno de bocetos lleno de rangoli, los coloridos diseños que se dibujan en el suelo a la entrada de las casas en toda la India. Síguelo de patio en patio y completa cada diseño. Une los puntos, sigue la regla de cada patrón, un espejo, media vuelta o un cuarto de vuelta, y mira cómo unas pocas líneas se vuelven un rangoli completo. En los rompecabezas de Un Trazo, recorre cada borde tenue exactamente una vez sin levantar la línea. Hay 120 rompecabezas en cuatro familias de reglas, 30 de cada una, además de un patrón diario. En el Estudio, dibuja tu propio rangoli sin cronómetro y colecciona ocho paletas, de caléndula y loto a luz de luna y arcoíris.",
+            "pt-BR": "Um artista viajante deixou um caderno de esboços cheio de rangoli, os desenhos coloridos feitos no chão, na porta das casas, por toda a Índia. Siga-o de pátio em pátio e complete cada desenho. Ligue os pontos, siga a regra de cada padrão, espelho, meia-volta ou quarto de volta, e veja algumas linhas virarem um rangoli inteiro. Nos quebra-cabeças de Um Traço, percorra cada aresta clarinha exatamente uma vez sem levantar a linha. São 120 quebra-cabeças em quatro famílias de regras, 30 de cada, além de um padrão diário. No Estúdio, desenhe seu próprio rangoli sem cronômetro e colecione oito paletas, de calêndula e lótus a luar e arco-íris."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/rangolitrails",
+        "screenshots": [
+            "apps/shots/rangoli-trails/01.jpg",
+            "apps/shots/rangoli-trails/02.jpg",
+            "apps/shots/rangoli-trails/03.jpg",
+            "apps/shots/rangoli-trails/04.jpg",
+            "apps/shots/rangoli-trails/05.jpg"
+        ]
+    },
+    {
+        "id": "gully-six",
+        "slug": "gully-six",
+        "icon": "apps/gully-six.png",
+        "page": "apps/gully-six.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Gully Six",
+            "ko": "걸리 식스",
+            "ja": "ガリー・シックス",
+            "es": "Gully Six",
+            "pt-BR": "Gully Six"
+        },
+        "tagline": {
+            "en": "One lane. One over. Your moment.",
+            "ko": "골목 하나, 오버 하나, 당신의 순간.",
+            "ja": "路地ひとつ、1オーバー、君の見せ場。",
+            "es": "Un callejón. Un over. Tu momento.",
+            "pt-BR": "Um beco. Um over. Seu momento."
+        },
+        "desc": {
+            "en": "The lane behind the houses is the best cricket ground in the neighbourhood, as long as nobody breaks a window. Step up to the crease, read the bowler and make the last over count. Every delivery has its own rhythm: full balls, short balls, slower balls. Choose Block, Drive or Loft and swing as the moving marker enters the green window, because a mistimed big shot can cost a wicket. Chase targets across 60 matches in six districts, plus a Daily Over. Three more modes let you bat for a personal best, hunt perfect hits or practise freely, and match coins restore your home ground.",
+            "ko": "집 뒤 골목은 동네 최고의 크리켓 구장입니다. 아무도 창문을 깨지만 않는다면요. 크리스에 서서 볼러를 읽고, 마지막 오버를 의미 있게 만드세요. 공마다 리듬이 다릅니다. 풀 볼, 쇼트 볼, 느린 공이 날아옵니다. 블록, 드라이브, 로프트 중 하나를 고르고, 움직이는 표시가 초록색 구간에 들어올 때 배트를 휘두르세요. 큰 샷의 타이밍을 놓치면 위켓을 잃을 수 있습니다. 6개 구역에서 60번의 경기로 목표 점수를 쫓고, 데일리 오버도 즐기세요. 개인 최고 기록, 퍼펙트 히트 찾기, 자유 연습의 세 가지 추가 모드가 있고, 경기 코인으로 홈 구장을 되살릴 수 있습니다.",
+            "ja": "家の裏の路地は、近所で一番のクリケット場。誰も窓を割らなければ、の話だが。クリーズに立ち、ボウラーを読み、最後のオーバーをものにしよう。投球ごとにリズムが違う。フルボール、ショートボール、スローボール。ブロック、ドライブ、ロフトから選び、動くマーカーが緑のゾーンに入った瞬間にスイング。大きなショットのタイミングを外すとウィケットを失うこともある。6つの地区で60試合の目標スコアを追いかけ、デイリーオーバーも楽しもう。自己ベストを狙う、パーフェクトヒットを探す、自由に練習する、という3つの追加モードがあり、試合のコインでホームグラウンドを復活させられる。",
+            "es": "El callejón detrás de las casas es la mejor cancha de críquet del barrio, mientras nadie rompa una ventana. Párate en el pliegue, lee al lanzador y haz que el último over cuente. Cada lanzamiento tiene su propio ritmo: bolas llenas, bolas cortas, bolas lentas. Elige Bloquear, Drive o Loft y batea cuando el marcador móvil entre en la ventana verde, porque un tiro grande mal sincronizado puede costarte un wicket. Persigue objetivos en 60 partidos por seis distritos, además de un Over Diario. Tres modos más te dejan batear por tu mejor marca, buscar golpes perfectos o practicar libremente, y las monedas de partido restauran tu cancha local.",
+            "pt-BR": "O beco atrás das casas é o melhor campo de críquete do bairro, desde que ninguém quebre uma janela. Assuma a posição no crease, leia o arremessador e faça o último over valer. Cada arremesso tem seu próprio ritmo: bolas cheias, bolas curtas, bolas lentas. Escolha Bloquear, Drive ou Loft e rebata quando o marcador em movimento entrar na janela verde, porque uma tacada grande fora do tempo pode custar um wicket. Persiga metas em 60 partidas por seis distritos, além de um Over Diário. Mais três modos deixam você rebater pelo seu recorde, buscar acertos perfeitos ou treinar livremente, e as moedas das partidas restauram seu campo."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/gullysix",
+        "screenshots": [
+            "apps/shots/gully-six/01.jpg",
+            "apps/shots/gully-six/02.jpg",
+            "apps/shots/gully-six/03.jpg",
+            "apps/shots/gully-six/04.jpg",
+            "apps/shots/gully-six/05.jpg"
+        ]
+    },
+    {
+        "id": "sandline-studio",
+        "slug": "sandline-studio",
+        "icon": "apps/sandline-studio.png",
+        "page": "apps/sandline-studio.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Sandline Studio",
+            "ko": "샌드라인 스튜디오",
+            "ja": "サンドライン・スタジオ",
+            "es": "Sandline Studio",
+            "pt-BR": "Sandline Studio"
+        },
+        "tagline": {
+            "en": "Draw on the beach. Let the sea take it.",
+            "ko": "해변에 그림을 그리고, 바다가 가져가게 두세요.",
+            "ja": "浜辺に描いて、海に還そう。",
+            "es": "Dibuja en la playa. Deja que el mar se lo lleve.",
+            "pt-BR": "Desenhe na praia. Deixe o mar levar."
+        },
+        "desc": {
+            "en": "On the island of Lumen Bay, an old beach artist used to rake giant drawings into the sand at low tide for anyone who asked. Then they stopped. You pick up their rake, and the bottles start washing up. Read each request, rake inside the faint shapes, keep the beach tidy and place the stones, shells and driftwood the bottle asks for, then fly the drone for a photo before the tide arrives and washes your picture away. 48 bottles over four beaches, 12 tide glyphs from a lost festival, six rakes and a Zen beach with no clock.",
+            "ko": "루멘 베이 섬에는 썰물 때마다 부탁하는 누구에게나 모래 위에 거대한 그림을 갈퀴로 그려 주던 늙은 해변 화가가 있었습니다. 그런데 그 일이 멈췄습니다. 당신이 그 갈퀴를 집어 들자 병들이 해변으로 밀려오기 시작합니다. 병 속 부탁을 읽고, 희미한 모양 안쪽을 갈퀴질하고, 해변을 깔끔하게 유지하며, 요청한 돌과 조개, 유목을 놓으세요. 그리고 밀물이 닿기 전에 드론을 띄워 사진을 찍은 뒤, 파도가 그림을 쓸어 가는 모습을 지켜보세요. 네 곳의 해변에 걸친 병 48개, 잃어버린 축제의 조수 문양 12개, 갈퀴 6종, 시간 제한 없는 젠 해변.",
+            "ja": "ルーメン湾の島には、干潮のたびに頼まれれば誰にでも砂浜に大きな絵を熊手で描いてくれる年老いた浜辺の画家がいた。だが、それも途絶えた。あなたがその熊手を手に取ると、ボトルが流れ着きはじめる。ボトルの依頼を読み、かすかな形の内側を熊手でなぞり、浜をきれいに保ち、頼まれた石や貝殻、流木を置こう。潮が満ちる前にドローンを飛ばして写真を撮り、波が絵をさらっていくのを見届けよう。4つの浜辺に48本のボトル、失われた祭りの潮の紋章12個、熊手6種、時間制限のない禅の浜辺。",
+            "es": "En la isla de Lumen Bay, un viejo artista de playa rastrillaba dibujos gigantes en la arena con la marea baja para quien se lo pidiera. Un día dejó de hacerlo. Tomas su rastrillo y empiezan a llegar botellas a la orilla. Lee cada pedido, rastrilla dentro de las formas tenues, mantén la playa ordenada y coloca las piedras, conchas y maderas que pide la botella. Luego vuela el dron para tomar la foto antes de que llegue la marea y borre tu dibujo. 48 botellas en cuatro playas, 12 glifos de marea de un festival perdido, seis rastrillos y una playa zen sin reloj.",
+            "pt-BR": "Na ilha de Lumen Bay, um velho artista de praia desenhava figuras gigantes na areia com o rastelo na maré baixa para quem pedisse. Um dia, parou. Você pega o rastelo dele e as garrafas começam a chegar à praia. Leia cada pedido, passe o rastelo dentro das formas suaves, mantenha a praia arrumada e coloque as pedras, conchas e madeiras que a garrafa pede. Depois, voe com o drone para tirar a foto antes que a maré chegue e apague o desenho. 48 garrafas em quatro praias, 12 glifos de maré de um festival perdido, seis rastelos e uma praia zen sem relógio."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/sandlinestudio",
+        "screenshots": [
+            "apps/shots/sandline-studio/01.jpg",
+            "apps/shots/sandline-studio/02.jpg",
+            "apps/shots/sandline-studio/03.jpg",
+            "apps/shots/sandline-studio/04.jpg",
+            "apps/shots/sandline-studio/05.jpg"
+        ]
+    },
+    {
+        "id": "mosaic-moments",
+        "slug": "mosaic-moments",
+        "icon": "apps/mosaic-moments.png",
+        "page": "apps/mosaic-moments.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Mosaic Moments",
+            "ko": "모자이크 모먼츠",
+            "ja": "モザイク・モーメンツ",
+            "es": "Mosaic Moments",
+            "pt-BR": "Mosaic Moments"
+        },
+        "tagline": {
+            "en": "Bring the town back, tile by tile.",
+            "ko": "타일 한 장씩, 마을을 되살리세요.",
+            "ja": "タイル一枚ずつ、町をよみがえらせよう。",
+            "es": "Devuélvele la vida al pueblo, tesela por tesela.",
+            "pt-BR": "Traga a cidade de volta, pastilha por pastilha."
+        },
+        "desc": {
+            "en": "A storm scoured Porto Vela, a little seaside town famous for its mosaics, and left it grey. You come home as the last apprentice of Teodora, the artist who made them all. Open a mosaic in the 3D town, swap and turn the shuffled blocks until each one sets in gold, and lay smashed sections by hand from counted tile trays, copying her sketch. Each finished mosaic goes back up and a shop reopens. 50 mosaics over five districts, a daily mosaic, a free floor for your own designs and, somewhere in Teodora's work, a map.",
+            "ko": "모자이크로 유명한 작은 해변 마을 포르투 벨라가 폭풍에 휩쓸려 잿빛이 되었습니다. 당신은 그 모든 모자이크를 만든 예술가 테오도라의 마지막 제자로 고향에 돌아옵니다. 3D 마을에서 모자이크를 열고, 뒤섞인 블록을 맞바꾸고 돌려 하나씩 금빛으로 고정하세요. 부서진 부분은 개수가 정해진 타일 트레이에서 그녀의 스케치를 따라 손으로 붙입니다. 완성한 모자이크는 다시 마을에 걸리고 가게가 문을 엽니다. 다섯 구역에 걸친 모자이크 50점, 오늘의 모자이크, 자유롭게 디자인하는 바닥, 그리고 테오도라의 작품 어딘가에 숨은 지도.",
+            "ja": "モザイクで知られる小さな海辺の町ポルト・ヴェラは嵐に削られ、灰色になってしまった。あなたは、そのすべてを作った芸術家テオドラの最後の弟子として故郷に戻る。3Dの町でモザイクを開き、入れ替わったブロックを交換したり回したりして、一つずつ金色に定着させよう。壊れた部分は、数の決まったタイルトレイから彼女の下絵を写して手で並べる。完成したモザイクは町に戻り、店が再開する。5つの地区に50点のモザイク、毎日のモザイク、自由にデザインできるフロア、そしてテオドラの作品のどこかに隠された地図。",
+            "es": "Una tormenta azotó Porto Vela, un pequeño pueblo costero famoso por sus mosaicos, y lo dejó gris. Vuelves a casa como último aprendiz de Teodora, la artista que los hizo todos. Abre un mosaico en el pueblo en 3D, intercambia y gira los bloques revueltos hasta que cada uno quede fijado en oro, y coloca a mano las partes rotas con bandejas de teselas contadas, copiando su boceto. Cada mosaico terminado vuelve a su lugar y una tienda reabre. 50 mosaicos en cinco barrios, un mosaico del día, un piso libre para tus propios diseños y, en algún lugar de la obra de Teodora, un mapa.",
+            "pt-BR": "Uma tempestade varreu Porto Vela, uma pequena cidade litorânea famosa por seus mosaicos, e a deixou cinzenta. Você volta para casa como último aprendiz de Teodora, a artista que fez todos eles. Abra um mosaico na cidade em 3D, troque e gire os blocos embaralhados até cada um se fixar em dourado, e assente à mão as partes quebradas com bandejas de pastilhas contadas, copiando o esboço dela. Cada mosaico pronto volta ao seu lugar e uma loja reabre. 50 mosaicos em cinco bairros, um mosaico do dia, um piso livre para seus próprios desenhos e, em algum lugar da obra de Teodora, um mapa."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/mosaicmoments",
+        "screenshots": [
+            "apps/shots/mosaic-moments/01.jpg",
+            "apps/shots/mosaic-moments/02.jpg",
+            "apps/shots/mosaic-moments/03.jpg",
+            "apps/shots/mosaic-moments/04.jpg",
+            "apps/shots/mosaic-moments/05.jpg"
+        ]
+    },
+    {
+        "id": "doodle-trails",
+        "slug": "doodle-trails",
+        "icon": "apps/doodle-trails.png",
+        "page": "apps/doodle-trails.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Doodle Trails",
+            "ko": "두들 트레일",
+            "ja": "ドゥードゥル・トレイル",
+            "es": "Doodle Trails",
+            "pt-BR": "Doodle Trails"
+        },
+        "tagline": {
+            "en": "Draw the way. Nib walks on it.",
+            "ko": "길을 그리면, 닙이 그 위를 걸어요.",
+            "ja": "道を描けば、ニブが歩く。",
+            "es": "Dibuja el camino. Nib camina por él.",
+            "pt-BR": "Desenhe o caminho. Nib anda por ele."
+        },
+        "desc": {
+            "en": "In a sketchbook world, a yellow scribble called Nib wakes up while the Eraser rubs the pages blank. Every page starts with one supplied line, a prompt and an ink budget, and whatever you draw from that line becomes real. Each stroke must grow from ink already on the page. Press Play and Nib rolls along your lines, down your slopes and over your bridges to the flag, collecting stars and avoiding spikes, water and the patrolling Eraser. Fall off and your lines stay, so fix them and go again. 100 pages in five sketchbooks, 20 lost doodles and 50 drawing prompts.",
+            "ko": "스케치북 세상에서 노란 낙서 닙이 깨어나고, 지우개가 페이지를 하얗게 지워 가고 있습니다. 모든 페이지는 주어진 선 하나와 주제, 잉크 한도로 시작하며, 그 선에서 이어 그린 것은 무엇이든 진짜가 됩니다. 모든 획은 이미 페이지에 있는 잉크에서 시작해야 합니다. 플레이를 누르면 닙이 당신의 선을 따라 구르고, 비탈을 내려가고, 다리를 건너 깃발까지 갑니다. 별을 모으고 가시, 물, 순찰하는 지우개를 피하세요. 떨어져도 선은 남으니 고쳐서 다시 도전하세요. 다섯 권의 스케치북에 100페이지, 잃어버린 낙서 20개, 그리기 주제 50개.",
+            "ja": "スケッチブックの世界で、黄色い落書きのニブが目を覚ます。消しゴムがページを真っ白に消していく中、どのページも用意された1本の線、お題、インクの上限から始まり、その線から描いたものはすべて本物になる。線は必ずページ上のインクからつなげて描く。プレイを押すと、ニブはあなたの線を転がり、坂を下り、橋を渡って旗を目指す。星を集め、トゲや水、見回る消しゴムを避けよう。落ちても線は残るので、直してもう一度。5冊のスケッチブックに100ページ、迷子の落書き20体、お絵かきのお題50個。",
+            "es": "En un mundo de cuaderno de bocetos, un garabato amarillo llamado Nib despierta mientras el Borrador deja las páginas en blanco. Cada página empieza con una línea dada, una consigna y un límite de tinta, y todo lo que dibujes a partir de esa línea se vuelve real. Cada trazo debe salir de tinta que ya está en la página. Pulsa Jugar y Nib rueda por tus líneas, baja tus pendientes y cruza tus puentes hasta la bandera, juntando estrellas y esquivando púas, agua y al Borrador que patrulla. Si cae, tus líneas se quedan: corrígelas y vuelve a intentarlo. 100 páginas en cinco cuadernos, 20 garabatos perdidos y 50 consignas de dibujo.",
+            "pt-BR": "Num mundo de caderno de rascunhos, um rabisco amarelo chamado Nib acorda enquanto a Borracha apaga as páginas. Cada página começa com uma linha dada, um tema e um limite de tinta, e tudo o que você desenhar a partir dessa linha vira realidade. Cada traço precisa partir de tinta que já está na página. Aperte Jogar e Nib rola pelas suas linhas, desce suas rampas e atravessa suas pontes até a bandeira, pegando estrelas e desviando de espinhos, água e da Borracha que patrulha. Se ele cair, suas linhas ficam: conserte e tente de novo. 100 páginas em cinco cadernos, 20 rabiscos perdidos e 50 temas de desenho."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/doodletrails",
+        "screenshots": [
+            "apps/shots/doodle-trails/01.jpg",
+            "apps/shots/doodle-trails/02.jpg",
+            "apps/shots/doodle-trails/03.jpg",
+            "apps/shots/doodle-trails/04.jpg",
+            "apps/shots/doodle-trails/05.jpg"
+        ]
+    },
+    {
+        "id": "pattern-picnic",
+        "slug": "pattern-picnic",
+        "icon": "apps/pattern-picnic.png",
+        "page": "apps/pattern-picnic.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Pattern Picnic",
+            "ko": "패턴 피크닉",
+            "ja": "パターン・ピクニック",
+            "es": "Pattern Picnic",
+            "pt-BR": "Pattern Picnic"
+        },
+        "tagline": {
+            "en": "Design the patterns. Dress the cafe.",
+            "ko": "패턴을 디자인하고, 카페를 꾸미세요.",
+            "ja": "柄をデザインして、カフェを彩ろう。",
+            "es": "Diseña los estampados. Viste el café.",
+            "pt-BR": "Crie as estampas. Vista o café."
+        },
+        "desc": {
+            "en": "Aunt Bea's park cafe, The Picnic Basket, has one summer left on its lease, along with good teapots, a famous cake and terrible tablecloths. You design patterns for a living. Take each order, place motifs on a small seamless tile, pick a base, colours and a repeat style, and watch the tablecloths, cups, bunting and parasol of the 3D cafe wear your design as you work. Win back the regulars from the chain cafe across the park and take the Summer Fair. 60 orders over five seasons, 126 motifs, 12 things to dress and 30 regulars with their own tastes.",
+            "ko": "베아 이모의 공원 카페 '피크닉 바구니'는 임대 기간이 이번 여름뿐입니다. 좋은 찻주전자와 유명한 케이크, 그리고 끔찍한 식탁보가 있죠. 패턴 디자인이 직업인 당신이 나섭니다. 주문을 받아 이음새 없는 작은 타일에 모티프를 놓고, 바탕과 색, 반복 방식을 고르면, 3D 카페의 식탁보와 컵, 깃발 장식, 파라솔이 작업하는 동안 바로 당신의 디자인을 입습니다. 공원 건너편 체인 카페에서 단골을 되찾고 여름 축제를 차지하세요. 다섯 계절에 걸친 주문 60개, 모티프 126종, 꾸밀 수 있는 물건 12가지, 저마다 취향이 다른 단골 30명.",
+            "ja": "ベアおばさんの公園のカフェ「ピクニック・バスケット」は、賃貸契約があとひと夏だけ。いいティーポットと評判のケーキはあるけれど、テーブルクロスはひどいもの。柄のデザインが仕事のあなたの出番だ。注文を受け、継ぎ目のない小さなタイルにモチーフを置き、ベース、色、リピートの方法を選ぶと、3Dのカフェのテーブルクロス、カップ、ガーランド、パラソルが作業中からあなたの柄をまとう。公園の向かいのチェーン店から常連を取り戻し、サマーフェアを勝ち取ろう。5つの季節で60件の注文、126種のモチーフ、飾れるもの12種、好みの異なる常連30人。",
+            "es": "El café de la tía Bea en el parque, The Picnic Basket, tiene un último verano de contrato, buenas teteras, un pastel famoso y unos manteles horribles. Tú diseñas estampados para ganarte la vida. Toma cada pedido, coloca motivos en un pequeño módulo sin costuras, elige una base, los colores y el tipo de repetición, y mira cómo los manteles, las tazas, los banderines y la sombrilla del café en 3D lucen tu diseño mientras trabajas. Recupera a los clientes habituales del café de cadena al otro lado del parque y gana la Feria de Verano. 60 pedidos en cinco temporadas, 126 motivos, 12 cosas que decorar y 30 clientes con sus propios gustos.",
+            "pt-BR": "O café da tia Bea no parque, The Picnic Basket, tem só mais um verão de contrato, bons bules, um bolo famoso e toalhas de mesa horríveis. Você cria estampas para viver. Pegue cada pedido, coloque motivos num pequeno módulo sem emendas, escolha uma base, as cores e o tipo de repetição, e veja as toalhas, xícaras, bandeirinhas e o guarda-sol do café em 3D vestirem seu desenho enquanto você trabalha. Reconquiste os clientes fiéis do café de rede do outro lado do parque e vença a Feira de Verão. 60 pedidos em cinco estações, 126 motivos, 12 coisas para decorar e 30 clientes com gostos próprios."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/patternpicnic",
+        "screenshots": [
+            "apps/shots/pattern-picnic/01.jpg",
+            "apps/shots/pattern-picnic/02.jpg",
+            "apps/shots/pattern-picnic/03.jpg",
+            "apps/shots/pattern-picnic/04.jpg",
+            "apps/shots/pattern-picnic/05.jpg"
+        ]
+    },
+    {
+        "id": "mandala-loom",
+        "slug": "mandala-loom",
+        "icon": "apps/mandala-loom.png",
+        "page": "apps/mandala-loom.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Mandala Loom",
+            "ko": "만다라 룸",
+            "ja": "マンダラ・ルーム",
+            "es": "Mandala Loom",
+            "pt-BR": "Mandala Loom"
+        },
+        "tagline": {
+            "en": "Draw one line. The loom weaves it twelve times.",
+            "ko": "선 하나를 그리면, 베틀이 열두 번 짜 줍니다.",
+            "ja": "線を1本描けば、織機が12回織り上げる。",
+            "es": "Dibuja una línea. El telar la teje doce veces.",
+            "pt-BR": "Desenhe uma linha. O tear a tece doze vezes."
+        },
+        "desc": {
+            "en": "At the Night Bazaar of Seven Gates stands a loom that weaves whatever you draw on it, around and around. Its master has vanished, leaving you, her apprentice, a stall, a bag of silk and an unfinished mandala with seven dark rings. Take commissions from merchants, draw strokes that repeat around the circle 6 to 18 times, trace the faint gold guide and fill spaces from each gate's palette. Win the trust of each gate and its ring glows again. The last ring shows where she went. 56 commissions at seven gates, a pattern book of real plates from The Grammar of Ornament and six brushes.",
+            "ko": "일곱 관문의 야시장에는 그 위에 그린 것은 무엇이든 빙글빙글 짜 내는 베틀이 있습니다. 베틀의 장인은 사라졌고, 제자인 당신에게 노점 하나와 비단 한 자루, 그리고 어두운 고리 일곱 개가 남은 미완성 만다라를 남겼습니다. 상인들의 의뢰를 받아, 원을 따라 6번에서 18번까지 반복되는 선을 그리고, 희미한 금빛 안내선을 따라가며, 관문마다 다른 팔레트로 칸을 채우세요. 관문의 신뢰를 얻을 때마다 고리가 다시 빛나고, 마지막 고리는 그녀가 간 곳을 보여 줍니다. 일곱 관문의 의뢰 56개, '장식의 문법' 실제 도판을 담은 문양 책, 붓 6종.",
+            "ja": "七つの門の夜市には、描いたものを何でもぐるぐると織り上げる織機がある。その親方は姿を消し、弟子のあなたに屋台と絹の袋、そして暗い輪が7つ残る未完のマンダラを残した。商人の依頼を受け、円に沿って6回から18回繰り返される線を描き、かすかな金のガイドをなぞり、門ごとのパレットで区画を塗ろう。各門の信頼を得るたびに輪が再び輝き、最後の輪が彼女の行き先を示す。7つの門で56件の依頼、『装飾の文法』の実際の図版を収めた文様帳、6種類の筆。",
+            "es": "En el Bazar Nocturno de las Siete Puertas hay un telar que teje en círculos todo lo que dibujas en él. Su maestra desapareció y te dejó a ti, su aprendiz, un puesto, una bolsa de seda y un mandala inconcluso con siete anillos oscuros. Acepta encargos de los mercaderes, dibuja trazos que se repiten alrededor del círculo de 6 a 18 veces, sigue la tenue guía dorada y rellena espacios con la paleta de cada puerta. Gánate la confianza de cada puerta y su anillo vuelve a brillar. El último revela adónde fue. 56 encargos en siete puertas, un libro de patrones con láminas reales de The Grammar of Ornament y seis pinceles.",
+            "pt-BR": "No Bazar Noturno das Sete Portas há um tear que tece em círculos tudo o que você desenha nele. A mestra dele sumiu e deixou para você, aprendiz dela, uma barraca, um saco de seda e uma mandala inacabada com sete anéis escuros. Aceite encomendas dos mercadores, desenhe traços que se repetem ao redor do círculo de 6 a 18 vezes, siga o guia dourado suave e preencha espaços com a paleta de cada porta. Conquiste a confiança de cada porta e seu anel volta a brilhar. O último mostra para onde ela foi. 56 encomendas em sete portas, um livro de padrões com pranchas reais de The Grammar of Ornament e seis pincéis."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/mandalaloom",
+        "screenshots": [
+            "apps/shots/mandala-loom/01.jpg",
+            "apps/shots/mandala-loom/02.jpg",
+            "apps/shots/mandala-loom/03.jpg",
+            "apps/shots/mandala-loom/04.jpg",
+            "apps/shots/mandala-loom/05.jpg"
+        ]
+    },
+    {
+        "id": "stained-glass-sketchbook",
+        "slug": "stained-glass-sketchbook",
+        "icon": "apps/stained-glass-sketchbook.png",
+        "page": "apps/stained-glass-sketchbook.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Stained Glass Sketchbook",
+            "ko": "스테인드글라스 스케치북",
+            "ja": "ステンドグラス・スケッチブック",
+            "es": "Stained Glass Sketchbook",
+            "pt-BR": "Stained Glass Sketchbook"
+        },
+        "tagline": {
+            "en": "Every window holds a memory.",
+            "ko": "창문마다 추억이 깃들어 있습니다.",
+            "ja": "どの窓にも、思い出が宿っている。",
+            "es": "Cada ventana guarda un recuerdo.",
+            "pt-BR": "Cada janela guarda uma lembrança."
+        },
+        "desc": {
+            "en": "A storm broke every window of the Lantern Chapel, a little chapel on a northern cliff under a lighthouse. Odile has kept that light for sixty years, and her memory is going. As the glazier's apprentice she sent for, you read her briefs, pick sheets of glass and fill the leaded pieces, layering two glasses to mix new colours and aiming the light onto marked stones on the chapel floor. Each window you glaze brings back one of her memories. 50 story windows over four seasons, 10 glass sheets with 55 two-layer mixes and 14 real skies to shine through your work.",
+            "ko": "폭풍이 등대 아래 북쪽 절벽의 작은 예배당, 랜턴 채플의 창문을 모두 깨뜨렸습니다. 오딜은 60년 동안 그 등대를 지켜 왔고, 이제 기억이 흐려지고 있습니다. 그녀가 부른 유리공의 제자인 당신은 그녀의 주문을 읽고, 유리판을 골라 납 테두리 조각을 채우며, 두 장의 유리를 겹쳐 새로운 색을 만들고, 예배당 바닥의 표시된 돌에 빛이 떨어지도록 맞춥니다. 창문 하나를 완성할 때마다 그녀의 기억이 하나씩 돌아옵니다. 네 계절에 걸친 이야기 창문 50개, 유리판 10종과 2겹 혼합 55가지, 작품 너머로 비치는 실제 하늘 14가지.",
+            "ja": "嵐が、灯台の下、北の崖に建つ小さな礼拝堂ランタン・チャペルの窓をすべて割ってしまった。オディールは60年その灯りを守ってきたが、記憶が薄れつつある。彼女に呼ばれたガラス職人の弟子として、注文を読み、ガラス板を選んで鉛線で区切られたピースを埋めていこう。2枚のガラスを重ねて新しい色を作り、礼拝堂の床の印のついた石に光を落とす。窓を1枚仕上げるごとに、彼女の思い出がひとつよみがえる。4つの季節にわたる物語の窓50枚、ガラス板10種と2層の組み合わせ55通り、作品を透かして輝く本物の空14種。",
+            "es": "Una tormenta rompió todas las ventanas de la Lantern Chapel, una pequeña capilla en un acantilado del norte, bajo un faro. Odile ha cuidado esa luz durante 60 años y está perdiendo la memoria. Como aprendiz de vidriero que ella mandó llamar, lees sus encargos, eliges láminas de vidrio y rellenas las piezas emplomadas, superponiendo dos vidrios para mezclar colores nuevos y dirigiendo la luz hacia las piedras marcadas del suelo de la capilla. Cada ventana que terminas le devuelve un recuerdo. 50 ventanas con historia en cuatro estaciones, 10 láminas de vidrio con 55 mezclas de dos capas y 14 cielos reales que brillan a través de tu obra.",
+            "pt-BR": "Uma tempestade quebrou todas as janelas da Lantern Chapel, uma pequena capela num penhasco do norte, sob um farol. Odile cuida dessa luz há 60 anos e está perdendo a memória. Como aprendiz de vidraceiro que ela chamou, você lê os pedidos dela, escolhe chapas de vidro e preenche as peças de chumbo, sobrepondo dois vidros para misturar cores novas e levando a luz até as pedras marcadas no chão da capela. Cada janela que você termina traz de volta uma lembrança dela. 50 janelas com história em quatro estações, 10 chapas de vidro com 55 misturas de duas camadas e 14 céus reais brilhando através do seu trabalho."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/stainedglasssketchbook",
+        "screenshots": [
+            "apps/shots/stained-glass-sketchbook/01.jpg",
+            "apps/shots/stained-glass-sketchbook/02.jpg",
+            "apps/shots/stained-glass-sketchbook/03.jpg",
+            "apps/shots/stained-glass-sketchbook/04.jpg",
+            "apps/shots/stained-glass-sketchbook/05.jpg"
+        ]
+    },
+    {
+        "id": "paper-garden-maker",
+        "slug": "paper-garden-maker",
+        "icon": "apps/paper-garden-maker.png",
+        "page": "apps/paper-garden-maker.html",
+        "tier": "Volume",
+        "platform": "Android, PC",
+        "name": {
+            "en": "Paper Garden Maker",
+            "ko": "페이퍼 가든 메이커",
+            "ja": "ペーパー・ガーデン・メーカー",
+            "es": "Paper Garden Maker",
+            "pt-BR": "Paper Garden Maker"
+        },
+        "tagline": {
+            "en": "Cut the flowers. Keep the memories.",
+            "ko": "꽃을 오리고, 추억을 간직하세요.",
+            "ja": "花を切り抜き、思い出を残そう。",
+            "es": "Recorta las flores. Guarda los recuerdos.",
+            "pt-BR": "Recorte as flores. Guarde as lembranças."
+        },
+        "desc": {
+            "en": "Grandma Rose is moving out of the house she gardened in for sixty years, and the garden cannot come with her. So you make it for her in paper, one album page for every memory. Every flower is a real botanical print by Pierre-Joseph Redouté. Read what Rose asks for, trace the dotted line to cut each flower from its plate, then arrange your cutouts in a layered shadowbox, moving, turning, sizing, flipping and tinting them before you press and photograph the page. 36 album pages in 12 chapters of her life, 81 Redouté flowers to collect and a daily florist order from a neighbour.",
+            "ko": "로즈 할머니가 60년 동안 정원을 가꾸던 집을 떠나게 되었지만, 정원은 함께 갈 수 없습니다. 그래서 당신은 추억마다 앨범 한 페이지씩, 종이로 정원을 만들어 드립니다. 모든 꽃은 피에르조제프 르두테의 실제 식물 세밀화입니다. 로즈의 부탁을 읽고, 점선을 따라 도판에서 꽃을 오려 낸 뒤, 겹겹의 섀도박스에 배치하세요. 옮기고, 돌리고, 크기를 바꾸고, 뒤집고, 색을 입힌 다음 페이지를 눌러 사진을 찍습니다. 그녀 인생의 12개 챕터에 담긴 앨범 36페이지, 수집할 르두테의 꽃 81송이, 이웃이 매일 보내는 꽃 주문.",
+            "ja": "ローズおばあちゃんは60年庭を育ててきた家を出ることになったが、庭は一緒に連れていけない。だからあなたが紙で庭を作ってあげる。思い出ひとつにつき、アルバム1ページ。花はすべて、ピエール＝ジョゼフ・ルドゥーテによる本物の植物画だ。ローズの頼みを読み、点線をなぞって図版から花を切り抜き、奥行きのあるシャドーボックスに並べよう。動かし、回し、大きさを変え、裏返し、色をつけたら、ページを押して写真に収める。人生の12章にわたるアルバム36ページ、集められるルドゥーテの花81種、近所の人から毎日届く花の注文。",
+            "es": "La abuela Rose deja la casa donde cuidó su jardín durante 60 años, y el jardín no puede irse con ella. Así que se lo haces en papel, una página de álbum por cada recuerdo. Cada flor es una lámina botánica real de Pierre-Joseph Redouté. Lee lo que Rose te pide, sigue la línea punteada para recortar cada flor de su lámina y luego acomoda tus recortes en una caja de sombras por capas: muévelos, gíralos, cambia su tamaño, voltéalos y dales color antes de prensar y fotografiar la página. 36 páginas de álbum en 12 capítulos de su vida, 81 flores de Redouté para coleccionar y un pedido diario de flores de un vecino.",
+            "pt-BR": "A vovó Rose está deixando a casa onde cuidou do jardim por 60 anos, e o jardim não pode ir com ela. Então você o faz para ela em papel, uma página de álbum para cada lembrança. Cada flor é uma prancha botânica real de Pierre-Joseph Redouté. Leia o que Rose pede, siga a linha pontilhada para recortar cada flor da prancha e depois arrume os recortes numa caixa de sombras em camadas, movendo, girando, redimensionando, virando e tingindo antes de prensar e fotografar a página. 36 páginas de álbum em 12 capítulos da vida dela, 81 flores de Redouté para colecionar e um pedido diário de flores de um vizinho."
+        },
+        "status": "Live",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.papergardenmaker",
+        "itchUrl": "https://crystllabs.itch.io/papergardenmaker",
+        "screenshots": [
+            "apps/shots/paper-garden-maker/01.jpg",
+            "apps/shots/paper-garden-maker/02.jpg",
+            "apps/shots/paper-garden-maker/03.jpg",
+            "apps/shots/paper-garden-maker/04.jpg",
+            "apps/shots/paper-garden-maker/05.jpg"
+        ]
+    },
+    {
+        "id": "pixel-patch-studio",
+        "slug": "pixel-patch-studio",
+        "icon": "apps/pixel-patch-studio.png",
+        "page": "apps/pixel-patch-studio.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Pixel Patch Studio",
+            "ko": "픽셀 패치 스튜디오",
+            "ja": "ピクセル・パッチ・スタジオ",
+            "es": "Pixel Patch Studio",
+            "pt-BR": "Pixel Patch Studio"
+        },
+        "tagline": {
+            "en": "Stitch the kingdom back together",
+            "ko": "왕국을 다시 꿰매어 이으세요",
+            "ja": "王国をもう一度縫い合わせよう",
+            "es": "Vuelve a coser el reino",
+            "pt-BR": "Costure o reino de volta"
+        },
+        "desc": {
+            "en": "The Patchwork Kingdom is a great quilt spread over a sleeping hill, and last night the moths came, leaving holes where whole villages used to be. You are Pip, a tailor no bigger than a thimble. Every patch is a little pixel picture to stitch by number: pick a thread, then click or drag across the grid, and long runs of the right colour build combos that earn buttons for borders. Mend all ten patches of a region to wake it up. 80 story patches across 8 regions, a gentle mystery about the moths, a Moth Raid mode and a pixel canvas for your own art.",
+            "ko": "패치워크 왕국은 잠든 언덕 위에 펼쳐진 커다란 퀼트인데, 어젯밤 나방들이 몰려와 마을이 통째로 있던 자리에 구멍을 남겼습니다. 당신은 골무만 한 재단사 핍입니다. 모든 패치는 숫자대로 수놓는 작은 픽셀 그림입니다. 실을 고르고 격자를 클릭하거나 드래그하세요. 맞는 색을 길게 이어 가면 콤보가 쌓여 테두리에 쓸 단추를 얻습니다. 한 지역의 패치 10개를 모두 고치면 그 지역이 깨어납니다. 8개 지역에 걸친 이야기 패치 80개, 나방에 얽힌 잔잔한 수수께끼, 나방 습격 모드, 나만의 그림을 그리는 픽셀 캔버스.",
+            "ja": "パッチワーク王国は眠る丘に広がる大きなキルト。ところが昨夜、蛾がやって来て、村がまるごとあった場所に穴を残していった。あなたは指ぬきほどの大きさの仕立て屋、ピップ。パッチはどれも番号どおりに縫う小さなピクセル画だ。糸を選び、グリッドをクリックまたはドラッグしよう。正しい色を長く続けるとコンボになり、縁飾りに使うボタンがもらえる。地域のパッチ10枚をすべて直すと、その地域が目を覚ます。8つの地域に物語のパッチ80枚、蛾をめぐる穏やかな謎、モス・レイドモード、自分の絵を描けるピクセルキャンバス。",
+            "es": "El Reino de Retazos es una gran colcha extendida sobre una colina dormida, y anoche llegaron las polillas y dejaron agujeros donde antes había pueblos enteros. Eres Pip, un sastre no más grande que un dedal. Cada parche es un pequeño dibujo en píxeles para coser por números: elige un hilo y haz clic o arrastra sobre la cuadrícula. Las tiradas largas del color correcto forman combos que dan botones para comprar bordes. Repara los 10 parches de una región para despertarla. 80 parches con historia en 8 regiones, un misterio tranquilo sobre las polillas, el modo Ataque de Polillas y un lienzo de píxeles para tus propios dibujos.",
+            "pt-BR": "O Reino de Retalhos é uma grande colcha estendida sobre uma colina adormecida, e ontem à noite as mariposas chegaram, deixando buracos onde antes havia vilas inteiras. Você é Pip, um alfaiate do tamanho de um dedal. Cada remendo é uma pequena imagem em pixels para costurar por números: escolha uma linha e clique ou arraste pela grade. Sequências longas da cor certa formam combos que rendem botões para gastar em bordas. Conserte os 10 remendos de uma região para despertá-la. 80 remendos com história em 8 regiões, um mistério tranquilo sobre as mariposas, o modo Ataque das Mariposas e uma tela de pixels para sua própria arte."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/pixelpatchstudio",
+        "screenshots": [
+            "apps/shots/pixel-patch-studio/01.jpg",
+            "apps/shots/pixel-patch-studio/02.jpg",
+            "apps/shots/pixel-patch-studio/03.jpg",
+            "apps/shots/pixel-patch-studio/04.jpg",
+            "apps/shots/pixel-patch-studio/05.jpg"
+        ]
+    },
+    {
+        "id": "palette-postcards",
+        "slug": "palette-postcards",
+        "icon": "apps/palette-postcards.png",
+        "page": "apps/palette-postcards.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Palette Postcards",
+            "ko": "팔레트 포스트카드",
+            "ja": "パレット・ポストカード",
+            "es": "Palette Postcards",
+            "pt-BR": "Palette Postcards"
+        },
+        "tagline": {
+            "en": "Bring the old road back to colour",
+            "ko": "옛길에 다시 색을 입히세요",
+            "ja": "古い街道に色を取り戻そう",
+            "es": "Devuélvele el color al viejo camino",
+            "pt-BR": "Devolva a cor à velha estrada"
+        },
+        "desc": {
+            "en": "Your grandfather left you a tin of postcards, each showing a station of the old Tokaido road from Edo to Kyoto, and each faded to grey. His note asks you to walk the road for him. The pictures are real woodblock prints by Utagawa Hiroshige. Pick an ink and sweep the brush to bring every block of that ink back to life, using fewer strokes for more stars. Then write a line, press your seal and post the card. Replies arrive the next morning with more of his story. 35 stations, 35 letters, 15 views of old Edo and 16 seals to collect.",
+            "ko": "할아버지가 엽서가 든 깡통 하나를 남기셨습니다. 엽서마다 에도에서 교토까지 이어진 옛 도카이도의 역참이 그려져 있지만, 모두 잿빛으로 바랬습니다. 쪽지에는 자기 대신 그 길을 걸어 달라고 적혀 있습니다. 그림은 우타가와 히로시게의 실제 목판화입니다. 잉크를 고르고 붓을 쓸면 그 잉크의 블록이 모두 되살아나며, 획이 적을수록 별을 더 받습니다. 그런 다음 한 줄을 적고, 도장을 찍어 엽서를 부치세요. 다음 날 아침 답장이 오고, 할아버지의 이야기가 조금 더 드러납니다. 역참 35곳, 편지 35통, 옛 에도 풍경 15점, 수집할 도장 16개.",
+            "ja": "祖父が絵はがきの入った缶を遺してくれた。どのはがきにも江戸から京へ続く東海道の宿場が描かれているが、すべて灰色に色あせている。添えられたメモには、自分の代わりに街道を歩いてほしいとある。絵は歌川広重の本物の木版画だ。インクを選んで筆を走らせると、そのインクの版がすべてよみがえる。少ない筆数ほど星が増える。それから一文を書き、印を押してはがきを出そう。翌朝には返事が届き、祖父の物語がまた少し明かされる。宿場35か所、手紙35通、江戸の風景15点、集められる印16種。",
+            "es": "Tu abuelo te dejó una lata de postales. Cada una muestra una estación del antiguo camino de Tokaido, de Edo a Kioto, y todas se han desteñido a gris. Su nota te pide que recorras el camino por él. Las imágenes son grabados en madera reales de Utagawa Hiroshige. Elige una tinta y pasa el pincel para devolverle la vida a cada bloque de esa tinta, con menos trazos para ganar más estrellas. Luego escribe una frase, estampa tu sello y envía la postal. Las respuestas llegan a la mañana siguiente con más de su historia. 35 estaciones, 35 cartas, 15 vistas del viejo Edo y 16 sellos para coleccionar.",
+            "pt-BR": "Seu avô deixou para você uma lata de cartões-postais. Cada um mostra uma estação da antiga estrada Tokaido, de Edo a Kyoto, e todos desbotaram para o cinza. O bilhete dele pede que você percorra a estrada por ele. As imagens são xilogravuras reais de Utagawa Hiroshige. Escolha uma tinta e passe o pincel para trazer de volta cada bloco dessa tinta, usando menos traços para ganhar mais estrelas. Depois escreva uma frase, pressione seu carimbo e envie o cartão. As respostas chegam na manhã seguinte com mais da história dele. 35 estações, 35 cartas, 15 vistas da velha Edo e 16 carimbos para colecionar."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/palettepostcards",
+        "screenshots": [
+            "apps/shots/palette-postcards/01.jpg",
+            "apps/shots/palette-postcards/02.jpg",
+            "apps/shots/palette-postcards/03.jpg",
+            "apps/shots/palette-postcards/04.jpg",
+            "apps/shots/palette-postcards/05.jpg"
+        ]
+    },
+    {
+        "id": "color-storybook",
+        "slug": "color-storybook",
+        "icon": "apps/color-storybook.png",
+        "page": "apps/color-storybook.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Color Storybook",
+            "ko": "컬러 스토리북",
+            "ja": "カラー・ストーリーブック",
+            "es": "Color Storybook",
+            "pt-BR": "Color Storybook"
+        },
+        "tagline": {
+            "en": "Colour the faded tales back to life",
+            "ko": "바랜 동화에 색을 입혀 다시 살려 내세요",
+            "ja": "色あせた物語に、色で命を吹き込もう",
+            "es": "Colorea los cuentos desteñidos y devuélveles la vida",
+            "pt-BR": "Pinte os contos desbotados e traga-os de volta à vida"
+        },
+        "desc": {
+            "en": "It is midnight in the Lantern Library. Something called the Grey has drained the colour from eight old picture books, and their stories are fading off the page. You are Wren, the night librarian. Every page is a real illustration by Walter Crane, the picture-book artist of the 1870s. Choose a numbered colour, click its areas and watch a fairy tale return line by line, while a library mystery unfolds between the books. 49 pages from 8 classic tales, including The Three Bears, The Frog Prince and Beauty and the Beast, four moods for every page and a daily page.",
+            "ko": "랜턴 도서관의 한밤중. '회색'이라는 무언가가 오래된 그림책 8권에서 색을 빼앗아, 이야기들이 페이지에서 사라져 가고 있습니다. 당신은 밤의 사서 렌입니다. 모든 페이지는 1870년대 그림책 화가 월터 크레인의 실제 삽화입니다. 번호가 붙은 색을 고르고 해당 영역을 클릭하면, 동화가 한 줄씩 되살아나고 책과 책 사이에서 도서관의 수수께끼가 펼쳐집니다. '곰 세 마리', '개구리 왕자', '미녀와 야수' 등 고전 동화 8편에서 고른 49페이지, 페이지마다 네 가지 분위기, 그리고 오늘의 페이지.",
+            "ja": "真夜中のランタン図書館。「グレイ」と呼ばれる何かが8冊の古い絵本から色を奪い、物語がページから消えかけている。あなたは夜の司書、レン。どのページも1870年代の絵本画家ウォルター・クレインによる本物の挿絵だ。番号の色を選んで該当する部分をクリックすれば、おとぎ話が一行ずつよみがえり、本と本のあいだで図書館の謎が明かされていく。「三びきのくま」「かえるの王さま」「美女と野獣」など8つの名作から49ページ、ページごとに4つの雰囲気、そして毎日のページ。",
+            "es": "Es medianoche en la Biblioteca Linterna. Algo llamado el Gris le ha robado el color a ocho viejos libros ilustrados, y sus historias se están borrando de la página. Eres Wren, quien cuida la biblioteca de noche. Cada página es una ilustración real de Walter Crane, el artista de libros ilustrados de la década de 1870. Elige un color numerado, haz clic en sus áreas y mira cómo un cuento de hadas vuelve línea por línea, mientras un misterio de la biblioteca se revela entre los libros. 49 páginas de 8 cuentos clásicos, entre ellos Los tres osos, El príncipe rana y La bella y la bestia, cuatro ambientes para cada página y una página diaria.",
+            "pt-BR": "É meia-noite na Biblioteca Lanterna. Algo chamado o Cinza drenou a cor de oito velhos livros ilustrados, e as histórias estão sumindo da página. Você é Wren, quem cuida da biblioteca à noite. Cada página é uma ilustração real de Walter Crane, o artista de livros ilustrados dos anos 1870. Escolha uma cor numerada, clique nas áreas dela e veja um conto de fadas voltar linha por linha, enquanto um mistério da biblioteca se revela entre os livros. 49 páginas de 8 contos clássicos, entre eles Os Três Ursos, O Príncipe Sapo e A Bela e a Fera, quatro climas para cada página e uma página diária."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/colorstorybook",
+        "screenshots": [
+            "apps/shots/color-storybook/01.jpg",
+            "apps/shots/color-storybook/02.jpg",
+            "apps/shots/color-storybook/03.jpg",
+            "apps/shots/color-storybook/04.jpg",
+            "apps/shots/color-storybook/05.jpg"
+        ]
+    },
+    {
+        "id": "wicket-and-vice",
+        "slug": "wicket-and-vice",
+        "icon": "apps/wicket-and-vice.png",
+        "page": "apps/wicket-and-vice.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Wicket & Vice",
+            "ko": "위켓 앤 바이스",
+            "ja": "ウィケット＆ヴァイス",
+            "es": "Wicket & Vice",
+            "pt-BR": "Wicket & Vice"
+        },
+        "tagline": {
+            "en": "Build a cricket career, master the chase and navigate dangerous favors.",
+            "ko": "크리켓 커리어를 쌓고, 추격전을 익히고, 위험한 호의를 헤쳐 나가세요.",
+            "ja": "クリケットのキャリアを築き、追撃を極め、危険な貸し借りを切り抜けろ。",
+            "es": "Construye una carrera de críquet, domina la persecución y sortea favores peligrosos.",
+            "pt-BR": "Construa uma carreira no críquete, domine a perseguição e lide com favores perigosos."
+        },
+        "desc": {
+            "en": "From neighborhood nets to a floodlit franchise league, your all-rounder owes their first selection to a powerful patron, and every favor has an expiry date. Play both innings of a full T20 fixture ball by ball, choosing deliveries and strokes, managing wickets and runs and preparing spin, pace or an all-rounder approach. A shorter five-over practice helps you learn the rhythm. Away from the match, work through 36 story encounters with 12 recurring characters, where choices shape trust, debt, community support and relationships, and earlier decisions come back later. Balance training, recovery, sponsors and club improvements across a 12-fixture season, with three career backgrounds and retirement legacies.",
+            "ko": "동네 연습장에서 조명이 켜진 프랜차이즈 리그까지, 당신의 올라운더는 첫 선발을 힘 있는 후원자에게 빚지고 있고, 모든 호의에는 유효 기한이 있습니다. T20 경기의 두 이닝을 공 하나하나 직접 치르며 투구와 타격을 고르고, 위켓과 득점을 관리하고, 스핀, 페이스, 올라운더 전략을 준비하세요. 짧은 5오버 연습 경기로 리듬을 익힐 수 있습니다. 경기 밖에서는 12명의 고정 인물과 함께하는 36개의 이야기 사건을 겪게 됩니다. 선택은 신뢰, 빚, 지역 사회의 지지, 인간관계에 영향을 주고, 이전의 결정은 나중에 다시 돌아옵니다. 12경기 시즌 동안 훈련, 회복, 스폰서, 클럽 개선의 균형을 맞추세요. 세 가지 커리어 배경과 은퇴 후 남는 유산도 있습니다.",
+            "ja": "近所のネットから照明輝くフランチャイズリーグまで。あなたのオールラウンダーは、最初の選出を有力な後援者に負っている。そして、どの恩にも期限がある。T20の試合の両イニングを1球ずつプレイし、投球と打撃を選び、ウィケットとランを管理し、スピン、ペース、オールラウンダーの戦い方を準備しよう。短い5オーバーの練習試合でリズムを覚えられる。 試合の外では、12人のおなじみの登場人物と36の物語イベントを進める。選択は信頼、借り、地域の支持、人間関係を左右し、過去の決断は後の会話で返ってくる。12戦のシーズンを通じて、トレーニング、回復、スポンサー、クラブの強化のバランスを取ろう。3つのキャリアの出自と、引退後に残るレガシーも用意されている。",
+            "es": "De las redes del barrio a una liga de franquicias bajo los reflectores, tu jugador todoterreno le debe su primera convocatoria a un patrón poderoso, y cada favor tiene fecha de vencimiento. Juega las dos entradas de un partido T20 completo, bola por bola: elige lanzamientos y golpes, administra wickets y carreras, y prepara un enfoque de spin, de velocidad o todoterreno. Una práctica corta de cinco overs te ayuda a tomar el ritmo. Lejos de la competencia, vive 36 encuentros de historia con 12 personajes recurrentes, donde tus decisiones afectan la confianza, las deudas, el apoyo de la comunidad y tus relaciones, y lo que elegiste antes vuelve más adelante. Equilibra entrenamiento, recuperación, patrocinadores y mejoras del club a lo largo de una temporada de 12 fechas, con tres orígenes de carrera y legados de retiro.",
+            "pt-BR": "Das redes do bairro a uma liga de franquias sob os refletores, seu jogador versátil deve a primeira convocação a um patrono poderoso, e todo favor tem prazo de validade. Jogue as duas entradas de uma partida T20 completa, bola a bola: escolha arremessos e rebatidas, administre wickets e corridas, e prepare uma abordagem de spin, de velocidade ou versátil. Um treino curto de cinco overs ajuda você a pegar o ritmo. Longe da competição, viva 36 encontros de história com 12 personagens recorrentes, em que suas escolhas afetam confiança, dívidas, apoio da comunidade e seus relacionamentos, e decisões antigas voltam mais tarde. Equilibre treino, recuperação, patrocinadores e melhorias do clube ao longo de uma temporada de 12 rodadas, com três origens de carreira e legados de aposentadoria."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/wicketandvice",
+        "screenshots": [
+            "apps/shots/wicket-and-vice/01.jpg",
+            "apps/shots/wicket-and-vice/02.jpg",
+            "apps/shots/wicket-and-vice/03.jpg",
+            "apps/shots/wicket-and-vice/04.jpg",
+            "apps/shots/wicket-and-vice/05.jpg"
+        ]
+    },
+    {
+        "id": "velvet-break",
+        "slug": "velvet-break",
+        "icon": "apps/velvet-break.png",
+        "page": "apps/velvet-break.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Velvet Break",
+            "ko": "벨벳 브레이크",
+            "ja": "ベルベット・ブレイク",
+            "es": "Velvet Break",
+            "pt-BR": "Velvet Break"
+        },
+        "tagline": {
+            "en": "Rise through the tennis tour, master each surface and protect your story.",
+            "ko": "테니스 투어를 올라가고, 모든 코트 표면을 정복하고, 당신의 이야기를 지키세요.",
+            "ja": "テニスツアーを勝ち上がり、あらゆるサーフェスを極め、自分の物語を守れ。",
+            "es": "Asciende en el circuito de tenis, domina cada superficie y protege tu historia.",
+            "pt-BR": "Suba no circuito de tênis, domine cada piso e proteja sua história."
+        },
+        "desc": {
+            "en": "A qualifier with a borrowed racket enters an exclusive tour where access is traded like currency. Build your game without letting the circuit own your story. Play complete best-of-three matches with serves, directional strokes, slices, volleys and lobs, handle deuce, tiebreaks and fatigue, and choose a surface and a serving or control-focused game. Away from the match, work through 36 story encounters with 12 recurring characters, where choices shape trust, debt, community support and relationships, and earlier decisions come back later. Balance training, recovery, sponsors and club improvements across a 12-fixture season, with three career backgrounds and retirement legacies.",
+            "ko": "빌린 라켓을 든 예선 통과자가 접근권이 화폐처럼 거래되는 폐쇄적인 투어에 들어섭니다. 투어가 당신의 이야기를 좌우하지 못하게 하면서 실력을 키우세요. 서브, 방향을 노린 스트로크, 슬라이스, 발리, 로브로 3세트 2선승제 경기를 끝까지 치르고, 듀스, 타이브레이크, 피로를 관리하며, 코트 표면과 서브형 또는 컨트롤형 플레이를 고르세요. 경기 밖에서는 12명의 고정 인물과 함께하는 36개의 이야기 사건을 겪게 됩니다. 선택은 신뢰, 빚, 지역 사회의 지지, 인간관계에 영향을 주고, 이전의 결정은 나중에 다시 돌아옵니다. 12경기 시즌 동안 훈련, 회복, 스폰서, 클럽 개선의 균형을 맞추세요. 세 가지 커리어 배경과 은퇴 후 남는 유산도 있습니다.",
+            "ja": "借りたラケットを手にした予選通過者が、出場権が通貨のように取引される閉ざされたツアーに足を踏み入れる。ツアーに自分の物語を握られることなく、プレーを磨こう。サーブ、コースを狙うストローク、スライス、ボレー、ロブで3セットマッチを最後まで戦い、デュース、タイブレーク、疲労に対処し、サーフェスとサーブ重視かコントロール重視のプレーを選ぼう。 試合の外では、12人のおなじみの登場人物と36の物語イベントを進める。選択は信頼、借り、地域の支持、人間関係を左右し、過去の決断は後の会話で返ってくる。12戦のシーズンを通じて、トレーニング、回復、スポンサー、クラブの強化のバランスを取ろう。3つのキャリアの出自と、引退後に残るレガシーも用意されている。",
+            "es": "Un jugador de la qualy con una raqueta prestada entra a un circuito exclusivo donde el acceso se negocia como moneda. Construye tu juego sin dejar que el circuito se adueñe de tu historia. Juega partidos completos al mejor de tres sets con saques, golpes dirigidos, cortados, voleas y globos, maneja el deuce, los tiebreaks y el cansancio, y elige una superficie y un juego centrado en el saque o en el control. Lejos de la competencia, vive 36 encuentros de historia con 12 personajes recurrentes, donde tus decisiones afectan la confianza, las deudas, el apoyo de la comunidad y tus relaciones, y lo que elegiste antes vuelve más adelante. Equilibra entrenamiento, recuperación, patrocinadores y mejoras del club a lo largo de una temporada de 12 fechas, con tres orígenes de carrera y legados de retiro.",
+            "pt-BR": "Um tenista vindo do qualificatório, com uma raquete emprestada, entra num circuito exclusivo onde o acesso é negociado como moeda. Construa seu jogo sem deixar que o circuito tome conta da sua história. Jogue partidas completas em melhor de três sets com saques, golpes direcionados, slices, voleios e lobs, lide com iguais, tie-breaks e cansaço, e escolha um piso e um jogo focado no saque ou no controle. Longe da competição, viva 36 encontros de história com 12 personagens recorrentes, em que suas escolhas afetam confiança, dívidas, apoio da comunidade e seus relacionamentos, e decisões antigas voltam mais tarde. Equilibre treino, recuperação, patrocinadores e melhorias do clube ao longo de uma temporada de 12 rodadas, com três origens de carreira e legados de aposentadoria."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/velvetbreak",
+        "screenshots": [
+            "apps/shots/velvet-break/01.jpg",
+            "apps/shots/velvet-break/02.jpg",
+            "apps/shots/velvet-break/03.jpg",
+            "apps/shots/velvet-break/04.jpg",
+            "apps/shots/velvet-break/05.jpg"
+        ]
+    },
+    {
+        "id": "the-last-bell",
+        "slug": "the-last-bell",
+        "icon": "apps/the-last-bell.png",
+        "page": "apps/the-last-bell.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "The Last Bell",
+            "ko": "더 라스트 벨",
+            "ja": "ザ・ラスト・ベル",
+            "es": "The Last Bell",
+            "pt-BR": "The Last Bell"
+        },
+        "tagline": {
+            "en": "Train, box and build a legacy in a career where every contract has a cost.",
+            "ko": "모든 계약에 대가가 따르는 커리어에서 훈련하고, 싸우고, 유산을 쌓으세요.",
+            "ja": "すべての契約に代償がつきまとうキャリアで、鍛え、戦い、レガシーを築け。",
+            "es": "Entrena, boxea y construye un legado en una carrera donde cada contrato tiene un precio.",
+            "pt-BR": "Treine, boxeie e construa um legado numa carreira em que todo contrato tem um preço."
+        },
+        "desc": {
+            "en": "An aging club fighter gets one final title route through a promoter who owns every opponent's contract. Rebuild the gym and decide what your name will mean. Choose a bout contract from four to twelve rounds, then use jabs, crosses, hooks, body shots, defensive movement and clinches while judging distance, timing and stamina. Make corner adjustments and fight through knockdowns, stoppages or scorecards. Away from the match, work through 36 story encounters with 12 recurring characters, where choices shape trust, debt, community support and relationships, and earlier decisions come back later. Balance training, recovery, sponsors and club improvements across a 12-fixture season, with three career backgrounds and retirement legacies.",
+            "ko": "나이 든 클럽 복서에게 모든 상대의 계약을 쥔 프로모터를 통해 마지막 타이틀 기회가 찾아옵니다. 체육관을 다시 세우고 당신의 이름이 어떤 의미로 남을지 정하세요. 4라운드부터 12라운드까지 경기 계약을 고르고, 잽, 크로스, 훅, 바디샷, 방어 움직임, 클린치를 쓰며 거리, 타이밍, 체력을 판단하세요. 코너에서 작전을 조정하고, 다운, 스톱, 판정까지 싸워 나가세요. 경기 밖에서는 12명의 고정 인물과 함께하는 36개의 이야기 사건을 겪게 됩니다. 선택은 신뢰, 빚, 지역 사회의 지지, 인간관계에 영향을 주고, 이전의 결정은 나중에 다시 돌아옵니다. 12경기 시즌 동안 훈련, 회복, 스폰서, 클럽 개선의 균형을 맞추세요. 세 가지 커리어 배경과 은퇴 후 남는 유산도 있습니다.",
+            "ja": "年老いたクラブのボクサーに、すべての対戦相手の契約を握るプロモーターを通じて、最後のタイトルへの道が開かれる。ジムを立て直し、自分の名前が何を意味するのかを決めよう。4ラウンドから12ラウンドまでの試合契約を選び、ジャブ、クロス、フック、ボディ、ディフェンスの動き、クリンチを使い分けながら、距離、タイミング、スタミナを見極める。コーナーで修正を加え、ダウン、ストップ、判定まで戦い抜こう。 試合の外では、12人のおなじみの登場人物と36の物語イベントを進める。選択は信頼、借り、地域の支持、人間関係を左右し、過去の決断は後の会話で返ってくる。12戦のシーズンを通じて、トレーニング、回復、スポンサー、クラブの強化のバランスを取ろう。3つのキャリアの出自と、引退後に残るレガシーも用意されている。",
+            "es": "Un boxeador veterano de club recibe una última oportunidad por el título a través de un promotor dueño del contrato de cada rival. Reconstruye el gimnasio y decide qué significará tu nombre. Elige un contrato de pelea de 4 a 12 asaltos y usa jabs, rectos, ganchos, golpes al cuerpo, movimiento defensivo y clinches, midiendo distancia, tiempo y resistencia. Haz ajustes en la esquina y pelea entre caídas, detenciones o tarjetas de los jueces. Lejos de la competencia, vive 36 encuentros de historia con 12 personajes recurrentes, donde tus decisiones afectan la confianza, las deudas, el apoyo de la comunidad y tus relaciones, y lo que elegiste antes vuelve más adelante. Equilibra entrenamiento, recuperación, patrocinadores y mejoras del club a lo largo de una temporada de 12 fechas, con tres orígenes de carrera y legados de retiro.",
+            "pt-BR": "Um lutador veterano de clube ganha uma última chance de título por meio de um promotor que é dono do contrato de cada adversário. Reconstrua a academia e decida o que seu nome vai significar. Escolha um contrato de luta de 4 a 12 rounds e use jabs, diretos, ganchos, golpes no corpo, movimentação defensiva e clinches, avaliando distância, tempo e fôlego. Faça ajustes no corner e lute em meio a knockdowns, interrupções ou decisões nos cartões. Longe da competição, viva 36 encontros de história com 12 personagens recorrentes, em que suas escolhas afetam confiança, dívidas, apoio da comunidade e seus relacionamentos, e decisões antigas voltam mais tarde. Equilibre treino, recuperação, patrocinadores e melhorias do clube ao longo de uma temporada de 12 rodadas, com três origens de carreira e legados de aposentadoria."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/thelastbell",
+        "screenshots": [
+            "apps/shots/the-last-bell/01.jpg",
+            "apps/shots/the-last-bell/02.jpg",
+            "apps/shots/the-last-bell/03.jpg",
+            "apps/shots/the-last-bell/04.jpg",
+            "apps/shots/the-last-bell/05.jpg"
+        ]
+    },
+    {
+        "id": "sunspike-syndicate",
+        "slug": "sunspike-syndicate",
+        "icon": "apps/sunspike-syndicate.png",
+        "page": "apps/sunspike-syndicate.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Sunspike Syndicate",
+            "ko": "선스파이크 신디케이트",
+            "ja": "サンスパイク・シンジケート",
+            "es": "Sunspike Syndicate",
+            "pt-BR": "Sunspike Syndicate"
+        },
+        "tagline": {
+            "en": "Build a beach volleyball partnership and chase glory along a vivid coast.",
+            "ko": "비치발리볼 파트너십을 만들고 눈부신 해안을 따라 영광을 좇으세요.",
+            "ja": "ビーチバレーのコンビを組み、鮮やかな海岸で栄光を追いかけろ。",
+            "es": "Forma una pareja de vóley playa y persigue la gloria por una costa vibrante.",
+            "pt-BR": "Monte uma dupla de vôlei de praia e busque a glória por um litoral vibrante."
+        },
+        "desc": {
+            "en": "Two partners tour a dazzling coast in a borrowed van, while a resort cartel wants their beach, their image and the final result. Protect the partnership first. Play complete beach doubles matches, serving, receiving, setting, spiking and blocking through full sets, including deciding sets and win-by-two finishes, and adapt your partnership, preparation and beach wind choices before each fixture. Away from the match, work through 36 story encounters with 12 recurring characters, where choices shape trust, debt, community support and relationships, and earlier decisions come back later. Balance training, recovery, sponsors and club improvements across a 12-fixture season, with three career backgrounds and retirement legacies.",
+            "ko": "두 파트너가 빌린 밴을 타고 눈부신 해안을 순회하는데, 리조트 카르텔이 그들의 해변과 이미지, 그리고 결승 결과까지 노립니다. 무엇보다 파트너십을 지키세요. 서브, 리시브, 토스, 스파이크, 블로킹으로 세트를 끝까지 치르는 비치발리볼 2인조 경기를 플레이하세요. 결정 세트와 2점 차 승부도 있으며, 다음 경기 전에 파트너십, 준비, 해변 바람에 맞춘 선택을 조정하세요. 경기 밖에서는 12명의 고정 인물과 함께하는 36개의 이야기 사건을 겪게 됩니다. 선택은 신뢰, 빚, 지역 사회의 지지, 인간관계에 영향을 주고, 이전의 결정은 나중에 다시 돌아옵니다. 12경기 시즌 동안 훈련, 회복, 스폰서, 클럽 개선의 균형을 맞추세요. 세 가지 커리어 배경과 은퇴 후 남는 유산도 있습니다.",
+            "ja": "2人のパートナーが借りたバンで輝く海岸を巡る。だがリゾートのカルテルが、彼らのビーチ、イメージ、そして決勝の結果まで狙っている。まずはコンビを守れ。サーブ、レシーブ、トス、スパイク、ブロックでセットを戦い抜くビーチバレーのダブルスを最後までプレイしよう。最終セットや2点差での決着もある。次の試合の前に、コンビ、準備、浜風への対応を調整しよう。 試合の外では、12人のおなじみの登場人物と36の物語イベントを進める。選択は信頼、借り、地域の支持、人間関係を左右し、過去の決断は後の会話で返ってくる。12戦のシーズンを通じて、トレーニング、回復、スポンサー、クラブの強化のバランスを取ろう。3つのキャリアの出自と、引退後に残るレガシーも用意されている。",
+            "es": "Dos compañeros recorren una costa deslumbrante en una camioneta prestada, mientras un cártel de resorts quiere su playa, su imagen y el resultado de la final. Protege primero a la pareja. Juega partidos completos de vóley playa en dobles, sacando, recibiendo, armando, rematando y bloqueando a lo largo de sets completos, con sets decisivos y cierres por diferencia de 2, y ajusta la pareja, la preparación y las decisiones según el viento antes de cada partido. Lejos de la competencia, vive 36 encuentros de historia con 12 personajes recurrentes, donde tus decisiones afectan la confianza, las deudas, el apoyo de la comunidad y tus relaciones, y lo que elegiste antes vuelve más adelante. Equilibra entrenamiento, recuperación, patrocinadores y mejoras del club a lo largo de una temporada de 12 fechas, con tres orígenes de carrera y legados de retiro.",
+            "pt-BR": "Dois parceiros percorrem um litoral deslumbrante numa van emprestada, enquanto um cartel de resorts quer a praia deles, a imagem deles e o resultado da final. Proteja a dupla em primeiro lugar. Jogue partidas completas de vôlei de praia em duplas, sacando, recebendo, levantando, atacando e bloqueando em sets completos, com sets decisivos e finais por 2 pontos de diferença, e ajuste a dupla, a preparação e as escolhas conforme o vento antes de cada jogo. Longe da competição, viva 36 encontros de história com 12 personagens recorrentes, em que suas escolhas afetam confiança, dívidas, apoio da comunidade e seus relacionamentos, e decisões antigas voltam mais tarde. Equilibre treino, recuperação, patrocinadores e melhorias do clube ao longo de uma temporada de 12 rodadas, com três origens de carreira e legados de aposentadoria."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/sunspikesyndicate",
+        "screenshots": [
+            "apps/shots/sunspike-syndicate/01.jpg",
+            "apps/shots/sunspike-syndicate/02.jpg",
+            "apps/shots/sunspike-syndicate/03.jpg",
+            "apps/shots/sunspike-syndicate/04.jpg",
+            "apps/shots/sunspike-syndicate/05.jpg"
+        ]
+    },
+    {
+        "id": "ruck-and-ruin",
+        "slug": "ruck-and-ruin",
+        "icon": "apps/ruck-and-ruin.png",
+        "page": "apps/ruck-and-ruin.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Ruck & Ruin",
+            "ko": "럭 앤 루인",
+            "ja": "ラック＆ルイン",
+            "es": "Ruck & Ruin",
+            "pt-BR": "Ruck & Ruin"
+        },
+        "tagline": {
+            "en": "Lead a rugby club through fierce matches, boardroom pressure and survival.",
+            "ko": "치열한 경기와 이사회의 압박 속에서 럭비 클럽을 이끌고 살아남으세요.",
+            "ja": "激しい試合と役員会の圧力の中、ラグビークラブを率いて生き残れ。",
+            "es": "Lidera un club de rugby entre partidos feroces, presión directiva y supervivencia.",
+            "pt-BR": "Lidere um clube de rúgbi em partidas ferozes, pressão da diretoria e luta pela sobrevivência."
+        },
+        "desc": {
+            "en": "A mining town's last rugby club is one relegation from collapse. As captain, keep the pack together while a hostile board trades player welfare for survival. Work through two complete halves of passing, carries, rucks, scrums, lineouts, territory kicks and conversions, prepare a heavy pack or a wider attack, manage substitutions and make the next phase count. Away from the match, work through 36 story encounters with 12 recurring characters, where choices shape trust, debt, community support and relationships, and earlier decisions come back later. Balance training, recovery, sponsors and club improvements across a 12-fixture season, with three career backgrounds and retirement legacies.",
+            "ko": "탄광 마을의 마지막 럭비 클럽이 강등 한 번이면 무너질 위기에 놓였습니다. 적대적인 이사회가 선수들의 안녕을 생존과 맞바꾸는 동안, 주장으로서 팀을 하나로 지키세요. 패스, 캐리, 럭, 스크럼, 라인아웃, 지역 확보 킥, 컨버전으로 전후반을 끝까지 치르고, 무거운 포워드진이나 넓은 공격을 준비하고, 교체를 관리하며 다음 페이즈를 살리세요. 경기 밖에서는 12명의 고정 인물과 함께하는 36개의 이야기 사건을 겪게 됩니다. 선택은 신뢰, 빚, 지역 사회의 지지, 인간관계에 영향을 주고, 이전의 결정은 나중에 다시 돌아옵니다. 12경기 시즌 동안 훈련, 회복, 스폰서, 클럽 개선의 균형을 맞추세요. 세 가지 커리어 배경과 은퇴 후 남는 유산도 있습니다.",
+            "ja": "炭鉱町に残る最後のラグビークラブは、あと一度の降格で崩壊する。敵対的な役員会が選手の健康を生き残りと引き換えにする中、キャプテンとしてチームをまとめよう。パス、キャリー、ラック、スクラム、ラインアウト、陣地を取るキック、コンバージョンで前後半を戦い抜き、重いフォワードか展開攻撃を準備し、交代を管理して次のフェーズを生かそう。 試合の外では、12人のおなじみの登場人物と36の物語イベントを進める。選択は信頼、借り、地域の支持、人間関係を左右し、過去の決断は後の会話で返ってくる。12戦のシーズンを通じて、トレーニング、回復、スポンサー、クラブの強化のバランスを取ろう。3つのキャリアの出自と、引退後に残るレガシーも用意されている。",
+            "es": "El último club de rugby de un pueblo minero está a un descenso del colapso. Como capitán, mantén unido al grupo mientras una directiva hostil cambia el bienestar de los jugadores por la supervivencia. Juega dos tiempos completos con pases, cargas, rucks, scrums, lineouts, patadas territoriales y conversiones, prepara un pack pesado o un ataque más abierto, gestiona los cambios y haz que cada fase cuente. Lejos de la competencia, vive 36 encuentros de historia con 12 personajes recurrentes, donde tus decisiones afectan la confianza, las deudas, el apoyo de la comunidad y tus relaciones, y lo que elegiste antes vuelve más adelante. Equilibra entrenamiento, recuperación, patrocinadores y mejoras del club a lo largo de una temporada de 12 fechas, con tres orígenes de carrera y legados de retiro.",
+            "pt-BR": "O último clube de rúgbi de uma cidade mineira está a um rebaixamento do colapso. Como capitão, mantenha o grupo unido enquanto uma diretoria hostil troca o bem-estar dos jogadores pela sobrevivência. Jogue dois tempos completos com passes, avanços, rucks, scrums, lineouts, chutes de território e conversões, prepare um pack pesado ou um ataque mais aberto, administre as substituições e faça cada fase valer. Longe da competição, viva 36 encontros de história com 12 personagens recorrentes, em que suas escolhas afetam confiança, dívidas, apoio da comunidade e seus relacionamentos, e decisões antigas voltam mais tarde. Equilibre treino, recuperação, patrocinadores e melhorias do clube ao longo de uma temporada de 12 rodadas, com três origens de carreira e legados de aposentadoria."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/ruckandruin",
+        "screenshots": [
+            "apps/shots/ruck-and-ruin/01.jpg",
+            "apps/shots/ruck-and-ruin/02.jpg",
+            "apps/shots/ruck-and-ruin/03.jpg",
+            "apps/shots/ruck-and-ruin/04.jpg",
+            "apps/shots/ruck-and-ruin/05.jpg"
+        ]
+    },
+    {
+        "id": "ninth-inning-saints",
+        "slug": "ninth-inning-saints",
+        "icon": "apps/ninth-inning-saints.png",
+        "page": "apps/ninth-inning-saints.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Ninth Inning Saints",
+            "ko": "나인스 이닝 세인츠",
+            "ja": "ナインス・イニング・セインツ",
+            "es": "Ninth Inning Saints",
+            "pt-BR": "Ninth Inning Saints"
+        },
+        "tagline": {
+            "en": "Play all nine innings. Build your ballclub. Decide what winning costs.",
+            "ko": "9이닝을 모두 뛰고, 구단을 키우고, 승리의 대가를 정하세요.",
+            "ja": "9イニングを戦い抜き、球団を育て、勝利の代償を決めろ。",
+            "es": "Juega las nueve entradas. Construye tu club. Decide cuánto cuesta ganar.",
+            "pt-BR": "Jogue as nove entradas. Monte seu time. Decida quanto custa vencer."
+        },
+        "desc": {
+            "en": "A washed-out prospect inherits a failing harbor ballclub. Win back the city while its owner quietly sells the ground beneath your stadium. Play complete nine-inning games with pitch selection, aimed swings, fielding throws, steals, bullpen changes, extra innings and walk-offs, and prepare a power lineup, develop the farm or invest in your pitching staff. Away from the match, work through 36 story encounters with 12 recurring characters, where choices shape trust, debt, community support and relationships, and earlier decisions come back later. Balance training, recovery, sponsors and club improvements across a 12-fixture season, with three career backgrounds and retirement legacies.",
+            "ko": "한물간 유망주가 무너져 가는 항구 도시 야구단을 물려받습니다. 구단주가 경기장 아래 땅을 조용히 팔아넘기는 동안 도시의 마음을 되찾으세요. 구종 선택, 노려 치는 스윙, 수비 송구, 도루, 불펜 교체, 연장전, 끝내기까지 있는 9이닝 경기를 끝까지 치르고, 강타선을 꾸리거나 팜을 육성하거나 투수진에 투자하세요. 경기 밖에서는 12명의 고정 인물과 함께하는 36개의 이야기 사건을 겪게 됩니다. 선택은 신뢰, 빚, 지역 사회의 지지, 인간관계에 영향을 주고, 이전의 결정은 나중에 다시 돌아옵니다. 12경기 시즌 동안 훈련, 회복, 스폰서, 클럽 개선의 균형을 맞추세요. 세 가지 커리어 배경과 은퇴 후 남는 유산도 있습니다.",
+            "ja": "落ちぶれた有望株が、傾きかけた港町の球団を受け継ぐ。オーナーがスタジアムの下の土地をひそかに売り払う中、街の心を取り戻そう。球種の選択、狙ったスイング、送球、盗塁、ブルペンの交代、延長戦、サヨナラまである9イニングの試合をフルでプレイし、強力打線を組むか、ファームを育てるか、投手陣に投資しよう。 試合の外では、12人のおなじみの登場人物と36の物語イベントを進める。選択は信頼、借り、地域の支持、人間関係を左右し、過去の決断は後の会話で返ってくる。12戦のシーズンを通じて、トレーニング、回復、スポンサー、クラブの強化のバランスを取ろう。3つのキャリアの出自と、引退後に残るレガシーも用意されている。",
+            "es": "Una promesa venida a menos hereda un club de béisbol portuario en decadencia. Recupera a la ciudad mientras el dueño vende en silencio el terreno bajo tu estadio. Juega partidos completos de 9 entradas con selección de lanzamientos, swings dirigidos, tiros de fildeo, robos de base, cambios de bullpen, entradas extra y finales de walk-off, y prepara una alineación de poder, desarrolla las ligas menores o invierte en tu cuerpo de lanzadores. Lejos de la competencia, vive 36 encuentros de historia con 12 personajes recurrentes, donde tus decisiones afectan la confianza, las deudas, el apoyo de la comunidad y tus relaciones, y lo que elegiste antes vuelve más adelante. Equilibra entrenamiento, recuperación, patrocinadores y mejoras del club a lo largo de una temporada de 12 fechas, con tres orígenes de carrera y legados de retiro.",
+            "pt-BR": "Um ex-promessa decadente herda um clube de beisebol portuário em crise. Reconquiste a cidade enquanto o dono vende em silêncio o terreno sob o seu estádio. Jogue partidas completas de 9 entradas com escolha de arremessos, tacadas direcionadas, arremessos de defesa, roubos de base, trocas no bullpen, entradas extras e walk-offs, e monte um lineup de força, desenvolva as categorias de base ou invista no seu corpo de arremessadores. Longe da competição, viva 36 encontros de história com 12 personagens recorrentes, em que suas escolhas afetam confiança, dívidas, apoio da comunidade e seus relacionamentos, e decisões antigas voltam mais tarde. Equilibre treino, recuperação, patrocinadores e melhorias do clube ao longo de uma temporada de 12 rodadas, com três origens de carreira e legados de aposentadoria."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/ninthinningsaints",
+        "screenshots": [
+            "apps/shots/ninth-inning-saints/01.jpg",
+            "apps/shots/ninth-inning-saints/02.jpg",
+            "apps/shots/ninth-inning-saints/03.jpg",
+            "apps/shots/ninth-inning-saints/04.jpg",
+            "apps/shots/ninth-inning-saints/05.jpg"
+        ]
+    },
+    {
+        "id": "fourth-down-empire",
+        "slug": "fourth-down-empire",
+        "icon": "apps/fourth-down-empire.png",
+        "page": "apps/fourth-down-empire.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Fourth Down Empire",
+            "ko": "포스 다운 엠파이어",
+            "ja": "フォース・ダウン・エンパイア",
+            "es": "Fourth Down Empire",
+            "pt-BR": "Fourth Down Empire"
+        },
+        "tagline": {
+            "en": "Call the plays, complete four-quarter games and challenge the front office.",
+            "ko": "작전을 지시하고, 4쿼터 경기를 끝까지 치르고, 프런트 오피스에 맞서세요.",
+            "ja": "プレーをコールし、4クォーターを戦い抜き、フロントに立ち向かえ。",
+            "es": "Elige las jugadas, completa partidos de cuatro cuartos y desafía a la directiva.",
+            "pt-BR": "Chame as jogadas, complete partidas de quatro quartos e desafie a diretoria."
+        },
+        "desc": {
+            "en": "A backup quarterback inherits the starting job and a leaked playbook. Win the city while deciding which executives deserve your loyalty. Call plays through four complete quarters, running, passing, defending, punting or attempting field goals while managing downs, territory and the play clock. Prepare your passing or running game and study film before the next opponent. Away from the match, work through 36 story encounters with 12 recurring characters, where choices shape trust, debt, community support and relationships, and earlier decisions come back later. Balance training, recovery, sponsors and club improvements across a 12-fixture season, with three career backgrounds and retirement legacies.",
+            "ko": "백업 쿼터백이 주전 자리와 함께 유출된 플레이북을 손에 넣습니다. 어떤 임원이 당신의 충성을 받을 자격이 있는지 판단하며 도시의 마음을 얻으세요. 네 쿼터 내내 작전을 지시하며 러닝, 패스, 수비, 펀트, 필드골을 선택하고, 다운, 필드 위치, 플레이 클록을 관리하세요. 다음 상대를 앞두고 패스 또는 러닝 공격을 준비하고 경기 영상을 분석하세요. 경기 밖에서는 12명의 고정 인물과 함께하는 36개의 이야기 사건을 겪게 됩니다. 선택은 신뢰, 빚, 지역 사회의 지지, 인간관계에 영향을 주고, 이전의 결정은 나중에 다시 돌아옵니다. 12경기 시즌 동안 훈련, 회복, 스폰서, 클럽 개선의 균형을 맞추세요. 세 가지 커리어 배경과 은퇴 후 남는 유산도 있습니다.",
+            "ja": "控えのクォーターバックが、先発の座と流出したプレーブックを手にする。どの幹部が忠誠に値するかを見極めながら、街を味方につけよう。4クォーターを通してプレーをコールし、ラン、パス、ディフェンス、パント、フィールドゴールを選び、ダウン、陣地、プレークロックを管理する。次の相手に備えてパスかランの攻撃を準備し、映像を研究しよう。 試合の外では、12人のおなじみの登場人物と36の物語イベントを進める。選択は信頼、借り、地域の支持、人間関係を左右し、過去の決断は後の会話で返ってくる。12戦のシーズンを通じて、トレーニング、回復、スポンサー、クラブの強化のバランスを取ろう。3つのキャリアの出自と、引退後に残るレガシーも用意されている。",
+            "es": "Un mariscal de campo suplente hereda la titularidad y un libro de jugadas filtrado. Conquista la ciudad mientras decides qué directivos merecen tu lealtad. Elige jugadas durante cuatro cuartos completos: corre, pasa, defiende, despeja o intenta goles de campo mientras manejas los downs, el territorio y el reloj de jugada. Prepara tu juego aéreo o terrestre y estudia video antes del siguiente rival. Lejos de la competencia, vive 36 encuentros de historia con 12 personajes recurrentes, donde tus decisiones afectan la confianza, las deudas, el apoyo de la comunidad y tus relaciones, y lo que elegiste antes vuelve más adelante. Equilibra entrenamiento, recuperación, patrocinadores y mejoras del club a lo largo de una temporada de 12 fechas, con tres orígenes de carrera y legados de retiro.",
+            "pt-BR": "Um quarterback reserva herda a titularidade e um playbook vazado. Conquiste a cidade enquanto decide quais executivos merecem sua lealdade. Chame jogadas por quatro quartos completos: corra, passe, defenda, faça punts ou tente field goals enquanto administra as descidas, o território e o relógio de jogada. Prepare seu jogo aéreo ou terrestre e estude vídeos antes do próximo adversário. Longe da competição, viva 36 encontros de história com 12 personagens recorrentes, em que suas escolhas afetam confiança, dívidas, apoio da comunidade e seus relacionamentos, e decisões antigas voltam mais tarde. Equilibre treino, recuperação, patrocinadores e melhorias do clube ao longo de uma temporada de 12 rodadas, com três origens de carreira e legados de aposentadoria."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/fourthdownempire",
+        "screenshots": [
+            "apps/shots/fourth-down-empire/01.jpg",
+            "apps/shots/fourth-down-empire/02.jpg",
+            "apps/shots/fourth-down-empire/03.jpg",
+            "apps/shots/fourth-down-empire/04.jpg",
+            "apps/shots/fourth-down-empire/05.jpg"
+        ]
+    },
+    {
+        "id": "cold-blood-hockey",
+        "slug": "cold-blood-hockey",
+        "icon": "apps/cold-blood-hockey.png",
+        "page": "apps/cold-blood-hockey.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Cold Blood Hockey",
+            "ko": "콜드 블러드 하키",
+            "ja": "コールド・ブラッド・ホッケー",
+            "es": "Cold Blood Hockey",
+            "pt-BR": "Cold Blood Hockey"
+        },
+        "tagline": {
+            "en": "Play full hockey games, lead your line and fight for your town's rink.",
+            "ko": "하키 경기를 끝까지 뛰고, 라인을 이끌고, 마을의 링크를 지키기 위해 싸우세요.",
+            "ja": "ホッケーの試合をフルで戦い、ラインを率い、町のリンクのために闘え。",
+            "es": "Juega partidos completos de hockey, lidera tu línea y lucha por la pista de tu pueblo.",
+            "pt-BR": "Jogue partidas completas de hóquei, lidere sua linha e lute pela pista da sua cidade."
+        },
+        "desc": {
+            "en": "Your frozen mill town has one rink and one shot at the cup. Become its captain while an ownership syndicate engineers a move to a richer city. Play three full periods with passing, shots, checking, substitutions, icing and offside, where penalties change manpower and tied games can reach overtime. Prepare a scoring line or a checking unit while protecting the town's rink. Away from the match, work through 36 story encounters with 12 recurring characters, where choices shape trust, debt, community support and relationships, and earlier decisions come back later. Balance training, recovery, sponsors and club improvements across a 12-fixture season, with three career backgrounds and retirement legacies.",
+            "ko": "얼어붙은 공장 마을에는 링크 하나와 우승컵을 향한 단 한 번의 기회가 있습니다. 구단주 연합이 더 부유한 도시로의 이전을 꾸미는 동안 마을 팀의 주장이 되세요. 패스, 슛, 체킹, 교체, 아이싱, 오프사이드가 있는 세 피리어드를 모두 치르세요. 페널티는 인원수를 바꾸고, 동점이면 연장전까지 갑니다. 마을의 링크를 지키며 득점 라인이나 체킹 유닛을 준비하세요. 경기 밖에서는 12명의 고정 인물과 함께하는 36개의 이야기 사건을 겪게 됩니다. 선택은 신뢰, 빚, 지역 사회의 지지, 인간관계에 영향을 주고, 이전의 결정은 나중에 다시 돌아옵니다. 12경기 시즌 동안 훈련, 회복, 스폰서, 클럽 개선의 균형을 맞추세요. 세 가지 커리어 배경과 은퇴 후 남는 유산도 있습니다.",
+            "ja": "凍てつく工場町にはリンクがひとつと、カップへのチャンスが一度だけ。オーナー連合がより裕福な都市への移転を画策する中、チームのキャプテンになろう。パス、シュート、チェック、交代、アイシング、オフサイドのある3ピリオドをフルでプレイ。ペナルティで人数が変わり、同点なら延長戦へ。町のリンクを守りながら、得点ラインかチェッキングユニットを準備しよう。 試合の外では、12人のおなじみの登場人物と36の物語イベントを進める。選択は信頼、借り、地域の支持、人間関係を左右し、過去の決断は後の会話で返ってくる。12戦のシーズンを通じて、トレーニング、回復、スポンサー、クラブの強化のバランスを取ろう。3つのキャリアの出自と、引退後に残るレガシーも用意されている。",
+            "es": "Tu helado pueblo de fábricas tiene una sola pista y una sola oportunidad de ganar la copa. Conviértete en su capitán mientras un consorcio de dueños trama mudar al equipo a una ciudad más rica. Juega tres periodos completos con pases, tiros, choques, cambios, icing y fuera de juego, donde las penalizaciones cambian el número de jugadores y los empates pueden ir a tiempo extra. Prepara una línea goleadora o una unidad de contención mientras proteges la pista del pueblo. Lejos de la competencia, vive 36 encuentros de historia con 12 personajes recurrentes, donde tus decisiones afectan la confianza, las deudas, el apoyo de la comunidad y tus relaciones, y lo que elegiste antes vuelve más adelante. Equilibra entrenamiento, recuperación, patrocinadores y mejoras del club a lo largo de una temporada de 12 fechas, con tres orígenes de carrera y legados de retiro.",
+            "pt-BR": "Sua cidade industrial congelada tem uma única pista e uma única chance na copa. Torne-se o capitão enquanto um consórcio de donos arma a mudança do time para uma cidade mais rica. Jogue três períodos completos com passes, chutes, trancos, substituições, icing e impedimento, em que as penalidades mudam o número de jogadores e empates podem ir para a prorrogação. Prepare uma linha de ataque ou uma unidade de marcação enquanto protege a pista da cidade. Longe da competição, viva 36 encontros de história com 12 personagens recorrentes, em que suas escolhas afetam confiança, dívidas, apoio da comunidade e seus relacionamentos, e decisões antigas voltam mais tarde. Equilibre treino, recuperação, patrocinadores e melhorias do clube ao longo de uma temporada de 12 rodadas, com três origens de carreira e legados de aposentadoria."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/coldbloodhockey",
+        "screenshots": [
+            "apps/shots/cold-blood-hockey/01.jpg",
+            "apps/shots/cold-blood-hockey/02.jpg",
+            "apps/shots/cold-blood-hockey/03.jpg",
+            "apps/shots/cold-blood-hockey/04.jpg",
+            "apps/shots/cold-blood-hockey/05.jpg"
+        ]
+    },
+    {
+        "id": "blacktop-republic",
+        "slug": "blacktop-republic",
+        "icon": "apps/blacktop-republic.png",
+        "page": "apps/blacktop-republic.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Blacktop Republic",
+            "ko": "블랙톱 리퍼블릭",
+            "ja": "ブラックトップ・リパブリック",
+            "es": "Blacktop Republic",
+            "pt-BR": "Blacktop Republic"
+        },
+        "tagline": {
+            "en": "Build your basketball crew, save the court and rise from street to league.",
+            "ko": "농구 크루를 꾸리고, 코트를 지키고, 길거리에서 리그로 올라서세요.",
+            "ja": "バスケのクルーを結成し、コートを救い、ストリートからリーグへ駆け上がれ。",
+            "es": "Arma tu equipo de básquetbol, salva la cancha y pasa de la calle a la liga.",
+            "pt-BR": "Monte seu time de basquete, salve a quadra e suba da rua para a liga."
+        },
+        "desc": {
+            "en": "Your block's public court is slated for demolition. Build a street crew, enter the city league and untangle the sponsor buying both sides of the final. Choose street 3v3 to 21 or full four-quarter 5v5 games. Time shots, pass, screen, drive, contest and steal, with shot clocks, free throws, foul-outs, rebounds and overtime shaping each game, and prepare a shooting or playmaking crew. Away from the match, work through 36 story encounters with 12 recurring characters, where choices shape trust, debt, community support and relationships, and earlier decisions come back later. Balance training, recovery, sponsors and club improvements across a 12-fixture season, with three career backgrounds and retirement legacies.",
+            "ko": "동네 공공 농구장이 철거될 예정입니다. 길거리 크루를 꾸려 시 리그에 나가고, 결승전 양쪽을 모두 매수하는 스폰서의 정체를 밝혀내세요. 21점 선취 3대3 길거리 농구나 4쿼터 5대5 경기를 고르세요. 슛 타이밍을 맞추고, 패스, 스크린, 돌파, 컨테스트, 스틸을 하세요. 샷 클록, 자유투, 파울 아웃, 리바운드, 연장전이 경기를 좌우하며, 슈팅형 또는 플레이메이킹형 크루를 준비하세요. 경기 밖에서는 12명의 고정 인물과 함께하는 36개의 이야기 사건을 겪게 됩니다. 선택은 신뢰, 빚, 지역 사회의 지지, 인간관계에 영향을 주고, 이전의 결정은 나중에 다시 돌아옵니다. 12경기 시즌 동안 훈련, 회복, 스폰서, 클럽 개선의 균형을 맞추세요. 세 가지 커리어 배경과 은퇴 후 남는 유산도 있습니다.",
+            "ja": "地元の公共コートが取り壊されようとしている。ストリートのクルーを結成して市のリーグに出場し、決勝の両チームを買収するスポンサーの裏を暴こう。21点先取のストリート3on3か、4クォーターの5on5を選ぶ。シュートのタイミングを合わせ、パス、スクリーン、ドライブ、コンテスト、スティールを決めよう。ショットクロック、フリースロー、ファウルアウト、リバウンド、延長戦が試合を左右する。シュート重視かゲームメイク重視のクルーを準備しよう。 試合の外では、12人のおなじみの登場人物と36の物語イベントを進める。選択は信頼、借り、地域の支持、人間関係を左右し、過去の決断は後の会話で返ってくる。12戦のシーズンを通じて、トレーニング、回復、スポンサー、クラブの強化のバランスを取ろう。3つのキャリアの出自と、引退後に残るレガシーも用意されている。",
+            "es": "La cancha pública de tu cuadra va a ser demolida. Arma un equipo callejero, entra a la liga de la ciudad y desenreda la trama del patrocinador que compra a los dos finalistas. Elige 3 contra 3 callejero a 21 puntos o 5 contra 5 completo de cuatro cuartos. Calcula tus tiros, pasa, pon cortinas, penetra, defiende el tiro y roba, con reloj de posesión, tiros libres, eliminaciones por faltas, rebotes y tiempo extra en cada partido. Prepara un equipo de tiradores o de creación de juego. Lejos de la competencia, vive 36 encuentros de historia con 12 personajes recurrentes, donde tus decisiones afectan la confianza, las deudas, el apoyo de la comunidad y tus relaciones, y lo que elegiste antes vuelve más adelante. Equilibra entrenamiento, recuperación, patrocinadores y mejoras del club a lo largo de una temporada de 12 fechas, con tres orígenes de carrera y legados de retiro.",
+            "pt-BR": "A quadra pública do seu bairro vai ser demolida. Monte um time de rua, entre na liga da cidade e desvende o patrocinador que está comprando os dois lados da final. Escolha 3 contra 3 de rua até 21 pontos ou 5 contra 5 completo em quatro quartos. Acerte o tempo dos arremessos, passe, faça corta-luz, infiltre, conteste e roube, com relógio de posse, lances livres, eliminações por faltas, rebotes e prorrogação moldando cada jogo. Prepare um time de arremessadores ou de armação. Longe da competição, viva 36 encontros de história com 12 personagens recorrentes, em que suas escolhas afetam confiança, dívidas, apoio da comunidade e seus relacionamentos, e decisões antigas voltam mais tarde. Equilibre treino, recuperação, patrocinadores e melhorias do clube ao longo de uma temporada de 12 rodadas, com três origens de carreira e legados de aposentadoria."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/blacktoprepublic",
+        "screenshots": [
+            "apps/shots/blacktop-republic/01.jpg",
+            "apps/shots/blacktop-republic/02.jpg",
+            "apps/shots/blacktop-republic/03.jpg",
+            "apps/shots/blacktop-republic/04.jpg",
+            "apps/shots/blacktop-republic/05.jpg"
+        ]
+    },
+    {
+        "id": "terrace-kings",
+        "slug": "terrace-kings",
+        "icon": "apps/terrace-kings.png",
+        "page": "apps/terrace-kings.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Terrace Kings",
+            "ko": "테라스 킹스",
+            "ja": "テラス・キングス",
+            "es": "Terrace Kings",
+            "pt-BR": "Terrace Kings"
+        },
+        "tagline": {
+            "en": "A pixel football career of promotion battles, loyalty and dangerous deals.",
+            "ko": "승격 경쟁, 의리, 위험한 거래가 얽힌 픽셀 축구 커리어.",
+            "ja": "昇格争い、忠誠、危険な取引が交錯するピクセルサッカーのキャリア。",
+            "es": "Una carrera de fútbol en píxeles con batallas por el ascenso, lealtad y tratos peligrosos.",
+            "pt-BR": "Uma carreira de futebol em pixel com brigas pelo acesso, lealdade e acordos perigosos."
+        },
+        "desc": {
+            "en": "Your neighborhood club is being hollowed out by a transfer broker. Rise from academy player to captain and decide who the badge belongs to. Play two full halves of 11-a-side football with passes, through balls, crosses, shooting, defensive choices and substitutions. Cup fixtures can go to extra time and penalties, and you choose your club's preparation and formation before kickoff. Away from the match, work through 36 story encounters with 12 recurring characters, where choices shape trust, debt, community support and relationships, and earlier decisions come back later. Balance training, recovery, sponsors and club improvements across a 12-fixture season, with three career backgrounds and retirement legacies.",
+            "ko": "동네 클럽이 이적 브로커에게 속을 파먹히고 있습니다. 유소년 선수에서 주장까지 올라서서, 이 엠블럼이 누구의 것인지 정하세요. 패스, 스루패스, 크로스, 슈팅, 수비 선택, 교체로 11대11 축구의 전후반을 모두 치르세요. 컵 대회는 연장전과 승부차기까지 갈 수 있으며, 킥오프 전에 클럽의 준비와 포메이션을 고르세요. 경기 밖에서는 12명의 고정 인물과 함께하는 36개의 이야기 사건을 겪게 됩니다. 선택은 신뢰, 빚, 지역 사회의 지지, 인간관계에 영향을 주고, 이전의 결정은 나중에 다시 돌아옵니다. 12경기 시즌 동안 훈련, 회복, 스폰서, 클럽 개선의 균형을 맞추세요. 세 가지 커리어 배경과 은퇴 후 남는 유산도 있습니다.",
+            "ja": "地元のクラブが移籍ブローカーに食い物にされている。ユース選手からキャプテンへとのし上がり、このエンブレムが誰のものかを決めよう。パス、スルーパス、クロス、シュート、守備の判断、交代を駆使して11人制サッカーの前後半をフルでプレイ。カップ戦は延長戦やPK戦にもつれ込むこともある。キックオフ前にクラブの準備とフォーメーションを選ぼう。 試合の外では、12人のおなじみの登場人物と36の物語イベントを進める。選択は信頼、借り、地域の支持、人間関係を左右し、過去の決断は後の会話で返ってくる。12戦のシーズンを通じて、トレーニング、回復、スポンサー、クラブの強化のバランスを取ろう。3つのキャリアの出自と、引退後に残るレガシーも用意されている。",
+            "es": "Un agente de transferencias está vaciando el club de tu barrio. Pasa de jugador de la cantera a capitán y decide a quién pertenece el escudo. Juega dos tiempos completos de fútbol 11 con pases, pases filtrados, centros, remates, decisiones defensivas y cambios. Los partidos de copa pueden ir a tiempo extra y penales, y antes del saque inicial eliges la preparación y la formación del club. Lejos de la competencia, vive 36 encuentros de historia con 12 personajes recurrentes, donde tus decisiones afectan la confianza, las deudas, el apoyo de la comunidad y tus relaciones, y lo que elegiste antes vuelve más adelante. Equilibra entrenamiento, recuperación, patrocinadores y mejoras del club a lo largo de una temporada de 12 fechas, con tres orígenes de carrera y legados de retiro.",
+            "pt-BR": "Um empresário de transferências está esvaziando o clube do seu bairro. Suba de jogador da base a capitão e decida a quem pertence o escudo. Jogue dois tempos completos de futebol de 11 com passes, enfiadas, cruzamentos, finalizações, escolhas defensivas e substituições. Jogos de copa podem ir para a prorrogação e os pênaltis, e antes do pontapé inicial você escolhe a preparação e a formação do clube. Longe da competição, viva 36 encontros de história com 12 personagens recorrentes, em que suas escolhas afetam confiança, dívidas, apoio da comunidade e seus relacionamentos, e decisões antigas voltam mais tarde. Equilibre treino, recuperação, patrocinadores e melhorias do clube ao longo de uma temporada de 12 rodadas, com três origens de carreira e legados de aposentadoria."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/terracekings",
+        "screenshots": [
+            "apps/shots/terrace-kings/01.jpg",
+            "apps/shots/terrace-kings/02.jpg",
+            "apps/shots/terrace-kings/03.jpg",
+            "apps/shots/terrace-kings/04.jpg",
+            "apps/shots/terrace-kings/05.jpg"
+        ]
+    },
+    {
+        "id": "cloud-sheep-color-club",
+        "slug": "cloud-sheep-color-club",
+        "icon": "apps/cloud-sheep-color-club.png",
+        "page": "apps/cloud-sheep-color-club.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Cloud Sheep Color Club",
+            "ko": "클라우드 쉽 컬러 클럽",
+            "ja": "クラウドシープ・カラークラブ",
+            "es": "Cloud Sheep Color Club",
+            "pt-BR": "Cloud Sheep Color Club"
+        },
+        "tagline": {
+            "en": "Make a little weather of your own.",
+            "ko": "나만의 작은 날씨를 만들어 보세요.",
+            "ja": "あなただけの小さなお天気をつくろう。",
+            "es": "Crea tu propio clima en miniatura.",
+            "pt-BR": "Faça um pouquinho de clima só seu."
+        },
+        "desc": {
+            "en": "Color pictures to give cloud sheep new fleece patterns, then watch them float into a sky meadow where finished collections create rainbows and tiny star showers. Choose a numbered color and fill the matching regions, zooming in as you go, while the palette counts the regions still waiting for each color. Finish a picture to send a new cloud sheep into your meadow. There are 120 original coloring pictures, and you can recolor completed ones freely in your album. Collect 24 cloud fleeces and unlock 12 little weather performances.",
+            "ko": "그림을 색칠해 구름 양에게 새로운 털 무늬를 입혀 주고, 양들이 하늘 목초지로 둥실 떠가는 모습을 지켜보세요. 컬렉션을 완성하면 무지개와 작은 별똥별 소나기가 생겨납니다. 번호가 붙은 색을 골라 같은 번호의 영역을 채우고, 확대하며 칠하세요. 팔레트는 색마다 남은 영역의 수를 알려 줍니다. 그림을 완성하면 새 구름 양이 목초지로 떠납니다. 오리지널 색칠 그림 120장이 있고, 완성한 그림은 앨범에서 자유롭게 다시 칠할 수 있습니다. 구름 털 24종을 모으고 작은 날씨 공연 12개를 열어 보세요.",
+            "ja": "絵を塗って雲のひつじに新しい毛の模様をあげよう。ひつじたちは空の牧場へふわりと飛んでいき、コレクションを完成させると虹や小さな星のシャワーが生まれる。番号の色を選んで同じ番号の部分を塗り、拡大しながら進めよう。パレットには色ごとに残りの部分の数が表示される。絵を仕上げると、新しい雲のひつじが牧場へやって来る。オリジナルのぬりえは120枚。完成した絵はアルバムで自由に塗り直せる。雲の毛並み24種を集め、小さなお天気のショー12個を解放しよう。",
+            "es": "Colorea dibujos para darles a las ovejas nube nuevos diseños de lana y míralas flotar hacia un prado en el cielo, donde las colecciones completas crean arcoíris y pequeñas lluvias de estrellas. Elige un color numerado y rellena las zonas que coinciden, acercando la vista cuando lo necesites, mientras la paleta cuenta las zonas que faltan de cada color. Termina un dibujo para enviar una nueva oveja nube a tu prado. Hay 120 dibujos originales para colorear y puedes volver a pintar libremente los terminados en tu álbum. Reúne 24 lanas de nube y desbloquea 12 pequeños espectáculos del clima.",
+            "pt-BR": "Pinte desenhos para dar novas estampas de lã às ovelhas-nuvem e veja-as flutuar até um campo no céu, onde coleções completas criam arco-íris e pequenas chuvas de estrelas. Escolha uma cor numerada e preencha as áreas correspondentes, dando zoom quando precisar, enquanto a paleta conta as áreas que ainda faltam de cada cor. Termine um desenho para mandar uma nova ovelha-nuvem ao seu campo. São 120 desenhos originais para colorir, e você pode repintar livremente os concluídos no seu álbum. Colete 24 lãs de nuvem e desbloqueie 12 pequenos espetáculos do tempo."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/cloudsheepcolorclub",
+        "screenshots": [
+            "apps/shots/cloud-sheep-color-club/01.jpg",
+            "apps/shots/cloud-sheep-color-club/02.jpg",
+            "apps/shots/cloud-sheep-color-club/03.jpg",
+            "apps/shots/cloud-sheep-color-club/04.jpg",
+            "apps/shots/cloud-sheep-color-club/05.jpg"
+        ]
+    },
+    {
+        "id": "earth-is-weird",
+        "slug": "earth-is-weird",
+        "icon": "apps/earth-is-weird.png",
+        "page": "apps/earth-is-weird.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Earth Is Weird",
+            "ko": "어스 이즈 위어드",
+            "ja": "アース・イズ・ウィアード",
+            "es": "Earth Is Weird",
+            "pt-BR": "Earth Is Weird"
+        },
+        "tagline": {
+            "en": "Explain this planet, please.",
+            "ko": "이 행성 좀 설명해 주세요.",
+            "ja": "この惑星のこと、教えてください。",
+            "es": "Explícanos este planeta, por favor.",
+            "pt-BR": "Explique este planeta, por favor."
+        },
+        "desc": {
+            "en": "Teach a classroom of tiny aliens about Earth. Choose animals, geography or football, answer a short expedition of questions and read the explanation after each one while your pupils make ridiculous guesses. Wrong answers come back in your practice notebook, and the three subject tracks run independently, with confidence checks and review sessions. One discovery at a time, your alien class fills an illustrated encyclopedia. 600 questions, 200 for each subject, 60 encyclopedia spreads to complete and 10 curious alien pupils to meet.",
+            "ko": "작은 외계인들로 가득한 교실에서 지구에 대해 가르쳐 주세요. 동물, 지리, 축구 중 하나를 골라 짧은 탐험 문제에 답하고, 문제마다 해설을 읽는 동안 학생들은 엉뚱한 추측을 늘어놓습니다. 틀린 문제는 연습 노트에 다시 나오고, 세 과목은 각각 따로 진행되며 자신감 확인과 복습 시간도 있습니다. 발견 하나하나가 모여 외계인 반의 그림 백과사전이 채워집니다. 과목당 200문제씩 총 600문제, 완성할 백과사전 펼침면 60개, 만나 볼 호기심 많은 외계인 학생 10명.",
+            "ja": "小さな宇宙人たちのクラスに地球のことを教えよう。動物、地理、サッカーから選び、短い探検の問題に答え、1問ごとに解説を読もう。そのあいだ生徒たちはとんでもない推理を披露する。間違えた問題は練習ノートに戻ってきて、3つの科目はそれぞれ独立して進み、理解度チェックや復習もある。発見をひとつずつ重ねて、宇宙人のクラスがイラスト図鑑を埋めていく。各科目200問、全600問、完成させる図鑑の見開き60ページ、好奇心旺盛な宇宙人の生徒10人。",
+            "es": "Enséñale la Tierra a un salón lleno de extraterrestres diminutos. Elige animales, geografía o fútbol, responde una breve expedición de preguntas y lee la explicación después de cada una mientras tus alumnos hacen suposiciones ridículas. Las respuestas equivocadas vuelven en tu cuaderno de práctica, y las tres materias avanzan por separado, con comprobaciones de confianza y sesiones de repaso. Descubrimiento a descubrimiento, tu clase alienígena llena una enciclopedia ilustrada. 600 preguntas, 200 por materia, 60 páginas dobles de enciclopedia para completar y 10 alumnos extraterrestres curiosos por conocer.",
+            "pt-BR": "Ensine sobre a Terra para uma turma de alienígenas minúsculos. Escolha animais, geografia ou futebol, responda a uma curta expedição de perguntas e leia a explicação depois de cada uma enquanto seus alunos dão palpites ridículos. Respostas erradas voltam no seu caderno de prática, e as três matérias avançam de forma independente, com checagens de confiança e sessões de revisão. Uma descoberta de cada vez, sua turma alienígena preenche uma enciclopédia ilustrada. 600 perguntas, 200 por matéria, 60 páginas duplas de enciclopédia para completar e 10 alunos alienígenas curiosos para conhecer."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/earthisweird",
+        "screenshots": [
+            "apps/shots/earth-is-weird/01.jpg",
+            "apps/shots/earth-is-weird/02.jpg",
+            "apps/shots/earth-is-weird/03.jpg",
+            "apps/shots/earth-is-weird/04.jpg",
+            "apps/shots/earth-is-weird/05.jpg"
+        ]
+    },
+    {
+        "id": "capybara-driving-academy",
+        "slug": "capybara-driving-academy",
+        "icon": "apps/capybara-driving-academy.png",
+        "page": "apps/capybara-driving-academy.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Capybara Driving Academy",
+            "ko": "카피바라 드라이빙 아카데미",
+            "ja": "カピバラ・ドライビング・アカデミー",
+            "es": "Capybara Driving Academy",
+            "pt-BR": "Capybara Driving Academy"
+        },
+        "tagline": {
+            "en": "A calm mind. A tiny party hat.",
+            "ko": "차분한 마음. 작은 파티 모자.",
+            "ja": "落ち着いた心と、小さなパーティー帽。",
+            "es": "Mente tranquila. Un gorrito de fiesta.",
+            "pt-BR": "Mente calma. Um chapeuzinho de festa."
+        },
+        "desc": {
+            "en": "Practice everyday driving judgment with Coco, the calmest instructor in town. Look at each scene, spot the hazards and choose the calm, considerate response, like leaving room for others. Coco explains every answer, even the mistakes, and you can revisit tricky choices whenever you like. Finish a short set of funny challenges to earn decorations for your learner car. These are general road-awareness situations, not an official licensing test. 180 friendly scenarios across 36 short outings, 20 little road stories and 30 colorful car and instructor decorations.",
+            "ko": "마을에서 가장 차분한 강사 코코와 함께 일상 속 운전 판단력을 연습하세요. 장면을 살펴 위험 요소를 찾고, 다른 사람에게 공간을 내주는 것처럼 침착하고 배려 있는 대응을 고르세요. 코코는 틀린 답까지 모든 답을 설명해 주고, 헷갈렸던 선택은 언제든 다시 볼 수 있습니다. 짧고 재미있는 과제 묶음을 마치면 연습 차량을 꾸밀 장식을 얻습니다. 일반적인 도로 상황 인식 연습이며, 공식 면허 시험이 아닙니다. 36번의 짧은 외출에 담긴 친근한 상황 180개, 작은 도로 이야기 20편, 다채로운 자동차와 강사 장식 30개.",
+            "ja": "町でいちばん落ち着いた教官ココと一緒に、日常の運転の判断力を練習しよう。場面をよく見て危険を見つけ、ほかの人にゆとりを残すような、落ち着いて思いやりのある対応を選ぶ。ココは間違いも含めてすべての答えを説明してくれて、迷った選択はいつでも見直せる。短くて楽しい課題をひとまとまり終えると、教習車の飾りがもらえる。一般的な交通安全の場面であり、公式の免許試験ではない。36回の短いお出かけで180のやさしいシナリオ、20の小さな道の物語、カラフルな車と教官の飾り30種。",
+            "es": "Practica el criterio para manejar en el día a día con Coco, que enseña con más calma que nadie en la ciudad. Observa cada escena, detecta los peligros y elige la respuesta calmada y considerada, como dejar espacio a los demás. Coco explica cada respuesta, incluso los errores, y puedes volver a las decisiones difíciles cuando quieras. Completa una breve serie de retos divertidos para ganar adornos para tu auto de aprendiz. Son situaciones generales de conciencia vial, no un examen oficial de licencia. 180 escenarios amables en 36 salidas cortas, 20 pequeñas historias del camino y 30 adornos coloridos para el auto y para Coco.",
+            "pt-BR": "Pratique o bom senso ao volante no dia a dia com Coco, que ensina com mais calma do que ninguém na cidade. Observe cada cena, identifique os perigos e escolha a resposta calma e atenciosa, como deixar espaço para os outros. Coco explica cada resposta, até os erros, e você pode rever as escolhas difíceis quando quiser. Conclua uma curta série de desafios divertidos para ganhar enfeites para o seu carro de aprendiz. São situações gerais de atenção no trânsito, não uma prova oficial de habilitação. 180 cenários amigáveis em 36 saídas curtas, 20 pequenas histórias de estrada e 30 enfeites coloridos para o carro e para Coco."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/capybaradrivingacademy",
+        "screenshots": [
+            "apps/shots/capybara-driving-academy/01.jpg",
+            "apps/shots/capybara-driving-academy/02.jpg",
+            "apps/shots/capybara-driving-academy/03.jpg",
+            "apps/shots/capybara-driving-academy/04.jpg",
+            "apps/shots/capybara-driving-academy/05.jpg"
+        ]
+    },
+    {
+        "id": "dumpling-golf-club",
+        "slug": "dumpling-golf-club",
+        "icon": "apps/dumpling-golf-club.png",
+        "page": "apps/dumpling-golf-club.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Dumpling Golf Club",
+            "ko": "덤플링 골프 클럽",
+            "ja": "ダンプリング・ゴルフクラブ",
+            "es": "Dumpling Golf Club",
+            "pt-BR": "Dumpling Golf Club"
+        },
+        "tagline": {
+            "en": "Aim small. Land deliciously.",
+            "ko": "작게 겨냥하고, 맛있게 착지하세요.",
+            "ja": "狙いは小さく、着地はおいしく。",
+            "es": "Apunta con precisión. Aterriza con sabor.",
+            "pt-BR": "Mire com cuidado. Aterrisse com sabor."
+        },
+        "desc": {
+            "en": "Launch opinionated dumplings across noodle bridges and chopstick obstacles, bounce off bamboo rails and land in the dipping bowl. Drag back from a dumpling to aim and set the power, then release to shoot. Take as many shots as you need, though fewer shots earn extra stars. Each food stall adds new obstacles, from moving pieces to sauce and steam, and along the way you meet new fillings and put on a very unusual food festival. 90 tabletop courses across six stalls, eight fillings to experiment with and a night-market corner to furnish.",
+            "ko": "고집 센 만두를 국수 다리와 젓가락 장애물 너머로 날리고, 대나무 레일에 튕겨 소스 그릇에 착지시키세요. 만두에서 뒤로 끌어 방향과 힘을 정하고, 놓으면 발사됩니다. 몇 번을 쳐도 괜찮지만, 적은 타수일수록 별을 더 받습니다. 노점마다 움직이는 장애물, 소스, 김 같은 새로운 장애물이 더해지고, 그 과정에서 새로운 소를 만나며 아주 특별한 음식 축제를 열게 됩니다. 노점 6곳에 걸친 테이블 코스 90개, 실험해 볼 만두소 8가지, 직접 꾸미는 야시장 한 켠.",
+            "ja": "こだわりの強いダンプリングを、麺の橋や箸の障害物を越えて飛ばし、竹のレールで跳ね返ってタレの器に着地させよう。ダンプリングから後ろに引いて狙いと強さを決め、離して打つ。何打かかってもいいが、少ない打数ほど星が増える。屋台ごとに動く仕掛け、ソース、湯気といった新しい障害物が加わり、新しい具と出会いながら、とても変わったフードフェスティバルを開くことになる。6つの屋台にテーブル上のコース90、試せる具8種、自分で飾る夜市のコーナー。",
+            "es": "Lanza dumplings con mucha personalidad sobre puentes de fideos y obstáculos de palillos, rebota en barandas de bambú y aterriza en el tazón de salsa. Arrastra hacia atrás desde el dumpling para apuntar y elegir la fuerza, y suelta para tirar. Usa todos los tiros que necesites, aunque con menos tiros ganas estrellas extra. Cada puesto de comida suma obstáculos nuevos, desde piezas móviles hasta salsa y vapor, y en el camino conoces nuevos rellenos y montas un festival gastronómico muy inusual. 90 recorridos de mesa en seis puestos, ocho rellenos para experimentar y un rincón del mercado nocturno para amueblar.",
+            "pt-BR": "Lance dumplings cheios de opinião por pontes de macarrão e obstáculos de hashi, quique em trilhos de bambu e pouse na tigela de molho. Arraste para trás a partir do dumpling para mirar e escolher a força, e solte para tacar. Use quantas tacadas precisar, mas menos tacadas rendem estrelas extras. Cada barraca de comida traz novos obstáculos, de peças móveis a molho e vapor, e no caminho você conhece novos recheios e monta um festival gastronômico muito inusitado. 90 percursos de mesa em seis barracas, oito recheios para experimentar e um cantinho de feira noturna para decorar."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/dumplinggolfclub",
+        "screenshots": [
+            "apps/shots/dumpling-golf-club/01.jpg",
+            "apps/shots/dumpling-golf-club/02.jpg",
+            "apps/shots/dumpling-golf-club/03.jpg",
+            "apps/shots/dumpling-golf-club/04.jpg",
+            "apps/shots/dumpling-golf-club/05.jpg"
+        ]
+    },
+    {
+        "id": "boos-little-memories",
+        "slug": "boos-little-memories",
+        "icon": "apps/boos-little-memories.png",
+        "page": "apps/boos-little-memories.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Boo's Little Memories",
+            "ko": "부의 작은 추억",
+            "ja": "ブーのちいさな思い出",
+            "es": "Boo's Little Memories",
+            "pt-BR": "Boo's Little Memories"
+        },
+        "tagline": {
+            "en": "Some things are worth remembering.",
+            "ko": "기억할 가치가 있는 것들이 있어요.",
+            "ja": "覚えておきたいものがある。",
+            "es": "Hay cosas que vale la pena recordar.",
+            "pt-BR": "Algumas coisas merecem ser lembradas."
+        },
+        "desc": {
+            "en": "Help Boo, a gentle ghost, remember its favorite things. Solve nonograms to reveal teacups, teddy bears and gloriously wonky cakes, then use them to furnish a cozy attic. The numbers show consecutive groups of filled squares, with at least one empty square between groups, so fill squares, cross out the ones that stay empty and solve every row and column to bring back each memory. There is no timer. 200 picture-logic puzzles on 5×5, 10×10 and 15×15 grids and 48 keepsake pictures to arrange in Boo's attic.",
+            "ko": "다정한 유령 부가 좋아하던 것들을 기억해 낼 수 있게 도와주세요. 네모로직을 풀어 찻잔, 곰 인형, 근사하게 삐뚤어진 케이크를 드러내고, 그것들로 아늑한 다락방을 꾸미세요. 숫자는 연속으로 칠해진 칸의 묶음을 나타내며, 묶음 사이에는 적어도 한 칸이 비어 있습니다. 칸을 칠하고, 비워 둘 칸에는 X를 표시하며, 모든 행과 열을 풀어 추억을 하나씩 되찾으세요. 제한 시간은 없습니다. 5×5, 10×10, 15×15 격자의 그림 로직 퍼즐 200개, 부의 다락방에 놓을 기념 그림 48점.",
+            "ja": "やさしいおばけのブーが、大好きだったものを思い出すお手伝いをしよう。ノノグラムを解いてティーカップやテディベア、見事にいびつなケーキを浮かび上がらせ、居心地のいい屋根裏部屋を飾ろう。数字は連続して塗られたマスのまとまりを表し、まとまりの間には少なくとも1マスの空白がある。マスを塗り、空白のマスにはバツをつけ、すべての行と列を解いて思い出をひとつずつ取り戻そう。制限時間はない。5×5、10×10、15×15のお絵かきロジック200問、ブーの屋根裏に飾る思い出の絵48枚。",
+            "es": "Ayuda a Boo, un fantasma tierno, a recordar sus cosas favoritas. Resuelve nonogramas para revelar tazas de té, ositos de peluche y pasteles gloriosamente chuecos, y luego úsalos para decorar un ático acogedor. Los números indican grupos consecutivos de casillas rellenas, con al menos una casilla vacía entre grupos, así que rellena casillas, marca con una cruz las que quedan vacías y resuelve cada fila y columna para recuperar cada recuerdo. No hay reloj. 200 acertijos de lógica con imagen en cuadrículas de 5×5, 10×10 y 15×15 y 48 imágenes de recuerdo para acomodar en el ático de Boo.",
+            "pt-BR": "Ajude Boo, um fantasminha gentil, a lembrar das coisas favoritas dele. Resolva nonogramas para revelar xícaras, ursinhos de pelúcia e bolos gloriosamente tortos, e depois use tudo para decorar um sótão aconchegante. Os números mostram grupos consecutivos de quadrados preenchidos, com pelo menos um quadrado vazio entre os grupos, então preencha quadrados, marque com um X os que ficam vazios e resolva cada linha e coluna para trazer de volta cada lembrança. Não há cronômetro. 200 quebra-cabeças de lógica com imagens em grades de 5×5, 10×10 e 15×15 e 48 imagens de recordação para arrumar no sótão de Boo."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/booslittlememories",
+        "screenshots": [
+            "apps/shots/boos-little-memories/01.jpg",
+            "apps/shots/boos-little-memories/02.jpg",
+            "apps/shots/boos-little-memories/03.jpg",
+            "apps/shots/boos-little-memories/04.jpg",
+            "apps/shots/boos-little-memories/05.jpg"
+        ]
+    },
+    {
+        "id": "snail-mail-solitaire",
+        "slug": "snail-mail-solitaire",
+        "icon": "apps/snail-mail-solitaire.png",
+        "page": "apps/snail-mail-solitaire.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Snail Mail Solitaire",
+            "ko": "스네일 메일 솔리테어",
+            "ja": "スネイルメール・ソリティア",
+            "es": "Snail Mail Solitaire",
+            "pt-BR": "Snail Mail Solitaire"
+        },
+        "tagline": {
+            "en": "Take the scenic route.",
+            "ko": "경치 좋은 길로 가 보세요.",
+            "ja": "景色のいい道を選ぼう。",
+            "es": "Toma la ruta panorámica.",
+            "pt-BR": "Pegue o caminho mais bonito."
+        },
+        "desc": {
+            "en": "Play solitaire on a snail's traveling garden. As you play, grow plants, welcome tiny passengers and collect gentle travel stories, one unhurried stop at a time. Build tableau columns downward in alternating colors, move aces to the four foundations and build each suit upward, remembering that only kings may fill an empty column. 160 curated Klondike deals, each completable in both draw-one and draw-three modes, take you through eight destinations, with free undo and a butterfly move guide. Grow 40 potted plants and welcome 12 passengers to your shell garden.",
+            "ko": "여행하는 달팽이의 정원에서 솔리테어를 즐기세요. 플레이하며 식물을 키우고, 작은 승객을 맞이하고, 잔잔한 여행 이야기를 모으며 느긋하게 한 정거장씩 나아갑니다. 테이블 열은 색을 번갈아 가며 내림차순으로 쌓고, 에이스를 네 개의 파운데이션으로 옮겨 무늬별로 오름차순으로 쌓으세요. 빈 열에는 킹만 놓을 수 있습니다. 한 장 뽑기와 세 장 뽑기 모드 모두에서 완료할 수 있는 엄선된 클론다이크 160판이 여덟 곳의 목적지로 데려가며, 무료 되돌리기와 나비 이동 가이드도 있습니다. 화분 40개를 키우고 승객 12명을 껍데기 정원에 맞이하세요.",
+            "ja": "旅するカタツムリの庭でソリティアを遊ぼう。プレイしながら植物を育て、小さな乗客を迎え、穏やかな旅の物語を集めて、のんびりとひと駅ずつ進んでいく。場札の列は色を交互にして降順に重ね、エースを4つの組札に移してスートごとに昇順に積み上げる。空いた列に置けるのはキングだけ。1枚めくりでも3枚めくりでもクリアできる厳選のクロンダイク160ディールで8つの目的地を巡り、取り消しは無料、蝶のムーブガイドつき。鉢植え40個を育て、12人の乗客を殻の庭に迎えよう。",
+            "es": "Juega solitario en el jardín viajero de un caracol. Mientras juegas, cultiva plantas, recibe a pequeños pasajeros y reúne tranquilas historias de viaje, una parada sin prisa a la vez. Arma columnas descendentes alternando colores, lleva los ases a las cuatro bases y sube cada palo en orden, y recuerda que solo un rey puede ocupar una columna vacía. 160 repartos de Klondike seleccionados, todos posibles de completar en los modos de robar una y robar tres, te llevan por ocho destinos, con deshacer gratis y una mariposa que sugiere movimientos. Cultiva 40 plantas en maceta y recibe a 12 pasajeros en tu jardín de concha.",
+            "pt-BR": "Jogue paciência no jardim viajante de um caracol. Enquanto joga, cultive plantas, receba pequenos passageiros e colecione histórias de viagem tranquilas, uma parada sem pressa de cada vez. Monte colunas em ordem decrescente alternando as cores, leve os ases para as quatro fundações e suba cada naipe em ordem, lembrando que só um rei pode ocupar uma coluna vazia. 160 distribuições de Klondike selecionadas, todas possíveis de completar nos modos de virar uma e virar três, levam você por oito destinos, com desfazer grátis e uma borboleta que sugere jogadas. Cultive 40 plantas em vasos e receba 12 passageiros no seu jardim de concha."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/snailmailsolitaire",
+        "screenshots": [
+            "apps/shots/snail-mail-solitaire/01.jpg",
+            "apps/shots/snail-mail-solitaire/02.jpg",
+            "apps/shots/snail-mail-solitaire/03.jpg",
+            "apps/shots/snail-mail-solitaire/04.jpg",
+            "apps/shots/snail-mail-solitaire/05.jpg"
+        ]
+    },
+    {
+        "id": "beetle-and-bolt",
+        "slug": "beetle-and-bolt",
+        "icon": "apps/beetle-and-bolt.png",
+        "page": "apps/beetle-and-bolt.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Beetle & Bolt",
+            "ko": "비틀 앤 볼트",
+            "ja": "ビートル＆ボルト",
+            "es": "Beetle & Bolt",
+            "pt-BR": "Beetle & Bolt"
+        },
+        "tagline": {
+            "en": "Big repairs. Very small engineers.",
+            "ko": "큰 수리, 아주 작은 엔지니어.",
+            "ja": "大きな修理、とても小さなエンジニア。",
+            "es": "Grandes reparaciones. Ingenieros muy pequeños.",
+            "pt-BR": "Grandes consertos. Engenheiros bem pequenos."
+        },
+        "desc": {
+            "en": "Lead an insect crew that turns discarded human objects into a town. A watch becomes a clock tower, and a broken headphone becomes the venue for opening night. Click a repair station to assign its specialist, and repairs advance while the workshop is open, with capped offline progress too. Upgrade tools, balance your four workstations and finish contracts to build the insect town. Complete 120 repair contracts, turn 30 discarded objects into town treasures, hire 10 bug specialists and collect up to eight hours of offline workshop production.",
+            "ko": "버려진 인간의 물건으로 마을을 만드는 곤충 작업반을 이끄세요. 손목시계는 시계탑이 되고, 고장 난 헤드폰은 개막 공연장이 됩니다. 수리대를 클릭해 전문가를 배치하면 작업장이 열려 있는 동안 수리가 진행되고, 오프라인 중에도 상한까지 진행됩니다. 도구를 업그레이드하고, 네 개의 작업대를 균형 있게 운영하며, 계약을 완수해 곤충 마을을 세우세요. 수리 계약 120건을 완료하고, 버려진 물건 30개를 마을의 보물로 바꾸고, 곤충 전문가 10명을 고용하고, 최대 8시간의 오프라인 작업장 생산을 모으세요.",
+            "ja": "捨てられた人間の物を町に変える虫の作業チームを率いよう。腕時計は時計塔に、壊れたヘッドホンは初日公演の会場になる。修理ステーションをクリックして専門家を配置すれば、工房が開いている間に修理が進み、オフライン中も上限まで進行する。道具を強化し、4つの作業台のバランスを取り、契約をこなして虫の町を築こう。修理契約120件を完了し、捨てられた物30個を町の宝に変え、虫の専門家10匹を雇い、最大8時間分のオフライン生産を受け取ろう。",
+            "es": "Dirige un equipo de insectos que convierte objetos humanos desechados en un pueblo. Un reloj se vuelve una torre del reloj y unos audífonos rotos se vuelven el escenario de la noche de estreno. Haz clic en una estación de reparación para asignar a su especialista: las reparaciones avanzan mientras el taller está abierto, y también hay progreso sin conexión con límite. Mejora herramientas, equilibra tus cuatro estaciones y completa contratos para construir el pueblo de insectos. Completa 120 contratos de reparación, convierte 30 objetos desechados en tesoros del pueblo, contrata a 10 bichos especialistas y acumula hasta ocho horas de producción del taller sin conexión.",
+            "pt-BR": "Comande uma equipe de insetos que transforma objetos humanos descartados numa cidade. Um relógio vira torre do relógio, e um fone de ouvido quebrado vira o palco da noite de estreia. Clique numa estação de conserto para designar seu especialista: os consertos avançam enquanto a oficina está aberta, e também há progresso offline com limite. Melhore as ferramentas, equilibre suas quatro estações e conclua contratos para construir a cidade dos insetos. Conclua 120 contratos de conserto, transforme 30 objetos descartados em tesouros da cidade, contrate 10 insetos especialistas e acumule até oito horas de produção offline da oficina."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/beetleandbolt",
+        "screenshots": [
+            "apps/shots/beetle-and-bolt/01.jpg",
+            "apps/shots/beetle-and-bolt/02.jpg",
+            "apps/shots/beetle-and-bolt/03.jpg",
+            "apps/shots/beetle-and-bolt/04.jpg",
+            "apps/shots/beetle-and-bolt/05.jpg"
+        ]
+    },
+    {
+        "id": "postmouse",
+        "slug": "postmouse",
+        "icon": "apps/postmouse.png",
+        "page": "apps/postmouse.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Postmouse",
+            "ko": "포스트마우스",
+            "ja": "ポストマウス",
+            "es": "Postmouse",
+            "pt-BR": "Postmouse"
+        },
+        "tagline": {
+            "en": "Small paws. Enormous letters.",
+            "ko": "작은 발, 커다란 편지.",
+            "ja": "小さな手足に、大きな手紙。",
+            "es": "Patitas pequeñas. Cartas enormes.",
+            "pt-BR": "Patinhas pequenas. Cartas enormes."
+        },
+        "desc": {
+            "en": "Build words to cross a woodland village carrying a letter larger than you. Along the way you deliver funny notes, mend small misunderstandings and follow a very shy romance. Trace letters in the wheel to build a word, then deliver it, and find every word in the letter's route to complete it. Extra valid words earn a little ink. There are 150 woodland deliveries and 40 neighbor-to-neighbor letters to read across eight neighborhoods, plus bonus words to find and deliveries to revisit whenever you like.",
+            "ko": "단어를 만들어, 자기보다 큰 편지를 들고 숲속 마을을 건너세요. 그 길에서 웃긴 쪽지를 배달하고, 작은 오해를 풀고, 아주 수줍은 로맨스를 지켜보게 됩니다. 글자 바퀴에서 글자를 이어 단어를 만들어 배달하고, 편지의 경로에 있는 모든 단어를 찾아 완성하세요. 추가로 찾은 올바른 단어는 잉크를 조금 벌어 줍니다. 여덟 동네에 걸친 숲속 배달 150건과 이웃끼리 주고받는 편지 40통이 있고, 보너스 단어를 찾거나 언제든 지난 배달을 다시 해 볼 수 있습니다.",
+            "ja": "言葉を作って、自分より大きな手紙を抱えて森の村を横切ろう。道中ではおかしな手紙を届け、小さな誤解を解き、とても内気な恋の行方を見守る。文字の輪から文字をなぞって単語を作って届け、手紙のルートにある単語をすべて見つけて完成させよう。正しい単語を余分に見つけると、インクが少しもらえる。8つの地区に森の配達150件と、ご近所どうしの手紙40通。ボーナス単語を探したり、いつでも過去の配達をやり直したりできる。",
+            "es": "Forma palabras para cruzar una aldea del bosque cargando una carta más grande que tú. En el camino entregas notas graciosas, aclaras pequeños malentendidos y sigues un romance muy tímido. Traza letras en la rueda para formar una palabra y entrégala, y encuentra todas las palabras de la ruta de la carta para completarla. Las palabras válidas extra te dan un poco de tinta. Hay 150 entregas en el bosque y 40 cartas entre vecinos para leer en ocho vecindarios, además de palabras extra por descubrir y entregas para repetir cuando quieras.",
+            "pt-BR": "Forme palavras para atravessar uma vila no bosque carregando uma carta maior que você. No caminho, você entrega bilhetes engraçados, desfaz pequenos mal-entendidos e acompanha um romance muito tímido. Trace letras na roda para formar uma palavra e entregue-a, e encontre todas as palavras da rota da carta para completá-la. Palavras válidas extras rendem um pouco de tinta. São 150 entregas no bosque e 40 cartas entre vizinhos para ler em oito bairros, além de palavras bônus para descobrir e entregas para refazer quando quiser."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/postmouse",
+        "screenshots": [
+            "apps/shots/postmouse/01.jpg",
+            "apps/shots/postmouse/02.jpg",
+            "apps/shots/postmouse/03.jpg",
+            "apps/shots/postmouse/04.jpg",
+            "apps/shots/postmouse/05.jpg"
+        ]
+    },
+    {
+        "id": "penguin-picnic-panic",
+        "slug": "penguin-picnic-panic",
+        "icon": "apps/penguin-picnic-panic.png",
+        "page": "apps/penguin-picnic-panic.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Penguin Picnic Panic",
+            "ko": "펭귄 피크닉 패닉",
+            "ja": "ペンギン・ピクニック・パニック",
+            "es": "Penguin Picnic Panic",
+            "pt-BR": "Penguin Picnic Panic"
+        },
+        "tagline": {
+            "en": "Everybody brought something weird.",
+            "ko": "다들 이상한 걸 하나씩 가져왔어요.",
+            "ja": "みんな、なにか変なものを持ってきた。",
+            "es": "Todos trajeron algo raro.",
+            "pt-BR": "Todo mundo trouxe algo esquisito."
+        },
+        "desc": {
+            "en": "Untangle a traffic jam of penguin sleds before the picnic. Click a sled to send it in the direction of its arrow, but it can only leave when its whole lane is clear, so start with an open lane and work backward through the jam until every penguin is rescued. Each rescue brings a ridiculous snack, a tiny story and a new piece of the island feast. Free undo lets you rethink the order without pressure. 240 sled puzzles with four exit directions and a growing cast of cargo, 15 picnic guests to welcome and 15 very unusual dishes to collect.",
+            "ko": "소풍 전에 펭귄 썰매들이 엉킨 교통 체증을 풀어 주세요. 썰매를 클릭하면 화살표 방향으로 출발하지만, 길 전체가 비어 있어야만 빠져나갈 수 있습니다. 그러니 열린 길부터 시작해 거꾸로 풀어 나가며 모든 펭귄을 구하세요. 구할 때마다 황당한 간식, 짧은 이야기, 그리고 섬 잔치의 새로운 한 조각이 생깁니다. 무료 되돌리기로 부담 없이 순서를 다시 생각할 수 있습니다. 네 방향 출구와 점점 늘어나는 화물이 있는 썰매 퍼즐 240개, 맞이할 소풍 손님 15명, 모을 수 있는 아주 특이한 요리 15가지.",
+            "ja": "ピクニックの前に、ペンギンのそりの渋滞をほどこう。そりをクリックすると矢印の方向に動き出すが、出られるのは進路がすべて空いているときだけ。空いている列から始めて渋滞を逆にたどり、すべてのペンギンを救出しよう。救出するたびに、とんでもないおやつと小さな物語、そして島のごちそうの新しいひと品が手に入る。取り消しは無料なので、気軽に順番を考え直せる。4方向の出口と増えていく積み荷のそりパズル240問、迎えるピクニックのお客さん15人、集められるとても変わった料理15品。",
+            "es": "Desenreda un embotellamiento de trineos de pingüinos antes del picnic. Haz clic en un trineo para mandarlo en la dirección de su flecha, pero solo puede salir cuando todo su carril está libre, así que empieza por un carril abierto y avanza hacia atrás por el embotellamiento hasta rescatar a todos los pingüinos. Cada rescate trae un bocadillo ridículo, una pequeña historia y una nueva parte del banquete de la isla. Deshacer gratis te deja repensar el orden sin presión. 240 acertijos de trineos con cuatro direcciones de salida y cada vez más tipos de carga, 15 invitados al picnic y 15 platillos muy inusuales para coleccionar.",
+            "pt-BR": "Desfaça um engarrafamento de trenós de pinguins antes do piquenique. Clique num trenó para mandá-lo na direção da seta, mas ele só sai quando a pista inteira está livre, então comece por uma pista aberta e vá de trás para frente no engarrafamento até resgatar todos os pinguins. Cada resgate traz um lanche ridículo, uma pequena história e um novo pedaço do banquete da ilha. Desfazer grátis deixa você repensar a ordem sem pressão. 240 quebra-cabeças de trenós com quatro direções de saída e um elenco crescente de cargas, 15 convidados para o piquenique e 15 pratos muito inusitados para colecionar."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/penguinpicnicpanic",
+        "screenshots": [
+            "apps/shots/penguin-picnic-panic/01.jpg",
+            "apps/shots/penguin-picnic-panic/02.jpg",
+            "apps/shots/penguin-picnic-panic/03.jpg",
+            "apps/shots/penguin-picnic-panic/04.jpg",
+            "apps/shots/penguin-picnic-panic/05.jpg"
+        ]
+    },
+    {
+        "id": "sock-goblins",
+        "slug": "sock-goblins",
+        "icon": "apps/sock-goblins.png",
+        "page": "apps/sock-goblins.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Sock Goblins",
+            "ko": "삭 고블린스",
+            "ja": "ソック・ゴブリンズ",
+            "es": "Sock Goblins",
+            "pt-BR": "Sock Goblins"
+        },
+        "tagline": {
+            "en": "A little chaos. A lot of socks.",
+            "ko": "약간의 혼돈, 아주 많은 양말.",
+            "ja": "ちょっとの混乱と、たくさんの靴下。",
+            "es": "Un poco de caos. Muchísimos calcetines.",
+            "pt-BR": "Um pouco de caos. Um monte de meias."
+        },
+        "desc": {
+            "en": "Run a monster laundromat with a crew of tiny goblins. Match three-toed socks, tame snake scarves and build a cozy home behind the machines. Click a basket, then another, to move its top sock, which can only join an empty basket or matching socks. Fill each basket with a single pattern, using the two spare baskets to make room, and undo whenever you like at no cost. 180 sorting orders with wriggling scarves and enormous laundry, 12 monster customers with their own requests and 24 furnishings to buy and arrange in the goblins' home.",
+            "ko": "작은 고블린들과 함께 괴물 빨래방을 운영하세요. 발가락이 셋인 양말을 짝 맞추고, 뱀 목도리를 길들이고, 세탁기 뒤에 아늑한 보금자리를 꾸미세요. 바구니를 클릭한 다음 다른 바구니를 클릭하면 맨 위 양말이 옮겨지며, 양말은 빈 바구니나 같은 무늬 양말 위로만 갈 수 있습니다. 여분 바구니 두 개로 자리를 만들어 바구니마다 한 가지 무늬로 채우세요. 되돌리기는 언제나 무료입니다. 꿈틀대는 목도리와 거대한 빨랫감이 등장하는 분류 주문 180개, 저마다 부탁이 있는 괴물 손님 12명, 고블린의 집에 사서 배치할 가구 24개.",
+            "ja": "小さなゴブリンたちと、モンスターのコインランドリーを切り盛りしよう。指が3本の靴下をそろえ、ヘビのマフラーを手なずけ、洗濯機の裏に居心地のいい住まいを作ろう。カゴをクリックしてから別のカゴをクリックすると、いちばん上の靴下が移動する。靴下を置けるのは空のカゴか、同じ柄の靴下の上だけ。予備のカゴ2つで場所を空けながら、どのカゴも1つの柄でそろえよう。取り消しはいつでも無料。くねくね動くマフラーや巨大な洗濯物が登場する仕分けの注文180件、それぞれ頼みごとのあるモンスターのお客さん12人、ゴブリンの家に買って飾れる家具24点。",
+            "es": "Atiende una lavandería de monstruos con un equipo de duendes diminutos. Empareja calcetines de tres dedos, doma bufandas serpiente y arma un hogar acogedor detrás de las máquinas. Haz clic en una canasta y luego en otra para mover el calcetín de arriba, que solo puede ir a una canasta vacía o sobre calcetines iguales. Llena cada canasta con un solo diseño, usando las dos canastas de repuesto para hacer espacio, y deshaz cuando quieras sin costo. 180 pedidos de clasificación con bufandas que se retuercen y ropa enorme, 12 clientes monstruos con sus propios pedidos y 24 muebles para comprar y acomodar en la casa de los duendes.",
+            "pt-BR": "Cuide de uma lavanderia de monstros com uma equipe de goblins minúsculos. Junte meias de três dedos, dome cachecóis-serpente e monte um lar aconchegante atrás das máquinas. Clique num cesto e depois em outro para mover a meia de cima, que só pode ir para um cesto vazio ou sobre meias iguais. Encha cada cesto com uma única estampa, usando os dois cestos extras para abrir espaço, e desfaça quando quiser sem custo. 180 pedidos de separação com cachecóis que se contorcem e roupas enormes, 12 clientes monstros com seus próprios pedidos e 24 móveis para comprar e arrumar na casa dos goblins."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/sockgoblins",
+        "screenshots": [
+            "apps/shots/sock-goblins/01.jpg",
+            "apps/shots/sock-goblins/02.jpg",
+            "apps/shots/sock-goblins/03.jpg",
+            "apps/shots/sock-goblins/04.jpg",
+            "apps/shots/sock-goblins/05.jpg"
+        ]
+    },
+    {
+        "id": "stitch-trail",
+        "slug": "stitch-trail",
+        "icon": "apps/stitch-trail.png",
+        "page": "apps/stitch-trail.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Stitch Trail",
+            "ko": "스티치 트레일",
+            "ja": "スティッチ・トレイル",
+            "es": "Stitch Trail",
+            "pt-BR": "Stitch Trail"
+        },
+        "tagline": {
+            "en": "Solve the chart. Stitch the blanket. Save Nana's yarn cafe.",
+            "ko": "도안을 풀고, 담요를 뜨고, 나나의 뜨개 카페를 지키세요.",
+            "ja": "図案を解き、ブランケットを編み、ナナの毛糸カフェを救おう。",
+            "es": "Resuelve el patrón. Teje la manta. Salva el café de lana de Nana.",
+            "pt-BR": "Resolva o gráfico. Faça a manta. Salve o café de lã da Nana."
+        },
+        "desc": {
+            "en": "Nana Odile left you The Loop, a little yarn cafe on a rainy harbor street, and a box of blank crochet charts. Each chart is a picross puzzle: use the row and column numbers to fill cells, mark empties and reveal a hidden picture that turns into a full colour crochet blanket. Every chart can be solved by logic alone. 180 charts run from 5x5 to 15x15, with a Daily Chart, and the story spans six seasons as you save the cafe from a developer and uncover Nana's secret.",
+            "ko": "나나 오딜이 비 내리는 항구 거리의 작은 뜨개 카페 '더 루프'와 칸이 모두 비어 있는 코바늘 도안 한 상자를 남겼습니다. 도안 하나하나가 피크로스 퍼즐입니다. 행과 열의 숫자를 보고 칸을 채우고 빈칸을 표시하면 숨은 그림이 드러나고, 완성된 도안은 알록달록한 코바늘 담요가 됩니다. 모든 도안은 논리만으로 풀 수 있습니다. 5x5부터 15x15까지 180개의 도안과 데일리 도안이 있으며, 여섯 계절에 걸친 이야기 속에서 개발업자로부터 카페를 지키고 나나의 비밀을 밝혀내세요.",
+            "ja": "ナナ・オディールが遺したのは、雨の港通りにある小さな毛糸カフェ「ザ・ループ」と、マスがすべて空白のかぎ針編み図案の箱。図案はどれもピクロスパズルだ。行と列の数字を手がかりにマスを埋め、空白に印をつけると隠れた絵が現れ、完成した図案はカラフルなかぎ針編みブランケットになる。どの図案も論理だけで解ける。5x5から15x15まで180枚の図案に、デイリー図案も。6つの季節を通して、開発業者からカフェを守り、ナナの秘密を解き明かそう。",
+            "es": "Nana Odile te dejó The Loop, un pequeño café de lana en una calle lluviosa del puerto, y una caja de patrones de crochet en blanco. Cada patrón es un picross: usa los números de filas y columnas para rellenar casillas, marcar las vacías y descubrir una imagen oculta que se convierte en una manta de crochet a todo color. Todos se resuelven solo con lógica. Hay 180 patrones de 5x5 a 15x15, con un Patrón Diario, y la historia abarca seis temporadas mientras salvas el café de un constructor y descubres el secreto de Nana.",
+            "pt-BR": "A Nana Odile deixou para você The Loop, um pequeno café de lã numa rua chuvosa do porto, e uma caixa de gráficos de crochê em branco. Cada gráfico é um picross: use os números das linhas e colunas para preencher casas, marcar as vazias e revelar uma imagem escondida que vira uma manta de crochê colorida. Todos podem ser resolvidos só com lógica. São 180 gráficos de 5x5 a 15x15, com um Gráfico Diário, e a história passa por seis estações enquanto você salva o café de um incorporador e descobre o segredo da Nana."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/stitchtrailcrochet",
+        "screenshots": [
+            "apps/shots/stitch-trail/01.jpg",
+            "apps/shots/stitch-trail/02.jpg",
+            "apps/shots/stitch-trail/03.jpg",
+            "apps/shots/stitch-trail/04.jpg",
+            "apps/shots/stitch-trail/05.jpg"
+        ]
+    },
+    {
+        "id": "sketch-day",
+        "slug": "sketch-day",
+        "icon": "apps/sketch-day.png",
+        "page": "apps/sketch-day.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Sketch Day",
+            "ko": "스케치 데이",
+            "ja": "スケッチ・デイ",
+            "es": "Sketch Day",
+            "pt-BR": "Sketch Day"
+        },
+        "tagline": {
+            "en": "Draw a line. It becomes real.",
+            "ko": "선을 그리면 현실이 됩니다.",
+            "ja": "線を引けば、それが本物になる。",
+            "es": "Dibuja una línea. Se vuelve real.",
+            "pt-BR": "Desenhe uma linha. Ela vira realidade."
+        },
+        "desc": {
+            "en": "Pete is an unfinished figure study, drawn in the margin of a sketchbook more than a hundred years ago. Tonight he woke up and wants to reach the last page. Pete walks on his own, and you draw the world under his feet: gentle lines become ground, steep lines become walls, and you bridge gaps and build ramps with limited ink. 240 pages across eight sketchbooks, each drawn over a real study from The Metropolitan Museum of Art, tell the story of Ada Moreau, an art student in Paris in 1912.",
+            "ko": "피트는 백 년도 더 전에 스케치북 여백에 그려진, 미완성 인물 습작입니다. 오늘 밤 깨어난 그는 마지막 페이지에 닿고 싶어 합니다. 피트는 혼자 걷고, 당신은 그가 걸을 세상을 그립니다. 완만한 선은 땅이 되고 가파른 선은 벽이 되며, 한정된 잉크로 틈을 잇고 경사로를 만드세요. 메트로폴리탄 미술관의 실제 습작 위에 그려진 여덟 권의 스케치북, 240페이지가 1912년 파리의 미술학도 에이다 모로의 이야기를 들려줍니다.",
+            "ja": "ピートは100年以上前にスケッチブックの余白に描かれた、未完成の人物習作。今夜目を覚ました彼は、最後のページを目指したい。ピートは自分で歩き、あなたは彼が歩く世界を描く。ゆるやかな線は地面に、急な線は壁になる。限られたインクで隙間に橋をかけ、坂を作ろう。メトロポリタン美術館の実在の習作の上に描かれた8冊のスケッチブック、240ページが、1912年のパリの美術学生エイダ・モローの物語を語る。",
+            "es": "Pete es un estudio de figura sin terminar, dibujado en el margen de un cuaderno hace más de cien años. Esta noche despertó y quiere llegar a la última página. Pete camina solo y tú dibujas el mundo bajo sus pies: las líneas suaves son suelo, las empinadas son paredes, y con tinta limitada cruzas huecos y construyes rampas. 240 páginas en ocho cuadernos, cada uno dibujado sobre un estudio real de The Metropolitan Museum of Art, cuentan la historia de Ada Moreau, estudiante de arte en París en 1912.",
+            "pt-BR": "Pete é um estudo de figura inacabado, desenhado na margem de um caderno há mais de cem anos. Esta noite ele acordou e quer chegar à última página. Pete anda sozinho e você desenha o mundo sob os pés dele: linhas suaves viram chão, linhas íngremes viram paredes, e com tinta limitada você atravessa vãos e constrói rampas. São 240 páginas em oito cadernos, cada um desenhado sobre um estudo real do The Metropolitan Museum of Art, contando a história de Ada Moreau, estudante de arte em Paris em 1912."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/sketchdaycompanion",
+        "screenshots": [
+            "apps/shots/sketch-day/01.jpg",
+            "apps/shots/sketch-day/02.jpg",
+            "apps/shots/sketch-day/03.jpg",
+            "apps/shots/sketch-day/04.jpg",
+            "apps/shots/sketch-day/05.jpg"
+        ]
+    },
+    {
+        "id": "seed-diary",
+        "slug": "seed-diary",
+        "icon": "apps/seed-diary.png",
+        "page": "apps/seed-diary.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Seed Diary",
+            "ko": "시드 다이어리",
+            "ja": "シード・ダイアリー",
+            "es": "Seed Diary",
+            "pt-BR": "Seed Diary"
+        },
+        "tagline": {
+            "en": "Plant. Cross. Record. Rebuild a lost seed library.",
+            "ko": "심고, 교배하고, 기록하세요. 사라진 씨앗 도서관을 되살리세요.",
+            "ja": "植えて、掛け合わせて、記録する。失われた種の図書館を取り戻そう。",
+            "es": "Planta. Cruza. Registra. Reconstruye una biblioteca de semillas perdida.",
+            "pt-BR": "Plante. Cruze. Registre. Reconstrua uma biblioteca de sementes perdida."
+        },
+        "desc": {
+            "en": "In the attic of your new cottage you find a 1923 diary kept by Wren Ashby, who ran the valley's seed library until a hard frost wiped it out. Each season you place a row of seed packets in a small garden bed, where matching flowers score together, tall flowers shade short ones and the right pairs cross into new varieties. Breed nine heirloom flowers and twenty-four hybrids across 120 hand-checked seasons and five years in the valley, and follow Wren's notes to a secret she kept for a hundred years.",
+            "ko": "새로 이사한 오두막 다락방에서 1923년의 일기를 발견합니다. 주인 렌 애시비는 혹독한 서리가 모든 것을 앗아가기 전까지 골짜기의 씨앗 도서관을 지켰습니다. 계절마다 씨앗 봉투를 작은 화단에 심으세요. 같은 꽃이 나란히 있으면 함께 점수를 얻고, 키 큰 꽃은 옆의 작은 꽃에 그늘을 드리우며, 알맞은 두 꽃은 교배되어 새로운 품종이 됩니다. 손으로 검증한 120개의 계절과 골짜기에서의 5년 동안 재래종 꽃 9종과 교배종 24종을 길러내고, 렌의 기록을 따라 그녀가 백 년 동안 간직한 비밀을 찾아가세요.",
+            "ja": "新しいコテージの屋根裏で、1923年の日記を見つける。持ち主のレン・アシュビーは、厳しい霜ですべてを失うまで谷の種の図書館を守っていた。季節ごとに種の袋を小さな花壇に植えていこう。同じ花が隣り合えば一緒に得点し、背の高い花は隣の低い花を日陰にし、相性のいい2つの花は掛け合わさって新しい品種になる。手作業で検証された120の季節と谷での5年間で、在来種の花9種と交配種24種を育て、レンのメモをたどって彼女が100年守った秘密へ。",
+            "es": "En el ático de tu nueva casa de campo encuentras un diario de 1923 de Wren Ashby, que cuidó la biblioteca de semillas del valle hasta que una helada fuerte la arrasó. Cada temporada colocas una fila de sobres de semillas en un pequeño cantero: las flores iguales juntas puntúan juntas, las altas dan sombra a las bajas y las parejas correctas se cruzan en variedades nuevas. Cultiva nueve flores tradicionales y veinticuatro híbridos a lo largo de 120 temporadas revisadas a mano y cinco años en el valle, y sigue las notas de Wren hasta un secreto que guardó durante cien años.",
+            "pt-BR": "No sótão do seu novo chalé você encontra um diário de 1923 de Wren Ashby, que cuidou da biblioteca de sementes do vale até uma geada forte acabar com ela. A cada estação você coloca uma fileira de pacotes de sementes num pequeno canteiro: flores iguais lado a lado pontuam juntas, as altas fazem sombra nas baixas e os pares certos se cruzam em variedades novas. Cultive nove flores tradicionais e vinte e quatro híbridos ao longo de 120 estações conferidas à mão e cinco anos no vale, e siga as anotações de Wren até um segredo que ela guardou por cem anos."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/seeddiary",
+        "screenshots": [
+            "apps/shots/seed-diary/01.jpg",
+            "apps/shots/seed-diary/02.jpg",
+            "apps/shots/seed-diary/03.jpg",
+            "apps/shots/seed-diary/04.jpg",
+            "apps/shots/seed-diary/05.jpg"
+        ]
+    },
+    {
+        "id": "photo-quest",
+        "slug": "photo-quest",
+        "icon": "apps/photo-quest.png",
+        "page": "apps/photo-quest.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Photo Quest",
+            "ko": "포토 퀘스트",
+            "ja": "フォトクエスト",
+            "es": "Photo Quest",
+            "pt-BR": "Photo Quest"
+        },
+        "tagline": {
+            "en": "Real places in 360. Frame the perfect shot.",
+            "ko": "360도로 담은 실제 장소. 완벽한 한 장을 담아 보세요.",
+            "ja": "360度で巡る実在の場所。最高の一枚を切り取ろう。",
+            "es": "Lugares reales en 360. Encuadra la foto perfecta.",
+            "pt-BR": "Lugares reais em 360. Enquadre a foto perfeita."
+        },
+        "desc": {
+            "en": "Your grandmother Lucia was a travel photographer in the 1970s. Her journal lists sixteen places, an assignment for each, and one roll of film she never developed. Look around real 360-degree photos of real places, from an alpine meadow to a city square at night, and take the pictures she could not. Each assignment teaches one idea from photography, like the rule of thirds or leading lines, and a judge scores your subject, composition and zoom. 160 assignments across 16 places, plus a Daily Snap, and a family mystery about why Lucia stopped taking pictures in 1979.",
+            "ko": "할머니 루치아는 1970년대의 여행 사진가였습니다. 그녀의 일지에는 열여섯 곳의 장소와 각각의 과제, 그리고 끝내 현상하지 않은 필름 한 롤이 남아 있습니다. 알프스 초원부터 밤의 도시 광장까지, 실제 장소를 담은 360도 사진 속을 둘러보며 그녀가 찍지 못한 사진을 찍으세요. 과제마다 삼분할 구도나 유도선 같은 사진의 원리를 하나씩 배우고, 심사위원이 피사체, 구도, 줌을 채점합니다. 16곳에서 펼쳐지는 160개의 과제와 데일리 스냅, 그리고 루치아가 1979년에 사진을 그만둔 이유를 둘러싼 가족의 수수께끼가 기다립니다.",
+            "ja": "祖母ルチアは1970年代の旅行写真家だった。彼女の日誌には16の場所とそれぞれの課題、そして現像されなかったフィルムが1本。アルプスの草原から夜の街の広場まで、実在の場所の360度写真を見回して、彼女が撮れなかった写真を撮ろう。課題ごとに三分割法や誘導線など写真の考え方をひとつ学び、審査員が被写体、構図、ズームを採点する。16の場所で160の課題、デイリースナップ、そしてルチアが1979年に写真をやめた理由をめぐる家族の謎。",
+            "es": "Tu abuela Lucia fue fotógrafa de viajes en la década de 1970. Su diario enumera dieciséis lugares, una tarea para cada uno, y un rollo de película que nunca reveló. Mira a tu alrededor en fotos reales de 360 grados de lugares reales, desde un prado alpino hasta una plaza de noche, y toma las fotos que ella no pudo. Cada tarea enseña una idea de fotografía, como la regla de los tercios o las líneas guía, y un juez califica el sujeto, la composición y el zoom. 160 tareas en 16 lugares, una Foto Diaria y un misterio familiar sobre por qué Lucia dejó de fotografiar en 1979.",
+            "pt-BR": "Sua avó Lucia foi fotógrafa de viagem nos anos 1970. O diário dela lista dezesseis lugares, uma tarefa para cada um, e um rolo de filme que ela nunca revelou. Olhe em volta em fotos reais em 360 graus de lugares reais, de um campo alpino a uma praça à noite, e tire as fotos que ela não conseguiu. Cada tarefa ensina uma ideia da fotografia, como a regra dos terços ou as linhas guia, e um juiz avalia o tema, a composição e o zoom. São 160 tarefas em 16 lugares, uma Foto Diária e um mistério de família sobre por que Lucia parou de fotografar em 1979."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/photoquestjournal",
+        "screenshots": [
+            "apps/shots/photo-quest/01.jpg",
+            "apps/shots/photo-quest/02.jpg",
+            "apps/shots/photo-quest/03.jpg",
+            "apps/shots/photo-quest/04.jpg",
+            "apps/shots/photo-quest/05.jpg"
+        ]
+    },
+    {
+        "id": "model-bench",
+        "slug": "model-bench",
+        "icon": "apps/model-bench.png",
+        "page": "apps/model-bench.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Model Bench",
+            "ko": "모델 벤치",
+            "ja": "モデル・ベンチ",
+            "es": "Model Bench",
+            "pt-BR": "Model Bench"
+        },
+        "tagline": {
+            "en": "Build the kits. Rebuild the town.",
+            "ko": "키트를 조립하고, 마을을 다시 세우세요.",
+            "ja": "キットを組み立てて、町を再建しよう。",
+            "es": "Arma los kits. Reconstruye el pueblo.",
+            "pt-BR": "Monte os kits. Reconstrua a cidade."
+        },
+        "desc": {
+            "en": "Grandpa Walt spent forty years building Little Hollow, a model of his hometown that filled the attic, until the roof leaked. Now the family wants the attic cleared by spring, but you have found his bench log, with a story behind every building and car. Take parts from the sprue and drop them onto the glowing ghost without wasting glue on wrong pieces, then paint each part and place the model in town. 96 kits across eight districts, from Main Street to the garage, plus a Daily Kit, and one drawing of a building that was never in the real town.",
+            "ko": "월트 할아버지는 40년 동안 다락방을 가득 채운 고향 마을 모형 '리틀 할로'를 만들었지만, 지붕에서 비가 새고 말았습니다. 가족은 봄까지 다락방을 비우려 하지만, 당신은 건물과 자동차마다 사연이 적힌 할아버지의 작업 일지를 찾아냅니다. 런너에서 부품을 떼어 빛나는 윤곽 위에 끼우되, 잘못된 부품으로 접착제를 낭비하지 마세요. 그런 다음 부품마다 색을 칠하고 모형을 마을에 놓으세요. 메인 스트리트부터 차고까지 여덟 구역의 키트 96개와 데일리 키트, 그리고 실제 마을에는 없던 건물을 그린 그림 한 장이 기다립니다.",
+            "ja": "ウォルトじいちゃんは40年かけて、屋根裏いっぱいに故郷の町の模型「リトル・ホロウ」を作った。ところが屋根から雨漏りが。家族は春までに屋根裏を片づけたいが、あなたは建物や車ごとに物語が綴られた彼の作業日誌を見つける。ランナーから部品を取り、光るガイドの位置にはめよう。間違った部品で接着剤を無駄にしないように。それから部品を塗装し、模型を町に置く。メインストリートからガレージまで8つの地区で96のキット、デイリーキット、そして実際の町にはなかった建物を描いた1枚の絵。",
+            "es": "El abuelo Walt pasó cuarenta años construyendo Little Hollow, una maqueta de su pueblo natal que llenaba el ático, hasta que el techo empezó a gotear. La familia quiere vaciar el ático antes de la primavera, pero encontraste su bitácora del banco de trabajo, con una historia detrás de cada edificio y cada auto. Coloca las piezas de la colada sobre la silueta brillante sin gastar pegamento en piezas equivocadas, pinta cada parte y pon la maqueta en el pueblo. 96 kits en ocho distritos, de Main Street al garaje, un Kit Diario y un dibujo de un edificio que nunca existió en el pueblo real.",
+            "pt-BR": "O vovô Walt passou quarenta anos construindo Little Hollow, uma maquete da cidade natal que enchia o sótão, até o telhado começar a vazar. A família quer o sótão vazio até a primavera, mas você encontrou o diário de bancada dele, com uma história por trás de cada prédio e cada carro. Encaixe as peças do galho na silhueta brilhante sem gastar cola com peças erradas, pinte cada parte e coloque a maquete na cidade. São 96 kits em oito bairros, da Main Street à garagem, um Kit Diário e um desenho de um prédio que nunca existiu na cidade real."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/modelbenchlog",
+        "screenshots": [
+            "apps/shots/model-bench/01.jpg",
+            "apps/shots/model-bench/02.jpg",
+            "apps/shots/model-bench/03.jpg",
+            "apps/shots/model-bench/04.jpg",
+            "apps/shots/model-bench/05.jpg"
+        ]
+    },
+    {
+        "id": "mini-paint",
+        "slug": "mini-paint",
+        "icon": "apps/mini-paint.png",
+        "page": "apps/mini-paint.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Mini Paint",
+            "ko": "미니 페인트",
+            "ja": "ミニ・ペイント",
+            "es": "Mini Paint",
+            "pt-BR": "Mini Paint"
+        },
+        "tagline": {
+            "en": "Mix the colours. Paint the heroes.",
+            "ko": "색을 섞고, 영웅들을 칠하세요.",
+            "ja": "色を混ぜて、ヒーローを塗ろう。",
+            "es": "Mezcla los colores. Pinta a los héroes.",
+            "pt-BR": "Misture as cores. Pinte os heróis."
+        },
+        "desc": {
+            "en": "The Ironvale Hobby Club has entered the Golden Brush miniature painting contest every year for forty years and never won. This year they have you, and an old ledger of paint recipes left by the club's founder, Old Wren. Each commission names a colour scheme for a mini's cloak, boots or blade. Add drops from five paint pots, watch the match grow and paint the part once it reaches 90 %. 60 commissions over six rounds, from the village hall to the final in the capital, on nine real 3D minis, plus a Daily Commission.",
+            "ko": "아이언베일 취미 클럽은 40년 동안 해마다 미니어처 도색 대회 '골든 브러시'에 나갔지만 한 번도 이기지 못했습니다. 올해는 새 회원인 당신과, 클럽 창립자 올드 렌이 남긴 낡은 물감 레시피 장부가 있습니다. 의뢰마다 미니어처의 망토, 장화, 칼날에 칠할 색 조합이 정해져 있습니다. 다섯 개의 물감 통에서 방울을 더해 일치율을 높이고, 90 %에 닿으면 그 부분을 칠하세요. 마을 회관부터 수도의 결승까지 여섯 라운드에 걸친 60개의 의뢰, 실제 3D 미니어처 9종, 그리고 데일리 의뢰가 있습니다.",
+            "ja": "アイアンベイル・ホビークラブは40年間、毎年ミニチュア塗装コンテスト「ゴールデンブラシ」に出場してきたが、一度も勝ったことがない。今年は新メンバーのあなたと、創設者オールド・レンが残した古い塗料レシピの台帳がある。依頼ごとにミニチュアのマント、ブーツ、刃の配色が指定される。5つの塗料ポットから一滴ずつ加え、一致度が90 %に届いたらそのパーツを塗ろう。村の集会所から首都での決勝まで6ラウンドで60の依頼、9体の本格3Dミニチュア、そしてデイリー依頼。",
+            "es": "El Club de Modelismo de Ironvale lleva cuarenta años inscribiéndose cada año en el Pincel Dorado, el gran concurso de pintura de miniaturas, y nunca ha ganado. Este año te tienen a ti y un viejo libro de recetas de pintura que dejó el fundador del club, Old Wren. Cada encargo indica una combinación de colores para la capa, las botas o la espada de una miniatura. Añade gotas de cinco botes de pintura, mira cómo sube la coincidencia y pinta la parte al llegar al 90 %. 60 encargos en seis rondas, del salón del pueblo a la final en la capital, con nueve miniaturas 3D reales y un Encargo Diario.",
+            "pt-BR": "O Clube de Hobby de Ironvale participa todo ano, há quarenta anos, do Pincel de Ouro, o grande concurso de pintura de miniaturas, e nunca venceu. Este ano eles têm você e um velho livro de receitas de tinta deixado pelo fundador do clube, Old Wren. Cada encomenda define um esquema de cores para a capa, as botas ou a lâmina de uma miniatura. Adicione gotas de cinco potes de tinta, veja a combinação crescer e pinte a parte ao chegar a 90 %. São 60 encomendas em seis rodadas, do salão da vila à final na capital, com nove miniaturas 3D reais e uma Encomenda Diária."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/minipaintledger",
+        "screenshots": [
+            "apps/shots/mini-paint/01.jpg",
+            "apps/shots/mini-paint/02.jpg",
+            "apps/shots/mini-paint/03.jpg",
+            "apps/shots/mini-paint/04.jpg",
+            "apps/shots/mini-paint/05.jpg"
+        ]
+    },
+    {
+        "id": "mend-and-make",
+        "slug": "mend-and-make",
+        "icon": "apps/mend-and-make.png",
+        "page": "apps/mend-and-make.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Mend and Make",
+            "ko": "멘드 앤 메이크",
+            "ja": "メンド・アンド・メイク",
+            "es": "Mend and Make",
+            "pt-BR": "Mend and Make"
+        },
+        "tagline": {
+            "en": "Every torn coat has a story. Patch it. Stitch it. Give it back.",
+            "ko": "찢어진 코트마다 사연이 있습니다. 덧대고, 꿰매고, 돌려주세요.",
+            "ja": "破れたコートには、それぞれの物語がある。当て布をして、縫って、返そう。",
+            "es": "Cada abrigo roto tiene una historia. Ponle un parche. Cóselo. Devuélvelo.",
+            "pt-BR": "Cada casaco rasgado tem uma história. Remende. Costure. Devolva."
+        },
+        "desc": {
+            "en": "Dona Amélia ran the little repair stall in Lisbon's covered market for forty-one years, and now the key is yours. People bring the clothes that matter to them, and each job is a hole to fill exactly with fabric patch pieces, turning them to fit and leaving out spares that do not belong. Then trace the chalk line to stitch it and hear why the piece matters. 100 repairs over five seasons, thirty regular customers and one grey wool coat with notes in the lining that go back to 1974.",
+            "ko": "도나 아멜리아는 리스본 실내 시장의 작은 수선 가판대를 41년 동안 운영했고, 이제 그 열쇠는 당신의 것입니다. 사람들은 소중한 옷을 가져오고, 일감마다 구멍이 하나씩 있습니다. 천 조각을 돌려 가며 구멍을 정확히 메우고, 맞지 않는 여분 조각은 빼세요. 그런 다음 분필 선을 따라 바느질하고 그 옷이 왜 소중한지 들어 보세요. 다섯 계절에 걸친 100건의 수선, 30명의 단골손님, 그리고 1974년부터의 쪽지가 안감에 들어 있는 회색 울 코트 한 벌이 기다립니다.",
+            "ja": "ドナ・アメリアはリスボンの屋内市場で小さな修繕屋台を41年間営んできた。今、その鍵はあなたのもの。人々は大切な服を持ち込み、仕事ごとにひとつの穴がある。布のパッチを回して穴をぴったり埋め、合わない余りのピースは外そう。それからチョークの線をなぞって縫い、その服がなぜ大切なのかを聞こう。5つの季節で100件の修繕、30人の常連客、そして1974年までさかのぼるメモが裏地に隠された灰色のウールコート。",
+            "es": "Dona Amélia atendió el pequeño puesto de arreglos del mercado cubierto de Lisboa durante cuarenta y un años, y ahora la llave es tuya. La gente trae la ropa que le importa, y cada trabajo es un agujero que hay que llenar exactamente con piezas de tela, girándolas para que encajen y dejando fuera las que sobran. Luego sigue la línea de tiza para coser y escucha por qué esa prenda importa. 100 arreglos en cinco temporadas, treinta clientes habituales y un abrigo de lana gris con notas en el forro que se remontan a 1974.",
+            "pt-BR": "Dona Amélia cuidou da pequena banca de consertos do mercado coberto de Lisboa por quarenta e um anos, e agora a chave é sua. As pessoas trazem as roupas que importam para elas, e cada trabalho é um buraco a ser preenchido exatamente com retalhos de tecido, girando as peças para encaixar e deixando de fora as que sobram. Depois siga a linha de giz para costurar e ouça por que aquela peça importa. São 100 consertos em cinco estações, trinta clientes fiéis e um casaco cinza de lã com bilhetes no forro que remontam a 1974."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/mendandmake",
+        "screenshots": [
+            "apps/shots/mend-and-make/01.jpg",
+            "apps/shots/mend-and-make/02.jpg",
+            "apps/shots/mend-and-make/03.jpg",
+            "apps/shots/mend-and-make/04.jpg",
+            "apps/shots/mend-and-make/05.jpg"
+        ]
+    },
+    {
+        "id": "letterform-lab",
+        "slug": "letterform-lab",
+        "icon": "apps/letterform-lab.png",
+        "page": "apps/letterform-lab.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Letterform Lab",
+            "ko": "레터폼 랩",
+            "ja": "レターフォーム・ラボ",
+            "es": "Letterform Lab",
+            "pt-BR": "Letterform Lab"
+        },
+        "tagline": {
+            "en": "Trace the strokes. Light up the pier.",
+            "ko": "획을 따라 그리고, 부두에 불을 밝히세요.",
+            "ja": "筆の線をなぞって、桟橋に灯りをともそう。",
+            "es": "Sigue los trazos. Ilumina el muelle.",
+            "pt-BR": "Siga os traços. Ilumine o píer."
+        },
+        "desc": {
+            "en": "Seabright Pier was famous for hand-painted signs, every one lettered by Augusta Vane. Ten years ago she vanished and the shops put up plastic. Now her brushes, her lettering book and a note have come to you. Each shop gives you a word, a style and a ground colour, and you paint it one letter at a time by following each stroke. Finish with a shadow, an outline or gold leaf and watch the shop light up. 120 signs over six districts, twelve lettering styles, and a gold letter hidden on every street that spells out what Augusta left you.",
+            "ko": "시브라이트 부두는 손으로 그린 간판으로 유명했고, 그 글씨는 모두 오거스타 베인의 솜씨였습니다. 10년 전 그녀가 사라지자 가게들은 플라스틱 간판을 달았습니다. 이제 그녀의 붓과 레터링 책, 그리고 쪽지 한 장이 당신에게 도착합니다. 가게마다 단어 하나와 글꼴, 바탕색을 주면, 획을 하나씩 따라 한 글자씩 칠하세요. 그림자나 외곽선, 금박으로 마무리하면 가게에 불이 켜집니다. 여섯 구역의 간판 120개, 열두 가지 레터링 스타일, 그리고 거리마다 숨겨진 금빛 글자가 오거스타가 남긴 말을 전해 줍니다.",
+            "ja": "シーブライト桟橋は手描き看板で有名で、その文字はすべてオーガスタ・ヴェインの手によるものだった。10年前に彼女が姿を消すと、店はプラスチックの看板に替えた。そして今、彼女の筆とレタリング帳、1枚のメモがあなたのもとに届く。店ごとに単語、書体、地の色が決まっている。ひと筆ずつなぞって1文字ずつ描こう。影、縁取り、金箔で仕上げれば店に灯りがともる。6つの地区に120枚の看板、12種類のレタリングスタイル、そして通りごとに隠された金の文字が、オーガスタの残した言葉を綴る。",
+            "es": "El muelle de Seabright era famoso por sus letreros pintados a mano, todos rotulados por Augusta Vane. Hace diez años ella desapareció y las tiendas pusieron plástico. Ahora te llegan sus pinceles, su libro de rotulación y una nota. Cada tienda te da una palabra, un estilo y un color de fondo, y la pintas letra por letra siguiendo cada trazo. Termina con una sombra, un contorno o pan de oro y mira cómo se ilumina la tienda. 120 letreros en seis distritos, doce estilos de rotulación y una letra dorada escondida en cada calle que revela lo que Augusta te dejó.",
+            "pt-BR": "O píer de Seabright era famoso pelas placas pintadas à mão, todas letreiradas por Augusta Vane. Há dez anos ela sumiu e as lojas trocaram tudo por plástico. Agora os pincéis dela, seu livro de letreiramento e um bilhete chegaram até você. Cada loja te dá uma palavra, um estilo e uma cor de fundo, e você pinta letra por letra seguindo cada traço. Finalize com sombra, contorno ou folha de ouro e veja a loja se acender. São 120 placas em seis bairros, doze estilos de letras e uma letra dourada escondida em cada rua que revela o que Augusta deixou para você."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/letterformlab",
+        "screenshots": [
+            "apps/shots/letterform-lab/01.jpg",
+            "apps/shots/letterform-lab/02.jpg",
+            "apps/shots/letterform-lab/03.jpg",
+            "apps/shots/letterform-lab/04.jpg",
+            "apps/shots/letterform-lab/05.jpg"
+        ]
+    },
+    {
+        "id": "fold-along",
+        "slug": "fold-along",
+        "icon": "apps/fold-along.png",
+        "page": "apps/fold-along.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Fold Along",
+            "ko": "폴드 얼롱",
+            "ja": "フォールド・アロング",
+            "es": "Fold Along",
+            "pt-BR": "Fold Along"
+        },
+        "tagline": {
+            "en": "Fold the paper. Match the shape. Bring the Paper Garden back.",
+            "ko": "종이를 접고, 모양을 맞추고, 종이 정원을 되살리세요.",
+            "ja": "紙を折り、形を合わせ、紙の庭をよみがえらせよう。",
+            "es": "Dobla el papel. Iguala la forma. Devuelve la vida al Jardín de Papel.",
+            "pt-BR": "Dobre o papel. Combine a forma. Traga o Jardim de Papel de volta."
+        },
+        "desc": {
+            "en": "A great wind has flattened the Paper Garden, and every crane, lantern and frog lies flat as a page. Your teacher hands you a square of patterned paper: fold it until it remembers what it was. Drag across dashed creases to fold the sheet and match a faint outline in as few folds as you can, with real layers that stack and turn over. 210 handmade folds across seven gardens, each with a keeper who knows something about the night the wind came, plus a Daily Fold every day.",
+            "ko": "거센 바람이 종이 정원을 휩쓸어, 학과 등불과 개구리가 모두 종이처럼 납작해졌습니다. 스승은 무늬 있는 정사각형 종이 한 장을 건네며 말합니다. 원래 모습을 기억할 때까지 접으라고. 점선 접는 선을 가로질러 드래그해 종이를 접고, 희미한 윤곽에 최대한 적은 횟수로 맞추세요. 종이는 실제로 겹치고 뒤집힙니다. 일곱 정원에 걸친 210개의 수작업 퍼즐이 있고, 정원마다 바람이 불던 밤에 대해 무언가를 아는 관리인이 있으며, 매일 데일리 폴드가 기다립니다.",
+            "ja": "大風が紙の庭を吹き荒らし、鶴も灯籠も蛙もページのように平らになってしまった。先生は模様入りの正方形の紙を手渡して言う。元の姿を思い出すまで折りなさい、と。点線の折り目をドラッグして紙を折り、うっすらとした輪郭にできるだけ少ない回数で合わせよう。紙は実際に重なり、裏返る。7つの庭に手作りの210問。どの庭にも、風が来た夜について何かを知る番人がいる。毎日のデイリーフォールドも。",
+            "es": "Un gran viento aplastó el Jardín de Papel, y cada grulla, farol y rana quedó plana como una hoja. Tu maestro te da un cuadrado de papel estampado: dóblalo hasta que recuerde lo que era. Arrastra sobre los pliegues punteados para doblar la hoja y hacerla coincidir con una silueta tenue con la menor cantidad de dobleces posible, con capas reales que se apilan y se dan vuelta. 210 dobleces hechos a mano en siete jardines, cada uno con un guardián que sabe algo de la noche en que llegó el viento, y un Doblez Diario cada día.",
+            "pt-BR": "Um grande vento achatou o Jardim de Papel, e cada grou, lanterna e sapo ficou plano como uma página. Seu mestre te entrega um quadrado de papel estampado: dobre até ele lembrar o que era. Arraste sobre os vincos tracejados para dobrar a folha e combinar com um contorno suave usando o menor número de dobras possível, com camadas reais que se empilham e viram. São 210 dobras feitas à mão em sete jardins, cada um com um guardião que sabe algo sobre a noite em que o vento chegou, e uma Dobra Diária todo dia."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/foldalong",
+        "screenshots": [
+            "apps/shots/fold-along/01.jpg",
+            "apps/shots/fold-along/02.jpg",
+            "apps/shots/fold-along/03.jpg",
+            "apps/shots/fold-along/04.jpg",
+            "apps/shots/fold-along/05.jpg"
+        ]
+    },
+    {
+        "id": "bird-notebook",
+        "slug": "bird-notebook",
+        "icon": "apps/bird-notebook.png",
+        "page": "apps/bird-notebook.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Bird Notebook",
+            "ko": "버드 노트북",
+            "ja": "バード・ノートブック",
+            "es": "Bird Notebook",
+            "pt-BR": "Bird Notebook"
+        },
+        "tagline": {
+            "en": "A birding year in Audubon's footsteps, one card at a time.",
+            "ko": "오듀본의 발자취를 따라가는 탐조의 한 해, 카드 한 장씩.",
+            "ja": "オーデュボンの足跡をたどるバードウォッチングの一年を、カード1枚ずつ。",
+            "es": "Un año de observación de aves tras los pasos de Audubon, carta a carta.",
+            "pt-BR": "Um ano de observação de aves seguindo os passos de Audubon, uma carta de cada vez."
+        },
+        "desc": {
+            "en": "Your great-aunt Margaret set out to see every bird John James Audubon painted in one year, and never finished. Her field notebook comes to you with a train ticket and a note: find Clara. In this solo card game, every card is a real plate from Audubon's The Birds of America, 112 birds in all. Each turn, play a bird into the forest, wetland or grassland, or use a habitat to gather food, draw cards or lay eggs. Follow Margaret's notes across 96 counts in twelve months, race three rival birders and uncover the story of Clara Beck.",
+            "ko": "고모할머니 마거릿은 존 제임스 오듀본이 그린 모든 새를 1년 안에 보겠다고 길을 나섰지만 끝내 마치지 못했습니다. 그녀의 현장 노트가 기차표 한 장, 그리고 클라라를 찾으라는 메모와 함께 당신에게 도착합니다. 이 1인용 카드 게임의 카드는 모두 오듀본의 『미국의 새』에 실린 실제 도판이며, 모두 112종입니다. 매 턴 숲, 습지, 초원에 새를 내려놓거나, 서식지를 사용해 먹이를 모으고 카드를 뽑거나 알을 낳으세요. 12개월 동안 96번의 조사를 거치며 마거릿의 기록을 따라가고, 세 명의 라이벌 탐조가와 경쟁하며 클라라 벡의 이야기를 밝혀내세요.",
+            "ja": "大叔母のマーガレットは、ジョン・ジェームズ・オーデュボンが描いたすべての鳥を1年で見ようと旅立ったが、果たせなかった。彼女のフィールドノートが、列車の切符と「クララを見つけて」という言葉とともに届く。このソロ用カードゲームのカードはすべて、オーデュボンの『アメリカの鳥類』に収められた実在の図版で、全112種。毎ターン、森、湿地、草原に鳥を出すか、生息地を使って餌を集め、カードを引き、卵を産む。12か月で96回の調査を通してマーガレットのメモをたどり、3人のライバルと競いながらクララ・ベックの物語を解き明かそう。",
+            "es": "Tu tía abuela Margaret se propuso ver en un año todas las aves que pintó John James Audubon, y nunca terminó. Su cuaderno de campo te llega con un boleto de tren y una nota: encuentra a Clara. En este juego de cartas en solitario, cada carta es una lámina real de The Birds of America de Audubon, 112 aves en total. En cada turno, juega un ave en el bosque, el humedal o la pradera, o usa un hábitat para juntar comida, robar cartas o poner huevos. Sigue las notas de Margaret en 96 conteos a lo largo de doce meses, compite con tres observadores rivales y descubre la historia de Clara Beck.",
+            "pt-BR": "Sua tia-avó Margaret decidiu ver em um ano todas as aves que John James Audubon pintou, e nunca terminou. O caderno de campo dela chega até você com uma passagem de trem e um bilhete: encontre Clara. Neste jogo de cartas solo, cada carta é uma prancha real de The Birds of America, de Audubon, com 112 aves no total. A cada turno, jogue uma ave na floresta, no brejo ou no campo, ou use um habitat para juntar comida, comprar cartas ou botar ovos. Siga as anotações de Margaret por 96 contagens ao longo de doze meses, dispute com três observadores rivais e descubra a história de Clara Beck."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/birdnotebook",
+        "screenshots": [
+            "apps/shots/bird-notebook/01.jpg",
+            "apps/shots/bird-notebook/02.jpg",
+            "apps/shots/bird-notebook/03.jpg",
+            "apps/shots/bird-notebook/04.jpg",
+            "apps/shots/bird-notebook/05.jpg"
+        ]
+    },
+    {
+        "id": "windowlight-stories",
+        "slug": "windowlight-stories",
+        "icon": "apps/windowlight-stories.png",
+        "page": "apps/windowlight-stories.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Windowlight Stories",
+            "ko": "윈도라이트 스토리즈",
+            "ja": "ウィンドウライト・ストーリーズ",
+            "es": "Windowlight Stories",
+            "pt-BR": "Windowlight Stories"
+        },
+        "tagline": {
+            "en": "Watch the windows. Piece together their lives.",
+            "ko": "창문을 지켜보며 그들의 삶을 맞춰 보세요.",
+            "ja": "窓を見つめて、住人たちの暮らしをつなぎ合わせよう。",
+            "es": "Observa las ventanas. Arma sus vidas pieza a pieza.",
+            "pt-BR": "Observe as janelas. Monte a vida de cada um."
+        },
+        "desc": {
+            "en": "June has just moved into a top-floor flat with a broken leg and a sketchbook. Across the street stands Juniper Court: eight flats, eight lives. Look into a flat at two times of day, flip between them and click everything that changed, from a missing fern to a cat asleep on the wrong rug. Every find adds a page to June's sketchbook. Forty little stories cross from window to window, a widower, a night baker, a ninety-year-old piano teacher, and all of them lead to one evening in the courtyard.",
+            "ko": "다리를 다친 준은 스케치북 한 권을 들고 꼭대기 층 집으로 막 이사했습니다. 길 건너편에는 여덟 가구, 여덟 개의 삶이 있는 주니퍼 코트가 서 있습니다. 하루 중 두 시간대의 집 안을 번갈아 보며 달라진 것을 모두 클릭하세요. 사라진 고사리 화분부터 엉뚱한 러그 위에서 잠든 고양이까지. 찾아낼 때마다 준의 스케치북에 한 페이지가 더해집니다. 홀아비, 밤의 제빵사, 아흔 살 피아노 선생님 등 마흔 개의 작은 이야기가 창문과 창문을 넘나들며, 모두 안뜰의 어느 저녁으로 이어집니다.",
+            "ja": "足を骨折したジューンは、スケッチブックを手に最上階の部屋へ越してきたばかり。通りの向かいにはジュニパー・コート。8つの部屋に8つの暮らし。一日のうち2つの時間帯の部屋を切り替えて見比べ、変わったものをすべてクリックしよう。消えたシダの鉢から、違うラグの上で眠る猫まで。見つけるたびにジューンのスケッチブックに1ページ増える。妻を亡くした男、夜のパン職人、90歳のピアノ教師。40の小さな物語が窓から窓へと交差し、やがて中庭のある夕べへとつながっていく。",
+            "es": "June acaba de mudarse a un departamento del último piso con una pierna rota y un cuaderno de dibujo. Al otro lado de la calle está Juniper Court: ocho departamentos, ocho vidas. Mira un departamento en dos momentos del día, alterna entre ellos y haz clic en todo lo que cambió, desde un helecho que ya no está hasta un gato dormido en la alfombra equivocada. Cada hallazgo suma una página al cuaderno de June. Cuarenta pequeñas historias se cruzan de ventana en ventana, un viudo, un panadero nocturno, un profesor de piano de noventa años, y todas llevan a una noche en el patio.",
+            "pt-BR": "June acabou de se mudar para um apartamento no último andar com uma perna quebrada e um caderno de desenho. Do outro lado da rua fica o Juniper Court: oito apartamentos, oito vidas. Olhe um apartamento em dois horários do dia, alterne entre eles e clique em tudo o que mudou, de uma samambaia que sumiu a um gato dormindo no tapete errado. Cada descoberta acrescenta uma página ao caderno de June. Quarenta pequenas histórias se cruzam de janela em janela, um viúvo, um padeiro da madrugada, um professor de piano de noventa anos, e todas levam a uma noite no pátio."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/windowlightstories",
+        "screenshots": [
+            "apps/shots/windowlight-stories/01.jpg",
+            "apps/shots/windowlight-stories/02.jpg",
+            "apps/shots/windowlight-stories/03.jpg",
+            "apps/shots/windowlight-stories/04.jpg",
+            "apps/shots/windowlight-stories/05.jpg"
+        ]
+    },
+    {
+        "id": "suitcase-stories",
+        "slug": "suitcase-stories",
+        "icon": "apps/suitcase-stories.png",
+        "page": "apps/suitcase-stories.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Suitcase Stories",
+            "ko": "수트케이스 스토리즈",
+            "ja": "スーツケース・ストーリーズ",
+            "es": "Suitcase Stories",
+            "pt-BR": "Suitcase Stories"
+        },
+        "tagline": {
+            "en": "Every lost suitcase is a journey. Unpack it.",
+            "ko": "잃어버린 여행 가방 하나하나가 여정입니다. 풀어 보세요.",
+            "ja": "迷子のスーツケースは、どれもひとつの旅。荷ほどきしよう。",
+            "es": "Cada maleta perdida es un viaje. Desempácala.",
+            "pt-BR": "Cada mala perdida é uma viagem. Desfaça-a."
+        },
+        "desc": {
+            "en": "Aunt Rosa runs a little shop in the harbour town of Porto Alba, buying the suitcases nobody came back for, and now she has handed you the keys. Unzip each case, move things aside, look closer at ticket stubs and ring boxes, and work out who packed it, where they were going and why. Thirty handwritten stories run across five collections, from a honeymoon to a polar expedition. Through them all runs an old leather suitcase full of letters a woman keeps writing to herself from twelve cities. Find out why she is travelling.",
+            "ko": "로사 이모는 항구 마을 포르투 알바에서 아무도 찾으러 오지 않은 여행 가방을 사들이는 작은 가게를 운영하고, 이제 그 열쇠를 당신에게 맡겼습니다. 가방마다 지퍼를 열고 물건을 치우며, 기차표 조각과 반지 상자를 자세히 살펴보고, 누가 짐을 쌌는지, 어디로 가던 길이었는지, 왜였는지 추리하세요. 신혼여행부터 극지 탐험까지 다섯 묶음에 걸친 서른 개의 손글씨 사연이 있습니다. 그 모두를 관통하는 것은, 한 여인이 열두 도시에서 자신에게 계속 써 보낸 편지로 가득한 낡은 가죽 가방입니다. 그녀가 왜 여행하는지 알아내세요.",
+            "ja": "ローザおばさんは港町ポルト・アルバで、誰も引き取りに来なかったスーツケースを買い取る小さな店を営んでいる。そして今、店の鍵をあなたに託した。ケースのファスナーを開け、中身をよけ、半券や指輪の箱をじっくり調べて、誰が荷造りしたのか、どこへ向かっていたのか、なぜなのかを推理しよう。新婚旅行から極地探検まで、5つのコレクションに手書きの30の物語。そのすべてを貫くのは、ある女性が12の都市から自分宛てに書き続けた手紙でいっぱいの古い革のスーツケース。彼女が旅をする理由を突き止めよう。",
+            "es": "La tía Rosa tiene una pequeña tienda en el pueblo portuario de Porto Alba, donde compra las maletas que nadie volvió a buscar, y ahora te entregó las llaves. Abre cada maleta, aparta las cosas, mira de cerca boletos y estuches de anillos, y descubre quién la empacó, adónde iba y por qué. Treinta historias escritas a mano recorren cinco colecciones, de una luna de miel a una expedición polar. A través de todas pasa una vieja maleta de cuero llena de cartas que una mujer se escribe a sí misma desde doce ciudades. Descubre por qué viaja.",
+            "pt-BR": "Tia Rosa tem uma lojinha na cidade portuária de Porto Alba, onde compra as malas que ninguém voltou para buscar, e agora entregou as chaves a você. Abra cada mala, afaste as coisas, examine canhotos de passagem e caixinhas de anel, e descubra quem a arrumou, para onde ia e por quê. Trinta histórias escritas à mão se espalham por cinco coleções, de uma lua de mel a uma expedição polar. Atravessando todas elas está uma velha mala de couro cheia de cartas que uma mulher escreve para si mesma de doze cidades. Descubra por que ela está viajando."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/suitcasestories",
+        "screenshots": [
+            "apps/shots/suitcase-stories/01.jpg",
+            "apps/shots/suitcase-stories/02.jpg",
+            "apps/shots/suitcase-stories/03.jpg",
+            "apps/shots/suitcase-stories/04.jpg",
+            "apps/shots/suitcase-stories/05.jpg"
+        ]
+    },
+    {
+        "id": "paper-city-detective",
+        "slug": "paper-city-detective",
+        "icon": "apps/paper-city-detective.png",
+        "page": "apps/paper-city-detective.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Paper City Detective",
+            "ko": "페이퍼 시티 디텍티브",
+            "ja": "ペーパーシティ・ディテクティブ",
+            "es": "Paper City Detective",
+            "pt-BR": "Paper City Detective"
+        },
+        "tagline": {
+            "en": "In a city made of paper, the truth hides behind the next layer.",
+            "ko": "종이로 만든 도시에서, 진실은 다음 겹 뒤에 숨어 있습니다.",
+            "ja": "紙でできた街では、真実は次の層の向こうに隠れている。",
+            "es": "En una ciudad de papel, la verdad se esconde tras la siguiente capa.",
+            "pt-BR": "Numa cidade de papel, a verdade se esconde atrás da próxima camada."
+        },
+        "desc": {
+            "en": "Foldbury is a city of card and glue, and you are Inspector Quill, its only detective. Somebody is snipping pieces out of the city at night: a clock hand, a bridge railing, a whole front door. Slide the back, middle and front paper layers of each scene to line up gaps, pin every clue on the cork board and name the culprit by counting the signs each suspect leaves. Thirty-two cases across eight districts, from Clocktower Lane to the forgotten Lower Folds, lead to an old papermaker whose snips point somewhere nobody has looked in fifty years.",
+            "ko": "폴드버리는 판지와 풀로 만든 도시이고, 당신은 이 도시의 유일한 형사 퀼 경위입니다. 누군가 밤마다 도시의 조각을 오려 가고 있습니다. 시계 바늘, 다리 난간, 심지어 현관문 하나까지. 장면마다 뒤, 가운데, 앞의 종이 층을 밀어 틈을 맞추고, 단서를 모두 코르크판에 꽂은 뒤, 용의자마다 남긴 흔적을 세어 범인을 지목하세요. 시계탑 골목부터 잊힌 로어 폴즈까지 여덟 구역에 걸친 서른두 개의 사건은, 50년 동안 아무도 들여다보지 않은 곳을 가리키는 늙은 종이 장인에게로 이어집니다.",
+            "ja": "フォールドベリーは厚紙と糊でできた街。あなたはこの街ただひとりの探偵、クイル警部だ。夜ごと誰かが街の一部を切り取っていく。時計の針、橋の欄干、玄関のドアまるごと。各シーンの奥、中、手前の紙の層をスライドして隙間をそろえ、手がかりをすべてコルクボードにピンで留め、容疑者が残した痕跡を数えて犯人を指名しよう。時計塔通りから忘れられたロウワー・フォールズまで、8つの地区で32の事件。その先には、50年間誰も目を向けなかった場所を指し示す老紙職人がいる。",
+            "es": "Foldbury es una ciudad de cartón y pegamento, y tú eres el inspector Quill, su único detective. Alguien recorta pedazos de la ciudad por la noche: una manecilla de reloj, una baranda de puente, una puerta entera. Desliza las capas de papel del fondo, del medio y del frente de cada escena para alinear huecos, clava cada pista en el tablero de corcho y nombra al culpable contando las señales que deja cada sospechoso. Treinta y dos casos en ocho distritos, de Clocktower Lane a los olvidados Lower Folds, llevan a un viejo fabricante de papel cuyos recortes apuntan a un lugar que nadie mira desde hace cincuenta años.",
+            "pt-BR": "Foldbury é uma cidade de papelão e cola, e você é o Inspetor Quill, o único detetive dela. Alguém está recortando pedaços da cidade à noite: um ponteiro de relógio, um corrimão de ponte, uma porta inteira. Deslize as camadas de papel do fundo, do meio e da frente de cada cena para alinhar as frestas, prenda cada pista no quadro de cortiça e aponte o culpado contando os sinais que cada suspeito deixa. São trinta e dois casos em oito bairros, de Clocktower Lane aos esquecidos Lower Folds, levando a um velho papeleiro cujos recortes apontam para um lugar que ninguém olha há cinquenta anos."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/papercitydetective",
+        "screenshots": [
+            "apps/shots/paper-city-detective/01.jpg",
+            "apps/shots/paper-city-detective/02.jpg",
+            "apps/shots/paper-city-detective/03.jpg",
+            "apps/shots/paper-city-detective/04.jpg",
+            "apps/shots/paper-city-detective/05.jpg"
+        ]
+    },
+    {
+        "id": "midnight-museum-cases",
+        "slug": "midnight-museum-cases",
+        "icon": "apps/midnight-museum-cases.png",
+        "page": "apps/midnight-museum-cases.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Midnight Museum Cases",
+            "ko": "미드나잇 뮤지엄 케이스",
+            "ja": "ミッドナイト・ミュージアム・ケース",
+            "es": "Midnight Museum Cases",
+            "pt-BR": "Midnight Museum Cases"
+        },
+        "tagline": {
+            "en": "After closing, the exhibits move.",
+            "ko": "폐관 후, 전시품이 움직입니다.",
+            "ja": "閉館後、展示品が動き出す。",
+            "es": "Después del cierre, las piezas se mueven.",
+            "pt-BR": "Depois que o museu fecha, as peças se movem."
+        },
+        "desc": {
+            "en": "You are the new night custodian at the Hawthorne Museum. Every night something rearranges a gallery, a bronze cat on the samurai's plinth, a hippopotamus napping on a bench, but nothing is ever stolen. Sweep the dark with your torch, find what moved and return each artifact to the glass case whose plaque describes it. Every object is a real piece from The Metropolitan Museum of Art's Open Access program, 104 Curator Cards in all. Six galleries and thirty nights lead to a riddle the founder left in 1911 that nobody ever solved.",
+            "ko": "당신은 호손 박물관의 새 야간 관리인입니다. 밤마다 무언가가 전시실을 뒤바꿔 놓습니다. 사무라이 받침대 위의 청동 고양이, 벤치에서 낮잠 자는 하마. 하지만 도난당한 것은 하나도 없습니다. 손전등으로 어둠을 비추며 옮겨진 것을 찾고, 놋쇠 명판의 설명에 맞는 유리 진열장에 유물을 하나씩 되돌려 놓으세요. 모든 유물은 메트로폴리탄 미술관 오픈 액세스 프로그램의 실제 소장품이며, 큐레이터 카드는 모두 104장입니다. 여섯 전시실과 서른 번의 밤은 1911년 설립자가 남긴, 아무도 풀지 못한 수수께끼로 이어집니다.",
+            "ja": "あなたはホーソーン博物館の新しい夜間管理人。毎晩、何かが展示室を並べ替えていく。侍の台座に青銅の猫、ベンチで昼寝するカバ。それでも盗まれたものは何ひとつない。懐中電灯で暗闇を照らして動かされたものを見つけ、真鍮のプレートの説明に合うガラスケースへ遺物を戻そう。展示品はすべてメトロポリタン美術館のオープンアクセスによる実物で、キュレーターカードは全104枚。6つの展示室と30の夜の先には、1911年に創設者が残し、誰も解けなかった謎が待つ。",
+            "es": "Eres el nuevo custodio nocturno del Museo Hawthorne. Cada noche algo reorganiza una sala, un gato de bronce en el pedestal del samurái, un hipopótamo durmiendo la siesta en un banco, pero nunca se roban nada. Recorre la oscuridad con tu linterna, encuentra lo que se movió y devuelve cada artefacto a la vitrina cuya placa lo describe. Cada objeto es una pieza real del programa Open Access de The Metropolitan Museum of Art, 104 Cartas de Curador en total. Seis salas y treinta noches llevan a un acertijo que el fundador dejó en 1911 y que nadie resolvió jamás.",
+            "pt-BR": "Você é o novo vigia noturno do Museu Hawthorne. Toda noite algo rearruma uma galeria, um gato de bronze no pedestal do samurai, um hipopótamo cochilando num banco, mas nada é roubado. Varra o escuro com sua lanterna, encontre o que mudou de lugar e devolva cada artefato à vitrine cuja placa o descreve. Cada objeto é uma peça real do programa Open Access do The Metropolitan Museum of Art, com 104 Cartas de Curador no total. Seis galerias e trinta noites levam a um enigma que o fundador deixou em 1911 e que ninguém nunca resolveu."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/midnightmuseumcases",
+        "screenshots": [
+            "apps/shots/midnight-museum-cases/01.jpg",
+            "apps/shots/midnight-museum-cases/02.jpg",
+            "apps/shots/midnight-museum-cases/03.jpg",
+            "apps/shots/midnight-museum-cases/04.jpg",
+            "apps/shots/midnight-museum-cases/05.jpg"
+        ]
+    },
+    {
+        "id": "market-morning-mystery",
+        "slug": "market-morning-mystery",
+        "icon": "apps/market-morning-mystery.png",
+        "page": "apps/market-morning-mystery.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Market Morning Mystery",
+            "ko": "마켓 모닝 미스터리",
+            "ja": "マーケット・モーニング・ミステリー",
+            "es": "Market Morning Mystery",
+            "pt-BR": "Market Morning Mystery"
+        },
+        "tagline": {
+            "en": "Find every lost delivery before the market opens.",
+            "ko": "시장이 열리기 전에 잘못 간 배달품을 모두 찾으세요.",
+            "ja": "市場が開く前に、迷子の配達品をすべて見つけよう。",
+            "es": "Encuentra cada entrega perdida antes de que abra el mercado.",
+            "pt-BR": "Encontre cada entrega perdida antes de o mercado abrir."
+        },
+        "desc": {
+            "en": "You are the new warden of Puddingstone Market. Every dawn the deliveries arrive mixed up, cheese at the bakery, carrots on a café table, a cherry pie on the waffle stand, and you sort it out before the opening bell. Look over a little 3D market square from above, move around and zoom in, then find the one item that is out of place. Over forty mornings the deliveries keep going wrong in the same odd way. Meet the vendors, follow crumbs and a blue ribbon, and find out who has been moving the bread, and why.",
+            "ko": "당신은 퍼딩스톤 시장의 새 관리인입니다. 새벽마다 배달품이 뒤죽박죽 도착합니다. 빵집에 치즈가, 카페 테이블에 당근이, 와플 가판대에 체리 파이가. 개장 종이 울리기 전에 바로잡으세요. 작은 3D 시장 광장을 위에서 내려다보며 이리저리 움직이고 확대해, 제자리에 있지 않은 물건을 찾으세요. 마흔 번의 아침 동안 배달은 늘 같은 이상한 방식으로 엇나갑니다. 상인들을 만나고, 빵 부스러기와 파란 리본을 따라가, 누가 왜 빵을 옮기고 있는지 밝혀내세요.",
+            "ja": "あなたはパディングストーン市場の新しい管理人。夜明けごとに配達品がごちゃまぜで届く。パン屋にチーズ、カフェのテーブルにニンジン、ワッフル屋台にチェリーパイ。開場の鐘までに片づけよう。小さな3Dの市場広場を上から見渡し、動き回ってズームし、場違いな品を見つけ出す。40の朝のあいだ、配達はいつも同じ妙な形で狂う。商人たちに会い、パンくずと青いリボンをたどって、誰がなぜパンを動かしているのかを突き止めよう。",
+            "es": "Eres el nuevo encargado del Mercado Puddingstone. Cada amanecer las entregas llegan revueltas, queso en la panadería, zanahorias en una mesa del café, un pastel de cerezas en el puesto de waffles, y tienes que ordenarlas antes de la campana de apertura. Mira una pequeña plaza de mercado en 3D desde arriba, muévete y acerca la vista para encontrar el artículo fuera de lugar. Durante cuarenta mañanas, las entregas fallan siempre de la misma forma extraña. Conoce a los vendedores, sigue migas y un listón azul, y descubre quién ha estado moviendo el pan, y por qué.",
+            "pt-BR": "Você é o novo zelador do Mercado Puddingstone. Todo amanhecer as entregas chegam trocadas, queijo na padaria, cenouras numa mesa do café, uma torta de cereja na barraca de waffles, e você precisa arrumar tudo antes do sino de abertura. Olhe uma pequena praça de mercado em 3D de cima, ande por ela e aproxime a vista para achar o item fora do lugar. Por quarenta manhãs, as entregas dão errado sempre do mesmo jeito estranho. Conheça os vendedores, siga migalhas e uma fita azul, e descubra quem anda mudando o pão de lugar, e por quê."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/marketmorningmystery",
+        "screenshots": [
+            "apps/shots/market-morning-mystery/01.jpg",
+            "apps/shots/market-morning-mystery/02.jpg",
+            "apps/shots/market-morning-mystery/03.jpg",
+            "apps/shots/market-morning-mystery/04.jpg",
+            "apps/shots/market-morning-mystery/05.jpg"
+        ]
+    },
+    {
+        "id": "lost-and-found-desk",
+        "slug": "lost-and-found-desk",
+        "icon": "apps/lost-and-found-desk.png",
+        "page": "apps/lost-and-found-desk.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Lost and Found Desk",
+            "ko": "로스트 앤 파운드 데스크",
+            "ja": "ロスト・アンド・ファウンド・デスク",
+            "es": "Lost and Found Desk",
+            "pt-BR": "Lost and Found Desk"
+        },
+        "tagline": {
+            "en": "Every lost thing has a story. Send it home.",
+            "ko": "잃어버린 물건마다 사연이 있습니다. 주인에게 돌려보내세요.",
+            "ja": "落とし物には、それぞれの物語がある。持ち主のもとへ返そう。",
+            "es": "Cada objeto perdido tiene una historia. Devuélvelo a casa.",
+            "pt-BR": "Toda coisa perdida tem uma história. Mande-a de volta para casa."
+        },
+        "desc": {
+            "en": "You have taken the night shift at the Lost Property Office of Wrenfield Central, a grand old railway station. Owners come to the window with half-remembered descriptions, and the shelves hold three of everything. Turn each object front to back, read where it was found, look for a dent, a scratch or an initial, and return the right one. Fifty handwritten claims across five chapters each have their own small ending. On the first page of the ledger waits Item No. 1, a brass key unclaimed since 1974, and Ada Penhallow's margin notes lead to its owner.",
+            "ko": "당신은 웅장하고 오래된 기차역 렌필드 센트럴의 분실물 보관소에서 야간 근무를 맡았습니다. 주인들은 흐릿한 기억으로 물건을 설명하고, 선반에는 무엇이든 세 개씩 있습니다. 물건을 앞뒤로 돌려 보고, 어디서 발견되었는지 읽고, 움푹 팬 곳이나 긁힌 자국, 이니셜을 찾아 맞는 것을 돌려주세요. 다섯 챕터에 걸친 쉰 건의 손글씨 신청서에는 저마다 작은 결말이 있습니다. 장부 첫 페이지에는 1974년부터 주인이 나타나지 않은 놋쇠 열쇠, 분실물 1호가 기다리고, 에이다 펜할로의 여백 메모가 그 주인에게로 안내합니다.",
+            "ja": "あなたは由緒ある大きな鉄道駅、レンフィールド・セントラルの遺失物取扱所で夜勤に就いた。持ち主たちはうろ覚えの説明を手に窓口へやって来るが、棚には何でも3つずつある。品物を表から裏へ回し、どこで見つかったかを読み、へこみ、傷、イニシャルを探して、正しいものを返そう。5つの章に手書きの50件の申し出、それぞれに小さな結末がある。台帳の最初のページには、1974年から引き取り手のない真鍮の鍵、品番1が待ち、エイダ・ペンハロウの余白のメモがその持ち主へと導く。",
+            "es": "Tomaste el turno de noche en la Oficina de Objetos Perdidos de Wrenfield Central, una gran estación de tren antigua. Los dueños llegan a la ventanilla con descripciones a medio recordar, y en los estantes hay tres de todo. Gira cada objeto de frente y de espaldas, lee dónde se encontró, busca una abolladura, un rayón o una inicial, y devuelve el correcto. Cincuenta reclamos escritos a mano en cinco capítulos, cada uno con su propio pequeño final. En la primera página del registro espera el Artículo N.º 1, una llave de latón sin reclamar desde 1974, y las notas al margen de Ada Penhallow llevan hasta su dueño.",
+            "pt-BR": "Você assumiu o turno da noite no Achados e Perdidos da Wrenfield Central, uma grande e antiga estação de trem. Os donos chegam ao guichê com descrições meio esquecidas, e nas prateleiras há três de tudo. Gire cada objeto de frente e de costas, leia onde foi encontrado, procure um amassado, um arranhão ou uma inicial, e devolva o certo. São cinquenta pedidos escritos à mão em cinco capítulos, cada um com seu pequeno final. Na primeira página do livro de registros espera o Item Nº 1, uma chave de latão sem dono desde 1974, e as notas de margem de Ada Penhallow levam até quem é o dono."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/lostandfounddesk",
+        "screenshots": [
+            "apps/shots/lost-and-found-desk/01.jpg",
+            "apps/shots/lost-and-found-desk/02.jpg",
+            "apps/shots/lost-and-found-desk/03.jpg",
+            "apps/shots/lost-and-found-desk/04.jpg",
+            "apps/shots/lost-and-found-desk/05.jpg"
+        ]
+    },
+    {
+        "id": "garden-secrets",
+        "slug": "garden-secrets",
+        "icon": "apps/garden-secrets.png",
+        "page": "apps/garden-secrets.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Garden Secrets",
+            "ko": "가든 시크릿",
+            "ja": "ガーデン・シークレット",
+            "es": "Garden Secrets",
+            "pt-BR": "Garden Secrets"
+        },
+        "tagline": {
+            "en": "Thirty years of weeds. One grandmother's journal.",
+            "ko": "30년 묵은 잡초, 그리고 할머니의 일지 한 권.",
+            "ja": "30年分の雑草と、祖母の日誌が1冊。",
+            "es": "Treinta años de maleza. El diario de una abuela.",
+            "pt-BR": "Trinta anos de mato. O diário de uma avó."
+        },
+        "desc": {
+            "en": "Nell inherits her grandmother's walled garden at Hollowmere, untouched for thirty years. Under the brambles are paths, beds, a fountain and a locked summer house, and Grandma's journal says the garden is a map. Pull the weeds to find the plants from her botanical plates, plant beds to match her patterns and turn channel stones to bring water from the rain butt. Ten areas and forty journal pages restore memories, from a boy evacuated from London in 1940 to the keepsake Grandma left for Nell, illustrated with real plates from Curtis's Botanical Magazine.",
+            "ko": "넬은 30년 동안 아무도 손대지 않은 할로미어의 담장 정원을 할머니에게서 물려받습니다. 가시덤불 아래에는 오솔길과 화단, 분수, 잠긴 여름 별장이 있고, 할머니의 일지는 이 정원이 지도라고 말합니다. 잡초를 뽑아 할머니의 식물 도판 속 식물을 찾고, 일지의 무늬에 맞춰 화단을 꾸미고, 물길 돌을 돌려 빗물 통의 물을 끌어오세요. 열 곳의 구역과 마흔 페이지의 일지가 1940년 런던에서 피난 온 소년부터 할머니가 넬에게 남긴 유품까지 기억을 되살리며, 일지는 커티스 식물 잡지의 실제 도판으로 꾸며져 있습니다.",
+            "ja": "ネルは、30年間手つかずだったホロウミアの塀に囲まれた庭を祖母から受け継ぐ。イバラの下には小道、花壇、噴水、鍵のかかったサマーハウス。祖母の日誌には、この庭は地図だと書かれている。雑草を抜いて植物画に描かれた草花を見つけ、日誌の模様どおりに花壇を植え、水路の石を回して雨水樽から水を引こう。10のエリアと40ページの日誌が、1940年にロンドンから疎開してきた少年から祖母がネルに遺した形見まで、記憶をよみがえらせる。日誌を彩るのは『カーティス・ボタニカル・マガジン』の実在の図版。",
+            "es": "Nell hereda el jardín amurallado de su abuela en Hollowmere, intacto desde hace treinta años. Bajo las zarzas hay senderos, canteros, una fuente y una casa de verano cerrada con llave, y el diario de la abuela dice que el jardín es un mapa. Arranca la maleza para encontrar las plantas de sus láminas botánicas, siembra los canteros según sus patrones y gira las piedras del canal para traer agua del barril de lluvia. Diez áreas y cuarenta páginas del diario devuelven recuerdos, desde un niño evacuado de Londres en 1940 hasta la reliquia que la abuela dejó para Nell, ilustrados con láminas reales de Curtis's Botanical Magazine.",
+            "pt-BR": "Nell herda o jardim murado da avó em Hollowmere, intocado há trinta anos. Sob os espinheiros há caminhos, canteiros, uma fonte e uma casa de verão trancada, e o diário da vovó diz que o jardim é um mapa. Arranque o mato para achar as plantas das pranchas botânicas dela, plante os canteiros conforme os padrões e gire as pedras do canal para trazer água do barril de chuva. Dez áreas e quarenta páginas do diário trazem memórias de volta, de um menino evacuado de Londres em 1940 à lembrança que a vovó deixou para Nell, ilustradas com pranchas reais da Curtis's Botanical Magazine."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/gardensecrets",
+        "screenshots": [
+            "apps/shots/garden-secrets/01.jpg",
+            "apps/shots/garden-secrets/02.jpg",
+            "apps/shots/garden-secrets/03.jpg",
+            "apps/shots/garden-secrets/04.jpg",
+            "apps/shots/garden-secrets/05.jpg"
+        ]
+    },
+    {
+        "id": "clockwork-postcards",
+        "slug": "clockwork-postcards",
+        "icon": "apps/clockwork-postcards.png",
+        "page": "apps/clockwork-postcards.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Clockwork Postcards",
+            "ko": "클록워크 포스트카드",
+            "ja": "クロックワーク・ポストカード",
+            "es": "Clockwork Postcards",
+            "pt-BR": "Clockwork Postcards"
+        },
+        "tagline": {
+            "en": "Turn the gears, and each card comes to life.",
+            "ko": "톱니바퀴를 돌리면 엽서가 살아 움직입니다.",
+            "ja": "歯車を回せば、絵はがきが動き出す。",
+            "es": "Gira los engranajes y cada postal cobra vida.",
+            "pt-BR": "Gire as engrenagens e cada cartão-postal ganha vida."
+        },
+        "desc": {
+            "en": "Behind Grandma's hall clock, stopped since 1899, you find a tin of twenty postcards from great-great-uncle Tobias, the clockmaker. Each has a tiny brass mechanism set into it: rings to turn, stamps to slide, linked gear panels, map routes and a cipher wheel. Line everything up and the picture comes alive before the card turns over to show his letter. The postcards are real photochrom prints from around 1890 to 1905, from Venice to the Norwegian fjords. They follow Tobias across Europe after his best clock design was stolen, and the last card explains why he never came home.",
+            "ko": "1899년에 멈춘 할머니의 괘종시계 뒤에서, 시계공이었던 증조할아버지의 형제 토비아스가 보낸 엽서 스무 장이 든 깡통을 발견합니다. 엽서마다 작은 놋쇠 장치가 박혀 있습니다. 돌리는 고리, 밀어 맞추는 우표, 맞물린 톱니 패널, 지도 경로, 암호 바퀴. 모두 맞추면 그림이 살아 움직이고, 엽서가 뒤집혀 그의 편지가 나타납니다. 엽서는 1890년부터 1905년경까지의 실제 포토크롬 인쇄물로, 베네치아부터 노르웨이 피오르까지 이어집니다. 최고의 시계 설계를 도둑맞은 토비아스를 따라 유럽을 가로지르면, 마지막 엽서가 그가 끝내 집에 돌아오지 않은 이유를 알려 줍니다.",
+            "ja": "1899年に止まったままの祖母の玄関時計の裏から、時計職人だった曾祖父の兄弟トビアスの絵はがき20枚が入った缶を見つける。どのはがきにも小さな真鍮の仕掛けが組み込まれている。回すリング、スライドする切手、連動する歯車パネル、地図のルート、暗号ホイール。すべてをそろえると絵が動き出し、はがきが裏返って彼の手紙が現れる。はがきは1890年から1905年ごろの実在のフォトクローム印刷で、ヴェネツィアからノルウェーのフィヨルドまで。最高の時計の設計を盗まれたトビアスを追ってヨーロッパを巡り、最後のはがきで彼が帰らなかった理由が明かされる。",
+            "es": "Detrás del reloj del pasillo de la abuela, detenido desde 1899, encuentras una lata con veinte postales del tío bisabuelo Tobias, el relojero. Cada una lleva un pequeño mecanismo de latón: anillos que girar, estampillas que deslizar, paneles de engranajes enlazados, rutas en mapas y una rueda de cifrado. Alinea todo y la imagen cobra vida antes de que la postal se dé vuelta y muestre su carta. Las postales son fotocromos reales de alrededor de 1890 a 1905, de Venecia a los fiordos noruegos. Siguen a Tobias por Europa tras el robo de su mejor diseño de reloj, y la última explica por qué nunca volvió a casa.",
+            "pt-BR": "Atrás do relógio do corredor da vovó, parado desde 1899, você encontra uma lata com vinte cartões-postais do tio-bisavô Tobias, o relojoeiro. Cada um tem um pequeno mecanismo de latão: anéis para girar, selos para deslizar, painéis de engrenagens ligados, rotas em mapas e uma roda de cifra. Alinhe tudo e a imagem ganha vida antes de o cartão virar e mostrar a carta dele. Os cartões são fotocromos reais de cerca de 1890 a 1905, de Veneza aos fiordes noruegueses. Eles seguem Tobias pela Europa depois que seu melhor projeto de relógio foi roubado, e o último explica por que ele nunca voltou para casa."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/clockworkpostcards",
+        "screenshots": [
+            "apps/shots/clockwork-postcards/01.jpg",
+            "apps/shots/clockwork-postcards/02.jpg",
+            "apps/shots/clockwork-postcards/03.jpg",
+            "apps/shots/clockwork-postcards/04.jpg",
+            "apps/shots/clockwork-postcards/05.jpg"
+        ]
+    },
+    {
+        "id": "cabin-cluebook",
+        "slug": "cabin-cluebook",
+        "icon": "apps/cabin-cluebook.png",
+        "page": "apps/cabin-cluebook.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Cabin Cluebook",
+            "ko": "캐빈 클루북",
+            "ja": "キャビン・クルーブック",
+            "es": "Cabin Cluebook",
+            "pt-BR": "Cabin Cluebook"
+        },
+        "tagline": {
+            "en": "A lakeside cabin and the keepsake Grandma hid for you.",
+            "ko": "호숫가 오두막과, 할머니가 당신을 위해 숨겨 둔 유품.",
+            "ja": "湖畔のキャビンと、祖母があなたのために隠した形見。",
+            "es": "Una cabaña junto al lago y el recuerdo que la abuela escondió para ti.",
+            "pt-BR": "Uma cabana à beira do lago e a lembrança que a vovó escondeu para você."
+        },
+        "desc": {
+            "en": "Every summer of Lina's childhood was spent at Birchwater, Grandma Elin's cabin by the lake. Elin is gone now, and her will says only: \"The music box is where we sang.\" Every room is a real watercolour by Carl Larsson from his 1890s series \"A Home\", and Elin hid clues in her journals, photographs and keepsakes. Solve twenty-five gentle puzzles: match old photographs to where they were taken, use and combine keepsakes, and decode letters in the sisters' secret code. A family story of a wartime engagement and a sister who sailed to America and did not write for sixteen years leads you to the music box.",
+            "ko": "리나는 어린 시절 여름마다 엘린 할머니의 호숫가 오두막 버치워터에서 지냈습니다. 이제 엘린은 세상을 떠났고, 유언장에는 단 한 줄뿐입니다. \"오르골은 우리가 노래하던 곳에 있다.\" 모든 방은 칼 라르손이 1890년대에 그린 연작 「나의 집」의 실제 수채화이고, 엘린은 일지와 사진, 유품 곳곳에 단서를 숨겨 두었습니다. 옛 사진을 찍힌 장소와 맞추고, 유품을 사용하거나 조합하며, 자매의 비밀 암호로 쓴 편지를 해독하는 스물다섯 개의 잔잔한 퍼즐을 풀어 보세요. 전쟁 중의 약혼, 그리고 미국으로 떠나 16년 동안 편지 한 통 없던 자매의 가족 이야기가 오르골로 이끕니다.",
+            "ja": "リナは子どもの頃、毎年夏をエリンおばあちゃんの湖畔のキャビン、バーチウォーターで過ごした。エリンが亡くなった今、遺言にはこう書かれているだけ。「オルゴールは、私たちが歌った場所に」。どの部屋もカール・ラーションが1890年代に描いた連作『ある家』の実在の水彩画で、エリンは日誌、写真、形見のあちこちに手がかりを隠した。古い写真を撮影場所と照らし合わせ、形見を使ったり組み合わせたりし、姉妹の秘密の暗号で書かれた手紙を解読する、25の穏やかなパズル。戦時中の婚約、そしてアメリカへ渡り16年間手紙を書かなかった姉妹をめぐる家族の物語が、オルゴールへと導く。",
+            "es": "Lina pasó todos los veranos de su infancia en Birchwater, la cabaña junto al lago de la abuela Elin. Elin ya no está, y su testamento solo dice: \"La caja de música está donde cantábamos.\" Cada habitación es una acuarela real de Carl Larsson, de su serie \"Un hogar\" de la década de 1890, y Elin escondió pistas en sus diarios, fotografías y recuerdos. Resuelve veinticinco acertijos tranquilos: relaciona fotos antiguas con el lugar donde se tomaron, usa y combina objetos, y descifra cartas en el código secreto de las hermanas. Una historia familiar de un compromiso en tiempos de guerra y una hermana que zarpó a América y no escribió en dieciséis años te lleva hasta la caja de música.",
+            "pt-BR": "Lina passou todos os verões da infância em Birchwater, a cabana à beira do lago da vovó Elin. Elin se foi, e o testamento dela diz apenas: \"A caixinha de música está onde cantávamos.\" Cada cômodo é uma aquarela real de Carl Larsson, da série \"Um Lar\" dos anos 1890, e Elin escondeu pistas em seus diários, fotografias e lembranças. Resolva vinte e cinco quebra-cabeças tranquilos: associe fotos antigas ao lugar onde foram tiradas, use e combine objetos, e decifre cartas no código secreto das irmãs. Uma história de família, com um noivado em tempos de guerra e uma irmã que partiu para a América e passou dezesseis anos sem escrever, leva você até a caixinha de música."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/cabincluebook",
+        "screenshots": [
+            "apps/shots/cabin-cluebook/01.jpg",
+            "apps/shots/cabin-cluebook/02.jpg",
+            "apps/shots/cabin-cluebook/03.jpg",
+            "apps/shots/cabin-cluebook/04.jpg",
+            "apps/shots/cabin-cluebook/05.jpg"
+        ]
+    },
+    {
+        "id": "tiny-room-keys",
+        "slug": "tiny-room-keys",
+        "icon": "apps/tiny-room-keys.png",
+        "page": "apps/tiny-room-keys.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Tiny Room Keys",
+            "ko": "타이니 룸 키즈",
+            "ja": "タイニー・ルーム・キーズ",
+            "es": "Tiny Room Keys",
+            "pt-BR": "Tiny Room Keys"
+        },
+        "tagline": {
+            "en": "Each box holds a tiny room. Each room hides a way out.",
+            "ko": "상자마다 작은 방이 있고, 방마다 숨은 출구가 있습니다.",
+            "ja": "箱ごとに小さな部屋。部屋ごとに隠された出口。",
+            "es": "Cada caja guarda una habitación diminuta. Cada habitación esconde una salida.",
+            "pt-BR": "Cada caixa guarda um quartinho. Cada quarto esconde uma saída."
+        },
+        "desc": {
+            "en": "A parcel arrives with no return address: a wooden box holding a perfect miniature room. Turn each 3D diorama to see every wall, open briefcases, drawers and vents, use tools in the right place and set the code locks. Somewhere in each room is a brass key that opens the way out, and a note from Edith, the miniaturist who built them. Eight rooms, from the night vault to the gold vault and finally Edith's own workshop, are memories of her forty years working nights at the Crown and Thimble Bank, and the last key is the one she kept for you.",
+            "ko": "보낸 사람 주소가 없는 소포가 도착합니다. 나무 상자 안에는 완벽한 미니어처 방이 들어 있습니다. 3D 디오라마를 돌려 모든 벽을 살피고, 서류 가방과 서랍, 환기구를 열고, 도구를 알맞은 곳에 쓰고, 번호 자물쇠를 맞추세요. 방마다 어딘가에 출구를 여는 놋쇠 열쇠와, 방을 만든 미니어처 작가 이디스의 쪽지가 있습니다. 야간 금고부터 금괴 금고, 그리고 마지막 이디스의 작업실까지 여덟 개의 방은 그녀가 크라운 앤 심블 은행에서 40년 동안 야간 근무를 한 기억이며, 마지막 열쇠는 그녀가 당신을 위해 간직해 둔 것입니다.",
+            "ja": "差出人のない小包が届く。木箱の中には完璧なミニチュアの部屋。3Dジオラマを回してすべての壁を確かめ、ブリーフケース、引き出し、通気口を開け、道具を正しい場所で使い、ダイヤル錠を合わせよう。どの部屋にも出口を開ける真鍮の鍵と、部屋を作ったミニチュア作家イーディスのメモがある。夜間金庫室から金塊庫、そして最後にイーディス自身の工房まで、8つの部屋はクラウン・アンド・シンブル銀行で40年間夜勤を続けた彼女の記憶。最後の鍵は、彼女があなたのために取っておいたもの。",
+            "es": "Llega un paquete sin remitente: una caja de madera con una habitación en miniatura perfecta. Gira cada diorama 3D para ver todas las paredes, abre maletines, cajones y rejillas, usa herramientas en el lugar correcto y ajusta los candados de combinación. En algún lugar de cada habitación hay una llave de latón que abre la salida, y una nota de Edith, la miniaturista que las construyó. Ocho habitaciones, de la bóveda nocturna a la bóveda del oro y, al final, el taller de Edith, son recuerdos de sus cuarenta años de turnos nocturnos en el Banco Crown and Thimble, y la última llave es la que guardó para ti.",
+            "pt-BR": "Chega um pacote sem remetente: uma caixa de madeira com um quarto em miniatura perfeito. Gire cada diorama 3D para ver todas as paredes, abra maletas, gavetas e dutos, use ferramentas no lugar certo e acerte os cadeados de código. Em algum lugar de cada quarto há uma chave de latão que abre a saída, e um bilhete de Edith, a miniaturista que os construiu. Oito quartos, do cofre noturno ao cofre do ouro e, por fim, a oficina da própria Edith, são lembranças dos quarenta anos dela trabalhando à noite no Banco Crown and Thimble, e a última chave é a que ela guardou para você."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/tinyroomkeys",
+        "screenshots": [
+            "apps/shots/tiny-room-keys/01.jpg",
+            "apps/shots/tiny-room-keys/02.jpg",
+            "apps/shots/tiny-room-keys/03.jpg",
+            "apps/shots/tiny-room-keys/04.jpg",
+            "apps/shots/tiny-room-keys/05.jpg"
+        ]
+    },
+    {
+        "id": "rumor-mill",
+        "slug": "rumor-mill",
+        "icon": "apps/rumor-mill.png",
+        "page": "apps/rumor-mill.html",
+        "tier": "Volume",
+        "platform": "Android, PC",
+        "name": {
+            "en": "Rumor Mill",
+            "ko": "루머 밀",
+            "ja": "ルーマー・ミル",
+            "es": "Rumor Mill",
+            "pt-BR": "Rumor Mill"
+        },
+        "tagline": {
+            "en": "Whisper one kind rumor to the right villager and steer it to the right ears.",
+            "ko": "다정한 소문 하나를 알맞은 마을 사람에게 속삭이고, 알맞은 귀로 이끄세요.",
+            "ja": "やさしい噂をひとつ、ふさわしい村人にささやき、届けるべき耳へ導こう。",
+            "es": "Susurra un rumor amable al aldeano indicado y guíalo hasta los oídos correctos.",
+            "pt-BR": "Sussurre um boato gentil para o aldeão certo e leve-o aos ouvidos certos."
+        },
+        "desc": {
+            "en": "You are Wren, the newest apprentice of the Whispering Society, a secret circle that has kept the village of Millbrook at peace for two hundred years. Whisper one kind rumor to the right villager at the right hour, then play the day hour by hour as people meet and share news. It must reach the Target before sunset while the Wrong Ears never hear a word. 120 story days across five seasons, 20 Scandal Days, 24 villagers and 72 secrets. Mend a feud between baker siblings and unmask a crooked tax collector, without anyone learning who started a rumor.",
+            "ko": "당신은 200년 동안 밀브룩 마을의 평화를 지켜 온 비밀 모임 '속삭임 협회'의 막내 견습생 렌입니다. 다정한 소문 하나를 알맞은 시간에 알맞은 마을 사람에게 속삭인 뒤, 사람들이 만나 소식을 나누는 하루를 한 시간씩 진행하세요. 소문은 해가 지기 전에 목표에게 닿아야 하고, 엉뚱한 귀에는 한마디도 들어가선 안 됩니다. 다섯 계절에 걸친 120일의 스토리, 20일의 스캔들 데이, 24명의 마을 사람과 72개의 비밀. 제빵사 남매의 다툼을 풀고 부정한 세금 징수원의 정체를 밝히되, 누가 소문을 시작했는지는 아무도 모르게 하세요.",
+            "ja": "あなたは、200年にわたりミルブルック村の平和を守ってきた秘密結社「ささやきの会」の新米見習い、レン。やさしい噂をひとつ、ふさわしい時間にふさわしい村人へささやき、人々が出会って噂を交わす一日を1時間ずつ進めよう。噂は日没までにターゲットに届かなければならず、「聞かせてはいけない耳」には一言も入ってはならない。5つの季節で120日のストーリー、20のスキャンダル・デイ、24人の村人と72の秘密。パン屋のきょうだいの仲直りを助け、悪徳徴税人の正体を暴こう。誰が噂を流したのか、誰にも知られずに。",
+            "es": "Tu nombre es Wren y acabas de ingresar como aprendiz en la Sociedad del Susurro, un círculo secreto que ha mantenido en paz al pueblo de Millbrook durante doscientos años. Susurra un rumor amable al aldeano indicado a la hora indicada y luego juega el día hora por hora mientras la gente se encuentra y comparte noticias. El rumor debe llegar al Objetivo antes del atardecer sin que los Oídos Equivocados escuchen una palabra. 120 días de historia en cinco estaciones, 20 Días de Escándalo, 24 aldeanos y 72 secretos. Resuelve la pelea entre dos hermanos panaderos y desenmascara a un recaudador de impuestos corrupto, sin que nadie sepa quién empezó el rumor.",
+            "pt-BR": "Você é Wren e acaba de entrar como aprendiz na Sociedade do Sussurro, um círculo secreto que mantém a vila de Millbrook em paz há duzentos anos. Sussurre um boato gentil para o aldeão certo na hora certa e depois jogue o dia hora a hora enquanto as pessoas se encontram e trocam notícias. O boato precisa chegar ao Alvo antes do pôr do sol sem que os Ouvidos Errados ouçam uma palavra. São 120 dias de história em cinco estações, 20 Dias de Escândalo, 24 aldeões e 72 segredos. Resolva a briga entre dois irmãos padeiros e desmascare um cobrador de impostos corrupto, sem que ninguém descubra quem começou o boato."
+        },
+        "status": "Live",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.rumormill",
+        "itchUrl": "https://crystllabs.itch.io/rumormill",
+        "screenshots": [
+            "apps/shots/rumor-mill/01.jpg",
+            "apps/shots/rumor-mill/02.jpg",
+            "apps/shots/rumor-mill/03.jpg",
+            "apps/shots/rumor-mill/04.jpg",
+            "apps/shots/rumor-mill/05.jpg"
+        ]
+    },
+    {
+        "id": "lost-and-found",
+        "slug": "lost-and-found",
+        "icon": "apps/lost-and-found.png",
+        "page": "apps/lost-and-found.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Lost & Found",
+            "ko": "로스트 앤 파운드",
+            "ja": "ロスト＆ファウンド",
+            "es": "Lost & Found",
+            "pt-BR": "Lost & Found"
+        },
+        "tagline": {
+            "en": "Inspect lost objects, question their owners and solve a warm station mystery.",
+            "ko": "분실물을 살피고, 주인에게 질문하고, 따뜻한 기차역 미스터리를 풀어 보세요.",
+            "ja": "落とし物を調べ、持ち主に質問し、心温まる駅のミステリーを解こう。",
+            "es": "Examina objetos perdidos, interroga a sus dueños y resuelve un cálido misterio en la estación.",
+            "pt-BR": "Examine objetos perdidos, questione seus donos e resolva um mistério acolhedor na estação."
+        },
+        "desc": {
+            "en": "Maya Quint takes the night desk at Grand Meridian station. Her predecessor, Mr. Abernathy, vanished on his last day, leaving a notebook, forty years of lost things and a suitcase tagged: Do not open until she comes back. Listen to each owner, search the shelf and examine real 3D objects, turning them to read initials and check contents and receipts. People forget colours and exaggerate sizes, and scammers mix details from different objects. 30 story shifts follow a love story, a claim scam and a missing clerk, with 480 item records and a Museum of Lost Things filled by reunions.",
+            "ko": "마야 퀸트는 그랜드 메리디언 역의 야간 창구를 맡습니다. 전임자 애버내시 씨는 마지막 근무 날 사라졌고, 노트 한 권과 40년 치 분실물, 그리고 '그녀가 돌아올 때까지 열지 말 것'이라는 꼬리표가 붙은 여행 가방을 남겼습니다. 주인들의 말을 듣고, 선반을 뒤지고, 실제 3D 물건을 돌려 보며 이니셜과 내용물, 영수증을 확인하세요. 사람들은 색을 잊고 크기를 부풀리며, 사기꾼은 여러 물건의 특징을 섞어 말합니다. 30번의 스토리 근무가 사랑 이야기, 분실물 사기, 사라진 직원의 행방을 따라가며, 480건의 물품 기록과 재회로 채워지는 분실물 박물관이 있습니다.",
+            "ja": "マヤ・クイントはグランド・メリディアン駅の夜間窓口を任される。前任のアバナシー氏は最後の勤務日に姿を消し、ノート1冊、40年分の落とし物、そして「彼女が戻るまで開けるな」と札のついたスーツケースを残していった。持ち主の話を聞き、棚を探し、3Dの品物を回してイニシャル、中身、レシートを確かめよう。人は色を忘れ、大きさを誇張する。詐欺師は別々の品の特徴を混ぜてくる。30のストーリー勤務で、恋の物語、遺失物詐欺、消えた職員の行方を追う。480件の品物記録と、再会で埋まっていく落とし物博物館も。",
+            "es": "Maya Quint toma el turno de noche en la estación Grand Meridian. Su antecesor, el señor Abernathy, desapareció en su último día y dejó un cuaderno, cuarenta años de objetos perdidos y una maleta con una etiqueta: No abrir hasta que ella vuelva. Escucha a cada dueño, busca en el estante y examina objetos 3D reales, girándolos para leer iniciales y revisar contenidos y recibos. La gente olvida colores y exagera tamaños, y los estafadores mezclan detalles de objetos distintos. 30 turnos de historia siguen un romance, una estafa de reclamos y un empleado desaparecido, con 480 registros de objetos y un Museo de las Cosas Perdidas que se llena con cada reencuentro.",
+            "pt-BR": "Maya Quint assume o balcão noturno da estação Grand Meridian. O antecessor dela, o Sr. Abernathy, sumiu no último dia de trabalho e deixou um caderno, quarenta anos de objetos perdidos e uma mala com uma etiqueta: Não abrir até ela voltar. Ouça cada dono, procure na prateleira e examine objetos 3D reais, girando-os para ler iniciais e conferir conteúdos e recibos. As pessoas esquecem cores e exageram tamanhos, e golpistas misturam detalhes de objetos diferentes. São 30 turnos de história que acompanham um romance, um golpe de reivindicação e um funcionário desaparecido, com 480 registros de itens e um Museu das Coisas Perdidas preenchido a cada reencontro."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/lostandfound",
+        "screenshots": [
+            "apps/shots/lost-and-found/01.jpg",
+            "apps/shots/lost-and-found/02.jpg",
+            "apps/shots/lost-and-found/03.jpg",
+            "apps/shots/lost-and-found/04.jpg",
+            "apps/shots/lost-and-found/05.jpg"
+        ]
+    },
+    {
+        "id": "queue-up",
+        "slug": "queue-up",
+        "icon": "apps/queue-up.png",
+        "page": "apps/queue-up.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Queue Up",
+            "ko": "큐 업",
+            "ja": "キュー・アップ",
+            "es": "Queue Up",
+            "pt-BR": "Queue Up"
+        },
+        "tagline": {
+            "en": "Everyone in line has a rule. Find the one order that makes them all happy.",
+            "ko": "줄 선 사람마다 규칙이 있습니다. 모두를 만족시키는 단 하나의 순서를 찾으세요.",
+            "ja": "列に並ぶ全員にルールがある。みんなが満足する、ただひとつの順番を見つけよう。",
+            "es": "Cada persona en la fila tiene una regla. Encuentra el único orden que deja a todos contentos.",
+            "pt-BR": "Cada pessoa na fila tem uma regra. Encontre a única ordem que deixa todos felizes."
+        },
+        "desc": {
+            "en": "You are Quinn, a professional line fixer with a brand-new business in Pettiford, the pettiest town on earth. Everyone in line has a petty rule: Mrs. Pomeroy must be first, Ada wants to stand right behind Rosa, somebody will not stand behind anyone in a hat. Drag people onto the numbered spots and watch faces change as rules are kept or broken. 300 story lines across 10 places, from the bakery at dawn to the Pie Festival, each have exactly one right order. Win over 12 town regulars and prove to Line-O-Matic, a ticket-robot company, that people can wait together happily.",
+            "ko": "당신은 세상에서 가장 깐깐한 마을 페티퍼드에서 막 사업을 시작한 전문 줄 정리사 퀸입니다. 줄 선 사람들은 저마다 깐깐한 규칙이 있습니다. 포메로이 부인은 꼭 맨 앞이어야 하고, 에이다는 로사 바로 뒤에 서고 싶어 하며, 누군가는 모자 쓴 사람 뒤에는 절대 서지 않습니다. 사람들을 번호 자리로 끌어다 놓고, 규칙이 지켜지거나 깨질 때마다 바뀌는 표정을 지켜보세요. 새벽의 빵집부터 파이 축제까지 10곳에서 펼쳐지는 300개의 스토리 줄은 모두 정답 순서가 단 하나뿐입니다. 마을 단골 12명의 마음을 얻고, 발권 로봇 회사 라인오매틱에게 사람들도 즐겁게 함께 기다릴 수 있음을 증명하세요.",
+            "ja": "あなたは、世界一こだわりの強い町ペティフォードで開業したばかりのプロの行列整理人、クイン。並ぶ人はみんな細かいルールを持っている。ポメロイ夫人は絶対に先頭、エイダはローザのすぐ後ろがいい、帽子の人の後ろには立たないという人も。番号のついた場所へ人をドラッグし、ルールが守られたり破られたりするたびに変わる表情を見よう。夜明けのパン屋からパイ祭りまで10の場所で300のストーリー行列、正しい順番はそれぞれただひとつ。町の常連12人の心をつかみ、発券ロボット会社ライン・オー・マティックに、人はみんなで楽しく待てると証明しよう。",
+            "es": "Eres Quinn y te dedicas a arreglar filas, con un negocio recién abierto en Pettiford, el pueblo más quisquilloso del mundo. Cada persona en la fila tiene una regla caprichosa: la señora Pomeroy tiene que ir primero, Ada quiere estar justo detrás de Rosa, alguien no se pone detrás de nadie con sombrero. Arrastra a la gente a los lugares numerados y mira cómo cambian las caras cuando una regla se cumple o se rompe. 300 filas de historia en 10 lugares, de la panadería al amanecer al Festival del Pastel, cada una con un único orden correcto. Gánate a 12 vecinos habituales y demuéstrale a Line-O-Matic, una empresa de robots expendedores de turnos, que la gente puede esperar junta y feliz.",
+            "pt-BR": "Você é Quinn, que conserta filas profissionalmente e acabou de abrir seu negócio em Pettiford, a cidade mais implicante do mundo. Cada pessoa na fila tem uma regra mesquinha: a Sra. Pomeroy precisa ser a primeira, Ada quer ficar logo atrás de Rosa, alguém não fica atrás de ninguém de chapéu. Arraste as pessoas para os lugares numerados e veja os rostos mudarem quando uma regra é cumprida ou quebrada. São 300 filas de história em 10 lugares, da padaria ao amanhecer ao Festival da Torta, cada uma com uma única ordem certa. Conquiste 12 frequentadores da cidade e prove à Line-O-Matic, uma empresa de robôs de senha, que as pessoas conseguem esperar juntas e felizes."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/queueup",
+        "screenshots": [
+            "apps/shots/queue-up/01.jpg",
+            "apps/shots/queue-up/02.jpg",
+            "apps/shots/queue-up/03.jpg",
+            "apps/shots/queue-up/04.jpg",
+            "apps/shots/queue-up/05.jpg"
+        ]
+    },
+    {
+        "id": "mangled-proverb",
+        "slug": "mangled-proverb",
+        "icon": "apps/mangled-proverb.png",
+        "page": "apps/mangled-proverb.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Mangled Proverb",
+            "ko": "맹글드 프로버브",
+            "ja": "マングルド・プロバーブ",
+            "es": "Mangled Proverb",
+            "pt-BR": "Mangled Proverb"
+        },
+        "tagline": {
+            "en": "A daily word puzzle: guess the famous saying that five parrots garbled.",
+            "ko": "매일 하는 단어 퍼즐. 앵무새 다섯 마리가 엉망으로 만든 유명한 속담을 맞혀 보세요.",
+            "ja": "毎日の言葉パズル。5羽のオウムがめちゃくちゃにした有名なことわざを当てよう。",
+            "es": "Un rompecabezas de palabras diario: adivina el refrán famoso que cinco loros tergiversaron.",
+            "pt-BR": "Um quebra-cabeça de palavras diário: adivinhe o ditado famoso que cinco papagaios embaralharam."
+        },
+        "desc": {
+            "en": "A famous saying went through five parrots in five ports, and every parrot got a word or two wrong. Read the mess that came out at the end and work out the original, one word per box, in six guesses. Green means the right word in the right place, gold means the right word in the wrong place, and flying back to an earlier port gives a less mangled version for a feather. Captain Pip, a retired scarlet macaw, is writing her memoirs, and you untangle each saying before her rival, Admiral Plume, publishes first. A new proverb every day, 140 ports across seven voyages and 37 parrots to collect.",
+            "ko": "유명한 속담 하나가 다섯 항구의 앵무새 다섯 마리를 거치면서, 앵무새마다 단어를 한두 개씩 틀렸습니다. 마지막에 나온 엉터리 문장을 읽고 원래 속담을 칸마다 한 단어씩, 여섯 번 안에 맞혀 보세요. 초록색은 맞는 단어가 맞는 자리에, 금색은 맞는 단어가 다른 자리에 있다는 뜻이며, 깃털 하나를 쓰면 이전 항구로 돌아가 덜 망가진 문장을 들을 수 있습니다. 은퇴한 홍금강앵무 핍 선장이 회고록을 쓰고 있고, 당신은 라이벌 플룸 제독보다 먼저 출간하도록 속담을 하나하나 바로잡습니다. 매일 새 속담, 일곱 항해에 걸친 140개의 항구, 모을 수 있는 앵무새 37마리.",
+            "ja": "有名なことわざが5つの港で5羽のオウムに伝わるうち、どのオウムも1語か2語ずつ間違えた。最後に出てきたおかしな文を読み、元のことわざを1マスに1語ずつ、6回以内で当てよう。緑は正しい語が正しい位置、金は正しい語が違う位置。羽根を1枚使えば前の港に戻り、崩れの少ない文を聞ける。引退したアカコンゴウインコのピップ船長が回顧録を執筆中で、あなたはライバルのプルーム提督より先に出版できるよう、ことわざをひとつずつ解きほぐす。毎日新しいことわざ、7つの航海で140の港、集められるオウムは37羽。",
+            "es": "Un refrán famoso pasó por cinco loros en cinco puertos, y cada loro cambió una o dos palabras. Lee el enredo que salió al final y descubre el original, una palabra por casilla, en seis intentos. Verde es la palabra correcta en el lugar correcto, dorado es la palabra correcta en el lugar equivocado, y volar a un puerto anterior te da una versión menos enredada a cambio de una pluma. La capitana Pip, una guacamaya roja retirada, escribe sus memorias, y tú desenredas cada refrán antes de que su rival, el almirante Plume, publique primero. Un refrán nuevo cada día, 140 puertos en siete viajes y 37 loros para coleccionar.",
+            "pt-BR": "Um ditado famoso passou por cinco papagaios em cinco portos, e cada papagaio errou uma ou duas palavras. Leia a bagunça que saiu no final e descubra o original, uma palavra por casa, em seis tentativas. Verde é a palavra certa no lugar certo, dourado é a palavra certa no lugar errado, e voar de volta a um porto anterior mostra uma versão menos embaralhada em troca de uma pena. A Capitã Pip, uma arara-vermelha aposentada, está escrevendo suas memórias, e você desembaraça cada ditado antes que o rival dela, o Almirante Plume, publique primeiro. Um ditado novo por dia, 140 portos em sete viagens e 37 papagaios para colecionar."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/mangledproverb",
+        "screenshots": [
+            "apps/shots/mangled-proverb/01.jpg",
+            "apps/shots/mangled-proverb/02.jpg",
+            "apps/shots/mangled-proverb/03.jpg",
+            "apps/shots/mangled-proverb/04.jpg",
+            "apps/shots/mangled-proverb/05.jpg"
+        ]
+    },
+    {
+        "id": "past-selves",
+        "slug": "past-selves",
+        "icon": "apps/past-selves.png",
+        "page": "apps/past-selves.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Past Selves",
+            "ko": "패스트 셀브즈",
+            "ja": "パスト・セルブズ",
+            "es": "Past Selves",
+            "pt-BR": "Past Selves"
+        },
+        "tagline": {
+            "en": "Nine lives, ten seconds. Team up with your past selves in a pixel castle puzzle.",
+            "ko": "아홉 개의 목숨, 10초. 픽셀 성 퍼즐에서 과거의 나와 힘을 합치세요.",
+            "ja": "9つの命、10秒。ピクセルの城で過去の自分たちと力を合わせるパズル。",
+            "es": "Nueve vidas, diez segundos. Haz equipo con tus yo del pasado en un rompecabezas en un castillo de píxeles.",
+            "pt-BR": "Nove vidas, dez segundos. Junte-se aos seus eus do passado num quebra-cabeça em um castelo de pixels."
+        },
+        "desc": {
+            "en": "The Pig King has frozen the castle ten seconds before midnight, and only Mitten the cat can move. Every run you record returns as a ghost, repeating your moves while you try a new plan. Let ghosts hold plates, push crates, distract pig guards and lend you a head to jump on, and work with levers, gates, lifts and crumbling platforms. Explore 90 campaign rooms across nine castle floors, including nine guardian rooms, find royal gems and dress Mitten in new coats and hats, then return for a Daily Loop drawn from 120 tested rooms.",
+            "ko": "돼지 왕이 자정 10초 전에 성을 얼려 버렸고, 움직일 수 있는 건 고양이 미튼뿐입니다. 기록한 시도는 모두 유령이 되어 당신의 움직임을 반복하고, 그동안 당신은 새로운 작전을 시도합니다. 유령에게 발판을 누르게 하고, 상자를 밀게 하고, 돼지 경비병의 주의를 끌게 하고, 머리를 밟고 뛰어오르게 하세요. 레버, 문, 승강기, 무너지는 발판도 활용하세요. 아홉 개 층에 걸친 90개의 캠페인 방과 그중 아홉 개의 수호자 방을 탐험하고, 왕실 보석을 찾고, 미튼에게 새 코트와 모자를 입혀 보세요. 테스트를 거친 120개의 방에서 뽑는 데일리 루프도 있습니다.",
+            "ja": "ブタの王が真夜中の10秒前に城を凍りつかせ、動けるのは猫のミトンだけ。記録した挑戦はすべてゴーストとなって戻り、あなたが新しい作戦を試す間、その動きを繰り返す。ゴーストにスイッチ板を押さえさせ、木箱を押させ、ブタの衛兵の気をそらさせ、頭を踏み台に貸してもらおう。レバー、門、リフト、崩れる足場も使いこなそう。城の9つのフロアに90のキャンペーン部屋、うち9つは守護者の部屋。王家の宝石を見つけ、ミトンに新しいコートや帽子を着せ、テスト済みの120部屋から選ばれるデイリーループにも挑もう。",
+            "es": "El Rey Cerdo congeló el castillo diez segundos antes de la medianoche, y solo el gato Mitten puede moverse. Cada intento que grabas vuelve como un fantasma que repite tus movimientos mientras pruebas un plan nuevo. Haz que los fantasmas sostengan placas, empujen cajas, distraigan a los guardias cerdos y te presten la cabeza para saltar, y usa palancas, puertas, elevadores y plataformas que se derrumban. Explora 90 salas de campaña en nueve pisos del castillo, incluidas nueve salas de guardianes, encuentra gemas de la corona y viste a Mitten con abrigos y sombreros nuevos, y vuelve por un Bucle Diario sacado de 120 salas probadas.",
+            "pt-BR": "O Rei Porco congelou o castelo dez segundos antes da meia-noite, e só o gato Mitten consegue se mexer. Cada tentativa que você grava volta como um fantasma que repete seus movimentos enquanto você testa um plano novo. Faça os fantasmas segurarem placas, empurrarem caixas, distraírem os guardas porcos e emprestarem a cabeça para você pular, e use alavancas, portões, elevadores e plataformas que desmoronam. Explore 90 salas de campanha em nove andares do castelo, incluindo nove salas de guardiões, encontre gemas da coroa e vista Mitten com casacos e chapéus novos, e volte para um Loop Diário tirado de 120 salas testadas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/pastselves",
+        "screenshots": [
+            "apps/shots/past-selves/01.jpg",
+            "apps/shots/past-selves/02.jpg",
+            "apps/shots/past-selves/03.jpg",
+            "apps/shots/past-selves/04.jpg",
+            "apps/shots/past-selves/05.jpg"
+        ]
+    },
+    {
+        "id": "vanishing-keys",
+        "slug": "vanishing-keys",
+        "icon": "apps/vanishing-keys.png",
+        "page": "apps/vanishing-keys.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Vanishing Keys",
+            "ko": "배니싱 키즈",
+            "ja": "バニシング・キーズ",
+            "es": "Vanishing Keys",
+            "pt-BR": "Vanishing Keys"
+        },
+        "tagline": {
+            "en": "A word game with a twist: every letter you type vanishes from the keyboard.",
+            "ko": "반전이 있는 단어 게임. 입력한 글자는 키보드에서 사라집니다.",
+            "ja": "ひとひねりある言葉ゲーム。打った文字はキーボードから消えていく。",
+            "es": "Un juego de palabras con un giro: cada letra que escribes desaparece del teclado.",
+            "pt-BR": "Um jogo de palavras com uma reviravolta: cada letra que você digita some do teclado."
+        },
+        "desc": {
+            "en": "Spell a word and it scores, then each key you used loses one of its uses. At zero, the key disappears in a puff of stage smoke. Longer words and rare letters score more, so every word is a choice between points now and letters later. Forty years ago the Great Marvello vanished on stage during his last trick, and his granddaughter Ivy has found his enchanted keyboard. She restages his world tour of 96 shows across 8 venues, with venue twists, duels against his old rival Silas Quill and four magic tricks, to learn what really happened.",
+            "ko": "단어를 만들면 점수를 얻지만, 사용한 키는 사용 횟수가 하나씩 줄어듭니다. 0이 되면 그 키는 무대 연기와 함께 사라집니다. 긴 단어와 드문 글자일수록 점수가 높으니, 단어 하나하나가 지금의 점수와 나중의 글자 사이의 선택입니다. 40년 전 위대한 마르벨로는 마지막 마술을 하던 중 무대에서 사라졌고, 손녀 아이비가 그의 마법 키보드를 찾아냈습니다. 그녀는 진실을 알아내기 위해 8개 공연장 96회 공연의 월드 투어를 다시 무대에 올립니다. 공연장마다의 변수, 오랜 라이벌 사일러스 퀼과의 대결, 네 가지 마술이 기다립니다.",
+            "ja": "単語をつづると得点になるが、使ったキーはそれぞれ使用回数がひとつ減る。ゼロになったキーは、舞台の煙とともに消えてしまう。長い単語や珍しい文字ほど高得点なので、一語ごとに、今の得点か後の文字かの選択になる。40年前、偉大なるマルヴェロは最後の奇術の最中に舞台から消えた。孫娘のアイビーは彼の魔法のキーボードを見つけ、真相を知るため、8つの会場で96公演のワールドツアーを再演する。会場ごとの仕掛け、宿敵サイラス・クイルとの対決、4つの奇術が待っている。",
+            "es": "Forma una palabra y suma puntos, pero cada tecla que usaste pierde uno de sus usos. Al llegar a cero, la tecla desaparece en una nube de humo de escenario. Las palabras largas y las letras raras dan más puntos, así que cada palabra es una elección entre puntos ahora y letras después. Hace cuarenta años, el Gran Marvello desapareció en el escenario durante su último truco, y su nieta Ivy encontró su teclado encantado. Ella vuelve a montar su gira mundial de 96 funciones en 8 teatros, con giros en cada sede, duelos con su viejo rival Silas Quill y cuatro trucos de magia, para saber qué pasó en realidad.",
+            "pt-BR": "Forme uma palavra e ela pontua, mas cada tecla usada perde um de seus usos. Quando chega a zero, a tecla some numa nuvem de fumaça de palco. Palavras longas e letras raras valem mais, então cada palavra é uma escolha entre pontos agora e letras depois. Há quarenta anos, o Grande Marvello desapareceu no palco durante seu último truque, e sua neta Ivy encontrou o teclado encantado dele. Ela remonta a turnê mundial dele, com 96 shows em 8 casas, reviravoltas em cada palco, duelos com o velho rival Silas Quill e quatro truques de mágica, para descobrir o que realmente aconteceu."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/vanishingkeys",
+        "screenshots": [
+            "apps/shots/vanishing-keys/01.jpg",
+            "apps/shots/vanishing-keys/02.jpg",
+            "apps/shots/vanishing-keys/03.jpg",
+            "apps/shots/vanishing-keys/04.jpg",
+            "apps/shots/vanishing-keys/05.jpg"
+        ]
+    },
+    {
+        "id": "clean-getaway",
+        "slug": "clean-getaway",
+        "icon": "apps/clean-getaway.png",
+        "page": "apps/clean-getaway.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Clean Getaway",
+            "ko": "클린 겟어웨이",
+            "ja": "クリーン・ゲッタウェイ",
+            "es": "Clean Getaway",
+            "pt-BR": "Clean Getaway"
+        },
+        "tagline": {
+            "en": "Draw a route, time patrols and recover masterpieces in a 3D heist puzzle.",
+            "ko": "경로를 그리고 순찰 타이밍을 맞춰, 3D 하이스트 퍼즐에서 명화를 되찾으세요.",
+            "ja": "ルートを描き、巡回のタイミングを読み、3D強盗パズルで名画を取り戻そう。",
+            "es": "Traza una ruta, sincroniza las patrullas y recupera obras maestras en un rompecabezas de atracos en 3D.",
+            "pt-BR": "Trace uma rota, cronometre as patrulhas e recupere obras-primas num quebra-cabeça de assalto em 3D."
+        },
+        "desc": {
+            "en": "Art restorer Iris Calloway discovers that Victor Crane is selling the museum's originals and replacing them with her practice copies. With locksmith Ozzie and hacker Juno, she sets out to bring them home. Draw a route across a 3D floor plan, add waits, lockpicks, camera hacks, thrown coins and hiding spots, and scrub the timeline to preview patrols. Then press GO and watch Iris follow your plan, where half a second in sight trips the alarm. 60 jobs across six heists lead to a penthouse finale, with a gallery of 61 real Open Access paintings.",
+            "ko": "미술 복원가 아이리스 캘러웨이는 빅터 크레인이 박물관의 원작을 팔아넘기고 그 자리에 자신의 연습용 모작을 걸어 두었다는 사실을 알게 됩니다. 자물쇠 전문가 오지, 해커 주노와 함께 그녀는 그림들을 되찾으러 나섭니다. 3D 평면도 위에 경로를 그리고 대기, 자물쇠 따기, 카메라 해킹, 동전 던지기, 숨기를 추가한 뒤, 타임라인을 앞뒤로 움직여 순찰을 미리 확인하세요. 그리고 GO를 누르면 아이리스가 계획대로 움직입니다. 0.5초만 눈에 띄어도 경보가 울립니다. 여섯 번의 강탈에 걸친 60개의 작전 끝에 펜트하우스 피날레가 기다리며, 실제 오픈 액세스 그림 61점이 담긴 갤러리도 있습니다.",
+            "ja": "美術修復家のアイリス・キャロウェイは、ヴィクター・クレインが美術館の本物を売り払い、自分の練習用の模写とすり替えていたことを知る。錠前師のオジー、ハッカーのジュノと組んで、彼女は名画を取り戻しに向かう。3Dの見取り図にルートを描き、待機、解錠、カメラのハッキング、コイン投げ、隠れる場所を加え、タイムラインを動かして巡回を下見しよう。GOを押せば、アイリスが計画どおりに動く。0.5秒でも見られれば警報が鳴る。6つの強盗計画で60の仕事、その先にペントハウスでのフィナーレ。実在のオープンアクセス絵画61点のギャラリーも。",
+            "es": "La restauradora de arte Iris Calloway descubre que Victor Crane está vendiendo los originales del museo y reemplazándolos con sus copias de práctica. Con Ozzie, cerrajero, y Juno, hacker, sale a recuperarlos. Traza una ruta sobre un plano 3D, agrega esperas, cerraduras forzadas, cámaras hackeadas, monedas lanzadas y escondites, y recorre la línea de tiempo para prever las patrullas. Luego presiona GO y mira cómo Iris sigue tu plan: medio segundo a la vista activa la alarma. 60 trabajos en seis atracos llevan a un final en el penthouse, con una galería de 61 pinturas reales de Open Access.",
+            "pt-BR": "A restauradora de arte Iris Calloway descobre que Victor Crane está vendendo os originais do museu e colocando no lugar as cópias de treino dela. Com Ozzie, chaveiro, e Juno, hacker, ela parte para trazê-los de volta. Trace uma rota sobre uma planta 3D, adicione esperas, fechaduras abertas, câmeras hackeadas, moedas lançadas e esconderijos, e percorra a linha do tempo para prever as patrulhas. Depois aperte GO e veja Iris seguir seu plano: meio segundo à vista dispara o alarme. São 60 trabalhos em seis golpes até um final na cobertura, com uma galeria de 61 pinturas reais de acesso aberto."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/cleangetaway",
+        "screenshots": [
+            "apps/shots/clean-getaway/01.jpg",
+            "apps/shots/clean-getaway/02.jpg",
+            "apps/shots/clean-getaway/03.jpg",
+            "apps/shots/clean-getaway/04.jpg",
+            "apps/shots/clean-getaway/05.jpg"
+        ]
+    },
+    {
+        "id": "tip-the-scale",
+        "slug": "tip-the-scale",
+        "icon": "apps/tip-the-scale.png",
+        "page": "apps/tip-the-scale.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Tip the Scale",
+            "ko": "팁 더 스케일",
+            "ja": "ティップ・ザ・スケール",
+            "es": "Tip the Scale",
+            "pt-BR": "Tip the Scale"
+        },
+        "tagline": {
+            "en": "A trivia game show about weight. Guess which side is heavier, then balance it!",
+            "ko": "무게에 관한 퀴즈 게임쇼. 어느 쪽이 더 무거운지 맞히고, 균형을 맞춰 보세요!",
+            "ja": "重さがテーマのクイズ番組。どちらが重いか当てて、つり合わせよう！",
+            "es": "Un programa de concursos sobre el peso. ¡Adivina qué lado pesa más y equilíbralo!",
+            "pt-BR": "Um game show de perguntas sobre peso. Adivinhe qual lado é mais pesado e equilibre!"
+        },
+        "desc": {
+            "en": "Is a cat heavier than three pineapples? Does a grand piano outweigh a cow? You are Dot Ounce, a small-town weights inspector whose best friend signed you up for a glitzy game show as a joke. Pick the heavier side, slide to guess a weight, and stack props on a giant brass scale that swings with real physics, then risk it all in the All-or-Nothing Final. 40 episodes across eight seasons feature 276 objects, from a honeybee to the Sun, with a real fact after every answer. Face eight rival contestants and champion Tonnage Tom, while someone backstage hides magnets under the scale.",
+            "ko": "고양이가 파인애플 세 개보다 무거울까? 그랜드 피아노가 소보다 무거울까? 당신은 작은 마을의 계량 검사관 닷 아운스. 단짝 친구가 장난삼아 화려한 게임쇼에 신청해 버렸습니다. 더 무거운 쪽을 고르고, 슬라이더로 무게를 추측하고, 실제 물리로 흔들리는 거대한 놋쇠 저울에 소품을 쌓은 다음, 올 오어 낫싱 결승에서 모든 걸 거세요. 여덟 시즌 40개 에피소드에는 꿀벌부터 태양까지 276가지 물체가 등장하며, 답할 때마다 실제 상식이 하나씩 나옵니다. 라이벌 참가자 여덟 명과 챔피언 토니지 톰에 맞서는 동안, 무대 뒤의 누군가는 저울 밑에 자석을 숨깁니다.",
+            "ja": "猫はパイナップル3個より重い？ グランドピアノは牛より重い？ あなたは小さな町の計量検査官ドット・オンス。親友が冗談で派手なクイズ番組に応募してしまった。重いほうを選び、スライダーで重さを予想し、本物の物理で揺れる巨大な真鍮の天秤に小道具を積み、オール・オア・ナッシングの決勝ですべてを賭けよう。8シーズン40エピソードに、ミツバチから太陽まで276の物体が登場し、答えるたびに本当の豆知識がひとつ。8人のライバルと王者トンネージ・トムに挑むなか、舞台裏の誰かが天秤の下に磁石を隠している。",
+            "es": "¿Pesa más un gato que tres piñas? ¿Un piano de cola pesa más que una vaca? Eres Dot Ounce, que inspecciona pesas y medidas en un pueblito, y tu mejor amigo te inscribió en un llamativo programa de concursos como broma. Elige el lado más pesado, desliza para adivinar un peso y apila objetos en una balanza gigante de latón que se mueve con física real, y luego arriésgalo todo en la Final Todo o Nada. 40 episodios en ocho temporadas incluyen 276 objetos, de una abeja al Sol, con un dato real después de cada respuesta. Enfrenta a ocho rivales y al campeón Tonnage Tom, mientras alguien tras bambalinas esconde imanes bajo la balanza.",
+            "pt-BR": "Um gato é mais pesado que três abacaxis? Um piano de cauda pesa mais que uma vaca? Você é Dot Ounce, que fiscaliza pesos e medidas numa cidadezinha, e seu melhor amigo te inscreveu num game show chamativo de brincadeira. Escolha o lado mais pesado, deslize para chutar um peso e empilhe objetos numa balança gigante de latão que balança com física real, depois arrisque tudo na Final Tudo ou Nada. São 40 episódios em oito temporadas com 276 objetos, de uma abelha ao Sol, e um fato real depois de cada resposta. Enfrente oito rivais e o campeão Tonnage Tom, enquanto alguém nos bastidores esconde ímãs sob a balança."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/tipthescale",
+        "screenshots": [
+            "apps/shots/tip-the-scale/01.jpg",
+            "apps/shots/tip-the-scale/02.jpg",
+            "apps/shots/tip-the-scale/03.jpg",
+            "apps/shots/tip-the-scale/04.jpg",
+            "apps/shots/tip-the-scale/05.jpg"
+        ]
+    },
+    {
+        "id": "ant-trail",
+        "slug": "ant-trail",
+        "icon": "apps/ant-trail.png",
+        "page": "apps/ant-trail.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Ant Trail",
+            "ko": "앤트 트레일",
+            "ja": "アント・トレイル",
+            "es": "Ant Trail",
+            "pt-BR": "Ant Trail"
+        },
+        "tagline": {
+            "en": "Draw scent trails, guide swarms and grow a colony in this seasonal ant puzzle.",
+            "ko": "냄새 길을 그리고, 개미 떼를 이끌고, 군락을 키우는 계절 개미 퍼즐.",
+            "ja": "においの道を描き、群れを導き、コロニーを育てる季節のアリパズル。",
+            "es": "Traza rastros de olor, guía enjambres y haz crecer una colonia en este rompecabezas de hormigas por estaciones.",
+            "pt-BR": "Trace trilhas de cheiro, guie enxames e faça uma colônia crescer neste quebra-cabeça de formigas pelas estações."
+        },
+        "desc": {
+            "en": "Tilly is the smallest scout in Hollow Oak, but her scent trails are the strongest. Draw a route from the nest to food and watch the colony march, giving puddles a wide berth, because ants drift, carriers lumber and a hungry spider is listening. Use Follow and Hurry trails and Avoid zones to guide workers, carriers, scouts and soldiers past red ants, rain, wind and a stomping shoe. 100 gardens across four seasons, plus two colony challenges, build a cutaway colony with a nursery, granary, barracks and fungus garden, in a gentle story about work, music and making room for a friend.",
+            "ko": "틸리는 할로 오크에서 가장 작은 정찰개미지만, 냄새 길만큼은 가장 강합니다. 둥지에서 먹이까지 길을 그리고 군락이 행진하는 모습을 지켜보세요. 웅덩이는 멀리 피해야 합니다. 개미는 옆으로 흐르고, 운반 개미는 느릿느릿하며, 배고픈 거미가 귀를 기울이고 있으니까요. 따라가기 길, 서두르기 길, 회피 구역으로 일개미, 운반 개미, 정찰개미, 병정개미를 이끌어 붉은 개미, 비, 바람, 쿵쿵 내려오는 신발을 피하세요. 네 계절 100개의 정원과 두 개의 군락 도전으로 육아실, 곡물 창고, 병영, 버섯 농장이 있는 단면 군락을 키워 가는, 일과 음악과 친구를 위한 자리에 관한 잔잔한 이야기입니다.",
+            "ja": "ティリーはホロウ・オークでいちばん小さな偵察アリ。でも、そのにおいの道はいちばん強い。巣からエサまでルートを描き、コロニーの行進を見守ろう。水たまりは大きく避けること。アリは流され、運搬アリはのろく、腹ぺこのクモが耳を澄ませている。「ついて行く」「急ぐ」の道と「避ける」ゾーンで、働きアリ、運搬アリ、偵察アリ、兵隊アリを導き、赤アリ、雨、風、踏みつける靴をかわそう。4つの季節で100の庭と2つのコロニーチャレンジ。育児室、穀物庫、兵舎、キノコ畑のある断面のコロニーを育てる、仕事と音楽と友だちの居場所をめぐるやさしい物語。",
+            "es": "Tilly es la exploradora más pequeña de Hollow Oak, pero sus rastros de olor son los más fuertes. Traza una ruta del nido a la comida y mira marchar a la colonia, lejos de los charcos, porque las hormigas se desvían, las cargadoras van lentas y una araña hambrienta está atenta. Usa rastros de Seguir y Apurar y zonas de Evitar para guiar a obreras, cargadoras, exploradoras y soldados entre hormigas rojas, lluvia, viento y un zapato que pisa fuerte. 100 jardines en cuatro estaciones, más dos desafíos de colonia, hacen crecer una colonia en corte con guardería, granero, cuartel y jardín de hongos, en una historia tranquila sobre el trabajo, la música y hacerle lugar a un amigo.",
+            "pt-BR": "Tilly é a menor batedora de Hollow Oak, mas suas trilhas de cheiro são as mais fortes. Trace uma rota do ninho até a comida e veja a colônia marchar, longe das poças, porque as formigas se desviam, as carregadoras são lentas e uma aranha faminta está à escuta. Use trilhas de Seguir e Apressar e zonas de Evitar para guiar operárias, carregadoras, batedoras e soldados entre formigas vermelhas, chuva, vento e um sapato pisando forte. São 100 jardins em quatro estações, mais dois desafios de colônia, para fazer crescer uma colônia em corte com berçário, celeiro, quartel e jardim de fungos, numa história suave sobre trabalho, música e abrir espaço para um amigo."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/anttrail",
+        "screenshots": [
+            "apps/shots/ant-trail/01.jpg",
+            "apps/shots/ant-trail/02.jpg",
+            "apps/shots/ant-trail/03.jpg",
+            "apps/shots/ant-trail/04.jpg",
+            "apps/shots/ant-trail/05.jpg"
+        ]
+    },
+    {
+        "id": "moon-pull",
+        "slug": "moon-pull",
+        "icon": "apps/moon-pull.png",
+        "page": "apps/moon-pull.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Moon Pull",
+            "ko": "문 풀",
+            "ja": "ムーン・プル",
+            "es": "Moon Pull",
+            "pt-BR": "Moon Pull"
+        },
+        "tagline": {
+            "en": "Be the Moon. Raise the tide, clear the reefs and guide the fishing fleet home.",
+            "ko": "달이 되어 보세요. 밀물을 올려 암초를 넘고, 고깃배들을 집으로 이끄세요.",
+            "ja": "月になろう。潮を満たして岩礁を越え、漁船団を家へ導こう。",
+            "es": "Sé la Luna. Sube la marea, supera los arrecifes y guía a la flota pesquera a casa.",
+            "pt-BR": "Seja a Lua. Suba a maré, passe pelos recifes e guie a frota pesqueira para casa."
+        },
+        "desc": {
+            "en": "Saltmarrow's lighthouse has gone dark, and Keeper Ida and her new apprentice Nell need a little help from above. You are the Moon: pull the water up over the reefs, lower it under stone arches and bring every fishing boat home before dawn. Moon phases, clouds, fog and currents change the tide, and rowboats, fishing ships and a mysterious ghost vessel each need different clearances. Drop anchor to adjust the fleet's timing. 112 campaign nights across four lunar months, plus 16 storm challenges, let you earn fish and restore the lighthouse, docks and market.",
+            "ko": "솔트매로의 등대가 꺼졌고, 등대지기 아이다와 새 견습생 넬에게는 하늘의 작은 도움이 필요합니다. 당신은 달입니다. 물을 끌어올려 암초를 넘기고, 돌 아치 아래로는 물을 낮추며, 새벽이 오기 전에 모든 고깃배를 집으로 데려오세요. 달의 위상, 구름, 안개, 해류가 물때를 바꾸고, 노 젓는 배, 어선, 수수께끼의 유령선은 지나갈 수 있는 조건이 저마다 다릅니다. 닻을 내려 선단의 타이밍을 조절하세요. 네 번의 음력 달에 걸친 112번의 캠페인 밤과 16개의 폭풍 도전에서 물고기를 모아 등대와 부두, 시장을 되살리세요.",
+            "ja": "ソルトマロウの灯台の灯が消えた。灯台守のアイダと新しい見習いのネルには、空からの少しの助けが必要だ。あなたは月。岩礁の上まで潮を引き上げ、石のアーチの下では潮を下げ、夜明けまでにすべての漁船を家へ帰そう。月の満ち欠け、雲、霧、潮の流れが潮位を変え、手漕ぎボート、漁船、謎の幽霊船は通れる条件がそれぞれ違う。錨を下ろして船団のタイミングを調整しよう。4つの太陰月にわたる112のキャンペーンの夜と16の嵐チャレンジで魚を集め、灯台、波止場、市場を立て直そう。",
+            "es": "El faro de Saltmarrow se apagó, y la guardiana Ida y su nueva aprendiz Nell necesitan un poco de ayuda desde arriba. Tú eres la Luna: sube el agua sobre los arrecifes, bájala bajo los arcos de piedra y lleva cada barco pesquero a casa antes del amanecer. Las fases de la luna, las nubes, la niebla y las corrientes cambian la marea, y los botes de remos, los pesqueros y un misterioso barco fantasma necesitan márgenes distintos. Echa el ancla para ajustar el ritmo de la flota. 112 noches de campaña en cuatro meses lunares, más 16 desafíos de tormenta, te dejan ganar peces y restaurar el faro, los muelles y el mercado.",
+            "pt-BR": "O farol de Saltmarrow se apagou, e a faroleira Ida e sua nova aprendiz Nell precisam de uma ajudinha lá de cima. Você é a Lua: puxe a água por cima dos recifes, abaixe-a sob os arcos de pedra e traga cada barco de pesca para casa antes do amanhecer. Fases da lua, nuvens, neblina e correntes mudam a maré, e botes a remo, pesqueiros e um misterioso navio fantasma precisam de folgas diferentes. Lance a âncora para ajustar o ritmo da frota. São 112 noites de campanha em quatro meses lunares, mais 16 desafios de tempestade, para ganhar peixes e restaurar o farol, as docas e o mercado."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/moonpull",
+        "screenshots": [
+            "apps/shots/moon-pull/01.jpg",
+            "apps/shots/moon-pull/02.jpg",
+            "apps/shots/moon-pull/03.jpg",
+            "apps/shots/moon-pull/04.jpg",
+            "apps/shots/moon-pull/05.jpg"
+        ]
+    },
+    {
+        "id": "torre-de-vento",
+        "slug": "torre-de-vento",
+        "icon": "apps/torre-de-vento.png",
+        "page": "apps/torre-de-vento.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Torre de Vento",
+            "ko": "토헤 지 벤투",
+            "ja": "トーヘ・ジ・ヴェント",
+            "es": "Torre de Vento",
+            "pt-BR": "Torre de Vento"
+        },
+        "tagline": {
+            "en": "Make something worth standing behind.",
+            "ko": "자신 있게 내세울 수 있는 구조물을 만드세요.",
+            "ja": "胸を張れるものを作ろう。",
+            "es": "Construye algo en lo que puedas confiar.",
+            "pt-BR": "Construa algo digno de confiança."
+        },
+        "desc": {
+            "en": "A good idea needs to survive the wind. Reconnect the mountain wind stations by designing structures that balance weight, cost and movement, then run the wind test and watch them face gusts, vibration and moving loads. Pick from five materials and four joint types, read the force on every member, replay a failure and revise as often as you like. There are 36 briefs across six landscapes covering triangulation, cantilevers, suspension, arches, masts and turbine supports, plus daily contracts, an open workshop and a blueprint notebook that holds up to 24 saved designs.",
+            "ko": "좋은 아이디어는 바람을 견뎌야 합니다. 무게, 비용, 움직임의 균형을 맞춘 구조물을 설계해 산속 풍력 관측소를 다시 연결하고, 바람 시험을 돌려 돌풍과 진동, 움직이는 하중을 견디는지 지켜보세요. 다섯 가지 재료와 네 가지 접합 방식 중에서 고르고, 부재마다 걸리는 힘을 읽고, 붕괴 장면을 다시 보며 원하는 만큼 수정하세요. 여섯 지형에 걸친 36개의 과제가 삼각 구조, 캔틸레버, 현수 구조, 아치, 마스트, 터빈 지지대를 다루며, 일일 계약, 자유 작업장, 최대 24개의 설계를 저장하는 설계도 노트도 있습니다.",
+            "ja": "よいアイデアは風に耐えなければならない。重さ、コスト、揺れのバランスを考えて構造物を設計し、山の風力観測所を再びつなごう。風のテストを走らせ、突風や振動、移動荷重に耐えられるか見届ける。5種類の素材と4種類の接合から選び、各部材にかかる力を読み取り、崩壊をリプレイして何度でも修正できる。6つの地形にまたがる36の課題で、三角形の骨組み、片持ち梁、吊り構造、アーチ、マスト、タービン支持を扱う。デイリー契約、自由な工房、最大24件の設計を保存できる設計図ノートもある。",
+            "es": "Una buena idea tiene que sobrevivir al viento. Vuelve a conectar las estaciones eólicas de la montaña diseñando estructuras que equilibren peso, costo y movimiento, y luego haz la prueba de viento para verlas enfrentar ráfagas, vibraciones y cargas en movimiento. Elige entre cinco materiales y cuatro tipos de unión, lee la fuerza de cada barra, repite una falla y corrige cuantas veces quieras. Hay 36 encargos en seis paisajes sobre triangulación, voladizos, suspensión, arcos, mástiles y soportes de turbinas, además de contratos diarios, un taller libre y un cuaderno de planos con hasta 24 diseños guardados.",
+            "pt-BR": "Uma boa ideia precisa sobreviver ao vento. Reconecte as estações de vento da montanha projetando estruturas que equilibrem peso, custo e movimento, depois rode o teste de vento e veja como elas enfrentam rajadas, vibração e cargas em movimento. Escolha entre cinco materiais e quatro tipos de junta, leia a força em cada barra, reveja uma falha e revise quantas vezes quiser. São 36 desafios em seis paisagens sobre triangulação, balanços, suspensão, arcos, mastros e suportes de turbina, além de contratos diários, uma oficina livre e um caderno de projetos com até 24 designs salvos."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/torredevento",
+        "screenshots": [
+            "apps/shots/torre-de-vento/01.jpg",
+            "apps/shots/torre-de-vento/02.jpg",
+            "apps/shots/torre-de-vento/03.jpg",
+            "apps/shots/torre-de-vento/04.jpg",
+            "apps/shots/torre-de-vento/05.jpg"
+        ]
+    },
+    {
+        "id": "grove-blocks",
+        "slug": "grove-blocks",
+        "icon": "apps/grove-blocks.png",
+        "page": "apps/grove-blocks.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Grove Blocks",
+            "ko": "그로브 블록스",
+            "ja": "グローブブロックス",
+            "es": "Grove Blocks",
+            "pt-BR": "Grove Blocks"
+        },
+        "tagline": {
+            "en": "Fit shapes on an 8 x 8 board, clear rows and columns, and grow a quiet woodland.",
+            "ko": "8 x 8 보드에 블록을 맞추고, 가로줄과 세로줄을 지우며 고요한 숲을 키우세요.",
+            "ja": "8 x 8の盤にブロックをはめ、縦と横の列を消して、静かな森を育てよう。",
+            "es": "Encaja piezas en un tablero de 8 x 8, despeja filas y columnas, y haz crecer un bosque tranquilo.",
+            "pt-BR": "Encaixe peças em um tabuleiro 8 x 8, limpe linhas e colunas e faça crescer um bosque tranquilo."
+        },
+        "desc": {
+            "en": "Grove Blocks is a relaxing block puzzle about making room for your next move. Fit three shapes at a time onto an 8 x 8 board, complete rows and columns and chain clears into combos. Classic mode never has a timer, and every set of three shapes has a possible placement order. Relic trails give you starting boards with hidden relics and a move limit, and the daily clearing offers one seeded board with a 450-point goal. Every run includes rotates and undos, five cleared lines earn another rotate, and leaves from finished runs grow four garden areas.",
+            "ko": "그로브 블록스는 다음 수를 위한 자리를 만드는 편안한 블록 퍼즐입니다. 한 번에 세 개의 블록을 8 x 8 보드에 놓고, 가로줄과 세로줄을 채워 지우며 연속으로 콤보를 이어가세요. 클래식 모드에는 타이머가 없고, 세 개씩 주어지는 블록에는 언제나 놓을 수 있는 순서가 있습니다. 유물 탐색로에서는 유물이 숨겨진 시작 보드와 이동 제한이 주어지고, 일일 정리에서는 450점을 목표로 하는 시드 보드 하나가 나옵니다. 모든 판에서 회전과 되돌리기를 쓸 수 있고, 다섯 줄을 지우면 회전이 하나 더 생기며, 끝낸 판에서 얻은 나뭇잎으로 네 곳의 정원을 키울 수 있습니다.",
+            "ja": "グローブブロックスは、次の一手のために場所を空けていく、のんびりしたブロックパズル。3つのピースを8 x 8の盤に置き、縦横の列をそろえて消し、連続消しでコンボをつなげよう。クラシックモードには時間制限がなく、配られる3つのピースには必ず置ける順番がある。遺物の小道では遺物が隠れた初期盤面と手数制限に挑み、デイリーの開墾では450点を目指す固定盤面が1つ用意される。毎回回転と取り消しが使え、5列消すと回転がもう1回増え、終えたプレイで集めた葉で4つの庭を育てられる。",
+            "es": "Grove Blocks es un rompecabezas de bloques relajante sobre hacer espacio para tu siguiente jugada. Coloca tres piezas a la vez en un tablero de 8 x 8, completa filas y columnas, y encadena limpiezas para lograr combos. El modo clásico nunca tiene reloj, y cada tanda de tres piezas tiene un orden posible de colocación. Los senderos de reliquias ofrecen tableros iniciales con reliquias ocultas y un límite de movimientos, y el claro diario presenta un tablero con semilla y una meta de 450 puntos. Cada partida incluye giros y deshacer, cinco líneas despejadas dan otro giro y las hojas de las partidas terminadas hacen crecer cuatro zonas del jardín.",
+            "pt-BR": "Grove Blocks é um quebra-cabeça de blocos relaxante sobre abrir espaço para a próxima jogada. Encaixe três peças por vez em um tabuleiro 8 x 8, complete linhas e colunas e encadeie limpezas em combos. O modo clássico nunca tem cronômetro, e cada leva de três peças tem uma ordem possível de encaixe. As trilhas de relíquias trazem tabuleiros iniciais com relíquias escondidas e limite de jogadas, e a clareira diária oferece um tabuleiro com semente fixa e meta de 450 pontos. Toda partida tem giros e desfazer, cinco linhas limpas rendem mais um giro e as folhas das partidas concluídas fazem crescer quatro áreas do jardim."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/groveblocks",
+        "screenshots": [
+            "apps/shots/grove-blocks/01.jpg",
+            "apps/shots/grove-blocks/02.jpg",
+            "apps/shots/grove-blocks/03.jpg",
+            "apps/shots/grove-blocks/04.jpg",
+            "apps/shots/grove-blocks/05.jpg"
+        ]
+    },
+    {
+        "id": "operacao-brasa",
+        "slug": "operacao-brasa",
+        "icon": "apps/operacao-brasa.png",
+        "page": "apps/operacao-brasa.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Operação Brasa",
+            "ko": "오페라상 브라자",
+            "ja": "オペラサン・ブラザ",
+            "es": "Operação Brasa",
+            "pt-BR": "Operação Brasa"
+        },
+        "tagline": {
+            "en": "Every route is a decision.",
+            "ko": "모든 경로가 하나의 결정입니다.",
+            "ja": "どのルートも一つの決断だ。",
+            "es": "Cada ruta es una decisión.",
+            "pt-BR": "Cada rota é uma decisão."
+        },
+        "desc": {
+            "en": "Every opened door changes the incident. Coordinate four responders, Ana, Ivo, Bia and Ravi, protect a route and evacuate civilians before fire and smoke close the way. Planning is untimed: read the one-turn forecast, commit your orders and watch the hazards advance. Water, air and health are limited, opened doors feed the fire and ventilation clears smoke but opens a hotter path. There are 30 incidents across six building families, twelve equipment options, daily and remixed dispatches, a training yard, a scenario editor and turn-by-turn replays of every operation.",
+            "ko": "문 하나를 열 때마다 사고 현장이 달라집니다. 아나, 이보, 비아, 하비 네 명의 대원을 지휘해 경로를 지키고, 불길과 연기가 길을 막기 전에 시민들을 대피시키세요. 계획에는 시간 제한이 없습니다. 한 턴 앞의 예측을 읽고, 명령을 확정한 뒤 위험이 번지는 모습을 지켜보세요. 물, 공기, 체력은 한정되어 있고, 열린 문은 불을 키우며, 환기는 연기를 걷어내지만 더 뜨거운 길을 엽니다. 여섯 가지 건물 유형에 걸친 30개의 사고, 12가지 장비, 일일 및 변형 출동, 훈련장, 시나리오 편집기, 모든 작전의 턴별 리플레이가 준비되어 있습니다.",
+            "ja": "扉を一つ開けるたびに、現場は変わる。アナ、イヴォ、ビア、ハヴィの4人の隊員を指揮してルートを守り、炎と煙が道をふさぐ前に市民を避難させよう。計画に時間制限はない。1ターン先の予測を読み、命令を確定し、危険が広がる様子を見届ける。水、空気、体力は限られ、開いた扉は火を勢いづかせ、換気は煙を払う代わりにより熱い道を開く。6種類の建物にまたがる30の災害、12種の装備、デイリーとリミックスの出動、訓練場、シナリオエディター、全作戦のターンごとのリプレイを収録。",
+            "es": "Cada puerta que abres cambia el incidente. Coordina a cuatro rescatistas, Ana, Ivo, Bia y Ravi, protege una ruta y evacúa a los civiles antes de que el fuego y el humo cierren el paso. La planificación no tiene tiempo límite: lee el pronóstico del próximo turno, confirma tus órdenes y observa cómo avanzan los peligros. El agua, el aire y la salud son limitados, las puertas abiertas alimentan el fuego y la ventilación despeja el humo pero abre un camino más caliente. Hay 30 incidentes en seis tipos de edificios, doce opciones de equipo, despachos diarios y remezclados, un patio de entrenamiento, un editor de escenarios y repeticiones turno por turno de cada operación.",
+            "pt-BR": "Cada porta aberta muda a ocorrência. Coordene quatro socorristas, Ana, Ivo, Bia e Ravi, proteja uma rota e evacue os civis antes que o fogo e a fumaça fechem o caminho. O planejamento não tem tempo: leia a previsão do próximo turno, confirme as ordens e veja os perigos avançarem. Água, ar e vida são limitados, portas abertas alimentam o fogo e a ventilação tira a fumaça, mas abre um caminho mais quente. São 30 ocorrências em seis tipos de edificação, doze opções de equipamento, chamados diários e remixados, um pátio de treino, um editor de cenários e replays turno a turno de cada operação."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/operacaobrasa",
+        "screenshots": [
+            "apps/shots/operacao-brasa/01.jpg",
+            "apps/shots/operacao-brasa/02.jpg",
+            "apps/shots/operacao-brasa/03.jpg",
+            "apps/shots/operacao-brasa/04.jpg",
+            "apps/shots/operacao-brasa/05.jpg"
+        ]
+    },
+    {
+        "id": "sugar-sort",
+        "slug": "sugar-sort",
+        "icon": "apps/sugar-sort.png",
+        "page": "apps/sugar-sort.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Sugar Sort",
+            "ko": "슈가 소트",
+            "ja": "シュガーソート",
+            "es": "Sugar Sort",
+            "pt-BR": "Sugar Sort"
+        },
+        "tagline": {
+            "en": "Find three matching treats, mind your seven-space tray, and fill a dessert collection.",
+            "ko": "같은 디저트 세 개를 찾고, 일곱 칸 트레이를 잘 관리하며 디저트 컬렉션을 채우세요.",
+            "ja": "同じお菓子を3つ見つけ、7マスのトレイに気を配り、デザートコレクションを集めよう。",
+            "es": "Encuentra tres dulces iguales, cuida tu bandeja de siete espacios y completa una colección de postres.",
+            "pt-BR": "Encontre três doces iguais, cuide da sua bandeja de sete espaços e complete uma coleção de sobremesas."
+        },
+        "desc": {
+            "en": "Sugar Sort is a triple-match puzzle full of pixel-art desserts. Pick uncovered treats into your seven-space tray, and three of a kind clear together. Look beneath the top layers, plan around the spaces you have left and keep a sweet streak going. Trays change shape as you go, from full trays to open centers, narrow middles and staggered layers, and every one starts with a possible clearing path. Play relaxed with no countdown, try timed trays or take the seeded daily tasting, and discover 30 desserts with collection stars and a display for six favorites.",
+            "ko": "슈가 소트는 픽셀 아트 디저트로 가득한 트리플 매치 퍼즐입니다. 가려지지 않은 디저트를 골라 일곱 칸 트레이에 담으면, 같은 것 세 개가 함께 사라집니다. 위층 아래를 살피고, 남은 칸을 생각하며 달콤한 연속 기록을 이어가세요. 트레이는 꽉 찬 모양, 가운데가 빈 모양, 가운데가 좁은 모양, 엇갈린 층 등으로 계속 바뀌며, 모든 트레이는 처음부터 다 비울 수 있는 길이 있습니다. 제한 시간 없이 편하게 즐기거나, 시간제 트레이나 시드로 정해진 일일 시식에 도전하고, 컬렉션 별과 여섯 개의 즐겨찾기 진열대와 함께 30가지 디저트를 발견하세요.",
+            "ja": "シュガーソートは、ピクセルアートのお菓子がいっぱいのトリプルマッチパズル。上に何も乗っていないお菓子を7マスのトレイに入れ、同じものが3つそろうと消える。下の層をのぞき、残りのマスを考えながら、甘い連続記録をつなげよう。トレイは満杯、中央が空いた形、中央が細い形、互い違いの層と形を変えていき、どれも最初から全部消せる道がある。制限時間なしでのんびり遊ぶことも、時間制のトレイや固定シードのデイリー試食に挑むこともできる。30種類のデザートを見つけ、コレクションの星を集め、お気に入り6つを飾ろう。",
+            "es": "Sugar Sort es un rompecabezas de triple coincidencia lleno de postres en pixel art. Lleva los dulces descubiertos a tu bandeja de siete espacios, y tres iguales desaparecen juntos. Mira bajo las capas de arriba, planifica con los espacios que te quedan y mantén una racha dulce. Las bandejas cambian de forma a medida que avanzas, desde bandejas llenas hasta centros abiertos, medios estrechos y capas escalonadas, y todas empiezan con un camino posible para despejarlas. Juega relajado sin cuenta regresiva, prueba bandejas con tiempo o la degustación diaria, y descubre 30 postres con estrellas de colección y una vitrina para seis favoritos.",
+            "pt-BR": "Sugar Sort é um quebra-cabeça de trio cheio de sobremesas em pixel art. Leve os doces descobertos para a sua bandeja de sete espaços, e três iguais somem juntos. Olhe embaixo das camadas de cima, planeje com os espaços que restam e mantenha uma sequência doce. As bandejas mudam de forma ao longo do jogo, de bandejas cheias a centros abertos, meios estreitos e camadas escalonadas, e todas começam com um caminho possível para limpar. Jogue com calma sem contagem regressiva, tente bandejas cronometradas ou a degustação diária, e descubra 30 sobremesas com estrelas de coleção e uma vitrine para seis favoritas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/sugarsort",
+        "screenshots": [
+            "apps/shots/sugar-sort/01.jpg",
+            "apps/shots/sugar-sort/02.jpg",
+            "apps/shots/sugar-sort/03.jpg",
+            "apps/shots/sugar-sort/04.jpg",
+            "apps/shots/sugar-sort/05.jpg"
+        ]
+    },
+    {
+        "id": "tracado",
+        "slug": "tracado",
+        "icon": "apps/tracado.png",
+        "page": "apps/tracado.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Traçado",
+            "ko": "트라사두",
+            "ja": "トラサード",
+            "es": "Traçado",
+            "pt-BR": "Traçado"
+        },
+        "tagline": {
+            "en": "Make the track. Earn the lap.",
+            "ko": "트랙을 만들고, 랩으로 증명하세요.",
+            "ja": "コースを作り、ラップで証明しよう。",
+            "es": "Crea la pista. Gánate la vuelta.",
+            "pt-BR": "Faça a pista. Conquiste a volta."
+        },
+        "desc": {
+            "en": "Build the course you want to master. Drag numbered points to shape a closed circuit, set each section's surface and banking within the brief's budget and rules, then take the wheel and pass all twelve timing gates in order to prove your design works. Compare your trace against the ideal line and your own ghost, revise the track and go again. There are 24 sites across six locations, eight surfaces and four cars with different power, braking, grip and steering, plus seeded briefs, daily challenges, a free-building workshop and guided demonstrations that teach the racing line.",
+            "ko": "마스터하고 싶은 코스를 직접 만드세요. 번호가 붙은 지점을 끌어 닫힌 서킷을 만들고, 과제의 예산과 규칙 안에서 구간마다 노면과 뱅크를 정한 뒤, 운전대를 잡고 열두 개의 계측 게이트를 순서대로 통과해 설계가 통한다는 것을 증명하세요. 이상적인 라인과 자신의 고스트에 주행 궤적을 비교하고, 트랙을 고쳐 다시 달리세요. 여섯 지역에 걸친 24개의 현장, 여덟 가지 노면, 출력, 제동, 접지력, 조향이 각기 다른 네 대의 차량, 그리고 시드 과제, 일일 도전, 자유 건설 작업장, 레이싱 라인을 알려주는 시범 주행이 준비되어 있습니다.",
+            "ja": "極めたいコースを自分で作ろう。番号付きのポイントをドラッグして周回コースを形作り、課題の予算とルールの範囲で区間ごとの路面とバンクを決めたら、ハンドルを握って12のタイミングゲートを順番に通過し、設計が通用することを証明する。走行ラインを理想のラインや自分のゴーストと比べ、コースを直してもう一度。6つの地域にまたがる24の現場、8種類の路面、パワー、ブレーキ、グリップ、ハンドリングが異なる4台の車に加え、シード付きの課題、デイリーチャレンジ、自由に作れる工房、レーシングラインを教えるガイド付きデモを収録。",
+            "es": "Construye el circuito que quieres dominar. Arrastra los puntos numerados para formar un circuito cerrado, define la superficie y el peralte de cada tramo dentro del presupuesto y las reglas del encargo, y luego toma el volante y cruza las doce puertas de cronometraje en orden para demostrar que tu diseño funciona. Compara tu trazado con la línea ideal y con tu propio fantasma, ajusta la pista y vuelve a intentarlo. Hay 24 sitios en seis lugares, ocho superficies y cuatro autos con distinta potencia, frenado, agarre y dirección, además de encargos con semilla, desafíos diarios, un taller de construcción libre y demostraciones guiadas que enseñan la línea de carrera.",
+            "pt-BR": "Construa o circuito que você quer dominar. Arraste os pontos numerados para formar um circuito fechado, defina o piso e a inclinação de cada trecho dentro do orçamento e das regras do desafio, depois pegue o volante e passe pelos doze portões de cronometragem em ordem para provar que o projeto funciona. Compare seu traçado com a linha ideal e com o seu fantasma, revise a pista e tente de novo. São 24 locais em seis regiões, oito pisos e quatro carros com potência, frenagem, aderência e direção diferentes, além de desafios com semente, desafios diários, uma oficina de construção livre e demonstrações guiadas que ensinam a trajetória."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/tracado",
+        "screenshots": [
+            "apps/shots/tracado/01.jpg",
+            "apps/shots/tracado/02.jpg",
+            "apps/shots/tracado/03.jpg",
+            "apps/shots/tracado/04.jpg",
+            "apps/shots/tracado/05.jpg"
+        ]
+    },
+    {
+        "id": "crown-and-crystal",
+        "slug": "crown-and-crystal",
+        "icon": "apps/crown-and-crystal.png",
+        "page": "apps/crown-and-crystal.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Crown & Crystal",
+            "ko": "크라운 앤 크리스탈",
+            "ja": "クラウン＆クリスタル",
+            "es": "Crown & Crystal",
+            "pt-BR": "Crown & Crystal"
+        },
+        "tagline": {
+            "en": "Match gems, set off cascades, and restore a little puzzle kingdom.",
+            "ko": "보석을 맞추고 연쇄를 일으켜 작은 퍼즐 왕국을 되살리세요.",
+            "ja": "宝石をそろえて連鎖を起こし、小さなパズル王国をよみがえらせよう。",
+            "es": "Combina gemas, provoca cascadas y restaura un pequeño reino de rompecabezas.",
+            "pt-BR": "Combine joias, provoque cascatas e restaure um pequeno reino de quebra-cabeças."
+        },
+        "desc": {
+            "en": "Crown & Crystal is a match-3 puzzle game with bright jewels and a kingdom to restore. Swap gems on a 7 x 7 board, plan around collection goals and frosted tiles, and turn one clever move into a cascade with row and column beams, area bursts and special-gem swaps. Later campaign levels add frost patterns and thick ice that needs two hits. Stars from every finished puzzle bring back six kingdom districts, each with four restoration stages, in the order you choose. There is also a seeded Daily Sparkle puzzle and Moonlight mode, with no move limit and no targets.",
+            "ko": "크라운 앤 크리스탈은 반짝이는 보석과 되살릴 왕국이 있는 매치 3 퍼즐 게임입니다. 7 x 7 보드에서 보석을 바꾸고, 수집 목표와 얼어붙은 칸을 고려해 계획하며, 가로세로 광선, 범위 폭발, 특수 보석 교환으로 한 번의 영리한 수를 연쇄로 만드세요. 캠페인 후반에는 서리 무늬와 두 번 쳐야 깨지는 두꺼운 얼음이 등장합니다. 퍼즐을 끝낼 때마다 얻는 별로 각각 네 단계의 복구 과정이 있는 여섯 왕국 구역을 원하는 순서대로 되살리세요. 하루 한 번 주어지는 데일리 스파클 퍼즐과, 이동 제한도 목표도 없는 문라이트 모드도 있습니다.",
+            "ja": "クラウン＆クリスタルは、きらめく宝石と復興を待つ王国が舞台のマッチ3パズル。7 x 7の盤で宝石を入れ替え、収集目標や凍ったマスを考えながら、縦横のビーム、範囲爆発、特殊宝石の入れ替えで一手を連鎖に変えよう。キャンペーン後半では霜の模様や、2回当てないと割れない厚い氷が加わる。パズルをクリアして得た星で、それぞれ4段階の復興がある6つの王国地区を、好きな順番でよみがえらせる。1日1問のデイリースパークルと、手数制限も目標もないムーンライトモードもある。",
+            "es": "Crown & Crystal es un juego de rompecabezas de combinar 3 con joyas brillantes y un reino por restaurar. Intercambia gemas en un tablero de 7 x 7, planifica según los objetivos de colección y las casillas congeladas, y convierte una jugada ingeniosa en una cascada con rayos de fila y columna, explosiones de área e intercambios de gemas especiales. Los niveles avanzados de la campaña suman patrones de escarcha y hielo grueso que necesita dos golpes. Las estrellas de cada rompecabezas terminado devuelven la vida a seis distritos del reino, cada uno con cuatro etapas de restauración, en el orden que elijas. También hay un rompecabezas diario Daily Sparkle y el modo Moonlight, sin límite de movimientos ni objetivos.",
+            "pt-BR": "Crown & Crystal é um jogo de combinar 3 com joias brilhantes e um reino para restaurar. Troque gemas em um tabuleiro 7 x 7, planeje em torno das metas de coleta e das casas congeladas e transforme uma jogada esperta em cascata com raios de linha e coluna, explosões de área e trocas de gemas especiais. As fases mais avançadas da campanha trazem padrões de geada e gelo grosso que precisa de dois golpes. As estrelas de cada quebra-cabeça concluído trazem de volta seis distritos do reino, cada um com quatro etapas de restauração, na ordem que você escolher. Há também o quebra-cabeça diário Daily Sparkle e o modo Moonlight, sem limite de jogadas nem metas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/crownandcrystal",
+        "screenshots": [
+            "apps/shots/crown-and-crystal/01.jpg",
+            "apps/shots/crown-and-crystal/02.jpg",
+            "apps/shots/crown-and-crystal/03.jpg",
+            "apps/shots/crown-and-crystal/04.jpg",
+            "apps/shots/crown-and-crystal/05.jpg"
+        ]
+    },
+    {
+        "id": "engenho",
+        "slug": "engenho",
+        "icon": "apps/engenho.png",
+        "page": "apps/engenho.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Engenho",
+            "ko": "엔제뉴",
+            "ja": "エンジェーニョ",
+            "es": "Engenho",
+            "pt-BR": "Engenho"
+        },
+        "tagline": {
+            "en": "Small parts. Beautiful systems.",
+            "ko": "작은 부품, 아름다운 시스템.",
+            "ja": "小さな部品、美しいシステム。",
+            "es": "Piezas pequeñas. Sistemas hermosos.",
+            "pt-BR": "Peças pequenas. Sistemas bonitos."
+        },
+        "desc": {
+            "en": "Build a line that keeps working on its own. Lia reopens a cooperative workshop by delivering each part to the right place at the right time. Place machines, rotate conveyors, wire them to the power bus, set flow and speed and add buffers so one fast machine does not block another, then run the line or step it one tick at a time. Thirty orders introduce eighteen modules, four raw-material chains and twelve compound recipes, with stars for faster, cheaper and leaner lines. There is also a daily challenge, generated contracts, a free workshop and a blueprint archive.",
+            "ko": "스스로 돌아가는 생산 라인을 만드세요. 리아는 부품 하나하나를 알맞은 곳에, 알맞은 때에 보내며 협동조합 작업장을 다시 엽니다. 기계를 놓고, 컨베이어를 돌리고, 전력 버스에 연결하고, 흐름과 속도를 정하고, 빠른 기계 하나가 다른 기계를 막지 않도록 버퍼를 추가한 뒤, 라인을 돌리거나 한 틱씩 진행해 보세요. 30개의 주문이 18개의 모듈, 4개의 원자재 체인, 12개의 복합 레시피를 차례로 소개하며, 더 빠르고 저렴하고 간결한 라인에는 별이 주어집니다. 일일 도전, 생성되는 계약, 자유 작업장, 설계도 보관함도 있습니다.",
+            "ja": "ひとりでに動き続けるラインを作ろう。リアは部品を正しい場所へ、正しいタイミングで届けて、協同組合の工房を再開させる。機械を置き、コンベアを回し、電力バスにつなぎ、流量と速度を設定し、速い機械が他を詰まらせないようバッファを加えたら、ラインを動かすか1ティックずつ進めて確かめる。30の注文で18のモジュール、4つの原料チェーン、12の複合レシピが登場し、より速く、安く、無駄のないラインには星が贈られる。デイリーチャレンジ、自動生成される契約、自由な工房、設計図アーカイブもある。",
+            "es": "Construye una línea que siga funcionando por sí sola. Lia reabre un taller cooperativo entregando cada pieza en el lugar y el momento justos. Coloca máquinas, gira cintas transportadoras, conéctalas al bus de energía, ajusta el flujo y la velocidad y agrega búferes para que una máquina rápida no bloquee a otra, y luego pon en marcha la línea o avánzala paso a paso. Treinta pedidos presentan dieciocho módulos, cuatro cadenas de materias primas y doce recetas compuestas, con estrellas para líneas más rápidas, baratas y eficientes. También hay un desafío diario, contratos generados, un taller libre y un archivo de planos.",
+            "pt-BR": "Monte uma linha que continue funcionando sozinha. Lia reabre uma oficina cooperativa entregando cada peça no lugar e na hora certos. Posicione máquinas, gire esteiras, ligue tudo ao barramento de energia, ajuste fluxo e velocidade e adicione buffers para que uma máquina rápida não trave a outra, depois rode a linha ou avance um tique por vez. Trinta pedidos apresentam dezoito módulos, quatro cadeias de matérias-primas e doze receitas compostas, com estrelas para linhas mais rápidas, baratas e enxutas. Há também um desafio diário, contratos gerados, uma oficina livre e um arquivo de projetos."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/engenho",
+        "screenshots": [
+            "apps/shots/engenho/01.jpg",
+            "apps/shots/engenho/02.jpg",
+            "apps/shots/engenho/03.jpg",
+            "apps/shots/engenho/04.jpg",
+            "apps/shots/engenho/05.jpg"
+        ]
+    },
+    {
+        "id": "pacto-de-mesa",
+        "slug": "pacto-de-mesa",
+        "icon": "apps/pacto-de-mesa.png",
+        "page": "apps/pacto-de-mesa.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Pacto de Mesa",
+            "ko": "팍투 지 메자",
+            "ja": "パクト・ジ・メーザ",
+            "es": "Pacto de Mesa",
+            "pt-BR": "Pacto de Mesa"
+        },
+        "tagline": {
+            "en": "Win the trick. Rewrite the next one.",
+            "ko": "트릭을 따내고, 다음 트릭의 규칙을 바꾸세요.",
+            "ja": "トリックを取り、次のルールを書き換えよう。",
+            "es": "Gana la baza. Reescribe la siguiente.",
+            "pt-BR": "Vença a vaza. Reescreva a próxima."
+        },
+        "desc": {
+            "en": "Winning a trick is only part of the plan. In a travelling card club, decide when to spend a strong card and when your influence is worth spending to change the next public rule. The original 36-card deck has four suits numbered 1 to 9, the public rule names the dominant suit and how tricks are won, and small losing cards earn influence to bid in the council between tricks. A story journey covers twelve club tables and six rulebooks against eight rival regulars, alongside a daily cup, custom tables and solo play against computer rivals or local matches for two or four players.",
+            "ko": "트릭을 이기는 것은 계획의 일부일 뿐입니다. 여행하는 카드 클럽에서 강한 카드를 언제 쓸지, 그리고 다음 공개 규칙을 바꾸기 위해 영향력을 언제 쓸 가치가 있는지 판단하세요. 오리지널 36장 덱은 1부터 9까지 번호가 붙은 네 가지 무늬로 이루어지고, 공개 규칙이 우세 무늬와 트릭을 이기는 방식을 정하며, 지는 작은 카드는 트릭 사이에 열리는 의회에서 입찰에 쓸 영향력을 줍니다. 스토리 여정에서는 열두 개의 클럽 테이블과 여섯 개의 규칙서를 여덟 명의 단골 라이벌과 겨루며, 일일 컵, 사용자 지정 테이블, 컴퓨터 상대와의 1인 플레이나 2인, 4인 로컬 대전도 즐길 수 있습니다.",
+            "ja": "トリックに勝つのは計画の一部にすぎない。旅するカードクラブで、強いカードをいつ使うか、そして次の公開ルールを変えるために影響力をいつ使うべきかを見極めよう。オリジナルの36枚デッキは1から9の数字が付いた4つのスートで構成され、公開ルールが優勢スートとトリックの勝ち方を決める。負けた小さなカードは影響力となり、トリックの合間に開かれる評議会で入札に使える。ストーリーの旅では12のクラブテーブルと6つのルールブックで8人の常連ライバルと対決し、デイリーカップ、カスタムテーブル、コンピューター相手の1人プレイや2人、4人でのローカル対戦も楽しめる。",
+            "es": "Ganar una baza es solo parte del plan. En un club de cartas itinerante, decide cuándo gastar una carta fuerte y cuándo vale la pena gastar tu influencia para cambiar la siguiente regla pública. La baraja original de 36 cartas tiene cuatro palos numerados del 1 al 9, la regla pública define el palo dominante y cómo se ganan las bazas, y las cartas bajas que pierden dan influencia para pujar en el consejo entre bazas. Un viaje narrativo recorre doce mesas de club y seis reglamentos contra ocho rivales habituales, además de una copa diaria, mesas personalizadas y partidas en solitario contra la computadora o locales para dos o cuatro jugadores.",
+            "pt-BR": "Vencer uma vaza é só parte do plano. Em um clube de cartas itinerante, decida quando gastar uma carta forte e quando vale a pena gastar sua influência para mudar a próxima regra pública. O baralho original de 36 cartas tem quatro naipes numerados de 1 a 9, a regra pública define o naipe dominante e como as vazas são vencidas, e cartas baixas que perdem rendem influência para dar lances no conselho entre as vazas. Uma jornada de história percorre doze mesas de clube e seis livros de regras contra oito rivais frequentes, além de uma copa diária, mesas personalizadas e partidas solo contra o computador ou locais para dois ou quatro jogadores."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/pactodemesa",
+        "screenshots": [
+            "apps/shots/pacto-de-mesa/01.jpg",
+            "apps/shots/pacto-de-mesa/02.jpg",
+            "apps/shots/pacto-de-mesa/03.jpg",
+            "apps/shots/pacto-de-mesa/04.jpg",
+            "apps/shots/pacto-de-mesa/05.jpg"
+        ]
+    },
+    {
+        "id": "fio-da-aventura",
+        "slug": "fio-da-aventura",
+        "icon": "apps/fio-da-aventura.png",
+        "page": "apps/fio-da-aventura.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Fio da Aventura",
+            "ko": "피우 다 아벤투라",
+            "ja": "フィオ・ダ・アヴェントゥーラ",
+            "es": "Fio da Aventura",
+            "pt-BR": "Fio da Aventura"
+        },
+        "tagline": {
+            "en": "Every swing leaves a new possibility.",
+            "ko": "흔들릴 때마다 새로운 가능성이 생깁니다.",
+            "ja": "スイングのたびに、新しい可能性が生まれる。",
+            "es": "Cada balanceo deja una nueva posibilidad.",
+            "pt-BR": "Cada balanço deixa uma nova possibilidade."
+        },
+        "desc": {
+            "en": "Lume, a tiny moth, must stitch a valley's paths back together. Attach thread to brass rings, build momentum, let go at the right moment and bring a rescued pattern home, where its weight changes how you move. On safe ledges you can spend thread to stitch a bridge for the return trip. There are 30 routes across five textile environments, from Moss Valley to Satin Gorge, with six thread tools and twelve cargo patterns that change reach, elasticity and movement, plus expeditions, a daily route, free exploration and Cora's workshop for crafting tools.",
+            "ko": "작은 나방 루메는 골짜기의 길들을 다시 꿰매어 이어야 합니다. 황동 고리에 실을 걸고, 반동을 키우고, 알맞은 순간에 놓아 구해 낸 무늬를 집으로 가져오세요. 무늬의 무게는 움직임을 바꿉니다. 안전한 바위턱에서는 실을 써서 돌아오는 길에 쓸 다리를 꿰매 둘 수 있습니다. 이끼 골짜기부터 새틴 협곡까지 다섯 가지 직물 환경에 걸친 30개의 경로, 닿는 거리와 탄성, 움직임을 바꾸는 여섯 가지 실 도구와 열두 가지 화물 무늬, 그리고 탐험, 일일 경로, 자유 탐색, 도구를 만드는 코라의 작업장이 있습니다.",
+            "ja": "小さな蛾のルーメは、谷の道をもう一度縫い合わせなければならない。真鍮のリングに糸をかけ、勢いをつけ、ちょうどいい瞬間に手を離し、救い出した模様を村へ持ち帰ろう。その重さが動き方を変える。安全な岩棚では糸を使って帰り道の橋を縫っておける。モス渓谷からサテン峡谷まで5つの布の世界にまたがる30のルート、届く距離や伸縮性、動きを変える6つの糸の道具と12の荷物模様、さらに遠征、デイリールート、自由探索、道具を作るコーラの工房がある。",
+            "es": "Lume, una pequeña polilla, debe volver a coser los caminos de un valle. Engancha hilo a anillos de latón, gana impulso, suéltate en el momento justo y lleva a casa un patrón rescatado, cuyo peso cambia tu forma de moverte. En las cornisas seguras puedes gastar hilo para coser un puente para el regreso. Hay 30 rutas en cinco entornos textiles, del Valle del Musgo al Desfiladero de Satén, con seis herramientas de hilo y doce patrones de carga que cambian el alcance, la elasticidad y el movimiento, además de expediciones, una ruta diaria, exploración libre y el taller de Cora para fabricar herramientas.",
+            "pt-BR": "Lume, uma pequena mariposa, precisa costurar de novo os caminhos de um vale. Prenda a linha em argolas de latão, ganhe impulso, solte no momento certo e leve para casa um padrão resgatado, cujo peso muda o seu jeito de se mover. Em bordas seguras, você pode gastar linha para costurar uma ponte para a volta. São 30 rotas em cinco ambientes têxteis, do Vale do Musgo ao Desfiladeiro de Cetim, com seis ferramentas de linha e doze padrões de carga que mudam alcance, elasticidade e movimento, além de expedições, uma rota diária, exploração livre e a oficina da Cora para criar ferramentas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/fiodaaventura",
+        "screenshots": [
+            "apps/shots/fio-da-aventura/01.jpg",
+            "apps/shots/fio-da-aventura/02.jpg",
+            "apps/shots/fio-da-aventura/03.jpg",
+            "apps/shots/fio-da-aventura/04.jpg",
+            "apps/shots/fio-da-aventura/05.jpg"
+        ]
+    },
+    {
+        "id": "dead-air",
+        "slug": "dead-air",
+        "icon": "apps/dead-air.png",
+        "page": "apps/dead-air.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Dead Air",
+            "ko": "데드 에어",
+            "ja": "デッドエア",
+            "es": "Dead Air",
+            "pt-BR": "Dead Air"
+        },
+        "tagline": {
+            "en": "Start a true crime podcast in your garage, grow a studio and solve cold cases.",
+            "ko": "차고에서 실화 범죄 팟캐스트를 시작하고, 스튜디오를 키우며 미제 사건을 해결하세요.",
+            "ja": "ガレージで実録犯罪ポッドキャストを始め、スタジオを育てて未解決事件を解こう。",
+            "es": "Empieza un pódcast de crímenes reales en tu garaje, haz crecer un estudio y resuelve casos archivados.",
+            "pt-BR": "Comece um podcast de true crime na garagem, faça um estúdio crescer e resolva casos arquivados."
+        },
+        "desc": {
+            "en": "Your garage, two microphones and a cold case nobody ever solved. Dead Air is a true crime podcast tycoon: record episodes, grow your audience, hire staff and turn a garage studio into a six-floor media building. Then spend what you earn on cold cases, one season at a time. Each season has eight leads, from interviews to records requests. Finish six, then name your suspect live on air: get it right for a record audience, or get it wrong and get sued. Six seasons run from a 1998 disappearance to a caller who knows too much, with endless bonus cases and a daily case.",
+            "ko": "차고 하나, 마이크 두 개, 그리고 아무도 풀지 못한 미제 사건. 데드 에어는 실화 범죄 팟캐스트 경영 게임입니다. 에피소드를 녹음하고, 청취자를 늘리고, 직원을 고용해 차고 스튜디오를 6층짜리 미디어 빌딩으로 키우세요. 그리고 번 돈으로 한 시즌씩 미제 사건을 파고드세요. 시즌마다 인터뷰부터 기록 열람 요청까지 여덟 개의 단서가 있습니다. 여섯 개를 끝내면 생방송에서 용의자를 지목하세요. 맞히면 역대 최고 청취자를 얻고, 틀리면 소송을 당합니다. 1998년의 실종 사건부터 너무 많은 것을 아는 제보 전화까지 여섯 시즌이 이어지며, 끝없는 보너스 사건과 일일 사건도 있습니다.",
+            "ja": "ガレージ、マイク2本、そして誰も解けなかった未解決事件。デッドエアは実録犯罪ポッドキャストの経営ゲーム。エピソードを収録し、リスナーを増やし、スタッフを雇って、ガレージのスタジオを6階建てのメディアビルに育てよう。稼いだお金で、1シーズンずつ未解決事件を掘り下げる。各シーズンにはインタビューから記録請求まで8つの手がかりがある。6つを片づけたら、生放送で容疑者を名指しする。当たれば記録的なリスナー数、外せば訴えられる。1998年の失踪事件から、知りすぎた電話の主まで6つのシーズンがあり、終わりのないボーナス事件とデイリー事件もある。",
+            "es": "Tu garaje, dos micrófonos y un caso que nadie resolvió. Dead Air es un juego de magnate de pódcast de crímenes reales: graba episodios, haz crecer tu audiencia, contrata personal y convierte un estudio de garaje en un edificio de medios de seis pisos. Luego invierte lo que ganes en casos archivados, una temporada a la vez. Cada temporada tiene ocho pistas, desde entrevistas hasta solicitudes de registros. Completa seis y nombra a tu sospechoso en vivo: si aciertas, logras una audiencia récord, y si te equivocas, te demandan. Seis temporadas van desde una desaparición de 1998 hasta alguien que llama sabiendo demasiado, con casos extra sin fin y un caso diario.",
+            "pt-BR": "Sua garagem, dois microfones e um caso arquivado que ninguém resolveu. Dead Air é um tycoon de podcast de true crime: grave episódios, aumente a audiência, contrate equipe e transforme um estúdio de garagem em um prédio de mídia de seis andares. Depois, invista o que ganhar em casos arquivados, uma temporada por vez. Cada temporada tem oito pistas, de entrevistas a pedidos de registros. Conclua seis e aponte seu suspeito ao vivo: acerte e ganhe uma audiência recorde, erre e seja processado. Seis temporadas vão de um desaparecimento de 1998 a alguém que liga sabendo demais, com casos bônus sem fim e um caso diário."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/deadair",
+        "screenshots": [
+            "apps/shots/dead-air/01.jpg",
+            "apps/shots/dead-air/02.jpg",
+            "apps/shots/dead-air/03.jpg",
+            "apps/shots/dead-air/04.jpg",
+            "apps/shots/dead-air/05.jpg"
+        ]
+    },
+    {
+        "id": "final-course",
+        "slug": "final-course",
+        "icon": "apps/final-course.png",
+        "page": "apps/final-course.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Final Course",
+            "ko": "파이널 코스",
+            "ja": "ファイナルコース",
+            "es": "Final Course",
+            "pt-BR": "Final Course"
+        },
+        "tagline": {
+            "en": "Seven courses. Eight guests. One killer at the table. Question, deduce, accuse.",
+            "ko": "일곱 코스, 여덟 명의 손님, 식탁에 앉은 한 명의 살인자. 묻고, 추리하고, 고발하세요.",
+            "ja": "7品のコース、8人の客、食卓に潜む1人の殺人者。問い、推理し、告発せよ。",
+            "es": "Siete platos. Ocho invitados. Un asesino en la mesa. Interroga, deduce, acusa.",
+            "pt-BR": "Sete pratos. Oito convidados. Um assassino à mesa. Interrogue, deduza, acuse."
+        },
+        "desc": {
+            "en": "A black card invites you, a former detective, to dinner on a private island: seven courses, eight guests, signed only 'The Chef'. Before the soup is served, the host drops dead. Every course begins with a body and a clue, and between courses you get three questions. Honest guests tell the truth, the killer lies about where they were and a thief lies for reasons of their own. Catch the alibi that does not hold, then accuse. There are seven written dinners leading to the Chef, endless generated dinner parties, a daily dinner and a notebook that logs every statement.",
+            "ko": "검은 초대장 한 장이 전직 형사인 당신을 개인 섬의 만찬으로 부릅니다. 일곱 코스, 여덟 명의 손님, 서명은 '셰프'뿐. 수프가 나오기도 전에 주최자가 쓰러져 죽습니다. 코스마다 시신 하나와 단서 하나가 나오고, 코스 사이에 세 번 질문할 수 있습니다. 정직한 손님은 진실을 말하지만, 살인자는 자신이 있던 곳을 속이고, 도둑은 나름의 이유로 거짓말을 합니다. 맞지 않는 알리바이를 잡아내고 고발하세요. 셰프에게 이어지는 일곱 개의 시나리오 만찬, 끝없이 생성되는 디너 파티, 일일 만찬, 모든 진술을 기록하는 수첩이 있습니다.",
+            "ja": "元刑事のあなたに、黒いカードが届く。プライベートアイランドでの晩餐会、7品のコース、8人の客、署名は「シェフ」だけ。スープが出る前に、主催者が倒れて死ぬ。コースごとに遺体と手がかりが1つずつ現れ、コースの合間には3つの質問ができる。正直な客は真実を語るが、殺人者は居場所について嘘をつき、泥棒も自分なりの理由で嘘をつく。成り立たないアリバイを見抜き、告発しよう。シェフへとつながる7つのシナリオ晩餐会、無限に生成されるディナーパーティー、デイリー晩餐会、すべての証言を記録する手帳を収録。",
+            "es": "Una tarjeta negra te invita, como exdetective, a cenar en una isla privada: siete platos, ocho invitados y una sola firma, 'El Chef'. Antes de servir la sopa, el anfitrión cae muerto. Cada plato empieza con un cuerpo y una pista, y entre plato y plato tienes tres preguntas. Los invitados honestos dicen la verdad, el asesino miente sobre dónde estaba y un ladrón miente por sus propios motivos. Descubre la coartada que no se sostiene y acusa. Hay siete cenas escritas que llevan hasta el Chef, cenas generadas sin fin, una cena diaria y una libreta que registra cada declaración.",
+            "pt-BR": "Um cartão preto convida você, ex-detetive, para um jantar em uma ilha particular: sete pratos, oito convidados e só uma assinatura, 'O Chef'. Antes de servirem a sopa, o anfitrião cai morto. Cada prato começa com um corpo e uma pista, e entre os pratos você tem três perguntas. Convidados honestos dizem a verdade, o assassino mente sobre onde estava e um ladrão mente por motivos próprios. Pegue o álibi que não se sustenta e acuse. São sete jantares roteirizados que levam ao Chef, jantares gerados sem fim, um jantar diário e um caderno que registra cada depoimento."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/finalcourse",
+        "screenshots": [
+            "apps/shots/final-course/01.jpg",
+            "apps/shots/final-course/02.jpg",
+            "apps/shots/final-course/03.jpg",
+            "apps/shots/final-course/04.jpg",
+            "apps/shots/final-course/05.jpg"
+        ]
+    },
+    {
+        "id": "willowmere",
+        "slug": "willowmere",
+        "icon": "apps/willowmere.png",
+        "page": "apps/willowmere.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Willowmere",
+            "ko": "윌로미어",
+            "ja": "ウィロウミア",
+            "es": "Willowmere",
+            "pt-BR": "Willowmere"
+        },
+        "tagline": {
+            "en": "Merge, restore a lakeside lodge and find out how Aunt Edith really drowned.",
+            "ko": "아이템을 합치고 호숫가 별장을 복원하며, 에디스 이모할머니가 정말 어떻게 익사했는지 밝혀내세요.",
+            "ja": "マージして湖畔のロッジを修復し、イーディス大おばが本当はどう溺れたのかを突き止めよう。",
+            "es": "Combina objetos, restaura un albergue junto al lago y descubre cómo se ahogó realmente la tía Edith.",
+            "pt-BR": "Combine itens, restaure um chalé à beira do lago e descubra como a tia Edith realmente se afogou."
+        },
+        "desc": {
+            "en": "Your great-aunt Edith has left you Willowmere Lodge, shut since the summer of 1998, the night she drowned at the end of the dock. Edith never swam. Merge envelopes into love letters and teacups into teapots, fill orders for the cook, the boatman, the painter and the inspector who wrote 'accident', and spend the stars you earn to restore the lodge piece by piece. There are 120 restorations over six rooms and a written mystery in 24 chapters, where every fifth restoration brings back a memory of that night and each room ends with a 'who's lying?' puzzle.",
+            "ko": "에디스 이모할머니가 윌로미어 별장을 당신에게 남겼습니다. 1998년 여름, 에디스가 선착장 끝에서 익사한 그날 밤 이후로 닫혀 있던 곳입니다. 에디스는 수영을 하지 않았습니다. 편지 봉투를 합쳐 연애편지로, 찻잔을 합쳐 찻주전자로 만들고, 요리사, 뱃사공, 화가, 그리고 '사고'라고 적은 조사관의 주문을 채운 뒤, 얻은 별로 별장을 하나씩 복원하세요. 여섯 개의 방에 걸친 120번의 복원과 24장으로 된 미스터리가 있으며, 다섯 번째 복원마다 그날 밤의 기억이 하나씩 떠오르고, 방마다 '누가 거짓말을 하는가?' 퍼즐로 마무리됩니다.",
+            "ja": "大おばのイーディスが、ウィロウミア・ロッジをあなたに遺した。1998年の夏、イーディスが桟橋の先で溺れた夜から閉ざされたままの場所だ。イーディスは泳がなかった。封筒をマージしてラブレターに、ティーカップをティーポットにし、料理人、船頭、画家、そして「事故」と書いた警部の注文に応え、手に入れた星でロッジを少しずつ修復しよう。6つの部屋で120の修復と24章の書き下ろしミステリーがあり、5回修復するごとにあの夜の記憶がよみがえり、各部屋の最後には「嘘をついているのは誰?」パズルが待っている。",
+            "es": "Tu tía abuela Edith te dejó Willowmere Lodge, cerrado desde el verano de 1998, la noche en que se ahogó al final del muelle. Edith nunca nadaba. Combina sobres en cartas de amor y tazas en teteras, cumple los pedidos del cocinero, el barquero, el pintor y el inspector que escribió 'accidente', y gasta las estrellas que ganes para restaurar el albergue pieza por pieza. Hay 120 restauraciones en seis habitaciones y un misterio escrito en 24 capítulos, donde cada quinta restauración trae un recuerdo de esa noche y cada habitación termina con un acertijo de '¿quién miente?'.",
+            "pt-BR": "Sua tia-avó Edith deixou para você o Willowmere Lodge, fechado desde o verão de 1998, a noite em que ela se afogou na ponta do píer. Edith nunca nadava. Combine envelopes em cartas de amor e xícaras em bules, atenda aos pedidos do cozinheiro, do barqueiro, do pintor e do inspetor que escreveu 'acidente', e gaste as estrelas que ganhar para restaurar o chalé peça por peça. São 120 restaurações em seis cômodos e um mistério roteirizado em 24 capítulos, em que a cada cinco restaurações volta uma lembrança daquela noite e cada cômodo termina com um enigma de 'quem está mentindo?'."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/willowmere",
+        "screenshots": [
+            "apps/shots/willowmere/01.jpg",
+            "apps/shots/willowmere/02.jpg",
+            "apps/shots/willowmere/03.jpg",
+            "apps/shots/willowmere/04.jpg",
+            "apps/shots/willowmere/05.jpg"
+        ]
+    },
+    {
+        "id": "pixel-precinct",
+        "slug": "pixel-precinct",
+        "icon": "apps/pixel-precinct.png",
+        "page": "apps/pixel-precinct.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Pixel Precinct",
+            "ko": "픽셀 프리싱트",
+            "ja": "ピクセルプリシンクト",
+            "es": "Pixel Precinct",
+            "pt-BR": "Pixel Precinct"
+        },
+        "tagline": {
+            "en": "Find hidden clues in pixel crime scenes, catch the liar and close 30 cases.",
+            "ko": "픽셀 범죄 현장에서 숨은 단서를 찾고, 거짓말쟁이를 잡아 30건의 사건을 해결하세요.",
+            "ja": "ピクセルの事件現場で隠れた手がかりを探し、嘘つきを見抜いて30の事件を解決しよう。",
+            "es": "Encuentra pistas ocultas en escenas del crimen pixeladas, atrapa al mentiroso y cierra 30 casos.",
+            "pt-BR": "Encontre pistas escondidas em cenas de crime em pixel art, pegue o mentiroso e feche 30 casos."
+        },
+        "desc": {
+            "en": "Rookie detective Sam Reyes has just joined the 13th Precinct of Maple Heights, a cosy pixel city where someone leaves a tiny pixel calling card with a single letter at every crime scene. Search busy pixel-art rooms for the objects on your list, solve lab puzzles with fingerprints, torn photos and coded notes, then question three suspects and pick the liar and the evidence that proves it. There are 30 written cases across six districts, 90 hand-built crime scenes, thirty calling cards that spell out a secret, five ways to replay any scene, a patrol mode and a daily scene.",
+            "ko": "신입 형사 샘 레예스가 메이플 하이츠 13관할서에 막 배치되었습니다. 아늑한 픽셀 도시지만, 범죄 현장마다 누군가 글자 하나가 적힌 작은 픽셀 카드를 남깁니다. 북적이는 픽셀 아트 방에서 목록의 물건을 찾고, 지문, 찢어진 사진, 암호 쪽지로 감식 퍼즐을 푼 뒤, 세 명의 용의자를 심문해 거짓말쟁이와 그것을 증명할 증거를 고르세요. 여섯 지구에 걸친 30개의 사건과 직접 만든 90개의 범죄 현장, 비밀을 이루는 30장의 카드, 모든 현장을 다섯 가지 방식으로 다시 즐기는 모드, 순찰 모드와 일일 현장이 있습니다.",
+            "ja": "新米刑事サム・レイエスが、メープルハイツ第13分署に配属された。居心地のいいピクセルの街だが、事件現場には毎回、文字が1つだけ描かれた小さなピクセルのカードが残されている。にぎやかなピクセルアートの部屋でリストの品を探し、指紋、破れた写真、暗号メモの鑑識パズルを解き、3人の容疑者を取り調べて嘘つきとその証拠を選び出そう。6つの地区にまたがる30の事件と手作りの90の事件現場、秘密をつづる30枚のカード、どの現場も5通りで遊び直せるモード、パトロールモード、デイリー現場を収録。",
+            "es": "El detective novato Sam Reyes acaba de llegar a la Comisaría 13 de Maple Heights, una acogedora ciudad pixelada donde alguien deja en cada escena del crimen una pequeña tarjeta pixelada con una sola letra. Busca los objetos de tu lista en habitaciones llenas de detalles en pixel art, resuelve acertijos de laboratorio con huellas, fotos rotas y notas en clave, y luego interroga a tres sospechosos para señalar al mentiroso y la prueba que lo delata. Hay 30 casos escritos en seis distritos, 90 escenas del crimen hechas a mano, treinta tarjetas que forman un secreto, cinco maneras de rejugar cada escena, un modo patrulla y una escena diaria.",
+            "pt-BR": "O detetive novato Sam Reyes acaba de chegar à 13ª Delegacia de Maple Heights, uma cidade aconchegante em pixel art onde alguém deixa em cada cena de crime um pequeno cartão em pixels com uma única letra. Procure os objetos da sua lista em cômodos cheios de detalhes, resolva enigmas de laboratório com digitais, fotos rasgadas e bilhetes cifrados, depois interrogue três suspeitos e aponte o mentiroso e a prova que o desmascara. São 30 casos roteirizados em seis distritos, 90 cenas de crime feitas à mão, trinta cartões que revelam um segredo, cinco formas de rejogar cada cena, um modo patrulha e uma cena diária."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/pixelprecinct",
+        "screenshots": [
+            "apps/shots/pixel-precinct/01.jpg",
+            "apps/shots/pixel-precinct/02.jpg",
+            "apps/shots/pixel-precinct/03.jpg",
+            "apps/shots/pixel-precinct/04.jpg",
+            "apps/shots/pixel-precinct/05.jpg"
+        ]
+    },
+    {
+        "id": "box-47",
+        "slug": "box-47",
+        "icon": "apps/box-47.png",
+        "page": "apps/box-47.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Box 47",
+            "ko": "박스 47",
+            "ja": "ボックス47",
+            "es": "Box 47",
+            "pt-BR": "Box 47"
+        },
+        "tagline": {
+            "en": "Type a word. Open a file. Find what a small-town sheriff buried in 1977.",
+            "ko": "단어를 입력하고, 파일을 열고, 1977년 작은 마을 보안관이 묻어 버린 진실을 찾으세요.",
+            "ja": "言葉を打ち込み、ファイルを開き、1977年に田舎町の保安官が葬ったものを探し出せ。",
+            "es": "Escribe una palabra. Abre un archivo. Descubre lo que un sheriff de pueblo enterró en 1977.",
+            "pt-BR": "Digite uma palavra. Abra um arquivo. Descubra o que um xerife de cidade pequena enterrou em 1977."
+        },
+        "desc": {
+            "en": "Calder County hired you to scan the old sheriff's archive before it goes to the shredder. On the first shelf sits a sealed box marked 47: DO NOT REOPEN. Inside is the case of Ruth Ann Kessler, a diner waitress who vanished in June 1977, closed in eleven days. Type a name, place, car or plate into the archive terminal, read the first five matching files and click any word to search it next. Pin the right fact to each question, but three wrong pins send the box back. There are six written cases from 1958 to 1994, endless generated boxes and a daily box.",
+            "ko": "콜더 카운티는 옛 보안관 기록 보관소를 파쇄하기 전에 스캔하라며 당신을 고용했습니다. 첫 번째 선반에는 '47: 다시 열지 말 것'이라고 적힌 봉인된 상자가 있습니다. 그 안에는 1977년 6월에 사라진 식당 종업원 루스 앤 케슬러의 사건이 들어 있고, 사건은 11일 만에 종결되었습니다. 기록 단말기에 이름, 장소, 차량, 번호판을 입력하고, 일치하는 처음 다섯 개의 파일을 읽고, 아무 단어나 눌러 다음 검색어로 쓰세요. 질문마다 알맞은 사실을 꽂되, 세 번 틀리면 상자는 선반으로 돌아갑니다. 1958년부터 1994년까지의 여섯 사건, 끝없이 생성되는 상자, 일일 상자가 있습니다.",
+            "ja": "カルダー郡は、古い保安官事務所の記録をシュレッダーにかける前にスキャンするよう、あなたを雇った。最初の棚には「47 再開封禁止」と書かれた封印の箱がある。中身は1977年6月に姿を消したダイナーのウェイトレス、ルース・アン・ケスラーの事件で、わずか11日で打ち切られていた。記録端末に名前、場所、車、ナンバーを打ち込み、一致した最初の5件のファイルを読み、気になった言葉をクリックして次の検索に使おう。各質問に正しい事実をピン留めするが、3回間違えると箱は棚に戻される。1958年から1994年までの6つの事件、無限に生成される箱、デイリーの箱を収録。",
+            "es": "El condado de Calder te contrató para escanear el viejo archivo del sheriff antes de que vaya a la trituradora. En el primer estante hay una caja sellada con el número 47: NO VOLVER A ABRIR. Dentro está el caso de Ruth Ann Kessler, una mesera de un diner que desapareció en junio de 1977, cerrado en once días. Escribe un nombre, un lugar, un auto o una placa en la terminal del archivo, lee los primeros cinco archivos que coinciden y haz clic en cualquier palabra para buscarla después. Fija el dato correcto en cada pregunta, pero tres errores devuelven la caja al estante. Hay seis casos escritos de 1958 a 1994, cajas generadas sin fin y una caja diaria.",
+            "pt-BR": "O condado de Calder contratou você para digitalizar o antigo arquivo do xerife antes que ele vá para a fragmentadora. Na primeira prateleira há uma caixa lacrada com o número 47: NÃO REABRIR. Dentro está o caso de Ruth Ann Kessler, garçonete de uma lanchonete que sumiu em junho de 1977, encerrado em onze dias. Digite um nome, lugar, carro ou placa no terminal do arquivo, leia os cinco primeiros arquivos encontrados e clique em qualquer palavra para buscá-la em seguida. Fixe o fato certo em cada pergunta, mas três erros mandam a caixa de volta à prateleira. São seis casos roteirizados de 1958 a 1994, caixas geradas sem fim e uma caixa diária."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/box47",
+        "screenshots": [
+            "apps/shots/box-47/01.jpg",
+            "apps/shots/box-47/02.jpg",
+            "apps/shots/box-47/03.jpg",
+            "apps/shots/box-47/04.jpg",
+            "apps/shots/box-47/05.jpg"
+        ]
+    },
+    {
+        "id": "latent",
+        "slug": "latent",
+        "icon": "apps/latent.png",
+        "page": "apps/latent.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Latent",
+            "ko": "레이턴트",
+            "ja": "レイテント",
+            "es": "Latent",
+            "pt-BR": "Latent"
+        },
+        "tagline": {
+            "en": "Night shift at the crime lab. Match prints, run DNA, line up bullets, testify.",
+            "ko": "과학수사 연구소의 야간 근무. 지문을 대조하고, DNA를 분석하고, 탄환을 맞춰 보고, 증언하세요.",
+            "ja": "科学捜査ラボの夜勤。指紋を照合し、DNAを調べ、弾丸を並べ、証言台に立て。",
+            "es": "Turno de noche en el laboratorio forense. Compara huellas, analiza ADN, alinea balas y testifica.",
+            "pt-BR": "Plantão noturno no laboratório forense. Compare digitais, analise DNA, alinhe projéteis e testemunhe."
+        },
+        "desc": {
+            "en": "It is the night shift at an understaffed city crime lab, detectives want a name by morning and your old teacher's most famous fingerprint match is about to be looked at again. Every case brings two or three exhibits, each with its own test: latent prints, DNA gels, ballistics, toxicology, fibres and blood spatter. Do the science, write the report, then defend it on the witness stand, where overstating your results costs as much as getting them wrong. There are 40 cases in five seasons, with a story about a lab director who closed cases with bad science, plus a daily backlog.",
+            "ko": "인력이 부족한 도시 과학수사 연구소의 야간 근무. 형사들은 아침까지 이름을 원하고, 옛 스승의 가장 유명한 지문 감정이 재검토를 앞두고 있습니다. 사건마다 두세 개의 증거물이 나오며, 잠재 지문, DNA 젤, 탄도, 독성 검사, 섬유, 혈흔 분석까지 각기 다른 검사가 필요합니다. 과학적으로 분석하고, 보고서를 쓴 뒤, 증인석에서 그것을 변호하세요. 결과를 부풀리는 것은 틀리는 것만큼 대가가 큽니다. 다섯 시즌에 걸친 40개의 사건과 엉터리 과학으로 사건을 종결한 연구소장의 이야기, 그리고 일일 적체 사건이 있습니다.",
+            "ja": "人手不足の市警科学捜査ラボで夜勤が始まる。刑事たちは朝までに名前を求め、恩師の最も有名な指紋鑑定がもう一度調べ直されようとしている。事件ごとに2つか3つの証拠品があり、潜在指紋、DNAゲル、弾道、毒物、繊維、血痕とそれぞれ別の検査が必要だ。科学で答えを出し、報告書を書き、証言台でそれを守り抜こう。結果を誇張すれば、間違えたのと同じだけ代償を払う。5つのシーズンにわたる40の事件、ずさんな科学で事件を片づけてきたラボ所長の物語、そしてデイリーの未処理案件を収録。",
+            "es": "Es el turno de noche en un laboratorio forense de la ciudad con poco personal, los detectives quieren un nombre antes del amanecer y la coincidencia de huellas más famosa de tu antiguo maestro está a punto de revisarse. Cada caso trae dos o tres pruebas, cada una con su propio análisis: huellas latentes, geles de ADN, balística, toxicología, fibras y salpicaduras de sangre. Haz la ciencia, redacta el informe y defiéndelo en el estrado, donde exagerar tus resultados cuesta tanto como equivocarte. Hay 40 casos en cinco temporadas, con una historia sobre un director de laboratorio que cerraba casos con mala ciencia, y casos pendientes cada día.",
+            "pt-BR": "É o plantão noturno em um laboratório forense da cidade com pouca gente, os detetives querem um nome até de manhã e a identificação de digital mais famosa do seu antigo professor está prestes a ser revista. Cada caso traz dois ou três vestígios, cada um com seu próprio exame: digitais latentes, géis de DNA, balística, toxicologia, fibras e manchas de sangue. Faça a ciência, escreva o laudo e defenda-o no banco das testemunhas, onde exagerar os resultados custa tanto quanto errar. São 40 casos em cinco temporadas, com uma história sobre um diretor de laboratório que encerrava casos com ciência ruim, além de uma fila diária de casos."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/latentlab",
+        "screenshots": [
+            "apps/shots/latent/01.jpg",
+            "apps/shots/latent/02.jpg",
+            "apps/shots/latent/03.jpg",
+            "apps/shots/latent/04.jpg",
+            "apps/shots/latent/05.jpg"
+        ]
+    },
+    {
+        "id": "stakeout",
+        "slug": "stakeout",
+        "icon": "apps/stakeout.png",
+        "page": "apps/stakeout.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Stakeout",
+            "ko": "스테이크아웃",
+            "ja": "ステークアウト",
+            "es": "Stakeout",
+            "pt-BR": "Stakeout"
+        },
+        "tagline": {
+            "en": "Watch one street from a rooftop and pick the killer out of the crowd.",
+            "ko": "옥상에서 거리 하나를 지켜보며 군중 속에서 살인자를 찾아내세요.",
+            "ja": "屋上から一本の通りを見張り、群衆の中から殺し屋を見つけ出せ。",
+            "es": "Vigila una calle desde una azotea y encuentra al asesino entre la multitud.",
+            "pt-BR": "Vigie uma rua do alto de um telhado e encontre o assassino no meio da multidão."
+        },
+        "desc": {
+            "en": "Detective June Okafor has been stuck on the night shift since her partner vanished. Now she watches the city from the rooftops with a long lens, while a gang war burns below and a contract killer called the Usher works for both sides. Everyone on the 3D street has a routine, and one of them is the shooter. Watch the night from 21:00 to 23:00, follow suspects, photograph the clues from the witness profile and make the arrest, with only a few rewinds and a short roll of film. There are 25 cases across five districts, endless random cases and a daily stakeout.",
+            "ko": "파트너가 사라진 뒤로 준 오카포 형사는 야간 근무에 묶여 있습니다. 이제 그녀는 망원 렌즈를 들고 옥상에서 도시를 지켜봅니다. 아래에서는 조직 전쟁이 불타고, '어셔'라 불리는 청부 살인자가 양쪽 모두를 위해 일합니다. 3D 거리의 모든 사람에게는 일과가 있고, 그중 한 명이 총잡이입니다. 21:00부터 23:00까지의 밤을 지켜보고, 용의자를 따라가고, 목격자 프로필 속 단서를 사진으로 찍어 체포하세요. 되감기 횟수는 적고 필름은 짧습니다. 다섯 지구에 걸친 25개의 사건, 끝없는 무작위 사건, 일일 잠복이 있습니다.",
+            "ja": "相棒が姿を消して以来、ジューン・オカフォー刑事は夜勤に縛られている。今は望遠レンズを手に屋上から街を見張る。眼下では抗争が燃え、「アッシャー」と呼ばれる殺し屋が両陣営のために働いている。3Dの通りにいる全員に日課があり、その中の1人が撃った犯人だ。21:00から23:00までの夜を見張り、容疑者を追い、目撃証言のプロフィールにある手がかりを写真に収めて逮捕しよう。巻き戻しは少なく、フィルムも短い。5つの地区にまたがる25の事件、無限のランダム事件、デイリー張り込みを収録。",
+            "es": "La detective June Okafor está atrapada en el turno de noche desde que su compañero desapareció. Ahora vigila la ciudad desde las azoteas con un teleobjetivo, mientras abajo arde una guerra de pandillas y un sicario al que llaman el Acomodador trabaja para ambos bandos. Todos en la calle 3D tienen una rutina, y uno de ellos es el tirador. Observa la noche de 21:00 a 23:00, sigue a los sospechosos, fotografía las pistas del perfil de los testigos y haz el arresto, con pocos rebobinados y poca película. Hay 25 casos en cinco distritos, casos aleatorios sin fin y una vigilancia diaria.",
+            "pt-BR": "A detetive June Okafor está presa ao plantão noturno desde que o parceiro desapareceu. Agora ela vigia a cidade dos telhados com uma teleobjetiva, enquanto uma guerra de gangues arde lá embaixo e um matador de aluguel chamado de Lanterninha trabalha para os dois lados. Todos na rua em 3D têm uma rotina, e um deles é o atirador. Observe a noite das 21:00 às 23:00, siga suspeitos, fotografe as pistas do perfil das testemunhas e faça a prisão, com poucos retrocessos e pouco filme. São 25 casos em cinco distritos, casos aleatórios sem fim e uma tocaia diária."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/stakeout",
+        "screenshots": [
+            "apps/shots/stakeout/01.jpg",
+            "apps/shots/stakeout/02.jpg",
+            "apps/shots/stakeout/03.jpg",
+            "apps/shots/stakeout/04.jpg",
+            "apps/shots/stakeout/05.jpg"
+        ]
+    },
+    {
+        "id": "murder-at-the-monarch",
+        "slug": "murder-at-the-monarch",
+        "icon": "apps/murder-at-the-monarch.png",
+        "page": "apps/murder-at-the-monarch.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Murder at the Monarch",
+            "ko": "머더 앳 더 모나크",
+            "ja": "マーダー・アット・ザ・モナーク",
+            "es": "Murder at the Monarch",
+            "pt-BR": "Murder at the Monarch"
+        },
+        "tagline": {
+            "en": "1925. A grand hotel. 100 murders. Crack each whodunit with pure logic.",
+            "ko": "1925년. 그랜드 호텔. 100건의 살인. 순수한 논리로 모든 범인을 밝혀내세요.",
+            "ja": "1925年。グランドホテル。100件の殺人。純粋な論理で犯人を暴け。",
+            "es": "1925. Un gran hotel. 100 asesinatos. Resuelve cada misterio con pura lógica.",
+            "pt-BR": "1925. Um grande hotel. 100 assassinatos. Desvende cada mistério com pura lógica."
+        },
+        "desc": {
+            "en": "Summer, 1925. The Monarch, an art deco grand hotel on the Atlantic coast, has a new house detective: you. Every night a guest dies, and every morning you have a handful of clues, a grid and a hotel full of people with alibis. Work out who carried which weapon and who stood in which room, then name the killer. There are 100 story cases across ten floors, each checked to have exactly one answer, growing from 3x3 to 5x5 grids with either-or clues and lying suspects. Ten golden clues unlock the secret of Suite 1207, and there is a daily case and an endless Casebook.",
+            "ko": "1925년 여름. 대서양 연안의 아르데코 그랜드 호텔 모나크에 새 전속 탐정이 왔습니다. 바로 당신입니다. 매일 밤 투숙객 한 명이 죽고, 매일 아침 당신에게는 몇 가지 단서와 논리 표, 그리고 알리바이를 가진 사람들로 가득한 호텔이 남습니다. 누가 어떤 흉기를 들었고 누가 어느 방에 있었는지 밝혀내 범인을 지목하세요. 열 개 층에 걸친 100개의 스토리 사건은 모두 답이 정확히 하나뿐이며, 3x3에서 5x5까지 커지고 양자택일 단서와 거짓말하는 용의자가 등장합니다. 황금 단서 열 개는 1207호 스위트의 비밀을 열어 주며, 일일 사건과 끝없는 사건집도 있습니다.",
+            "ja": "1925年夏。大西洋岸に建つアールデコのグランドホテル「モナーク」に、新しいハウス探偵がやってきた。あなただ。毎晩宿泊客が1人死に、毎朝あなたの手元にはわずかな手がかりと推理表、そしてアリバイを持つ人々であふれたホテルが残る。誰がどの凶器を持ち、誰がどの部屋にいたのかを突き止め、犯人を名指ししよう。10フロアにわたる100のストーリー事件はすべて答えがちょうど1つになるよう検証済みで、3x3から5x5へと広がり、二者択一の手がかりや嘘をつく容疑者も登場する。10個の黄金の手がかりがスイート1207の秘密を解き明かし、デイリー事件と終わりのないケースブックもある。",
+            "es": "Verano de 1925. The Monarch, un gran hotel art déco en la costa atlántica, tiene un nuevo detective de la casa: tú. Cada noche muere un huésped, y cada mañana tienes unas cuantas pistas, una cuadrícula y un hotel lleno de gente con coartadas. Deduce quién llevaba qué arma y quién estaba en qué habitación, y nombra al asesino. Hay 100 casos de historia en diez pisos, cada uno verificado para tener una sola respuesta, que crecen de 3x3 a 5x5 con pistas de una u otra opción y sospechosos que mienten. Diez pistas doradas revelan el secreto de la Suite 1207, y hay un caso diario y un Casebook sin fin.",
+            "pt-BR": "Verão de 1925. O Monarch, um grande hotel art déco na costa do Atlântico, tem um novo detetive da casa: você. Toda noite um hóspede morre, e toda manhã você tem algumas pistas, uma grade e um hotel cheio de gente com álibi. Descubra quem levava qual arma e quem estava em qual sala, e aponte o assassino. São 100 casos de história em dez andares, todos verificados para ter uma única resposta, que crescem de 3x3 para 5x5 com pistas de um ou outro e suspeitos que mentem. Dez pistas douradas revelam o segredo da Suíte 1207, e há um caso diário e um Casebook sem fim."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/murderatmonarch",
+        "screenshots": [
+            "apps/shots/murder-at-the-monarch/01.jpg",
+            "apps/shots/murder-at-the-monarch/02.jpg",
+            "apps/shots/murder-at-the-monarch/03.jpg",
+            "apps/shots/murder-at-the-monarch/04.jpg",
+            "apps/shots/murder-at-the-monarch/05.jpg"
+        ]
+    },
+    {
+        "id": "spare-key",
+        "slug": "spare-key",
+        "icon": "apps/spare-key.png",
+        "page": "apps/spare-key.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Spare Key",
+            "ko": "스페어 키",
+            "ja": "スペアキー",
+            "es": "Spare Key",
+            "pt-BR": "Spare Key"
+        },
+        "tagline": {
+            "en": "Six housemates. One spare key. Someone opened the door that night.",
+            "ko": "여섯 명의 하우스메이트. 하나의 여분 열쇠. 그날 밤 누군가 문을 열었습니다.",
+            "ja": "6人の住人。1本の合鍵。あの夜、誰かが扉を開けた。",
+            "es": "Seis compañeros de casa. Una llave de repuesto. Alguien abrió la puerta esa noche.",
+            "pt-BR": "Seis colegas de casa. Uma chave reserva. Alguém abriu a porta naquela noite."
+        },
+        "desc": {
+            "en": "You move into Ivy House, a city share house with six housemates and one very strict house manager. That night, something heavy hits the bottom of the outside stairs. By morning Sayo is dead, the police call it a fall and the spare key is missing from its hook. Across six episodes and eighteen chapters, search the house for clues, talk to your housemates, break testimonies with evidence and end each episode by naming who did it, while learning what happened to Rin, the girl who lived in your room before you. Gossip Night adds a new little whodunit every day.",
+            "ko": "당신은 여섯 명의 하우스메이트와 아주 엄격한 관리인이 있는 도시의 셰어하우스, 아이비 하우스로 이사합니다. 그날 밤, 무언가 무거운 것이 바깥 계단 아래로 떨어집니다. 아침이 되자 사요는 죽어 있고, 경찰은 추락 사고라고 하며, 고리에 걸려 있던 여분 열쇠가 사라졌습니다. 여섯 에피소드, 열여덟 챕터에 걸쳐 집 안에서 단서를 찾고, 하우스메이트와 대화하고, 증거로 증언을 무너뜨리고, 에피소드마다 범인을 지목하세요. 그리고 당신보다 먼저 그 방에 살았던 소녀 린에게 무슨 일이 있었는지 알아내세요. 가십 나이트에서는 매일 새로운 작은 추리 사건이 열립니다.",
+            "ja": "あなたは、6人の住人ととても厳しい管理人がいる都会のシェアハウス、アイビーハウスに引っ越してくる。その夜、何か重いものが外階段の下に落ちる。朝になるとサヨは死んでおり、警察は転落事故だと言い、フックに掛かっていた合鍵が消えていた。6つのエピソード、18の章を通して家の中で手がかりを探し、住人と話し、証拠で証言を崩し、各エピソードの最後に犯人を名指ししよう。そして、あなたの前にその部屋に住んでいた少女リンに何があったのかを突き止める。ゴシップナイトでは毎日新しい小さな事件が起きる。",
+            "es": "Te mudas a Ivy House, una casa compartida en la ciudad con seis compañeros y un administrador muy estricto. Esa noche, algo pesado cae al pie de la escalera exterior. Por la mañana, Sayo está muerta, la policía dice que fue una caída y la llave de repuesto ya no está en su gancho. A lo largo de seis episodios y dieciocho capítulos, busca pistas en la casa, habla con tus compañeros, desmonta testimonios con pruebas y cierra cada episodio nombrando al culpable, mientras descubres qué le pasó a Rin, la chica que vivía en tu cuarto antes que tú. Gossip Night trae un pequeño misterio nuevo cada día.",
+            "pt-BR": "Você se muda para a Ivy House, uma casa compartilhada na cidade com seis colegas e um administrador muito rígido. Naquela noite, algo pesado cai no pé da escada externa. De manhã, Sayo está morta, a polícia diz que foi uma queda e a chave reserva sumiu do gancho. Ao longo de seis episódios e dezoito capítulos, procure pistas pela casa, converse com os colegas, derrube depoimentos com provas e termine cada episódio apontando o culpado, enquanto descobre o que aconteceu com Rin, a garota que morava no seu quarto antes de você. A Gossip Night traz um pequeno mistério novo todo dia."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/sparekey",
+        "screenshots": [
+            "apps/shots/spare-key/01.jpg",
+            "apps/shots/spare-key/02.jpg",
+            "apps/shots/spare-key/03.jpg",
+            "apps/shots/spare-key/04.jpg",
+            "apps/shots/spare-key/05.jpg"
+        ]
+    },
+    {
+        "id": "sugarfall-four",
+        "slug": "sugarfall-four",
+        "icon": "apps/sugarfall-four.png",
+        "page": "apps/sugarfall-four.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Sugarfall Four",
+            "ko": "슈가폴 포",
+            "ja": "シュガーフォール・フォー",
+            "es": "Sugarfall Four",
+            "pt-BR": "Sugarfall Four"
+        },
+        "tagline": {
+            "en": "Drop candies, connect four in any direction and set off sweet gravity cascades across 150 stages.",
+            "ko": "사탕을 떨어뜨려 어느 방향으로든 네 개를 잇고, 150개 스테이지에서 달콤한 중력 연쇄를 일으키세요.",
+            "ja": "キャンディを落として縦横斜めに4つつなげ、150ステージで甘い重力連鎖を起こそう。",
+            "es": "Deja caer dulces, conecta cuatro en cualquier dirección y provoca dulces cascadas de gravedad en 150 niveles.",
+            "pt-BR": "Solte doces, ligue quatro em qualquer direção e provoque doces cascatas de gravidade em 150 fases."
+        },
+        "desc": {
+            "en": "The candy workshop has lost its spark. Drop shaped candies into a 7x7 gravity board, connect four horizontally, vertically or diagonally and build cascades as cleared candies fall into new matches, bringing an inventor's confectionery world back to life. Five in a row bursts the candies around it, and crossing lines sweep a whole row. From stage 9, gold caramel tiles must all be opened before the drops run out. See the next three candies, keep one in Hold and use the workshop hammer. There are 150 stages, a five-chapter story and workshop upgrades for more holds, hammers and drops.",
+            "ko": "사탕 공방이 활기를 잃었습니다. 모양이 있는 사탕을 7x7 중력 보드에 떨어뜨려 가로, 세로, 대각선으로 네 개를 잇고, 사라진 사탕이 떨어지며 새 줄을 만드는 연쇄를 일으켜 발명가의 과자 세계를 되살리세요. 다섯 개를 이으면 주변 사탕이 터지고, 교차하는 줄은 한 줄 전체를 쓸어 냅니다. 9스테이지부터는 낙하 횟수가 바닥나기 전에 황금 캐러멜 타일을 모두 열어야 합니다. 다음 사탕 세 개를 미리 보고, 하나를 홀드에 보관하고, 공방 망치를 사용하세요. 150개의 스테이지, 다섯 챕터의 이야기, 홀드와 망치, 낙하 횟수를 늘리는 공방 업그레이드가 있습니다.",
+            "ja": "キャンディ工房から輝きが消えてしまった。形のあるキャンディを7x7の重力盤に落とし、縦、横、斜めに4つつなげ、消えたキャンディが落ちて新しい列を作る連鎖を起こして、発明家のお菓子の世界をよみがえらせよう。5つ並べると周りのキャンディがはじけ、交差したラインは1列まるごと消し去る。ステージ9からは、落とせる回数が尽きる前に金のキャラメルタイルをすべて開ける必要がある。次の3つのキャンディを確認し、1つをホールドし、工房のハンマーを使おう。150のステージ、5章の物語、ホールド、ハンマー、落下回数を増やす工房のアップグレードを収録。",
+            "es": "El taller de dulces perdió su chispa. Deja caer dulces con forma en un tablero de gravedad de 7x7, conecta cuatro en horizontal, vertical o diagonal y crea cascadas cuando los dulces eliminados caen y forman nuevas combinaciones, devolviendo la vida al mundo de confitería de un inventor. Cinco en línea revientan los dulces de alrededor, y las líneas cruzadas barren toda una fila. Desde el nivel 9, hay que abrir todas las fichas de caramelo dorado antes de que se acaben las caídas. Mira los próximos tres dulces, guarda uno en reserva y usa el martillo del taller. Hay 150 niveles, una historia de cinco capítulos y mejoras del taller para más reservas, martillos y caídas.",
+            "pt-BR": "A oficina de doces perdeu o brilho. Solte doces com formatos em um tabuleiro de gravidade 7x7, ligue quatro na horizontal, vertical ou diagonal e crie cascatas quando os doces eliminados caem e formam novas combinações, trazendo de volta à vida o mundo confeiteiro de um inventor. Cinco em linha estouram os doces ao redor, e linhas cruzadas varrem uma fileira inteira. A partir da fase 9, é preciso abrir todas as peças de caramelo dourado antes que as jogadas acabem. Veja os próximos três doces, guarde um na reserva e use o martelo da oficina. São 150 fases, uma história em cinco capítulos e melhorias da oficina para mais reservas, martelos e jogadas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/sugarfallfour",
+        "screenshots": [
+            "apps/shots/sugarfall-four/01.jpg",
+            "apps/shots/sugarfall-four/02.jpg",
+            "apps/shots/sugarfall-four/03.jpg",
+            "apps/shots/sugarfall-four/04.jpg",
+            "apps/shots/sugarfall-four/05.jpg"
+        ]
+    },
+    {
+        "id": "mowtown-gardens",
+        "slug": "mowtown-gardens",
+        "icon": "apps/mowtown-gardens.png",
+        "page": "apps/mowtown-gardens.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Mowtown Gardens",
+            "ko": "모타운 가든스",
+            "ja": "モータウン・ガーデンズ",
+            "es": "Mowtown Gardens",
+            "pt-BR": "Mowtown Gardens"
+        },
+        "tagline": {
+            "en": "Plan the perfect route, mow satisfying stripes and turn a neglected block into a garden trail.",
+            "ko": "완벽한 경로를 계획하고, 시원한 줄무늬로 잔디를 깎아 방치된 동네를 정원 산책로로 바꾸세요.",
+            "ja": "完璧なルートを考え、気持ちのいい縞模様に芝を刈り、荒れた街区を庭の小道に変えよう。",
+            "es": "Planea la ruta perfecta, corta franjas satisfactorias y convierte una cuadra descuidada en un sendero de jardines.",
+            "pt-BR": "Planeje a rota perfeita, corte faixas caprichadas e transforme um quarteirão abandonado em uma trilha de jardins."
+        },
+        "desc": {
+            "en": "An old mower, an overgrown neighborhood and a fresh start. Find a satisfying line through each lawn, steer around stones and leave fresh stripes behind you. Click a tile and the mower takes the shortest clear path, cutting as it goes, and every patch must be finished. There are 80 yards to mow, with relaxed play that has no limits or a Challenge mode with a fuel tank to manage. Earn efficiency medals for clean routes, replay yards for a better score, upgrade the fuel tank, cutting deck and compost collector, and follow five neighborhood chapters in a story journal.",
+            "ko": "낡은 잔디깎이, 풀이 무성한 동네, 그리고 새로운 출발. 잔디밭마다 시원하게 지나갈 길을 찾고, 돌을 피해 가며 깔끔한 줄무늬를 남기세요. 칸을 누르면 잔디깎이가 막히지 않은 가장 짧은 길로 가며 풀을 깎고, 모든 구역을 끝까지 깎아야 합니다. 80개의 마당이 있으며, 제한 없이 편하게 즐기거나 연료 탱크를 관리하는 챌린지 모드에 도전할 수 있습니다. 깔끔한 경로로 효율 메달을 얻고, 마당을 다시 깎아 점수를 올리고, 연료 탱크, 칼날 덱, 퇴비 수거기를 업그레이드하며, 이야기 일지 속 다섯 개의 동네 챕터를 따라가세요.",
+            "ja": "古い芝刈り機、草ぼうぼうの近所、そして新しいスタート。芝生ごとに気持ちのいいラインを見つけ、石をよけながら、きれいな縞模様を残していこう。マスをクリックすると芝刈り機が空いている最短ルートを進みながら刈っていき、すべての区画を刈り終える必要がある。80の庭があり、制限なしでのんびり遊ぶことも、燃料タンクを管理するチャレンジモードに挑むこともできる。無駄のないルートで効率メダルを獲得し、庭をやり直してスコアを伸ばし、燃料タンク、刈り刃デッキ、堆肥コレクターを強化し、物語の日誌で5つの地区の章をたどろう。",
+            "es": "Una podadora vieja, un vecindario lleno de maleza y un nuevo comienzo. Encuentra una línea satisfactoria en cada césped, esquiva las piedras y deja franjas recién cortadas a tu paso. Haz clic en una casilla y la podadora toma el camino libre más corto, cortando mientras avanza, y hay que terminar cada parcela. Hay 80 jardines para podar, con un modo relajado sin límites o un modo Desafío con un tanque de combustible que administrar. Gana medallas de eficiencia por rutas limpias, repite jardines para mejorar tu puntaje, mejora el tanque, la plataforma de corte y el colector de compost, y sigue cinco capítulos del vecindario en un diario.",
+            "pt-BR": "Um cortador velho, um bairro tomado pelo mato e um novo começo. Encontre um caminho caprichado em cada gramado, desvie das pedras e deixe faixas recém-cortadas para trás. Clique em uma casa e o cortador segue o caminho livre mais curto, cortando enquanto anda, e cada pedaço precisa ser terminado. São 80 quintais para cortar, com um modo tranquilo sem limites ou o modo Desafio, com um tanque de combustível para administrar. Ganhe medalhas de eficiência por rotas limpas, refaça quintais para melhorar a pontuação, melhore o tanque, a plataforma de corte e o coletor de compostagem, e acompanhe cinco capítulos do bairro em um diário."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/mowtowngardens",
+        "screenshots": [
+            "apps/shots/mowtown-gardens/01.jpg",
+            "apps/shots/mowtown-gardens/02.jpg",
+            "apps/shots/mowtown-gardens/03.jpg",
+            "apps/shots/mowtown-gardens/04.jpg",
+            "apps/shots/mowtown-gardens/05.jpg"
+        ]
+    },
+    {
+        "id": "miso-and-me",
+        "slug": "miso-and-me",
+        "icon": "apps/miso-and-me.png",
+        "page": "apps/miso-and-me.html",
+        "tier": "Volume",
+        "platform": "Android, PC",
+        "name": {
+            "en": "Miso & Me",
+            "ko": "미소 앤 미",
+            "ja": "ミソ＆ミー",
+            "es": "Miso & Me",
+            "pt-BR": "Miso & Me"
+        },
+        "tagline": {
+            "en": "Care for a shy rescue puppy, teach gentle tricks and fill a scrapbook with little walks.",
+            "ko": "수줍은 구조견 강아지를 돌보고, 다정하게 재주를 가르치며, 짧은 산책으로 스크랩북을 채우세요.",
+            "ja": "内気な保護子犬のお世話をし、やさしく芸を教え、小さなお散歩でスクラップブックを埋めよう。",
+            "es": "Cuida a un cachorro rescatado y tímido, enséñale trucos con cariño y llena un álbum con pequeños paseos.",
+            "pt-BR": "Cuide de um filhote resgatado e tímido, ensine truques com carinho e preencha um álbum com pequenos passeios."
+        },
+        "desc": {
+            "en": "A new home is easier with a friend. Get to know Miso, a shy little rescue dog, and turn ordinary mornings into a growing scrapbook of small adventures. Brush, feed and play fetch with an animated puppy, and practice 20 trick cues together. Take 40 walks across five neighborhood chapters, one tile at a time to the picnic, keeping a photo from every walk. Build trust, upgrade Miso's cozy corner and open a story journal as you play. There are no timers and no punishment, and Miso never loses trust because you were away.",
+            "ko": "새 집은 친구와 함께라면 더 쉬워집니다. 수줍은 작은 구조견 미소와 친해지고, 평범한 아침을 작은 모험이 쌓여 가는 스크랩북으로 바꿔 보세요. 생생하게 움직이는 강아지의 털을 빗기고, 밥을 주고, 공 던지기를 하며, 20가지 재주 신호를 함께 연습하세요. 다섯 개의 동네 챕터에 걸쳐 40번의 산책을 떠나, 한 칸씩 소풍 장소까지 걸어가고, 산책마다 사진을 한 장씩 남기세요. 신뢰를 쌓고, 미소의 아늑한 공간을 꾸미고, 플레이하며 이야기 일지를 열어 가세요. 타이머도 벌칙도 없으며, 자리를 비웠다고 미소의 신뢰가 줄지 않습니다.",
+            "ja": "新しい家も、友だちがいれば心強い。内気な小さな保護犬ミソと仲良くなり、ふつうの朝を、小さな冒険が増えていくスクラップブックに変えよう。生き生きと動く子犬をブラッシングし、ごはんをあげ、ボール遊びをして、20種類の芸の合図を一緒に練習する。5つの地区の章にまたがる40回のお散歩では、1マスずつピクニックを目指し、毎回写真を1枚残そう。信頼を育て、ミソのくつろぎコーナーを整え、遊ぶほどに物語の日誌が開いていく。タイマーも罰もなく、留守にしていてもミソの信頼は減らない。",
+            "es": "Un hogar nuevo es más fácil con un amigo. Conoce a Miso, un perrito rescatado y tímido, y convierte las mañanas comunes en un álbum que crece con pequeñas aventuras. Cepilla, alimenta y juega a lanzar la pelota con un cachorro animado, y practiquen juntos 20 señales de trucos. Haz 40 paseos en cinco capítulos del vecindario, casilla por casilla hasta el picnic, y guarda una foto de cada paseo. Gana su confianza, mejora el rincón acogedor de Miso y abre un diario de historia mientras juegas. No hay temporizadores ni castigos, y Miso nunca pierde confianza porque te hayas ausentado.",
+            "pt-BR": "Uma casa nova fica mais fácil com um amigo. Conheça Miso, um cachorrinho resgatado e tímido, e transforme manhãs comuns em um álbum cheio de pequenas aventuras. Escove, alimente e brinque de buscar com um filhote animado, e pratiquem juntos 20 comandos de truques. Faça 40 passeios em cinco capítulos do bairro, uma casa por vez até o piquenique, guardando uma foto de cada passeio. Conquiste a confiança dele, melhore o cantinho aconchegante do Miso e abra um diário de história enquanto joga. Não há cronômetros nem punições, e Miso nunca perde a confiança porque você ficou longe."
+        },
+        "status": "Live",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.misoandme",
+        "itchUrl": "https://crystllabs.itch.io/misoandme",
+        "screenshots": [
+            "apps/shots/miso-and-me/01.jpg",
+            "apps/shots/miso-and-me/02.jpg",
+            "apps/shots/miso-and-me/03.jpg",
+            "apps/shots/miso-and-me/04.jpg",
+            "apps/shots/miso-and-me/05.jpg"
+        ]
+    },
+    {
+        "id": "upload",
+        "slug": "upload",
+        "icon": "apps/upload.png",
+        "page": "apps/upload.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Upload",
+            "ko": "업로드",
+            "ja": "アップロード",
+            "es": "Upload",
+            "pt-BR": "Upload"
+        },
+        "tagline": {
+            "en": "Film, edit and grow a video channel while building a life beyond the views.",
+            "ko": "영상을 찍고 편집하며 채널을 키우고, 조회수 너머의 삶도 함께 가꾸세요.",
+            "ja": "動画を撮って編集し、チャンネルを育てながら、再生数の先にある暮らしも築こう。",
+            "es": "Graba, edita y haz crecer un canal de video mientras construyes una vida más allá de las vistas.",
+            "pt-BR": "Grave, edite e faça crescer um canal de vídeo enquanto constrói uma vida além das visualizações."
+        },
+        "desc": {
+            "en": "Start with a borrowed camera, a bedroom desk and a promise to publish one honest video a week. Plan each video, catch the right shots in a timing mini-game, cut the opening, detail and payoff together and decide how to pay for it. Over 50 weeks and 5 story chapters, pick one of 6 niches and 3 formats, weigh sponsor deals against your audience's trust and balance energy, trust and friendship. Upgrade your camera, editing desk and studio room, replay any week for better stars and grow a fictional channel into your own studio without losing your friends or your voice.",
+            "ko": "빌린 카메라, 침실 책상, 그리고 매주 솔직한 영상 하나를 올리겠다는 약속으로 시작하세요. 영상마다 계획을 세우고, 타이밍 미니게임으로 알맞은 장면을 담고, 오프닝, 디테일, 마무리를 이어 편집한 뒤, 제작비를 어떻게 마련할지 정하세요. 50주, 5개의 스토리 챕터 동안 6가지 분야와 3가지 형식 중에서 고르고, 스폰서 계약과 시청자의 신뢰를 저울질하며, 에너지와 신뢰, 우정의 균형을 맞추세요. 카메라, 편집 책상, 스튜디오를 업그레이드하고, 어느 주든 다시 플레이해 별을 올리며, 친구도 자기 목소리도 잃지 않고 가상의 채널을 나만의 스튜디오로 키워 보세요.",
+            "ja": "借りたカメラ、寝室の机、そして毎週1本、誠実な動画を投稿するという約束から始めよう。動画ごとに企画を立て、タイミングのミニゲームで最適なショットを撮り、オープニング、ディテール、オチをつないで編集し、制作費をどうまかなうか決める。50週と5つのストーリー章を通して、6つのジャンルと3つの形式から選び、スポンサー契約と視聴者の信頼をはかりにかけ、エネルギー、信頼、友情のバランスをとろう。カメラ、編集デスク、スタジオを強化し、どの週もやり直して星を増やし、友だちも自分らしさも失わずに、架空のチャンネルを自分のスタジオへと育てていこう。",
+            "es": "Empieza con una cámara prestada, un escritorio en tu cuarto y la promesa de publicar un video honesto por semana. Planea cada video, capta las tomas correctas en un minijuego de sincronización, arma la apertura, el detalle y el cierre, y decide cómo pagarlo. A lo largo de 50 semanas y 5 capítulos, elige uno de 6 nichos y 3 formatos, sopesa los acuerdos con patrocinadores frente a la confianza de tu audiencia y equilibra energía, confianza y amistad. Mejora tu cámara, tu mesa de edición y tu estudio, repite cualquier semana para conseguir más estrellas y convierte un canal ficticio en tu propio estudio sin perder a tus amigos ni tu voz.",
+            "pt-BR": "Comece com uma câmera emprestada, uma mesa no quarto e a promessa de publicar um vídeo honesto por semana. Planeje cada vídeo, capture as tomadas certas em um minijogo de tempo, monte a abertura, o detalhe e o desfecho e decida como pagar por tudo. Ao longo de 50 semanas e 5 capítulos, escolha um de 6 nichos e 3 formatos, pese os acordos com patrocinadores contra a confiança do público e equilibre energia, confiança e amizade. Melhore a câmera, a mesa de edição e o estúdio, rejogue qualquer semana para ganhar mais estrelas e transforme um canal fictício no seu próprio estúdio sem perder os amigos nem a sua voz."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/uploadstudio",
+        "screenshots": [
+            "apps/shots/upload/01.jpg",
+            "apps/shots/upload/02.jpg",
+            "apps/shots/upload/03.jpg",
+            "apps/shots/upload/04.jpg",
+            "apps/shots/upload/05.jpg"
+        ]
+    },
+    {
+        "id": "cornercraft-mma",
+        "slug": "cornercraft-mma",
+        "icon": "apps/cornercraft-mma.png",
+        "page": "apps/cornercraft-mma.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Cornercraft MMA",
+            "ko": "코너크래프트 MMA",
+            "ja": "コーナークラフトMMA",
+            "es": "Cornercraft MMA",
+            "pt-BR": "Cornercraft MMA"
+        },
+        "tagline": {
+            "en": "Scout fighters, plan smart camps and call the corner between rounds.",
+            "ko": "선수를 발굴하고, 영리한 훈련 캠프를 짜고, 라운드 사이에 코너에서 지시하세요.",
+            "ja": "選手をスカウトし、賢いキャンプを組み、ラウンドの合間にコーナーから指示を出そう。",
+            "es": "Busca peleadores, planea campamentos inteligentes y da las indicaciones desde la esquina entre asaltos.",
+            "pt-BR": "Descubra lutadores, planeje camps inteligentes e comande o córner entre os rounds."
+        },
+        "desc": {
+            "en": "A neighborhood MMA gym is counting on you. The founder has retired and left you the key. Scout overlooked talent, sign up to eight fictional fighters and guide the team from local shows to title night across 40 fight nights on four regional circuits. Build six-session camps of striking, wrestling, grappling or recovery while managing fatigue, scout each opponent, then call distance, clinch or submission between three simulated rounds. Every result can be explained from preparation, fatigue, morale and tactics. Pick event contracts and upgrade your coach, recovery room and gym as the story moves on through wins and losses.",
+            "ko": "동네 MMA 체육관이 당신만 바라보고 있습니다. 창립자가 은퇴하며 열쇠를 당신에게 넘겼습니다. 주목받지 못한 재능을 발굴하고, 최대 여덟 명의 가상 선수와 계약해, 네 개의 지역 서킷에서 열리는 40번의 경기의 밤을 거쳐 지역 대회부터 타이틀전까지 팀을 이끄세요. 피로도를 관리하며 타격, 레슬링, 그래플링, 회복으로 6회 훈련 캠프를 짜고, 상대를 분석한 뒤, 시뮬레이션되는 세 라운드 사이에 거리, 클린치, 서브미션을 지시하세요. 모든 결과는 준비, 피로, 사기, 전술로 설명됩니다. 이벤트 계약을 고르고 코치, 회복실, 체육관을 업그레이드하며, 승리와 패배를 통해 이어지는 이야기를 따라가세요.",
+            "ja": "近所のMMAジムがあなたを頼りにしている。創設者が引退し、鍵をあなたに託したのだ。埋もれた才能をスカウトし、最大8人の架空の選手と契約して、4つの地方サーキットで開かれる40のファイトナイトを通じ、地元興行からタイトルマッチの夜までチームを導こう。疲労を管理しながら、打撃、レスリング、グラップリング、回復で6セッションのキャンプを組み、対戦相手を分析し、シミュレーションされる3ラウンドの合間に距離、クリンチ、サブミッションを指示する。結果はすべて準備、疲労、士気、戦術で説明できる。興行契約を選び、コーチ、回復ルーム、ジムを強化しながら、勝ちも負けも物語を前へ進めていく。",
+            "es": "Un gimnasio de MMA de barrio cuenta contigo. El fundador se retiró y te dejó la llave. Descubre talento olvidado, ficha hasta ocho peleadores ficticios y lleva al equipo de las veladas locales a la noche del título a lo largo de 40 noches de pelea en cuatro circuitos regionales. Arma campamentos de seis sesiones de golpeo, lucha, grappling o recuperación sin descuidar la fatiga, estudia a cada rival y luego indica distancia, clinch o sumisión entre tres asaltos simulados. Cada resultado se explica por la preparación, la fatiga, la moral y la táctica. Elige contratos de eventos y mejora a tu entrenador, la sala de recuperación y el gimnasio mientras la historia avanza con victorias y derrotas.",
+            "pt-BR": "Uma academia de MMA de bairro conta com você. O fundador se aposentou e deixou a chave com você. Descubra talentos esquecidos, contrate até oito lutadores fictícios e leve a equipe dos eventos locais à noite do cinturão ao longo de 40 noites de luta em quatro circuitos regionais. Monte camps de seis sessões de trocação, wrestling, grappling ou recuperação controlando o cansaço, estude cada adversário e depois peça distância, clinch ou finalização entre três rounds simulados. Cada resultado se explica pela preparação, cansaço, moral e tática. Escolha contratos de eventos e melhore o treinador, a sala de recuperação e a academia enquanto a história avança com vitórias e derrotas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/cornercraftmma",
+        "screenshots": [
+            "apps/shots/cornercraft-mma/01.jpg",
+            "apps/shots/cornercraft-mma/02.jpg",
+            "apps/shots/cornercraft-mma/03.jpg",
+            "apps/shots/cornercraft-mma/04.jpg",
+            "apps/shots/cornercraft-mma/05.jpg"
+        ]
+    },
+    {
+        "id": "canopy-crew",
+        "slug": "canopy-crew",
+        "icon": "apps/canopy-crew.png",
+        "page": "apps/canopy-crew.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Canopy Crew",
+            "ko": "캐노피 크루",
+            "ja": "キャノピークルー",
+            "es": "Canopy Crew",
+            "pt-BR": "Canopy Crew"
+        },
+        "tagline": {
+            "en": "Inspect the crown, plan your cuts and keep the nest safe.",
+            "ko": "수관을 살피고, 가지치기를 계획하며, 둥지를 안전하게 지키세요.",
+            "ja": "樹冠を調べ、切る順番を考え、巣を守ろう。",
+            "es": "Inspecciona la copa, planea tus cortes y mantén el nido a salvo.",
+            "pt-BR": "Examine a copa, planeje os cortes e mantenha o ninho seguro."
+        },
+        "desc": {
+            "en": "A storm has left Bellweather's trees tangled and its park closed. Join a retired caretaker, build a small arborist crew and bring the town's canopy back, one careful cut at a time. Take on 60 pruning contracts across five chapters of a small-town story. Read each crown: amber limbs must go, while healthy limbs and bird nests must stay. Plan the order, because an upper limb falls with the lower limb beneath it unless you use a rope. Preview a cutting order, undo a cut, upgrade your pruner, rope kit and habitat knowledge, and replay contracts for better medals.",
+            "ko": "폭풍이 지나간 뒤 벨웨더의 나무들은 엉켜 버렸고 공원은 문을 닫았습니다. 은퇴한 관리인과 함께 작은 수목 관리팀을 꾸려, 신중한 가지치기로 마을의 나무 그늘을 되살리세요. 작은 마을 이야기의 다섯 챕터에 걸쳐 60개의 가지치기 계약을 맡게 됩니다. 수관을 읽으세요. 호박색 가지는 잘라야 하지만, 건강한 가지와 새 둥지는 남겨야 합니다. 순서를 계획하세요. 밧줄을 쓰지 않으면 위쪽 가지가 아래 가지와 함께 떨어집니다. 자르는 순서를 미리 보고, 자른 것을 되돌리고, 전지가위, 로프 장비, 서식지 지식을 업그레이드하며, 더 좋은 메달을 위해 계약에 다시 도전하세요.",
+            "ja": "嵐のあと、ベルウェザーの木々は絡まり合い、公園は閉鎖されてしまった。引退した管理人と一緒に小さな樹木医チームを作り、慎重な一刀ずつで町の緑の天蓋を取り戻そう。小さな町の物語5章にわたって、60件の剪定依頼に挑む。樹冠を読み取ろう。琥珀色の枝は切らなければならないが、健康な枝と鳥の巣は残す。順番も大切で、ロープを使わなければ上の枝は下の枝を巻き込んで落ちる。切る順番をプレビューし、切った枝を元に戻し、剪定ばさみ、ロープ道具、生息地の知識を強化して、より良いメダルを目指して依頼をやり直そう。",
+            "es": "Una tormenta dejó enredados los árboles de Bellweather y su parque cerrado. Únete a un cuidador jubilado, forma un pequeño equipo de arboristas y recupera el dosel del pueblo, un corte cuidadoso a la vez. Asume 60 contratos de poda en cinco capítulos de una historia de pueblo. Lee cada copa: las ramas ámbar deben irse, mientras que las ramas sanas y los nidos de aves deben quedarse. Planea el orden, porque una rama alta cae junto con la rama de abajo a menos que uses una cuerda. Previsualiza un orden de corte, deshaz un corte, mejora tu podadora, tu equipo de cuerdas y tu conocimiento del hábitat, y repite contratos para obtener mejores medallas.",
+            "pt-BR": "Uma tempestade deixou as árvores de Bellweather emaranhadas e o parque fechado. Junte-se a um zelador aposentado, monte uma pequena equipe de arboristas e traga de volta a copa verde da cidade, um corte cuidadoso de cada vez. Encare 60 contratos de poda em cinco capítulos de uma história de cidade pequena. Leia cada copa: galhos âmbar precisam sair, enquanto galhos saudáveis e ninhos de pássaros precisam ficar. Planeje a ordem, porque um galho de cima cai junto com o galho de baixo, a menos que você use uma corda. Visualize uma ordem de corte, desfaça um corte, melhore a tesoura de poda, o kit de cordas e o conhecimento de habitat, e rejogue contratos para ganhar medalhas melhores."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/canopycrew",
+        "screenshots": [
+            "apps/shots/canopy-crew/01.jpg",
+            "apps/shots/canopy-crew/02.jpg",
+            "apps/shots/canopy-crew/03.jpg",
+            "apps/shots/canopy-crew/04.jpg",
+            "apps/shots/canopy-crew/05.jpg"
+        ]
+    },
+    {
+        "id": "casa-comal",
+        "slug": "casa-comal",
+        "icon": "apps/casa-comal.png",
+        "page": "apps/casa-comal.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Casa Comal",
+            "ko": "카사 코말",
+            "ja": "カサ・コマル",
+            "es": "Casa Comal",
+            "pt-BR": "Casa Comal"
+        },
+        "tagline": {
+            "en": "Run a family taqueria lunch rush: build plates, keep the neighbors happy and grow Abuela's kitchen.",
+            "ko": "가족 타케리아의 점심 러시를 운영하세요. 접시를 만들고, 이웃을 기쁘게 하고, 할머니의 주방을 키우세요.",
+            "ja": "家族のタケリアのランチラッシュを切り盛りしよう。料理を盛り、近所の人を笑顔にして、アブエラの台所を大きくしよう。",
+            "es": "Atiende la hora de la comida en la taquería familiar: arma platos, mantén contentos a los vecinos y haz crecer la cocina de la abuela.",
+            "pt-BR": "Comande a correria do almoço na taqueria da família: monte pratos, deixe os vizinhos felizes e faça crescer a cozinha da Abuela."
+        },
+        "desc": {
+            "en": "Grandma's comal is warm again. Help Lucía reopen the family taqueria in a sunny courtyard, cook for the neighbors and turn a handwritten recipe notebook into a kitchen the whole street loves. Across 60 lunch services, read three order tickets, pick tortilla, filling and salsa, cook the plate and serve the neighbor who ordered it. Discover 45 recipe combinations, serve six regulars who tip better the more often you feed them, plan the tortilla menu and buy stock before you open. Train your cook, hire a server and season the comal, and follow a five-chapter family story.",
+            "ko": "할머니의 코말이 다시 따뜻해졌습니다. 햇살 가득한 안뜰에서 루시아가 가족 타케리아를 다시 열고, 이웃들에게 요리를 대접하며, 손으로 쓴 레시피 노트를 온 거리가 사랑하는 주방으로 키우도록 도와주세요. 60번의 점심 영업 동안 주문서 세 장을 읽고, 토르티야, 속재료, 살사를 골라 요리한 뒤 주문한 이웃에게 내놓으세요. 45가지 레시피 조합을 발견하고, 자주 대접할수록 팁을 더 많이 주는 여섯 명의 단골을 맞이하며, 문을 열기 전에 토르티야 메뉴를 정하고 재료를 사 두세요. 요리사를 훈련하고, 서빙 직원을 고용하고, 코말을 길들이며, 다섯 챕터의 가족 이야기를 따라가세요.",
+            "ja": "おばあちゃんのコマルに、また火が入った。ルシアが日当たりのいい中庭で家族のタケリアを再開し、近所の人たちに料理をふるまい、手書きのレシピノートを通りじゅうに愛される台所へと育てるのを手伝おう。60回のランチ営業で、3枚の注文票を読み、トルティーヤ、具、サルサを選んで調理し、注文した人に届ける。45のレシピの組み合わせを見つけ、通うほどチップをはずんでくれる6人の常連をもてなし、開店前にトルティーヤのメニューを決めて仕入れをしよう。料理人を鍛え、給仕を雇い、コマルを育てながら、5章の家族の物語をたどろう。",
+            "es": "El comal de la abuela vuelve a estar caliente. Ayuda a Lucía a reabrir la taquería familiar en un patio soleado, cocinar para los vecinos y convertir un cuaderno de recetas escrito a mano en una cocina que toda la calle adore. En 60 servicios de comida, lee tres comandas, elige tortilla, relleno y salsa, cocina el plato y sírveselo al vecino que lo pidió. Descubre 45 combinaciones de recetas, atiende a seis clientes habituales que dejan mejores propinas cuanto más los atiendes, planea el menú de tortillas y compra insumos antes de abrir. Entrena a tu cocinero, contrata a un mesero y cura el comal, y sigue una historia familiar de cinco capítulos.",
+            "pt-BR": "O comal da avó está quente de novo. Ajude Lucía a reabrir a taqueria da família em um pátio ensolarado, cozinhar para os vizinhos e transformar um caderno de receitas escrito à mão em uma cozinha que a rua inteira adora. Em 60 serviços de almoço, leia três comandas, escolha tortilha, recheio e salsa, prepare o prato e sirva o vizinho que pediu. Descubra 45 combinações de receitas, atenda seis clientes fiéis que dão gorjetas melhores quanto mais você os serve, planeje o cardápio de tortilhas e compre estoque antes de abrir. Treine seu cozinheiro, contrate um garçom e cure o comal, e acompanhe uma história de família em cinco capítulos."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/casacomal",
+        "screenshots": [
+            "apps/shots/casa-comal/01.jpg",
+            "apps/shots/casa-comal/02.jpg",
+            "apps/shots/casa-comal/03.jpg",
+            "apps/shots/casa-comal/04.jpg",
+            "apps/shots/casa-comal/05.jpg"
+        ]
+    },
+    {
+        "id": "the-gold-train-files",
+        "slug": "the-gold-train-files",
+        "icon": "apps/the-gold-train-files.png",
+        "page": "apps/the-gold-train-files.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "The Gold Train Files",
+            "ko": "더 골드 트레인 파일",
+            "ja": "ゴールド・トレイン・ファイル",
+            "es": "The Gold Train Files",
+            "pt-BR": "The Gold Train Files"
+        },
+        "tagline": {
+            "en": "Rebuild the evidence of the 1855 Great Gold Robbery in 25 logic puzzles from railway history.",
+            "ko": "철도 역사 속 25개의 논리 퍼즐로 1855년 대금괴 강탈 사건의 증거를 재구성하세요.",
+            "ja": "鉄道史をもとにした25の論理パズルで、1855年の大金塊強奪事件の証拠を組み立て直そう。",
+            "es": "Reconstruye las pruebas del Gran Robo del Oro de 1855 en 25 acertijos de lógica de la historia ferroviaria.",
+            "pt-BR": "Reconstrua as provas do Grande Roubo do Ouro de 1855 em 25 quebra-cabeças de lógica da história ferroviária."
+        },
+        "desc": {
+            "en": "In 1855, a gold shipment bound for Paris arrived full of lead. Open the archive, examine the documented Great Gold Robbery and work through original puzzles built around its historical record. There are 25 evidence exercises across five chapters: reconstruct routes, order timelines, check weights and separate evidence from inference. Designed reconstructions are clearly labeled, and historical notes link to the published sources. Every puzzle has a free reasoning hint plus two deeper hints, with medals for solving without help. Collect findings, replay puzzles and pick a paper for your reading desk.",
+            "ko": "1855년, 파리로 향하던 금 수송품이 납으로 가득 찬 채 도착했습니다. 기록 보관소를 열고, 문헌으로 남은 대금괴 강탈 사건을 살피며, 그 역사 기록을 바탕으로 만든 오리지널 퍼즐을 풀어 보세요. 다섯 챕터에 걸친 25개의 증거 연습에서 경로를 재구성하고, 사건 순서를 정리하고, 무게를 확인하고, 증거와 추론을 구분합니다. 창작된 재구성은 분명히 표시되어 있고, 역사 노트는 출판된 자료로 연결됩니다. 모든 퍼즐에는 무료 추론 힌트와 더 깊은 힌트 두 개가 있으며, 도움 없이 풀면 메달을 받습니다. 발견한 것을 모으고, 퍼즐을 다시 풀고, 독서 책상에 놓을 종이를 고르세요.",
+            "ja": "1855年、パリ行きの金の積み荷が、鉛でいっぱいの状態で到着した。アーカイブを開き、記録に残る大金塊強奪事件を調べ、その史実をもとに作られたオリジナルのパズルに取り組もう。5つの章にわたる25の証拠演習で、ルートを再構成し、時系列を並べ、重さを確かめ、証拠と推論を切り分ける。創作した再現ははっきり明示され、歴史ノートは出版された資料へとつながっている。どのパズルにも無料の推理ヒントと、より踏み込んだヒントが2つあり、ヒントなしで解くとメダルがもらえる。発見を集め、パズルを解き直し、読書机に置く紙を選ぼう。",
+            "es": "En 1855, un envío de oro con destino a París llegó lleno de plomo. Abre el archivo, examina el documentado Gran Robo del Oro y resuelve acertijos originales construidos a partir de su registro histórico. Hay 25 ejercicios de evidencia en cinco capítulos: reconstruye rutas, ordena cronologías, verifica pesos y separa la evidencia de la inferencia. Las reconstrucciones diseñadas están claramente señaladas, y las notas históricas remiten a las fuentes publicadas. Cada acertijo tiene una pista de razonamiento gratuita y dos pistas más profundas, con medallas por resolver sin ayuda. Reúne hallazgos, repite acertijos y elige un papel para tu escritorio de lectura.",
+            "pt-BR": "Em 1855, um carregamento de ouro com destino a Paris chegou cheio de chumbo. Abra o arquivo, examine o documentado Grande Roubo do Ouro e resolva quebra-cabeças originais criados a partir do registro histórico. São 25 exercícios de evidência em cinco capítulos: reconstrua rotas, ordene linhas do tempo, confira pesos e separe evidência de inferência. As reconstruções criadas estão claramente identificadas, e as notas históricas levam às fontes publicadas. Todo quebra-cabeça tem uma dica de raciocínio gratuita e mais duas dicas mais profundas, com medalhas para quem resolve sem ajuda. Reúna descobertas, rejogue quebra-cabeças e escolha um papel para a sua mesa de leitura."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/goldtrainfiles",
+        "screenshots": [
+            "apps/shots/the-gold-train-files/01.jpg",
+            "apps/shots/the-gold-train-files/02.jpg",
+            "apps/shots/the-gold-train-files/03.jpg",
+            "apps/shots/the-gold-train-files/04.jpg",
+            "apps/shots/the-gold-train-files/05.jpg"
+        ]
+    },
+    {
+        "id": "afterhours-records",
+        "slug": "afterhours-records",
+        "icon": "apps/afterhours-records.png",
+        "page": "apps/afterhours-records.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Afterhours Records",
+            "ko": "애프터아워스 레코즈",
+            "ja": "アフターアワーズ・レコーズ",
+            "es": "Afterhours Records",
+            "pt-BR": "Afterhours Records"
+        },
+        "tagline": {
+            "en": "Make beats in a pixel studio, work with collaborators and build an independent music career.",
+            "ko": "픽셀 스튜디오에서 비트를 만들고, 협업자들과 작업하며 독립 음악 커리어를 쌓으세요.",
+            "ja": "ピクセルのスタジオでビートを作り、仲間と組んで、インディーの音楽キャリアを築こう。",
+            "es": "Crea beats en un estudio pixelado, trabaja con colaboradores y construye una carrera musical independiente.",
+            "pt-BR": "Faça beats em um estúdio em pixel art, trabalhe com parceiros e construa uma carreira musical independente."
+        },
+        "desc": {
+            "en": "A bedroom studio and a box of unfinished demos. Write short loops on a step sequencer, find your people and decide what success sounds like as you reopen a neighborhood record label. Compose audible loops on a four-track, 16-step sequencer with kick, snare, hat and synth, and shape tempo and mix across eight styles, from lo-fi and house to synthwave and drum & bass. Read 24 collaborator briefs and pick the direction that fits, then release independently to keep your rights or take a label advance. There are 48 sessions, five story chapters, studio gear to upgrade and a catalog of every loop you release.",
+            "ko": "침실 스튜디오와 미완성 데모가 담긴 상자 하나. 스텝 시퀀서로 짧은 루프를 만들고, 함께할 사람들을 찾고, 동네 레코드 레이블을 다시 열며 성공이 어떤 소리인지 스스로 정하세요. 킥, 스네어, 하이햇, 신스로 이루어진 4트랙 16스텝 시퀀서에서 실제로 들리는 루프를 작곡하고, 로파이와 하우스부터 신스웨이브와 드럼 앤 베이스까지 여덟 가지 스타일에 맞춰 템포와 믹스를 다듬으세요. 24개의 협업 의뢰를 읽고 어울리는 방향을 고른 뒤, 권리를 지키며 독립 발매하거나 레이블 선급금을 받으세요. 48번의 세션, 다섯 챕터의 이야기, 업그레이드할 스튜디오 장비, 발매한 모든 루프의 카탈로그가 있습니다.",
+            "ja": "寝室のスタジオと、未完成のデモが詰まった箱。ステップシーケンサーで短いループを作り、仲間を見つけ、近所のレコードレーベルを再開しながら、成功とはどんな音なのかを決めていこう。キック、スネア、ハイハット、シンセの4トラック16ステップのシーケンサーで実際に鳴るループを作曲し、ローファイやハウスからシンセウェイヴ、ドラムンベースまで8つのスタイルでテンポとミックスを整える。24件のコラボ依頼を読んで合う方向性を選び、権利を守ってインディーでリリースするか、レーベルの前払い金を受け取るかを決めよう。48のセッション、5つのストーリー章、強化できるスタジオ機材、リリースした全ループのカタログを収録。",
+            "es": "Un estudio en tu cuarto y una caja de demos sin terminar. Escribe loops cortos en un secuenciador por pasos, encuentra a tu gente y decide cómo suena el éxito mientras reabres un sello discográfico de barrio. Compón loops que se escuchan de verdad en un secuenciador de cuatro pistas y 16 pasos, con bombo, caja, hi-hat y sintetizador, y ajusta el tempo y la mezcla en ocho estilos, del lo-fi y el house al synthwave y el drum & bass. Lee 24 encargos de colaboradores y elige la dirección que encaje, y luego lanza de forma independiente para conservar tus derechos o acepta un adelanto de un sello. Hay 48 sesiones, cinco capítulos, equipo de estudio para mejorar y un catálogo de cada loop que lances.",
+            "pt-BR": "Um estúdio no quarto e uma caixa de demos inacabadas. Escreva loops curtos em um sequenciador de passos, encontre a sua turma e decida como soa o sucesso enquanto reabre uma gravadora de bairro. Componha loops que tocam de verdade em um sequenciador de quatro faixas e 16 passos, com bumbo, caixa, chimbal e sintetizador, e ajuste andamento e mixagem em oito estilos, do lo-fi e house ao synthwave e drum & bass. Leia 24 pedidos de parceiros e escolha a direção que combina, depois lance de forma independente para manter seus direitos ou aceite um adiantamento de gravadora. São 48 sessões, cinco capítulos de história, equipamentos de estúdio para melhorar e um catálogo de cada loop lançado."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/afterhoursrecords",
+        "screenshots": [
+            "apps/shots/afterhours-records/01.jpg",
+            "apps/shots/afterhours-records/02.jpg",
+            "apps/shots/afterhours-records/03.jpg",
+            "apps/shots/afterhours-records/04.jpg",
+            "apps/shots/afterhours-records/05.jpg"
+        ]
+    },
+    {
+        "id": "pace-and-promises",
+        "slug": "pace-and-promises",
+        "icon": "apps/pace-and-promises.png",
+        "page": "apps/pace-and-promises.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Pace & Promises",
+            "ko": "페이스 앤 프로미스",
+            "ja": "ペース＆プロミス",
+            "es": "Pace & Promises",
+            "pt-BR": "Pace & Promises"
+        },
+        "tagline": {
+            "en": "Find your rhythm, join the running club and see where friendship leads.",
+            "ko": "나만의 리듬을 찾고, 러닝 클럽에 들어가 우정이 어디로 이어지는지 확인하세요.",
+            "ja": "自分のリズムを見つけ、ランニングクラブに入り、友情の行方を見届けよう。",
+            "es": "Encuentra tu ritmo, únete al club de corredores y descubre a dónde lleva la amistad.",
+            "pt-BR": "Encontre seu ritmo, entre para o clube de corrida e veja aonde a amizade leva."
+        },
+        "desc": {
+            "en": "There is a place for you in the Sunday Striders. Run through painted city routes, find a comfortable pace and get to know six adults whose lives keep crossing yours at the café. A ten-week season brings 30 rhythm runs on eight illustrated routes. Step on the beat or turn on Assisted pace, since both earn the full reward, and choose your effort at two bends each run. Between runs, share 36 café conversations with six runners. The story spans six chapters, with six relationship endings where you choose friendship or romance and three season endings.",
+            "ko": "선데이 스트라이더스에는 당신의 자리가 있습니다. 그림 같은 도시 코스를 달리고, 편안한 페이스를 찾고, 카페에서 자꾸만 마주치는 여섯 명의 어른들과 가까워지세요. 10주 시즌 동안 여덟 개의 일러스트 코스에서 30번의 리듬 러닝을 합니다. 박자에 맞춰 발을 딛거나 보조 페이스를 켜도 똑같이 전체 보상을 받으며, 달릴 때마다 두 번의 커브에서 힘을 얼마나 쓸지 정하세요. 러닝 사이에는 여섯 명의 러너와 36번의 카페 대화를 나눕니다. 이야기는 여섯 챕터에 걸쳐 이어지며, 우정이나 연애를 선택하는 여섯 가지 관계 엔딩과 세 가지 시즌 엔딩이 있습니다.",
+            "ja": "サンデー・ストライダーズには、あなたの居場所がある。絵画のような街のコースを走り、心地よいペースを見つけ、カフェで何度も人生が交わる6人の大人たちと知り合おう。10週間のシーズンでは、8つのイラストのコースで30回のリズムランに挑む。ビートに合わせて足を運んでも、アシストペースをオンにしても報酬は同じ。毎回2つのカーブでどれだけ力を出すかを選ぶ。ランの合間には6人のランナーと36回のカフェでの会話がある。物語は6章にわたり、友情か恋かを選べる6つの関係エンディングと、3つのシーズンエンディングが待っている。",
+            "es": "Hay un lugar para ti en los Sunday Striders. Corre por rutas urbanas pintadas, encuentra un ritmo cómodo y conoce a seis adultos cuyas vidas se cruzan una y otra vez con la tuya en el café. Una temporada de diez semanas trae 30 carreras rítmicas en ocho rutas ilustradas. Pisa al compás o activa el ritmo asistido, ya que ambos dan la recompensa completa, y elige tu esfuerzo en dos curvas de cada carrera. Entre carreras, comparte 36 conversaciones de café con seis corredores. La historia abarca seis capítulos, con seis finales de relación en los que eliges amistad o romance y tres finales de temporada.",
+            "pt-BR": "Há um lugar para você no Sunday Striders. Corra por rotas urbanas pintadas, encontre um ritmo confortável e conheça seis adultos cujas vidas sempre cruzam a sua no café. Uma temporada de dez semanas traz 30 corridas rítmicas em oito rotas ilustradas. Pise no ritmo ou ative o ritmo assistido, já que os dois dão a recompensa completa, e escolha seu esforço em duas curvas de cada corrida. Entre as corridas, tenha 36 conversas de café com seis corredores. A história tem seis capítulos, com seis finais de relacionamento em que você escolhe amizade ou romance e três finais de temporada."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/pacepromises",
+        "screenshots": [
+            "apps/shots/pace-and-promises/01.jpg",
+            "apps/shots/pace-and-promises/02.jpg",
+            "apps/shots/pace-and-promises/03.jpg",
+            "apps/shots/pace-and-promises/04.jpg",
+            "apps/shots/pace-and-promises/05.jpg"
+        ]
+    },
+    {
+        "id": "after-hours",
+        "slug": "after-hours",
+        "icon": "apps/after-hours.png",
+        "page": "apps/after-hours.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "After Hours",
+            "ko": "애프터 아워스",
+            "ja": "アフターアワーズ",
+            "es": "After Hours",
+            "pt-BR": "After Hours"
+        },
+        "tagline": {
+            "en": "Stream from a fading arcade: play retro mini-games live, read your chat and grow a channel from three viewers.",
+            "ko": "쇠락해 가는 오락실에서 방송하세요. 레트로 미니게임을 생중계하고, 채팅을 읽으며, 시청자 세 명에서 채널을 키우세요.",
+            "ja": "さびれゆくゲームセンターから配信しよう。レトロなミニゲームを生で遊び、チャットを読み、視聴者3人からチャンネルを育てよう。",
+            "es": "Transmite desde un arcade en decadencia: juega minijuegos retro en vivo, lee tu chat y haz crecer un canal desde tres espectadores.",
+            "pt-BR": "Faça lives de um fliperama decadente: jogue minigames retrô ao vivo, leia o chat e faça um canal crescer a partir de três espectadores."
+        },
+        "desc": {
+            "en": "Your first audience has three viewers, and one is probably your cousin. Build Eli's channel from the storage room of an aging neighborhood arcade and find out what it takes to keep a community coming back. Every episode is a live show: play a short arcade challenge while chat moments pop up, match the sound mix and pick the highlight that goes out. There are 30 episodes across three original arcade games, Brick Signal, Orbit Catch and Echo Grid, four show formats, six collaborators and 24 studio upgrades. Six story chapters each bring a choice, leading to three channel endings.",
+            "ko": "첫 시청자는 세 명, 그중 한 명은 아마 사촌일 겁니다. 낡아 가는 동네 오락실의 창고에서 엘리의 채널을 키우며, 커뮤니티가 계속 찾아오게 하려면 무엇이 필요한지 알아내세요. 모든 에피소드는 생방송입니다. 채팅 이벤트가 튀어나오는 동안 짧은 아케이드 도전을 플레이하고, 사운드 믹스를 맞추고, 내보낼 하이라이트를 고르세요. 브릭 시그널, 오빗 캐치, 에코 그리드 세 가지 오리지널 아케이드 게임에 걸친 30개의 에피소드, 네 가지 방송 형식, 여섯 명의 협업자, 24가지 스튜디오 업그레이드가 있습니다. 여섯 챕터의 이야기마다 선택이 주어지며, 세 가지 채널 엔딩으로 이어집니다.",
+            "ja": "最初の視聴者は3人、そのうち1人はたぶんいとこ。古びた近所のゲームセンターの倉庫からイーライのチャンネルを育て、コミュニティが戻ってき続けるには何が必要かを見つけよう。エピソードはすべて生配信。チャットの出来事が次々と飛び込む中で短いアーケードチャレンジを遊び、音のミックスを合わせ、配信するハイライトを選ぶ。ブリックシグナル、オービットキャッチ、エコーグリッドの3つのオリジナルアーケードゲームにまたがる30のエピソード、4つの番組形式、6人のコラボ相手、24のスタジオ強化を収録。6つのストーリー章にはそれぞれ選択があり、3つのチャンネルエンディングへとつながる。",
+            "es": "Tu primera audiencia tiene tres espectadores, y uno probablemente es tu primo. Haz crecer el canal de Eli desde el depósito de un viejo arcade de barrio y descubre qué hace falta para que una comunidad siga volviendo. Cada episodio es un programa en vivo: juega un desafío arcade corto mientras aparecen momentos del chat, ajusta la mezcla de sonido y elige el mejor momento que se publica. Hay 30 episodios con tres juegos arcade originales, Brick Signal, Orbit Catch y Echo Grid, cuatro formatos de programa, seis colaboradores y 24 mejoras de estudio. Seis capítulos con una decisión cada uno llevan a tres finales del canal.",
+            "pt-BR": "Sua primeira audiência tem três espectadores, e um provavelmente é seu primo. Faça crescer o canal do Eli a partir do depósito de um velho fliperama de bairro e descubra o que é preciso para uma comunidade continuar voltando. Cada episódio é uma live: jogue um desafio de arcade curto enquanto surgem momentos do chat, acerte a mixagem de som e escolha o destaque que vai ao ar. São 30 episódios com três jogos de arcade originais, Brick Signal, Orbit Catch e Echo Grid, quatro formatos de programa, seis parceiros e 24 melhorias de estúdio. Seis capítulos com uma escolha cada levam a três finais para o canal."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/afterhours",
+        "screenshots": [
+            "apps/shots/after-hours/01.jpg",
+            "apps/shots/after-hours/02.jpg",
+            "apps/shots/after-hours/03.jpg",
+            "apps/shots/after-hours/04.jpg",
+            "apps/shots/after-hours/05.jpg"
+        ]
+    },
+    {
+        "id": "saltline",
+        "slug": "saltline",
+        "icon": "apps/saltline.png",
+        "page": "apps/saltline.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Saltline",
+            "ko": "솔트라인",
+            "ja": "ソルトライン",
+            "es": "Saltline",
+            "pt-BR": "Saltline"
+        },
+        "tagline": {
+            "en": "One breath, one careful shot: supply an island night market and solve the lighthouse mystery.",
+            "ko": "한 번의 숨, 한 번의 신중한 사격. 섬의 야시장에 물고기를 공급하고 등대의 수수께끼를 풀어 보세요.",
+            "ja": "ひと息で、慎重な一撃を。島の夜市に魚を届け、灯台の謎を解き明かそう。",
+            "es": "Una respiración, un disparo cuidadoso: abastece el mercado nocturno de una isla y resuelve el misterio del faro.",
+            "pt-BR": "Um fôlego, um disparo cuidadoso: abasteça a feira noturna de uma ilha e resolva o mistério do farol."
+        },
+        "desc": {
+            "en": "A storm has cut a small fishing village off from its suppliers. As its newest freediver, learn the coves, take only what the market needs and find out who keeps lighting the old lighthouse. Aim, steady and release your spear, lead moving fish and wait for the line to come back. There are 30 market contracts across five coves in a pixel-art sea and 24 fictional fish, including protected species you must leave alone. Four buyers each pay best for different fish, and freshness drops the longer you stay down. Improve your breath, spearhead and line through a six-chapter story with three endings.",
+            "ko": "폭풍으로 작은 어촌 마을이 공급처와 끊겼습니다. 마을의 새내기 프리다이버가 되어 작은 만들을 익히고, 시장에 필요한 만큼만 잡으며, 누가 자꾸 낡은 등대에 불을 켜는지 알아내세요. 작살을 겨누고, 호흡을 가다듬고, 놓으세요. 움직이는 물고기는 앞을 노리고, 줄이 돌아올 때까지 기다리세요. 픽셀 아트 바다의 다섯 만에 걸친 30개의 시장 계약과, 반드시 놓아줘야 하는 보호종을 포함한 24종의 가상 물고기가 있습니다. 네 명의 구매자는 각기 다른 물고기에 가장 좋은 값을 쳐 주고, 물속에 오래 있을수록 신선도가 떨어집니다. 세 가지 엔딩이 있는 여섯 챕터의 이야기를 따라 숨, 작살촉, 줄을 강화하세요.",
+            "ja": "嵐のせいで、小さな漁村は仕入れ先から切り離されてしまった。村の新米フリーダイバーとして入り江を覚え、市場に必要な分だけを獲り、古い灯台に明かりをともし続けているのは誰なのかを突き止めよう。銛を構え、狙いを定めて放ち、動く魚には先読みで当て、ラインが戻るのを待つ。ピクセルアートの海に広がる5つの入り江で30の市場契約があり、24種の架空の魚の中には手を出してはいけない保護種もいる。4人の買い手はそれぞれ別の魚に一番高い値をつけ、長く潜るほど鮮度は落ちる。3つのエンディングがある6章の物語を進めながら、息、銛先、ラインを強化しよう。",
+            "es": "Una tormenta dejó a un pequeño pueblo pesquero aislado de sus proveedores. Como su apneísta más nuevo, conoce las calas, toma solo lo que el mercado necesita y descubre quién sigue encendiendo el viejo faro. Apunta, estabiliza y suelta tu arpón, adelántate a los peces en movimiento y espera a que vuelva la línea. Hay 30 contratos de mercado en cinco calas de un mar en pixel art y 24 peces ficticios, entre ellos especies protegidas que debes dejar en paz. Cuatro compradores pagan mejor por peces distintos, y la frescura baja cuanto más tiempo pasas bajo el agua. Mejora tu aliento, tu punta de arpón y tu línea a lo largo de una historia de seis capítulos con tres finales.",
+            "pt-BR": "Uma tempestade isolou uma pequena vila de pescadores dos seus fornecedores. Como o mais novo mergulhador livre da vila, conheça as enseadas, pegue só o que a feira precisa e descubra quem continua acendendo o velho farol. Mire, firme e solte o arpão, antecipe os peixes em movimento e espere a linha voltar. São 30 contratos de feira em cinco enseadas de um mar em pixel art e 24 peixes fictícios, incluindo espécies protegidas que você deve deixar em paz. Quatro compradores pagam melhor por peixes diferentes, e o frescor cai quanto mais tempo você fica no fundo. Melhore o fôlego, a ponta do arpão e a linha ao longo de uma história em seis capítulos com três finais."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/saltline",
+        "screenshots": [
+            "apps/shots/saltline/01.jpg",
+            "apps/shots/saltline/02.jpg",
+            "apps/shots/saltline/03.jpg",
+            "apps/shots/saltline/04.jpg",
+            "apps/shots/saltline/05.jpg"
+        ]
+    },
+    {
+        "id": "mint-condition",
+        "slug": "mint-condition",
+        "icon": "apps/mint-condition.png",
+        "page": "apps/mint-condition.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Mint Condition",
+            "ko": "민트 컨디션",
+            "ja": "ミントコンディション",
+            "es": "Mint Condition",
+            "pt-BR": "Mint Condition"
+        },
+        "tagline": {
+            "en": "Grade, trade and display fantasy cards in a cozy collector's shop.",
+            "ko": "아늑한 수집가의 가게에서 판타지 카드를 감정하고, 교환하고, 전시하세요.",
+            "ja": "心地よいコレクターショップで、ファンタジーカードを鑑定し、交換し、飾ろう。",
+            "es": "Califica, intercambia y exhibe cartas de fantasía en una acogedora tienda de coleccionistas.",
+            "pt-BR": "Avalie, troque e exponha cartas de fantasia em uma loja aconchegante de colecionador."
+        },
+        "desc": {
+            "en": "An empty page in an old binder belonged to the 1998 Lantern Cup. Run a small card shop, meet the regulars and find out what happened to the missing card. Each shop event is a short puzzle: inspect a card's corners, edges, surface and centering and grade it, trade with collectors who have favourite sets and fixed limits, then pick three cards for the night's exhibition. 120 original fantasy cards in six sets, 20 shop events, 12 collectors, 24 journal memories, six story chapters and three endings.",
+            "ko": "낡은 바인더의 빈 페이지는 1998년 랜턴 컵의 카드 자리였습니다. 작은 카드 가게를 운영하며 단골손님들을 만나고, 사라진 카드에 무슨 일이 있었는지 알아내세요. 가게의 모든 이벤트는 짧은 퍼즐입니다. 카드의 모서리, 가장자리, 표면, 센터링을 살펴 등급을 매기고, 좋아하는 세트와 정해진 한도가 있는 수집가와 교환한 뒤, 그날 밤 전시회에 낼 카드 세 장을 고르세요. 6개 세트의 오리지널 판타지 카드 120장, 가게 이벤트 20개, 수집가 12명, 일지 추억 24개, 스토리 6챕터, 엔딩 3개.",
+            "ja": "古いバインダーの空いたページには、1998年ランタンカップのカードが入るはずだった。小さなカードショップを営み、常連客と出会い、消えたカードの行方を突き止めよう。ショップのイベントはどれも短いパズル。カードの角、縁、表面、センタリングを確かめて鑑定し、好きなセットと予算の上限を持つコレクターと取引し、今夜の展示会に出す3枚を選ぶ。6つのセットに分かれたオリジナルのファンタジーカード120枚、ショップイベント20件、コレクター12人、日誌の思い出24個、6つの章と3つのエンディング。",
+            "es": "Una página vacía en una vieja carpeta pertenecía a la Copa Lantern de 1998. Administra una pequeña tienda de cartas, conoce a los clientes habituales y descubre qué pasó con la carta perdida. Cada evento de la tienda es un acertijo breve: revisa las esquinas, los bordes, la superficie y el centrado de una carta para calificarla, intercambia con coleccionistas que tienen sets favoritos y límites fijos, y elige tres cartas para la exhibición de esa noche. 120 cartas de fantasía originales en seis sets, 20 eventos de tienda, 12 coleccionistas, 24 recuerdos en el diario, seis capítulos y tres finales.",
+            "pt-BR": "Uma página vazia em um fichário antigo pertencia à Lantern Cup de 1998. Cuide de uma pequena loja de cartas, conheça os clientes de sempre e descubra o que aconteceu com a carta desaparecida. Cada evento da loja é um quebra-cabeça curto: examine os cantos, as bordas, a superfície e a centralização de uma carta para avaliá-la, negocie com colecionadores que têm coleções favoritas e limites fixos, e escolha três cartas para a exposição da noite. 120 cartas de fantasia originais em seis coleções, 20 eventos da loja, 12 colecionadores, 24 lembranças no diário, seis capítulos e três finais."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/mintcondition",
+        "screenshots": [
+            "apps/shots/mint-condition/01.jpg",
+            "apps/shots/mint-condition/02.jpg",
+            "apps/shots/mint-condition/03.jpg",
+            "apps/shots/mint-condition/04.jpg",
+            "apps/shots/mint-condition/05.jpg"
+        ]
+    },
+    {
+        "id": "mochi-mail",
+        "slug": "mochi-mail",
+        "icon": "apps/mochi-mail.png",
+        "page": "apps/mochi-mail.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Mochi Mail",
+            "ko": "모찌 메일",
+            "ja": "モチメール",
+            "es": "Mochi Mail",
+            "pt-BR": "Mochi Mail"
+        },
+        "tagline": {
+            "en": "Match little stamps, deliver forgotten letters and brighten a cozy village.",
+            "ko": "작은 우표를 맞추고, 잊힌 편지를 배달하고, 아늑한 마을을 환하게 밝히세요.",
+            "ja": "小さな切手をそろえて、忘れられた手紙を届け、のどかな村を明るくしよう。",
+            "es": "Combina pequeños sellos, entrega cartas olvidadas y alegra un pueblo acogedor.",
+            "pt-BR": "Combine pequenos selos, entregue cartas esquecidas e alegre uma vila aconchegante."
+        },
+        "desc": {
+            "en": "Mimi found a sack of forgotten letters behind the station clock. Help a little post office bring a village back together, one delivery at a time. Each of the 84 match-three deliveries takes place on a 5x5 board with a stamp goal and a move limit, with cascades, row and cross bonuses from bigger matches and frosted stamps on later routes. Earn coins for hints and shuffles, spend decoration stamps to build six homes around the village, and follow six story chapters with choices and three endings.",
+            "ko": "미미가 역 시계 뒤에서 잊힌 편지 한 자루를 발견했습니다. 작은 우체국을 도와 한 번에 하나씩 배달하며 마을을 다시 하나로 모으세요. 84개의 3매치 배달은 각각 5x5 보드에서 우표 목표와 이동 횟수 제한을 두고 진행되며, 더 큰 매치로 연쇄, 가로줄, 십자 보너스를 얻고, 후반 경로에서는 얼어붙은 우표가 등장합니다. 코인을 모아 힌트와 섞기에 쓰고, 장식 우표로 마을 곳곳에 집 여섯 채를 지으며, 선택이 있는 스토리 6챕터와 엔딩 3개를 따라가세요.",
+            "ja": "ミミは駅の時計の裏で、忘れられた手紙の袋を見つけた。小さな郵便局を手伝い、ひとつずつ配達しながら村の絆を取り戻そう。84のマッチ3配達は、どれも5x5の盤面で切手の目標と手数制限つき。大きなマッチで連鎖や列、十字のボーナスが生まれ、後半のルートでは凍った切手も登場する。コインを稼いでヒントやシャッフルに使い、デコレーション切手で村に6軒の家を建て、選択肢のある6つの章と3つのエンディングを見届けよう。",
+            "es": "Mimi encontró un saco de cartas olvidadas detrás del reloj de la estación. Ayuda a una pequeña oficina de correos a volver a unir un pueblo, una entrega a la vez. Cada una de las 84 entregas de combinar tres se juega en un tablero de 5x5 con una meta de sellos y un límite de movimientos, con cascadas, bonos de fila y de cruz por combinaciones más grandes y sellos escarchados en las rutas finales. Gana monedas para pistas y mezclas, usa sellos de decoración para construir seis casas en el pueblo y sigue seis capítulos con decisiones y tres finales.",
+            "pt-BR": "Mimi encontrou um saco de cartas esquecidas atrás do relógio da estação. Ajude uma pequena agência dos correios a reunir uma vila de novo, uma entrega por vez. Cada uma das 84 entregas de combinar três acontece em um tabuleiro 5x5 com uma meta de selos e um limite de jogadas, com cascatas, bônus de linha e de cruz por combinações maiores e selos congelados nas rotas finais. Ganhe moedas para dicas e embaralhamentos, use selos de decoração para construir seis casas pela vila e acompanhe seis capítulos com escolhas e três finais."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/mochimail",
+        "screenshots": [
+            "apps/shots/mochi-mail/01.jpg",
+            "apps/shots/mochi-mail/02.jpg",
+            "apps/shots/mochi-mail/03.jpg",
+            "apps/shots/mochi-mail/04.jpg",
+            "apps/shots/mochi-mail/05.jpg"
+        ]
+    },
+    {
+        "id": "velvet-feed",
+        "slug": "velvet-feed",
+        "icon": "apps/velvet-feed.png",
+        "page": "apps/velvet-feed.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Velvet Feed",
+            "ko": "벨벳 피드",
+            "ja": "ベルベットフィード",
+            "es": "Velvet Feed",
+            "pt-BR": "Velvet Feed"
+        },
+        "tagline": {
+            "en": "Style a studio, shoot and edit your posts, and build a creative life on your own terms.",
+            "ko": "스튜디오를 꾸미고, 게시물을 찍고 편집하며, 나만의 방식으로 크리에이티브한 삶을 만들어 가세요.",
+            "ja": "スタジオを飾り、投稿を撮って編集し、自分らしいクリエイティブな暮らしを築こう。",
+            "es": "Decora un estudio, fotografía y edita tus publicaciones, y construye una vida creativa a tu manera.",
+            "pt-BR": "Monte um estúdio, fotografe e edite seus posts e construa uma vida criativa do seu jeito."
+        },
+        "desc": {
+            "en": "An empty apartment, a secondhand camera and a feed that could become anything. Help Mara build a creative career while keeping room for the people and ideas she loves. Every brief is a small photo shoot: pick the look, drag props around the frame, choose a story angle and a license, then cut the edit on the beat and publish. Followers, trust, energy and friendship all count. 45 briefs across fashion, home and travel, 60 prop variants, six friends to visit, six story chapters and three career endings.",
+            "ko": "텅 빈 아파트, 중고 카메라, 그리고 무엇이든 될 수 있는 피드. 마라가 사랑하는 사람들과 아이디어를 지키면서 크리에이티브 커리어를 쌓도록 도와주세요. 모든 의뢰는 작은 촬영입니다. 스타일을 고르고, 소품을 프레임 안에서 끌어 배치하고, 스토리 방향과 라이선스를 정한 뒤, 박자에 맞춰 편집하고 게시하세요. 팔로워, 신뢰, 에너지, 우정이 모두 중요합니다. 패션, 홈, 여행 분야의 의뢰 45개, 소품 변형 60종, 찾아갈 친구 6명, 스토리 6챕터, 커리어 엔딩 3개.",
+            "ja": "がらんとしたアパート、中古のカメラ、そして何にでもなれるフィード。マラが大切な人やアイデアを守りながら、クリエイターとしてのキャリアを築くのを手伝おう。依頼はどれも小さな撮影。ルックを選び、小道具をフレーム内でドラッグして配置し、ストーリーの切り口とライセンスを決めたら、ビートに合わせて編集して投稿する。フォロワー、信頼、エネルギー、友情のすべてが大切。ファッション、インテリア、旅行の依頼45件、小道具のバリエーション60種、訪ねる友人6人、6つの章と3つのキャリアエンディング。",
+            "es": "Un departamento vacío, una cámara de segunda mano y un feed que puede convertirse en cualquier cosa. Ayuda a Mara a construir una carrera creativa sin perder espacio para las personas e ideas que ama. Cada encargo es una pequeña sesión de fotos: elige el look, arrastra los accesorios por el encuadre, escoge un enfoque narrativo y una licencia, luego corta la edición al ritmo y publica. Seguidores, confianza, energía y amistad cuentan por igual. 45 encargos de moda, hogar y viajes, 60 variantes de accesorios, seis amigos que visitar, seis capítulos y tres finales de carrera.",
+            "pt-BR": "Um apartamento vazio, uma câmera de segunda mão e um feed que pode virar qualquer coisa. Ajude Mara a construir uma carreira criativa sem perder espaço para as pessoas e ideias que ela ama. Cada trabalho é uma pequena sessão de fotos: escolha o visual, arraste os objetos pelo enquadramento, defina um ângulo para a história e uma licença, depois corte a edição no ritmo e publique. Seguidores, confiança, energia e amizade contam. 45 trabalhos de moda, casa e viagem, 60 variações de objetos, seis amigos para visitar, seis capítulos e três finais de carreira."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/velvetfeed",
+        "screenshots": [
+            "apps/shots/velvet-feed/01.jpg",
+            "apps/shots/velvet-feed/02.jpg",
+            "apps/shots/velvet-feed/03.jpg",
+            "apps/shots/velvet-feed/04.jpg",
+            "apps/shots/velvet-feed/05.jpg"
+        ]
+    },
+    {
+        "id": "neon-99",
+        "slug": "neon-99",
+        "icon": "apps/neon-99.png",
+        "page": "apps/neon-99.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Neon '99",
+            "ko": "네온 '99",
+            "ja": "ネオン'99",
+            "es": "Neon '99",
+            "pt-BR": "Neon '99"
+        },
+        "tagline": {
+            "en": "1999, a pager and a tired coupe: race the night circuits, keep June's garage alive.",
+            "ko": "1999년, 삐삐 하나와 낡은 쿠페. 밤의 서킷을 달리고 준의 정비소를 지켜내세요.",
+            "ja": "1999年、ポケベルとくたびれたクーペ。夜のサーキットを走り、ジューンのガレージを守れ。",
+            "es": "1999, un bíper y un cupé cansado: corre en los circuitos nocturnos y mantén vivo el taller de June.",
+            "pt-BR": "1999, um pager e um cupê cansado: corra nos circuitos noturnos e mantenha viva a oficina da June."
+        },
+        "desc": {
+            "en": "It is 1999, and a pager, a tired coupe and your aunt June's garage are all you have. Earn your place in the fictional city of Glassport, juggle day jobs and late-night race invitations, and decide whether loyalty is worth more than the next trophy. Race 36 events on six neon circuits, forward and reverse, dry and wet, against four rivals with their own habits while managing boost, tire heat and wear. Pay rent every seventh day, upgrade eight fictional cars, and follow six story chapters with choices and three endings.",
+            "ko": "때는 1999년, 가진 것은 삐삐 하나와 낡은 쿠페, 그리고 준 이모의 정비소뿐입니다. 가상의 도시 글래스포트에서 자리를 잡고, 낮의 일과 늦은 밤의 레이스 초대 사이에서 균형을 잡으며, 의리가 다음 트로피보다 값진지 결정하세요. 6개의 네온 서킷에서 정방향과 역방향, 마른 노면과 젖은 노면으로 36개의 레이스를 달리며, 각자 습관이 다른 라이벌 4명과 겨루고 부스트, 타이어 열, 마모를 관리하세요. 7일마다 집세를 내고, 가상의 차 8대를 업그레이드하며, 선택이 있는 스토리 6챕터와 엔딩 3개를 따라가세요.",
+            "ja": "時は1999年。手元にあるのはポケベルと、くたびれたクーペと、ジューンおばさんのガレージだけ。架空の街グラスポートで居場所をつかみ、昼の仕事と深夜のレースの誘いをやりくりしながら、義理が次のトロフィーより大切かを決めよう。6つのネオンサーキットで順走と逆走、ドライとウェットの36レースに挑み、それぞれ癖のある4人のライバルと競いながら、ブースト、タイヤの熱と摩耗を管理する。7日ごとに家賃を払い、架空の車8台を強化し、選択肢のある6つの章と3つのエンディングを見届けよう。",
+            "es": "Es 1999, y un bíper, un cupé cansado y el taller de tu tía June son todo lo que tienes. Gánate un lugar en la ciudad ficticia de Glassport, equilibra trabajos de día e invitaciones a carreras de madrugada, y decide si la lealtad vale más que el próximo trofeo. Corre 36 pruebas en seis circuitos de neón, en sentido normal e inverso, en seco y en mojado, contra cuatro rivales con sus propias mañas mientras controlas el turbo, el calor y el desgaste de los neumáticos. Paga la renta cada siete días, mejora ocho autos ficticios y sigue seis capítulos con decisiones y tres finales.",
+            "pt-BR": "É 1999, e um pager, um cupê cansado e a oficina da sua tia June são tudo o que você tem. Conquiste seu lugar na cidade fictícia de Glassport, equilibre bicos durante o dia e convites para corridas de madrugada, e decida se a lealdade vale mais que o próximo troféu. Dispute 36 corridas em seis circuitos de neon, no sentido normal e invertido, no seco e na chuva, contra quatro rivais com manias próprias enquanto controla o boost, o calor e o desgaste dos pneus. Pague o aluguel a cada sete dias, melhore oito carros fictícios e acompanhe seis capítulos com escolhas e três finais."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/neon99",
+        "screenshots": [
+            "apps/shots/neon-99/01.jpg",
+            "apps/shots/neon-99/02.jpg",
+            "apps/shots/neon-99/03.jpg",
+            "apps/shots/neon-99/04.jpg",
+            "apps/shots/neon-99/05.jpg"
+        ]
+    },
+    {
+        "id": "chalk-and-chance",
+        "slug": "chalk-and-chance",
+        "icon": "apps/chalk-and-chance.png",
+        "page": "apps/chalk-and-chance.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Chalk & Chance",
+            "ko": "초크 앤 찬스",
+            "ja": "チョーク&チャンス",
+            "es": "Chalk & Chance",
+            "pt-BR": "Chalk & Chance"
+        },
+        "tagline": {
+            "en": "A cozy climbing puzzle: plan every hold, rest on the wall and win back your old crew.",
+            "ko": "아늑한 클라이밍 퍼즐. 모든 홀드를 계획하고, 벽에서 쉬어 가며, 옛 동료들을 되찾으세요.",
+            "ja": "心地よいクライミングパズル。ホールドを一つずつ計画し、壁で休み、昔の仲間を取り戻そう。",
+            "es": "Un acogedor rompecabezas de escalada: planea cada agarre, descansa en la pared y recupera a tu antiguo grupo.",
+            "pt-BR": "Um quebra-cabeça de escalada aconchegante: planeje cada agarra, descanse na parede e reconquiste sua antiga turma."
+        },
+        "desc": {
+            "en": "You come home to a mountain town to reopen your mentor's climbing gym. Learn the local routes, rebuild trust with a crew that split up years ago and get ready for the unfinished ascent. Every climb is a calm movement puzzle: pick a hand or foot, then a hold it can reach, keep your hands above your feet and find level footholds to rest. Nothing is timed. Climb 40 hand-made routes on four crags in three kinds of weather, with five climbing partners, 20 campfire conversations, six story chapters and three endings.",
+            "ko": "멘토의 클라이밍 체육관을 다시 열기 위해 산골 마을로 돌아왔습니다. 이 지역의 루트를 익히고, 몇 년 전 흩어진 동료들과 다시 신뢰를 쌓으며, 미완의 등반을 준비하세요. 모든 등반은 차분한 동작 퍼즐입니다. 손이나 발을 고른 다음 닿을 수 있는 홀드를 선택하고, 손을 발보다 위에 두며, 평평한 발 디딤을 찾아 쉬세요. 시간 제한은 없습니다. 세 가지 날씨 속에서 4곳의 암장에 있는 수작업 루트 40개를 오르며, 클라이밍 파트너 5명, 모닥불 대화 20개, 스토리 6챕터, 엔딩 3개를 만나 보세요.",
+            "ja": "師匠のクライミングジムを再開するため、山あいの町に帰ってきた。地元のルートを覚え、何年も前にばらばらになった仲間との信頼を取り戻し、未完の登攀に備えよう。登攀はどれも穏やかな動きのパズル。手か足を選び、届くホールドを選ぶ。手は足より上に保ち、平らなフットホールドを見つけて休む。制限時間はない。3種類の天候のもと、4つの岩場にある手作りの40ルートを登り、5人のクライミングパートナー、焚き火での会話20回、6つの章と3つのエンディングが待っている。",
+            "es": "Vuelves a un pueblo de montaña para reabrir el gimnasio de escalada de tu mentor. Aprende las rutas locales, recupera la confianza de un grupo que se separó hace años y prepárate para el ascenso inconcluso. Cada escalada es un rompecabezas de movimiento tranquilo: elige una mano o un pie, luego un agarre al que llegue, mantén las manos por encima de los pies y busca apoyos planos para descansar. Nada tiene tiempo límite. Escala 40 rutas hechas a mano en cuatro paredes con tres tipos de clima, con cinco compañeros de escalada, 20 charlas junto a la fogata, seis capítulos y tres finales.",
+            "pt-BR": "Você volta para uma cidade nas montanhas para reabrir o ginásio de escalada do seu mentor. Aprenda as rotas locais, reconquiste a confiança de uma turma que se separou anos atrás e prepare-se para a escalada inacabada. Cada subida é um quebra-cabeça de movimento tranquilo: escolha uma mão ou um pé, depois uma agarra ao alcance, mantenha as mãos acima dos pés e encontre apoios planos para descansar. Nada tem tempo. Escale 40 rotas feitas à mão em quatro paredões com três tipos de clima, com cinco parceiros de escalada, 20 conversas ao redor da fogueira, seis capítulos e três finais."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/chalkchance",
+        "screenshots": [
+            "apps/shots/chalk-and-chance/01.jpg",
+            "apps/shots/chalk-and-chance/02.jpg",
+            "apps/shots/chalk-and-chance/03.jpg",
+            "apps/shots/chalk-and-chance/04.jpg",
+            "apps/shots/chalk-and-chance/05.jpg"
+        ]
+    },
+    {
+        "id": "chrome-county",
+        "slug": "chrome-county",
+        "icon": "apps/chrome-county.png",
+        "page": "apps/chrome-county.html",
+        "tier": "Volume",
+        "platform": "Android, PC",
+        "name": {
+            "en": "Chrome County",
+            "ko": "크롬 카운티",
+            "ja": "クロームカウンティ",
+            "es": "Chrome County",
+            "pt-BR": "Chrome County"
+        },
+        "tagline": {
+            "en": "Ride careful deliveries, rebuild a clubhouse and survive the pettiest club meeting in town.",
+            "ko": "조심조심 배달을 달리고, 클럽하우스를 다시 세우고, 동네에서 가장 사소한 일로 다투는 클럽 회의에서 살아남으세요.",
+            "ja": "慎重に配達をこなし、クラブハウスを立て直し、町でいちばんささいなことで揉めるクラブ会議を生き延びろ。",
+            "es": "Haz entregas con cuidado, reconstruye la sede del club y sobrevive a la reunión más quisquillosa del pueblo.",
+            "pt-BR": "Faça entregas com cuidado, reconstrua a sede do clube e sobreviva à reunião mais implicante da cidade."
+        },
+        "desc": {
+            "en": "Welcome to the Dust Pigeons, a motorcycle club with big engines, bigger opinions and a surprisingly strict biscuit policy. Start as a prospect and help save a clubhouse that has seen better decades. Take short 3D rides with fragile cargo, changing lanes around cones, crates and puddles and braking before the bends to keep the cake in one piece. Pick two of eight riders for each of 40 club jobs on five routes, maintain six fictional bikes, and shape the club through twelve clubhouse improvements, six story votes and three endings.",
+            "ko": "더스트 피전스에 오신 것을 환영합니다. 엔진은 크고, 의견은 더 크며, 비스킷 규칙은 의외로 엄격한 모터사이클 클럽입니다. 신입 후보로 시작해 전성기가 수십 년 전에 지난 클럽하우스를 살리는 데 힘을 보태세요. 깨지기 쉬운 화물을 싣고 짧은 3D 주행에 나서, 콘, 상자, 물웅덩이를 피해 차선을 바꾸고 커브 전에 브레이크를 밟아 케이크를 온전히 지키세요. 5개 경로의 클럽 일 40개마다 라이더 8명 중 2명을 고르고, 가상의 바이크 6대를 관리하며, 클럽하우스 개선 12개, 스토리 투표 6번, 엔딩 3개로 클럽의 앞날을 정하세요.",
+            "ja": "ダスト・ピジョンズへようこそ。エンジンは大きく、意見はもっと大きく、ビスケットの決まりは意外と厳しいバイククラブだ。見習いとして入り、とっくに全盛期を過ぎたクラブハウスを救う手伝いをしよう。壊れやすい荷物を積んで3Dの短いライドに出て、コーンや木箱、水たまりをよけて車線を変え、カーブの前でブレーキをかけてケーキを崩さずに運ぶ。5つのルートにある40の仕事ごとに8人のライダーから2人を選び、架空のバイク6台を整備し、12のクラブハウス改善、6回のストーリー投票、3つのエンディングでクラブの行く末を決めよう。",
+            "es": "Bienvenido a los Dust Pigeons, un club de motociclistas con motores grandes, opiniones más grandes y una política de galletas sorprendentemente estricta. Empieza como aspirante y ayuda a salvar una sede que ha visto mejores décadas. Haz recorridos cortos en 3D con carga frágil, cambia de carril entre conos, cajas y charcos y frena antes de las curvas para que el pastel llegue entero. Elige a dos de ocho motociclistas para cada uno de los 40 trabajos del club en cinco rutas, mantén seis motos ficticias y define el rumbo del club con doce mejoras de la sede, seis votaciones de historia y tres finales.",
+            "pt-BR": "Bem-vindo aos Dust Pigeons, um motoclube com motores grandes, opiniões maiores ainda e uma política de biscoitos surpreendentemente rígida. Comece como aspirante e ajude a salvar uma sede que já viu décadas melhores. Faça corridas curtas em 3D com carga frágil, troque de faixa entre cones, caixotes e poças e freie antes das curvas para o bolo chegar inteiro. Escolha dois de oito motociclistas para cada um dos 40 trabalhos do clube em cinco rotas, cuide de seis motos fictícias e decida o rumo do clube com doze melhorias na sede, seis votações da história e três finais."
+        },
+        "status": "Live",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.chromecounty",
+        "itchUrl": "https://crystllabs.itch.io/chromecounty",
+        "screenshots": [
+            "apps/shots/chrome-county/01.jpg",
+            "apps/shots/chrome-county/02.jpg",
+            "apps/shots/chrome-county/03.jpg",
+            "apps/shots/chrome-county/04.jpg",
+            "apps/shots/chrome-county/05.jpg"
+        ]
+    },
+    {
+        "id": "black-belt-beat",
+        "slug": "black-belt-beat",
+        "icon": "apps/black-belt-beat.png",
+        "page": "apps/black-belt-beat.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Black Belt Beat",
+            "ko": "블랙 벨트 비트",
+            "ja": "ブラックベルト・ビート",
+            "es": "Black Belt Beat",
+            "pt-BR": "Black Belt Beat"
+        },
+        "tagline": {
+            "en": "A taekwondo rhythm game: kick on the beat, shout kihap and earn your black belt.",
+            "ko": "태권도 리듬 게임. 박자에 맞춰 차고, 기합을 외치고, 검은띠를 따내세요.",
+            "ja": "テコンドーのリズムゲーム。ビートに合わせて蹴り、気合を叫び、黒帯をつかめ。",
+            "es": "Un juego de ritmo de taekwondo: patea al compás, grita kihap y gana tu cinturón negro.",
+            "pt-BR": "Um jogo de ritmo de taekwondo: chute na batida, grite o kihap e conquiste sua faixa preta."
+        },
+        "desc": {
+            "en": "Han Seo-yeon, 16, grew up on the mats of her grandmother's dojang, Hanbit Taekwondo. When the glossy Titan Academy opens across the street, students start leaving, and Grandmaster Han makes a bet: if Hanbit's demo team wins the National Youth Championship, Titan leaves the block. Seo-yeon has one year to earn her black belt and build a team. Punch, block and kick on the beat across 17 poomsae played as songs, pass 10 belt tests, break boards and spar against 24 rivals in 4 tournaments, then build up the dojang.",
+            "ko": "16살 한서연은 할머니의 도장, 한빛 태권도의 매트 위에서 자랐습니다. 길 건너편에 번쩍이는 타이탄 아카데미가 문을 열자 수련생들이 떠나기 시작하고, 한 관장님은 내기를 겁니다. 한빛 시범단이 전국 청소년 선수권에서 우승하면 타이탄이 이 동네를 떠나기로요. 서연에게는 검은띠를 따고 팀을 꾸릴 시간이 1년뿐입니다. 노래가 된 품새 17개에서 박자에 맞춰 지르기, 막기, 차기를 하고, 승급 심사 10번을 통과하고, 격파에 도전하며, 4개 대회에서 라이벌 24명과 겨루고, 도장을 키워 가세요.",
+            "ja": "16歳のハン・ソヨンは、祖母の道場、ハンビッ・テコンドーのマットの上で育った。通りの向かいに華やかなタイタン・アカデミーができると、生徒たちが離れていく。ハン館長は賭けに出る。ハンビッの演武チームが全国ユース選手権で優勝したら、タイタンはこの街から出ていくと。ソヨンに残された時間は1年。黒帯を取り、チームを作らなければならない。歌になった17のプムセでビートに合わせて突き、受け、蹴りを決め、10回の昇級審査を突破し、試し割りに挑み、4つの大会で24人のライバルと組手で戦い、道場を育てよう。",
+            "es": "Han Seo-yeon, de 16 años, creció en los tapetes del dojang de su abuela, Hanbit Taekwondo. Cuando la reluciente Titan Academy abre al otro lado de la calle, los alumnos empiezan a irse, y Hanbit hace una apuesta: si su equipo de exhibición gana el Campeonato Nacional Juvenil, Titan se va del barrio. Seo-yeon tiene un año para ganar su cinturón negro y formar un equipo. Golpea, bloquea y patea al ritmo en 17 poomsae convertidos en canciones, supera 10 exámenes de cinturón, rompe tablas, combate contra 24 rivales en 4 torneos y haz crecer el dojang.",
+            "pt-BR": "Han Seo-yeon, de 16 anos, cresceu nos tatames do dojang da avó, o Hanbit Taekwondo. Quando a reluzente Titan Academy abre do outro lado da rua, os alunos começam a sair, e o Hanbit faz uma aposta: se a equipe de demonstração vencer o Campeonato Nacional Juvenil, a Titan deixa o bairro. Seo-yeon tem um ano para conquistar a faixa preta e montar uma equipe. Soque, bloqueie e chute na batida em 17 poomsae transformados em músicas, passe por 10 exames de faixa, quebre tábuas, lute contra 24 rivais em 4 torneios e faça o dojang crescer."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/blackbeltbeat",
+        "screenshots": [
+            "apps/shots/black-belt-beat/01.jpg",
+            "apps/shots/black-belt-beat/02.jpg",
+            "apps/shots/black-belt-beat/03.jpg",
+            "apps/shots/black-belt-beat/04.jpg",
+            "apps/shots/black-belt-beat/05.jpg"
+        ]
+    },
+    {
+        "id": "concrete-crown",
+        "slug": "concrete-crown",
+        "icon": "apps/concrete-crown.png",
+        "page": "apps/concrete-crown.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Concrete Crown",
+            "ko": "콘크리트 크라운",
+            "ja": "コンクリート・クラウン",
+            "es": "Concrete Crown",
+            "pt-BR": "Concrete Crown"
+        },
+        "tagline": {
+            "en": "Lead your crew in a 3D street brawler. Claim thirty blocks and shape your city.",
+            "ko": "3D 스트리트 난투에서 크루를 이끄세요. 30개의 블록을 차지하고 도시의 모습을 만들어 가세요.",
+            "ja": "3Dストリート乱闘でクルーを率いろ。30のブロックを手に入れ、街を形づくれ。",
+            "es": "Dirige a tu banda en un juego de peleas callejeras en 3D. Conquista treinta cuadras y da forma a tu ciudad.",
+            "pt-BR": "Lidere sua gangue em uma briga de rua em 3D. Conquiste trinta quarteirões e molde sua cidade."
+        },
+        "desc": {
+            "en": "Dante returns to Meridian City to find his neighborhood caught between rival crews. Ruth wants him to protect the block, Viper wants him to rule it, and every victory brings another choice. Lead a crew in 3D street brawls across thirty connected blocks in five districts, facing four rival crews with boxing, brawling, grappling and kicking styles. Recruit twenty crew members, open and upgrade barbers, corner stores, garages and gyms between fights, and choose Protector or Kingpin after each first conquest on the way to three endings.",
+            "ko": "단테는 메리디언 시티로 돌아와 자신의 동네가 라이벌 크루들 사이에 끼어 있다는 것을 알게 됩니다. 루스는 그가 동네를 지키길 원하고, 바이퍼는 그가 동네를 지배하길 원하며, 승리할 때마다 또 다른 선택이 기다립니다. 5개 지구에 이어진 30개의 블록에서 3D 스트리트 난투로 크루를 이끌고, 복싱, 막싸움, 그래플링, 킥 스타일의 라이벌 크루 4곳과 맞서세요. 크루원 20명을 영입하고, 싸움 사이사이에 이발소, 동네 가게, 정비소, 체육관을 열고 키우며, 처음 정복할 때마다 수호자와 킹핀 중 하나를 골라 엔딩 3개 중 하나로 향하세요.",
+            "ja": "メリディアン・シティに戻ったダンテは、地元がライバルのクルーたちに挟まれているのを知る。ルースは街を守ってほしいと願い、ヴァイパーは街を支配しろと迫る。勝つたびに、また選択が待っている。5つの地区につながる30のブロックで3Dのストリート乱闘を指揮し、ボクシング、喧嘩殺法、グラップリング、キックを操る4つのライバルクルーに立ち向かおう。仲間を20人スカウトし、戦いの合間に床屋、街角の商店、ガレージ、ジムを開いて強化し、最初の制圧のたびにプロテクターかキングピンかを選んで、3つのエンディングへ進もう。",
+            "es": "Dante regresa a Meridian City y encuentra su barrio atrapado entre bandas rivales. Ruth quiere que proteja la cuadra, Viper quiere que la gobierne, y cada victoria trae otra decisión. Dirige a una banda en peleas callejeras en 3D por treinta cuadras conectadas en cinco distritos y enfrenta a cuatro bandas rivales con estilos de boxeo, pelea callejera, lucha y patadas. Recluta a veinte integrantes, abre y mejora barberías, tiendas de barrio, talleres y gimnasios entre peleas, y elige ser Protector o Kingpin después de cada primera conquista rumbo a tres finales.",
+            "pt-BR": "Dante volta a Meridian City e encontra seu bairro preso entre gangues rivais. Ruth quer que ele proteja o quarteirão, Viper quer que ele mande nele, e cada vitória traz uma nova escolha. Lidere uma gangue em brigas de rua em 3D por trinta quarteirões conectados em cinco distritos e enfrente quatro gangues rivais com estilos de boxe, briga de rua, luta agarrada e chutes. Recrute vinte integrantes, abra e melhore barbearias, mercadinhos, oficinas e academias entre as lutas, e escolha entre Protetor e Chefão depois de cada primeira conquista rumo a três finais."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/concretecrown",
+        "screenshots": [
+            "apps/shots/concrete-crown/01.jpg",
+            "apps/shots/concrete-crown/02.jpg",
+            "apps/shots/concrete-crown/03.jpg",
+            "apps/shots/concrete-crown/04.jpg",
+            "apps/shots/concrete-crown/05.jpg"
+        ]
+    },
+    {
+        "id": "last-call",
+        "slug": "last-call",
+        "icon": "apps/last-call.png",
+        "page": "apps/last-call.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Last Call",
+            "ko": "라스트 콜",
+            "ja": "ラストコール",
+            "es": "Last Call",
+            "pt-BR": "Last Call"
+        },
+        "tagline": {
+            "en": "Flick troublemakers out, save your bar and keep the tips. 3D physics, offline.",
+            "ko": "말썽꾼들을 튕겨 내보내고, 바를 지키고, 팁을 챙기세요. 3D 물리, 오프라인.",
+            "ja": "厄介者をはじき出し、バーを守り、チップを稼げ。3D物理、オフライン対応。",
+            "es": "Saca a los alborotadores de un golpe, salva tu bar y quédate con las propinas. Física 3D, sin conexión.",
+            "pt-BR": "Arremesse os encrenqueiros para fora, salve seu bar e fique com as gorjetas. Física 3D, offline."
+        },
+        "desc": {
+            "en": "Run the Rusty Anchor as Mags O'Rourke, part host, part bouncer and full-time neighborhood defender. Mags spent her severance cheque on a second chance, but developer Mr. Vale wants the block for condos and five rowdy crews are about to test the furniture. Punch, grab and flick troublemakers through the glowing exit, or calm them with free water, shared fries and the jukebox. Meet 25 patron types, upgrade the bar, hire Big Lou, earn five bar themes and keep the doors open for thirty story nights before the Last Call Classic.",
+            "ko": "호스트이자 경비원이자 전업 동네 지킴이인 매그스 오로크가 되어 러스티 앵커를 운영하세요. 매그스는 퇴직금을 두 번째 기회에 걸었지만, 개발업자 베일 씨는 콘도를 짓겠다며 이 블록을 노리고, 시끄러운 무리 다섯이 가구를 시험하러 몰려옵니다. 말썽꾼을 치고, 붙잡고, 튕겨서 빛나는 출구 밖으로 내보내거나, 공짜 물과 감자튀김, 주크박스로 진정시키세요. 손님 유형 25가지를 만나고, 바를 업그레이드하고, 빅 루를 고용하고, 바 테마 5가지를 얻으며, 30일의 스토리 밤 동안 문을 지킨 뒤 라스트 콜 클래식에 도전하세요.",
+            "ja": "ホストであり、用心棒であり、根っからの地元の守り手でもあるマグズ・オロークとなって、ラスティ・アンカーを切り盛りしよう。マグズは退職金を再出発に賭けたが、開発業者のヴェイル氏はこの一角にマンションを建てようと狙い、騒がしい5つのグループが家具を試しにやってくる。厄介者を殴り、つかみ、はじいて光る出口の外へ放り出すか、無料の水やポテト、ジュークボックスでなだめよう。25タイプの客と出会い、バーを強化し、ビッグ・ルーを雇い、5つのバーテーマを手に入れ、30のストーリーの夜を乗り切ってラストコール・クラシックに挑め。",
+            "es": "Administra el Rusty Anchor como Mags O'Rourke, en parte anfitriona, en parte guardia de seguridad y defensora del barrio de tiempo completo. Mags gastó su liquidación en una segunda oportunidad, pero el desarrollador inmobiliario Mr. Vale quiere la cuadra para condominios y cinco grupos ruidosos están por poner a prueba los muebles. Golpea, agarra y lanza a los alborotadores por la salida brillante, o cálmalos con agua gratis, papas fritas compartidas y la rocola. Conoce 25 tipos de clientes, mejora el bar, contrata a Big Lou, gana cinco temas de bar y mantén las puertas abiertas durante treinta noches de historia antes del Last Call Classic.",
+            "pt-BR": "Comande o Rusty Anchor como Mags O'Rourke, um pouco anfitriã, um pouco leão de chácara e defensora do bairro em tempo integral. Mags gastou a rescisão em uma segunda chance, mas o incorporador Mr. Vale quer o quarteirão para condomínios e cinco turmas barulhentas estão prestes a testar os móveis. Soque, agarre e arremesse os encrenqueiros pela saída iluminada, ou acalme todo mundo com água grátis, batata frita para dividir e a jukebox. Conheça 25 tipos de clientes, melhore o bar, contrate o Big Lou, ganhe cinco temas de bar e mantenha as portas abertas por trinta noites de história antes do Last Call Classic."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/lastcall",
+        "screenshots": [
+            "apps/shots/last-call/01.jpg",
+            "apps/shots/last-call/02.jpg",
+            "apps/shots/last-call/03.jpg",
+            "apps/shots/last-call/04.jpg",
+            "apps/shots/last-call/05.jpg"
+        ]
+    },
+    {
+        "id": "riverbank-rumble",
+        "slug": "riverbank-rumble",
+        "icon": "apps/riverbank-rumble.png",
+        "page": "apps/riverbank-rumble.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Riverbank Rumble",
+            "ko": "리버뱅크 럼블",
+            "ja": "リバーバンク・ランブル",
+            "es": "Riverbank Rumble",
+            "pt-BR": "Riverbank Rumble"
+        },
+        "tagline": {
+            "en": "A retro beat em up: brawl through seven turfs, beat the bosses, rule the town.",
+            "ko": "레트로 벨트스크롤 액션. 일곱 구역을 휩쓸고, 보스를 쓰러뜨리고, 마을을 평정하세요.",
+            "ja": "レトロなベルトスクロールアクション。7つの縄張りで暴れ、ボスを倒し、町を制覇しろ。",
+            "es": "Un beat 'em up retro: pelea en siete territorios, vence a los jefes y domina la ciudad.",
+            "pt-BR": "Um beat 'em up retrô: brigue por sete territórios, derrote os chefes e domine a cidade."
+        },
+        "desc": {
+            "en": "Kenta Hoshino transfers to Kurogane High, the roughest school in a harbour town split between seven school gangs, and on day one he decks the wrong senior. To protect Granny Fumi's ramen shop, where everyone hangs out, he fights his way up one turf at a time. Chain combos, throw enemies and grab bats, pipes and bottles as one of 3 playable brawlers. Battle across 7 turfs and 7 bosses, choose your route every run, recruit beaten rivals as assists and buy 40 dojo moves and 15 jackets with the Guts you earn.",
+            "ko": "호시노 켄타는 일곱 학교 패거리로 갈라진 항구 마을에서 가장 거친 학교, 쿠로가네 고등학교로 전학 오고, 첫날부터 건드리면 안 될 선배를 때려눕힙니다. 모두가 모이는 후미 할머니의 라멘 가게를 지키기 위해 그는 한 구역씩 싸워 올라갑니다. 플레이 가능한 싸움꾼 3명 중 하나로 콤보를 잇고, 적을 던지고, 배트, 파이프, 병을 집어 드세요. 7개 구역과 7명의 보스를 거치며 매 런마다 경로를 고르고, 쓰러뜨린 라이벌을 어시스트로 부르며, 모은 근성으로 도장 기술 40개와 재킷 15벌을 사세요.",
+            "ja": "ホシノ・ケンタは、7つの学校の不良グループに分かれた港町でいちばん荒れた学校、クロガネ高校に転校してくる。初日から、手を出してはいけない先輩を殴り倒してしまう。みんなの溜まり場であるフミばあちゃんのラーメン屋を守るため、縄張りを一つずつ勝ち上がっていく。3人の使用可能キャラから選び、コンボをつなぎ、敵を投げ、バットやパイプ、ビンを拾って戦おう。7つの縄張りと7人のボスに挑み、毎回ルートを選び、倒したライバルを助っ人に呼び、稼いだ根性で40の道場技と15着のジャケットを手に入れよう。",
+            "es": "Kenta Hoshino se cambia al colegio Kurogane, la escuela más dura de un pueblo portuario dividido entre siete pandillas escolares, y el primer día derriba al alumno mayor equivocado. Para proteger el puesto de ramen de la abuela Fumi, donde todos se reúnen, se abre paso a golpes, un territorio a la vez. Encadena combos, lanza enemigos y toma bates, tubos y botellas con uno de 3 peleadores jugables. Pelea en 7 territorios contra 7 jefes, elige tu ruta en cada partida, recluta a los rivales vencidos como apoyo y compra 40 técnicas de dojo y 15 chaquetas con el Guts que ganes.",
+            "pt-BR": "Kenta Hoshino é transferido para o Colégio Kurogane, a escola mais barra-pesada de uma cidade portuária dividida entre sete gangues escolares, e logo no primeiro dia derruba o veterano errado. Para proteger a lojinha de lámen da vovó Fumi, onde todo mundo se encontra, ele abre caminho na porrada, um território por vez. Encadeie combos, arremesse inimigos e pegue tacos, canos e garrafas com um dos 3 brigões jogáveis. Lute por 7 territórios contra 7 chefes, escolha sua rota a cada partida, chame rivais derrotados como reforço e compre 40 golpes de dojo e 15 jaquetas com o Guts que você ganhar."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/riverbankrumble",
+        "screenshots": [
+            "apps/shots/riverbank-rumble/01.jpg",
+            "apps/shots/riverbank-rumble/02.jpg",
+            "apps/shots/riverbank-rumble/03.jpg",
+            "apps/shots/riverbank-rumble/04.jpg",
+            "apps/shots/riverbank-rumble/05.jpg"
+        ]
+    },
+    {
+        "id": "nak-muay",
+        "slug": "nak-muay",
+        "icon": "apps/nak-muay.png",
+        "page": "apps/nak-muay.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Nak Muay",
+            "ko": "낙무아이",
+            "ja": "ナックムエ",
+            "es": "Nak Muay",
+            "pt-BR": "Nak Muay"
+        },
+        "tagline": {
+            "en": "Master eight limbs, train at camp and fight from Isan to Bangkok. Play offline.",
+            "ko": "여덟 개의 팔다리를 익히고, 캠프에서 훈련하고, 이산에서 방콕까지 싸우세요. 오프라인 플레이.",
+            "ja": "8つの肢体を極め、キャンプで鍛え、イサーンからバンコクまで戦い抜け。オフラインでプレイ可能。",
+            "es": "Domina las ocho extremidades, entrena en el campamento y pelea desde Isan hasta Bangkok. Juega sin conexión.",
+            "pt-BR": "Domine os oito membros, treine no camp e lute de Isan até Bangkok. Jogue offline."
+        },
+        "desc": {
+            "en": "Lek takes her injured brother's gloves to Kru Somchai's camp. Ten story fights lead from village temple fairs to Bangkok's grand stadium, where champion Dao awaits. Read the tell, check kicks, battle for the clinch and land punches, elbows, knees and teeps in real-time fights won by knockout or judges' decision. Choose one of three starting styles, learn forty techniques and face thirty fictional opponents across four tiers. Between bouts, run, work pads, spar or rest at camp, and upgrade the ring, bags, pads and kitchen.",
+            "ko": "렉은 다친 형제의 글러브를 들고 크루 솜차이의 캠프를 찾아갑니다. 열 번의 스토리 경기는 시골 사원 축제에서 시작해 챔피언 다오가 기다리는 방콕의 대형 경기장까지 이어집니다. 상대의 신호를 읽고, 킥을 막고, 클린치를 다투며, 펀치, 팔꿈치, 무릎, 팁을 꽂아 넣는 실시간 경기에서 KO나 판정승을 거두세요. 세 가지 시작 스타일 중 하나를 고르고, 기술 40가지를 배우며, 4단계에 걸친 가상의 상대 30명과 맞서세요. 경기 사이에는 캠프에서 달리기, 미트 훈련, 스파링, 휴식을 하고, 링, 샌드백, 미트, 주방을 업그레이드하세요.",
+            "ja": "レックは、怪我をした兄弟のグローブを手に、クルー・ソムチャイのキャンプへ向かう。10のストーリー戦は村の寺祭りから始まり、王者ダオが待つバンコクの大スタジアムへと続く。相手の予兆を読み、キックをカットし、首相撲を制し、パンチ、肘、膝、ティープを決めるリアルタイムの試合で、KOか判定で勝利をつかもう。3つの初期スタイルから1つを選び、40の技を覚え、4つのランクにわたる架空の対戦相手30人と戦う。試合の合間にはキャンプで走り込み、ミット打ち、スパーリング、休息をこなし、リング、サンドバッグ、ミット、キッチンを強化しよう。",
+            "es": "Lek lleva los guantes de su hermano lesionado al campamento de Kru Somchai. Diez peleas de historia van desde las ferias de templo de los pueblos hasta el gran estadio de Bangkok, donde Dao defiende el título. Lee las señales, bloquea patadas, pelea por el clinch y conecta golpes, codos, rodillas y teeps en combates en tiempo real que se ganan por nocaut o decisión de los jueces. Elige uno de tres estilos iniciales, aprende cuarenta técnicas y enfrenta a treinta rivales ficticios en cuatro niveles. Entre combates, corre, trabaja con manoplas, haz sparring o descansa en el campamento, y mejora el ring, los sacos, las manoplas y la cocina.",
+            "pt-BR": "Lek leva as luvas do irmão machucado para o camp do Kru Somchai. Dez lutas da história vão das festas de templo nas vilas até o grande estádio de Bangkok, onde Dao defende o título. Leia os sinais, bloqueie chutes, dispute o clinch e acerte socos, cotoveladas, joelhadas e teeps em lutas em tempo real vencidas por nocaute ou decisão dos juízes. Escolha um de três estilos iniciais, aprenda quarenta técnicas e enfrente trinta adversários fictícios em quatro níveis. Entre as lutas, corra, treine com aparadores, faça sparring ou descanse no camp, e melhore o ringue, os sacos, os aparadores e a cozinha."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/nakmuay",
+        "screenshots": [
+            "apps/shots/nak-muay/01.jpg",
+            "apps/shots/nak-muay/02.jpg",
+            "apps/shots/nak-muay/03.jpg",
+            "apps/shots/nak-muay/04.jpg",
+            "apps/shots/nak-muay/05.jpg"
+        ]
+    },
+    {
+        "id": "haymaker",
+        "slug": "haymaker",
+        "icon": "apps/haymaker.png",
+        "page": "apps/haymaker.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Haymaker",
+            "ko": "헤이메이커",
+            "ja": "ヘイメーカー",
+            "es": "Haymaker",
+            "pt-BR": "Haymaker"
+        },
+        "tagline": {
+            "en": "Read the tell, slip the punch and build a champion in this 3D boxing career.",
+            "ko": "상대의 신호를 읽고, 펀치를 흘려 피하며, 3D 복싱 커리어에서 챔피언을 키우세요.",
+            "ja": "予兆を読み、パンチをかわし、3Dボクシングキャリアでチャンピオンを育てよう。",
+            "es": "Lee las señales, esquiva el golpe y forja a un campeón en esta carrera de boxeo en 3D.",
+            "pt-BR": "Leia os sinais, esquive do soco e forme um campeão nesta carreira de boxe em 3D."
+        },
+        "desc": {
+            "en": "Frankie Ruiz walks into Sal's Gym with two pizzas and walks out with a trainer. His sister Nina handles the books and Sal Benedetti handles the corner as Frankie climbs the Club, Contender and Platinum circuits toward Lex Vance, a champion whose manager would rather buy the result. Watch for a dropped shoulder, slip the punch and turn the opening into a clean counter. Beat twenty story opponents, unlock ten remixed rematches, train in four timing drills and build Footwork, Chin, Power and Stamina skill trees.",
+            "ko": "프랭키 루이스는 피자 두 판을 들고 샐의 체육관에 들어갔다가 트레이너를 얻어 나옵니다. 누이 니나는 장부를, 샐 베네데티는 코너를 맡고, 프랭키는 클럽, 컨텐더, 플래티넘 서킷을 올라 결과를 돈으로 사려는 매니저를 둔 챔피언 렉스 밴스에게 다가갑니다. 내려가는 어깨를 보고, 펀치를 흘려 피하고, 빈틈을 깔끔한 카운터로 바꾸세요. 스토리 상대 20명을 꺾고, 리믹스 재대결 10번을 열고, 타이밍 훈련 4가지를 하며, 풋워크, 맷집, 파워, 스태미나 스킬 트리를 키우세요.",
+            "ja": "フランキー・ルイスはピザ2枚を持ってサルのジムに入り、トレーナーを得て出てくる。きょうだいのニーナが帳簿を、サル・ベネデッティがコーナーを受け持ち、フランキーはクラブ、コンテンダー、プラチナの各サーキットを勝ち上がり、マネージャーが勝敗を金で買おうとする王者レックス・ヴァンスを目指す。肩が下がる瞬間を見逃さず、パンチをかわし、その隙をクリーンなカウンターに変えよう。20人のストーリーの対戦相手を倒し、10のリミックス再戦を解放し、4つのタイミング練習をこなし、フットワーク、打たれ強さ、パワー、スタミナのスキルツリーを育てよう。",
+            "es": "Frankie Ruiz entra al gimnasio de Sal con dos pizzas y sale con un entrenador. Su hermana Nina lleva las cuentas y Sal Benedetti se encarga de la esquina mientras Frankie sube por los circuitos Club, Contender y Platinum rumbo a Lex Vance, un campeón cuyo mánager prefiere comprar el resultado. Fíjate cuando baja un hombro, esquiva el golpe y convierte la apertura en un contragolpe limpio. Vence a veinte rivales de la historia, desbloquea diez revanchas remezcladas, entrena con cuatro ejercicios de ritmo y desarrolla los árboles de Juego de pies, Mentón, Potencia y Resistencia.",
+            "pt-BR": "Frankie Ruiz entra na academia do Sal com duas pizzas e sai com um treinador. A irmã dele, Nina, cuida das contas e Sal Benedetti cuida do corner enquanto Frankie sobe pelos circuitos Club, Contender e Platinum até Lex Vance, um campeão cujo empresário prefere comprar o resultado. Repare quando o ombro cai, esquive do soco e transforme a brecha em um contragolpe limpo. Vença vinte adversários da história, desbloqueie dez revanches remixadas, treine com quatro exercícios de tempo e evolua as árvores de Jogo de pernas, Queixo, Potência e Fôlego."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/haymaker",
+        "screenshots": [
+            "apps/shots/haymaker/01.jpg",
+            "apps/shots/haymaker/02.jpg",
+            "apps/shots/haymaker/03.jpg",
+            "apps/shots/haymaker/04.jpg",
+            "apps/shots/haymaker/05.jpg"
+        ]
+    },
+    {
+        "id": "kayfabe",
+        "slug": "kayfabe",
+        "icon": "apps/kayfabe.png",
+        "page": "apps/kayfabe.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Kayfabe",
+            "ko": "케이페이브",
+            "ja": "ケーフェイ",
+            "es": "Kayfabe",
+            "pt-BR": "Kayfabe"
+        },
+        "tagline": {
+            "en": "Book wrestling shows, build rivalries and grow a pixel promotion. Play offline.",
+            "ko": "프로레슬링 쇼를 기획하고, 라이벌 구도를 만들고, 픽셀 단체를 키우세요. 오프라인 플레이.",
+            "ja": "プロレス興行を組み、抗争を作り、ドット絵の団体を育てよう。オフラインでプレイ可能。",
+            "es": "Arma funciones de lucha libre, crea rivalidades y haz crecer una empresa pixelada. Juega sin conexión.",
+            "pt-BR": "Monte shows de luta livre, crie rivalidades e faça crescer uma promoção em pixel art. Jogue offline."
+        },
+        "desc": {
+            "en": "Gil Moreno left you four wrestlers, a ring, a television deal with twelve weeks remaining and a pile of debt. Build a promotion from a church hall to a stadium, one Friday night at a time, while Marlene keeps the books and rival promoter Chase Montgomery eyes your talent. Book one to four matches per show, choose winners and finishes, call spots during animated pixel matches and build feuds toward a supercard payoff. Manage 64 fictional wrestlers, 12 match types, five venues and four championships across a ten-year career.",
+            "ko": "길 모레노는 레슬러 4명, 링 하나, 12주 남은 TV 계약, 그리고 산더미 같은 빚을 남겼습니다. 마를린이 장부를 맡고 라이벌 프로모터 체이스 몽고메리가 당신의 선수들을 노리는 가운데, 금요일 밤마다 쇼를 열어 교회 강당에서 스타디움까지 단체를 키우세요. 쇼마다 1~4경기를 편성하고, 승자와 결말을 정하고, 애니메이션 픽셀 경기 중 기술을 지시하며, 슈퍼카드에서 터질 대립 구도를 쌓으세요. 10년 커리어 동안 가상의 레슬러 64명, 경기 형식 12가지, 공연장 5곳, 챔피언십 4개를 관리하세요.",
+            "ja": "ギル・モレノが残したのは、レスラー4人、リング1つ、残り12週のテレビ契約、そして山のような借金。マーリーンが帳簿を管理し、ライバルのプロモーター、チェイス・モンゴメリーが選手を狙うなか、金曜の夜を一つずつ重ねて、教会のホールからスタジアムへと団体を大きくしよう。1大会に1から4試合を組み、勝者と決着を決め、ドット絵の試合中にスポットを指示し、スーパーカードでの決着へ向けて抗争を育てる。10年のキャリアで、架空のレスラー64人、12の試合形式、5つの会場、4つのチャンピオンベルトを管理しよう。",
+            "es": "Gil Moreno te dejó cuatro luchadores, un ring, un contrato de televisión con doce semanas restantes y un montón de deudas. Haz crecer una empresa desde un salón parroquial hasta un estadio, un viernes por la noche a la vez, mientras Marlene lleva las cuentas y el promotor rival Chase Montgomery le echa el ojo a tu talento. Programa de una a cuatro luchas por función, elige ganadores y finales, marca los momentos clave durante las luchas animadas en pixel art y construye rivalidades que culminen en una gran función. Administra 64 luchadores ficticios, 12 tipos de lucha, cinco recintos y cuatro campeonatos a lo largo de una carrera de diez años.",
+            "pt-BR": "Gil Moreno deixou para você quatro lutadores, um ringue, um contrato de TV com doze semanas restantes e uma pilha de dívidas. Faça uma promoção crescer de um salão paroquial até um estádio, uma sexta-feira à noite por vez, enquanto Marlene cuida das contas e o promotor rival Chase Montgomery fica de olho nos seus talentos. Escale de uma a quatro lutas por show, escolha vencedores e finais, comande os momentos marcantes durante as lutas animadas em pixel art e construa rivalidades até o grande evento. Gerencie 64 lutadores fictícios, 12 tipos de luta, cinco arenas e quatro cinturões ao longo de uma carreira de dez anos."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/kayfabe",
+        "screenshots": [
+            "apps/shots/kayfabe/01.jpg",
+            "apps/shots/kayfabe/02.jpg",
+            "apps/shots/kayfabe/03.jpg",
+            "apps/shots/kayfabe/04.jpg",
+            "apps/shots/kayfabe/05.jpg"
+        ]
+    },
+    {
+        "id": "rikishi",
+        "slug": "rikishi",
+        "icon": "apps/rikishi.png",
+        "page": "apps/rikishi.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Rikishi",
+            "ko": "리키시",
+            "ja": "力士",
+            "es": "Rikishi",
+            "pt-BR": "Rikishi"
+        },
+        "tagline": {
+            "en": "A sumo game and career sim: train, fight six tournaments a year, reach Yokozuna.",
+            "ko": "스모 게임이자 커리어 시뮬레이션. 훈련하고, 1년에 여섯 번의 대회에서 싸우고, 요코즈나에 오르세요.",
+            "ja": "相撲ゲームとキャリアシム。稽古を積み、年6場所を戦い、横綱を目指せ。",
+            "es": "Un juego de sumo y simulador de carrera: entrena, compite en seis torneos al año y llega a Yokozuna.",
+            "pt-BR": "Um jogo de sumô e simulador de carreira: treine, lute em seis torneios por ano e chegue a Yokozuna."
+        },
+        "desc": {
+            "en": "Taro Kudo, 15, is a fisherman's son from a tiny island who has never lost a beach bout. The last master of Kaminari stable scouts him, but the stable has three wrestlers, a leaking roof and no salaried wrestler in twenty years. If it doesn't produce one within five years, it is folded into mighty Tokai, home of Taro's giant rival Otsuchi. Plan every training day, fight six tournaments a year on a ranking sheet of 620 wrestlers across 6 divisions, collect all 82 winning techniques and climb from Jonokuchi to Yokozuna.",
+            "ko": "15살 쿠도 타로는 작은 섬 어부의 아들로, 해변 시합에서 한 번도 진 적이 없습니다. 카미나리 도장의 마지막 스승이 그를 스카우트하지만, 도장에는 선수 3명과 물이 새는 지붕뿐이고, 20년 동안 급여를 받는 선수가 한 명도 나오지 않았습니다. 5년 안에 한 명도 배출하지 못하면, 도장은 타로의 거대한 라이벌 오츠치가 있는 강력한 도카이 도장에 흡수됩니다. 매일의 훈련을 계획하고, 6개 등급 620명이 오른 순위표에서 1년에 6번의 대회를 치르며, 결정 기술 82개를 모두 모으고, 조노쿠치에서 요코즈나까지 올라가세요.",
+            "ja": "15歳のクドウ・タロウは小さな島の漁師の息子で、浜の相撲では一度も負けたことがない。カミナリ部屋の最後の親方が彼をスカウトするが、部屋には力士が3人、雨漏りする屋根、そして20年間関取が一人もいない。5年以内に関取を出せなければ、部屋はタロウの巨漢のライバル、オオツチを擁する名門トウカイ部屋に吸収されてしまう。毎日の稽古を計画し、6つの階級に620人が並ぶ番付で年6場所を戦い、82の決まり手をすべて集め、序ノ口から横綱を目指そう。",
+            "es": "Taro Kudo, de 15 años, es hijo de un pescador de una isla diminuta y nunca ha perdido un combate en la playa. El último maestro del establo Kaminari lo recluta, pero el establo tiene tres luchadores, un techo con goteras y ningún luchador asalariado en veinte años. Si no forma uno en cinco años, será absorbido por el poderoso Tokai, hogar de Otsuchi, el gigante rival de Taro. Planea cada día de entrenamiento, compite en seis torneos al año en una clasificación de 620 luchadores en 6 divisiones, reúne las 82 técnicas ganadoras y sube de Jonokuchi a Yokozuna.",
+            "pt-BR": "Taro Kudo, de 15 anos, é filho de um pescador de uma ilha minúscula e nunca perdeu uma luta na praia. O último mestre do estábulo Kaminari o recruta, mas o estábulo tem três lutadores, um telhado com goteiras e nenhum lutador assalariado em vinte anos. Se não formar um em cinco anos, será absorvido pelo poderoso Tokai, casa de Otsuchi, o rival gigante de Taro. Planeje cada dia de treino, dispute seis torneios por ano em um ranking de 620 lutadores em 6 divisões, colecione as 82 técnicas de vitória e suba de Jonokuchi a Yokozuna."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/rikishi",
+        "screenshots": [
+            "apps/shots/rikishi/01.jpg",
+            "apps/shots/rikishi/02.jpg",
+            "apps/shots/rikishi/03.jpg",
+            "apps/shots/rikishi/04.jpg",
+            "apps/shots/rikishi/05.jpg"
+        ]
+    },
+    {
+        "id": "moonless",
+        "slug": "moonless",
+        "icon": "apps/moonless.png",
+        "page": "apps/moonless.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Moonless",
+            "ko": "문리스",
+            "ja": "ムーンレス",
+            "es": "Moonless",
+            "pt-BR": "Moonless"
+        },
+        "tagline": {
+            "en": "Turn-based ninja stealth puzzles. Move when they look away.",
+            "ko": "턴제 닌자 잠입 퍼즐. 적이 눈을 돌릴 때 움직이세요.",
+            "ja": "ターン制の忍者ステルスパズル。敵が目をそらした隙に動け。",
+            "es": "Rompecabezas de sigilo ninja por turnos. Muévete cuando miren hacia otro lado.",
+            "pt-BR": "Quebra-cabeças de furtividade ninja por turnos. Mova-se quando eles desviarem o olhar."
+        },
+        "desc": {
+            "en": "The night the Shogun's envoy died, the Hidden Plum clan burned for it. Aki, its last ninja, escapes with her blind master's map and a fox spirit only she can see. Every time you move, the guards move, so read their sight cones, slip through the gaps and reach the exit unseen. Cross 80 maps in 5 provinces, face 5 boss duels, use 12 tools and outwit 10 kinds of watchers. Each map has three stars to earn and a hidden scroll to find, plus a new daily map.",
+            "ko": "쇼군의 사절이 죽은 밤, 그 대가로 숨은 매화 일족이 불탔습니다. 일족의 마지막 닌자 아키는 눈먼 스승의 지도와 자신에게만 보이는 여우 정령을 데리고 탈출합니다. 내가 움직일 때마다 경비병도 움직이니, 시야를 읽고 빈틈으로 빠져나가 들키지 않고 출구에 닿으세요. 5개 지방의 맵 80개를 지나고, 보스 결투 5번을 치르고, 도구 12가지를 쓰며, 10종의 감시자를 따돌리세요. 맵마다 별 3개와 숨겨진 두루마리가 있고, 매일 새로운 맵도 열립니다.",
+            "ja": "将軍の使者が死んだ夜、その報いとして隠れ梅の一族は焼き払われた。一族最後の忍者アキは、盲目の師の地図と、自分にしか見えない狐の精霊を連れて逃げ延びる。自分が動くたびに見張りも動く。視界を読み、隙間をすり抜け、見つからずに出口へたどり着こう。5つの国にまたがる80のマップを越え、5つのボス戦に挑み、12の道具を使いこなし、10種類の見張りを出し抜こう。どのマップにも3つの星と隠された巻物があり、毎日新しいマップも登場する。",
+            "es": "La noche en que murió el enviado del Shogun, el clan de la Ciruela Oculta ardió por ello. Aki, su última ninja, escapa con el mapa de su maestro ciego y un espíritu zorro que solo ella puede ver. Cada vez que te mueves, los guardias se mueven, así que lee sus conos de visión, cuélate por los huecos y llega a la salida sin ser vista. Recorre 80 mapas en 5 provincias, enfrenta 5 duelos contra jefes, usa 12 herramientas y burla a 10 tipos de vigilantes. Cada mapa tiene tres estrellas que ganar y un pergamino oculto, además de un mapa nuevo cada día.",
+            "pt-BR": "Na noite em que o enviado do Shogun morreu, o clã da Ameixa Oculta foi queimado por isso. Aki, sua última ninja, foge com o mapa do mestre cego e um espírito raposa que só ela consegue ver. Cada vez que você se move, os guardas se movem, então leia os cones de visão, passe pelas brechas e chegue à saída sem ser vista. Percorra 80 mapas em 5 províncias, enfrente 5 duelos contra chefes, use 12 ferramentas e engane 10 tipos de vigias. Cada mapa tem três estrelas para conquistar e um pergaminho escondido, além de um mapa novo todo dia."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/moonless",
+        "screenshots": [
+            "apps/shots/moonless/01.jpg",
+            "apps/shots/moonless/02.jpg",
+            "apps/shots/moonless/03.jpg",
+            "apps/shots/moonless/04.jpg",
+            "apps/shots/moonless/05.jpg"
+        ]
+    },
+    {
+        "id": "pulse-pilots",
+        "slug": "pulse-pilots",
+        "icon": "apps/pulse-pilots.png",
+        "page": "apps/pulse-pilots.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Pulse Pilots",
+            "ko": "펄스 파일럿",
+            "ja": "パルスパイロット",
+            "es": "Pulse Pilots",
+            "pt-BR": "Pulse Pilots"
+        },
+        "tagline": {
+            "en": "Hit, hold and slide through original music in an anime rhythm flight game.",
+            "ko": "애니메이션 리듬 비행 게임에서 오리지널 음악에 맞춰 치고, 누르고, 미끄러지세요.",
+            "ja": "アニメ風リズムフライトゲームで、オリジナル曲に合わせてヒット、ホールド、スライド。",
+            "es": "Golpea, mantén y desliza al ritmo de música original en un juego de vuelo y ritmo anime.",
+            "pt-BR": "Acerte, segure e deslize ao som de músicas originais em um jogo de ritmo e voo em estilo anime."
+        },
+        "desc": {
+            "en": "Pulse Pilots turns a flight path into a musical score. Echo rides bright space lanes to an original instrumental soundtrack while you read the next note, hit it on the beat and hold your focus as the song builds. Play twelve tracks, each with Easy, Normal and Expert charts: hit notes, hold gold beams and slide across lanes, then charge Sync for a six-second Sync Burst. Pick from six ship loadouts and twelve modules, fly through eight sky themes, and unlock songs in the campaign or play the daily chart and endless mode.",
+            "ko": "펄스 파일럿은 비행 경로를 악보로 바꿉니다. 에코가 오리지널 연주곡에 맞춰 빛나는 우주 레인을 달리는 동안, 다음 노트를 읽고 박자에 맞춰 치며 곡이 고조될수록 집중력을 유지하세요. 이지, 노멀, 엑스퍼트 채보가 있는 12곡에서 노트를 치고, 금빛 빔을 누르고, 레인을 넘나들며 미끄러진 뒤, 싱크를 모아 6초간의 싱크 버스트를 터뜨리세요. 기체 로드아웃 6개와 모듈 12개 중에서 고르고, 8가지 하늘 테마를 날며, 캠페인에서 곡을 해금하거나 데일리 채보와 엔드리스 모드를 즐기세요.",
+            "ja": "パルスパイロットは、飛行ルートを楽譜に変える。エコーがオリジナルのインスト曲に乗って輝く宇宙のレーンを駆けるあいだ、次のノーツを読み、ビートに合わせて叩き、曲の盛り上がりに合わせて集中を保とう。イージー、ノーマル、エキスパートの譜面がある12曲で、ノーツを叩き、金色のビームをホールドし、レーンをまたいでスライドし、シンクをためて6秒間のシンクバーストを放つ。6つの機体ロードアウトと12のモジュールから選び、8つの空のテーマを飛び、キャンペーンで曲を解放するか、デイリー譜面やエンドレスモードに挑もう。",
+            "es": "Pulse Pilots convierte una ruta de vuelo en una partitura. Echo recorre brillantes carriles espaciales al ritmo de una banda sonora instrumental original mientras tú lees la siguiente nota, la golpeas a tiempo y mantienes la concentración a medida que la canción crece. Toca doce temas, cada uno con niveles Fácil, Normal y Experto: golpea notas, mantén los rayos dorados y deslízate entre carriles, luego carga Sync para un Sync Burst de seis segundos. Elige entre seis configuraciones de nave y doce módulos, vuela por ocho temas de cielo y desbloquea canciones en la campaña o juega el desafío diario y el modo infinito.",
+            "pt-BR": "Pulse Pilots transforma uma rota de voo em partitura. Echo percorre faixas espaciais brilhantes ao som de uma trilha instrumental original enquanto você lê a próxima nota, acerta no tempo e mantém o foco conforme a música cresce. Toque doze músicas, cada uma com níveis Fácil, Normal e Expert: acerte notas, segure feixes dourados e deslize entre as pistas, depois carregue o Sync para um Sync Burst de seis segundos. Escolha entre seis configurações de nave e doze módulos, voe por oito temas de céu e desbloqueie músicas na campanha ou jogue o desafio diário e o modo infinito."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/pulsepilots",
+        "screenshots": [
+            "apps/shots/pulse-pilots/01.jpg",
+            "apps/shots/pulse-pilots/02.jpg",
+            "apps/shots/pulse-pilots/03.jpg",
+            "apps/shots/pulse-pilots/04.jpg",
+            "apps/shots/pulse-pilots/05.jpg"
+        ]
+    },
+    {
+        "id": "tidebound-tactics",
+        "slug": "tidebound-tactics",
+        "icon": "apps/tidebound-tactics.png",
+        "page": "apps/tidebound-tactics.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Tidebound Tactics",
+            "ko": "타이드바운드 택틱스",
+            "ja": "タイドバウンド・タクティクス",
+            "es": "Tidebound Tactics",
+            "pt-BR": "Tidebound Tactics"
+        },
+        "tagline": {
+            "en": "Aim clever cannon ricochets and command an anime fleet in naval strategy.",
+            "ko": "영리한 포탄 도탄을 노리고, 해전 전략 속 애니메이션 함대를 지휘하세요.",
+            "ja": "巧みな跳弾を狙い、アニメ風の艦隊を指揮する海戦ストラテジー。",
+            "es": "Apunta ingeniosos rebotes de cañón y comanda una flota anime en esta estrategia naval.",
+            "pt-BR": "Mire ricochetes de canhão inteligentes e comande uma frota anime em estratégia naval."
+        },
+        "desc": {
+            "en": "Tidebound Tactics is a turn-based naval strategy game where captain Marin leads a small fleet through tight island battles. Move either of your two ships, aim and fire, banking shots off stone barriers while managing wind and currents. The shot preview uses the same simulation as the cannonball, and bank shots hit harder. Pick from eight hulls and six captains, draft from 20 modules after each win and switch between four ammunition types. Clear 24 campaign passages with five boss fleets, then try the daily expedition or endless battles.",
+            "ko": "타이드바운드 택틱스는 마린 선장이 작은 함대를 이끌고 좁은 섬 사이의 전투를 헤쳐 나가는 턴제 해전 전략 게임입니다. 두 척의 배 중 하나를 움직여 조준하고 발사하며, 바람과 해류를 계산해 돌 방벽에 포탄을 튕기세요. 사격 미리보기는 실제 포탄과 같은 시뮬레이션을 쓰고, 튕겨 맞힌 사격은 더 강하게 들어갑니다. 선체 8종과 선장 6명 중에서 고르고, 승리할 때마다 모듈 20개 중에서 드래프트하며, 탄약 4종을 바꿔 쓰세요. 보스 함대 5개가 있는 캠페인 항로 24개를 돌파한 뒤, 데일리 원정이나 엔드리스 전투에 도전하세요.",
+            "ja": "タイドバウンド・タクティクスは、マリン船長が小さな艦隊を率いて島々の狭い海域を戦い抜くターン制の海戦ストラテジー。2隻のどちらかを動かし、狙いを定めて撃つ。風と潮流を読み、石の障壁に砲弾を跳ね返らせよう。弾道プレビューは実際の砲弾と同じシミュレーションを使い、跳弾は威力が上がる。8種の船体と6人の船長から選び、勝利のたびに20のモジュールからドラフトし、4種類の弾薬を切り替えて戦う。5つのボス艦隊が待つ24のキャンペーン航路を突破したら、デイリー遠征やエンドレスの戦いに挑もう。",
+            "es": "Tidebound Tactics es un juego de estrategia naval por turnos en el que Marin guía una pequeña flota en reñidas batallas entre islas. Mueve cualquiera de tus dos barcos, apunta y dispara, haciendo rebotar los tiros en barreras de piedra mientras controlas el viento y las corrientes. La vista previa del disparo usa la misma simulación que la bala de cañón, y los rebotes pegan más fuerte. Elige entre ocho cascos y seis capitanes, escoge entre 20 módulos tras cada victoria y alterna cuatro tipos de munición. Supera 24 travesías de campaña con cinco flotas jefe y luego prueba la expedición diaria o las batallas infinitas.",
+            "pt-BR": "Tidebound Tactics é um jogo de estratégia naval por turnos em que Marin guia uma pequena frota em batalhas apertadas entre ilhas. Mova qualquer um dos seus dois navios, mire e atire, ricocheteando os tiros em barreiras de pedra enquanto lida com o vento e as correntes. A prévia do tiro usa a mesma simulação da bala de canhão, e os ricochetes acertam com mais força. Escolha entre oito cascos e seis capitães, selecione entre 20 módulos após cada vitória e alterne quatro tipos de munição. Vença 24 travessias da campanha com cinco frotas chefe e depois encare a expedição diária ou as batalhas infinitas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/tideboundtactics",
+        "screenshots": [
+            "apps/shots/tidebound-tactics/01.jpg",
+            "apps/shots/tidebound-tactics/02.jpg",
+            "apps/shots/tidebound-tactics/03.jpg",
+            "apps/shots/tidebound-tactics/04.jpg",
+            "apps/shots/tidebound-tactics/05.jpg"
+        ]
+    },
+    {
+        "id": "rift-racket",
+        "slug": "rift-racket",
+        "icon": "apps/rift-racket.png",
+        "page": "apps/rift-racket.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Rift Racket",
+            "ko": "리프트 라켓",
+            "ja": "リフトラケット",
+            "es": "Rift Racket",
+            "pt-BR": "Rift Racket"
+        },
+        "tagline": {
+            "en": "Charge anime tennis shots, bend rallies through portals and win the cup.",
+            "ko": "애니메이션 테니스 샷을 모아 치고, 포털로 랠리를 꺾어, 우승컵을 거머쥐세요.",
+            "ja": "アニメ風テニスのショットをチャージし、ポータルでラリーを曲げ、カップを勝ち取れ。",
+            "es": "Carga tiros de tenis anime, desvía peloteos a través de portales y gana la copa.",
+            "pt-BR": "Carregue golpes de tênis anime, desvie ralis por portais e conquiste a taça."
+        },
+        "desc": {
+            "en": "Rift Racket is a single-player anime racket sports game where Niko turns timing, shot angles and paired portals into fast tactical rallies. Aim for the open court or send the ball through a rift, mixing drives, spin shots and smashes while managing stamina. Six court themes bring narrow boundaries, wind and moving portals, and eight rival styles change every match in a first-to-five campaign cup. Choose from six rackets, draft perks across six families, train with 18 practice drills, and play the daily cup or endless mode.",
+            "ko": "리프트 라켓은 니코가 타이밍, 샷 각도, 짝을 이룬 포털로 빠른 전술 랠리를 펼치는 1인용 애니메이션 라켓 스포츠 게임입니다. 빈 코트를 노리거나 공을 균열 속으로 보내고, 스태미나를 관리하며 드라이브, 스핀 샷, 스매시를 섞어 치세요. 6가지 코트 테마에는 좁은 경계선, 바람, 움직이는 포털이 있고, 5점을 먼저 따는 캠페인 컵에서는 8가지 라이벌 스타일이 매 경기를 바꿉니다. 라켓 6개 중에서 고르고, 6개 계열의 특전을 드래프트하며, 연습 드릴 18개로 훈련하고, 데일리 컵이나 엔드리스 모드를 즐기세요.",
+            "ja": "リフトラケットは、ニコがタイミング、ショットの角度、対になったポータルを使ってスピーディーな戦術ラリーを繰り広げる、1人用のアニメ風ラケットスポーツゲーム。空いたコートを狙うか、ボールを裂け目に送り込み、スタミナを管理しながらドライブ、スピンショット、スマッシュを打ち分けよう。6つのコートテーマには狭い境界線、風、動くポータルがあり、5点先取のキャンペーンカップでは8つのライバルスタイルが試合ごとに展開を変える。6本のラケットから選び、6系統のパークをドラフトし、18の練習ドリルで鍛え、デイリーカップやエンドレスモードに挑もう。",
+            "es": "Rift Racket es un juego de deportes de raqueta anime para un jugador en el que Niko convierte el ritmo, los ángulos de tiro y los portales enlazados en peloteos rápidos y tácticos. Apunta a la cancha libre o manda la pelota por una grieta, combinando drives, tiros con efecto y remates mientras controlas la resistencia. Seis temas de cancha traen límites estrechos, viento y portales móviles, y ocho estilos de rivales cambian cada partido en una copa de campaña a cinco puntos. Elige entre seis raquetas, escoge ventajas de seis familias, entrena con 18 ejercicios de práctica y juega la copa diaria o el modo infinito.",
+            "pt-BR": "Rift Racket é um jogo de esporte de raquete em estilo anime para um jogador em que Niko transforma tempo, ângulos de batida e portais conectados em ralis rápidos e táticos. Mire na quadra aberta ou mande a bola por uma fenda, misturando drives, golpes com efeito e smashes enquanto controla o fôlego. Seis temas de quadra trazem limites estreitos, vento e portais em movimento, e oito estilos de rivais mudam cada partida em uma copa de campanha de cinco pontos. Escolha entre seis raquetes, selecione vantagens de seis famílias, treine com 18 exercícios e jogue a copa diária ou o modo infinito."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/riftracket",
+        "screenshots": [
+            "apps/shots/rift-racket/01.jpg",
+            "apps/shots/rift-racket/02.jpg",
+            "apps/shots/rift-racket/03.jpg",
+            "apps/shots/rift-racket/04.jpg",
+            "apps/shots/rift-racket/05.jpg"
+        ]
+    },
+    {
+        "id": "starfall-sync",
+        "slug": "starfall-sync",
+        "icon": "apps/starfall-sync.png",
+        "page": "apps/starfall-sync.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Starfall Sync",
+            "ko": "스타폴 싱크",
+            "ja": "スターフォール・シンク",
+            "es": "Starfall Sync",
+            "pt-BR": "Starfall Sync"
+        },
+        "tagline": {
+            "en": "Dodge anime bullet storms, graze for power and unleash your Sync Burst.",
+            "ko": "애니메이션 탄막 폭풍을 피하고, 그레이즈로 힘을 모아, 싱크 버스트를 터뜨리세요.",
+            "ja": "アニメ風の弾幕をかわし、グレイズで力をため、シンクバーストを解き放て。",
+            "es": "Esquiva tormentas de balas anime, roza los disparos para ganar poder y desata tu Sync Burst.",
+            "pt-BR": "Desvie de tempestades de balas anime, raspe nos tiros para ganar poder e solte seu Sync Burst."
+        },
+        "desc": {
+            "en": "Starfall Sync is an anime bullet hell space shooter starring Sol, a pilot who turns close calls into power. Your craft fires on its own while you steer through the storm, and only a tiny white core can be hit. Graze bullet patterns to build Sync, switch Focus to tighten your spread and release a screen-clearing Sync Burst. After every wave, draft one of three modules from ten families, and strengthen your next launch with six permanent upgrades. Fly 24 campaign encounters in six sectors against eight boss pattern families, then try the daily run and endless waves.",
+            "ko": "스타폴 싱크는 아슬아슬한 순간을 힘으로 바꾸는 파일럿 솔이 주인공인 애니메이션 탄막 우주 슈팅 게임입니다. 기체는 자동으로 사격하고, 당신은 탄막 사이를 조종하며, 피격 판정은 작고 하얀 코어뿐입니다. 탄막을 스쳐 싱크를 모으고, 포커스로 전환해 탄을 좁히고, 화면을 쓸어버리는 싱크 버스트를 터뜨리세요. 웨이브가 끝날 때마다 10개 계열에서 나온 모듈 3개 중 하나를 드래프트하고, 영구 업그레이드 6개로 다음 출격을 강화하세요. 6개 섹터의 캠페인 교전 24개에서 보스 패턴 계열 8개와 맞선 뒤, 데일리 런과 엔드리스 웨이브에 도전하세요.",
+            "ja": "スターフォール・シンクは、ぎりぎりの回避を力に変えるパイロット、ソルが主人公のアニメ風弾幕シューティング。機体は自動で射撃し、あなたは弾幕の中を操縦する。当たり判定は小さな白いコアだけ。弾幕をグレイズしてシンクをため、フォーカスに切り替えて弾を絞り、画面を一掃するシンクバーストを放とう。ウェーブごとに10系統から出る3つのモジュールのうち1つをドラフトし、6つの永続アップグレードで次の出撃を強化する。6つのセクターにある24のキャンペーン戦で8系統のボスパターンに挑み、デイリーランやエンドレスウェーブにも挑戦しよう。",
+            "es": "Starfall Sync es un shooter espacial bullet hell de estilo anime protagonizado por Sol, que convierte cada situación al límite en poder. Tu nave dispara sola mientras la guías a través de la tormenta, y solo un pequeño núcleo blanco puede recibir daño. Roza los patrones de balas para cargar Sync, cambia a Focus para cerrar tu dispersión y libera un Sync Burst que limpia la pantalla. Después de cada oleada, elige uno de tres módulos de diez familias y refuerza tu próximo despegue con seis mejoras permanentes. Vuela 24 encuentros de campaña en seis sectores contra ocho familias de patrones de jefes, y luego prueba la partida diaria y las oleadas infinitas.",
+            "pt-BR": "Starfall Sync é um shooter espacial bullet hell em estilo anime estrelado por Sol, que transforma cada situação no limite em poder. Sua nave atira sozinha enquanto você a guia pela tempestade, e só um pequeno núcleo branco pode ser atingido. Raspe nos padrões de balas para carregar o Sync, mude para Focus para fechar a dispersão e solte um Sync Burst que limpa a tela. Depois de cada onda, escolha um de três módulos de dez famílias e fortaleça sua próxima decolagem com seis melhorias permanentes. Voe por 24 encontros da campanha em seis setores contra oito famílias de padrões de chefes e depois encare a partida diária e as ondas infinitas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/starfallsync",
+        "screenshots": [
+            "apps/shots/starfall-sync/01.jpg",
+            "apps/shots/starfall-sync/02.jpg",
+            "apps/shots/starfall-sync/03.jpg",
+            "apps/shots/starfall-sync/04.jpg",
+            "apps/shots/starfall-sync/05.jpg"
+        ]
+    },
+    {
+        "id": "ember-kitchen",
+        "slug": "ember-kitchen",
+        "icon": "apps/ember-kitchen.png",
+        "page": "apps/ember-kitchen.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Ember Kitchen",
+            "ko": "엠버 키친",
+            "ja": "エンバーキッチン",
+            "es": "Ember Kitchen",
+            "pt-BR": "Ember Kitchen"
+        },
+        "tagline": {
+            "en": "Cook anime comfort food, build your kitchen and chain a perfect service.",
+            "ko": "애니메이션 감성의 위로 음식을 만들고, 주방을 꾸리고, 완벽한 서비스를 이어 가세요.",
+            "ja": "アニメ風の心温まる料理を作り、キッチンを整え、完璧な営業をつなげよう。",
+            "es": "Cocina comida reconfortante anime, arma tu cocina y encadena un servicio perfecto.",
+            "pt-BR": "Prepare comidinhas reconfortantes em estilo anime, monte sua cozinha e encadeie um serviço perfeito."
+        },
+        "desc": {
+            "en": "Ember Kitchen is an anime cooking and time-management game starring Akari, a chef who turns a smart counter layout into a smooth dinner rush. Prepare ingredients, manage heat and serve before patience runs out. Rearrange nine counters between services, since station adjacency can speed preparation, improve quality or cool nearby work. Master 30 named recipes with three- or four-step station chains, balance three simultaneous orders and chain clean dishes into combos and Ember Fever. Play 20 campaign services across five chapters, then return for the daily challenge or an endless shift.",
+            "ko": "엠버 키친은 영리한 조리대 배치로 저녁 러시를 매끄럽게 풀어내는 셰프 아카리가 주인공인 애니메이션 요리 및 시간 관리 게임입니다. 재료를 손질하고, 불 조절을 하며, 손님의 인내심이 바닥나기 전에 요리를 내세요. 영업 사이사이에 조리대 9개를 재배치하세요. 스테이션끼리의 배치에 따라 준비가 빨라지거나, 품질이 좋아지거나, 옆 작업이 식을 수 있습니다. 3~4단계 스테이션 과정을 거치는 레시피 30개를 익히고, 동시에 들어오는 주문 3개를 조율하며, 깔끔한 요리를 이어 콤보와 엠버 피버를 일으키세요. 5개 챕터의 캠페인 영업 20개를 마친 뒤, 데일리 챌린지나 엔드리스 근무에 도전하세요.",
+            "ja": "エンバーキッチンは、カウンターの賢い配置でディナーラッシュをスムーズにさばくシェフ、アカリが主人公のアニメ風料理&タイムマネジメントゲーム。食材を下ごしらえし、火加減を管理し、お客さんの我慢が切れる前に料理を出そう。営業の合間に9つのカウンターを並べ替える。ステーションの隣り合わせ方で、調理が速くなったり、品質が上がったり、隣の作業が冷めたりする。3から4工程のステーションを経る30のレシピを極め、同時に入る3つの注文をさばき、きれいな料理をつなげてコンボとエンバーフィーバーを起こそう。5つの章にわたる20のキャンペーン営業を終えたら、デイリーチャレンジやエンドレスシフトにも挑戦しよう。",
+            "es": "Ember Kitchen es un juego de cocina y gestión del tiempo de estilo anime protagonizado por Akari, chef que convierte una buena distribución de mostradores en una hora pico de cena sin tropiezos. Prepara ingredientes, controla el fuego y sirve antes de que se acabe la paciencia. Reacomoda nueve mostradores entre servicios, porque la cercanía entre estaciones puede acelerar la preparación, mejorar la calidad o enfriar el trabajo de al lado. Domina 30 recetas con cadenas de tres o cuatro pasos, equilibra tres pedidos a la vez y encadena platos limpios en combos y Ember Fever. Juega 20 servicios de campaña en cinco capítulos y vuelve por el desafío diario o un turno infinito.",
+            "pt-BR": "Ember Kitchen é um jogo de culinária e gerenciamento de tempo em estilo anime estrelado por Akari, chef que transforma um bom arranjo de balcões em um jantar movimentado sem tropeços. Prepare ingredientes, controle o fogo e sirva antes que a paciência acabe. Reorganize nove balcões entre os serviços, porque a vizinhança entre estações pode acelerar o preparo, melhorar a qualidade ou esfriar o trabalho ao lado. Domine 30 receitas com cadeias de três ou quatro etapas, equilibre três pedidos ao mesmo tempo e encadeie pratos perfeitos em combos e Ember Fever. Jogue 20 serviços da campanha em cinco capítulos e volte para o desafio diário ou um turno infinito."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/emberkitchen",
+        "screenshots": [
+            "apps/shots/ember-kitchen/01.jpg",
+            "apps/shots/ember-kitchen/02.jpg",
+            "apps/shots/ember-kitchen/03.jpg",
+            "apps/shots/ember-kitchen/04.jpg",
+            "apps/shots/ember-kitchen/05.jpg"
+        ]
+    },
+    {
+        "id": "sigil-shuffle",
+        "slug": "sigil-shuffle",
+        "icon": "apps/sigil-shuffle.png",
+        "page": "apps/sigil-shuffle.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Sigil Shuffle",
+            "ko": "시길 셔플",
+            "ja": "シジル・シャッフル",
+            "es": "Sigil Shuffle",
+            "pt-BR": "Sigil Shuffle"
+        },
+        "tagline": {
+            "en": "Build an anime spell deck, reposition foes and chain powerful sigil reactions.",
+            "ko": "애니메이션 주문 덱을 만들고, 적의 위치를 바꾸고, 강력한 인장 반응을 연쇄하세요.",
+            "ja": "アニメ風の呪文デッキを組み、敵の位置を動かし、強力な印の反応を連鎖させよう。",
+            "es": "Arma un mazo de hechizos anime, reposiciona enemigos y encadena poderosas reacciones de sigilos.",
+            "pt-BR": "Monte um baralho de feitiços anime, reposicione inimigos e encadeie poderosas reações de sigilos."
+        },
+        "desc": {
+            "en": "Sigil Shuffle is an anime deckbuilding roguelike where Lune uses movement cards, enemy intent and linked sigils to turn a compact spell deck into a powerful plan. Play cards onto a five-by-five battlefield, read the red intent tiles, then shift enemies, line up piercing attacks and leave runes for the next reaction. Mix three schools, Ember, Tide and Astral, across 90 card variants, and collect relics across 12 effects and three tiers. Climb 30 campaign floors past six guardians, then try the daily tower or endless ascension.",
+            "ko": "시길 셔플은 루네가 이동 카드, 적의 의도, 연결된 인장을 활용해 작은 주문 덱을 강력한 계획으로 바꾸는 애니메이션 덱빌딩 로그라이크입니다. 5x5 전장에 카드를 놓고, 붉은 의도 타일을 읽은 다음, 적을 옮기고, 관통 공격을 정렬하고, 다음 반응을 위해 룬을 남기세요. 엠버, 타이드, 아스트랄 세 학파를 90가지 카드 변형으로 섞고, 12가지 효과와 3단계 등급의 유물을 모으세요. 수호자 6명을 지나 캠페인 30층을 오른 뒤, 데일리 탑이나 엔드리스 승천에 도전하세요.",
+            "ja": "シジル・シャッフルは、ルーネが移動カード、敵の行動予告、つながった印を使い、小さな呪文デッキを強力な作戦に変えるアニメ風デッキ構築ローグライク。5x5の戦場にカードを置き、赤い予告タイルを読んでから、敵を動かし、貫通攻撃の射線をそろえ、次の反応のためにルーンを残そう。エンバー、タイド、アストラルの3つの系統を90種類のカードバリエーションで組み合わせ、12の効果と3つのランクのレリックを集める。6体の守護者を越えて30階のキャンペーンを登ったら、デイリータワーやエンドレスの昇塔に挑もう。",
+            "es": "Sigil Shuffle es un roguelike de construcción de mazos de estilo anime en el que Lune usa cartas de movimiento, la intención enemiga y sigilos enlazados para convertir un mazo compacto de hechizos en un plan poderoso. Juega cartas en un campo de batalla de cinco por cinco, lee las casillas rojas de intención, y luego mueve enemigos, alinea ataques perforantes y deja runas para la siguiente reacción. Combina tres escuelas, Ember, Tide y Astral, en 90 variantes de cartas, y reúne reliquias de 12 efectos y tres niveles. Sube 30 pisos de campaña pasando a seis guardianes y luego prueba la torre diaria o el ascenso infinito.",
+            "pt-BR": "Sigil Shuffle é um roguelike de construção de baralho em estilo anime em que Lune usa cartas de movimento, a intenção inimiga e sigilos conectados para transformar um baralho compacto de feitiços em um plano poderoso. Jogue cartas em um campo de batalha de cinco por cinco, leia as casas vermelhas de intenção e então mova inimigos, alinhe ataques perfurantes e deixe runas para a próxima reação. Combine três escolas, Ember, Tide e Astral, em 90 variações de cartas, e colete relíquias de 12 efeitos e três níveis. Suba 30 andares da campanha passando por seis guardiões e depois encare a torre diária ou a ascensão infinita."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/sigilshuffle",
+        "screenshots": [
+            "apps/shots/sigil-shuffle/01.jpg",
+            "apps/shots/sigil-shuffle/02.jpg",
+            "apps/shots/sigil-shuffle/03.jpg",
+            "apps/shots/sigil-shuffle/04.jpg",
+            "apps/shots/sigil-shuffle/05.jpg"
+        ]
+    },
+    {
+        "id": "yokai-signal",
+        "slug": "yokai-signal",
+        "icon": "apps/yokai-signal.png",
+        "page": "apps/yokai-signal.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Yokai Signal",
+            "ko": "요괴 시그널",
+            "ja": "妖怪シグナル",
+            "es": "Yokai Signal",
+            "pt-BR": "Yokai Signal"
+        },
+        "tagline": {
+            "en": "Draw safe forest routes, match spirit powers to hazards and bring lost yokai home.",
+            "ko": "안전한 숲길을 그리고, 위험에 맞는 정령의 힘을 골라, 길 잃은 요괴를 집으로 데려가세요.",
+            "ja": "安全な森の道を描き、危険に合った精霊の力を選び、迷子の妖怪を家に帰そう。",
+            "es": "Traza rutas seguras por el bosque, usa el poder adecuado contra cada peligro y lleva a casa a los yokai perdidos.",
+            "pt-BR": "Trace rotas seguras pela floresta, combine poderes espirituais com cada perigo e leve os yokai perdidos para casa."
+        },
+        "desc": {
+            "en": "Yokai Signal is an anime route-planning puzzle game. Guide Hana the spirit ranger across a haunted forest, pair companion powers with the hazards in her way and build bonds with every creature she saves. Drag across connected lantern nodes, read the light cost and danger, then send Hana when the route is right. Flame burns brambles, Bridge crosses deep water and Light clears night shadows, while day and night change which paths are safe. Rescue 24 spirit forms across four biomes, spend crystals on 13 habitat upgrades and work through 60 campaign boards.",
+            "ko": "요괴 시그널은 애니메이션 풍 경로 계획 퍼즐 게임입니다. 정령 레인저 하나를 이끌고 귀신 들린 숲을 건너며, 길을 막는 위험에 동료의 힘을 맞추고, 구해 낸 모든 생명과 유대를 쌓으세요. 이어진 등불 노드를 따라 드래그하고, 빛 비용과 위험도를 읽은 뒤, 경로가 맞으면 하나를 출발시키세요. 불꽃은 가시덤불을 태우고, 다리는 깊은 물을 건너며, 빛은 밤의 그림자를 걷어 내고, 낮과 밤에 따라 안전한 길이 달라집니다. 4개 생태 지역에서 정령 24종을 구하고, 크리스탈로 서식지 업그레이드 13개를 하며, 캠페인 보드 60개를 풀어 나가세요.",
+            "ja": "妖怪シグナルは、アニメ風のルート計画パズルゲーム。精霊レンジャーのハナを導いて幽霊の出る森を渡り、行く手の危険に仲間の力を合わせ、助けた生き物たちと絆を深めよう。つながった灯籠のノードをなぞり、光のコストと危険度を読み、ルートが決まったらハナを送り出す。炎はイバラを焼き、橋は深い水を渡り、光は夜の影を払う。昼と夜で安全な道も変わる。4つのバイオームで24の精霊を救い、クリスタルで13の住処アップグレードを行い、60のキャンペーン盤面を攻略しよう。",
+            "es": "Yokai Signal es un juego de rompecabezas de planificación de rutas de estilo anime. Guía a Hana, guardabosques de espíritus, por un bosque embrujado, combina los poderes de sus compañeros con los peligros del camino y crea lazos con cada criatura que salva. Arrastra entre nodos de faroles conectados, revisa el costo de luz y el peligro, y envía a Hana cuando la ruta esté lista. Llama quema zarzas, Puente cruza aguas profundas y Luz disipa las sombras nocturnas, mientras el día y la noche cambian qué caminos son seguros. Rescata 24 formas de espíritu en cuatro biomas, gasta cristales en 13 mejoras de hábitat y avanza por 60 tableros de campaña.",
+            "pt-BR": "Yokai Signal é um jogo de quebra-cabeça de planejamento de rotas em estilo anime. Guie Hana, a guardiã dos espíritos, por uma floresta assombrada, combine os poderes dos companheiros com os perigos do caminho e crie laços com cada criatura que ela salva. Arraste entre nós de lanternas conectados, leia o custo de luz e o perigo e envie Hana quando a rota estiver certa. Chama queima espinheiros, Ponte atravessa águas profundas e Luz dissipa as sombras da noite, enquanto o dia e a noite mudam quais caminhos são seguros. Resgate 24 formas espirituais em quatro biomas, gaste cristais em 13 melhorias de habitat e avance por 60 tabuleiros da campanha."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/yokaisignal",
+        "screenshots": [
+            "apps/shots/yokai-signal/01.jpg",
+            "apps/shots/yokai-signal/02.jpg",
+            "apps/shots/yokai-signal/03.jpg",
+            "apps/shots/yokai-signal/04.jpg",
+            "apps/shots/yokai-signal/05.jpg"
+        ]
+    },
+    {
+        "id": "mask-protocol",
+        "slug": "mask-protocol",
+        "icon": "apps/mask-protocol.png",
+        "page": "apps/mask-protocol.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Mask Protocol",
+            "ko": "마스크 프로토콜",
+            "ja": "マスク・プロトコル",
+            "es": "Mask Protocol",
+            "pt-BR": "Mask Protocol"
+        },
+        "tagline": {
+            "en": "Plan three thieves, outsmart guards and escape in anime stealth tactics.",
+            "ko": "도둑 세 명의 움직임을 계획하고, 경비를 따돌리고, 애니메이션 잠입 전술 속에서 탈출하세요.",
+            "ja": "3人の泥棒の動きを計画し、警備を出し抜き、アニメ風ステルスタクティクスで脱出しよう。",
+            "es": "Planea a tres ladrones, burla a los guardias y escapa en esta táctica de sigilo anime.",
+            "pt-BR": "Planeje três ladrões, engane os guardas e fuja nesta tática de furtividade anime."
+        },
+        "desc": {
+            "en": "Mask Protocol is a turn-based stealth strategy game where Vera's crew plans together, moves together and escapes together. Move three thieves across a readable tactical board, preview patrol directions and vision tiles, assign gadgets and undo anything you have not executed yet. When you execute, the whole crew moves first, then the guards move and look. Six crew roles and gadgets like smoke, EMP, cloaks and decoys open new routes. Complete 18 campaign heists across three venues, grab optional gems and handle five guard behaviors, then try daily and endless operations.",
+            "ko": "마스크 프로토콜은 베라의 크루가 함께 계획하고, 함께 움직이고, 함께 탈출하는 턴제 잠입 전략 게임입니다. 한눈에 읽히는 전술 보드 위에서 도둑 3명을 움직이고, 순찰 방향과 시야 타일을 미리 보고, 장비를 배정하며, 아직 실행하지 않은 것은 무엇이든 되돌리세요. 실행하면 크루 전원이 먼저 움직이고, 그다음 경비가 움직이며 주위를 살핍니다. 크루 역할 6가지와 연막, EMP, 망토, 미끼 같은 장비가 새로운 경로를 엽니다. 3곳의 장소에서 캠페인 강도 18건을 완수하고, 선택 보석을 챙기며, 5가지 경비 행동에 대처한 뒤 데일리와 엔드리스 작전에 도전하세요.",
+            "ja": "マスク・プロトコルは、ヴェラのクルーが一緒に計画し、一緒に動き、一緒に脱出するターン制ステルスストラテジー。見やすい戦術ボード上で3人の泥棒を動かし、巡回の向きと視界タイルを確認し、ガジェットを割り当て、まだ実行していない手は何でも取り消せる。実行するとクルー全員が先に動き、その後で警備が動いて見回す。6つのクルーの役割と、煙幕、EMP、クローク、デコイなどのガジェットが新たなルートを切り開く。3つの舞台で18のキャンペーン強盗を成功させ、任意の宝石を手に入れ、5種類の警備の動きに対処したら、デイリーとエンドレスの作戦にも挑もう。",
+            "es": "Mask Protocol es un juego de estrategia y sigilo por turnos en el que el equipo de Vera planea junto, se mueve junto y escapa junto. Mueve a tres ladrones por un tablero táctico fácil de leer, revisa la dirección de las patrullas y las casillas de visión, asigna dispositivos y deshaz todo lo que aún no hayas ejecutado. Al ejecutar, todo el equipo se mueve primero y luego los guardias se mueven y miran. Seis roles de equipo y dispositivos como humo, EMP, capas y señuelos abren nuevas rutas. Completa 18 golpes de campaña en tres lugares, toma gemas opcionales y enfrenta cinco comportamientos de guardias, luego prueba operaciones diarias e infinitas.",
+            "pt-BR": "Mask Protocol é um jogo de estratégia e furtividade por turnos em que a equipe de Vera planeja junta, se move junta e foge junta. Mova três ladrões por um tabuleiro tático fácil de ler, veja a direção das patrulhas e as casas de visão, distribua equipamentos e desfaça qualquer coisa que ainda não tenha executado. Ao executar, a equipe inteira se move primeiro, e depois os guardas se movem e olham. Seis funções de equipe e equipamentos como fumaça, EMP, capas e iscas abrem novas rotas. Complete 18 roubos da campanha em três locais, pegue gemas opcionais e lide com cinco comportamentos de guarda, depois encare operações diárias e infinitas."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/maskprotocol",
+        "screenshots": [
+            "apps/shots/mask-protocol/01.jpg",
+            "apps/shots/mask-protocol/02.jpg",
+            "apps/shots/mask-protocol/03.jpg",
+            "apps/shots/mask-protocol/04.jpg",
+            "apps/shots/mask-protocol/05.jpg"
+        ]
+    },
+    {
+        "id": "neon-relay",
+        "slug": "neon-relay",
+        "icon": "apps/neon-relay.png",
+        "page": "apps/neon-relay.html",
+        "tier": "Volume",
+        "platform": "PC",
+        "name": {
+            "en": "Neon Relay",
+            "ko": "네온 릴레이",
+            "ja": "ネオンリレー",
+            "es": "Neon Relay",
+            "pt-BR": "Neon Relay"
+        },
+        "tagline": {
+            "en": "Jump, slide and burst across neon rooftops in a fast anime courier runner.",
+            "ko": "빠른 애니메이션 배달 러너에서 네온 옥상을 점프하고, 슬라이딩하고, 질주하세요.",
+            "ja": "スピーディーなアニメ風配達ランナーで、ネオンの屋上をジャンプ、スライド、バーストで駆け抜けろ。",
+            "es": "Salta, deslízate y acelera por azoteas de neón en un veloz runner de mensajería anime.",
+            "pt-BR": "Pule, deslize e dispare por telhados de neon em um runner de entregas anime veloz."
+        },
+        "desc": {
+            "en": "Neon Relay is an anime parkour runner starring Kai, a rooftop courier chasing clean lines, tight deadlines and one more perfect delivery. Change lanes, jump gaps and slide beneath beams while keeping the parcel safe. Chain clean tricks, collect route stamps and charge a kinetic Burst that blasts through anything in your way. Run 24 campaign contracts through four districts, where forty authored route phrases, route forks, rain and wind keep each line different. Draft from 12 shoe modules after every delivery, improve five permanent skills and race the ghost of your best clean run.",
+            "ko": "네온 릴레이는 깔끔한 동선, 빠듯한 마감, 그리고 또 한 번의 완벽한 배달을 좇는 옥상 배달원 카이가 주인공인 애니메이션 파쿠르 러너입니다. 소포를 지키며 레인을 바꾸고, 틈을 뛰어넘고, 빔 아래로 미끄러지세요. 깔끔한 트릭을 잇고, 경로 스탬프를 모아, 앞을 막는 모든 것을 뚫는 키네틱 버스트를 충전하세요. 4개 구역에서 캠페인 계약 24건을 달리며, 직접 설계된 경로 구간 40개와 갈림길, 비, 바람이 매번 다른 동선을 만듭니다. 배달마다 신발 모듈 12개 중에서 드래프트하고, 영구 스킬 5개를 강화하며, 자신의 최고 기록 고스트와 경주하세요.",
+            "ja": "ネオンリレーは、きれいなライン、厳しい締め切り、そしてもう一度の完璧な配達を追い求める屋上の配達人カイが主人公のアニメ風パルクールランナー。荷物を守りながらレーンを変え、すき間を飛び越え、梁の下をスライドしよう。きれいなトリックをつなぎ、ルートスタンプを集め、行く手のすべてを突き破るキネティックバーストをためる。4つの地区で24のキャンペーン契約を走り、40の作り込まれたルート区間、分かれ道、雨や風が毎回違うラインを生み出す。配達ごとに12の靴モジュールからドラフトし、5つの永続スキルを強化し、自己ベストのゴーストと競争しよう。",
+            "es": "Neon Relay es un runner de parkour de estilo anime protagonizado por Kai, que reparte paquetes por las azoteas en busca de líneas limpias, plazos ajustados y una entrega perfecta más. Cambia de carril, salta huecos y deslízate bajo vigas sin descuidar el paquete. Encadena trucos limpios, junta sellos de ruta y carga un Burst cinético que atraviesa todo lo que se interponga. Corre 24 contratos de campaña en cuatro distritos, donde cuarenta tramos de ruta diseñados a mano, bifurcaciones, lluvia y viento hacen distinta cada línea. Elige entre 12 módulos de calzado tras cada entrega, mejora cinco habilidades permanentes y compite contra el fantasma de tu mejor carrera limpia.",
+            "pt-BR": "Neon Relay é um runner de parkour em estilo anime estrelado por Kai, que faz entregas pelos telhados em busca de linhas limpas, prazos apertados e mais uma entrega perfeita. Troque de pista, pule vãos e deslize sob vigas sem descuidar do pacote. Encadeie manobras limpas, colete carimbos de rota e carregue um Burst cinético que atravessa tudo pelo caminho. Corra 24 contratos da campanha em quatro distritos, onde quarenta trechos de rota feitos à mão, bifurcações, chuva e vento deixam cada linha diferente. Escolha entre 12 módulos de tênis após cada entrega, melhore cinco habilidades permanentes e corra contra o fantasma da sua melhor corrida limpa."
+        },
+        "status": "Live",
+        "storeUrl": "",
+        "itchUrl": "https://crystllabs.itch.io/neonrelay",
+        "screenshots": [
+            "apps/shots/neon-relay/01.jpg",
+            "apps/shots/neon-relay/02.jpg",
+            "apps/shots/neon-relay/03.jpg",
+            "apps/shots/neon-relay/04.jpg",
+            "apps/shots/neon-relay/05.jpg"
+        ]
+    },
+    {
+        "id": "focus-grove",
+        "slug": "focus-grove",
+        "icon": "apps/focus-grove.png",
+        "page": "apps/focus-grove.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "Focus Grove",
+            "ko": "포커스 그로브",
+            "ja": "フォーカスグローブ",
+            "es": "Focus Grove",
+            "pt-BR": "Focus Grove"
+        },
+        "tagline": {
+            "en": "A focus timer that grows a little garden as you study and work.",
+            "ko": "공부하고 일하는 동안 작은 정원을 키워 주는 집중 타이머.",
+            "ja": "勉強や仕事のあいだに小さな庭を育てる集中タイマー。",
+            "es": "Un temporizador de concentración que hace crecer un pequeño jardín mientras estudias y trabajas.",
+            "pt-BR": "Um timer de foco que faz crescer um pequeno jardim enquanto você estuda e trabalha."
+        },
+        "desc": {
+            "en": "Focus Grove is a focus timer for studying, working and building a steady routine. Set work and break intervals for your Pomodoro sessions, finish a task and grow a plant in your own little garden. Create reusable focus and break routines, grow six kinds of trees through completed sessions and arrange plants across your garden in a setting you choose. Tag projects, compare 7-day, 30-day or all-time totals and filter your session history. You can pause and resume through interruptions, set a daily reminder and export your history or a backup.",
+            "ko": "포커스 그로브는 공부, 일, 꾸준한 루틴 만들기를 위한 집중 타이머입니다. 뽀모도로 세션의 작업 시간과 휴식 시간을 정하고, 할 일을 마치며, 나만의 작은 정원에서 식물을 키우세요. 다시 쓸 수 있는 집중 및 휴식 루틴을 만들고, 완료한 세션으로 6종류의 나무를 키우며, 원하는 배경을 골라 정원 곳곳에 식물을 배치하세요. 프로젝트에 태그를 달고, 7일, 30일 또는 전체 기간 합계를 비교하고, 세션 기록을 필터링하세요. 중간에 방해를 받아도 일시정지하고 이어 갈 수 있으며, 매일 알림을 설정하고 기록이나 백업을 내보낼 수 있습니다.",
+            "ja": "フォーカスグローブは、勉強や仕事、安定した習慣づくりのための集中タイマー。ポモドーロの作業時間と休憩時間を設定し、タスクを終えて、自分だけの小さな庭で植物を育てよう。繰り返し使える集中と休憩のルーティンを作り、完了したセッションで6種類の木を育て、好きな背景を選んで庭に植物を並べる。プロジェクトにタグを付け、7日間、30日間、全期間の合計を比べ、セッション履歴を絞り込める。中断があっても一時停止と再開ができ、毎日のリマインダーを設定し、履歴やバックアップを書き出せる。",
+            "es": "Focus Grove es un temporizador de concentración para estudiar, trabajar y crear una rutina constante. Define intervalos de trabajo y descanso para tus sesiones Pomodoro, termina una tarea y haz crecer una planta en tu propio jardincito. Crea rutinas de concentración y descanso reutilizables, cultiva seis tipos de árboles con las sesiones completadas y acomoda las plantas en tu jardín con el escenario que elijas. Etiqueta proyectos, compara totales de 7 días, 30 días o de todo el tiempo y filtra tu historial de sesiones. Puedes pausar y reanudar ante interrupciones, programar un recordatorio diario y exportar tu historial o una copia de seguridad.",
+            "pt-BR": "Focus Grove é um timer de foco para estudar, trabalhar e criar uma rotina constante. Defina intervalos de trabalho e pausa para suas sessões Pomodoro, termine uma tarefa e faça uma planta crescer no seu próprio jardinzinho. Crie rotinas de foco e pausa reutilizáveis, cultive seis tipos de árvores com as sessões concluídas e organize as plantas pelo jardim no cenário que escolher. Marque projetos, compare totais de 7 dias, 30 dias ou de todo o período e filtre o histórico de sessões. Você pode pausar e retomar diante de interrupções, definir um lembrete diário e exportar o histórico ou um backup."
+        },
+        "status": "Live",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.focusgrove",
+        "itchUrl": "",
+        "screenshots": [
+            "apps/shots/focus-grove/01.jpg",
+            "apps/shots/focus-grove/02.jpg",
+            "apps/shots/focus-grove/03.jpg",
+            "apps/shots/focus-grove/04.jpg",
+            "apps/shots/focus-grove/05.jpg"
+        ]
+    },
+    {
+        "id": "ghostline",
+        "slug": "ghostline",
+        "icon": "apps/ghostline.png",
+        "page": "apps/ghostline.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "Ghostline",
+            "ko": "고스트라인",
+            "ja": "ゴーストライン",
+            "es": "Ghostline",
+            "pt-BR": "Ghostline"
+        },
+        "tagline": {
+            "en": "Find a friend erased from every record by building a crew and solving signal puzzles.",
+            "ko": "크루를 꾸리고 신호 퍼즐을 풀어 모든 기록에서 지워진 친구를 찾으세요.",
+            "ja": "クルーを集め、信号パズルを解いて、あらゆる記録から消えた友人を探し出そう。",
+            "es": "Encuentra a un amigo borrado de todos los registros formando un equipo y resolviendo acertijos de señales.",
+            "pt-BR": "Encontre um amigo apagado de todos os registros montando uma equipe e resolvendo quebra-cabeças de sinal."
+        },
+        "desc": {
+            "en": "Your friend has vanished from every record in the city, and the only clue is a message on an underground network. Build a crew, untangle fictional signal puzzles and uncover the people behind the silence. Work through 48 authored relay missions with five adult crew members, rotating relays, managing trace, collecting evidence and choosing two tools for each route. Improve your tools, take on remixed side contracts between story missions and revisit branching story endings.",
+            "ko": "친구가 도시의 모든 기록에서 사라졌고, 유일한 단서는 지하 네트워크에 남은 메시지 하나입니다. 크루를 꾸리고, 가상의 신호 퍼즐을 풀며, 침묵 뒤에 숨은 사람들을 밝혀내세요. 성인 크루원 5명과 함께 직접 설계된 릴레이 미션 48개를 진행하며, 릴레이를 회전시키고, 추적을 관리하고, 증거를 모으고, 경로마다 도구 2개를 고르세요. 도구를 개선하고, 스토리 미션 사이에 변형된 사이드 계약을 맡으며, 갈라지는 스토리 엔딩을 다시 찾아보세요.",
+            "ja": "友人が街のあらゆる記録から消えた。唯一の手がかりは、地下ネットワークに残されたメッセージ。クルーを集め、架空の信号パズルを解きほぐし、沈黙の裏にいる人々を暴こう。5人の大人のクルーとともに、作り込まれた48のリレーミッションに挑み、リレーを回転させ、追跡を管理し、証拠を集め、ルートごとに2つのツールを選ぶ。ツールを強化し、ストーリーミッションの合間にアレンジされたサイド契約を受け、分岐するエンディングを見返そう。",
+            "es": "Tu amigo desapareció de todos los registros de la ciudad, y la única pista es un mensaje en una red clandestina. Forma un equipo, desenreda acertijos de señales ficticias y descubre a las personas detrás del silencio. Avanza por 48 misiones de relé diseñadas a mano con cinco integrantes adultos, girando relés, controlando el rastreo, reuniendo pruebas y eligiendo dos herramientas para cada ruta. Mejora tus herramientas, acepta contratos secundarios remezclados entre misiones y vuelve a visitar los finales ramificados.",
+            "pt-BR": "Seu amigo sumiu de todos os registros da cidade, e a única pista é uma mensagem em uma rede clandestina. Monte uma equipe, desvende quebra-cabeças de sinal fictícios e descubra as pessoas por trás do silêncio. Avance por 48 missões de retransmissão feitas à mão com cinco integrantes adultos, girando retransmissores, controlando o rastreamento, coletando provas e escolhendo duas ferramentas para cada rota. Melhore suas ferramentas, aceite contratos paralelos remixados entre as missões e revisite os finais ramificados."
+        },
+        "status": "Live",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.ghostline",
+        "itchUrl": "",
+        "screenshots": [
+            "apps/shots/ghostline/01.jpg",
+            "apps/shots/ghostline/02.jpg",
+            "apps/shots/ghostline/03.jpg",
+            "apps/shots/ghostline/04.jpg",
+            "apps/shots/ghostline/05.jpg"
+        ]
+    },
+    {
+        "id": "night-receipt",
+        "slug": "night-receipt",
+        "icon": "apps/night-receipt.png",
+        "page": "apps/night-receipt.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "Night Receipt",
+            "ko": "나이트 리시트",
+            "ja": "ナイトレシート",
+            "es": "Night Receipt",
+            "pt-BR": "Night Receipt"
+        },
+        "tagline": {
+            "en": "A convenience store mystery where a receipt arrives stamped with tomorrow's date.",
+            "ko": "내일 날짜가 찍힌 영수증이 도착하는 편의점 미스터리.",
+            "ja": "明日の日付が印字されたレシートが届く、コンビニのミステリー。",
+            "es": "Un misterio en una tienda de conveniencia donde llega un recibo con la fecha de mañana.",
+            "pt-BR": "Um mistério em uma loja de conveniência onde chega um recibo com a data de amanhã."
+        },
+        "desc": {
+            "en": "Your first night should be ordinary: open the till, scan groceries and count the change. Then a receipt arrives stamped tomorrow. Night Receipt is a first-person mystery in a small roadside convenience store. Compare what you remember with what is there now, find thirty-five distinct anomalies and check four live security cameras. Meet twelve recurring customers and follow Elise's disappearance across seven chapters, keeping receipts, preserving evidence for Officer Han or following the owner's unsettling rules. Your records and choices open four endings, including a route that is always available.",
+            "ko": "첫날 밤은 평범해야 했습니다. 계산대를 열고, 물건을 스캔하고, 거스름돈을 세면 그만이었죠. 그런데 내일 날짜가 찍힌 영수증이 도착합니다. 나이트 리시트는 길가의 작은 편의점을 무대로 한 1인칭 미스터리입니다. 기억 속 모습과 지금 눈앞의 모습을 비교해 35가지 이상 현상을 찾고, 실시간 보안 카메라 4대를 확인하세요. 단골손님 12명을 만나고, 7개 챕터에 걸쳐 엘리스의 실종을 추적하며, 영수증을 보관하고, 한 경관을 위해 증거를 지키거나, 주인의 섬뜩한 규칙을 따르세요. 기록과 선택에 따라 언제나 열려 있는 루트를 포함한 4가지 엔딩이 열립니다.",
+            "ja": "最初の夜は何事もないはずだった。レジを開け、商品をスキャンし、お釣りを数えるだけ。ところが、明日の日付が印字されたレシートが届く。ナイトレシートは、道路沿いの小さなコンビニを舞台にした一人称ミステリー。記憶にある店と今の店を見比べて35の異変を見つけ、4台のライブ監視カメラを確かめよう。12人の常連客と出会い、7つの章にわたってエリーズの失踪を追い、レシートを保管し、ハン巡査のために証拠を守るか、オーナーの不気味なルールに従うかを選ぶ。記録と選択によって、いつでも到達できるルートを含む4つのエンディングが開かれる。",
+            "es": "Tu primera noche debería ser normal: abrir la caja, escanear productos y contar el cambio. Entonces llega un recibo con la fecha de mañana. Night Receipt es un misterio en primera persona en una pequeña tienda de conveniencia junto a la carretera. Compara lo que recuerdas con lo que hay ahora, encuentra treinta y cinco anomalías distintas y revisa cuatro cámaras de seguridad en vivo. Conoce a doce clientes habituales y sigue la desaparición de Elise a lo largo de siete capítulos, guardando recibos, preservando pruebas para la policía o siguiendo las inquietantes reglas del dueño. Tus registros y decisiones abren cuatro finales, incluida una ruta que siempre está disponible.",
+            "pt-BR": "Sua primeira noite deveria ser comum: abrir o caixa, passar as compras e contar o troco. Então chega um recibo com a data de amanhã. Night Receipt é um mistério em primeira pessoa em uma pequena loja de conveniência à beira da estrada. Compare o que você lembra com o que está lá agora, encontre trinta e cinco anomalias diferentes e confira quatro câmeras de segurança ao vivo. Conheça doze clientes frequentes e acompanhe o desaparecimento de Elise ao longo de sete capítulos, guardando recibos, preservando provas para a polícia ou seguindo as regras perturbadoras do dono. Seus registros e escolhas abrem quatro finais, incluindo uma rota que está sempre disponível."
+        },
+        "status": "Live",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.projectrando.nightreceipt",
+        "itchUrl": "",
+        "screenshots": [
+            "apps/shots/night-receipt/01.jpg",
+            "apps/shots/night-receipt/02.jpg",
+            "apps/shots/night-receipt/03.jpg",
+            "apps/shots/night-receipt/04.jpg",
+            "apps/shots/night-receipt/05.jpg"
+        ]
+    },
+    {
+        "id": "parcel-parade",
+        "slug": "parcel-parade",
+        "icon": "apps/parcel-parade.png",
+        "page": "apps/parcel-parade.html",
+        "tier": "Volume",
+        "platform": "Android",
+        "name": {
+            "en": "Parcel Parade",
+            "ko": "파셀 퍼레이드",
+            "ja": "パーセルパレード",
+            "es": "Parcel Parade",
+            "pt-BR": "Parcel Parade"
+        },
+        "tagline": {
+            "en": "Route parcels across an island chain and find out why the island mail stopped.",
+            "ko": "섬들 사이로 소포를 보내며 섬의 우편이 왜 끊겼는지 밝혀내세요.",
+            "ja": "島々に小包を届けながら、島の郵便が止まった理由を突き止めよう。",
+            "es": "Envía paquetes por una cadena de islas y descubre por qué dejó de llegar el correo a las islas.",
+            "pt-BR": "Encaminhe encomendas por um arquipélago e descubra por que o correio das ilhas parou."
+        },
+        "desc": {
+            "en": "Mara inherits the last little depot on a disconnected island chain. A parcel addressed to her missing grandfather becomes the first clue in a trail of undelivered letters. Reopen one route at a time and discover why the island mail stopped. Solve 80 routing puzzles across five story chapters using switches, timed buffers and a large-parcel splitter, with departure windows, express deliveries and route previews. Collect six decorative finishes, return for seeded daily and weekly puzzles, and build your own variation in the challenge studio to share as a text code.",
+            "ko": "마라는 서로 끊어진 군도의 마지막 작은 우편 창고를 물려받습니다. 실종된 할아버지 앞으로 온 소포 하나가 배달되지 않은 편지들의 흔적을 좇는 첫 단서가 됩니다. 경로를 하나씩 다시 열며 섬의 우편이 왜 멈췄는지 알아내세요. 전환기, 시간제 대기 구간, 대형 소포 분할기를 활용해 5개 스토리 챕터에 걸친 경로 퍼즐 80개를 풀고, 출발 시간대, 특급 배송, 경로 미리보기를 다루세요. 장식 마감 6종을 모으고, 매일과 매주 새로 나오는 퍼즐에 도전하며, 챌린지 스튜디오에서 나만의 변형을 만들어 텍스트 코드로 공유하세요.",
+            "ja": "マラは、つながりの途絶えた島々に残る最後の小さな集配所を受け継ぐ。行方不明の祖父に宛てた小包が、届かなかった手紙をたどる最初の手がかりになる。ルートを一つずつ再開し、島の郵便が止まった理由を突き止めよう。切り替えスイッチ、時間式の待機所、大型小包の分割機を使い、5つの章にわたる80のルーティングパズルを解き、出発時間帯、速達、ルートプレビューも活用する。6つの装飾仕上げを集め、毎日と毎週のパズルに挑み、チャレンジスタジオで自分だけのアレンジを作ってテキストコードで共有しよう。",
+            "es": "Mara hereda el último pequeño depósito de una cadena de islas incomunicada. Un paquete dirigido a su abuelo desaparecido se convierte en la primera pista de un rastro de cartas sin entregar. Reabre una ruta a la vez y descubre por qué se detuvo el correo de las islas. Resuelve 80 rompecabezas de rutas en cinco capítulos con desvíos, esperas cronometradas y un divisor de paquetes grandes, además de ventanas de salida, entregas exprés y vistas previas de ruta. Reúne seis acabados decorativos, vuelve por los rompecabezas diarios y semanales, y crea tu propia variante en el estudio de desafíos para compartirla como código de texto.",
+            "pt-BR": "Mara herda o último pequeno depósito de um arquipélago isolado. Uma encomenda endereçada ao avô desaparecido vira a primeira pista de um rastro de cartas não entregues. Reabra uma rota por vez e descubra por que o correio das ilhas parou. Resolva 80 quebra-cabeças de rotas em cinco capítulos com chaves de desvio, esperas cronometradas e um divisor de encomendas grandes, além de janelas de partida, entregas expressas e prévias de rota. Colete seis acabamentos decorativos, volte para os quebra-cabeças diários e semanais e crie sua própria variação no estúdio de desafios para compartilhar como código de texto."
+        },
+        "status": "Live",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.crystllabs.parcelparade",
+        "itchUrl": "",
+        "screenshots": [
+            "apps/shots/parcel-parade/01.jpg",
+            "apps/shots/parcel-parade/02.jpg",
+            "apps/shots/parcel-parade/03.jpg",
+            "apps/shots/parcel-parade/04.jpg",
+            "apps/shots/parcel-parade/05.jpg"
         ]
     }
 ];
