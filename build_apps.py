@@ -297,8 +297,13 @@ def render_page(app):
 
     shots = app.get('screenshots') or []
     if shots:
+        # PC-only (itch) games ship 16:9 / 16:10 shots; phone games are portrait.
+        if app.get('shotsLandscape'):
+            dims, size = 'width="480" height="270"', 'w-72 md:w-96'
+        else:
+            dims, size = 'width="270" height="579"', 'w-40 md:w-48'
         tiles = ''.join(f'''
-                        <img src="{esc(s)}" alt="{name_en} screenshot {n}" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">'''
+                        <img src="{esc(s)}" alt="{name_en} screenshot {n}" loading="lazy" {dims} class="snap-start shrink-0 {size} rounded-xl border border-white/10 shadow-lg shadow-black/30">'''
                         for n, s in enumerate(shots, 1))
         shots_block = f'''
 

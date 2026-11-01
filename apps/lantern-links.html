@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lantern Links | Crystl Labs</title>
+    <meta name="description" content="Build the bridges. Bring back the tide.">
+    <meta property="og:title" content="Lantern Links | Crystl Labs">
+    <meta property="og:description" content="Build the bridges. Bring back the tide.">
+    <meta property="og:image" content="lantern-links.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/lantern-links.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="stylesheet" href="/assets/tailwind.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/fonts.css">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <a href="../blogs.html" class="text-gray-300 hover:text-white transition-colors">Blog</a>
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="lantern-links.png" alt="Lantern Links" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Lantern Links</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">PC</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Build the bridges. Bring back the tide.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">One island holds a melody, and together the islands can bring back the Lantern Tide. Help keeper Iri reconnect a midnight archipelago by building exactly the bridges each island asks for. Each chart is a bridge-building logic puzzle: every island shows how many bridges it needs, bridges run straight and never cross, and every island must end up in one connected network. A lit island has its exact number, a warning marks too many bridges and notes mode marks routes you have ruled out. There is no clock. After a gentle teaching sequence, play 200 charts in three sizes across six story chapters as the lost song returns, plus a daily chart and 90 twilight charts.</p>
+
+                <div class="flex flex-col sm:flex-row flex-wrap gap-3">
+                    <a id="apItchLink" href="https://crystllabs.itch.io/lanternlinks" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandPink/10 border border-brandPink/40 px-4 py-3 text-brandPink font-mono text-xs uppercase tracking-wide hover:bg-brandPink/20 transition-colors">
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 11h4M8 9v4M15 12h.01M18 10h.01M17.3 5H6.7a4 4 0 0 0-4 3.6l-.9 7.2a2.5 2.5 0 0 0 4.4 1.9L7.5 16h9l1.3 1.7a2.5 2.5 0 0 0 4.4-1.9l-.9-7.2A4 4 0 0 0 17.3 5z"/></svg>
+                        <span id="apItch">Get it on itch.io</span>
+                    </a>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/lantern-links/01.jpg" alt="Lantern Links screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/lantern-links/02.jpg" alt="Lantern Links screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/lantern-links/03.jpg" alt="Lantern Links screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/lantern-links/04.jpg" alt="Lantern Links screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/lantern-links/05.jpg" alt="Lantern Links screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Lantern Links", "ko": "랜턴 링크스", "ja": "ランタン・リンクス", "es": "Lantern Links", "pt-BR": "Lantern Links"}, "tagline": {"en": "Build the bridges. Bring back the tide.", "ko": "다리를 놓고, 조수를 되찾으세요.", "ja": "橋を架けて、潮を呼び戻そう。", "es": "Construye los puentes. Trae de vuelta la marea.", "pt-BR": "Construa as pontes. Traga a maré de volta."}, "desc": {"en": "One island holds a melody, and together the islands can bring back the Lantern Tide. Help keeper Iri reconnect a midnight archipelago by building exactly the bridges each island asks for. Each chart is a bridge-building logic puzzle: every island shows how many bridges it needs, bridges run straight and never cross, and every island must end up in one connected network. A lit island has its exact number, a warning marks too many bridges and notes mode marks routes you have ruled out. There is no clock. After a gentle teaching sequence, play 200 charts in three sizes across six story chapters as the lost song returns, plus a daily chart and 90 twilight charts.", "ko": "섬 하나에 선율 하나가 깃들어 있고, 섬들이 함께하면 랜턴 타이드를 되찾을 수 있습니다. 지킴이 이리를 도와 섬마다 요구하는 수만큼 정확히 다리를 놓아 한밤의 군도를 다시 이으세요. 각 해도는 다리 놓기 논리 퍼즐입니다. 섬마다 필요한 다리 수가 표시되어 있고, 다리는 곧게 뻗으며 서로 교차하지 않고, 모든 섬은 하나의 네트워크로 이어져야 합니다. 개수가 맞은 섬에는 불이 켜지고, 다리가 너무 많으면 경고가 뜨며, 메모 모드로 배제한 경로를 표시할 수 있습니다. 시간 제한은 없습니다. 친절한 튜토리얼 뒤에, 잃어버린 노래가 돌아오는 6개 스토리 챕터에서 세 가지 크기의 해도 200개를 풀고, 매일의 해도와 황혼 해도 90개도 즐기세요.", "ja": "島ひとつにひとつの旋律。島々がそろえば、ランタン・タイドを呼び戻せる。番人のイリを手伝い、各島が求める数だけ橋を架けて、真夜中の群島をつなぎ直そう。各海図は橋架けの論理パズル。島には必要な橋の数が示され、橋はまっすぐ伸びて交差せず、すべての島がひとつのネットワークにつながらなければならない。数がそろった島は明かりがつき、橋が多すぎると警告が出る。メモモードでは除外したルートに印をつけられる。制限時間はなし。やさしい導入のあと、失われた歌がよみがえる6つのストーリー章で3つのサイズの海図200枚に挑もう。毎日の海図と90枚のトワイライト海図も収録。", "es": "Una isla guarda una melodía, y juntas, las islas pueden traer de vuelta la Marea de los Faroles. Ayuda a Iri, que cuida las islas, a reconectar un archipiélago de medianoche construyendo exactamente los puentes que pide cada isla. Cada carta náutica es un rompecabezas lógico de puentes: cada isla muestra cuántos puentes necesita, los puentes van en línea recta y nunca se cruzan, y todas las islas deben quedar en una sola red conectada. Una isla iluminada tiene su número exacto, una advertencia marca el exceso de puentes y el modo de notas marca las rutas descartadas. No hay reloj. Tras una introducción suave, juega 200 cartas en tres tamaños a lo largo de seis capítulos mientras vuelve la canción perdida, además de una carta diaria y 90 cartas del crepúsculo.", "pt-BR": "Uma ilha guarda uma melodia, e juntas, as ilhas podem trazer de volta a Maré das Lanternas. Ajude Iri, que cuida das ilhas, a reconectar um arquipélago da meia-noite construindo exatamente as pontes que cada ilha pede. Cada carta náutica é um quebra-cabeça lógico de pontes: cada ilha mostra quantas pontes precisa, as pontes seguem em linha reta e nunca se cruzam, e todas as ilhas precisam formar uma única rede conectada. Uma ilha acesa tem o número exato, um aviso marca pontes demais e o modo de notas marca rotas descartadas. Não há relógio. Depois de uma introdução suave, jogue 200 cartas em três tamanhos ao longo de seis capítulos enquanto a canção perdida volta, além de uma carta diária e 90 cartas do crepúsculo."}};
+        const STR = {"en": {"store": "Get it on Google Play", "itch": "Get it on itch.io", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "itch": "itch.io에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "itch": "itch.io で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "itch": "Consíguelo en itch.io", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "itch": "Disponível no itch.io", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            const store = document.getElementById('apStore');
+            if (store) store.textContent = STR[lang].store;
+            const itch = document.getElementById('apItch');
+            if (itch) itch.textContent = STR[lang].itch;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

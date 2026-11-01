@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latent | Crystl Labs</title>
+    <meta name="description" content="Night shift at the crime lab. Match prints, run DNA, line up bullets, testify.">
+    <meta property="og:title" content="Latent | Crystl Labs">
+    <meta property="og:description" content="Night shift at the crime lab. Match prints, run DNA, line up bullets, testify.">
+    <meta property="og:image" content="latent.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/latent.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="stylesheet" href="/assets/tailwind.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/fonts.css">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <a href="../blogs.html" class="text-gray-300 hover:text-white transition-colors">Blog</a>
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="latent.png" alt="Latent" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Latent</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">PC</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Night shift at the crime lab. Match prints, run DNA, line up bullets, testify.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">It is the night shift at an understaffed city crime lab, detectives want a name by morning and your old teacher&#x27;s most famous fingerprint match is about to be looked at again. Every case brings two or three exhibits, each with its own test: latent prints, DNA gels, ballistics, toxicology, fibres and blood spatter. Do the science, write the report, then defend it on the witness stand, where overstating your results costs as much as getting them wrong. There are 40 cases in five seasons, with a story about a lab director who closed cases with bad science, plus a daily backlog.</p>
+
+                <div class="flex flex-col sm:flex-row flex-wrap gap-3">
+                    <a id="apItchLink" href="https://crystllabs.itch.io/latentlab" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandPink/10 border border-brandPink/40 px-4 py-3 text-brandPink font-mono text-xs uppercase tracking-wide hover:bg-brandPink/20 transition-colors">
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 11h4M8 9v4M15 12h.01M18 10h.01M17.3 5H6.7a4 4 0 0 0-4 3.6l-.9 7.2a2.5 2.5 0 0 0 4.4 1.9L7.5 16h9l1.3 1.7a2.5 2.5 0 0 0 4.4-1.9l-.9-7.2A4 4 0 0 0 17.3 5z"/></svg>
+                        <span id="apItch">Get it on itch.io</span>
+                    </a>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/latent/01.jpg" alt="Latent screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/latent/02.jpg" alt="Latent screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/latent/03.jpg" alt="Latent screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/latent/04.jpg" alt="Latent screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/latent/05.jpg" alt="Latent screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Latent", "ko": "레이턴트", "ja": "レイテント", "es": "Latent", "pt-BR": "Latent"}, "tagline": {"en": "Night shift at the crime lab. Match prints, run DNA, line up bullets, testify.", "ko": "과학수사 연구소의 야간 근무. 지문을 대조하고, DNA를 분석하고, 탄환을 맞춰 보고, 증언하세요.", "ja": "科学捜査ラボの夜勤。指紋を照合し、DNAを調べ、弾丸を並べ、証言台に立て。", "es": "Turno de noche en el laboratorio forense. Compara huellas, analiza ADN, alinea balas y testifica.", "pt-BR": "Plantão noturno no laboratório forense. Compare digitais, analise DNA, alinhe projéteis e testemunhe."}, "desc": {"en": "It is the night shift at an understaffed city crime lab, detectives want a name by morning and your old teacher's most famous fingerprint match is about to be looked at again. Every case brings two or three exhibits, each with its own test: latent prints, DNA gels, ballistics, toxicology, fibres and blood spatter. Do the science, write the report, then defend it on the witness stand, where overstating your results costs as much as getting them wrong. There are 40 cases in five seasons, with a story about a lab director who closed cases with bad science, plus a daily backlog.", "ko": "인력이 부족한 도시 과학수사 연구소의 야간 근무. 형사들은 아침까지 이름을 원하고, 옛 스승의 가장 유명한 지문 감정이 재검토를 앞두고 있습니다. 사건마다 두세 개의 증거물이 나오며, 잠재 지문, DNA 젤, 탄도, 독성 검사, 섬유, 혈흔 분석까지 각기 다른 검사가 필요합니다. 과학적으로 분석하고, 보고서를 쓴 뒤, 증인석에서 그것을 변호하세요. 결과를 부풀리는 것은 틀리는 것만큼 대가가 큽니다. 다섯 시즌에 걸친 40개의 사건과 엉터리 과학으로 사건을 종결한 연구소장의 이야기, 그리고 일일 적체 사건이 있습니다.", "ja": "人手不足の市警科学捜査ラボで夜勤が始まる。刑事たちは朝までに名前を求め、恩師の最も有名な指紋鑑定がもう一度調べ直されようとしている。事件ごとに2つか3つの証拠品があり、潜在指紋、DNAゲル、弾道、毒物、繊維、血痕とそれぞれ別の検査が必要だ。科学で答えを出し、報告書を書き、証言台でそれを守り抜こう。結果を誇張すれば、間違えたのと同じだけ代償を払う。5つのシーズンにわたる40の事件、ずさんな科学で事件を片づけてきたラボ所長の物語、そしてデイリーの未処理案件を収録。", "es": "Es el turno de noche en un laboratorio forense de la ciudad con poco personal, los detectives quieren un nombre antes del amanecer y la coincidencia de huellas más famosa de tu antiguo maestro está a punto de revisarse. Cada caso trae dos o tres pruebas, cada una con su propio análisis: huellas latentes, geles de ADN, balística, toxicología, fibras y salpicaduras de sangre. Haz la ciencia, redacta el informe y defiéndelo en el estrado, donde exagerar tus resultados cuesta tanto como equivocarte. Hay 40 casos en cinco temporadas, con una historia sobre un director de laboratorio que cerraba casos con mala ciencia, y casos pendientes cada día.", "pt-BR": "É o plantão noturno em um laboratório forense da cidade com pouca gente, os detetives querem um nome até de manhã e a identificação de digital mais famosa do seu antigo professor está prestes a ser revista. Cada caso traz dois ou três vestígios, cada um com seu próprio exame: digitais latentes, géis de DNA, balística, toxicologia, fibras e manchas de sangue. Faça a ciência, escreva o laudo e defenda-o no banco das testemunhas, onde exagerar os resultados custa tanto quanto errar. São 40 casos em cinco temporadas, com uma história sobre um diretor de laboratório que encerrava casos com ciência ruim, além de uma fila diária de casos."}};
+        const STR = {"en": {"store": "Get it on Google Play", "itch": "Get it on itch.io", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "itch": "itch.io에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "itch": "itch.io で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "itch": "Consíguelo en itch.io", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "itch": "Disponível no itch.io", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            const store = document.getElementById('apStore');
+            if (store) store.textContent = STR[lang].store;
+            const itch = document.getElementById('apItch');
+            if (itch) itch.textContent = STR[lang].itch;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

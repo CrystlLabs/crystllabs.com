@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Last Call | Crystl Labs</title>
+    <meta name="description" content="Flick troublemakers out, save your bar and keep the tips. 3D physics, offline.">
+    <meta property="og:title" content="Last Call | Crystl Labs">
+    <meta property="og:description" content="Flick troublemakers out, save your bar and keep the tips. 3D physics, offline.">
+    <meta property="og:image" content="last-call.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/last-call.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="stylesheet" href="/assets/tailwind.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/fonts.css">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <a href="../blogs.html" class="text-gray-300 hover:text-white transition-colors">Blog</a>
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="last-call.png" alt="Last Call" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Last Call</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">PC</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Flick troublemakers out, save your bar and keep the tips. 3D physics, offline.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Run the Rusty Anchor as Mags O&#x27;Rourke, part host, part bouncer and full-time neighborhood defender. Mags spent her severance cheque on a second chance, but developer Mr. Vale wants the block for condos and five rowdy crews are about to test the furniture. Punch, grab and flick troublemakers through the glowing exit, or calm them with free water, shared fries and the jukebox. Meet 25 patron types, upgrade the bar, hire Big Lou, earn five bar themes and keep the doors open for thirty story nights before the Last Call Classic.</p>
+
+                <div class="flex flex-col sm:flex-row flex-wrap gap-3">
+                    <a id="apItchLink" href="https://crystllabs.itch.io/lastcall" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandPink/10 border border-brandPink/40 px-4 py-3 text-brandPink font-mono text-xs uppercase tracking-wide hover:bg-brandPink/20 transition-colors">
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 11h4M8 9v4M15 12h.01M18 10h.01M17.3 5H6.7a4 4 0 0 0-4 3.6l-.9 7.2a2.5 2.5 0 0 0 4.4 1.9L7.5 16h9l1.3 1.7a2.5 2.5 0 0 0 4.4-1.9l-.9-7.2A4 4 0 0 0 17.3 5z"/></svg>
+                        <span id="apItch">Get it on itch.io</span>
+                    </a>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/last-call/01.jpg" alt="Last Call screenshot 1" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/last-call/02.jpg" alt="Last Call screenshot 2" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/last-call/03.jpg" alt="Last Call screenshot 3" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/last-call/04.jpg" alt="Last Call screenshot 4" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/last-call/05.jpg" alt="Last Call screenshot 5" loading="lazy" width="270" height="579" class="snap-start shrink-0 w-40 md:w-48 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Last Call", "ko": "라스트 콜", "ja": "ラストコール", "es": "Last Call", "pt-BR": "Last Call"}, "tagline": {"en": "Flick troublemakers out, save your bar and keep the tips. 3D physics, offline.", "ko": "말썽꾼들을 튕겨 내보내고, 바를 지키고, 팁을 챙기세요. 3D 물리, 오프라인.", "ja": "厄介者をはじき出し、バーを守り、チップを稼げ。3D物理、オフライン対応。", "es": "Saca a los alborotadores de un golpe, salva tu bar y quédate con las propinas. Física 3D, sin conexión.", "pt-BR": "Arremesse os encrenqueiros para fora, salve seu bar e fique com as gorjetas. Física 3D, offline."}, "desc": {"en": "Run the Rusty Anchor as Mags O'Rourke, part host, part bouncer and full-time neighborhood defender. Mags spent her severance cheque on a second chance, but developer Mr. Vale wants the block for condos and five rowdy crews are about to test the furniture. Punch, grab and flick troublemakers through the glowing exit, or calm them with free water, shared fries and the jukebox. Meet 25 patron types, upgrade the bar, hire Big Lou, earn five bar themes and keep the doors open for thirty story nights before the Last Call Classic.", "ko": "호스트이자 경비원이자 전업 동네 지킴이인 매그스 오로크가 되어 러스티 앵커를 운영하세요. 매그스는 퇴직금을 두 번째 기회에 걸었지만, 개발업자 베일 씨는 콘도를 짓겠다며 이 블록을 노리고, 시끄러운 무리 다섯이 가구를 시험하러 몰려옵니다. 말썽꾼을 치고, 붙잡고, 튕겨서 빛나는 출구 밖으로 내보내거나, 공짜 물과 감자튀김, 주크박스로 진정시키세요. 손님 유형 25가지를 만나고, 바를 업그레이드하고, 빅 루를 고용하고, 바 테마 5가지를 얻으며, 30일의 스토리 밤 동안 문을 지킨 뒤 라스트 콜 클래식에 도전하세요.", "ja": "ホストであり、用心棒であり、根っからの地元の守り手でもあるマグズ・オロークとなって、ラスティ・アンカーを切り盛りしよう。マグズは退職金を再出発に賭けたが、開発業者のヴェイル氏はこの一角にマンションを建てようと狙い、騒がしい5つのグループが家具を試しにやってくる。厄介者を殴り、つかみ、はじいて光る出口の外へ放り出すか、無料の水やポテト、ジュークボックスでなだめよう。25タイプの客と出会い、バーを強化し、ビッグ・ルーを雇い、5つのバーテーマを手に入れ、30のストーリーの夜を乗り切ってラストコール・クラシックに挑め。", "es": "Administra el Rusty Anchor como Mags O'Rourke, en parte anfitriona, en parte guardia de seguridad y defensora del barrio de tiempo completo. Mags gastó su liquidación en una segunda oportunidad, pero el desarrollador inmobiliario Mr. Vale quiere la cuadra para condominios y cinco grupos ruidosos están por poner a prueba los muebles. Golpea, agarra y lanza a los alborotadores por la salida brillante, o cálmalos con agua gratis, papas fritas compartidas y la rocola. Conoce 25 tipos de clientes, mejora el bar, contrata a Big Lou, gana cinco temas de bar y mantén las puertas abiertas durante treinta noches de historia antes del Last Call Classic.", "pt-BR": "Comande o Rusty Anchor como Mags O'Rourke, um pouco anfitriã, um pouco leão de chácara e defensora do bairro em tempo integral. Mags gastou a rescisão em uma segunda chance, mas o incorporador Mr. Vale quer o quarteirão para condomínios e cinco turmas barulhentas estão prestes a testar os móveis. Soque, agarre e arremesse os encrenqueiros pela saída iluminada, ou acalme todo mundo com água grátis, batata frita para dividir e a jukebox. Conheça 25 tipos de clientes, melhore o bar, contrate o Big Lou, ganhe cinco temas de bar e mantenha as portas abertas por trinta noites de história antes do Last Call Classic."}};
+        const STR = {"en": {"store": "Get it on Google Play", "itch": "Get it on itch.io", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "itch": "itch.io에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "itch": "itch.io で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "itch": "Consíguelo en itch.io", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "itch": "Disponível no itch.io", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            const store = document.getElementById('apStore');
+            if (store) store.textContent = STR[lang].store;
+            const itch = document.getElementById('apItch');
+            if (itch) itch.textContent = STR[lang].itch;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

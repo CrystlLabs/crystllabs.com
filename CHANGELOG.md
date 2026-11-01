@@ -2,6 +2,25 @@
 
 All notable changes to the Crystl Labs website are documented here.
 
+## 2026-11-02
+
+### Added
+- **178 new apps** with icon, screenshots, and name, tagline and description in
+  EN/KO/JA/ES/PT-BR: 174 public itch.io games not yet on the site, plus Focus Grove,
+  Ghostline, Night Receipt and Parcel Parade (Google Play only). Every link was checked
+  live on 2026-11-02 (223 itch pages and 17 Play listings returned 200).
+- **Crystl Kim's LinkedIn** button on her personnel card.
+
+### Changed
+- **48 Store prep apps are Live** with their itch.io links (projectarcade, projectpuzzle,
+  projectraresports, projectsimulation, projectsports, cozycrime, DICEMAN).
+- **Google Play links added** for Blue Hour, Cagebound, Critter Drop, Prism Post, Scrubbed and
+  Sugar Split, which are now in production.
+- The Apps grid lists 339 released apps (347 live in total). `build_apps.py` sizes landscape
+  screenshots for PC-only games (`shotsLandscape`), and Tailwind was rebuilt.
+- WeedSpot is still not listed. Play Drafts (Murder Phone 2, ZERO COOL, Spare Key and others)
+  get no Play link until their listings are public.
+
 ## 2026-10-26
 
 ### Changed

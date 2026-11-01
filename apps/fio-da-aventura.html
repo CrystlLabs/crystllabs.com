@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fio da Aventura | Crystl Labs</title>
+    <meta name="description" content="Every swing leaves a new possibility.">
+    <meta property="og:title" content="Fio da Aventura | Crystl Labs">
+    <meta property="og:description" content="Every swing leaves a new possibility.">
+    <meta property="og:image" content="fio-da-aventura.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/fio-da-aventura.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="stylesheet" href="/assets/tailwind.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/fonts.css">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <a href="../blogs.html" class="text-gray-300 hover:text-white transition-colors">Blog</a>
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="fio-da-aventura.png" alt="Fio da Aventura" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Fio da Aventura</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">PC</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Every swing leaves a new possibility.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Lume, a tiny moth, must stitch a valley&#x27;s paths back together. Attach thread to brass rings, build momentum, let go at the right moment and bring a rescued pattern home, where its weight changes how you move. On safe ledges you can spend thread to stitch a bridge for the return trip. There are 30 routes across five textile environments, from Moss Valley to Satin Gorge, with six thread tools and twelve cargo patterns that change reach, elasticity and movement, plus expeditions, a daily route, free exploration and Cora&#x27;s workshop for crafting tools.</p>
+
+                <div class="flex flex-col sm:flex-row flex-wrap gap-3">
+                    <a id="apItchLink" href="https://crystllabs.itch.io/fiodaaventura" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandPink/10 border border-brandPink/40 px-4 py-3 text-brandPink font-mono text-xs uppercase tracking-wide hover:bg-brandPink/20 transition-colors">
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 11h4M8 9v4M15 12h.01M18 10h.01M17.3 5H6.7a4 4 0 0 0-4 3.6l-.9 7.2a2.5 2.5 0 0 0 4.4 1.9L7.5 16h9l1.3 1.7a2.5 2.5 0 0 0 4.4-1.9l-.9-7.2A4 4 0 0 0 17.3 5z"/></svg>
+                        <span id="apItch">Get it on itch.io</span>
+                    </a>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/fio-da-aventura/01.jpg" alt="Fio da Aventura screenshot 1" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/fio-da-aventura/02.jpg" alt="Fio da Aventura screenshot 2" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/fio-da-aventura/03.jpg" alt="Fio da Aventura screenshot 3" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/fio-da-aventura/04.jpg" alt="Fio da Aventura screenshot 4" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/fio-da-aventura/05.jpg" alt="Fio da Aventura screenshot 5" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Fio da Aventura", "ko": "피우 다 아벤투라", "ja": "フィオ・ダ・アヴェントゥーラ", "es": "Fio da Aventura", "pt-BR": "Fio da Aventura"}, "tagline": {"en": "Every swing leaves a new possibility.", "ko": "흔들릴 때마다 새로운 가능성이 생깁니다.", "ja": "スイングのたびに、新しい可能性が生まれる。", "es": "Cada balanceo deja una nueva posibilidad.", "pt-BR": "Cada balanço deixa uma nova possibilidade."}, "desc": {"en": "Lume, a tiny moth, must stitch a valley's paths back together. Attach thread to brass rings, build momentum, let go at the right moment and bring a rescued pattern home, where its weight changes how you move. On safe ledges you can spend thread to stitch a bridge for the return trip. There are 30 routes across five textile environments, from Moss Valley to Satin Gorge, with six thread tools and twelve cargo patterns that change reach, elasticity and movement, plus expeditions, a daily route, free exploration and Cora's workshop for crafting tools.", "ko": "작은 나방 루메는 골짜기의 길들을 다시 꿰매어 이어야 합니다. 황동 고리에 실을 걸고, 반동을 키우고, 알맞은 순간에 놓아 구해 낸 무늬를 집으로 가져오세요. 무늬의 무게는 움직임을 바꿉니다. 안전한 바위턱에서는 실을 써서 돌아오는 길에 쓸 다리를 꿰매 둘 수 있습니다. 이끼 골짜기부터 새틴 협곡까지 다섯 가지 직물 환경에 걸친 30개의 경로, 닿는 거리와 탄성, 움직임을 바꾸는 여섯 가지 실 도구와 열두 가지 화물 무늬, 그리고 탐험, 일일 경로, 자유 탐색, 도구를 만드는 코라의 작업장이 있습니다.", "ja": "小さな蛾のルーメは、谷の道をもう一度縫い合わせなければならない。真鍮のリングに糸をかけ、勢いをつけ、ちょうどいい瞬間に手を離し、救い出した模様を村へ持ち帰ろう。その重さが動き方を変える。安全な岩棚では糸を使って帰り道の橋を縫っておける。モス渓谷からサテン峡谷まで5つの布の世界にまたがる30のルート、届く距離や伸縮性、動きを変える6つの糸の道具と12の荷物模様、さらに遠征、デイリールート、自由探索、道具を作るコーラの工房がある。", "es": "Lume, una pequeña polilla, debe volver a coser los caminos de un valle. Engancha hilo a anillos de latón, gana impulso, suéltate en el momento justo y lleva a casa un patrón rescatado, cuyo peso cambia tu forma de moverte. En las cornisas seguras puedes gastar hilo para coser un puente para el regreso. Hay 30 rutas en cinco entornos textiles, del Valle del Musgo al Desfiladero de Satén, con seis herramientas de hilo y doce patrones de carga que cambian el alcance, la elasticidad y el movimiento, además de expediciones, una ruta diaria, exploración libre y el taller de Cora para fabricar herramientas.", "pt-BR": "Lume, uma pequena mariposa, precisa costurar de novo os caminhos de um vale. Prenda a linha em argolas de latão, ganhe impulso, solte no momento certo e leve para casa um padrão resgatado, cujo peso muda o seu jeito de se mover. Em bordas seguras, você pode gastar linha para costurar uma ponte para a volta. São 30 rotas em cinco ambientes têxteis, do Vale do Musgo ao Desfiladeiro de Cetim, com seis ferramentas de linha e doze padrões de carga que mudam alcance, elasticidade e movimento, além de expedições, uma rota diária, exploração livre e a oficina da Cora para criar ferramentas."}};
+        const STR = {"en": {"store": "Get it on Google Play", "itch": "Get it on itch.io", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "itch": "itch.io에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "itch": "itch.io で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "itch": "Consíguelo en itch.io", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "itch": "Disponível no itch.io", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            const store = document.getElementById('apStore');
+            if (store) store.textContent = STR[lang].store;
+            const itch = document.getElementById('apItch');
+            if (itch) itch.textContent = STR[lang].itch;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

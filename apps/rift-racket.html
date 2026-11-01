@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rift Racket | Crystl Labs</title>
+    <meta name="description" content="Charge anime tennis shots, bend rallies through portals and win the cup.">
+    <meta property="og:title" content="Rift Racket | Crystl Labs">
+    <meta property="og:description" content="Charge anime tennis shots, bend rallies through portals and win the cup.">
+    <meta property="og:image" content="rift-racket.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/rift-racket.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="stylesheet" href="/assets/tailwind.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/fonts.css">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <a href="../blogs.html" class="text-gray-300 hover:text-white transition-colors">Blog</a>
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="rift-racket.png" alt="Rift Racket" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Rift Racket</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">PC</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Charge anime tennis shots, bend rallies through portals and win the cup.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Rift Racket is a single-player anime racket sports game where Niko turns timing, shot angles and paired portals into fast tactical rallies. Aim for the open court or send the ball through a rift, mixing drives, spin shots and smashes while managing stamina. Six court themes bring narrow boundaries, wind and moving portals, and eight rival styles change every match in a first-to-five campaign cup. Choose from six rackets, draft perks across six families, train with 18 practice drills, and play the daily cup or endless mode.</p>
+
+                <div class="flex flex-col sm:flex-row flex-wrap gap-3">
+                    <a id="apItchLink" href="https://crystllabs.itch.io/riftracket" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandPink/10 border border-brandPink/40 px-4 py-3 text-brandPink font-mono text-xs uppercase tracking-wide hover:bg-brandPink/20 transition-colors">
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 11h4M8 9v4M15 12h.01M18 10h.01M17.3 5H6.7a4 4 0 0 0-4 3.6l-.9 7.2a2.5 2.5 0 0 0 4.4 1.9L7.5 16h9l1.3 1.7a2.5 2.5 0 0 0 4.4-1.9l-.9-7.2A4 4 0 0 0 17.3 5z"/></svg>
+                        <span id="apItch">Get it on itch.io</span>
+                    </a>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/rift-racket/01.jpg" alt="Rift Racket screenshot 1" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/rift-racket/02.jpg" alt="Rift Racket screenshot 2" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/rift-racket/03.jpg" alt="Rift Racket screenshot 3" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/rift-racket/04.jpg" alt="Rift Racket screenshot 4" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/rift-racket/05.jpg" alt="Rift Racket screenshot 5" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Rift Racket", "ko": "리프트 라켓", "ja": "リフトラケット", "es": "Rift Racket", "pt-BR": "Rift Racket"}, "tagline": {"en": "Charge anime tennis shots, bend rallies through portals and win the cup.", "ko": "애니메이션 테니스 샷을 모아 치고, 포털로 랠리를 꺾어, 우승컵을 거머쥐세요.", "ja": "アニメ風テニスのショットをチャージし、ポータルでラリーを曲げ、カップを勝ち取れ。", "es": "Carga tiros de tenis anime, desvía peloteos a través de portales y gana la copa.", "pt-BR": "Carregue golpes de tênis anime, desvie ralis por portais e conquiste a taça."}, "desc": {"en": "Rift Racket is a single-player anime racket sports game where Niko turns timing, shot angles and paired portals into fast tactical rallies. Aim for the open court or send the ball through a rift, mixing drives, spin shots and smashes while managing stamina. Six court themes bring narrow boundaries, wind and moving portals, and eight rival styles change every match in a first-to-five campaign cup. Choose from six rackets, draft perks across six families, train with 18 practice drills, and play the daily cup or endless mode.", "ko": "리프트 라켓은 니코가 타이밍, 샷 각도, 짝을 이룬 포털로 빠른 전술 랠리를 펼치는 1인용 애니메이션 라켓 스포츠 게임입니다. 빈 코트를 노리거나 공을 균열 속으로 보내고, 스태미나를 관리하며 드라이브, 스핀 샷, 스매시를 섞어 치세요. 6가지 코트 테마에는 좁은 경계선, 바람, 움직이는 포털이 있고, 5점을 먼저 따는 캠페인 컵에서는 8가지 라이벌 스타일이 매 경기를 바꿉니다. 라켓 6개 중에서 고르고, 6개 계열의 특전을 드래프트하며, 연습 드릴 18개로 훈련하고, 데일리 컵이나 엔드리스 모드를 즐기세요.", "ja": "リフトラケットは、ニコがタイミング、ショットの角度、対になったポータルを使ってスピーディーな戦術ラリーを繰り広げる、1人用のアニメ風ラケットスポーツゲーム。空いたコートを狙うか、ボールを裂け目に送り込み、スタミナを管理しながらドライブ、スピンショット、スマッシュを打ち分けよう。6つのコートテーマには狭い境界線、風、動くポータルがあり、5点先取のキャンペーンカップでは8つのライバルスタイルが試合ごとに展開を変える。6本のラケットから選び、6系統のパークをドラフトし、18の練習ドリルで鍛え、デイリーカップやエンドレスモードに挑もう。", "es": "Rift Racket es un juego de deportes de raqueta anime para un jugador en el que Niko convierte el ritmo, los ángulos de tiro y los portales enlazados en peloteos rápidos y tácticos. Apunta a la cancha libre o manda la pelota por una grieta, combinando drives, tiros con efecto y remates mientras controlas la resistencia. Seis temas de cancha traen límites estrechos, viento y portales móviles, y ocho estilos de rivales cambian cada partido en una copa de campaña a cinco puntos. Elige entre seis raquetas, escoge ventajas de seis familias, entrena con 18 ejercicios de práctica y juega la copa diaria o el modo infinito.", "pt-BR": "Rift Racket é um jogo de esporte de raquete em estilo anime para um jogador em que Niko transforma tempo, ângulos de batida e portais conectados em ralis rápidos e táticos. Mire na quadra aberta ou mande a bola por uma fenda, misturando drives, golpes com efeito e smashes enquanto controla o fôlego. Seis temas de quadra trazem limites estreitos, vento e portais em movimento, e oito estilos de rivais mudam cada partida em uma copa de campanha de cinco pontos. Escolha entre seis raquetes, selecione vantagens de seis famílias, treine com 18 exercícios e jogue a copa diária ou o modo infinito."}};
+        const STR = {"en": {"store": "Get it on Google Play", "itch": "Get it on itch.io", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "itch": "itch.io에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "itch": "itch.io で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "itch": "Consíguelo en itch.io", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "itch": "Disponível no itch.io", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            const store = document.getElementById('apStore');
+            if (store) store.textContent = STR[lang].store;
+            const itch = document.getElementById('apItch');
+            if (itch) itch.textContent = STR[lang].itch;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

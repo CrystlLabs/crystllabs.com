@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Relay | Crystl Labs</title>
+    <meta name="description" content="Jump, slide and burst across neon rooftops in a fast anime courier runner.">
+    <meta property="og:title" content="Neon Relay | Crystl Labs">
+    <meta property="og:description" content="Jump, slide and burst across neon rooftops in a fast anime courier runner.">
+    <meta property="og:image" content="neon-relay.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/neon-relay.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="stylesheet" href="/assets/tailwind.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/fonts.css">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <a href="../blogs.html" class="text-gray-300 hover:text-white transition-colors">Blog</a>
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="neon-relay.png" alt="Neon Relay" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Neon Relay</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">PC</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">Jump, slide and burst across neon rooftops in a fast anime courier runner.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">Neon Relay is an anime parkour runner starring Kai, a rooftop courier chasing clean lines, tight deadlines and one more perfect delivery. Change lanes, jump gaps and slide beneath beams while keeping the parcel safe. Chain clean tricks, collect route stamps and charge a kinetic Burst that blasts through anything in your way. Run 24 campaign contracts through four districts, where forty authored route phrases, route forks, rain and wind keep each line different. Draft from 12 shoe modules after every delivery, improve five permanent skills and race the ghost of your best clean run.</p>
+
+                <div class="flex flex-col sm:flex-row flex-wrap gap-3">
+                    <a id="apItchLink" href="https://crystllabs.itch.io/neonrelay" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandPink/10 border border-brandPink/40 px-4 py-3 text-brandPink font-mono text-xs uppercase tracking-wide hover:bg-brandPink/20 transition-colors">
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 11h4M8 9v4M15 12h.01M18 10h.01M17.3 5H6.7a4 4 0 0 0-4 3.6l-.9 7.2a2.5 2.5 0 0 0 4.4 1.9L7.5 16h9l1.3 1.7a2.5 2.5 0 0 0 4.4-1.9l-.9-7.2A4 4 0 0 0 17.3 5z"/></svg>
+                        <span id="apItch">Get it on itch.io</span>
+                    </a>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/neon-relay/01.jpg" alt="Neon Relay screenshot 1" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/neon-relay/02.jpg" alt="Neon Relay screenshot 2" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/neon-relay/03.jpg" alt="Neon Relay screenshot 3" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/neon-relay/04.jpg" alt="Neon Relay screenshot 4" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/neon-relay/05.jpg" alt="Neon Relay screenshot 5" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Neon Relay", "ko": "네온 릴레이", "ja": "ネオンリレー", "es": "Neon Relay", "pt-BR": "Neon Relay"}, "tagline": {"en": "Jump, slide and burst across neon rooftops in a fast anime courier runner.", "ko": "빠른 애니메이션 배달 러너에서 네온 옥상을 점프하고, 슬라이딩하고, 질주하세요.", "ja": "スピーディーなアニメ風配達ランナーで、ネオンの屋上をジャンプ、スライド、バーストで駆け抜けろ。", "es": "Salta, deslízate y acelera por azoteas de neón en un veloz runner de mensajería anime.", "pt-BR": "Pule, deslize e dispare por telhados de neon em um runner de entregas anime veloz."}, "desc": {"en": "Neon Relay is an anime parkour runner starring Kai, a rooftop courier chasing clean lines, tight deadlines and one more perfect delivery. Change lanes, jump gaps and slide beneath beams while keeping the parcel safe. Chain clean tricks, collect route stamps and charge a kinetic Burst that blasts through anything in your way. Run 24 campaign contracts through four districts, where forty authored route phrases, route forks, rain and wind keep each line different. Draft from 12 shoe modules after every delivery, improve five permanent skills and race the ghost of your best clean run.", "ko": "네온 릴레이는 깔끔한 동선, 빠듯한 마감, 그리고 또 한 번의 완벽한 배달을 좇는 옥상 배달원 카이가 주인공인 애니메이션 파쿠르 러너입니다. 소포를 지키며 레인을 바꾸고, 틈을 뛰어넘고, 빔 아래로 미끄러지세요. 깔끔한 트릭을 잇고, 경로 스탬프를 모아, 앞을 막는 모든 것을 뚫는 키네틱 버스트를 충전하세요. 4개 구역에서 캠페인 계약 24건을 달리며, 직접 설계된 경로 구간 40개와 갈림길, 비, 바람이 매번 다른 동선을 만듭니다. 배달마다 신발 모듈 12개 중에서 드래프트하고, 영구 스킬 5개를 강화하며, 자신의 최고 기록 고스트와 경주하세요.", "ja": "ネオンリレーは、きれいなライン、厳しい締め切り、そしてもう一度の完璧な配達を追い求める屋上の配達人カイが主人公のアニメ風パルクールランナー。荷物を守りながらレーンを変え、すき間を飛び越え、梁の下をスライドしよう。きれいなトリックをつなぎ、ルートスタンプを集め、行く手のすべてを突き破るキネティックバーストをためる。4つの地区で24のキャンペーン契約を走り、40の作り込まれたルート区間、分かれ道、雨や風が毎回違うラインを生み出す。配達ごとに12の靴モジュールからドラフトし、5つの永続スキルを強化し、自己ベストのゴーストと競争しよう。", "es": "Neon Relay es un runner de parkour de estilo anime protagonizado por Kai, que reparte paquetes por las azoteas en busca de líneas limpias, plazos ajustados y una entrega perfecta más. Cambia de carril, salta huecos y deslízate bajo vigas sin descuidar el paquete. Encadena trucos limpios, junta sellos de ruta y carga un Burst cinético que atraviesa todo lo que se interponga. Corre 24 contratos de campaña en cuatro distritos, donde cuarenta tramos de ruta diseñados a mano, bifurcaciones, lluvia y viento hacen distinta cada línea. Elige entre 12 módulos de calzado tras cada entrega, mejora cinco habilidades permanentes y compite contra el fantasma de tu mejor carrera limpia.", "pt-BR": "Neon Relay é um runner de parkour em estilo anime estrelado por Kai, que faz entregas pelos telhados em busca de linhas limpas, prazos apertados e mais uma entrega perfeita. Troque de pista, pule vãos e deslize sob vigas sem descuidar do pacote. Encadeie manobras limpas, colete carimbos de rota e carregue um Burst cinético que atravessa tudo pelo caminho. Corra 24 contratos da campanha em quatro distritos, onde quarenta trechos de rota feitos à mão, bifurcações, chuva e vento deixam cada linha diferente. Escolha entre 12 módulos de tênis após cada entrega, melhore cinco habilidades permanentes e corra contra o fantasma da sua melhor corrida limpa."}};
+        const STR = {"en": {"store": "Get it on Google Play", "itch": "Get it on itch.io", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "itch": "itch.io에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "itch": "itch.io で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "itch": "Consíguelo en itch.io", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "itch": "Disponível no itch.io", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            const store = document.getElementById('apStore');
+            if (store) store.textContent = STR[lang].store;
+            const itch = document.getElementById('apItch');
+            if (itch) itch.textContent = STR[lang].itch;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>

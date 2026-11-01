@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dobras do Mundo | Crystl Labs</title>
+    <meta name="description" content="The map is your most powerful tool.">
+    <meta property="og:title" content="Dobras do Mundo | Crystl Labs">
+    <meta property="og:description" content="The map is your most powerful tool.">
+    <meta property="og:image" content="dobras-do-mundo.png">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://crystllabs.com/apps/dobras-do-mundo.html">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="stylesheet" href="/assets/tailwind.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8883757785147352" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/fonts.css">
+    <link rel="stylesheet" href="/assets/site-redesign.css">
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a12; }
+        ::-webkit-scrollbar-thumb { background: #22222f; border-radius: 999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D946EF; }
+        .bg-grid {
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(217,70,239,0.07), transparent 40%),
+                radial-gradient(circle at 85% 15%, rgba(59,130,246,0.07), transparent 40%);
+        }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased min-h-screen flex flex-col">
+
+    <button onclick="toggleMenu()" class="md:hidden fixed top-3 left-3 z-50 p-2 rounded-lg bg-panelBg/90 backdrop-blur-md border border-white/10 text-gray-300 hover:text-white transition-colors shadow-lg shadow-black/30" aria-label="Toggle menu">
+        <svg id="iconOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="iconClose" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <nav class="bg-panelBg/70 backdrop-blur-md pl-12 pr-4 py-3 md:px-6 flex justify-between items-center border-b border-white/10 shrink-0">
+        <div class="flex items-center gap-3">
+            <a href="../index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="../crystl1.png" alt="" class="h-6 md:h-7 w-auto rounded-sm">
+                <span class="font-mono text-[11px] md:text-xs text-white/90 tracking-wide uppercase">Crystl Labs</span>
+            </a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide">
+            <a href="../blogs.html" class="text-gray-300 hover:text-white transition-colors">Blog</a>
+            <span class="hidden md:inline-flex items-center gap-1.5 text-brandGreen/90">
+                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse"></span>
+                <span>CONNECTED</span>
+            </span>
+            <select id="langSelect" onchange="switchLang(this.value)" class="bg-white/5 text-gray-300 px-2 py-1.5 rounded-md outline-none border border-white/10 cursor-pointer text-[11px] hover:border-white/20 transition-colors">
+                <option value="en">EN</option>
+                <option value="ko">KR</option>
+                <option value="ja">JP</option>
+                <option value="es">ES</option>
+                <option value="pt-BR">PT-BR</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row flex-grow md:overflow-hidden relative">
+        <div id="sidebarBackdrop" onclick="toggleMenu()" class="hidden md:hidden fixed top-14 inset-x-0 bottom-0 bg-black/60 z-30"></div>
+
+        <aside id="sidebar" class="fixed md:static top-14 md:top-auto bottom-0 md:bottom-auto left-0 z-40 w-64 md:w-44 -translate-x-full md:translate-x-0 transition-transform duration-200 bg-panelBg md:bg-panelBg/40 border-r border-white/10 p-4 shrink-0 overflow-y-auto">
+            <ul class="space-y-1 text-sm font-sans text-gray-400">
+                <li class="text-gray-600 font-mono text-[10px] uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span>📁</span> <span>src_files</span>
+                </li>
+                <li class="ml-1">
+                    <a href="../index.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">index.html</a>
+                    <ul class="mt-1 ml-3 pl-3 border-l border-white/10 space-y-1">
+                        <li>
+                            <a href="../projects.html" class="flex items-center justify-between px-2.5 py-1.5 rounded-md bg-white/5 border-l-2 border-brandGreen text-white text-xs font-mono hover:bg-white/10 transition-colors">
+                                projects.html
+                                <span class="w-1.5 h-1.5 rounded-full bg-brandGreen animate-pulse flex-shrink-0"></span>
+                            </a>
+                        </li>
+                        <li><a href="../personnel.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">personnel.html</a></li>
+                        <li><a href="../privacy.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">privacy.html</a></li>
+                        <li><a href="../terms.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">terms.html</a></li>
+                        <li><a href="../data-deletion.html" class="block px-2.5 py-1.5 rounded-md text-gray-500 text-xs font-mono hover:bg-white/5 hover:text-white transition-colors truncate">data-deletion.html</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="flex-grow p-5 md:p-10 overflow-y-auto bg-darkBg bg-grid relative">
+            <div class="max-w-3xl mx-auto">
+                <a href="../projects.html" class="inline-flex items-center gap-2 mb-6 font-mono text-[11px] text-gray-500 uppercase tracking-wide hover:text-white transition-colors">&lt;- all projects</a>
+
+                <header class="flex items-center gap-5 mb-6">
+                    <img id="apIcon" src="dobras-do-mundo.png" alt="Dobras do Mundo" class="w-20 h-20 md:w-28 md:h-28 rounded-2xl border border-white/10 shadow-lg shadow-black/30 shrink-0">
+                    <div>
+                        <h1 id="apName" class="text-2xl md:text-4xl font-extrabold text-white leading-tight">Dobras do Mundo</h1>
+                        <div class="flex flex-wrap items-center gap-2 mt-2">
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandGreen/90 border border-brandGreen/30 rounded px-1.5 py-0.5">PC</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-brandBlue/90 border border-brandBlue/30 rounded px-1.5 py-0.5">Volume</span>
+                            <span class="inline-block font-mono text-[10px] uppercase tracking-wider text-brandGreen border border-brandGreen/40 bg-brandGreen/10 rounded px-1.5 py-0.5">Live</span>
+                        </div>
+                    </div>
+                </header>
+
+                <p id="apTagline" class="text-brandPink/90 text-base md:text-lg font-medium mb-6">The map is your most powerful tool.</p>
+
+                <p id="apDesc" class="text-gray-300 text-sm md:text-[15px] leading-relaxed mb-8 max-w-2xl">The path is also on the other side of the sheet. Help Lia and the paper fox Nilo recover her grandmother&#x27;s atlas by folding terrain, joining paths and carrying memories to the lighthouse. Drag a crease to pick the flap that turns over, preview the result and confirm the fold. Folding reflects positions, flips faces and reverses stacks, and up to three folds can be stacked. There are 48 story pages across four communities that introduce paper, foil, cloth and vellum, each with its own folding rules, plus five-page expeditions, a daily atlas and a map workshop where you build, test and share your own pages.</p>
+
+                <div class="flex flex-col sm:flex-row flex-wrap gap-3">
+                    <a id="apItchLink" href="https://crystllabs.itch.io/dobrasdomundo" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-brandPink/10 border border-brandPink/40 px-4 py-3 text-brandPink font-mono text-xs uppercase tracking-wide hover:bg-brandPink/20 transition-colors">
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 11h4M8 9v4M15 12h.01M18 10h.01M17.3 5H6.7a4 4 0 0 0-4 3.6l-.9 7.2a2.5 2.5 0 0 0 4.4 1.9L7.5 16h9l1.3 1.7a2.5 2.5 0 0 0 4.4-1.9l-.9-7.2A4 4 0 0 0 17.3 5z"/></svg>
+                        <span id="apItch">Get it on itch.io</span>
+                    </a>
+                </div>
+
+                <section class="mt-10">
+                    <h2 id="apShotsHead" class="font-mono text-[11px] md:text-xs text-brandBlue uppercase tracking-widest mb-4">Screenshots //</h2>
+                    <div class="flex gap-3 md:gap-4 overflow-x-auto snap-x no-scrollbar pb-2">
+                        <img src="shots/dobras-do-mundo/01.jpg" alt="Dobras do Mundo screenshot 1" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/dobras-do-mundo/02.jpg" alt="Dobras do Mundo screenshot 2" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/dobras-do-mundo/03.jpg" alt="Dobras do Mundo screenshot 3" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/dobras-do-mundo/04.jpg" alt="Dobras do Mundo screenshot 4" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                        <img src="shots/dobras-do-mundo/05.jpg" alt="Dobras do Mundo screenshot 5" loading="lazy" width="480" height="270" class="snap-start shrink-0 w-72 md:w-96 rounded-xl border border-white/10 shadow-lg shadow-black/30">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const APP = {"name": {"en": "Dobras do Mundo", "ko": "도브라스 두 문두", "ja": "ドブラス・ド・ムンド", "es": "Dobras do Mundo", "pt-BR": "Dobras do Mundo"}, "tagline": {"en": "The map is your most powerful tool.", "ko": "지도가 당신의 가장 강력한 도구입니다.", "ja": "地図こそが、いちばん強力な道具。", "es": "El mapa es tu herramienta más poderosa.", "pt-BR": "O mapa é a sua ferramenta mais poderosa."}, "desc": {"en": "The path is also on the other side of the sheet. Help Lia and the paper fox Nilo recover her grandmother's atlas by folding terrain, joining paths and carrying memories to the lighthouse. Drag a crease to pick the flap that turns over, preview the result and confirm the fold. Folding reflects positions, flips faces and reverses stacks, and up to three folds can be stacked. There are 48 story pages across four communities that introduce paper, foil, cloth and vellum, each with its own folding rules, plus five-page expeditions, a daily atlas and a map workshop where you build, test and share your own pages.", "ko": "길은 종이의 뒷면에도 있습니다. 리아와 종이 여우 닐루가 할머니의 지도책을 되찾을 수 있도록, 지형을 접고, 길을 잇고, 기억을 등대까지 옮기세요. 접는 선을 끌어 뒤집을 면을 고르고, 결과를 미리 본 뒤 접기를 확정합니다. 접으면 위치가 반사되고, 면이 뒤집히고, 겹친 순서가 바뀌며, 최대 세 번까지 겹쳐 접을 수 있습니다. 종이, 포일, 천, 양피지를 차례로 소개하는 네 공동체에 걸친 스토리 48페이지가 있고, 재질마다 접는 규칙이 다릅니다. 5페이지 탐험, 데일리 지도책, 직접 페이지를 만들고 시험하고 공유하는 지도 작업장도 있습니다.", "ja": "道は紙の裏側にもある。リアと紙のキツネ、ニルーが祖母の地図帳を取り戻せるよう、地形を折り、道をつなぎ、思い出を灯台まで運ぼう。折り目をドラッグしてめくる面を選び、結果をプレビューしてから折りを確定する。折ると位置が反転し、面が裏返り、重なりの順序が逆になる。折りは最大3回まで重ねられる。紙、ホイル、布、ベラムを順に紹介する4つの共同体にまたがる48ページのストーリー。素材ごとに折りのルールが異なる。5ページの探検、デイリーアトラス、自分のページを作って試し、共有できる地図工房も収録。", "es": "El camino también está del otro lado de la hoja. Ayuda a Lia y al zorro de papel Nilo a recuperar el atlas de su abuela doblando el terreno, uniendo caminos y llevando recuerdos hasta el faro. Arrastra un pliegue para elegir la solapa que se da vuelta, revisa el resultado y confirma el doblez. Doblar refleja posiciones, voltea caras e invierte pilas, y se pueden apilar hasta tres dobleces. Hay 48 páginas de historia en cuatro comunidades que presentan papel, lámina metálica, tela y vitela, cada uno con sus propias reglas de doblado, además de expediciones de cinco páginas, un atlas diario y un taller de mapas donde creas, pruebas y compartes tus propias páginas.", "pt-BR": "O caminho também está do outro lado da folha. Ajude Lia e a raposa de papel Nilo a recuperar o atlas da avó dobrando o terreno, ligando caminhos e levando memórias até o farol. Arraste uma dobra para escolher a aba que vira, veja a prévia do resultado e confirme a dobra. Dobrar espelha posições, vira faces e inverte pilhas, e até três dobras podem ser empilhadas. São 48 páginas de história em quatro comunidades que apresentam papel, folha metálica, tecido e velino, cada um com suas próprias regras de dobra, além de expedições de cinco páginas, um atlas diário e uma oficina de mapas onde você cria, testa e compartilha suas próprias páginas."}};
+        const STR = {"en": {"store": "Get it on Google Play", "itch": "Get it on itch.io", "shots": "Screenshots //"}, "ko": {"store": "Google Play에서 받기", "itch": "itch.io에서 받기", "shots": "스크린샷 //"}, "ja": {"store": "Google Play で入手", "itch": "itch.io で入手", "shots": "スクリーンショット //"}, "es": {"store": "Consíguelo en Google Play", "itch": "Consíguelo en itch.io", "shots": "Capturas //"}, "pt-BR": {"store": "Disponível no Google Play", "itch": "Disponível no itch.io", "shots": "Capturas //"}};
+        function currentLang() {
+            const l = localStorage.getItem('crystl_lang') || 'ko';
+            return ['en','ko','ja','es','pt-BR'].includes(l) ? l : 'ko';
+        }
+        function switchLang(lang) {
+            if (!['en','ko','ja','es','pt-BR'].includes(lang)) lang = 'ko';
+            localStorage.setItem('crystl_lang', lang);
+            document.getElementById('langSelect').value = lang;
+            document.getElementById('apName').textContent = APP.name[lang];
+            document.getElementById('apTagline').textContent = APP.tagline[lang];
+            document.getElementById('apDesc').textContent = APP.desc[lang];
+            const store = document.getElementById('apStore');
+            if (store) store.textContent = STR[lang].store;
+            const itch = document.getElementById('apItch');
+            if (itch) itch.textContent = STR[lang].itch;
+            const shotsHead = document.getElementById('apShotsHead');
+            if (shotsHead) shotsHead.textContent = STR[lang].shots;
+            document.documentElement.lang = lang;
+        }
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('sidebarBackdrop').classList.toggle('hidden');
+            document.getElementById('iconOpen').classList.toggle('hidden');
+            document.getElementById('iconClose').classList.toggle('hidden');
+        }
+        window.onload = () => switchLang(currentLang());
+    </script>
+    <script src="/assets/site-redesign.js"></script>
+</body>
+</html>
