@@ -1452,4 +1452,8 @@
     <loc>https://crystllabs.com/apps/parcel-parade.html</loc>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://crystllabs.com/blog/crystlquant-disagrees-with-the-market-85-games.html</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
